@@ -1,0 +1,50 @@
+{
+  "invoice_number": "2200000076",
+  "date": "2/24/2023",
+  "remit_to": {
+    "name": "Malteurop North America",
+    "address": "6737 W Washington St., Suite 4204, West Allis, WI 53214",
+    "phone": "(844) 546-6258"
+  },
+  "bill_to": {
+    "name": "Hobbs Tavern and Brewing",
+    "address": "2415 White Mountain Hwy, West Ossipee, NH 03890",
+    "phone": "603-539-3795"
+  },
+  "ship_to": {
+    "name": "Hobbs Tavern and Brewing",
+    "address": "2415 White Mountain Hwy, West Ossipee, NH 03890",
+    "phone": "603-539-3795"
+  },
+  "shipping_info": {
+    "shipped_via": "FedEx Small Parcel",
+    "freight_terms": "DAP West Ossipee, NH"
+  },
+  "items": [
+    {
+      "shipping_date": "2/21/2023",
+      "item_code": "23004",
+      "description": "PROTOSOL - Vegan beer fining liquid - 5KG",
+      "units_ordered": 9,
+      "unit_price": 90,
+      "amount": 810
+    },
+    {
+      "shipping_date": "2/21/2023",
+      "item_code": "1",
+      "description": "FREIGHT",
+      "units_ordered": 1,
+      "unit_price": 25,
+      "amount": 25
+    }
+  ],
+  "totals": {
+    "total_due": 835,
+    "currency": "USD"
+  },
+  "contact": {
+    "email": "customerservice@malteurop.com",
+    "website": "www.malteurop.com"
+  },
+  "terms": "30 Days B/L Date"
+}

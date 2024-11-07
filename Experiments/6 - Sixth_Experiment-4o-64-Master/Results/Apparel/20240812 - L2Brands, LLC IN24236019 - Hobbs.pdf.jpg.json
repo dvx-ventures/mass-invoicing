@@ -1,0 +1,78 @@
+{
+  "invoice_number": "IN24236019",
+  "date": "8/12/2024",
+  "remit_to": {
+    "name": "L2 Brands, LLC",
+    "address": {
+      "street": "300 Fame Ave",
+      "city": "Hanover",
+      "state": "PA",
+      "postal_code": "17331"
+    }
+  },
+  "bill_to": {
+    "name": "Hobbs Tavern & Brewing Company LLC",
+    "address": "756 Route 16",
+    "city": "Ossipee",
+    "state": "NH",
+    "zip": "03864"
+  },
+  "ship_to": {
+    "name": "Hobbs Brewing Co",
+    "address": "765 NH Route 16",
+    "city": "Ossipee",
+    "state": "NH",
+    "zip": "03864"
+  },
+  "customer_po": "062724Kasey",
+  "due_date": "09/11/2024",
+  "shipping_info": {
+    "shipped_via": "FEDEX Ground"
+  },
+  "sales_agent": "622",
+  "items": [
+    {
+      "item_code": "MU420-491-S",
+      "description": "REORDER#:2018813 - Washed Navy MU420 w/Hobbs Brewing Co Logo",
+      "units_ordered": 10,
+      "unit_price": 16,
+      "amount": 160
+    },
+    {
+      "item_code": "MU420-491-M",
+      "description": "REORDER#:2018813 - Washed Navy MU420 w/Hobbs Brewing Co Logo",
+      "units_ordered": 12,
+      "unit_price": 16,
+      "amount": 192
+    },
+    {
+      "item_code": "MU420-491-L",
+      "description": "REORDER#:2018813 - Washed Navy MU420 w/Hobbs Brewing Co Logo",
+      "units_ordered": 16,
+      "unit_price": 16,
+      "amount": 256
+    },
+    {
+      "item_code": "MU420-491-XL",
+      "description": "REORDER#:2018813 - Washed Navy MU420 w/Hobbs Brewing Co Logo",
+      "units_ordered": 26,
+      "unit_price": 16,
+      "amount": 416
+    },
+    {
+      "item_code": "100",
+      "description": "Shipping/Handling",
+      "units_ordered": 1,
+      "unit_price": 39.04,
+      "amount": 39.04
+    }
+  ],
+  "totals": {
+    "merchandise_total": 1063.04,
+    "sales_tax": 0,
+    "total_due": 1063.04
+  },
+  "terms": "N30",
+  "remit_to.phone": "(717) 630-0892",
+  "remit_to.fax": "(717) 630-0827"
+}

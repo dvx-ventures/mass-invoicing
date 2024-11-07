@@ -1,0 +1,89 @@
+{
+  "invoice_number": "INV-0710041",
+  "date": "2/5/2024",
+  "due_date": "3/6/2024",
+  "sales_order": "SO160-0913380",
+  "remit_to": {
+    "name": "Brewers Supply Group",
+    "address": "PO Box 74769, Chicago, IL 60694-4769, USA"
+  },
+  "bill_to": {
+    "name": "La Quinta Brewing Co",
+    "address": "50855 Washington St Ste C220, La Quinta, CA, 92253, USA",
+    "contact_person": "Scott Stokes"
+  },
+  "ship_to": {
+    "name": "La Quinta Brewing Company LLC",
+    "address": "74714 Technology Dr, Palm Desert, CA, 92211-5803, USA"
+  },
+  "items": [
+    {
+      "item_code": "MRAH2190",
+      "description": "Rahr North Star Pils™ 2200 lb (1000 kg) Tote",
+      "units_ordered": 1,
+      "unit_price": 1430,
+      "amount": 1430
+    },
+    {
+      "item_code": "MRAH1160",
+      "description": "Rahr Dextrin 25 kg",
+      "units_ordered": 4,
+      "unit_price": 42.35,
+      "amount": 169.4
+    },
+    {
+      "item_code": "AZZZ1308",
+      "description": "OiO Toasted Flaked Rice 25 kg",
+      "units_ordered": 10,
+      "unit_price": 77.55,
+      "amount": 775.5
+    },
+    {
+      "item_code": "MRAH1108",
+      "description": "Rahr White Wheat 25 kg",
+      "units_ordered": 10,
+      "unit_price": 39.71,
+      "amount": 397.1
+    },
+    {
+      "item_code": "AZZZ1106",
+      "description": "Grain Millers Flaked White Wheat 22.68 kg",
+      "units_ordered": 4,
+      "unit_price": 33,
+      "amount": 132
+    },
+    {
+      "item_code": "BZZZ1406",
+      "description": "Rice Hulls 50 Lb",
+      "units_ordered": 2,
+      "unit_price": 24,
+      "amount": 48
+    },
+    {
+      "item_code": "MGAM1018",
+      "description": "Gambrinus Vienna 25 kg",
+      "units_ordered": 12,
+      "unit_price": 40.81,
+      "amount": 489.72
+    },
+    {
+      "item_code": "XZZZN001",
+      "description": "Nut Roll - US",
+      "units_ordered": 3,
+      "unit_price": 0,
+      "amount": 0
+    }
+  ],
+  "totals": {
+    "merchandise_total": 3441.72,
+    "sales_tax": 3.72,
+    "total_due": 3745.44
+  },
+  "shipping_info": {
+    "estimated_delivery_date": "2/2/2024",
+    "shipping_date": "2/2/2024",
+    "shipped_via": "R&L Carriers, Inc - R&L",
+    "pro_number": "594139968"
+  },
+  "terms": "Net 30 Days"
+}

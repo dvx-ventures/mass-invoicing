@@ -1,0 +1,57 @@
+{
+  "invoice_number": "70988939 RI",
+  "date": "04/18/23",
+  "remit_to": {
+    "name": "Lindenmeyr Munroe",
+    "address": "P.O. BOX 99922, CHICAGO IL 60696-7722"
+  },
+  "bill_to": {
+    "name": "ZIPLINE BREWING CO",
+    "address": "2100 MAGNUM CIR, STE 1, LINCOLN NE 68522-1027"
+  },
+  "ship_to": {
+    "name": "ZIPLINE BREWING CO",
+    "address": "2100 MAGNUM CIR, STE 1, LINCOLN NE 68522-1027"
+  },
+  "customer_po": "22344088 SW",
+  "terms": "Net 30 DAYS",
+  "contact": {
+    "phone": "(651) 634-0024"
+  },
+  "company": {
+    "name": "Lindenmeyr Munroe",
+    "address": "41 Northern Stacks Drive, P.O. BOX 99922, Fridley MN 55421"
+  },
+  "items": [
+    {
+      "quantity": "6CA",
+      "item_code": "165",
+      "description": "QUADPAK-BLK 4-PK 202 CAN HDL BLACK",
+      "unit_price": ".15EA",
+      "amount": "720.07"
+    },
+    {
+      "quantity": "15CA",
+      "item_code": "367",
+      "description": "6PAK-BLK 6PK 202 CAN HANDLE BLACK",
+      "unit_price": ".18EA",
+      "amount": "1,430.55"
+    },
+    {
+      "quantity": "180EA",
+      "description": "FREIGHT CHARGE E",
+      "unit_price": "1.00",
+      "amount": "180.00"
+    },
+    {
+      "quantity": "EA",
+      "description": "Service Charge",
+      "unit_price": "6.00EA",
+      "amount": "6.00"
+    }
+  ],
+  "totals": {
+    "taxable_sales": 2156.62,
+    "total_due": 2336.62
+  }
+}

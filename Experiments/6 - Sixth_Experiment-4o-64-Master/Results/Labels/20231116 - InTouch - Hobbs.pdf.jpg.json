@@ -1,0 +1,45 @@
+{
+  "invoice_number": "80879",
+  "invoice": {
+    "invoiceDate": "10/17/2023",
+    "dueDate": "11/16/2023"
+  },
+  "bill_to": {
+    "name": "Hobbs Tavern and Brewing Company",
+    "address": "765 NH 16",
+    "city": "Ossipee",
+    "state": "NH",
+    "zip": "03864"
+  },
+  "ship_to": {
+    "name": "Hobbs Brewing Company",
+    "address": "2415 NH Route 16",
+    "city": "West Ossipee",
+    "state": "NH",
+    "zip": "03890"
+  },
+  "company": {
+    "name": "InTouch Labels & Packaging, Part of Avery Products Corporation",
+    "address": "12 Technology Drive, North Chelmsford, MA, 01863"
+  },
+  "items": [
+    {
+      "item_code": "Labels",
+      "description": "Tripple 16oz",
+      "units_ordered": 1000,
+      "unit_price": 0.09,
+      "amount": 90
+    }
+  ],
+  "terms": "Net 30",
+  "shipping_info": {
+    "shipping_date": "10/17/2023",
+    "shipped_via": "UPS"
+  },
+  "totals": {
+    "subtotal": 90,
+    "tax": 0,
+    "total_due": 90
+  },
+  "additional_notes": "Thank you for your business!"
+}

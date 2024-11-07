@@ -1,0 +1,107 @@
+{
+  "invoice_number": "SI024608",
+  "date": "May 14, 2024",
+  "due_date": "June 13, 2024",
+  "bill_to": {
+    "name": "ORE DOCK BREWING COMPANY, LLC",
+    "address": "114 W SPRING ST",
+    "city": "MARQUETTE",
+    "state": "MI",
+    "zip": "49855",
+    "contact_name": "Wes Pernsteiner"
+  },
+  "ship_to": {
+    "name": "ORE DOCK BREWING COMPANY, LLC",
+    "address": "114 W SPRING ST",
+    "city": "MARQUETTE",
+    "state": "MI",
+    "zip": "49855",
+    "contact_name": "Wes Pernsteiner"
+  },
+  "shipping_info": {
+    "ship_point": "I-Tec Distribution Center",
+    "method": "Tax-Air",
+    "customer_po": "1352",
+    "freight_terms": "N30",
+    "sales_agent": "Mike Illig"
+  },
+  "totals": {
+    "merchandise_total": 1368.18,
+    "discount": 0,
+    "sales_tax": 0,
+    "total_due": 1368.18
+  },
+  "items": [
+    {
+      "item_code": "5106",
+      "units_ordered": 50,
+      "transUOM": "Pound",
+      "pieces_per_unit": 1,
+      "unit_price": 0.49,
+      "discount": 0,
+      "amount": 24.5,
+      "description": "Rice Hulls 50# 04032024 (50 LB)"
+    },
+    {
+      "item_code": "5317",
+      "units_ordered": 500,
+      "transUOM": "Pound",
+      "pieces_per_unit": 10,
+      "unit_price": 0.665,
+      "discount": 0,
+      "amount": 332.5,
+      "description": "Wheat Malt, White 240424A (500 LB)"
+    },
+    {
+      "item_code": "5344",
+      "units_ordered": 500,
+      "transUOM": "Pound",
+      "pieces_per_unit": 10,
+      "unit_price": 0.615,
+      "discount": 0,
+      "amount": 307.5,
+      "description": "Bonlander® Munich Malt 10L 240419A (500 LB)"
+    },
+    {
+      "item_code": "6659",
+      "units_ordered": 500,
+      "transUOM": "Pound",
+      "pieces_per_unit": 10,
+      "unit_price": 0.595,
+      "discount": 0,
+      "amount": 297.5,
+      "description": "Goldpils® Vienna Malt 240429A (500 LB)"
+    },
+    {
+      "item_code": "7236",
+      "units_ordered": 500,
+      "transUOM": "Pound",
+      "pieces_per_unit": 10,
+      "unit_price": 0.545,
+      "discount": 0,
+      "amount": 272.5,
+      "description": "Synergy Select Pilsen Malt"
+    },
+    {
+      "item_code": "FREIGHT",
+      "units_ordered": 1,
+      "transUOM": "Each",
+      "pieces_per_unit": 1,
+      "unit_price": 133.68,
+      "discount": 0,
+      "amount": 133.68,
+      "description": "Shipping and Handling Fees"
+    },
+    {
+      "item_code": "PLT-ST",
+      "units_ordered": 1,
+      "transUOM": "Each",
+      "pieces_per_unit": 1,
+      "unit_price": 0,
+      "discount": 0,
+      "amount": 0,
+      "description": "Standard Wood Pallet"
+    }
+  ],
+  "additional_notes": "Finance charge of 1.5% per month will be applied to any past due balances."
+}

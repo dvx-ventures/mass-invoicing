@@ -1,0 +1,53 @@
+{
+  "invoice_number": "CI111-2406573",
+  "date": "03/11/2024",
+  "remit_to": {
+    "name": "Yakima Chief Hops LLC",
+    "address": "306 Division St, Yakima, WA 98902"
+  },
+  "bill_to": {
+    "name": "Earth Rider Brewery",
+    "address": {
+      "street": "1617 N 3rd St",
+      "city": "Superior",
+      "state": "WI",
+      "postal_code": "54880",
+      "country": "United States of America"
+    }
+  },
+  "ship_to": {
+    "name": "Earth Rider Brewery",
+    "address_line1": "1617 N 3rd St",
+    "city": "Superior",
+    "state": "WI",
+    "postal_code": "54880",
+    "country": "United States of America"
+  },
+  "payment_terms": "Net due 30 days from invoice",
+  "due_date": "04/11/2024",
+  "shipping_info": {
+    "shipped_via": "UPS 3 Day Select",
+    "shipping_date": "03/11/2024"
+  },
+  "items": [
+    {
+      "description": "Pellet T90, 4x5K/11 L, Citra® - 2023 Contract",
+      "item_code": "P92-IUCIT3035",
+      "unit_price": 611.16,
+      "quantity": 4,
+      "amount": 2444.64,
+      "additionalInfo": {
+        "LotSN": "P92-IUCIT3035",
+        "capacity": "176",
+        "DNR": "4",
+        "GW": "4.0%"
+      }
+    }
+  ],
+  "totals": {
+    "subtotal": 2444.64,
+    "handling_costs": 113,
+    "freight_costs": 0,
+    "total_due": 2557.64
+  }
+}

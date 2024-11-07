@@ -1,0 +1,80 @@
+{
+  "invoice_number": "92382",
+  "date": "02-16-24",
+  "remit_to": {
+    "name": "Ace Chemical Products, Inc.",
+    "address": "8415 N 87th Street, Milwaukee, WI 53224-2409",
+    "phone": "(414) 357-8515",
+    "fax": "(414) 357-5820"
+  },
+  "website": "www.acechem.com",
+  "bill_to": {
+    "name": "Earth Rider Brewery",
+    "address": "PO Box 3167, Duluth, MN 55803"
+  },
+  "ship_to": {
+    "name": "Frank Kaszuba",
+    "address": "1617 N. 3rd Street, Superior, WI 54880"
+  },
+  "customer_po": "",
+  "order_date": "",
+  "date_shipped": "02-16-24",
+  "shipping_info": {
+    "shipped_via": "Central"
+  },
+  "sales_agent": "11",
+  "items": [
+    {
+      "quantity": 1,
+      "item_code": "3459-01",
+      "description": "55 GAL DR",
+      "unit_price": 517.29,
+      "amount": 517.29
+    },
+    {
+      "quantity": 1,
+      "item_code": "NEUTREC 500",
+      "description": "5 GAL(S)",
+      "unit_price": 639.63,
+      "amount": 639.63
+    },
+    {
+      "quantity": 1,
+      "item_code": "5320-01",
+      "description": "55 GAL DR",
+      "unit_price": 639.63,
+      "amount": 639.63
+    },
+    {
+      "quantity": 1,
+      "item_code": "RNDSWIFT 19",
+      "description": "55 GAL(S)",
+      "unit_price": 103.95,
+      "amount": 103.95
+    },
+    {
+      "quantity": 1,
+      "item_code": "410-17",
+      "description": "45# PAIL NEU-CLEAN, 40 LB(S)",
+      "unit_price": 103.95,
+      "amount": 103.95
+    },
+    {
+      "quantity": 1,
+      "item_code": "9400-05",
+      "description": "5 GAL EXTRI STAN-O-GARD, 5 GAL(S)",
+      "unit_price": 152.28,
+      "amount": 152.28
+    }
+  ],
+  "terms": "NET 30 DAYS",
+  "totals": {
+    "merchandise_total": 1413.15,
+    "shipping": 173.7,
+    "sales_tax": 12.15,
+    "total_due": 2600.57
+  },
+  "soldTo": {
+    "customerNumber": 1248
+  }
+}

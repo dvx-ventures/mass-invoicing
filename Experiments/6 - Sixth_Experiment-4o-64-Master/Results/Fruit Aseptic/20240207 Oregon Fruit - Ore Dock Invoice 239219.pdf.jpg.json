@@ -1,0 +1,149 @@
+{
+  "invoice_number": "239219",
+  "date": "2/7/2024",
+  "bill_to": {
+    "name": "ORE DOCK BREWING CO",
+    "address": {
+      "street": "114 W Spring St",
+      "city": "Marquette",
+      "state": "MI",
+      "postal_code": "49855",
+      "country": "USA"
+    },
+    "contact_person": "Weston Pernsteiner"
+  },
+  "ship_to": {
+    "name": "Ore Dock Brewing Company",
+    "address": {
+      "street": "114 W Spring St",
+      "city": "Marquette",
+      "state": "MI",
+      "postal_code": "49855",
+      "country": "USA"
+    },
+    "contact_person": "Weston Pernsteiner"
+  },
+  "company": {
+    "name": "The Oregon Fruit Company",
+    "address": "PO Box 13490, Salem, OR, 97309, US"
+  },
+  "shipping_info": {
+    "shipped_via": "Freight Prepaid - Class 60",
+    "shipping_date": "2/8/2024",
+    "pro_number": "XPO - 245625262",
+    "carrier": "XPO"
+  },
+  "soldTo": {
+    "customerNumber": "WEB23861"
+  },
+  "customer_po": "ZZO692",
+  "terms": "Credit Card Paid In Full",
+  "due_date": "2/8/2024",
+  "sales_agent": "Chris Hodge",
+  "items": [
+    {
+      "item_code": "AP301",
+      "description": "Aseptic Apricot Puree",
+      "transUOM": "42# Box",
+      "units_ordered": 2,
+      "units_shipped": 2,
+      "unit_price": 92,
+      "amount": 184,
+      "additionalInfo": {
+        "LotSN": "230918 (84 LBS)"
+      }
+    },
+    {
+      "item_code": "BL301",
+      "description": "Aseptic Blueberry Puree",
+      "transUOM": "42# Box",
+      "units_ordered": 36,
+      "units_shipped": 36,
+      "unit_price": 104,
+      "amount": 3744,
+      "additionalInfo": {
+        "LotSN": "231103 (1,512 LBS)"
+      }
+    },
+    {
+      "item_code": "PI301",
+      "description": "Aseptic Pineapple Puree",
+      "transUOM": "42# Box",
+      "units_ordered": 2,
+      "units_shipped": 2,
+      "unit_price": 89,
+      "amount": 178,
+      "additionalInfo": {
+        "LotSN": "230913 (84 LBS)"
+      }
+    },
+    {
+      "item_code": "PH301",
+      "description": "Aseptic Peach Puree",
+      "transUOM": "42# Box",
+      "units_ordered": 2,
+      "units_shipped": 2,
+      "unit_price": 92,
+      "amount": 184,
+      "additionalInfo": {
+        "LotSN": "231010 (84 LBS)"
+      }
+    },
+    {
+      "item_code": "GU301",
+      "description": "Aseptic Pink Guava Puree",
+      "transUOM": "42# Box",
+      "units_ordered": 2,
+      "units_shipped": 2,
+      "unit_price": 75,
+      "amount": 150,
+      "additionalInfo": {
+        "LotSN": "231121 (84 LBS)"
+      }
+    },
+    {
+      "item_code": "SX301",
+      "description": "Aseptic Sdls Strawberry Puree",
+      "transUOM": "42# Box",
+      "units_ordered": 2,
+      "units_shipped": 2,
+      "unit_price": 109,
+      "amount": 218,
+      "additionalInfo": {
+        "LotSN": "231115 (84 LBS)"
+      }
+    },
+    {
+      "item_code": "BB303",
+      "description": "Aseptic Sdls Blackberry Puree",
+      "transUOM": "42# Box",
+      "units_ordered": 2,
+      "units_shipped": 2,
+      "unit_price": 159,
+      "amount": 318,
+      "additionalInfo": {
+        "LotSN": "231024 (84 LBS)"
+      }
+    },
+    {
+      "item_code": "XPO",
+      "description": "XPO",
+      "units_ordered": 1,
+      "units_shipped": 1,
+      "unit_price": 423.57,
+      "amount": 423.57
+    },
+    {
+      "item_code": "SHIPIT Discount",
+      "description": "SHIPIT Discount",
+      "units_ordered": 1,
+      "units_shipped": 1,
+      "unit_price": -105.89,
+      "amount": -105.89
+    }
+  ],
+  "totals": {
+    "total_quantity": 48,
+    "total_due": 5293.68
+  }
+}

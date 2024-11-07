@@ -1,0 +1,80 @@
+{
+  "invoice_number": "6194377977",
+  "date": "January 16, 2024",
+  "due_date": "January 29, 2024",
+  "remit_to": {
+    "name": "Freightquote.com, Inc.",
+    "address": "P.O. Box 9121, Minneapolis, MN 55480-9121",
+    "phone": "1-800-323-5441"
+  },
+  "bill_to": {
+    "name": "TAM TAVERN DBA EAST BROTHER BEER COMPANY",
+    "address": "1001 CANAL BLVD #C-2, RICHMOND, CA 94804",
+    "contact_person": "ACCOUNTS PAYABLE",
+    "company": "TAM TAVERN DBA EAST BROTHER BEER COMPANY"
+  },
+  "ship_to": {
+    "name": "East Brother Beer Company",
+    "address": "1001 Canal Blvd #C-2, Richmond, CA 94804"
+  },
+  "customer_po": "1620835366",
+  "order_date": "1/11/2024",
+  "date_shipped": "1/12/2024",
+  "items": [
+    {
+      "description": "Aluminum cans noi",
+      "unit_price": "300.51",
+      "amount": 300.51,
+      "units_ordered": 1,
+      "units_shipped": 1,
+      "total_quantity": 5,
+      "additionalInfo": {
+        "weight": "180 lbs",
+        "pieces": "1 PCS"
+      }
+    },
+    {
+      "description": "Aluminum cans noi",
+      "unit_price": "146.23",
+      "amount": 146.23,
+      "units_ordered": 3,
+      "units_shipped": 3,
+      "total_quantity": 5,
+      "additionalInfo": {
+        "weight": "582 lbs",
+        "pieces": "3 PCS"
+      }
+    },
+    {
+      "description": "Aluminum cans noi",
+      "unit_price": "22.00",
+      "amount": 22,
+      "units_ordered": 1,
+      "units_shipped": 1,
+      "total_quantity": 5,
+      "additionalInfo": {
+        "weight": "169 lbs",
+        "pieces": "1 PCS"
+      }
+    }
+  ],
+  "totals": {
+    "total_due": 468.74
+  },
+  "contact": {
+    "phone": "1-800-323-5441",
+    "email": "chrobinsonAR@chrobinson.com"
+  },
+  "company": {
+    "name": "Wildpack",
+    "address": "834 Striker Ave, Suite D, Sacramento, CA 95834"
+  },
+  "paymentTerms": {
+    "terms": [
+      "Online at www.freightquote.com",
+      "Wire",
+      "Check by phone call 1-800-323-5441",
+      "Mail check to: Freightquote.com, Inc., P.O. Box 9121, Minneapolis, MN 55480-9121"
+    ]
+  }
+}

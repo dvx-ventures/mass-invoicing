@@ -1,0 +1,58 @@
+{
+  "invoice_number": "70282",
+  "date": "2023-01-10",
+  "due_date": "2023-02-09",
+  "terms": "Net 30",
+  "ship_to": {
+    "name": "Hobbs Brewing Company",
+    "address": "2415 NH Route 16, West Ossipee, NH 03890"
+  },
+  "bill_to": {
+    "name": "Hobbs Tavern and Brewing Company",
+    "address": "765 NH 16, Ossipee, NH 03864"
+  },
+  "shipping_info": {
+    "shipped_via": "UPS"
+  },
+  "items": [
+    {
+      "item_code": "Labels",
+      "description": "HiJack 16oz",
+      "units_ordered": 4400,
+      "unit_price": 0.09,
+      "amount": 396
+    },
+    {
+      "item_code": "Labels",
+      "description": "Jacked Up 16oz",
+      "units_ordered": 3800,
+      "unit_price": 0.09,
+      "amount": 342
+    },
+    {
+      "item_code": "Labels",
+      "description": "Hold My Juice 16oz",
+      "units_ordered": 3800,
+      "unit_price": 0.09,
+      "amount": 342
+    },
+    {
+      "item_code": "Labels",
+      "description": "Seven Lakes Lager 16oz",
+      "units_ordered": 2200,
+      "unit_price": 0.09,
+      "amount": 198
+    },
+    {
+      "item_code": "Shipping",
+      "description": "UPS Ground",
+      "units_ordered": 1,
+      "unit_price": 16.85,
+      "amount": 16.85
+    }
+  ],
+  "totals": {
+    "subtotal": 1294.85,
+    "total_due": 1294.85
+  }
+}

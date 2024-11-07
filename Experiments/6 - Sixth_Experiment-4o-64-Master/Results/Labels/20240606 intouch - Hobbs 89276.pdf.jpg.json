@@ -1,0 +1,49 @@
+{
+  "invoice_number": "89276",
+  "date": "5/7/2024",
+  "due_date": "6/6/2024",
+  "bill_to": {
+    "name": "Sap House Meadery LLC",
+    "address": "P.O. Box 595, Center Ossipee, NH 03814"
+  },
+  "ship_to": {
+    "name": "Sap House Meadery LLC",
+    "address": "6 Folsom Road, Center Ossipee, NH 03814"
+  },
+  "items": [
+    {
+      "item_code": "Labels",
+      "description": "Raspberry Jam Sesh 12oz",
+      "units_ordered": 4800,
+      "unit_price": 0.11,
+      "amount": 537.6
+    },
+    {
+      "item_code": "Labels",
+      "description": "Spiced Apply Cyser 12oz",
+      "units_ordered": 4800,
+      "unit_price": 0.11,
+      "amount": 537.6
+    },
+    {
+      "item_code": "Shipping",
+      "description": "UPS Ground",
+      "units_ordered": 1,
+      "unit_price": 27.32,
+      "amount": 27.32
+    }
+  ],
+  "shipped_via": "UPS",
+  "date_shipped": "5/7/2024 12:00:00 AM",
+  "terms": "Net 30",
+  "totals": {
+    "merchandise_total": 1102.52,
+    "sales_tax": 0,
+    "total_due": 1102.52
+  },
+  "additional_notes": "Thank you for your business!",
+  "company": {
+    "name": "InTouch Labels & Packaging, Part of Avery Products Corporation",
+    "address": "12 Technology Drive, North Chelmsford, MA 01863"
+  }
+}

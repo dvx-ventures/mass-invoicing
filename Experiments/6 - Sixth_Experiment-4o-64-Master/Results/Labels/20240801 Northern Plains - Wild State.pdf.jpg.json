@@ -1,0 +1,46 @@
+{
+  "invoice_number": "18292",
+  "date": "8/1/2024",
+  "page": "1",
+  "bill_to": {
+    "name": "Wild State Cider",
+    "address": "500 S 59th Ave W, Duluth, MN 55806"
+  },
+  "ship_to": {
+    "name": "Wild State Cider",
+    "address": "500 S 59th Ave W, Duluth, MN 55806"
+  },
+  "customer_po": "Sam 073024",
+  "order_date": "7/30/2024",
+  "soldTo": {
+    "customerNumber": 1854,
+    "name": "Wild State Cider",
+    "address": "500 S 59th Ave W, Duluth, MN 55806"
+  },
+  "sales_agent": "Anthony Desharnais",
+  "terms": "Net 30",
+  "items": [
+    {
+      "description": "Birdie Wild Berry Lemonade THC Infused Cocktail",
+      "units_ordered": 20000,
+      "units_shipped": 20000,
+      "unit_price": 0.0838,
+      "amount": 1676,
+      "transUOM": "Each"
+    },
+    {
+      "description": "Birdie Tea + Lemonade THC Infused Cocktail",
+      "units_ordered": 25000,
+      "units_shipped": 25000,
+      "unit_price": 0.0838,
+      "amount": 2095,
+      "transUOM": "Each"
+    }
+  ],
+  "totals": {
+    "merchandise_total": 3771,
+    "total_due": 3933.22,
+    "freight": 132.22,
+    "tax": 0
+  }
+}

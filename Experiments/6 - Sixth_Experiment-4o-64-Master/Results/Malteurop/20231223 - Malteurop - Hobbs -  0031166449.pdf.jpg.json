@@ -1,0 +1,89 @@
+{
+  "invoice_number": "31166449",
+  "date": "12/21/2023",
+  "page": "1/1",
+  "remit_to": {
+    "name": "MALTEUROP NORTH AMERICA",
+    "address": "MENA, 6737 W. WASHINGTON ST. SUITE 4204, MILWAUKEE, WI 53214",
+    "bank_details": {
+      "bank_name": "JPMORGAN CHASE BANK NA",
+      "account_number": "844001040",
+      "routing_number": "CHASUS33"
+    },
+    "phone": "844-546-6258",
+    "email": "customersuccess@malteurop.com"
+  },
+  "bill_to": {
+    "name": "HOBBS BREWING COMPANY LLC",
+    "address": "765 NH-16",
+    "city": "OSSIPEE",
+    "state": "NH",
+    "zip": "03864",
+    "country": "USA"
+  },
+  "ship_to": {
+    "name": "HOBBS BREWING COMPANY LLC",
+    "address": "765 NH-16",
+    "city": "OSSIPEE",
+    "state": "NH",
+    "zip": "03864",
+    "country": "USA"
+  },
+  "customer_po": "23085",
+  "due_date": "01/20/2024",
+  "items": [
+    {
+      "date_shipped": "12/21/2023",
+      "item_description": "PILSEN BAG MALT 55LB",
+      "item_code": "8000763173",
+      "country_of_origin": "US",
+      "total_quantity": 8,
+      "transUOM": "BAG",
+      "unit_price": 39.05,
+      "amount": 312.4
+    },
+    {
+      "date_shipped": "12/21/2023",
+      "item_description": "2ROW CRAFT BAG MALT 55LB",
+      "item_code": "8000773126",
+      "country_of_origin": "US",
+      "total_quantity": 29,
+      "transUOM": "BAG",
+      "unit_price": 38.5,
+      "amount": 1116.5
+    },
+    {
+      "date_shipped": "12/21/2023",
+      "item_description": "CRYSTAL WHEAT 3L BAG MALT 55LB",
+      "item_code": "8000704986",
+      "country_of_origin": "US",
+      "total_quantity": 3,
+      "transUOM": "BAG",
+      "unit_price": 49.5,
+      "amount": 148.5
+    }
+  ],
+  "terms": "30 days from B/L",
+  "freight_terms": "DAP OSSIPEE",
+  "totals": {
+    "total_due": 1732.4,
+    "currency": "USD"
+  },
+  "sold_to": {
+    "name": "HOBBS BREWING COMPANY LLC",
+    "address": "765 NH-16, OSSIPEE, NH 03864, USA",
+    "customerNumber": 103924
+  },
+  "contact": {
+    "phone": "844-546-6258",
+    "email": "customersuccess@malteurop.com"
+  },
+  "shipping_info": {
+    "freight_terms": "DAP OSSIPEE",
+    "bill_of_lading": "50016877",
+    "carrier": "853917"
+  },
+  "taxInfo": {
+    "salesTax": "USD"
+  }
+}

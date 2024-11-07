@@ -1,0 +1,118 @@
+{
+  "invoice_number": "USINV000191459",
+  "date": "05/31/2024",
+  "remit_to": {
+    "name": "Country Malt",
+    "address": {
+      "street": "PO Box 51602",
+      "city": "Los Angeles",
+      "state": "CA",
+      "postal_code": "90051-5902",
+      "country": "USA"
+    },
+    "phone": "360-905-3380"
+  },
+  "bill_to": {
+    "name": "Hobbs Tavern & Brewing",
+    "address": {
+      "street": "2415 White Mountain Hwy",
+      "city": "West Ossipee",
+      "state": "NH",
+      "postal_code": "03890",
+      "country": "USA"
+    }
+  },
+  "ship_to": {
+    "name": "Hobbs Tavern & Brewing",
+    "address_line1": "765 NH Rt 16",
+    "city": "Ossipee",
+    "state": "NH",
+    "postal_code": "03864",
+    "country": "USA"
+  },
+  "customer_po": "23136",
+  "order_date": "05/31/2024",
+  "date_shipped": "05/31/2024",
+  "due_date": "06/30/2024",
+  "terms": "Net 30 days",
+  "items": [
+    {
+      "item_code": "OF-BLUB",
+      "description": "Oregon Fruit Puree - Blueberry",
+      "units_ordered": 6,
+      "unit_price": 123.12,
+      "amount": 738.72
+    },
+    {
+      "item_code": "OF-BLCT",
+      "description": "Oregon Fruit Puree - Black Currant",
+      "units_ordered": 1,
+      "unit_price": 209.91,
+      "amount": 209.91
+    },
+    {
+      "item_code": "FL-BLUB",
+      "description": "Mane Blueberry Fruit Flavor - Natural",
+      "units_ordered": 1,
+      "unit_price": 93.15,
+      "amount": 93.15
+    },
+    {
+      "item_code": "GW-PAHC",
+      "description": "Great Western Malting Pale High Color Malt",
+      "units_ordered": 4,
+      "unit_price": 38.5,
+      "amount": 154
+    },
+    {
+      "item_code": "CM-FBOT",
+      "description": "Canada Malting Premier Flaked Brewers Oats",
+      "units_ordered": 4,
+      "unit_price": 36.5,
+      "amount": 146
+    },
+    {
+      "item_code": "CM-OATM",
+      "description": "Canada Malting Oat Malt",
+      "units_ordered": 6,
+      "unit_price": 46.2,
+      "amount": 277.2
+    },
+    {
+      "item_code": "CM-WWHT",
+      "description": "Canada Malting White Wheat Malt",
+      "units_ordered": 4,
+      "unit_price": 37.4,
+      "amount": 149.6
+    },
+    {
+      "item_code": "BZ-CRPL",
+      "description": "Bestmalz Caramel Pils Malt",
+      "units_ordered": 6,
+      "unit_price": 45.65,
+      "amount": 273.9
+    },
+    {
+      "item_code": "YC-SIMTT",
+      "description": "T90 Hop Pellets - Simcoe",
+      "units_ordered": 4,
+      "unit_price": 165,
+      "amount": 574.2
+    },
+    {
+      "item_code": "YC-CITTT",
+      "description": "T90 Hop Pellets - Citra",
+      "units_ordered": 4,
+      "unit_price": 126.39,
+      "amount": 439.84
+    }
+  ],
+  "totals": {
+    "merchandise_total": 3056.52,
+    "total_due": 3261.62
+  },
+  "shipping_info": {
+    "shipped_via": "ROSS EXPRESS",
+    "shipping_cost": 205.1
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "invoice_number": "74512",
+  "date": "2023-05-05",
+  "remit_to": {
+    "name": "InTouch Labels & Packaging, Part of Avery Products Corporation",
+    "address": "30 Payton Street, Lowell, MA 01852"
+  },
+  "bill_to": {
+    "name": "Hobbs Tavern and Brewing Company",
+    "address": "765 NH 16, Ossipee, NH 03864"
+  },
+  "ship_to": {
+    "name": "Hobbs Brewing Company",
+    "address": "2415 NH Route 16, West Ossipee, NH 03890"
+  },
+  "terms": "Net 30",
+  "due_date": "2023-06-04",
+  "items": [
+    {
+      "description": "HiJack 16oz",
+      "units_ordered": 3400,
+      "unit_price": 0.09,
+      "amount": 306
+    },
+    {
+      "description": "Hold My Juice 16oz",
+      "units_ordered": 2000,
+      "unit_price": 0.09,
+      "amount": 180
+    },
+    {
+      "description": "Jacke Up 16oz",
+      "units_ordered": 3500,
+      "unit_price": 0.09,
+      "amount": 315
+    },
+    {
+      "description": "River Drifter 16oz",
+      "units_ordered": 3800,
+      "unit_price": 0.09,
+      "amount": 342
+    },
+    {
+      "description": "UPS Ground",
+      "units_ordered": 1,
+      "unit_price": 29.9,
+      "amount": 29.9
+    }
+  ],
+  "totals": {
+    "merchandise_total": 1172.9,
+    "tax": 0,
+    "total_due": 1172.9
+  },
+  "shipping_info": {
+    "shipped_via": "UPS"
+  }
+}

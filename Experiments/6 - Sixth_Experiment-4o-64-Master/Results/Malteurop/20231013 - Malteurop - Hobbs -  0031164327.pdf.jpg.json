@@ -1,0 +1,52 @@
+{
+  "invoice_number": "31164327",
+  "date": "10/13/2023",
+  "page": "1/1",
+  "ship_to": {
+    "name": "HOBBS BREWING COMPANY LLC",
+    "address": "765 NH-16, OSSIPEE NH 03864, USA"
+  },
+  "sold_to": {
+    "name": "HOBBS BREWING COMPANY LLC",
+    "address": "765 NH-16, OSSIPEE NH 03864, USA"
+  },
+  "customer_po": "23072",
+  "paymentTerms": {
+    "terms": "30 days from B/L"
+  },
+  "items": [
+    {
+      "description": "ROW CRAFT BAG MALT 55LB",
+      "shipment": "8410892",
+      "total_quantity": 10,
+      "unit_price": 38.5,
+      "amount": 385,
+      "transUOM": "BAG"
+    },
+    {
+      "description": "BAVARIAN PILSEN BAG MALT 55LB",
+      "shipment": "841089",
+      "total_quantity": 8,
+      "unit_price": 52.8,
+      "amount": 422.4,
+      "transUOM": "BAG"
+    },
+    {
+      "description": "CRYSTAL WHEAT 3L BAG MALT 55LB",
+      "shipment": "841089",
+      "total_quantity": 6,
+      "unit_price": 49.5,
+      "amount": 297,
+      "transUOM": "BAG"
+    }
+  ],
+  "totals": {
+    "shipping": 155,
+    "total_due": 1259.4
+  },
+  "remit_to": {
+    "name": "MALTEUROP NORTH AMERICA",
+    "address": "JPMORGAN CHASE BANK NA, 6737 W. WASHINGTON ST. SUITE 4204, MILWAUKEE, WI 53214"
+  },
+  "customer_service_email": "customersuccess@malteurop.com"
+}

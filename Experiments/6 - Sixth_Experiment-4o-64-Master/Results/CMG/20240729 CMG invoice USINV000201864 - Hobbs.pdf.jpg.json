@@ -1,0 +1,58 @@
+{
+  "invoice_number": "USINV000201864",
+  "date": "07/29/2024",
+  "remit_to": {
+    "name": "Hobbs Tavern & Brewing",
+    "address": {
+      "street": "2415 White Mountain Hwy",
+      "city": "West Ossipee",
+      "state": "NH",
+      "postal_code": "03890",
+      "country": "USA"
+    }
+  },
+  "bill_to": {
+    "name": "Hobbs Tavern & Brewing",
+    "address": "2415 White Mountain Hwy",
+    "city": "West Ossipee",
+    "state": "NH",
+    "zip": "03890"
+  },
+  "ship_to": {
+    "name": "Hobbs Tavern & Brewing",
+    "address": "765 NH Rt 16",
+    "city": "Ossipee",
+    "state": "NH",
+    "zip": "03864"
+  },
+  "customer_po": "23153",
+  "order_date": "07/29/2024",
+  "due_date": "08/28/2024",
+  "shipping_info": {
+    "shipped_via": "ROSS EXPRESS"
+  },
+  "terms": "Net 30 days",
+  "items": [
+    {
+      "item_code": "CM-EURO",
+      "description": "Canada Malting Euro Style Pilsen - Size: 55LB/25KG",
+      "units_shipped": 14,
+      "unit_price": 40.7,
+      "amount": 569.8
+    },
+    {
+      "item_code": "CM-2ROW",
+      "description": "Canada Malting Premium Two Row Brewers Malt - Size: 55LB/25KG",
+      "units_shipped": 26,
+      "unit_price": 36.3,
+      "amount": 943.8
+    }
+  ],
+  "totals": {
+    "total_qty_to_be_shipped": 40,
+    "total_weight_lbs": 2255.2,
+    "total_of_taxes": 0,
+    "total_due": 1718.7
+  },
+  "customer_service_email": "cmglogisticsteam@countrymalt.com"
+}

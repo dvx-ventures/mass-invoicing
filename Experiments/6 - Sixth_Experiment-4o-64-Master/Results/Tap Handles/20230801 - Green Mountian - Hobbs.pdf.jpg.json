@@ -1,0 +1,51 @@
+{
+  "invoice_number": "10984",
+  "date": "8/11/2023",
+  "bill_to": {
+    "name": "Hobbs Tavern & Brewing Co.",
+    "address": "765 NH -16, Ossipee, NH 03864"
+  },
+  "ship_to": {
+    "name": "Hobbs Tavern & Brewing Co.",
+    "address": "765 NH -16, Ossipee, NH 03864"
+  },
+  "due_date": "9/10/2023",
+  "shipping_info": {
+    "method": "UPS",
+    "tracking_number": "1ZR051610354693635"
+  },
+  "terms": "Net 30",
+  "customer_po": "3978",
+  "items": [
+    {
+      "item_code": "Hobbs",
+      "description": "Hobbs handle",
+      "units_ordered": 97,
+      "unit_price": 28.52,
+      "amount": 2766.44
+    },
+    {
+      "item_code": "Order Deposit",
+      "description": "Less 50% deposit required to begin production of order.",
+      "units_ordered": 100,
+      "unit_price": -14.26,
+      "amount": -1426
+    },
+    {
+      "item_code": "Shipping & Handl...",
+      "description": "UPS Shipping & Handling- 97 handles shipped 8/11/23 Tracking:1ZR051610354693635",
+      "units_ordered": 1,
+      "unit_price": 43.28,
+      "amount": 43.28
+    }
+  ],
+  "totals": {
+    "total_due": 1383.72
+  },
+  "contact": {
+    "phone": "6033365555",
+    "email": "accounting@greenmountaintaps.com",
+    "website": "www.greenmountaintaps.com"
+  },
+  "additional_notes": "We appreciate your business. Cheers!"
+}

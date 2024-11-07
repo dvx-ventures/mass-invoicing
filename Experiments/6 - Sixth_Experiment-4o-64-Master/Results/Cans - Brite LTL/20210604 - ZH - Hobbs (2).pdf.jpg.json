@@ -1,0 +1,49 @@
+{
+  "invoice_number": "IN0118584",
+  "date": "6/4/2021",
+  "page": "1",
+  "bill_to": {
+    "name": "Hobbs Tavern & Brewing Company, LLC",
+    "address": "765 White Mountain Highway",
+    "city": "Ossipee",
+    "state": "NH",
+    "zip": "03864"
+  },
+  "ship_to": {
+    "name": "Hobbs Tavern & Brewing Company, LLC",
+    "address": "765 White Mountain Highway",
+    "city": "Ossipee",
+    "state": "NH",
+    "zip": "03864"
+  },
+  "items": [
+    {
+      "transUOM": "M",
+      "total_quantity": 6,
+      "unit_price": 135.42,
+      "description": "16 oz Aluminum Regular Can NO Print Brite Can",
+      "amount": 4108.91
+    },
+    {
+      "transUOM": "Ea",
+      "total_quantity": 31200,
+      "unit_price": 33.34,
+      "description": "202 Diameter LOE 10 States - B64 Aluminum Can End",
+      "amount": 1040.21
+    },
+    {
+      "transUOM": "Ea",
+      "total_quantity": 1,
+      "unit_price": 8,
+      "description": "Pallet Charges (Beverage)",
+      "amount": 8
+    }
+  ],
+  "totals": {
+    "total_due": 5157.12
+  },
+  "payment_terms": {
+    "terms": "Net 30 Days",
+    "netDueDate": "7/4/2021"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "invoice_number": "0410059257",
+  "date": "05/31/2024",
+  "customer_po": "5-31-24 EMAIL",
+  "sales_agent": "James Sauer",
+  "bill_to": {
+    "name": "Helltown Brewing",
+    "address": "5578 Old William Penn Hwy, Export PA 15632",
+    "city": "Export",
+    "state": "PA",
+    "zip": "15632"
+  },
+  "ship_to": {
+    "name": "Helltown Brewing",
+    "address": "5578 Old William Penn Hwy, Export PA 15632",
+    "city": "Export",
+    "state": "PA",
+    "zip": "15632"
+  },
+  "shipping_info": {
+    "freight_terms": "FOB Origin, Freight PPD & Add",
+    "shipped_via": "TO BE DETERMINED"
+  },
+  "paymentTerms": {
+    "terms": "Cash In Advance"
+  },
+  "items": [
+    {
+      "lineNumber": 1,
+      "item_code": "1323831",
+      "units_ordered": 20300,
+      "unit_price": 0.04,
+      "amount": 812,
+      "description": [
+        "202 LOE SILVER ALUM CAN END 10 STATE CTRV BPANI 580/SLEEVE",
+        "202 LOE SILVER ALUMINUM CAN END 10 STATE CTRV BPANI 580/SLEEVE",
+        "INCISING DETAIL: HI IA MA ME NY VT 5¢/OR MI 10¢ /CA CRV /CTRV",
+        "SILVER SHELL/SILVER TAB",
+        "580EA/SLEEVE; 608 SLEEVES/PLT; 352,640"
+      ],
+      "qtyShipped": 20300,
+      "transUOM": "EA",
+      "extendedPrice": 812
+    }
+  ],
+  "totals": {
+    "merchandise_total": 812,
+    "sales_tax": 0,
+    "total_due": 812,
+    "currency": "USD"
+  }
+}

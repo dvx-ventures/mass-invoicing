@@ -1,0 +1,34 @@
+{
+  "invoice_number": "174516",
+  "date": "4/1/24",
+  "due_date": "4/15/24",
+  "bill_to": {
+    "name": "Ore Dock Brewing Company",
+    "address": {
+      "street": "114 Spring Street",
+      "city": "Marquette",
+      "state": "MI",
+      "postal_code": "49855"
+    }
+  },
+  "items": [
+    {
+      "description": "Service for April (Twice a week)",
+      "unit_price": "180.00",
+      "amount": 180,
+      "item_code": "2 Yard"
+    },
+    {
+      "description": "Service for April (Twice a week)",
+      "unit_price": "125.00",
+      "amount": 125,
+      "item_code": "2 Yard Recycling"
+    }
+  ],
+  "totals": {
+    "total_due": 305
+  },
+  "paymentTerms": {
+    "terms": "Thank you for supporting local business!\nDEBIT / VISA / MASTERCARD ACCEPTED"
+  }
+}

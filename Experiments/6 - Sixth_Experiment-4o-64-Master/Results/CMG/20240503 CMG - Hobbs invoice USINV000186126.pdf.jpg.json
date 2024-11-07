@@ -1,0 +1,88 @@
+{
+  "invoice_number": "USINV000186126",
+  "date": "05/03/2024",
+  "remit_to": {
+    "name": "Country Malt",
+    "address": "PO Box 51602, Los Angeles, CA 90051-5902"
+  },
+  "remit_to.name": "Country Malt",
+  "remit_to.address": "PO Box 51602, Los Angeles, CA 90051-5902",
+  "bill_to": {
+    "name": "Hobbs Tavern & Brewing",
+    "address": "2415 White Mountain Hwy, West Ossipee, NH 03890, USA"
+  },
+  "bill_to.name": "Hobbs Tavern & Brewing",
+  "bill_to.address": "2415 White Mountain Hwy, West Ossipee, NH 03890, USA",
+  "ship_to": {
+    "name": "Hobbs Tavern & Brewing",
+    "address": "765 NH Rt 16, Ossipee, NH 03864, USA"
+  },
+  "ship_to.name": "Hobbs Tavern & Brewing",
+  "ship_to.address": "765 NH Rt 16, Ossipee, NH 03864, USA",
+  "customer_po": "23126",
+  "order_date": "05/03/2024",
+  "date_shipped": "05/03/2024",
+  "due_date": "06/02/2024",
+  "paymentTerms": {
+    "terms": "Net 30 days"
+  },
+  "paymentTerms.terms": "Net 30 days",
+  "items": [
+    {
+      "item_code": "CM-OATM",
+      "description": "Canada Malting Oat Malt",
+      "units_shipped": 4,
+      "unit_price": 46.2,
+      "amount": 184.8
+    },
+    {
+      "item_code": "CM-FBOT",
+      "description": "Canada Malting Premier Flaked Brewers Oats",
+      "units_shipped": 3,
+      "unit_price": 36.5,
+      "amount": 109.5
+    },
+    {
+      "item_code": "CM-WWHT",
+      "description": "Canada Malting White Wheat Malt",
+      "units_shipped": 2,
+      "unit_price": 37.4,
+      "amount": 74.8
+    },
+    {
+      "item_code": "BZ-CRPL",
+      "description": "Bestmalz Caramel Pils Malt",
+      "units_shipped": 3,
+      "unit_price": 45.65,
+      "amount": 136.95
+    },
+    {
+      "item_code": "CM-EURO",
+      "description": "Canada Malting Euro Style Pilsen",
+      "units_shipped": 15,
+      "unit_price": 40.7,
+      "amount": 610.5
+    },
+    {
+      "item_code": "FS-LACA",
+      "description": "Five Star Chemicals - Lactic Acid",
+      "units_shipped": 1,
+      "unit_price": 234.64,
+      "amount": 234.64
+    },
+    {
+      "item_code": "CM-2ROW",
+      "description": "Canada Malting Premium Two Row Brewers Malt",
+      "units_shipped": 13,
+      "unit_price": 36.3,
+      "amount": 471.9
+    }
+  ],
+  "totals": {
+    "total_quantity": 41,
+    "merchandise_total": 2028.19
+  },
+  "totals.total_due": 2028.19,
+  "terms": "Net 30 days",
+  "shipped_via": "ROSS EXPRESS"
+}

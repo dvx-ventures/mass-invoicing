@@ -1,0 +1,65 @@
+{
+  "invoice_number": "INV-30510463",
+  "date": "08/07/2023",
+  "due_date": "08/22/2023",
+  "remit_to": {
+    "name": "Wildpack Beverage",
+    "address": "1301 Edison Hwy, Suite A-2, Baltimore MD, 21213, United States"
+  },
+  "bill_to": {
+    "name": "Wildpack Beverage",
+    "address": "1301 Edison Hwy, Suite A-2, Baltimore MD, 21213, United States"
+  },
+  "remit_to_name": "Wildpack Holdings US Inc.",
+  "items": [
+    {
+      "description": "Sleeved Cans",
+      "units_ordered": 3112,
+      "unit_price": 0.2675,
+      "amount": 832.46
+    },
+    {
+      "description": "Freight & Dunnage - Freight arranged by customer",
+      "units_ordered": 1,
+      "unit_price": 0,
+      "amount": 0
+    }
+  ],
+  "totals": {
+    "subtotal": 832.46,
+    "total_due": 832.46,
+    "terms": "15 Days from invoice date"
+  },
+  "paymentTerms": {
+    "terms": "15 Days from invoice date"
+  },
+  "terms": "15 Days from invoice date",
+  "paymentInstructions": {
+    "domestic": {
+      "remittance_info": "Please include your company’s name and invoice number(s) within the Wire/ACH.",
+      "bank_details": {
+        "name": "Wells Fargo",
+        "address": "111 West Ocean Boulevard, Suite 530, Long Beach, California, 90802",
+        "account_number": "4129676102",
+        "routing_number": "121000248",
+        "swift_code": "WFBIUS6S"
+      }
+    },
+    "credit_card": {
+      "accepted_cards": [
+        "Visa",
+        "MasterCard",
+        "Discover",
+        "American Express"
+      ],
+      "fee": "3%",
+      "instructions": "Link for credit card payments can be found on your electronic copy of the sales order and invoice. We process credit card transactions by phone at 725-277-4518."
+    },
+    "check": {
+      "instructions": "Reference the invoice number within the memo section. Payments should be made payable to Wildpack Holdings U.S. Inc. DBA Wildpack Beverage.",
+      "west_coast_address": "Suite FF 3917 E. Lone Mountain Road, North Las Vegas, Nevada, 89081, USA",
+      "east_coast_address": "Suite A2 1301 Edison Hwy, Baltimore, Maryland, 21213, USA"
+    },
+    "prepayment_note": "Orders requiring pre-payment cannot be released until receipt of funds in Wildpack’s bank account. Using check payment could delay release by 3-5 days. Use Wire or Credit Card for same day order release."
+  }
+}

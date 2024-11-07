@@ -1,0 +1,67 @@
+{
+  "invoice_number": "90065",
+  "date": "5/24/2024",
+  "due_date": "6/23/2024",
+  "bill_to": {
+    "name": "Hobbs Tavern and Brewing Company",
+    "address": "765 NH 16",
+    "city": "Ossipee",
+    "state": "NH",
+    "zip": "03864"
+  },
+  "ship_to": {
+    "name": "Hobbs Brewing Company",
+    "address": "2415 NH Route 16",
+    "city": "West Ossipee",
+    "state": "NH",
+    "zip": "03890"
+  },
+  "remit_to": {
+    "name": "InTouch Labels & Packaging, Part of Avery Products Corporation",
+    "address": "12 Technology Drive",
+    "city": "North Chelmsford",
+    "state": "MA",
+    "postal_code": "01863"
+  },
+  "terms": "Net 30",
+  "date_shipped": "5/24/2024 12:00:00 AM",
+  "shipping_info": {
+    "shipped_via": "UPS"
+  },
+  "items": [
+    {
+      "item_code": "Labels",
+      "description": "Lake Life 16oz",
+      "units_ordered": 6000,
+      "unit_price": 0.09,
+      "amount": 540
+    },
+    {
+      "item_code": "Labels",
+      "description": "HiJack 16oz",
+      "units_ordered": 8000,
+      "unit_price": 0.09,
+      "amount": 720
+    },
+    {
+      "item_code": "Labels",
+      "description": "Black Sheep 16oz",
+      "units_ordered": 1500,
+      "unit_price": 0.09,
+      "amount": 135
+    },
+    {
+      "item_code": "Shipping",
+      "description": "UPS Ground",
+      "units_ordered": 1,
+      "unit_price": 51.39,
+      "amount": 51.39
+    }
+  ],
+  "totals": {
+    "subtotal": 1446.39,
+    "tax": 0,
+    "total_due": 1446.39
+  },
+  "additional_notes": "Thank you for your business!"
+}

@@ -1,0 +1,44 @@
+{
+  "invoice_number": "INV21792",
+  "date": "28-Jun-2024",
+  "remit_to": {
+    "name": "Vessel Packaging Inc.",
+    "address": "8250 Borden Street, Vancouver BC V5P 3E7",
+    "city": "Vancouver",
+    "state": "BC",
+    "zip": "V5P 3E7"
+  },
+  "bill_to": {
+    "name": "Wild State Cider",
+    "address": "500 S 29th Ave W, Duluth MN 55806, United States"
+  },
+  "ship_to": {
+    "name": "Wild State Cider (USD)",
+    "address": "2515 W Superior St, Duluth MN 55806, United States"
+  },
+  "terms": "Net 30",
+  "due_date": "01-Aug-2024",
+  "customer_po": "2740",
+  "sales_agent": "Brandon Erickson",
+  "freight_terms": "Total One Logistics",
+  "items": [
+    {
+      "units_ordered": 705280,
+      "description": "Ends 202 - Crown LOE 10 State BPA-NI",
+      "unit_price": 0.0305,
+      "amount": 21511.04
+    },
+    {
+      "units_ordered": 2,
+      "description": "Dunnage - Crown Pallet",
+      "unit_price": 0,
+      "amount": 0
+    }
+  ],
+  "totals": {
+    "merchandise_total": 21511.04,
+    "shipping": 835.29,
+    "total_due": 22346.33
+  },
+  "currency": "USD"
+}

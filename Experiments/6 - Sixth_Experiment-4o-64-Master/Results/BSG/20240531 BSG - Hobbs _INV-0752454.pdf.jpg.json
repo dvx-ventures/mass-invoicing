@@ -1,0 +1,91 @@
+{
+  "invoice_number": "INV-0752454",
+  "date": "5/31/2024",
+  "due_date": "Net 30 Days",
+  "bill_to": {
+    "name": "Hobbs Tavern & Brewing Co",
+    "address": {
+      "street": "PO Box 539",
+      "city": "West Ossipee",
+      "state": "NH",
+      "postal_code": "03890",
+      "country": "USA"
+    }
+  },
+  "ship_to": {
+    "name": "Hobbs Tavern & Brewing Co",
+    "address": {
+      "line1": "Hobbs Production",
+      "line2": "765 Route 16",
+      "city": "Ossipee",
+      "state": "NH",
+      "postal_code": "03864-7167",
+      "country": "USA"
+    }
+  },
+  "items": [
+    {
+      "item_code": "MWEY1012",
+      "description": "Weyermann® Barke® Pilsner 25 kg",
+      "units_ordered": 12,
+      "unit_price": 48.29,
+      "amount": 579.48
+    },
+    {
+      "item_code": "MWEY1014",
+      "description": "Weyermann® Barke® Munich 25 kg",
+      "units_ordered": 16,
+      "unit_price": 49.06,
+      "amount": 784.96
+    },
+    {
+      "item_code": "MWEY1057",
+      "description": "Weyermann® Carahell® 25 kg",
+      "units_ordered": 4,
+      "unit_price": 51.26,
+      "amount": 205.04
+    },
+    {
+      "item_code": "BZZZ1672",
+      "description": "Kerry Whirlfloc® T 5 lb",
+      "units_ordered": 1,
+      "unit_price": 87,
+      "amount": 87
+    },
+    {
+      "item_code": "BZZZ1500",
+      "description": "Kerry Fermcap® S 4 kg",
+      "units_ordered": 1,
+      "unit_price": 129,
+      "amount": 129
+    },
+    {
+      "item_code": "BZZZ1911",
+      "description": "Kerry Yeastex® 82  5 lb",
+      "units_ordered": 1,
+      "unit_price": 47,
+      "amount": 47
+    },
+    {
+      "item_code": "XZZZN001",
+      "description": "Nut Roll - US",
+      "units_ordered": 1,
+      "unit_price": 0,
+      "amount": 0
+    }
+  ],
+  "totals": {
+    "merchandise_total": 1832.48,
+    "shipping": 165,
+    "sales_tax": 0,
+    "total_due": 1997.48
+  },
+  "shipping_info": {
+    "shipping_date": "5/30/2024",
+    "carrier": "A. Duie Pyle, Inc / A Duie",
+    "pro_number": "319506112"
+  },
+  "order_number": "SO160-0995842",
+  "payment_reference": "23137-Mike",
+  "invoice_account": "509170"
+}

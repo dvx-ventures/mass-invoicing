@@ -1,0 +1,59 @@
+{
+  "invoice_number": "80860",
+  "date": "10/17/2023",
+  "due_date": "11/16/2023",
+  "bill_to": {
+    "name": "Hobbs Tavern and Brewing Company",
+    "address": "765 NH 16, Ossipee, NH 03864"
+  },
+  "ship_to": {
+    "name": "Hobbs Brewing Company",
+    "address": "2415 NH Route 16, West Ossipee, NH 03890"
+  },
+  "company": {
+    "name": "InTouch Labels & Packaging, Part of Avery Products Corporation",
+    "address": "12 Technology Drive, North Chelmsford, MA 01863"
+  },
+  "terms": "Net 30",
+  "shipping_info": {
+    "shipping_date": "10/17/2023 12:00:00 AM",
+    "shipped_via": "UPS"
+  },
+  "items": [
+    {
+      "description": "Black Sheep Lager 16oz",
+      "units_ordered": 1200,
+      "unit_price": 0.09,
+      "amount": 108
+    },
+    {
+      "description": "Hold My Juice 16oz",
+      "units_ordered": 1200,
+      "unit_price": 0.09,
+      "amount": 108
+    },
+    {
+      "description": "Jakced Up 16oz",
+      "units_ordered": 1200,
+      "unit_price": 0.09,
+      "amount": 108
+    },
+    {
+      "description": "Route 16oz",
+      "units_ordered": 1000,
+      "unit_price": 0.09,
+      "amount": 90
+    },
+    {
+      "description": "UPS Ground",
+      "units_ordered": 1,
+      "unit_price": 15.28,
+      "amount": 15.28
+    }
+  ],
+  "totals": {
+    "subtotal": 429.28,
+    "sales_tax": 0,
+    "total_due": 429.28
+  }
+}

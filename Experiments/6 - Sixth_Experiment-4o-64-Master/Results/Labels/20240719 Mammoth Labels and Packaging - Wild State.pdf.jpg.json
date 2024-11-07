@@ -1,0 +1,59 @@
+{
+  "invoice_number": "539265",
+  "date": "7/19/2024",
+  "remit_to": {
+    "name": "Camp Cider LLC DBA Wild State Cider",
+    "address": {
+      "street": "500 South 59th Ave. West",
+      "city": "Duluth",
+      "state": "MN",
+      "postal_code": "55807"
+    }
+  },
+  "bill_to": {
+    "name": "Camp Cider LLC DBA Wild State Cider",
+    "address": {
+      "street": "500 South 59th Ave. West",
+      "city": "Duluth",
+      "state": "MN",
+      "postal_code": "55807"
+    }
+  },
+  "ship_to": {
+    "name": "Camp Cider LLC DBA Wild State Cider",
+    "address": {
+      "street": "500 South 59th Ave. West",
+      "city": "Duluth",
+      "state": "MN",
+      "postal_code": "55807"
+    }
+  },
+  "customer_po": "July Beer Day",
+  "paymentTerms": {
+    "terms": "Net 30 Days",
+    "netDueDate": "8/19/2024"
+  },
+  "items": [
+    {
+      "units_ordered": 26700,
+      "units_shipped": 26700,
+      "description": "Birdie Tea + Lemonade",
+      "unit_price": 81,
+      "total_quantity": 26700,
+      "amount": 2162.7
+    },
+    {
+      "units_ordered": 2600,
+      "units_shipped": 2600,
+      "description": "Hazy Apple Pie",
+      "unit_price": 81,
+      "total_quantity": 2600,
+      "amount": 210.6
+    }
+  ],
+  "freight_terms": "Freight Label 71",
+  "totals": {
+    "merchandise_total": 2590.31,
+    "total_due": 2590.31
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "invoice_number": "PSI057431",
+  "date": "11/08/23",
+  "page": "1",
+  "due_date": "12/08/23",
+  "bill_to": {
+    "name": "La Quinta Brewing Company",
+    "address": "74-714 Technology Drive, Palm Desert, CA 92211, United States of America",
+    "phone": null
+  },
+  "ship_to": {
+    "name": "La Quinta Brewing Company",
+    "phone": "760-200-2597",
+    "contact": "Scott Stokes",
+    "address": "74-714 Technology Drive, Palm Desert, CA 92211, United States of America"
+  },
+  "terms": "NET 30 DAYS",
+  "customer_po": "2977",
+  "shipping_info": {
+    "freight_terms": "FOB Cottage Grove, OR",
+    "shipped_via": "FedEx Freight",
+    "tracking_number": "835476190-3",
+    "shipAgentService": "PRIORITY"
+  },
+  "remit_to": {
+    "address": "70 S Bertelsen Rd, Eugene, OR 97402-5371",
+    "phone": "(541) 461-5000"
+  },
+  "items": [
+    {
+      "line_number": 1,
+      "item_code": "25781",
+      "description": "QPCE-202-260-PCR YELLOW\nEasy Removal Quad Pak 202 Can Handle\n1 Pallet @ 40 Boxes from CG Overrun",
+      "unit": "Each",
+      "quantity": 31,
+      "unit_price": 142.7,
+      "extendedPrice": 4497.9
+    },
+    {
+      "line_number": 2,
+      "item_code": "49000",
+      "description": "Freight Out-Net",
+      "quantity": 1,
+      "unit_price": 344.87,
+      "extendedPrice": 344.87
+    }
+  ],
+  "totals": {
+    "total_due": 4842.77
+  },
+  "website": "www.paktech-opi.com",
+  "bank_details": {
+    "routing": "026009593",
+    "account": "002801402347",
+    "ach": {
+      "routing": "323070380",
+      "account": "002801402347"
+    }
+  }
+}

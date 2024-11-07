@@ -1,0 +1,55 @@
+{
+  "invoice_number": "11368",
+  "date": "5/17/2024",
+  "bill_to": {
+    "name": "Hobbs Tavern & Brewing Co.",
+    "address": "765 NH -16",
+    "city": "Ossipee",
+    "state": "NH",
+    "zip": "03864"
+  },
+  "ship_to": {
+    "name": "Hobbs Tavern & Brewing Co.",
+    "address": "765 NH -16",
+    "city": "Ossipee",
+    "state": "NH",
+    "zip": "03864"
+  },
+  "customer_po": "4192",
+  "terms": "Net 30",
+  "due_date": "6/16/2024",
+  "date_shipped": "5/17/2024",
+  "shipped_via": "UPS",
+  "pro_number": "1ZR05161035387823",
+  "contact": {
+    "phone": "6033365555",
+    "email": "accounting@greenmountaintaps.com",
+    "web": "www.greenmountaintaps.com"
+  },
+  "items": [
+    {
+      "item_code": "Hobbs",
+      "description": "Resin Tap",
+      "units_ordered": 92,
+      "unit_price": 29.7,
+      "amount": 2732.4
+    },
+    {
+      "item_code": "OrderDeposit",
+      "description": "Less 50% deposit required to begin production of order.",
+      "units_ordered": 100,
+      "unit_price": -14.85,
+      "amount": -1485
+    },
+    {
+      "item_code": "Shipping & Handling",
+      "description": "UPS Shipping & Handling",
+      "units_ordered": 1,
+      "unit_price": 26.9,
+      "amount": 26.9
+    }
+  ],
+  "totals": {
+    "total_due": 1274.3
+  }
+}

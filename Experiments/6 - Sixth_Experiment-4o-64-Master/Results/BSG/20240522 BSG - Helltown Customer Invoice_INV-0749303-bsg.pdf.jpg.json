@@ -1,0 +1,82 @@
+{
+  "invoice_number": "INV-0749303",
+  "date": "5/22/2024",
+  "remit_to": {
+    "address": {
+      "street": "PO Box 74769",
+      "city": "Chicago",
+      "state": "IL",
+      "postal_code": "60694-4769",
+      "country": "USA"
+    }
+  },
+  "bill_to": {
+    "name": "Helltown Brewing LLC",
+    "address": "5578 Old William Penn Hwy",
+    "city": "Export",
+    "state": "PA",
+    "zip": "15632-9303"
+  },
+  "ship_to": {
+    "name": "Helltown Brewing",
+    "address": "5578 Old William Penn Hwy",
+    "city": "Export",
+    "state": "PA",
+    "zip": "15632-9303"
+  },
+  "customer_po": "Shawn - hops",
+  "order_date": "5/21/2024",
+  "due_date": "5/22/2024",
+  "shipping_info": {
+    "carrier": "FedEx Freight Priority",
+    "tracking_number": "9224186053",
+    "estimated_delivery_date": "5/27/2024",
+    "shipping_date": "5/21/2024"
+  },
+  "terms": "Net Zero Days PREPD",
+  "shipped_via": "FedEx Freight Priority",
+  "pro_number": "9224186053",
+  "items": [
+    {
+      "item_code": "HAMA0011",
+      "description": "Amarillo ® 11 lb",
+      "units_ordered": 8,
+      "unit_price": 140.25,
+      "amount": 1122
+    },
+    {
+      "item_code": "HELD0011",
+      "description": "El Dorado® 11 lb",
+      "units_ordered": 12,
+      "unit_price": 109.89,
+      "amount": 1318.68
+    },
+    {
+      "item_code": "HIDA0011",
+      "description": "Idaho 7™ 11 lb",
+      "units_ordered": 12,
+      "unit_price": 109.89,
+      "amount": 1318.68
+    },
+    {
+      "item_code": "HMOT0011",
+      "description": "Motueka™ 11 lb",
+      "units_ordered": 1,
+      "unit_price": 120.89,
+      "amount": 120.89
+    },
+    {
+      "item_code": "HSAB0011",
+      "description": "Sabro® 11 lb/5 kg~D",
+      "units_ordered": 12,
+      "unit_price": 170.28,
+      "amount": 2043.36
+    }
+  ],
+  "totals": {
+    "subtotal": 5923.61,
+    "sales_tax": 0,
+    "shipping": 260,
+    "total": 6196.11
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "invoice_number": "INV-30515319",
+  "date": "04/10/2024",
+  "due_date": "05/10/2024",
+  "ship_to": {
+    "name": "East Brother Beer Company",
+    "address": "1001 Canal Blvd, #C-2",
+    "city": "Richmond",
+    "state": "CA",
+    "zip": "94804"
+  },
+  "bill_to": {
+    "name": "East Brother Beer Company",
+    "address": "1001 Canal Blvd #C-2",
+    "city": "Richmond",
+    "state": "CA",
+    "zip": "94804"
+  },
+  "items": [
+    {
+      "description": "Sleeved Cans\nEast Brother - Bo Pils - 19.2oz Standard Sleeved Can (Ball; Glossy; BPANI)",
+      "units_ordered": 5057,
+      "unit_price": 0.465,
+      "amount": 2351.51
+    },
+    {
+      "description": "Freight - Arranged by Customer",
+      "units_ordered": 1,
+      "unit_price": 0,
+      "amount": 0
+    },
+    {
+      "description": "One-Way Wood Dunnage",
+      "units_ordered": 2,
+      "unit_price": 0,
+      "amount": 0
+    },
+    {
+      "description": "[SHIP-CARDBOARD] Cardboard Pallet Wrap Sheets\nTwo cardboard wrap sheets required for each finished pallet.",
+      "units_ordered": 4,
+      "unit_price": 10,
+      "amount": 40
+    }
+  ],
+  "totals": {
+    "merchandise_total": 2351.51,
+    "total_due": 2273.93
+  },
+  "paymentTerms": {
+    "terms": "30 Days from invoice date"
+  }
+}

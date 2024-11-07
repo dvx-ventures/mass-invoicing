@@ -1,0 +1,94 @@
+{
+  "invoice_number": "SI025077",
+  "date": "May 29, 2024",
+  "due_date": "June 28, 2024",
+  "remit_to": {
+    "name": "ORE DOCK BREWING COMPANY, LLC",
+    "address": "114 W SPRING ST, MARQUETTE, MI 49855, USA"
+  },
+  "bill_to": {
+    "name": "ORE DOCK BREWING COMPANY, LLC",
+    "address": "114 W SPRING ST, MARQUETTE, MI 49855, USA",
+    "contact_person": "Wes Pernsteiner"
+  },
+  "ship_to": {
+    "name": "ORE DOCK BREWING COMPANY, LLC",
+    "address": "114 W SPRING ST, MARQUETTE, MI 49855, USA"
+  },
+  "shipping_info": {
+    "shipped_via": "Tax-Air"
+  },
+  "customer_po": "1354",
+  "sales_agent": "Mike Illig",
+  "totals": {
+    "merchandise_total": 5018.16,
+    "total_due": 5018.16
+  },
+  "items": [
+    {
+      "description": "Brewers Malt",
+      "units_ordered": 2000,
+      "unit_price": 0.52,
+      "amount": 1040,
+      "item_code": "5298"
+    },
+    {
+      "description": "Pale Ale Malt",
+      "units_ordered": 2300,
+      "unit_price": 0.53,
+      "amount": 1230.5,
+      "item_code": "5301"
+    },
+    {
+      "description": "Wheat Malt, White",
+      "units_ordered": 1300,
+      "unit_price": 0.66,
+      "amount": 864.5,
+      "item_code": "5317"
+    },
+    {
+      "description": "Bonlander® Munich Malt 10L",
+      "units_ordered": 500,
+      "unit_price": 0.61,
+      "amount": 307.5,
+      "item_code": "5344"
+    },
+    {
+      "description": "Caramel Vienne Malt 20L",
+      "units_ordered": 200,
+      "unit_price": 0.74,
+      "amount": 148,
+      "item_code": "7051"
+    },
+    {
+      "description": "Synergy Select Pilsen Malt",
+      "units_ordered": 1250,
+      "unit_price": 0.54,
+      "amount": 681.25,
+      "item_code": "7236"
+    },
+    {
+      "description": "Brewers Yellow Corn Flakes Non-GMO 50#",
+      "units_ordered": 450,
+      "unit_price": 0.78,
+      "amount": 351,
+      "item_code": "7735"
+    },
+    {
+      "description": "Shipping and Handling Fees",
+      "units_ordered": 1,
+      "unit_price": 395.41,
+      "amount": 395.41,
+      "item_code": "FREIGHT"
+    },
+    {
+      "description": "Standard Wood Pallet",
+      "units_ordered": 4,
+      "unit_price": 0,
+      "amount": 0,
+      "item_code": "PLT-ST"
+    }
+  ],
+  "additional_notes": "Finance charge of 1.5% per month will be applied to any past due balances.",
+  "terms": "N30"
+}

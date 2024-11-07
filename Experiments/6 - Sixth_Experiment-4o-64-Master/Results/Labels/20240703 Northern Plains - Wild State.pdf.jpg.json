@@ -1,0 +1,48 @@
+{
+  "invoice_number": "18225",
+  "date": "7/3/2024",
+  "page": "1",
+  "bill_to": {
+    "name": "Wild State Cider",
+    "address": "500 S 59th Ave W, Duluth, MN 55806"
+  },
+  "ship_to": {
+    "name": "Wild State Cider",
+    "address": "500 S 59th Ave W, Duluth, MN 55806"
+  },
+  "customer_po": "Sam 062824",
+  "order_date": "6/28/2024",
+  "sales_agent": "Anthony Desharnais",
+  "terms": "Net 30",
+  "items": [
+    {
+      "units_ordered": 2800,
+      "units_shipped": 2800,
+      "item_code": "Watermelon",
+      "description": "Watermelon Cider",
+      "unit_price": 0.178,
+      "amount": 498.4
+    }
+  ],
+  "totals": {
+    "subtotal": 498.4,
+    "shipping": 14.52,
+    "tax": 0,
+    "total_due": 512.92
+  },
+  "shipping": {
+    "carrier": "Spee-Dee",
+    "cost": 14.52
+  },
+  "sold_to": {
+    "name": "Wild State Cider",
+    "address": "500 S 59th Ave W, Duluth, MN 55806"
+  },
+  "company": {
+    "name": "Wild State Cider",
+    "address": "500 S 59th Ave W, Duluth, MN 55806"
+  },
+  "paymentTerms": {
+    "terms": "Net 30"
+  }
+}

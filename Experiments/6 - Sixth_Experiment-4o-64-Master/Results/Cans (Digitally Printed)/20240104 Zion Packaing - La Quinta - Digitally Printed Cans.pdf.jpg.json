@@ -1,0 +1,67 @@
+{
+  "invoice_number": "11071",
+  "date": "01/04/2024",
+  "remit_to": {
+    "name": "Zion Packaging & Printing",
+    "address": {
+      "street": "1695 California Ave",
+      "city": "Corona",
+      "state": "CA",
+      "postal_code": "92881"
+    },
+    "phone": "(951) 335-4600",
+    "email": "accounting@zionpack.com"
+  },
+  "billing": {
+    "bill_to": {
+      "name": "La Quinta Brewing",
+      "address": "74714 Technology Drive, Palm Desert, CA 92253"
+    }
+  },
+  "shipping": {
+    "ship_to": {
+      "name": "La Quinta Brewing",
+      "address_line1": "74714 Technology Drive",
+      "city": "Palm Desert",
+      "state": "CA",
+      "postal_code": "92253"
+    },
+    "ship_via": "Customer Arranged",
+    "date_shipped": "01/04/2024"
+  },
+  "paymentTerms": {
+    "netDueDate": "02/03/2024"
+  },
+  "items": [
+    {
+      "description": "Digitally Printed Can - 16oz Standard BPANI 202/211 - Crown WO# 41976 16. oz. Una Mas 1 pallet X 8 layers @ 389 Cans = 3,112",
+      "units_ordered": 3112,
+      "unit_price": 0.3,
+      "amount": 933.6
+    },
+    {
+      "description": "Crown Plastic Pallet 44 x 56",
+      "units_ordered": 1,
+      "unit_price": 70,
+      "amount": 70
+    },
+    {
+      "description": "Crown Plastic Top Frame 44 x 56",
+      "units_ordered": 1,
+      "unit_price": 32,
+      "amount": 32
+    },
+    {
+      "description": "Crown Plastic Tier Sheet 44 x 56",
+      "units_ordered": 9,
+      "unit_price": 3,
+      "amount": 27
+    }
+  ],
+  "totals": {
+    "subtotal": 1062.6,
+    "tax": 0,
+    "total_due": 1062.6
+  },
+  "website": "http://zionpack.com"
+}

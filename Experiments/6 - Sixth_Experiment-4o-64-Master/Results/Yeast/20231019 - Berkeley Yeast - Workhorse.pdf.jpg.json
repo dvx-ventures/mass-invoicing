@@ -1,0 +1,46 @@
+{
+  "invoice": {
+    "invoiceDate": "10/19/2023",
+    "invoiceNumber": 9358,
+    "terms": "Net 30",
+    "bill_to": {
+      "name": "Nate Olewine",
+      "address": "250 King Manor Drive, Suite 300, King of Prussia, PA 19406"
+    },
+    "shipTo": {
+      "name": "Nate Olewine",
+      "address": "250 King Manor Drive, Suite 300, King of Prussia, PA 19406",
+      "phone": "(484) 681-9928",
+      "email": [
+        "nate@workhorsebrewing.com",
+        "mbente@workhorsebrewing.com",
+        "james@workhorsebrewing.com"
+      ]
+    },
+    "items": [
+      {
+        "description": "5BBL / 15P",
+        "units_ordered": 1,
+        "unit_price": 331,
+        "amount": 331
+      },
+      {
+        "description": "1 x 2L",
+        "units_ordered": 1,
+        "unit_price": 88,
+        "amount": 88
+      }
+    ],
+    "totals": {
+      "merchandise_total": 419,
+      "shipping": 152.6,
+      "total_due": 571.6
+    },
+    "customer_po": "Please do not pay from Sales Order. An invoice will be generated on the day the yeast ships."
+  },
+  "company": {
+    "name": "Berkeley Yeast",
+    "address": "2451 Peralta Street, Oakland, CA 94607",
+    "phone": "(510) 900-7231"
+  }
+}

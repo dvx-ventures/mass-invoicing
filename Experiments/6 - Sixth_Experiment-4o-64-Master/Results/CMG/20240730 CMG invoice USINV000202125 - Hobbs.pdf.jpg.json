@@ -1,0 +1,122 @@
+{
+  "invoice_number": "USINV000202125",
+  "date": "07/30/2024",
+  "remit_to": {
+    "name": "Country Malt Group",
+    "address": "16 Beeman Way, Champlain, NY 12919, USA"
+  },
+  "bill_to": {
+    "name": "Hobbs Tavern & Brewing",
+    "address": "2415 White Mountain Hwy, West Ossipee, NH 03890, USA"
+  },
+  "ship_to": {
+    "name": "Hobbs Tavern & Brewing",
+    "address": "765 NH Rt 16, Ossipee, NH 03864, USA"
+  },
+  "customer_po": "23158",
+  "order_date": "07/30/2024",
+  "date_shipped": "07/30/2024",
+  "due_date": "08/29/2024",
+  "terms": "Net 30 days",
+  "shipped_via": "ROSS EXPRESS",
+  "items": [
+    {
+      "description": "Canada Malting Superior Pilsen Malt",
+      "units_shipped": 6,
+      "unit_price": 36.85,
+      "amount": 221.1,
+      "item_code": "CM-SPIL"
+    },
+    {
+      "description": "Bestmalz Caramel Pils Malt",
+      "units_shipped": 4,
+      "unit_price": 45.65,
+      "amount": 182.6,
+      "item_code": "BZ-CRPL"
+    },
+    {
+      "description": "Canada Malting Premier Flaked Brewers Oats",
+      "units_shipped": 3,
+      "unit_price": 36.5,
+      "amount": 109.5,
+      "item_code": "CM-FBOT"
+    },
+    {
+      "description": "TF&S Pale Chocolate Malt",
+      "units_shipped": 2,
+      "unit_price": 49.5,
+      "amount": 99,
+      "item_code": "TF-PCHO"
+    },
+    {
+      "description": "Briess Malting Midnight Wheat Malt",
+      "units_shipped": 2,
+      "unit_price": 62,
+      "amount": 124,
+      "item_code": "BM-MWHT"
+    },
+    {
+      "description": "Great Western Malting Biscuit Rye Malt",
+      "units_shipped": 2,
+      "unit_price": 54.45,
+      "amount": 108.9,
+      "item_code": "GW-BRYE"
+    },
+    {
+      "description": "Canada Malting White Wheat Malt",
+      "units_shipped": 2,
+      "unit_price": 37.4,
+      "amount": 74.8,
+      "item_code": "CM-WWHT"
+    },
+    {
+      "description": "Bestmalz Dark Munich Malt",
+      "units_shipped": 1,
+      "unit_price": 45.1,
+      "amount": 45.1,
+      "item_code": "BZ-DMUN"
+    },
+    {
+      "description": "Bestmalz Wheat Malt Dark",
+      "units_shipped": 1,
+      "unit_price": 45.1,
+      "amount": 45.1,
+      "item_code": "BZ-DWHT"
+    },
+    {
+      "description": "Briess Malting CBW Pilsen Light DME",
+      "units_shipped": 2,
+      "unit_price": 107.5,
+      "amount": 215,
+      "item_code": "BM-PLDM"
+    },
+    {
+      "description": "Fermentis SafLager W-34/70",
+      "units_shipped": 4,
+      "unit_price": 105,
+      "amount": 420,
+      "item_code": "FM-3470"
+    },
+    {
+      "description": "Cryo Hop Pellets - Mosaic",
+      "units_shipped": 2,
+      "unit_price": 326.7,
+      "amount": 653.4,
+      "item_code": "YC-MOSC"
+    },
+    {
+      "description": "T90 Hop Pellets - Ekuanot",
+      "units_shipped": 1,
+      "unit_price": 131.89,
+      "amount": 131.89,
+      "item_code": "YC-EKUT"
+    }
+  ],
+  "totals": {
+    "total_qty_shipped": 32,
+    "total_due": 2635.49
+  },
+  "shipping_info": {
+    "freight_terms": "ROSS EXPRESS"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "invoice": {
+    "invoiceNumber": "USINV000193265",
+    "date": "06/11/2024",
+    "due_date": "07/11/2024",
+    "paymentTerms": {
+      "terms": "Net 30 days",
+      "netDueDate": "07/11/2024"
+    },
+    "totals": {
+      "total_due": 1913.5
+    },
+    "items": [
+      {
+        "itemNumber": "CM-FBOT",
+        "description": "Canada Malting Premier Flaked Brewers Oats",
+        "units_shipped": 6,
+        "unit_price": 36.5,
+        "extendedPrice": 219,
+        "transUOM": "EA"
+      },
+      {
+        "itemNumber": "CM-OATM",
+        "description": "Canada Malting Oat Malt",
+        "units_shipped": 6,
+        "unit_price": 46.2,
+        "extendedPrice": 277.2,
+        "transUOM": "EA"
+      },
+      {
+        "itemNumber": "CM-WWHT",
+        "description": "Canada Malting White Wheat Malt",
+        "units_shipped": 4,
+        "unit_price": 37.4,
+        "extendedPrice": 149.6,
+        "transUOM": "EA"
+      },
+      {
+        "itemNumber": "BZ-CRPL",
+        "description": "Bestmalz Caramel Pils Malt",
+        "units_shipped": 4,
+        "unit_price": 45.65,
+        "extendedPrice": 182.6,
+        "transUOM": "EA"
+      },
+      {
+        "itemNumber": "CM-2ROW",
+        "description": "Canada Malting Premium Two Row Brewers Malt",
+        "units_shipped": 20,
+        "unit_price": 36.3,
+        "extendedPrice": 726,
+        "transUOM": "EA"
+      },
+      {
+        "itemNumber": "FM-WB06",
+        "description": "Fermentis SafAle WB-06",
+        "units_shipped": 2,
+        "unit_price": 77,
+        "extendedPrice": 154,
+        "transUOM": "EA"
+      }
+    ],
+    "soldTo": {
+      "name": "Hobbs Tavern & Brewing",
+      "address": "765 NH Rt 16, Ossipee, NH 03864, USA"
+    },
+    "shipTo": {
+      "name": "Country Malt Group",
+      "address": "16 Beeman Way, Champlain, NY 12919, USA"
+    },
+    "customer_po": "23140",
+    "order_date": "06/11/2024",
+    "date_shipped": "06/11/2024",
+    "shipped_via": "ROSS EXPRESS"
+  },
+  "company": {
+    "name": "Hobbs Tavern & Brewing",
+    "address": "2415 White Mountain Hwy, West Ossipee, NH 03890, USA"
+  },
+  "remit_to": {
+    "name": "Country Malt",
+    "address": "PO Box 51602, Los Angeles, CA 90051-5902",
+    "phone": "360-905-3380"
+  },
+  "totals": {
+    "total_due": 1913.5,
+    "currency": "USD"
+  },
+  "contact": {
+    "email": "cmglogisticsteam@countrymalt.com"
+  }
+}

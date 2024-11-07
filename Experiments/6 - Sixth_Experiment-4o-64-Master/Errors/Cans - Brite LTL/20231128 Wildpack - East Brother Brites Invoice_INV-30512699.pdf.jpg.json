@@ -1,0 +1,34 @@
+{
+  "source": "SOR08623",
+  "reference": "",
+  "shipping_address": {
+    "name": "East Brother Beer Company, East Brother - Deliveries",
+    "address_line_1": "1001 Canal Blvd, #C-2",
+    "city": "Richmond",
+    "state": "CA",
+    "zip_code": "94804",
+    "country": "United States"
+  },
+  "payment_remittance_instructions": {
+    "wire_ach": {
+      "beneficiary_account_name": "Wildpack Holdings US Inc.",
+      "beneficiary_address": "1301 Edison Hwy Ste A2, Baltimore, MD 21213",
+      "beneficiary_bank_address": "111 West Ocean Boulevard, Suite 530, Long Beach, California, 90802"
+    },
+    "credit_card": {
+      "accepted_cards": [
+        "Visa",
+        "MasterCard",
+        "Discover",
+        "American Express"
+      ],
+      "transaction_fee": "3%",
+      "contact_phone": "725-277-4518"
+    },
+    "check": {
+      "payable_to": "Wildpack Holdings U.S. Inc. DBA Wildpack Beverage",
+      "west_coast_address": "Suite FF 3917 E. Lone Mountain Road, North Las Vegas, Nevada, 89081, USA",
+      "east_coast_address": "4350 40th St SE, Grand Rapids, Michigan, 49512, USA"
+    }
+  }
+}

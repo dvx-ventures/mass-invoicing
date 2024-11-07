@@ -1,0 +1,47 @@
+{
+  "invoice_number": "89821",
+  "date": "5/17/2024",
+  "due_date": "6/16/2024",
+  "terms": "Net 30",
+  "shipped_via": "UPS",
+  "items": [
+    {
+      "items[].lineNumber": 1,
+      "items[].description": "Labels Hold My Juice 16oz",
+      "items[].total_quantity": 1200,
+      "items[].unit_price": 0.09,
+      "items[].amount": 108
+    },
+    {
+      "items[].lineNumber": 2,
+      "items[].description": "Labels Freedom Pale Ale 16oz",
+      "items[].total_quantity": 800,
+      "items[].unit_price": 0.09,
+      "items[].amount": 72
+    },
+    {
+      "items[].lineNumber": 3,
+      "items[].description": "Shipping UPS Ground",
+      "items[].total_quantity": 1,
+      "items[].unit_price": 13.26,
+      "items[].amount": 13.26
+    }
+  ],
+  "totals": {
+    "totals.merchandise_total": 193.26,
+    "totals.sales_tax": 0,
+    "totals.total_due": 193.26
+  },
+  "bill_to": {
+    "bill_to.name": "Hobbs Tavern and Brewing Company",
+    "bill_to.address": "765 NH 16, Ossipee, NH 03864"
+  },
+  "ship_to": {
+    "ship_to.name": "Hobbs Brewing Company",
+    "ship_to.address": "2415 NH Route 16, West Ossipee, NH 03890"
+  },
+  "company": {
+    "company.name": "InTouch Labels & Packaging, Part of Avery Products Corporation",
+    "company.address": "12 Technology Drive, North Chelmsford, MA 01863"
+  }
+}

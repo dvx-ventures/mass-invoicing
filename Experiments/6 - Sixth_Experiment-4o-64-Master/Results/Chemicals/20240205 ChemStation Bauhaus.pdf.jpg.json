@@ -1,0 +1,57 @@
+{
+  "invoice_number": "40008069",
+  "date": "2/5/2024",
+  "company": {
+    "name": "ChemStation Minnesota LLC",
+    "address": "P O Box 933033, Cleveland, OH 44193",
+    "phone": "(000) 000-0000 Ext. 0000",
+    "fax": "(000) 000-0000 Ext. 0000"
+  },
+  "bill_to": {
+    "name": "Bauhaus Brew Labs",
+    "address": {
+      "street": "1315 Tyler St NE, Minneapolis",
+      "city": "Minneapolis",
+      "state": "MN",
+      "postal_code": "55413"
+    }
+  },
+  "ship_to": {
+    "name": "BAUHAUS BREW LABS",
+    "address": "1315 Tyler St NE, Minneapolis, MN 55413"
+  },
+  "order_date": "2/5/2024",
+  "terms": "2% Amex",
+  "items": [
+    {
+      "units_ordered": 5,
+      "units_shipped": 5,
+      "item_code": "553008",
+      "description": "BREWERY WASH",
+      "unit_price": 9.99,
+      "amount": 49.95
+    },
+    {
+      "units_ordered": 80,
+      "units_shipped": 80,
+      "item_code": "30",
+      "description": "BREWERY WASH",
+      "unit_price": 3.68,
+      "amount": 294.4
+    },
+    {
+      "units_ordered": 1,
+      "units_shipped": 1,
+      "item_code": "OXYDATE 35# PAIL",
+      "description": "Oxydate 35# Pail",
+      "unit_price": 106.94,
+      "amount": 106.94
+    }
+  ],
+  "totals": {
+    "subtotal": 451.29,
+    "sales_tax": 40.73,
+    "total_due": 492.02
+  },
+  "sales_agent": "1107"
+}

@@ -1,0 +1,87 @@
+{
+  "invoice_number": "USINV000189844",
+  "date": "05/23/2024",
+  "remit_to": {
+    "name": "Country Malt",
+    "address": "PO Box 51602, Los Angeles, CA 90051-5902",
+    "phone": "360-905-3380"
+  },
+  "bill_to": {
+    "name": "Hobbs Tavern & Brewing",
+    "address": "2415 White Mountain Hwy, West Ossipee, NH 03890, USA"
+  },
+  "ship_to": {
+    "name": "Hobbs Tavern & Brewing",
+    "address": "765 NH Rt 16, Ossipee, NH 03864, USA"
+  },
+  "customer_po": "23133",
+  "order_date": "05/23/2024",
+  "date_shipped": "05/23/2024",
+  "due_date": "06/22/2024",
+  "terms": "Net 30 days",
+  "items": [
+    {
+      "item_code": "BZ-HDBR",
+      "description": "Bestmalz Heidelberg Malt Size: 55LB/25KG Year:",
+      "units_shipped": 16,
+      "unit_price": 44.55,
+      "amount": 712.8
+    },
+    {
+      "item_code": "CM-OATM",
+      "description": "Canada Malting Oat Malt Size: 55LB/25KG Year:",
+      "units_shipped": 2,
+      "unit_price": 46.2,
+      "amount": 92.4
+    },
+    {
+      "item_code": "CM-RWHT",
+      "description": "Canada Malting Red Wheat Malt Size: 55LB/25KG Year:",
+      "units_shipped": 8,
+      "unit_price": 37.4,
+      "amount": 299.2
+    },
+    {
+      "item_code": "SU-DEXT",
+      "description": "Corn Sugar - Dextrose Size: 50LB/22.7K Year:",
+      "units_shipped": 4,
+      "unit_price": 52,
+      "amount": 208
+    },
+    {
+      "item_code": "YC-MOST",
+      "description": "T90 Hop Pellets - Mosaic Size: 1x5KG Year: 2022",
+      "units_shipped": 4,
+      "unit_price": 125.95,
+      "amount": 418.15
+    },
+    {
+      "item_code": "FM-S04Y",
+      "description": "Fermentis SafAle S-04 Size: 500GRAM Year:",
+      "units_shipped": 1,
+      "unit_price": 61.5,
+      "amount": 61.5
+    },
+    {
+      "item_code": "LB-SVIS",
+      "description": "Lallemand Sourvisiae Yeast Size: 500GRAM Year:",
+      "units_shipped": 12,
+      "unit_price": 17.5,
+      "amount": 217.5
+    },
+    {
+      "item_code": "FM-3470",
+      "description": "Fermentis SafLager W-34/70 Size: 500GRAM Year:",
+      "units_shipped": 4,
+      "unit_price": 105,
+      "amount": 420
+    }
+  ],
+  "totals": {
+    "total_due": 2634.65,
+    "sales_tax": 0
+  },
+  "shipping_info": {
+    "shipped_via": "ROSS EXPRESS"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "invoice_number": "IN24135501",
+  "date": "2024-05-09",
+  "due_date": "2024-06-08",
+  "remit_to": {
+    "name": "L2 Brands, LLC",
+    "address": "300 Fame Ave, Hanover, PA 17331, USA"
+  },
+  "bill_to": {
+    "name": "Hobbs Tavern & Brewing Company LLC",
+    "address": "756 Route 16, Ossipee, NH 03864, USA"
+  },
+  "ship_to": {
+    "name": "Hobbs Brewing Co",
+    "address": "765 NH Route 16, Ossipee, NH 03864, USA"
+  },
+  "shipped_via": "FEDEX Ground",
+  "terms": "N30",
+  "items": [
+    {
+      "item_code": "MPS-2975-ADJ",
+      "description": "REORDER#:1535274 - Melange grey/white trucker MPS w/ Hobb's",
+      "units_ordered": 60,
+      "unit_price": 11.75,
+      "amount": 705
+    },
+    {
+      "item_code": "34PXCP",
+      "description": "Front - Printed Custom Patch",
+      "units_ordered": 60,
+      "unit_price": 1.5,
+      "amount": 90
+    },
+    {
+      "item_code": "100",
+      "description": "Shipping/Handling",
+      "units_ordered": 1,
+      "unit_price": 21.9,
+      "amount": 21.9
+    }
+  ],
+  "totals": {
+    "merchandise_total": 816.9,
+    "sales_tax": 0,
+    "total_due": 816.9
+  },
+  "soldTo": {
+    "name": "Hobbs Tavern & Brewing Company LLC",
+    "address": "756 Route 16, Ossipee, NH 03864, USA",
+    "customerNumber": 19467
+  },
+  "shipping_info": {
+    "shipped_via": "FEDEX Ground"
+  },
+  "sales_agent": "622"
+}

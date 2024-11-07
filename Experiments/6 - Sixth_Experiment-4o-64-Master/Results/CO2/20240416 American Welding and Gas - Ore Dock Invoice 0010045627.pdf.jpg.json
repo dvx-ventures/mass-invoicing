@@ -1,0 +1,47 @@
+{
+  "invoice_number": "N79346",
+  "date": "10-07-23",
+  "soldTo": {
+    "customerNumber": 33666,
+    "name": "Ver-Dor Fish & Co.",
+    "address": "1 Mainscreen St, Marquette MI 49855"
+  },
+  "shipTo": {
+    "name": "Ver-Dor Fish & Co.",
+    "address": "1 Mainscreen St, Marquette MI 49855"
+  },
+  "items": [
+    {
+      "item_code": "791642",
+      "description": "Oxygen",
+      "units_ordered": 2,
+      "unit_price": 11.58,
+      "amount": 23.16
+    },
+    {
+      "item_code": "794222",
+      "description": "Replacement",
+      "units_ordered": 1,
+      "unit_price": 7.93,
+      "amount": 7.93
+    },
+    {
+      "item_code": "791422",
+      "description": "Hazardous Material Fee",
+      "units_ordered": 2,
+      "unit_price": 9.8,
+      "amount": 19.6
+    }
+  ],
+  "totals": {
+    "merchandise_total": 50.69,
+    "sales_tax": 0,
+    "shipping": 521.29,
+    "total_due": 571.98
+  },
+  "company": {
+    "name": "American Welding & Gas, Inc.",
+    "address": "24 Belden Ave, East Syracuse, NY 13057",
+    "phone": "800-347-2353"
+  }
+}

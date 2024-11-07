@@ -1,0 +1,59 @@
+{
+  "invoice": {
+    "invoiceNumber": "IN0179231",
+    "invoiceDate": "6/30/2023",
+    "terms": "The transaction(s) covered by this invoice are subject to the terms and conditions at: http://www.zh-inc.com/CustomerTerms.pdf, which are incorporated herein by this reference.",
+    "dueDate": "7/30/2023",
+    "date_shipped": "6/30/2023",
+    "soldTo": {
+      "name": "Gearhouse Brewing Co.",
+      "address": "253 Grant Street, Chambersburg, PA 17201"
+    },
+    "shipTo": {
+      "name": "Gearhouse Brewing Co.",
+      "address": "253 Grant Street, Chambersburg, PA 17201"
+    },
+    "paymentTerms": {
+      "netDueDate": "7/30/2023",
+      "terms": "Net 30 Days"
+    },
+    "items": [
+      {
+        "item_code": "PL5057",
+        "quantity": 10114,
+        "unit_price": 191,
+        "description": "16 oz Aluminum Regular Brite Can - No Print",
+        "amount": 1931.77
+      },
+      {
+        "item_code": "Ea",
+        "quantity": 23712,
+        "unit_price": 41,
+        "description": "202 Diameter LOE 10 States - B64 Aluminum Can End",
+        "amount": 972.19
+      },
+      {
+        "item_code": "PL6613",
+        "quantity": 13226,
+        "unit_price": 151,
+        "description": "12 oz Aluminum Regular Brite Can - No Print",
+        "amount": 1997.13
+      },
+      {
+        "item_code": "Ea",
+        "quantity": 1,
+        "unit_price": 8,
+        "description": "Pallet Charges (Beverage)",
+        "amount": 8
+      }
+    ],
+    "totals": {
+      "total_due": 4909.09
+    },
+    "freight_terms": "",
+    "shipped_via": "Pitt Ohio NOR-5042635811",
+    "shipping_info": {
+      "bill_of_lading": "BOL00222633"
+    }
+  }
+}

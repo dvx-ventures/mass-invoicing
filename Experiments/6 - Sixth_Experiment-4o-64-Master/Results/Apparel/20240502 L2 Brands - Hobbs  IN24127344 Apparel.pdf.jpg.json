@@ -1,0 +1,47 @@
+{
+  "invoice_number": "IN24127344",
+  "date": "5/2/2024",
+  "page": "1 of 1",
+  "remit_to": {
+    "name": "L2 Brands, LLC",
+    "address": "300 Fame Ave, Hanover, PA 17331"
+  },
+  "ship_to": {
+    "name": "Hobbs Brewery- Belize",
+    "address": "51 Mill St - Building F, Hanover, MA 02339, USA"
+  },
+  "customer_po": "040924Ash",
+  "due_date": "06/01/2024",
+  "shipped_via": "FEDEX Ground",
+  "sales_agent": "622",
+  "items": [
+    {
+      "description": "REORDER#: 1876860 - Navy TTA w/Hobbs offset",
+      "units_ordered": 57,
+      "unit_price": 10.75,
+      "amount": 612.75,
+      "item_code": "TTA-001-ADJ"
+    },
+    {
+      "description": "Rear Location Embellishment",
+      "units_ordered": 57,
+      "unit_price": 1.5,
+      "amount": 85.5,
+      "item_code": "17"
+    },
+    {
+      "description": "Shipping/Handling",
+      "units_ordered": 1,
+      "unit_price": 17.44,
+      "amount": 17.44,
+      "item_code": "100"
+    }
+  ],
+  "totals": {
+    "total_due": 715.69
+  },
+  "sold_to": {
+    "name": "Hobbs Tavern & Brewing Company LLC",
+    "address": "756 Route 16, Ossipee, NH 03864, USA"
+  }
+}

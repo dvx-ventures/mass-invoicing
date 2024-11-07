@@ -1,0 +1,60 @@
+{
+  "invoice_number": "INV-30510127",
+  "date": "07/18/2023",
+  "terms": "15 Days from invoice date",
+  "due_date": "08/02/2023",
+  "remit_to": {
+    "name": "Wildpack Holdings US Inc.",
+    "address": "1301 Edison Hwy Ste A2, Baltimore, MD 21213",
+    "bank_details": {
+      "bank_name": "Wells Fargo",
+      "account_number": "4129676102",
+      "routing_number": "121000248",
+      "swift_code": "WFBIUS6S"
+    }
+  },
+  "bill_to": {
+    "name": "Tam Tavern Brewing Company dba East Brother",
+    "address": "1001 Canal Blvd #C-2",
+    "city": "Richmond",
+    "state": "CA",
+    "zip": "94804",
+    "country": "United States"
+  },
+  "ship_to": {
+    "name": "Tam Tavern Brewing Company dba East Brother",
+    "address_line1": "1001 Canal Blvd, #C-2",
+    "city": "Richmond",
+    "state": "CA",
+    "zip": "94804",
+    "country": "United States"
+  },
+  "items": [
+    {
+      "description": "East Brother - Bo Pils - 19.2oz Standard Sleeved Can (Ball; Glossy; BPANI)",
+      "quantity": 5057,
+      "unit_price": 0.47,
+      "amount": 2376.79
+    },
+    {
+      "description": "East Brother - Gold IPA - 19.2oz Sleeved Can (Ball; Glossy; BPANI)",
+      "quantity": 5057,
+      "unit_price": 0.47,
+      "amount": 2376.79
+    },
+    {
+      "description": "East Brother - Blonde Ale - 16oz Standard Sleeved Can (Ball; Glossy; BPANI)",
+      "quantity": 37344,
+      "unit_price": 0.2675,
+      "amount": 9989.52
+    }
+  ],
+  "totals": {
+    "subtotal": 14743.1,
+    "total_due": 14743.1
+  },
+  "paymentTerms": {
+    "netDueDate": "08/02/2023",
+    "terms": "15 Days from invoice date"
+  }
+}

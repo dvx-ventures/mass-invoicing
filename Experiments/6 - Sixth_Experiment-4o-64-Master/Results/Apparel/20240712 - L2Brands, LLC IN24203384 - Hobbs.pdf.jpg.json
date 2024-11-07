@@ -1,0 +1,86 @@
+{
+  "invoice": {
+    "invoiceNumber": "IN24203384",
+    "invoiceDate": "7/12/2024",
+    "dueDate": "08/11/2024",
+    "totalInvoice": "450.11",
+    "salesOrderNumberType": "062724Kasey",
+    "branchPlant": 19467,
+    "shipmentNumber": 622
+  },
+  "soldTo": {
+    "name": "Hobbs Tavern & Brewing Company LLC",
+    "address": "756 Route 16, Ossipee, NH 03864, USA",
+    "customerNumber": 19467
+  },
+  "shipTo": {
+    "name": "Hobbs Brewing Co",
+    "address": "765 NH Route 16, Ossipee, NH 03864, USA"
+  },
+  "customerPO": "062724Kasey",
+  "order_date": "7/12/2024",
+  "shipping_info": {
+    "shipped_via": "FEDEX Ground",
+    "freight_terms": "N30"
+  },
+  "invoice_number": "IN24203384",
+  "date": "7/12/2024",
+  "due_date": "08/11/2024",
+  "remit_to": {
+    "company": "L2 Brands, LLC",
+    "address": "300 Fame Ave, Hanover, PA 17331"
+  },
+  "contact": {
+    "phone": "(717) 630-0892",
+    "fax": "(717) 630-0827"
+  },
+  "sales_agent": "622",
+  "terms": "N30",
+  "items": [
+    {
+      "item_code": "LA085-451-S",
+      "description": "REORDER#:2016135 - Heather riviera LA085 w/ Hobbs Tavern Log",
+      "units_ordered": 7,
+      "units_shipped": 7,
+      "unit_price": 11.5,
+      "amount": 80.5
+    },
+    {
+      "item_code": "LA085-451-M",
+      "description": "REORDER#:2016135 - Heather riviera LA085 w/ Hobbs Tavern Log",
+      "units_ordered": 10,
+      "units_shipped": 10,
+      "unit_price": 11.5,
+      "amount": 115
+    },
+    {
+      "item_code": "LA085-451-L",
+      "description": "REORDER#:2016135 - Heather riviera LA085 w/ Hobbs Tavern Log",
+      "units_ordered": 10,
+      "units_shipped": 10,
+      "unit_price": 11.5,
+      "amount": 115
+    },
+    {
+      "item_code": "LA085-451-XL",
+      "description": "REORDER#:2016135 - Heather riviera LA085 w/ Hobbs Tavern Log",
+      "units_ordered": 10,
+      "units_shipped": 10,
+      "unit_price": 11.5,
+      "amount": 115
+    },
+    {
+      "item_code": "100",
+      "description": "Shipping/Handling",
+      "units_ordered": 1,
+      "units_shipped": 1,
+      "unit_price": 24.61,
+      "amount": 24.61
+    }
+  ],
+  "totals": {
+    "merchandise_total": 450.11,
+    "sales_tax": 0,
+    "total_due": 450.11
+  }
+}

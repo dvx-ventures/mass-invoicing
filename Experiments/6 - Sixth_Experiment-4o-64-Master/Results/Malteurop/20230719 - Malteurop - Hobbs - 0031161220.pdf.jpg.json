@@ -1,0 +1,84 @@
+{
+  "invoice_number": "31161220",
+  "date": "07/19/2023",
+  "page": "1/1",
+  "sold_to": {
+    "customerNumber": 103924,
+    "name": "HOBBS BREWING COMPANY LLC",
+    "address": "765 NH-16",
+    "city": "OSSIPEE",
+    "state": "NH",
+    "zip": "03864",
+    "country": "USA"
+  },
+  "ship_to": {
+    "name": "HOBBS BREWING COMPANY LLC",
+    "address": "765 NH-16",
+    "city": "OSSIPEE",
+    "state": "NH",
+    "zip": "03864",
+    "country": "USA"
+  },
+  "paymentTerms": {
+    "terms": "30 days from B/L"
+  },
+  "items": [
+    {
+      "date_shipped": "07/19/2023",
+      "shipmentNumber": 822860,
+      "description": "PILSEN BAG MALT 55LB",
+      "itemNumber": "8000746436",
+      "country_of_origin": "US",
+      "qtyShipped": 6,
+      "transUOM": "BAG",
+      "unit_price": 39.05,
+      "amount": 234.3,
+      "currency": "USD"
+    },
+    {
+      "date_shipped": "07/19/2023",
+      "shipmentNumber": 822860,
+      "description": "2ROW CRAFT BAG MALT 55LB",
+      "itemNumber": "8000742036",
+      "country_of_origin": "US",
+      "qtyShipped": 30,
+      "transUOM": "BAG",
+      "unit_price": 38.5,
+      "amount": 1155,
+      "currency": "USD"
+    },
+    {
+      "date_shipped": "07/19/2023",
+      "shipmentNumber": 822860,
+      "description": "CRYSTAL WHEAT 3L BAG MALT 55LB",
+      "itemNumber": "8000704986",
+      "country_of_origin": "US",
+      "qtyShipped": 3,
+      "transUOM": "BAG",
+      "unit_price": 49.5,
+      "amount": 148.5,
+      "currency": "USD"
+    }
+  ],
+  "totals": {
+    "total": 1692.8,
+    "currency": "USD"
+  },
+  "shipping": {
+    "cost": 155,
+    "currency": "USD"
+  },
+  "customer_po": "23049",
+  "contact": {
+    "email": "customersuccess@malteurop.com",
+    "phone": "844-546-6258"
+  },
+  "payment_information": {
+    "beneficiary": "MALTEUROP NORTH AMERICA",
+    "bank": "JPMORGAN CHASE BANK NA",
+    "account_number": "844001040",
+    "ach_routing_number": "071000013",
+    "wire_routing_number": "CHASUS33",
+    "mail_checks_to": "MENA, 6737 W. WASHINGTON ST. SUITE 4204, MILWAUKEE, WI 53214"
+  }
+}

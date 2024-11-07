@@ -1,0 +1,65 @@
+{
+  "invoice_number": "USINV000159274",
+  "date": "01/16/2024",
+  "due_date": "02/15/2024",
+  "terms": "Net 30 days",
+  "ship_to": {
+    "name": "East Brother Beer Co",
+    "address": "1001 Canal Blvd - #C 2, Richmond, CA 94804, USA"
+  },
+  "remit_to": {
+    "name": "Country Malt",
+    "address": "PO Box 51602, Los Angeles, CA 90051-5902",
+    "email": "remittance@gwmalt.com",
+    "phone": "360-905-3380"
+  },
+  "items": [
+    {
+      "description": "Great Western Malting Pale High Color Malt",
+      "item_code": "GW-PAHC",
+      "units_shipped": 4,
+      "unit_price": 34.65,
+      "amount": 138.6
+    },
+    {
+      "description": "Canada Malting Premier Flaked Brewers Oats",
+      "item_code": "CM-FBOT",
+      "units_shipped": 2,
+      "unit_price": 36,
+      "amount": 72
+    },
+    {
+      "description": "Briess Malting Victory Malt",
+      "item_code": "BM-VICT",
+      "units_shipped": 2,
+      "unit_price": 52.5,
+      "amount": 105
+    },
+    {
+      "description": "Briess Malting Midnight Wheat Malt",
+      "item_code": "BM-MWHT",
+      "units_shipped": 1,
+      "unit_price": 61,
+      "amount": 61
+    },
+    {
+      "description": "Briess Malting 2-Row Caramel Malt 60",
+      "item_code": "BM-C60M",
+      "units_shipped": 1,
+      "unit_price": 50.5,
+      "amount": 50.5
+    },
+    {
+      "description": "TF&S Chocolate Malt",
+      "item_code": "TF-CHOC",
+      "units_shipped": 1,
+      "unit_price": 51.15,
+      "amount": 51.15
+    }
+  ],
+  "totals": {
+    "total_quantity": 11,
+    "total_ext_price": 478.25,
+    "total_due": 478.25
+  }
+}

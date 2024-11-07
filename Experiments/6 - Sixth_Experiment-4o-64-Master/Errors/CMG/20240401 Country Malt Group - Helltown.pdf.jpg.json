@@ -1,0 +1,52 @@
+{
+  "company": {
+    "GST": "8966 11431 RT0001",
+    "QST": "102036 1936 TQ0001"
+  },
+  "invoice": {
+    "orderNumber": "CAS100121768",
+    "invoiceAccount": "CAC000924",
+    "currency": "USD",
+    "poNumber": ""
+  },
+  "salesContract": {
+    "salesContractID": "CASC000000730",
+    "loadID": "CAL100103907",
+    "contractBalanceRemaining": 53409
+  },
+  "accessorials": {
+    "description": "Total Freight and Accessorials",
+    "amountExclTax": 0,
+    "netWeightMT": 21.591,
+    "netWeightKG": 21591,
+    "netWeightLB": 47600
+  },
+  "taxes": {
+    "QST": 0,
+    "HST": 0,
+    "GST": 0,
+    "totalTaxes": 0,
+    "totalAmountInclTaxes": 17201.77
+  },
+  "bankDetails": [
+    {
+      "currency": "CAD",
+      "beneficiaryBank": "Bank of Montreal, Vancouver Main Branch #4, 595 Burrard St, Vancouver, BC V7X IL7, Canada",
+      "accountNumber": "000100040BOFMCAM200041622615"
+    },
+    {
+      "currency": "USD",
+      "beneficiaryBank": "Bank of Montreal, 595 Burrard St, Vancouver, BC V7X IL7, Canada",
+      "intermediary": "Wells Fargo, 11 Penn Plaza, 4th Floor, New York, NY 10038, USA",
+      "swift": "PNBPUS3NNYC",
+      "aba": "026005092",
+      "accountNumber": "000100040BOFMCAM200044668108"
+    },
+    {
+      "currency": "USD ACH",
+      "beneficiaryBank": "BMO Harris Bank, 111 West Monroe Street, Chicago IL, 60603",
+      "routingNumber": "071000288",
+      "accountNumber": "HATRUS442064984"
+    }
+  ]
+}

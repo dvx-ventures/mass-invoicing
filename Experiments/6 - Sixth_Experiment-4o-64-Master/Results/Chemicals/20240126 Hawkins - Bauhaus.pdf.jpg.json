@@ -1,0 +1,81 @@
+{
+  "invoice_number": "6675227",
+  "date": "1/26/24",
+  "remit_to": {
+    "name": "Hawkins, Inc.",
+    "address": "2381 Rosegate, Roseville, MN 55113",
+    "phone": "(612) 331-6910"
+  },
+  "ship_to": {
+    "name": "BAUHAUS BREW LABS",
+    "address": "1315 Tyler St NE, Minneapolis MN 55413-1530"
+  },
+  "customer_po": "Chris S.",
+  "due_date": "2/25/24",
+  "terms": "Net 30",
+  "shipping_info": {
+    "freight_terms": "PPA Origin",
+    "shipped_via": "HWTG"
+  },
+  "sales_agent": "46",
+  "items": [
+    {
+      "lineNumber": 1,
+      "itemNumber": 544,
+      "description": "Citric Acid FCC Anhy Import",
+      "tax": "N",
+      "qtyShipped": 2,
+      "transUOM": "BG",
+      "unitPrice": 4.59,
+      "priceUOM": "LB",
+      "amount": 459,
+      "additionalInfo": {
+        "LotSN": "AA-23071275-G"
+      }
+    },
+    {
+      "lineNumber": 1.01,
+      "description": "Fuel Surcharge Freight",
+      "tax": "N",
+      "qtyShipped": 1,
+      "transUOM": "EA",
+      "unitPrice": 27.5,
+      "amount": 27.5
+    },
+    {
+      "lineNumber": 2,
+      "itemNumber": 499991,
+      "description": "Freight Charge",
+      "tax": "N",
+      "qtyShipped": 1,
+      "transUOM": "EA",
+      "unitPrice": 15,
+      "priceUOM": "EA",
+      "amount": 15
+    },
+    {
+      "lineNumber": 3,
+      "itemNumber": 62782,
+      "description": "Potassium Sorbate / Sod Benzoate",
+      "tax": "N",
+      "qtyShipped": 2,
+      "transUOM": "DG",
+      "unitPrice": 8.4731,
+      "priceUOM": "LB",
+      "amount": 788,
+      "additionalInfo": {
+        "LotSN": "781931"
+      }
+    }
+  ],
+  "totals": {
+    "total_due": 1289.5,
+    "taxable_sales": 0,
+    "sales_tax": 0
+  },
+  "soldTo": {
+    "customerNumber": 359819,
+    "name": "BAUHAUS BREW LABS",
+    "address": "1315 Tyler St NE, Minneapolis MN 55413-1530"
+  }
+}

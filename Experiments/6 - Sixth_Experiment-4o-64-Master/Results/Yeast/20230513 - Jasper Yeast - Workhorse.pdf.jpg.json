@@ -1,0 +1,32 @@
+{
+  "invoice_number": "493504",
+  "date": "May 13, 2023",
+  "remit_to": {
+    "name": "Jasper Yeast",
+    "address": "23600 Overland Drive #150, Sterling, VA 20166, USA"
+  },
+  "bill_to": {
+    "name": "Jasper Yeast",
+    "address": "23600 Overland Drive #150, Sterling, VA 20166, USA"
+  },
+  "items": [
+    {
+      "description": "150 bbl JY218 Augustiner Lager",
+      "unit_price": 2400,
+      "amount": 2400,
+      "tax": "Tax Exempt"
+    },
+    {
+      "description": "Shipping Overnight",
+      "unit_price": 145,
+      "amount": 145,
+      "tax": "Tax Exempt"
+    }
+  ],
+  "due_date": "May 27, 2023",
+  "totals": {
+    "subtotal": 2545,
+    "total_due": 2545
+  },
+  "customer_service_email": "info@jasperyeast.com"
+}

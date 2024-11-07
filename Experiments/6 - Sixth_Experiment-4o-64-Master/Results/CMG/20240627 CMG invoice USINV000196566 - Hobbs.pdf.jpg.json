@@ -1,0 +1,98 @@
+{
+  "invoice_number": "USINV000196566",
+  "date": "06/27/2024",
+  "remit_to": {
+    "name": "Country Malt",
+    "address": {
+      "street": "PO Box 51602",
+      "city": "Los Angeles",
+      "state": "CA",
+      "postal_code": "90051-5902",
+      "country": "USA"
+    }
+  },
+  "ship_to": {
+    "name": "Hobbs Tavern & Brewing",
+    "address": "765 NH Rt 16",
+    "city": "Ossipee",
+    "state": "NH",
+    "zip": "03864"
+  },
+  "customer_po": "23145",
+  "order_date": "06/27/2024",
+  "date_shipped": "06/27/2024",
+  "due_date": "07/27/2024",
+  "shipped_via": "ROSS EXPRESS",
+  "terms": "Net 30 days",
+  "items": [
+    {
+      "item_code": "CM-OATM",
+      "description": "Canada Malting Oat Malt",
+      "units_shipped": 10,
+      "unit_price": 46.2,
+      "amount": 462
+    },
+    {
+      "item_code": "CM-FBOT",
+      "description": "Canada Malting Premier Flaked Brewers Oats",
+      "units_shipped": 6,
+      "unit_price": 36.5,
+      "amount": 219
+    },
+    {
+      "item_code": "CM-WWHT",
+      "description": "Canada Malting White Wheat Malt",
+      "units_shipped": 6,
+      "unit_price": 37.4,
+      "amount": 224.4
+    },
+    {
+      "item_code": "BZ-CRPL",
+      "description": "Bestmalz Caramel Pils Malt",
+      "units_shipped": 10,
+      "unit_price": 45.65,
+      "amount": 456.5
+    },
+    {
+      "item_code": "SU-DEXT",
+      "description": "Corn Sugar - Dextrose",
+      "units_shipped": 4,
+      "unit_price": 52,
+      "amount": 208
+    },
+    {
+      "item_code": "BM-PLLM",
+      "description": "Briess Malting CBW Pilsen Light LME",
+      "units_shipped": 2,
+      "unit_price": 90,
+      "amount": 180
+    },
+    {
+      "item_code": "YC-CITT",
+      "description": "T90 Hop Pellets - Citra",
+      "year": "2023",
+      "units_shipped": 6,
+      "unit_price": 178.75,
+      "amount": 1072.5
+    },
+    {
+      "item_code": "YC-MOS",
+      "description": "T90 Hop Pellets - Mosaic",
+      "year": "2022",
+      "units_shipped": 14,
+      "unit_price": 13.16,
+      "amount": 413.16
+    },
+    {
+      "item_code": "YC-SIM",
+      "description": "T90 Hop Pellets - Simcoe",
+      "year": "2022",
+      "units_shipped": 4,
+      "unit_price": 130.68,
+      "amount": 522.72
+    }
+  ],
+  "totals": {
+    "total_due": 3963.38
+  }
+}

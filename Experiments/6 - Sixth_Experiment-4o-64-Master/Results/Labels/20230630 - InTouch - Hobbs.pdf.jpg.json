@@ -1,0 +1,62 @@
+{
+  "invoice_number": "76718",
+  "date": "6/30/2023",
+  "due_date": "7/30/2023",
+  "bill_to": {
+    "name": "Hobbs Tavern and Brewing Company",
+    "city": "Ossipee",
+    "state": "NH",
+    "bill_to.zip": "03864",
+    "bill_to.address": "765 NH 16"
+  },
+  "ship_to": {
+    "name": "Hobbs Brewing Company",
+    "city": "West Ossipee",
+    "state": "NH",
+    "ship_to.zip": "03890",
+    "ship_to.address": "2415 NH Route 16"
+  },
+  "remit_to": {
+    "name": "InTouch Labels & Packaging. Part of Avery Products Corporation",
+    "remit_to.address": "12 Technology Drive",
+    "remit_to.city": "North Chelmsford",
+    "remit_to.state": "MA",
+    "remit_to.zip": "01863"
+  },
+  "terms": "Net 30",
+  "shipping_info": {
+    "shipping_info.shipped_via": "UPS",
+    "shipping_info.shipping_date": "6/30/2023"
+  },
+  "items": [
+    {
+      "items[].description": "Lake Life 16oz",
+      "items[].units_ordered": 6800,
+      "items[].unit_price": 0.09,
+      "items[].amount": 612
+    },
+    {
+      "items[].description": "HiJack 16oz",
+      "items[].units_ordered": 6800,
+      "items[].unit_price": 0.09,
+      "items[].amount": 612
+    },
+    {
+      "items[].description": "Jacked Up 16oz",
+      "items[].units_ordered": 1800,
+      "items[].unit_price": 0.09,
+      "items[].amount": 162
+    },
+    {
+      "items[].description": "UPS Ground",
+      "items[].units_ordered": 1,
+      "items[].unit_price": 27.18,
+      "items[].amount": 27.18
+    }
+  ],
+  "totals": {
+    "totals.subtotal": 1413.18,
+    "totals.sales_tax": 0,
+    "totals.total": 1413.18
+  }
+}

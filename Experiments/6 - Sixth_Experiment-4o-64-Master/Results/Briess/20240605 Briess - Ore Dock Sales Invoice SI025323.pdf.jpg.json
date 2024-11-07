@@ -1,0 +1,58 @@
+{
+  "invoice_number": "SI025323",
+  "date": "June 5, 2024",
+  "due_date": "July 5, 2024",
+  "ship_to": {
+    "name": "ORE DOCK BREWING COMPANY, LLC",
+    "address": "114 W SPRING ST.",
+    "city": "MARQUETTE",
+    "state": "MI",
+    "zip": "49855",
+    "country": "USA"
+  },
+  "bill_to": {
+    "name": "ORE DOCK BREWING COMPANY, LLC",
+    "address": "114 W SPRING ST",
+    "city": "MARQUETTE",
+    "state": "MI",
+    "zip": "49855",
+    "country": "USA"
+  },
+  "sales_agent": "Mike Illig",
+  "items": [
+    {
+      "item_code": "510",
+      "units_ordered": 50,
+      "unit_price": 0.49,
+      "amount": 24.5,
+      "description": "04032024 (50 LB)"
+    },
+    {
+      "item_code": "7236",
+      "units_ordered": 2000,
+      "unit_price": 0.545,
+      "amount": 1090,
+      "description": "240405A (2,000 LB)"
+    },
+    {
+      "item_code": "FREIGHT",
+      "units_ordered": 1,
+      "unit_price": 133.68,
+      "amount": 133.68,
+      "description": "Shipping and Handling Fees"
+    },
+    {
+      "item_code": "PLT-ST",
+      "units_ordered": 1,
+      "unit_price": 0,
+      "amount": 0,
+      "description": "Standard Wood Pallet"
+    }
+  ],
+  "totals": {
+    "total_due": 1248.18
+  },
+  "terms": "N30",
+  "customer_po": "1356",
+  "shipped_via": "Tax-Air, Prepaid"
+}

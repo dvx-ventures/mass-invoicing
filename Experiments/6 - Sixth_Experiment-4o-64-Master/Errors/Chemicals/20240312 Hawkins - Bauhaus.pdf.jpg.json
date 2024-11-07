@@ -1,0 +1,42 @@
+{
+  "Company": null,
+  "Invoice": {
+    "SalesOrder": {
+      "Number": "4478847",
+      "Type": "SL"
+    },
+    "BranchPlant": "56",
+    "ShipmentNumber": "5318123"
+  },
+  "SoldTo": {
+    "CustomerNumber": "359819"
+  },
+  "ShipTo": {
+    "CustomerNumber": "359819"
+  },
+  "Payment": {
+    "Terms": "Net 30"
+  },
+  "Items": [
+    {
+      "UOM": "EA",
+      "PriceUOM": "EA"
+    },
+    {
+      "UOM": "EA",
+      "PriceUOM": null
+    },
+    {
+      "UOM": "DG",
+      "PriceUOM": "LB"
+    },
+    {
+      "UOM": "BX",
+      "PriceUOM": "KG"
+    }
+  ],
+  "Totals": {
+    "InvoiceTotal": "$2,388.25",
+    "TaxRate": "0%"
+  }
+}

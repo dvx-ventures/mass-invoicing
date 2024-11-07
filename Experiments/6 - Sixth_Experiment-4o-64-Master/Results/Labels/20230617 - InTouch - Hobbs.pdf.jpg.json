@@ -1,0 +1,53 @@
+{
+  "invoice_number": "74913",
+  "invoice": {
+    "invoiceDate": "5/18/2023",
+    "dueDate": "6/17/2023",
+    "totals": {
+      "total_due": 1008.61
+    }
+  },
+  "bill_to": {
+    "name": "Hobbs Tavern and Brewing Company",
+    "address": "765 NH 16",
+    "city": "Ossipee",
+    "state": "NH",
+    "zip": "03864"
+  },
+  "ship_to": {
+    "name": "Hobbs Brewing Company",
+    "address": "2415 NH Route 16",
+    "city": "West Ossipee",
+    "state": "NH",
+    "zip": "03890"
+  },
+  "terms": "Net 30",
+  "shipping_info": {
+    "shipping_date": "5/18/2023",
+    "shipped_via": "UPS"
+  },
+  "items": [
+    {
+      "description": "Lake Life 16oz",
+      "units_ordered": 6000,
+      "unit_price": 0.09,
+      "amount": 540
+    },
+    {
+      "description": "Hobbs Lite 16oz",
+      "units_ordered": 5000,
+      "unit_price": 0.09,
+      "amount": 450
+    },
+    {
+      "description": "UPS Ground",
+      "units_ordered": 1,
+      "unit_price": 18.61,
+      "amount": 18.61
+    }
+  ],
+  "totals": {
+    "sub_total": "$1,008.61",
+    "tax": "$0.00"
+  }
+}

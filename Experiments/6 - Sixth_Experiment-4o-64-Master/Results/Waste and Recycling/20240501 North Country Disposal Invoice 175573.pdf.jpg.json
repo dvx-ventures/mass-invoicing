@@ -1,0 +1,31 @@
+{
+  "invoice_number": "175573",
+  "date": "3/5/24",
+  "remit_to": {
+    "name": "North Country Disposal, Inc.",
+    "address": "83 Eagle Mills Rd., Negaunee, MI 49866",
+    "phone": "906-249-4500"
+  },
+  "due_date": "5/1/24",
+  "bill_to": {
+    "name": "One Dock Brewing Company",
+    "address": "114 Spring Street, Marquette, MI 49855"
+  },
+  "items": [
+    {
+      "description": "Service for May (Twice a week)",
+      "units_ordered": 1,
+      "unit_price": 180,
+      "amount": 180
+    },
+    {
+      "description": "Service for May (Twice a week)",
+      "units_ordered": 1,
+      "unit_price": 125,
+      "amount": 125
+    }
+  ],
+  "totals": {
+    "total_due": 305
+  }
+}

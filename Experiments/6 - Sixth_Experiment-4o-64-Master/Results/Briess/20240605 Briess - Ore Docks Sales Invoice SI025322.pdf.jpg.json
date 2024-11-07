@@ -1,0 +1,66 @@
+{
+  "invoice": {
+    "invoiceNumber": "SI025322",
+    "salesOrderNumberType": "SO126524",
+    "invoiceDate": "June 5, 2024",
+    "dueDate": "July 5, 2024",
+    "bill_to": {
+      "name": "ORE DOCK BREWING COMPANY, LLC",
+      "address": "114 W SPRING ST",
+      "city": "MARQUETTE",
+      "state": "MI",
+      "zip": "49855",
+      "country": "USA"
+    },
+    "ship_to": {
+      "name": "ORE DOCK BREWING COMPANY, LLC",
+      "address": "114 W SPRING ST",
+      "city": "MARQUETTE",
+      "state": "MI",
+      "zip": "49855",
+      "country": "USA",
+      "contact": "WES PERNSTEINER"
+    },
+    "ship_via": "Tax-Air",
+    "customer_po": "1363",
+    "terms": "N30",
+    "sales_agent": "Mike Illig",
+    "items": [
+      {
+        "itemNumber": "5298",
+        "units_ordered": 1000,
+        "transUOM": "Pound",
+        "piece_count": 20,
+        "unitPrice": 0.52,
+        "discount_percent": 0,
+        "amount": 520,
+        "item_code": "240513C",
+        "description": "Brewers Malt (1,000 LB)"
+      },
+      {
+        "itemNumber": "FREIGHT",
+        "units_ordered": 1,
+        "transUOM": "Each",
+        "piece_count": 1,
+        "unitPrice": 101.86,
+        "discount_percent": 0,
+        "amount": 101.86,
+        "description": "Shipping and Handling Fees"
+      },
+      {
+        "itemNumber": "PLT-ST",
+        "units_ordered": 1,
+        "transUOM": "Each",
+        "piece_count": 1,
+        "unitPrice": 0,
+        "discount_percent": 0,
+        "amount": 0,
+        "description": "Standard Wood Pallet"
+      }
+    ],
+    "totals": {
+      "totalInvoice": "1411.86",
+      "total_due": 1411.86
+    }
+  }
+}

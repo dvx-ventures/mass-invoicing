@@ -1,0 +1,125 @@
+{
+  "invoice_number": "INV-0701654",
+  "date": "1/11/2024",
+  "due_date": "2/10/2024",
+  "customer_po": "PO# 1368 - Frank",
+  "terms": "Net 30 Days",
+  "bill_to": {
+    "name": "Earth Rider Brewing",
+    "address": "PO Box 3167, Julia Convissor, Duluth, MN, 55803, USA",
+    "city": "Duluth",
+    "state": "MN",
+    "zip": "55803"
+  },
+  "ship_to": {
+    "name": "Earth Rider Brewing",
+    "address": "107 N 3rd St, Superior, WI, 54880-1016, USA",
+    "city": "Superior",
+    "state": "WI",
+    "zip": "54880-1016"
+  },
+  "shipping_info": {
+    "shipping_date": "1/10/2024",
+    "estimated_delivery_date": "1/10/2024",
+    "carrier": "N & M Transfer Co., Inc / N&M Transfer",
+    "pro_number": "110870646",
+    "shipment_number": "SHP160-0733550"
+  },
+  "invoice": {
+    "salesOrderNumberType": "SO160-0897572"
+  },
+  "company": {
+    "name": "Brewers Supply Group",
+    "address": "PO Box 74769, Chicago, IL, 60694-4769, USA"
+  },
+  "items": [
+    {
+      "item_code": "MWEY1066",
+      "description": "Weyermann® Carafa® Special Type 2 (dehusked) 25 kg",
+      "total_quantity": 5,
+      "transUOM": "EA",
+      "unit_price": 53.79,
+      "amount": 268.95
+    },
+    {
+      "item_code": "MSIM1002",
+      "description": "Simpsons Finest Golden Promise™ 25 kg",
+      "total_quantity": 6,
+      "transUOM": "EA",
+      "unit_price": 52.8,
+      "amount": 316.8
+    },
+    {
+      "item_code": "MSIM1034",
+      "description": "Simpsons Crystal Dark 25 kg",
+      "total_quantity": 1,
+      "transUOM": "EA",
+      "unit_price": 54.12,
+      "amount": 54.12
+    },
+    {
+      "item_code": "MSIM1035",
+      "description": "Simpsons Crystal Extra Dark 25 kg",
+      "total_quantity": 1,
+      "transUOM": "EA",
+      "unit_price": 54.12,
+      "amount": 54.12
+    },
+    {
+      "item_code": "MMCI1071",
+      "description": "MCI Irish Stout Malt 25 kg",
+      "total_quantity": 16,
+      "transUOM": "EA",
+      "unit_price": 47.52,
+      "amount": 760.32
+    },
+    {
+      "item_code": "MGAM1051",
+      "description": "Gambrinus Honey Malt 25 kg",
+      "total_quantity": 2,
+      "transUOM": "EA",
+      "unit_price": 41.91,
+      "amount": 83.82
+    },
+    {
+      "item_code": "BZZZ1311",
+      "description": "Gypsum (Calcium Sulfate) 22.68 Kg",
+      "total_quantity": 1,
+      "transUOM": "EA",
+      "unit_price": 32,
+      "amount": 32
+    },
+    {
+      "item_code": "BZZZ1631",
+      "description": "Kerry Biomatex L ALDC 4 kg",
+      "total_quantity": 1,
+      "transUOM": "EA",
+      "unit_price": 900,
+      "amount": 900
+    },
+    {
+      "item_code": "BZZZ1739",
+      "description": "Brewers Clarex® 1 kg",
+      "total_quantity": 1,
+      "transUOM": "EA",
+      "unit_price": 215,
+      "amount": 215
+    },
+    {
+      "item_code": "XZZZN001",
+      "description": "Nut Roll - US",
+      "total_quantity": 1,
+      "transUOM": "EA",
+      "unit_price": 0,
+      "amount": 0
+    }
+  ],
+  "totals": {
+    "merchandise_total": 2685.13,
+    "sales_tax": 0,
+    "total_due": 2872.63
+  },
+  "freight_terms": "Freight included in the Total",
+  "shipped_via": "N & M Transfer Co., Inc / N&M Transfer",
+  "pro_number": "110870646"
+}

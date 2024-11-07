@@ -1,0 +1,63 @@
+{
+  "invoice_number": "3398",
+  "date": "30/08/2024",
+  "remit_to": {
+    "name": "Sterling Packaging",
+    "address": {
+      "street": "200 E Nashville Ave",
+      "city": "Atmore",
+      "state": "AL",
+      "postal_code": "36502"
+    },
+    "phone": "251-443-6100",
+    "bank_details": {
+      "bank_name": "United Bank",
+      "account_number": "161183037",
+      "routing_number": "062102008"
+    },
+    "payment_method": "Wire/ACH Payment"
+  },
+  "bill_to": {
+    "name": "Barrio Brewing Company",
+    "address": {
+      "street": "800 E. 16th St.",
+      "city": "Tucson",
+      "state": "AZ",
+      "postal_code": "85719",
+      "country": "USA"
+    },
+    "phone": "520-791-2739"
+  },
+  "ship_to": {
+    "name": "Barrio Brewing Company",
+    "address": {
+      "street": "800 E. 16th St.",
+      "city": "Tucson",
+      "state": "AZ",
+      "postal_code": "85719",
+      "country": "USA"
+    }
+  },
+  "terms": "Net 30",
+  "website": "www.sterlingpkg.com",
+  "due_date": "30/09/2024",
+  "fob": "STERLING PLANT",
+  "items": [
+    {
+      "description": "Barrio Blonde 12 Pk Cans",
+      "quantity": 1008,
+      "unitPrice": 803.28,
+      "amount": 7945.25,
+      "job_number": "14544",
+      "deal_number": "3398",
+      "upc": "8 54893 00521 1",
+      "unit": "0891",
+      "product_number": null
+    }
+  ],
+  "totals": {
+    "subtotal": 7945.25,
+    "total": 7945.25,
+    "tax": 0
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "invoice_number": "USINV000206422",
+  "date": "08/23/2024",
+  "remit_to": {
+    "name": "Country Malt",
+    "address": "PO Box 51602, Los Angeles, CA 90051-5902",
+    "phone": "360-905-3380"
+  },
+  "ship_to": {
+    "name": "Hobbs Tavern & Brewing",
+    "address": "765 NH Rt 16, Ossipee, NH 03864, USA"
+  },
+  "customer_po": "23165",
+  "order_date": "08/23/2024",
+  "date_shipped": "08/23/2024",
+  "due_date": "09/22/2024",
+  "shipping_info": {
+    "shipped_via": "ROSS EXPRESS"
+  },
+  "items": [
+    {
+      "item_code": "CM-OATM",
+      "description": "Canada Malting Oat Malt",
+      "units_shipped": 6,
+      "unit_price": 46.2,
+      "amount": 277.2
+    },
+    {
+      "item_code": "CM-FBOT",
+      "description": "Canada Malting Premier Flaked Brewers Oats",
+      "units_shipped": 6,
+      "unit_price": 36.5,
+      "amount": 219
+    },
+    {
+      "item_code": "CM-WWHT",
+      "description": "Canada Malting White Wheat Malt",
+      "units_shipped": 6,
+      "unit_price": 37.4,
+      "amount": 224.4
+    },
+    {
+      "item_code": "BZ-CRPL",
+      "description": "Bestmalz Caramel Pils Malt",
+      "units_shipped": 6,
+      "unit_price": 45.65,
+      "amount": 273.9
+    },
+    {
+      "item_code": "CM-6ROW",
+      "description": "Canada Malting Premium Six Row Brewers Malt",
+      "units_shipped": 5,
+      "unit_price": 36.3,
+      "amount": 181.5
+    },
+    {
+      "item_code": "BM-FBLR",
+      "description": "Briess Malting Brewers Brown Rice Flakes",
+      "units_shipped": 2,
+      "unit_price": 65.5,
+      "amount": 131
+    },
+    {
+      "item_code": "SU-DEXT",
+      "description": "Corn Sugar - Dextrose",
+      "units_shipped": 2,
+      "unit_price": 52,
+      "amount": 104
+    },
+    {
+      "item_code": "YC-IDAC",
+      "description": "Cryo Hop Pellets - Idaho 7",
+      "units_shipped": 1,
+      "unit_price": 217.25,
+      "amount": 217.25
+    },
+    {
+      "item_code": "YC-MBATT",
+      "description": "T90 Hop Pellets - Mandarina Bavaria (GR)",
+      "units_shipped": 2,
+      "unit_price": 143,
+      "amount": 286
+    },
+    {
+      "item_code": "YC-COLTT",
+      "description": "T90 Hop Pellets - Columbus",
+      "units_shipped": 1,
+      "unit_price": 107.25,
+      "amount": 107.25
+    },
+    {
+      "item_code": "YC-AMATT",
+      "description": "T90 Hop Pellets - Amarillo",
+      "units_shipped": 1,
+      "unit_price": 121,
+      "amount": 121
+    },
+    {
+      "item_code": "YC-CENTT",
+      "description": "T90 Hop Pellets - Centennial",
+      "units_shipped": 1,
+      "unit_price": 153.89,
+      "amount": 153.89
+    }
+  ],
+  "totals": {
+    "total_due": 2501.49,
+    "currency": "USD"
+  },
+  "terms": "Net 30 days"
+}

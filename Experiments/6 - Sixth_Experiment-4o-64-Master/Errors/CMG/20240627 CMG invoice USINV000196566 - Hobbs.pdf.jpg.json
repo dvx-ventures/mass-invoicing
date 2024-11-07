@@ -1,0 +1,43 @@
+{
+  "invoice": {
+    "addresses": {
+      "shipFrom": {
+        "name": "Country Malt Group",
+        "address": "16 Beeman Way",
+        "city": "Champlain",
+        "state": "NY",
+        "zip": "12919",
+        "country": "USA"
+      }
+    },
+    "summary": {
+      "totalQtyToBeShipped": 49,
+      "totalExtPrice": 3758.28,
+      "totalWeightLbs": 2279.77,
+      "freightAndAccessorialFees": 205.1,
+      "totalTaxes": 0,
+      "fees": [
+        {
+          "type": "Freight",
+          "fee": 95,
+          "tax": 0
+        },
+        {
+          "type": "Truck",
+          "fee": 65,
+          "tax": 0
+        },
+        {
+          "type": "Skid",
+          "fee": 9,
+          "tax": 0
+        },
+        {
+          "type": "FSC",
+          "fee": 36.1,
+          "tax": 0
+        }
+      ]
+    }
+  }
+}

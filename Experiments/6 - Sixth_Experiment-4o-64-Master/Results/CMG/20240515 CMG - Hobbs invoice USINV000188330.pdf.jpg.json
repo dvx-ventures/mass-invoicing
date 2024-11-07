@@ -1,0 +1,81 @@
+{
+  "invoice_number": "USINV000188330",
+  "date": "05/15/2024",
+  "remit_to": {
+    "name": "Country Malt Group",
+    "address": "PO Box 51602, Los Angeles, CA 90051-5902",
+    "phone": "360-905-3366"
+  },
+  "bill_to": {
+    "name": "Hobbs Tavern & Brewing",
+    "address": "2415 White Mountain Hwy, West Ossipee, NH 03890, USA"
+  },
+  "ship_to": {
+    "name": "Hobbs Tavern & Brewing",
+    "address": "765 NH Rt 16, Ossipee, NH 03864, USA"
+  },
+  "customer_po": "USS100404899",
+  "order_date": "05/15/2024",
+  "due_date": "06/14/2024",
+  "terms": "Net 30 days",
+  "shipped_via": "ROSS EXPRESS",
+  "items": [
+    {
+      "item_code": "CM-2ROW",
+      "description": "Canada Malting Premium Two Row Brewers Malt",
+      "units_shipped": 30,
+      "unit_price": 36.3,
+      "amount": 1089
+    },
+    {
+      "item_code": "GW-VIEN",
+      "description": "Great Western Malting Vienna Malt",
+      "units_shipped": 4,
+      "unit_price": 42.9,
+      "amount": 171.6
+    },
+    {
+      "item_code": "CM-WWHT",
+      "description": "Canada Malting White Wheat Malt",
+      "units_shipped": 6,
+      "unit_price": 37.4,
+      "amount": 224.4
+    },
+    {
+      "item_code": "BZ-CRPL",
+      "description": "Bestmalz Caramel Pils Malt",
+      "units_shipped": 6,
+      "unit_price": 45.65,
+      "amount": 273.9
+    },
+    {
+      "item_code": "CM-OATM",
+      "description": "Canada Malting Oat Malt",
+      "units_shipped": 6,
+      "unit_price": 46.2,
+      "amount": 277.2
+    },
+    {
+      "item_code": "CM-FBOT",
+      "description": "Canada Malting Premier Flaked Brewers Oats",
+      "units_shipped": 6,
+      "unit_price": 36.5,
+      "amount": 219
+    },
+    {
+      "item_code": "SU-DEXT",
+      "description": "Corn Sugar - Dextrose",
+      "units_shipped": 6,
+      "unit_price": 52,
+      "amount": 312
+    }
+  ],
+  "totals": {
+    "merchandise_total": 2567.1,
+    "total_due": 2912.3
+  },
+  "paymentTerms": {
+    "terms": "Net 30 days",
+    "netDueDate": "06/14/2024"
+  }
+}

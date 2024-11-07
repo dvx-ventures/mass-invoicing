@@ -1,0 +1,75 @@
+{
+  "invoice_number": "USINV000202768",
+  "date": "08/02/2024",
+  "remit_to": {
+    "name": "Country Malt",
+    "address": "PO Box 51602, Los Angeles, CA 90051-5902"
+  },
+  "ship_to": {
+    "name": "Hobbs Tavern & Brewing",
+    "address": "765 NH Rt 16, Ossipee, NH 03864, USA"
+  },
+  "customer_po": "23161",
+  "order_date": "08/02/2024",
+  "due_date": "09/01/2024",
+  "shipping_info": {
+    "shipped_via": "ROSS EXPRESS"
+  },
+  "items": [
+    {
+      "item_code": "CM-OATM",
+      "description": "Canada Malting Oat Malt",
+      "units_shipped": 10,
+      "unit_price": 46.2,
+      "extendedPrice": "462"
+    },
+    {
+      "item_code": "CM-FBOT",
+      "description": "Canada Malting Premier Flaked Brewers Oats",
+      "units_shipped": 8,
+      "unit_price": 36.5,
+      "extendedPrice": "292"
+    },
+    {
+      "item_code": "CM-WWHT",
+      "description": "Canada Malting White Wheat Malt",
+      "units_shipped": 8,
+      "unit_price": 37.4,
+      "extendedPrice": "299.2"
+    },
+    {
+      "item_code": "BZ-CRPL",
+      "description": "Bestmalz Caramel Pils Malt",
+      "units_shipped": 10,
+      "unit_price": 45.65,
+      "extendedPrice": "456.5"
+    },
+    {
+      "item_code": "FS-CCHL",
+      "description": "Five Star Chemicals - Calcium Chloride",
+      "units_shipped": 1,
+      "unit_price": 115.21,
+      "extendedPrice": "115.21"
+    },
+    {
+      "item_code": "AD-CSUL",
+      "description": "Calcium Sulfate (Terra Alba Gypsum)",
+      "units_shipped": 1,
+      "unit_price": 31,
+      "extendedPrice": "31"
+    },
+    {
+      "item_code": "BR-CSBF",
+      "description": "Coolship Bag, Fine, 23 x 72",
+      "units_shipped": 2,
+      "unit_price": 19.88,
+      "extendedPrice": "39.76"
+    }
+  ],
+  "totals": {
+    "total_qty_shipped": 40,
+    "total_due": 1900.77,
+    "sales_tax": 0
+  },
+  "payment_terms": "Net 30 days"
+}

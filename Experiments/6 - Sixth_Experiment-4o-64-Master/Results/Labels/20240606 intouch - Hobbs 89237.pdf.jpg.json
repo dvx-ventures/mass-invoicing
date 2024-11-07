@@ -1,0 +1,72 @@
+{
+  "invoice_number": "89237",
+  "date": "5/7/2024",
+  "due_date": "6/6/2024",
+  "bill_to": {
+    "name": "Hobbs Tavern and Brewing Company",
+    "address": "765 NH 16",
+    "city": "Ossipee",
+    "state": "NH",
+    "zip": "03864"
+  },
+  "ship_to": {
+    "name": "Hobbs Brewing Company",
+    "address": "2415 NH Route 16",
+    "city": "West Ossipee",
+    "state": "NH",
+    "zip": "03890"
+  },
+  "date_shipped": "5/7/2024 12:00:00 AM",
+  "shipped_via": "UPS",
+  "terms": "Net 30",
+  "items": [
+    {
+      "item_no": "Labels",
+      "description": "HiJack 16oz",
+      "units_ordered": 6000,
+      "unit_price": 0.09,
+      "amount": 540
+    },
+    {
+      "item_no": "Labels",
+      "description": "Hold My Juice 16oz",
+      "units_ordered": 4200,
+      "unit_price": 0.09,
+      "amount": 378
+    },
+    {
+      "item_no": "Labels",
+      "description": "Pitch-A-Tent 16oz",
+      "units_ordered": 3200,
+      "unit_price": 0.09,
+      "amount": 288
+    },
+    {
+      "item_no": "Labels",
+      "description": "Jacked Up 16oz",
+      "units_ordered": 4200,
+      "unit_price": 0.09,
+      "amount": 378
+    },
+    {
+      "item_no": "Labels",
+      "description": "Counterwight Red 16oz",
+      "units_ordered": 500,
+      "unit_price": 0.09,
+      "amount": 45
+    },
+    {
+      "item_no": "Shipping",
+      "description": "UPS Ground",
+      "units_ordered": 1,
+      "unit_price": 65.58,
+      "amount": 65.58
+    }
+  ],
+  "totals": {
+    "subtotal": 1694.58,
+    "tax": 0,
+    "total_due": 1694.58
+  },
+  "additional_notes": "Thank you for your business!"
+}

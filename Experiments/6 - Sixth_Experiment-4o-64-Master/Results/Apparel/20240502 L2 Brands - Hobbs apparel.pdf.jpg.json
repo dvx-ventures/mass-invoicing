@@ -1,0 +1,53 @@
+{
+  "invoice_number": "IN24126176",
+  "date": "5/2/2024",
+  "due_date": "06/01/2024",
+  "remit_to": {
+    "name": "L2 Brands, LLC",
+    "address": "300 Fame Ave, Hanover, PA 17331",
+    "phone": "(717) 630-0892",
+    "fax": "(717) 630-0827"
+  },
+  "soldTo": {
+    "name": "Hobbs Tavern & Brewing Company LLC",
+    "address": "756 Route 16, Ossipee, NH 03864, USA"
+  },
+  "shipTo": {
+    "name": "Hobbs Brewery- Belize",
+    "address": "51 Mill St - Building F, Hanover, MA 02339, USA"
+  },
+  "customer_po": "040924Ash",
+  "shipping_info": {
+    "shipped_via": "FEDEX Ground"
+  },
+  "sales_agent": "622",
+  "items": [
+    {
+      "description": "REORDER#:1876862 - Dusty Rose TTA w/Hobbs offset",
+      "total_quantity": 59,
+      "unit_price": 10.75,
+      "amount": 634.25,
+      "item_code": "TTA-2062-ADJ"
+    },
+    {
+      "description": "Rear Location Embellishment",
+      "total_quantity": 59,
+      "unit_price": 1.5,
+      "amount": 88.5,
+      "item_code": "17"
+    },
+    {
+      "description": "Shipping/Handling",
+      "total_quantity": 1,
+      "unit_price": 18.05,
+      "amount": 18.05,
+      "item_code": "100"
+    }
+  ],
+  "totals": {
+    "merchandise_total": 740.8,
+    "sales_tax": 0,
+    "total_due": 740.8
+  },
+  "terms": "N30"
+}

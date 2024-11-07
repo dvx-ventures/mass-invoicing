@@ -1,0 +1,95 @@
+{
+  "invoice_number": "USINV000200184",
+  "date": "07/18/2024",
+  "remit_to": {
+    "name": "Country Malt",
+    "address": {
+      "street": "PO Box 51602",
+      "city": "Los Angeles",
+      "state": "CA",
+      "postal_code": "90051-5902",
+      "country": "USA"
+    },
+    "phone": "360-905-3380"
+  },
+  "bill_to": {
+    "name": "Hobbs Tavern & Brewing",
+    "address": {
+      "street": "2415 White Mountain Hwy",
+      "city": "West Ossipee",
+      "state": "NH",
+      "postal_code": "03890",
+      "country": "USA"
+    }
+  },
+  "ship_to": {
+    "name": "Hobbs Tavern & Brewing",
+    "address": "765 NH Rt 16",
+    "city": "Ossipee",
+    "state": "NH",
+    "zip": "03864"
+  },
+  "customer_po": "23150",
+  "order_date": "07/18/2024",
+  "date_shipped": "07/18/2024",
+  "due_date": "08/17/2024",
+  "shipping_info": {
+    "shipped_via": "ROSS EXPRESS"
+  },
+  "items": [
+    {
+      "description": "Bestmalz Spelt Malt",
+      "item_code": "BZ-SPLT",
+      "units_shipped": 6,
+      "unit_price": 81.95,
+      "amount": 491.7
+    },
+    {
+      "description": "Bestmalz Caramel Pils Malt",
+      "item_code": "BZ-CRPL",
+      "units_shipped": 4,
+      "unit_price": 45.65,
+      "amount": 182.6
+    },
+    {
+      "description": "Canada Malting Premier Flaked Brewers Oats",
+      "item_code": "CM-FBOT",
+      "units_shipped": 9,
+      "unit_price": 36.5,
+      "amount": 328.5
+    },
+    {
+      "description": "Canada Malting Oat Malt",
+      "item_code": "CM-OATM",
+      "units_shipped": 3,
+      "unit_price": 46.2,
+      "amount": 138.6
+    },
+    {
+      "description": "Canada Malting White Wheat Malt",
+      "item_code": "CM-WWHT",
+      "units_shipped": 4,
+      "unit_price": 37.4,
+      "amount": 149.6
+    },
+    {
+      "description": "Corn Sugar - Dextrose",
+      "item_code": "SU-DEXT",
+      "units_shipped": 3,
+      "unit_price": 52,
+      "amount": 156
+    },
+    {
+      "description": "Canada Malting Premium Two Row Brewers Malt",
+      "item_code": "CM-2ROW",
+      "units_shipped": 11,
+      "unit_price": 36.3,
+      "amount": 399.3
+    }
+  ],
+  "totals": {
+    "total_quantity": 40,
+    "total_due": 2051.4
+  },
+  "terms": "Net 30 days"
+}

@@ -1,0 +1,31 @@
+{
+  "invoice_number": "18813",
+  "date": "12/31/2023",
+  "company": {
+    "name": "JS Print Group, Inc.",
+    "address": "500 E 10th St, Duluth, MN 55805",
+    "phone": "218-464-5576",
+    "email": "billing@jsprintgroup.com"
+  },
+  "bill_to": {
+    "name": "Earth Rider Brewery",
+    "address": "1715 N 3rd St, Superior, WI 54880"
+  },
+  "ship_to": {
+    "name": "Earth Rider Brewery",
+    "address": "1617 N 3rd St, Superior, WI 54880"
+  },
+  "items": [
+    {
+      "description": "12oz can label - Cloud Top Hazy IPA - New Zealand Variant",
+      "units_ordered": 900,
+      "unit_price": 0.297,
+      "amount": 267.3
+    }
+  ],
+  "totals": {
+    "total_due": 267.3
+  },
+  "terms": "Net 30",
+  "due_date": "01/30/2024"
+}

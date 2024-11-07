@@ -1,0 +1,38 @@
+{
+  "invoice": {
+    "invoice_details": {
+      "customer_account": "USC004300",
+      "currency": "USD"
+    },
+    "totals": {
+      "ext_price": 2430.39,
+      "total_weight_lbs": 1416.2,
+      "freight_accessorial_fees": 205.1,
+      "total_of_taxes": 0,
+      "freight_fees": [
+        {
+          "description": "Freight",
+          "fee": 95,
+          "tax": 0
+        },
+        {
+          "description": "Truck",
+          "fee": 65,
+          "tax": 0
+        },
+        {
+          "description": "Skid",
+          "fee": 9,
+          "tax": 0
+        },
+        {
+          "description": "FSC",
+          "fee": 36.1,
+          "tax": 0
+        }
+      ]
+    },
+    "items[].size": "Size specifications for each item are unmapped",
+    "items[].year": "Year specification for certain items are unmapped"
+  }
+}

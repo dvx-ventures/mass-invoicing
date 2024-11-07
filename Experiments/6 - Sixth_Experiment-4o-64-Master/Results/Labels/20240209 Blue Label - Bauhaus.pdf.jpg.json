@@ -1,0 +1,37 @@
+{
+  "invoice_number": "256540",
+  "date": "2/9/2024",
+  "ship_to": {
+    "name": "Bauhaus Brew Labs",
+    "address_line1": "1315 Tyler Street NE",
+    "city": "Minneapolis",
+    "state": "MN",
+    "postal_code": "55413",
+    "country": "USA"
+  },
+  "contact": {
+    "name": "Matt Schwandt",
+    "phone": "(612) 387-1407"
+  },
+  "customer_po": "020124",
+  "soldTo": {
+    "customerNumber": "112976"
+  },
+  "items": [
+    {
+      "description": "12oz Tetra Highbrau",
+      "quantity": 10000,
+      "unit_price": 67,
+      "amount": 670
+    }
+  ],
+  "shipping_info": {
+    "method": "UPS Ground",
+    "tracking_number": "1ZVY86650365355956"
+  },
+  "due_date": "3/9/2024",
+  "totals": {
+    "total_due": 744.02
+  },
+  "terms": "Net 30 Days"
+}

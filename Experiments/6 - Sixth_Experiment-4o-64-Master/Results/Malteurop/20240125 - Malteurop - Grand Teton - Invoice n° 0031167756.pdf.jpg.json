@@ -1,0 +1,74 @@
+{
+  "invoice_number": "31167756",
+  "date": "01/25/2024",
+  "page": "1/1",
+  "bill_to": {
+    "name": "GRAND TETON BREWING COMPANY",
+    "address": "430 OLD JACKSON HIGHWAY",
+    "city": "VICTOR",
+    "state": "ID",
+    "zip": "83455",
+    "country": "USA"
+  },
+  "ship_to": {
+    "name": "GRAND TETON BREWING COMPANY",
+    "address": "430 OLD JACKSON HIGHWAY",
+    "city": "VICTOR",
+    "state": "ID",
+    "zip": "83455",
+    "country": "USA"
+  },
+  "customer_po": "GRAND TETON 1.24",
+  "paymentTerms": {
+    "terms": "30 days from B/L"
+  },
+  "shipping_info": {
+    "shipment_info": [
+      {
+        "ship_date": "01/25/2024",
+        "shipment_number": "859474",
+        "currency": "USD",
+        "bill_of_lading": "859474"
+      }
+    ]
+  },
+  "items": [
+    {
+      "description": "STEAMED C40 BAG MALT 55LB",
+      "quantity": 20,
+      "unitPrice": "45.1",
+      "amount": 902
+    },
+    {
+      "description": "CRYSTAL WHEAT 3L BAG MALT 55LB",
+      "quantity": 13,
+      "unitPrice": "45.1",
+      "amount": 586.3
+    }
+  ],
+  "totals": {
+    "shipping": 135,
+    "total": 1623.3,
+    "currency": "USD"
+  },
+  "remit_to": {
+    "name": "MALTEUROP NORTH AMERICA",
+    "bank_details": {
+      "bank_name": "JPMORGAN CHASE BANK NA",
+      "account_number": "844001040",
+      "routing_number": "071000013",
+      "swift_code": "CHASUS33"
+    },
+    "address": {
+      "street": "6737 W. WASHINGTON ST. SUITE 4204",
+      "city": "MILWAUKEE",
+      "state": "WI",
+      "zip": "53214",
+      "country": "USA"
+    }
+  },
+  "contact": {
+    "phone": "844-546-6258",
+    "email": "customersuccess@malteurop.com"
+  }
+}

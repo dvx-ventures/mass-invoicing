@@ -1,0 +1,35 @@
+{
+  "invoice_number": "10707",
+  "date": "10/18/2023",
+  "due_date": "11/17/2023",
+  "ship_to": {
+    "name": "La Quinta Brewing",
+    "address": "74714 Technology Drive, Palm Desert, CA 92253"
+  },
+  "bill_to": {
+    "name": "La Quinta Brewing",
+    "address": "74714 Technology Drive, Palm Desert, CA 92253"
+  },
+  "ship_date": "10/30/2023",
+  "sales_agent": "AL",
+  "items": [
+    {
+      "description": "WO#41754 Heatwave 16 oz.\n2 pallets x 8 layers x 389 cans = 6,224",
+      "units_ordered": 6224,
+      "unit_price": 0.29,
+      "amount": 1811.18
+    },
+    {
+      "description": "Dunnage:\nWood / Cardboard / Wood",
+      "units_ordered": 1,
+      "unit_price": 0,
+      "amount": 0
+    }
+  ],
+  "totals": {
+    "subtotal": 1811.18,
+    "sales_tax": 0,
+    "total_due": 1811.18
+  },
+  "additional_notes": "THANK YOU."
+}

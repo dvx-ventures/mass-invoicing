@@ -1,0 +1,35 @@
+{
+  "invoice": {
+    "invoiceDate": "Jun 16, 2023",
+    "due_date": "Jun 30, 2023",
+    "invoiceNumber": "493731",
+    "items": [
+      {
+        "description": "80 bbl JY218 Augustiner Lager @ 7.5 mill cell count",
+        "unitPrice": 1280,
+        "transUOM": "mill cell count",
+        "tax": "Tax Exempt",
+        "amount": 1280
+      },
+      {
+        "description": "Shipping Overnight",
+        "unitPrice": 68,
+        "tax": "Tax Exempt",
+        "amount": 68
+      }
+    ]
+  },
+  "totals": {
+    "subtotal": 1348,
+    "total_due": 1348
+  },
+  "ship_to": {
+    "name": "Workhorse Brewing Company",
+    "address": "250 King Manor Dr, King of Prussia, PA 19406, USA"
+  },
+  "remit_to": {
+    "name": "Jasper Yeast",
+    "address": "23600 Overland Drive #150, Sterling, VA 20166, USA"
+  },
+  "customer_service_email": "info@jasperyeast.com"
+}

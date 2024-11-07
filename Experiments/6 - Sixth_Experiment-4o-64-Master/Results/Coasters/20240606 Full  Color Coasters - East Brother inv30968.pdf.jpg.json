@@ -1,0 +1,50 @@
+{
+  "invoice_number": "30968",
+  "date": "6/6/2024",
+  "bill_to": {
+    "name": "East Brother Beer",
+    "address": "1001 Canal Blvd, #C-2, Richmond, CA 94804",
+    "email": "brooks@eastbrotherbeer.com",
+    "contact_person": "Brooks Brorsen"
+  },
+  "ship_to": {
+    "name": "East Brother Beer",
+    "address": "1001 Canal Blvd, #C-2, Richmond, CA 94804",
+    "contact_person": "Brooks Brorsen"
+  },
+  "customer_po": "Brooks Brorsen",
+  "terms": "Net 30",
+  "date_shipped": "6/6/2024",
+  "shipping_info": {
+    "shipped_via": "FedEx"
+  },
+  "items": [
+    {
+      "units_ordered": 9,
+      "item_code": "Coaster4rndC",
+      "description": "Pulpboard Coaster, 60 point medium weight, 4\" round with full color imprint on both sides. Per case of 3,500 coasters (20 sleeves of 175 per sleeve).",
+      "unit_price": 194.75,
+      "amount": 1752.75
+    },
+    {
+      "units_ordered": 1,
+      "item_code": "coasterSetup",
+      "description": "One-time setup charge for coaster design, per side.",
+      "unit_price": 35,
+      "amount": 35
+    },
+    {
+      "units_ordered": 1,
+      "item_code": "Freight",
+      "description": "Shipping & Handling - Del Sched 6/12/24 FedEx 740366262009",
+      "unit_price": 450,
+      "amount": 450
+    }
+  ],
+  "totals": {
+    "total_due": 2237.75
+  },
+  "paymentTerms": {
+    "terms": "Net 30"
+  }
+}

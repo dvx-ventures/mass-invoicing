@@ -1,0 +1,66 @@
+{
+  "invoice_number": "31162820",
+  "date": "08/30/2023",
+  "page": "1/1",
+  "ship_to": {
+    "name": "HOBBS BREWING COMPANY LLC",
+    "address": "765 NH-16, OSSIPEE NH  03864, USA",
+    "city": "OSSIPEE",
+    "state": "NH",
+    "zip": "03864",
+    "country": "USA",
+    "customerNumber": 103924
+  },
+  "soldTo": {
+    "name": "HOBBS BREWING COMPANY LLC",
+    "address": "765 NH-16, OSSIPEE NH  03864, USA",
+    "city": "OSSIPEE",
+    "state": "NH",
+    "zip": "03864",
+    "country": "USA",
+    "customerNumber": 103924
+  },
+  "customer_po": "23061",
+  "items": [
+    {
+      "description": "PILSEN BAG MALT 55LB",
+      "total_quantity": 15,
+      "transUOM": "BAG",
+      "unitPrice": 39.05,
+      "amount": 585.75,
+      "country_of_origin": "US"
+    },
+    {
+      "description": "2ROW CRAFT BAG MALT 55LB",
+      "total_quantity": 28,
+      "transUOM": "BAG",
+      "unitPrice": 38.5,
+      "amount": 1078,
+      "country_of_origin": "US"
+    }
+  ],
+  "totals": {
+    "taxable_sales": 0,
+    "sales_tax": 0,
+    "merchandise_total": 1663.75,
+    "shipping": 310,
+    "total": 1973.75,
+    "currency": "USD"
+  },
+  "paymentTerms": {
+    "terms": "30 days from B/L",
+    "netDueDate": null
+  },
+  "remit_to": {
+    "name": "MALTEUROP NORTH AMERICA",
+    "address": "6737 W. WASHINGTON ST. SUITE 4204, MILWAUKEE, WI 53214",
+    "phone": "844-546-6258",
+    "email": "customersuccess@malteurop.com",
+    "bank_details": {
+      "bank_name": "JPMORGAN CHASE BANK NA",
+      "account_number": "844001040",
+      "wire_routing_number": "CHASUS33",
+      "ach_routing_number": "071000013"
+    }
+  }
+}

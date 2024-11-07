@@ -1,0 +1,68 @@
+{
+  "invoice_number": "31159492",
+  "date": "06/06/2023",
+  "page": "1/1",
+  "ship_to": {
+    "name": "HOBBS BREWING COMPANY LLC",
+    "address": "765 NH-16",
+    "city": "OSSIPEE",
+    "state": "NH",
+    "zip": "03864",
+    "country": "USA"
+  },
+  "sold_to": {
+    "name": "HOBBS BREWING COMPANY LLC",
+    "address": "765 NH-16",
+    "city": "OSSIPEE",
+    "state": "NH",
+    "zip": "03864",
+    "country": "USA"
+  },
+  "customer_po": "23031",
+  "date_shipped": "06/06/2023",
+  "due_date": "07/06/2023",
+  "items": [
+    {
+      "description": "PILSEN BAG MALT 55LB",
+      "units_ordered": 14,
+      "unit_price": 39.05,
+      "amount": 546.7,
+      "transUOM": "BAG"
+    },
+    {
+      "description": "2ROW CRAFT BAG MALT 55LB",
+      "units_ordered": 20,
+      "unit_price": 38.5,
+      "amount": 770,
+      "transUOM": "BAG"
+    },
+    {
+      "description": "CRYSTAL WHEAT 3L BAG MALT 55LB",
+      "units_ordered": 6,
+      "unit_price": 49.5,
+      "amount": 297,
+      "transUOM": "BAG"
+    }
+  ],
+  "totals": {
+    "total_due": 1768.7,
+    "currency": "USD"
+  },
+  "terms": "30 days from B/L",
+  "shipping_info": {
+    "freight_terms": "DAP OSSIPEE",
+    "cost": 155
+  },
+  "remit_to": {
+    "name": "MALTEUROP NORTH AMERICA",
+    "address": "MENA, 6737 W. WASHINGTON ST. SUITE 4204, MILWAUKEE, WI 53214",
+    "bank_details": {
+      "bank_name": "JPMORGAN CHASE BANK NA",
+      "account_number": "844001040",
+      "routing_number": "071000013",
+      "swift_code": "CHASUS33"
+    },
+    "email": "customersuccess@malteurop.com",
+    "phone": "844-546-6258"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "invoice_number": "66079",
+  "date": "02/07/2024",
+  "due_date": "03/08/2024",
+  "remit_to": {
+    "name": null,
+    "address": {
+      "street": null,
+      "city": null,
+      "state": null,
+      "postal_code": null,
+      "country": null
+    },
+    "email": null,
+    "phone": null
+  },
+  "bill_to": {
+    "name": "Oredock Brewing Company",
+    "address": {
+      "street": "114 W. Spring Street",
+      "city": "Marquette",
+      "state": "MI",
+      "postal_code": "49855",
+      "country": null
+    },
+    "contact_person": "Weston Pernsteiner",
+    "company": null
+  },
+  "ship_to": {
+    "name": "Weston Pernsteiner",
+    "address": "114 W. Spring Street",
+    "city": "Marquette",
+    "state": "MI",
+    "zip": "49855"
+  },
+  "items": [
+    {
+      "description": "5 Gal Pail of McIntosh Apple Concentrate",
+      "units_ordered": 2,
+      "unit_price": 250,
+      "amount": 500
+    },
+    {
+      "description": "5 Gal Pail of Pear Concentrate",
+      "units_ordered": 1,
+      "unit_price": 295,
+      "amount": 295
+    },
+    {
+      "description": "5 Gal Pail of Northern Spy Apple Concentrate *For Fermentation Only*",
+      "units_ordered": 2,
+      "unit_price": 265,
+      "amount": 530
+    },
+    {
+      "description": "Shipping",
+      "units_ordered": 1,
+      "unit_price": 230.46,
+      "amount": 230.46
+    }
+  ],
+  "totals": {
+    "subtotal": 1555.46,
+    "tax": 0,
+    "total_due": 1555.46
+  },
+  "company": {
+    "name": "King Orchards, Inc.",
+    "address": "4620 N M-88",
+    "city": "Central Lake",
+    "state": "MI",
+    "zip": "49622",
+    "phone": "(231) 544-6479",
+    "email": "office@kingorchards.com"
+  }
+}

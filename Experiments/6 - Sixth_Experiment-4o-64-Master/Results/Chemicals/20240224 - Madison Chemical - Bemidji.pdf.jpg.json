@@ -1,0 +1,80 @@
+{
+  "invoice_number": "368026",
+  "date": "1/3/24",
+  "due_date": "2/2/24",
+  "soldTo": {
+    "name": "BEMIDJI BREWING CO LLC",
+    "address": "211 AMERICA AVE NW, BEMIDJI, MN  56601"
+  },
+  "shipTo": {
+    "name": "BEMIDJI BREWING CO LLC",
+    "address": "211 AMERICA AVE NW, BEMIDJI, MN  56601"
+  },
+  "customer_po": "PO-0217-BN",
+  "order_date": "12/29/23",
+  "date_shipped": "1/2/24",
+  "terms": "NET 30 DAYS",
+  "shipping": {
+    "shipVia": "XPO",
+    "freight_terms": "IBA Ppd & Added"
+  },
+  "items": [
+    {
+      "item_code": "264FG-VC-55",
+      "description": "PHOSPHORIC ACID 75%/FOOD GRADE",
+      "unit_price": 26,
+      "units_shipped": 55,
+      "amount": 1430,
+      "additionalInfo": {
+        "LotSN": "00010016661"
+      }
+    },
+    {
+      "item_code": "771021-PL-55",
+      "description": "MadBrew ACID - HD",
+      "unit_price": 9.63,
+      "units_shipped": 55,
+      "amount": 529.85,
+      "additionalInfo": {
+        "LotSN": "23085441"
+      }
+    },
+    {
+      "item_code": "791091-VC-54",
+      "description": "OXYWAVE",
+      "unit_price": 15.7,
+      "units_shipped": 54,
+      "amount": 847.8,
+      "additionalInfo": {
+        "LotSN": "H35-101423-11"
+      }
+    },
+    {
+      "item_code": "PALLET-EA-1",
+      "description": "PALLET 48\" X 44\"",
+      "unit_price": 17,
+      "units_shipped": 1,
+      "amount": 17
+    },
+    {
+      "item_code": "PALLETWRHF-E",
+      "description": "PALLETIZE AND SHRINKWRAP (HALF)",
+      "unit_price": 10.5,
+      "units_shipped": 1,
+      "amount": 10.5
+    }
+  ],
+  "totals": {
+    "merchandise_total": 2834.95,
+    "shipping": 167.4,
+    "total_due": 3002.35
+  },
+  "company": {
+    "name": "Madison Chemical Co., Inc.",
+    "address": "3141 Clifty Drive, Madison IN  47250",
+    "phone": "(812) 273-6000",
+    "fax": "(812) 273-6002",
+    "email": "customer.service@madchem.com",
+    "website": "www.madchem.com"
+  }
+}

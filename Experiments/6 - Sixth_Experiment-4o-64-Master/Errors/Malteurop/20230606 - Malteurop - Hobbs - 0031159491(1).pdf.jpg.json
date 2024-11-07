@@ -1,0 +1,51 @@
+{
+  "invoice_date": "06/06/2023",
+  "sales_contract": "50016877",
+  "beneficiary": "MALTEUROP NORTH AMERICA",
+  "bank_details": {
+    "ach_routing_number": "071000013",
+    "wire_routing_number": "CHASUS33"
+  },
+  "mail_checks_to": "MENA, 6737 W. WASHINGTON ST. SUITE 4204, MILWAUKEE, WI 53214",
+  "items": [
+    {
+      "ship_date": "06/06/2023",
+      "shipment": "814509",
+      "batch": "8000736671",
+      "country_of_origin": "US",
+      "uom": "BAG",
+      "currency": "USD"
+    },
+    {
+      "ship_date": "06/06/2023",
+      "shipment": "814509",
+      "batch": "8000732026",
+      "country_of_origin": "US",
+      "uom": "BAG",
+      "currency": "USD"
+    },
+    {
+      "ship_date": "06/06/2023",
+      "shipment": "814509",
+      "batch": [
+        "8000735896",
+        "8000740630"
+      ],
+      "country_of_origin": "US",
+      "uom": "BAG",
+      "currency": "USD"
+    },
+    {
+      "ship_date": "06/06/2023",
+      "shipment": "814509",
+      "batch": "8000704986",
+      "country_of_origin": "US",
+      "uom": "BAG",
+      "currency": "USD"
+    }
+  ],
+  "freight": {
+    "price": 310,
+    "currency": "USD"
+  }
+}

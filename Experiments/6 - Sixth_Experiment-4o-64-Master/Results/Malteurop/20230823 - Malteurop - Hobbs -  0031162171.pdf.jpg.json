@@ -1,0 +1,62 @@
+{
+  "invoice_number": "31162171",
+  "date": "08/11/2023",
+  "page": "1/1",
+  "remit_to": {
+    "name": "MALTEUROP NORTH AMERICA",
+    "address": "6737 W. WASHINGTON ST. SUITE 4204, MILWAUKEE, WI 53214",
+    "email": "customersuccess@malteurop.com",
+    "phone": "844-546-6258",
+    "bank_details": {
+      "bank_name": "JPMORGAN CHASE BANK NA",
+      "account_number": "844001040",
+      "routing_number": {
+        "ach": "071000013",
+        "wire": "CHASUS33"
+      }
+    }
+  },
+  "bill_to": {
+    "name": "HOBBS BREWING COMPANY LLC",
+    "address": "765 NH-16",
+    "city": "OSSIPEE",
+    "state": "NH",
+    "zip": "03864",
+    "country": "USA"
+  },
+  "ship_to": {
+    "name": "HOBBS BREWING COMPANY LLC",
+    "address": "765 NH-16",
+    "city": "OSSIPEE",
+    "state": "NH",
+    "zip": "03864",
+    "country": "USA"
+  },
+  "customer_po": "23058",
+  "shipping_info": {
+    "freight_terms": "DAP OSSIPEE",
+    "bill_of_lading": "8283652",
+    "shipped_via": "ROW CRAFT BAG MALT 55LB"
+  },
+  "paymentTerms": {
+    "terms": "30 days from B/L"
+  },
+  "items": [
+    {
+      "lineNumber": 1,
+      "description": "ROW CRAFT BAG MALT 55LB",
+      "units_ordered": 30,
+      "unit_price": 38.5,
+      "amount": 1155,
+      "transUOM": "BAG",
+      "qtyShipped": 30,
+      "country_of_origin": ""
+    }
+  ],
+  "totals": {
+    "shipping": 155,
+    "total_due": 1310,
+    "currency": "USD"
+  },
+  "customer_service_email": "customersuccess@malteurop.com"
+}

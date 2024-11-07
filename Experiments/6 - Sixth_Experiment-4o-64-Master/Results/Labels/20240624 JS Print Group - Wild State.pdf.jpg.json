@@ -1,0 +1,52 @@
+{
+  "invoice_number": "20423",
+  "date": "06/26/2024",
+  "terms": "net 25",
+  "due_date": "07/21/2024",
+  "bill_to": {
+    "name": "Wild State Cider",
+    "address": "2515 W Superior St",
+    "city": "Duluth",
+    "state": "MN",
+    "zip": "55806"
+  },
+  "ship_to": {
+    "name": "Wild State Cider",
+    "address": "500 S 59th Ave W",
+    "city": "Duluth",
+    "state": "MN",
+    "zip": "55807"
+  },
+  "items": [
+    {
+      "description": "Printing - 12 oz Can Label - Wild Berry Lemonade 8.093 x 3.6258; 5/0 with bleeds and matte LED; #093; FLX056712 poly backed BOPP; on rolls; position #3",
+      "units_ordered": 3000,
+      "unit_price": 0.091,
+      "amount": 273
+    },
+    {
+      "description": "Printing - 12 oz Can Label - Honey Lemonade 8.093 x 3.6258; 5/0 with bleeds and matte LED; #093; FLX056712 poly backed BOPP; on rolls; position #3",
+      "units_ordered": 3000,
+      "unit_price": 0.091,
+      "amount": 273
+    }
+  ],
+  "totals": {
+    "subtotal": 546,
+    "sales_tax": 0,
+    "total_due": 546
+  },
+  "company": {
+    "name": "JS Print Group, Inc.",
+    "address": {
+      "street": "500 E 10th St",
+      "city": "Duluth",
+      "state": "MN",
+      "postalCode": "55805"
+    },
+    "contact": {
+      "phone": "218-464-5576",
+      "email": "billing@jsprintgroup.com"
+    }
+  }
+}

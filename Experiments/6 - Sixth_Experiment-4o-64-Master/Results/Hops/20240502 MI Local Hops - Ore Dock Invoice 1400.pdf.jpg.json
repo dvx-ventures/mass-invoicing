@@ -1,0 +1,51 @@
+{
+  "invoice_number": "1400",
+  "date": "05/02/2024",
+  "due_date": "06/01/2024",
+  "remit_to": {
+    "name": "MI Local Hops, LLC",
+    "address": "5720 Bates Rd, Williamsburg, MI 49690",
+    "email": "Mikem@Milocalhops.com",
+    "phone": "+1 (231) 620-6020"
+  },
+  "bill_to": {
+    "name": "Wes Pernsteiner",
+    "address": "114 W Spring Street, Marquette, MI 49855"
+  },
+  "ship_to": {
+    "name": "Wes Pernsteiner",
+    "address": "114 W Spring Street, Marquette, MI 49855"
+  },
+  "terms": "Net 30",
+  "shipping_info": {
+    "shipped_via": "Fed Ex",
+    "shipping_date": "05/02/2024",
+    "tracking_number": "776212015290"
+  },
+  "items": [
+    {
+      "description": "2023 Cascade Pellets",
+      "item_code": "88",
+      "units_ordered": 88,
+      "unit_price": 7,
+      "amount": 616
+    },
+    {
+      "description": "2023 Chinook Pellets",
+      "item_code": "44",
+      "units_ordered": 44,
+      "unit_price": 7,
+      "amount": 308
+    },
+    {
+      "description": "Shipping",
+      "units_ordered": 1,
+      "unit_price": 69.3,
+      "amount": 69.3
+    }
+  ],
+  "totals": {
+    "total_due": 993.3
+  },
+  "additional_notes": "Thank you for your continued support of our farm. This order was shipped out via Fed Ex and the tracking # is 776212015290. If you have any questions regarding this order please contact Mike. Cheers!"
+}

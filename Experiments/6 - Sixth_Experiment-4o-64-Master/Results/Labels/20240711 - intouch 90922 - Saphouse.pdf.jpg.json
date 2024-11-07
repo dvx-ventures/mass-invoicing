@@ -1,0 +1,41 @@
+{
+  "invoice_number": "90922",
+  "date": "6/11/2024",
+  "due_date": "7/11/2024",
+  "bill_to": {
+    "name": "Sap House Meadery LLC",
+    "address": "P.O. Box 595, Center Ossipee, NH 03814"
+  },
+  "ship_to": {
+    "name": "Sap House Meadery LLC",
+    "address": "6 Folsom Road, Center Ossipee, NH 03814"
+  },
+  "remit_to": {
+    "name": "InTouch Labels & Packaging. Part of Avery Products Corporation",
+    "address": "12 Technology Drive, North Chelmsford, MA 01863"
+  },
+  "terms": "Net 30",
+  "date_shipped": "6/11/2024 12:00:00 AM",
+  "shipped_via": "UPS",
+  "items": [
+    {
+      "item_code": "Labels",
+      "description": "Honey Blueberry Pie",
+      "units_ordered": 1000,
+      "unit_price": 0.33,
+      "amount": 334
+    },
+    {
+      "item_code": "Shipping",
+      "description": "UPS Ground",
+      "units_ordered": 1,
+      "unit_price": 13.55,
+      "amount": 13.55
+    }
+  ],
+  "totals": {
+    "subtotal": 347.55,
+    "sales_tax": 0,
+    "total_due": 347.55
+  }
+}

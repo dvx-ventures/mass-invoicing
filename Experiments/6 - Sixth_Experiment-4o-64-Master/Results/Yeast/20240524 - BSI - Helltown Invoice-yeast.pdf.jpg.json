@@ -1,0 +1,44 @@
+{
+  "invoice_number": "114892",
+  "date": "05/24/2024",
+  "due_date": "05/24/2024",
+  "remit_to": {
+    "name": "Brewing Science Institute",
+    "address": "106 Glen Dale Dr",
+    "city": "WOODLAND PARK",
+    "state": "CO",
+    "zip": "80863"
+  },
+  "bill_to": {
+    "name": "Helltown Brewing",
+    "address": "5758 Old William Penn Hwy",
+    "city": "Export",
+    "state": "PA",
+    "zip": "15632"
+  },
+  "items": [
+    {
+      "units_ordered": 3,
+      "item_code": "A-06",
+      "description": "London Ale II",
+      "unit_price": 43,
+      "amount": 129
+    },
+    {
+      "units_ordered": 1,
+      "item_code": "LMDA",
+      "description": "Bacteria Media",
+      "unit_price": 50,
+      "amount": 50
+    },
+    {
+      "description": "Shipping & Handling",
+      "amount": 62.55
+    }
+  ],
+  "totals": {
+    "sales_tax": 0,
+    "total": 241.55
+  },
+  "totals.total_due": 241.55
+}

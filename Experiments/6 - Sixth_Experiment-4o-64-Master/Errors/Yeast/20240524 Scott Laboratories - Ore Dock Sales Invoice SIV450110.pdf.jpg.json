@@ -1,0 +1,67 @@
+{
+  "billing_information": {
+    "account_number": "104918",
+    "customer": "WESTON PERNSTEINER",
+    "company": "ORE DOCK BREWING CO",
+    "country": "United States"
+  },
+  "shipping_information": {
+    "customer": "WESTON PERNSTEINER",
+    "country": "United States"
+  },
+  "line_items": [
+    {
+      "order_qty": 1,
+      "invoice_qty": 1,
+      "backorder_qty": 0,
+      "item": "500G LALBREW LoNa",
+      "lot_no": "62413340530611V",
+      "disc_unit_price": 203.4,
+      "total_discount": 22.6
+    },
+    {
+      "order_qty": 20,
+      "invoice_qty": 20,
+      "backorder_qty": 0,
+      "item": "500G NOTTINGHAM ALE YEAST",
+      "lot_no": "10802051230611X",
+      "disc_unit_price": 132,
+      "total_discount": 660
+    },
+    {
+      "order_qty": 20,
+      "invoice_qty": 20,
+      "backorder_qty": 0,
+      "item": "500G NOVALAGER YEAST",
+      "lot_no": "61207550240611V",
+      "disc_unit_price": 172,
+      "total_discount": 860
+    },
+    {
+      "order_qty": 10,
+      "invoice_qty": 10,
+      "backorder_qty": 0,
+      "item": "500G ABBAYE BELGIAN STYLE ALE YEAST",
+      "lot_no": "38500750240611V",
+      "disc_unit_price": 158.4,
+      "total_discount": 176
+    },
+    {
+      "order_qty": 1,
+      "invoice_qty": 1,
+      "backorder_qty": 0,
+      "item": "Shipping Charges",
+      "lot_no": "39270",
+      "disc_unit_price": 76.31,
+      "total_discount": 0
+    }
+  ],
+  "totals": {
+    "amt_exempt_from_sales_tax": 76.31,
+    "subtotal": 7943.71,
+    "tax_exemption_no": "NOT ON FILE"
+  },
+  "company_info": {
+    "country": "United States"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "invoice_number": "INV-0735702",
+  "date": "4/15/2024",
+  "order_date": "4/12/2024",
+  "due_date": "5/15/2024",
+  "remit_to": {
+    "name": "BSG",
+    "address": "PO Box 74769",
+    "city": "Chicago",
+    "state": "IL",
+    "zip": "60694-4769",
+    "country": "USA"
+  },
+  "bill_to": {
+    "name": "East Brother Beer Co",
+    "address": "72 Valley Cir",
+    "contact_person": "Robert Lightner",
+    "city": "Mill Valley",
+    "state": "CA",
+    "zip": "94941",
+    "country": "USA"
+  },
+  "ship_to": {
+    "name": "East Brother Beer Co",
+    "address": "1001 Canal Blvd",
+    "city": "Richmond",
+    "state": "CA",
+    "zip": "94804-3533",
+    "country": "USA"
+  },
+  "customer_po": "SO160-0961660",
+  "items": [
+    {
+      "item_code": "MSIM1002",
+      "description": "Simpsons Finest Golden Promise™ 25 kg",
+      "units_ordered": 14,
+      "unit_price": 56.76,
+      "amount": 794.64
+    },
+    {
+      "item_code": "XZZZN001",
+      "description": "Nut Roll - US",
+      "units_ordered": 1,
+      "unit_price": 0,
+      "amount": 0
+    }
+  ],
+  "totals": {
+    "sales_subtotal": 794.64,
+    "freight_charges": 0,
+    "sales_tax": 0,
+    "total_in_usd": 794.64
+  },
+  "terms": "Net 30 Days",
+  "shipping_info": {
+    "shipping_date": "4/12/2024",
+    "estimated_delivery_date": "4/12/2024",
+    "shipment_number": "SHP160-0769192",
+    "carrier": "Customer Pick Up"
+  },
+  "additional_notes": "All past due amounts are subject to a 1.5% finance charge"
+}

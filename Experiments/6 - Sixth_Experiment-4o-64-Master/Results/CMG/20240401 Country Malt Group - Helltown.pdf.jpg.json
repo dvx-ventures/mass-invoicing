@@ -1,0 +1,47 @@
+{
+  "invoice_number": "CAINV000024999",
+  "date": "04/01/2024",
+  "due_date": "05/01/2024",
+  "bill_to": {
+    "name": "Helltown Brewing",
+    "address": "5578 Old William Penn Hwy, Export, PA 15632, USA",
+    "city": "Export",
+    "state": "PA",
+    "zip": "15632"
+  },
+  "ship_to": {
+    "name": "Helltown Brewing",
+    "address": "5578 Old William Penn Hwy, Export, PA 15632, USA",
+    "city": "Export",
+    "state": "PA",
+    "zip": "15632"
+  },
+  "customer_po": "",
+  "paymentTerms": {
+    "terms": "Net 30 days",
+    "netDueDate": "05/01/2024"
+  },
+  "shipping_info": {
+    "freight_terms": "DAP-S-P",
+    "ship_via": "Bulkmatic Bethlehem - Thunder Bay Transload Main"
+  },
+  "items": [
+    {
+      "description": "CM-2ROWBK Blended",
+      "total_quantity": 21591,
+      "unit_price": 796.71,
+      "amount": 17201.77,
+      "transUOM": "kg"
+    }
+  ],
+  "totals": {
+    "merchandise_total": 17201.77,
+    "total_due": 17201.77,
+    "taxable_sales": 0,
+    "sales_tax": 0
+  },
+  "company": {
+    "name": "3316 Bonnybrook Rd. SE",
+    "address": "Calgary, AB T2G 4M9, Canada"
+  }
+}

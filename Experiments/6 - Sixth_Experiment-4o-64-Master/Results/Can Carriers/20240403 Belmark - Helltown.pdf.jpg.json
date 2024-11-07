@@ -1,0 +1,56 @@
+{
+  "invoice_number": "29716D",
+  "date": "04/03/24",
+  "due_date": "04/03/24",
+  "bill_to": {
+    "name": "Shawn Gentry",
+    "company": "Helltown Brewing",
+    "address": "5578 Old William Penn Hwy, Export PA 15632"
+  },
+  "ship_to": {
+    "name": "Shawn Gentry",
+    "company": "Helltown Brewing Company",
+    "address": "5578 Old William Penn Hwy, Export PA 15632"
+  },
+  "shipping_info": {
+    "shipped_via": "Belmark"
+  },
+  "customer_po": "EMAIL_SG040224",
+  "sales_agent": "Kyle Santy - 17",
+  "items": [
+    {
+      "description": "Line# 1 Buffy Hazing IPA 12 Pack C",
+      "qtyShipped": 1.98,
+      "transUOM": "M",
+      "unitPrice": "$803.91/M",
+      "extendedPrice": "$1591.74"
+    },
+    {
+      "description": "Line# 2 Mischievous Brown Ale 12 C",
+      "qtyShipped": 1.54,
+      "transUOM": "M",
+      "unitPrice": "$803.91/M",
+      "extendedPrice": "$1238.02"
+    },
+    {
+      "description": "Line# 3 Hazy Pack 12 Count Carton",
+      "qtyShipped": 5.83,
+      "transUOM": "M",
+      "unitPrice": "$803.91/M",
+      "extendedPrice": "$4686.80"
+    },
+    {
+      "description": "Plates/Prepress Charges: 1 Trident Max Item(s)",
+      "unitPrice": "$600.00",
+      "extendedPrice": "$600.00",
+      "additionalInfo": {
+        "graphic": "Graphic#: 600059"
+      }
+    }
+  ],
+  "totals": {
+    "total_due": 7516.56
+  },
+  "additional_notes": "*Freight will be added to final invoice",
+  "terms": "CASH IN ADVANCE"
+}

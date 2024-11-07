@@ -1,0 +1,61 @@
+{
+  "invoice_number": "CI-CSI37728",
+  "date": "03/13/24",
+  "remit_to": {
+    "name": "American Welding & Gas, Inc.",
+    "address": "PO Box 790309, St. Louis, MO 63179-0309",
+    "phone": "(641) 357-1151"
+  },
+  "bill_to": {
+    "name": "Ore Dock Brewing Company LLC",
+    "address": "114 W Spring St, Marquette MI 49855"
+  },
+  "ship_to": {
+    "name": "ORE DOCK BREWING COMPANY LLC",
+    "address": "114 W SPRING ST, MARQUETTE MI 49855"
+  },
+  "sales_agent": "C. Schultz",
+  "terms": "22 DAYS",
+  "items": [
+    {
+      "description": "Bulk Tank Liquid LOX",
+      "item_code": "EX",
+      "units_ordered": 1,
+      "amount": 126.32,
+      "unit_price": "0"
+    },
+    {
+      "description": "Carbon Dioxide CYL",
+      "item_code": "BD",
+      "units_ordered": 4,
+      "amount": 10.44,
+      "unit_price": "0"
+    },
+    {
+      "description": "Oxygen CYL",
+      "item_code": "EX",
+      "units_ordered": 8,
+      "amount": 17.44,
+      "unit_price": "0"
+    },
+    {
+      "description": "Nitrogen CYL",
+      "item_code": "NI",
+      "units_ordered": 3,
+      "amount": 7.76,
+      "unit_price": "0"
+    },
+    {
+      "description": "Spectra Gas 99",
+      "item_code": "EX",
+      "units_ordered": 1,
+      "amount": 2.93,
+      "unit_price": "0"
+    }
+  ],
+  "totals": {
+    "merchandise_total": 226.14,
+    "sales_tax": 0,
+    "total_due": 226.14
+  }
+}

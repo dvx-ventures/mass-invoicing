@@ -1,0 +1,39 @@
+{
+  "invoice_number": "0060134",
+  "date": "3/27/2023",
+  "bill_to": {
+    "name": "Ore Dock Brewing Company",
+    "address": "114 W Spring Street",
+    "city": "Marquette",
+    "state": "MI",
+    "zip": "49855",
+    "country": "United States"
+  },
+  "remit_to": {
+    "name": "Northern Energy Co.",
+    "address": "1952 West Avenue",
+    "city": "Marseille",
+    "state": "MI",
+    "zip": "48203",
+    "phone": "548-035-6598"
+  },
+  "soldTo": {
+    "customerNumber": 637447
+  },
+  "shipping_info": {
+    "ship_method": "Best Option"
+  },
+  "items": [
+    {
+      "description": "Sparkling Foam",
+      "units_ordered": 2,
+      "unit_price": 44,
+      "amount": 88
+    }
+  ],
+  "totals": {
+    "total_due": 19.47,
+    "currency": "US Dollars"
+  },
+  "terms": "1.9% interest will be added if not paid within 30 days of invoice date."
+}

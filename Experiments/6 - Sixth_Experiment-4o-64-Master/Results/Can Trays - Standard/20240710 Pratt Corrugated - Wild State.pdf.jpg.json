@@ -1,0 +1,68 @@
+{
+  "invoice_number": "1257431",
+  "date": "2024-07-11",
+  "page": "1",
+  "remit_to": {
+    "name": "Pratt Corrugated Holdings, Inc.",
+    "address": "PO BOX 933949, Atlanta, GA 31193-3949"
+  },
+  "remit_to.name": "Pratt Corrugated Holdings, Inc.",
+  "remit_to.address": "PO BOX 933949, Atlanta, GA 31193-3949",
+  "ship_to": {
+    "name": "Wild State Cider",
+    "address": "500 S 59th Ave W, Duluth, MN 55806"
+  },
+  "ship_to.name": "Wild State Cider",
+  "ship_to.address": "500 S 59th Ave W, Duluth, MN 55806",
+  "terms": "1.0% 10 NET 30",
+  "freight_terms": "CPU",
+  "shipped_via": "Common Carrier",
+  "sales_agent": "Brian Johnson",
+  "items": [
+    {
+      "description": "18 PK TRAY (3X6) - PLAIN",
+      "units_ordered": 3000,
+      "units_shipped": 31949,
+      "unit_price": "$206.25",
+      "amount": "$6,589.48",
+      "item_code": "Z779552-1"
+    },
+    {
+      "description": "24PK - PLAIN",
+      "units_ordered": 2000,
+      "units_shipped": 21300,
+      "unit_price": "$253.00",
+      "amount": "$5,388.90",
+      "item_code": "Z779562-1"
+    },
+    {
+      "description": "Freight Charge per Delivery",
+      "amount": "$850.00"
+    }
+  ],
+  "totals": {
+    "total_due": "$12,828.38",
+    "discount": "$128.28"
+  },
+  "sold_to": {
+    "name": "Camp Cider LLC",
+    "address": "500 South 59th Ave West, Duluth, MN 55807"
+  },
+  "soldTo.name": "Camp Cider LLC",
+  "soldTo.address": "500 South 59th Ave West, Duluth, MN 55807",
+  "shipping_info": {
+    "freight_terms": "CPU"
+  },
+  "bill_to": {
+    "name": "Camp Cider LLC",
+    "address": "500 South 59th Ave West, Duluth, MN 55807"
+  },
+  "bill_to.name": "Camp Cider LLC",
+  "bill_to.address": "500 South 59th Ave West, Duluth, MN 55807",
+  "paymentTerms": {
+    "terms": "1.0% 10 NET 30",
+    "netDueDate": "2024-07-21"
+  },
+  "paymentTerms.terms": "1.0% 10 NET 30",
+  "paymentTerms.netDueDate": "2024-07-21"
+}

@@ -1,0 +1,66 @@
+{
+  "invoice_number": "31154782",
+  "date": "02/09/2023",
+  "soldTo": {
+    "customerNumber": 103924,
+    "name": "HOBBS BREWING COMPANY LLC",
+    "address": "765 NH-16, OSSIPEE NH 03864, USA"
+  },
+  "shipTo": {
+    "customerNumber": 103924,
+    "name": "HOBBS BREWING COMPANY LLC",
+    "address": "765 NH-16, OSSIPEE NH 03864, USA"
+  },
+  "shipping_info": {
+    "FOBDescription": "WINONA MN",
+    "shipVia": "1 day truck delivery Route",
+    "freight_terms": "DAP OSSIPEE",
+    "estimated_delivery_date": "02/10/23",
+    "shipping_date": "02/09/23"
+  },
+  "customer_po": "PO-10177898",
+  "items": [
+    {
+      "itemNumber": "168975349-3",
+      "description": "BAG PILSEN MALT",
+      "lineNumber": 1,
+      "qtyShipped": 440,
+      "unitPrice": "0.65",
+      "extendedPrice": "286.00 USD",
+      "additionalInfo": {
+        "LotSN": "8000723465"
+      }
+    },
+    {
+      "itemNumber": "168975349-3",
+      "description": "BAG CRAFT 2RS MALT",
+      "lineNumber": 2,
+      "qtyShipped": 660,
+      "unitPrice": "0.66",
+      "extendedPrice": "435.60 USD",
+      "additionalInfo": {
+        "LotSN": "8000723466"
+      }
+    }
+  ],
+  "totals": {
+    "total_quantity": 1100,
+    "totalInvoice": "721.60 USD"
+  },
+  "contact": {
+    "email": "customersuccess@malteurop.com",
+    "phone": "844-546-6258"
+  },
+  "shipping": {
+    "customerPONumber": "PO-10177898"
+  },
+  "remit_to": {
+    "name": "MALTEUROP NORTH AMERICA",
+    "bank_details": {
+      "bank_name": "JPMORGAN CHASE BANK NA",
+      "account_number": "844001040",
+      "routing_number": "071000013"
+    },
+    "address": "MENA, 6737 W. WASHINGTON ST. SUITE 4204, MILWAUKEE, WI 53214"
+  }
+}

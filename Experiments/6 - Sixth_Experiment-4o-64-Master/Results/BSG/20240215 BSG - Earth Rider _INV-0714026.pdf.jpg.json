@@ -1,0 +1,63 @@
+{
+  "invoice_number": "INV-0714026",
+  "date": "2/15/2024",
+  "due_date": "3/16/2024",
+  "terms": "Net 30 Days",
+  "customer_po": "PO# 1377 - Frank",
+  "bill_to": {
+    "name": "Earth Rider Brewing",
+    "address": "PO Box 3167, Julia Convissor, Duluth, MN 55803, USA"
+  },
+  "ship_to": {
+    "name": "Earth Rider Brewing",
+    "address": "1617 N 3rd St, Superior, WI 54880-1016, USA"
+  },
+  "items": [
+    {
+      "item_code": "MWEY1066",
+      "description": "Weyermann® Carafa® Special Type 2 (dehusked) 25 kg",
+      "units_ordered": 6,
+      "unit_price": 53.79,
+      "amount": 322.74
+    },
+    {
+      "item_code": "MSIM1002",
+      "description": "Simpsons Finest Golden Promise™ 25 kg",
+      "units_ordered": 14,
+      "unit_price": 52.8,
+      "amount": 739.2
+    },
+    {
+      "item_code": "MMCI1071",
+      "description": "MCI Irish Stout Malt 25 kg",
+      "units_ordered": 8,
+      "unit_price": 47.52,
+      "amount": 380.16
+    },
+    {
+      "item_code": "AZZZ1105",
+      "description": "Grain Millers Rolled Oats 22.68 Kg",
+      "units_ordered": 10,
+      "unit_price": 38,
+      "amount": 380
+    },
+    {
+      "item_code": "XZZZN001",
+      "description": "Nut Roll - US",
+      "units_ordered": 1,
+      "unit_price": 0,
+      "amount": 0
+    }
+  ],
+  "totals": {
+    "merchandise_total": 1822.1,
+    "sales_tax": 0,
+    "total_due": 2009.6
+  },
+  "shipping_info": {
+    "shipping_date": "2/14/2024",
+    "estimated_delivery_date": "2/15/2024",
+    "carrier": "N & M Transfer Co., Inc / N&M Transfer",
+    "pro_number": "110870689"
+  }
+}

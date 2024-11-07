@@ -1,0 +1,64 @@
+{
+  "invoice_number": "88776",
+  "date": "4/26/2024",
+  "due_date": "5/26/2024",
+  "bill_to": {
+    "name": "Hobbs Tavern and Brewing Company",
+    "address": {
+      "street": "765 NH 16",
+      "city": "Ossipee",
+      "state": "NH",
+      "postal_code": "03864"
+    }
+  },
+  "ship_to": {
+    "name": "InTouch Labels & Packaging, Part of Avery Products Corporation",
+    "address": {
+      "street": "12 Technology Drive",
+      "city": "North Chelmsford",
+      "state": "MA",
+      "postal_code": "01863"
+    }
+  },
+  "items": [
+    {
+      "item_code": "Labels",
+      "description": "12oz Wildcat IPA",
+      "units_ordered": 7200,
+      "unit_price": 0.09,
+      "amount": 617.76
+    },
+    {
+      "item_code": "Labels",
+      "description": "12oz Hummibird Golden Ale",
+      "units_ordered": 2520,
+      "unit_price": 0.09,
+      "amount": 216.22
+    },
+    {
+      "item_code": "Labels",
+      "description": "Hi Jack Collab 12oz",
+      "units_ordered": 4830,
+      "unit_price": 0.09,
+      "amount": 414.41
+    },
+    {
+      "item_code": "Shipping",
+      "description": "UPS Ground",
+      "units_ordered": 1,
+      "unit_price": 70.44,
+      "amount": 70.44
+    }
+  ],
+  "shipping_info": {
+    "shipping_date": "4/26/2024",
+    "shipped_via": "UPS",
+    "terms": "Net 30"
+  },
+  "totals": {
+    "subtotal": 1318.83,
+    "tax": 0,
+    "total_due": 1318.83
+  },
+  "additional_notes": "Thank you for your business!"
+}

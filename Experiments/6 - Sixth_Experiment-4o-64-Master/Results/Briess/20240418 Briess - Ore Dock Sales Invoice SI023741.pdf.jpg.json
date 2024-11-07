@@ -1,0 +1,113 @@
+{
+  "invoice": {
+    "invoiceNumber": "1012741",
+    "invoiceDate": "April 11, 2024",
+    "totalInvoice": "3,500.00"
+  },
+  "date": "April 11, 2024",
+  "due_date": "May 11, 2024",
+  "remit_to": {
+    "name": "Briess Industries",
+    "address": {
+      "street": "PO Box 229",
+      "city": "Chilton",
+      "state": "WI",
+      "postal_code": "53014-0229"
+    },
+    "phone": "(920) 849-7711",
+    "fax": "(920) 849-4277"
+  },
+  "bill_to": {
+    "name": "Ore Dock Brewing Company, LLC",
+    "address": {
+      "street": "114 W. Spring St.",
+      "city": "Marquette",
+      "state": "MI",
+      "postal_code": "49855",
+      "country": "USA"
+    }
+  },
+  "ship_to": {
+    "name": "Ore Dock Brewing Company, LLC",
+    "address": {
+      "street": "114 W. Spring St.",
+      "city": "Marquette",
+      "state": "MI",
+      "postal_code": "49855",
+      "country": "USA"
+    }
+  },
+  "shipping_info": {
+    "freight_terms": "F.O.B. Destination Chilton",
+    "shipped_via": "Trans-All"
+  },
+  "sales_agent": "Mitch Bluff",
+  "items": [
+    {
+      "item_code": "83000",
+      "units_ordered": 500,
+      "units_shipped": 500,
+      "transUOM": "Pound",
+      "unit_price": 0.73,
+      "amount": 365,
+      "description": [
+        "Cust Part No.: Black Malt - Briess Ingredients",
+        "Product code: 24400200 (500 LB)"
+      ]
+    },
+    {
+      "item_code": "52660",
+      "units_ordered": 2000,
+      "units_shipped": 2000,
+      "transUOM": "Pound",
+      "unit_price": 0.72,
+      "amount": 1440,
+      "description": [
+        "Cust Part No.: Brewers Malt",
+        "Product code: 24402000 (2,000 LB)"
+      ]
+    },
+    {
+      "item_code": "8001",
+      "units_ordered": 2000,
+      "units_shipped": 2000,
+      "transUOM": "Pound",
+      "unit_price": 0.68,
+      "amount": 1360,
+      "description": [
+        "Cust Part No.: Pils Malt Briess",
+        "Product code: 24401200 (2,000 LB)"
+      ]
+    },
+    {
+      "item_code": "51437",
+      "units_ordered": 1000,
+      "units_shipped": 1000,
+      "transUOM": "Pound",
+      "unit_price": 0.65,
+      "amount": 650,
+      "description": [
+        "Cust Part No.: Wheat Malt, White",
+        "Product code: 24407000 (1000 LB)"
+      ]
+    },
+    {
+      "item_code": "99414",
+      "units_ordered": 200,
+      "units_shipped": 200,
+      "transUOM": "Pound",
+      "unit_price": 0.68,
+      "amount": 136,
+      "description": [
+        "Cust Part No.: Aromatic Munich Malt 20L"
+      ]
+    }
+  ],
+  "totals": {
+    "subtotal": 3500,
+    "sales_tax": "0.00",
+    "total_due": 3500
+  },
+  "terms": "1% 10",
+  "customer_po": "1543"
+}

@@ -1,0 +1,40 @@
+{
+  "invoice_number": "6040",
+  "date": "07/17/2023",
+  "remit_to": {
+    "name": "Steel City Creative",
+    "address": "924 6th Ave N, Birmingham, AL 35203",
+    "email": "accounting@steelcitytap.com",
+    "phone": "205-999-1805"
+  },
+  "bill_to": {
+    "name": "Modist Brewing",
+    "address": "505 N 3rd St, Minneapolis, Minnesota 55401, United States"
+  },
+  "ship_to": {
+    "name": "Modist Brewing",
+    "address": "505 N 3rd St, Minneapolis, Minnesota 55401, United States"
+  },
+  "due_date": "07/17/2023",
+  "terms": "Due on receipt",
+  "website": "www.steelcitytap.com",
+  "items": [
+    {
+      "description": "Custom Tap Handle: Resin Tap Handle, Custom Resin Tap Handles",
+      "units_ordered": 517,
+      "unit_price": 27.78,
+      "amount": 14362.26
+    },
+    {
+      "description": "Deposit, Less Deposit Previously Received",
+      "units_ordered": 1,
+      "unit_price": -6945,
+      "amount": -6945
+    }
+  ],
+  "totals": {
+    "merchandise_total": 7417.26,
+    "shipping": 621.17,
+    "total_due": 8038.43
+  }
+}

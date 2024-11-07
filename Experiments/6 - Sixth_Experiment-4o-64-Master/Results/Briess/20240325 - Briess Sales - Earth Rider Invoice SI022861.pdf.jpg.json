@@ -1,0 +1,54 @@
+{
+  "invoice_number": "SI022861",
+  "date": "2024-03-25",
+  "remit_to": {
+    "name": "Briess Industries",
+    "address": {
+      "street": "PO Box 88679",
+      "city": "Milwaukee",
+      "state": "WI",
+      "postal_code": "53288-8679"
+    },
+    "phone": "(920) 849-7711",
+    "fax": "(920) 849-4277"
+  },
+  "bill_to": {
+    "name": "EARTH RIDER BREWING LLC",
+    "address": "1617 N 3RD ST, SUPERIOR, WI 54880, USA"
+  },
+  "ship_to": {
+    "name": "EARTH RIDER BREWING CO",
+    "address": "1617 N 3RD ST, SUPERIOR, WI 54880, USA"
+  },
+  "customer_po": "1396",
+  "due_date": "2024-03-25",
+  "shipping_info": {
+    "shipped_via": "Customer Arranged Truck",
+    "freight_terms": "I-Tec Distribution Center"
+  },
+  "sales_agent": "Mike Illig",
+  "items": [
+    {
+      "item_code": "5323",
+      "units_ordered": 800,
+      "unit_price": 0.575,
+      "amount": 450.8,
+      "description": "Wheat Malt, Red"
+    },
+    {
+      "item_code": "7735",
+      "units_ordered": 1200,
+      "unit_price": 0.782,
+      "amount": 917.28,
+      "description": "Brewers Yellow Corn Flakes Non-GMO 50#"
+    },
+    {
+      "item_code": "PLT-ST",
+      "units_ordered": 1,
+      "unit_price": 0,
+      "amount": 0,
+      "description": "Standard Wood Pallet"
+    }
+  ],
+  "terms": "PP02"
+}

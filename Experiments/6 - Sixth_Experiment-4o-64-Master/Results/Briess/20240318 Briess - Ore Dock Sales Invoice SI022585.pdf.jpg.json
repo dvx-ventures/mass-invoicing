@@ -1,0 +1,125 @@
+{
+  "invoice_number": "SI022585",
+  "date": "March 18, 2024",
+  "due_date": "April 17, 2024",
+  "remit_to": {
+    "name": "ORE DOCK BREWING COMPANY, LLC",
+    "address": "114 W SPRING ST, MARQUETTE, MI 49855, USA",
+    "email": null,
+    "phone": null
+  },
+  "bill_to": {
+    "name": "ORE DOCK BREWING COMPANY, LLC",
+    "address": "114 W SPRING ST, MARQUETTE, MI 49855, USA",
+    "city": "MARQUETTE",
+    "state": "MI",
+    "zip": "49855",
+    "country": "USA",
+    "email": null,
+    "phone": null,
+    "contact_person": "Wes Pernsteiner",
+    "company": null
+  },
+  "ship_to": {
+    "name": "ORE DOCK BREWING COMPANY, LLC",
+    "address": "114 W SPRING ST, MARQUETTE, MI 49855, USA",
+    "city": "MARQUETTE",
+    "state": "MI",
+    "zip": "49855",
+    "country": "USA",
+    "phone": null
+  },
+  "customer_po": "1337",
+  "sales_agent": "Mike Illig",
+  "items": [
+    {
+      "description": "Rice Hulls 50#",
+      "item_code": "5106",
+      "units_ordered": 100,
+      "units_shipped": null,
+      "unit_price": 0.49,
+      "amount": 49
+    },
+    {
+      "description": "Brewers Malt",
+      "item_code": "5298",
+      "units_ordered": 2000,
+      "units_shipped": null,
+      "unit_price": 0.52,
+      "amount": 1040
+    },
+    {
+      "description": "Wheat Malt, White",
+      "item_code": "5317",
+      "units_ordered": 600,
+      "units_shipped": null,
+      "unit_price": 0.66,
+      "amount": 399
+    },
+    {
+      "description": "Carapils® Malt",
+      "item_code": "5419",
+      "units_ordered": 500,
+      "units_shipped": null,
+      "unit_price": 0.75,
+      "amount": 375
+    },
+    {
+      "description": "Goldpils® Vienna Malt",
+      "item_code": "6659",
+      "units_ordered": 400,
+      "units_shipped": null,
+      "unit_price": 0.59,
+      "amount": 238
+    },
+    {
+      "description": "Synergy Select Pilsen Malt",
+      "item_code": "7236",
+      "units_ordered": 2000,
+      "units_shipped": null,
+      "unit_price": 0.54,
+      "amount": 1090
+    },
+    {
+      "description": "Brewers Yellow Corn Flakes Non-GMO 50#",
+      "item_code": "7735",
+      "units_ordered": 500,
+      "units_shipped": null,
+      "unit_price": 0.78,
+      "amount": 390
+    },
+    {
+      "description": "Standard Wood Pallet",
+      "item_code": "PLT-ST",
+      "units_ordered": 3,
+      "units_shipped": null,
+      "unit_price": 0,
+      "amount": 0
+    },
+    {
+      "description": "Shipping and Handling Fees",
+      "item_code": "FREIGHT",
+      "units_ordered": 1,
+      "units_shipped": null,
+      "unit_price": 252.44,
+      "amount": 252.44
+    }
+  ],
+  "totals": {
+    "merchandise_total": 3833.44,
+    "sales_tax": 0,
+    "total_due": 3833.44
+  },
+  "terms": "N30",
+  "shipping_info": {
+    "shipped_via": "Tax-Air",
+    "freight_terms": null
+  },
+  "company": {
+    "name": "ORE DOCK BREWING COMPANY, LLC",
+    "address": "114 W SPRING ST, MARQUETTE, MI 49855, USA",
+    "contact": {
+      "name": "Wes Pernsteiner"
+    }
+  }
+}

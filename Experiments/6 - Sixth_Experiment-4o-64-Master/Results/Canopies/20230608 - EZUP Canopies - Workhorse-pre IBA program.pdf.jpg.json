@@ -1,0 +1,69 @@
+{
+  "invoice_number": "INV0533596",
+  "date": "6/8/2023",
+  "due_date": "6/8/2023",
+  "shipping_info": {
+    "customerPONumber": "F02- FEDEX GROUND",
+    "shipped_via": "FEDEX GROUND"
+  },
+  "paymentTerms": {
+    "terms": "PREPAID"
+  },
+  "bill_to": {
+    "name": "Workhorse Brewing",
+    "address": {
+      "street": "250 King Manor Drive, Suite 300",
+      "city": "King of Prussia",
+      "state": "PA",
+      "postal_code": "19406"
+    },
+    "contact_person": "Sarah Weggeman"
+  },
+  "ship_to": {
+    "name": "Workhorse Brewing",
+    "address": {
+      "street": "250 King Manor Drive, Suite 300",
+      "city": "King of Prussia",
+      "state": "PA",
+      "postal_code": "19406"
+    },
+    "contact_person": "Sarah Weggeman"
+  },
+  "items": [
+    {
+      "item_code": "EX10KCFBD",
+      "description": "Express, 10'(3m) Shelter, Alum Frame, Comm Top, Digital",
+      "priceUOM": "EA",
+      "units_ordered": 5,
+      "units_shipped": 5,
+      "unit_price": 755,
+      "amount": 3775
+    },
+    {
+      "item_code": "WB3GYBK4",
+      "description": "Weight Bag, 45 lb. Gray 4 Pack, w/ Black Accents",
+      "priceUOM": "EA",
+      "units_ordered": 5,
+      "units_shipped": 5,
+      "unit_price": 95,
+      "amount": 475
+    }
+  ],
+  "totals": {
+    "total_due": 4748.97,
+    "sales_tax": 268.81,
+    "discount": 0
+  },
+  "remit_to": {
+    "address": "1900 Second Street, Norco, CA 92860",
+    "attn": "A/R"
+  },
+  "contact": {
+    "phone": "(800) 45-SHADE",
+    "fax": "(951) 279-0888"
+  },
+  "company": {
+    "name": "International E-Z UP, Inc."
+  },
+  "sales_agent": "Pat Beall"
+}

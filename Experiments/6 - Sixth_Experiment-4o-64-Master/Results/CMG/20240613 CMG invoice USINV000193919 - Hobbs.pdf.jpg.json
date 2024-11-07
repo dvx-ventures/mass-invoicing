@@ -1,0 +1,93 @@
+{
+  "invoice": {
+    "invoiceNumber": "USINV000193919",
+    "invoiceDate": "06/13/2024",
+    "totalInvoice": "3065.3"
+  },
+  "bill_to": {
+    "name": "Hobbs Tavern & Brewing",
+    "address": "2415 White Mountain Hwy",
+    "city": "West Ossipee",
+    "state": "NH",
+    "zip": "03890"
+  },
+  "ship_to": {
+    "name": "Hobbs Tavern & Brewing",
+    "address": "765 NH Rt 16",
+    "city": "Ossipee",
+    "state": "NH",
+    "zip": "03864"
+  },
+  "shipping": {
+    "shipVia": "ROSS EXPRESS"
+  },
+  "items": [
+    {
+      "item_code": "CM-SPIL",
+      "description": "Canada Malting Superior Pilsen Malt",
+      "total_quantity": 12,
+      "unit_price": 36.85,
+      "amount": 442.2
+    },
+    {
+      "item_code": "GW-VIEN",
+      "description": "Great Western Malting Vienna Malt",
+      "total_quantity": 6,
+      "unit_price": 42.9,
+      "amount": 257.4
+    },
+    {
+      "item_code": "CM-WWHT",
+      "description": "Canada Malting White Wheat Malt",
+      "total_quantity": 3,
+      "unit_price": 37.4,
+      "amount": 112.2
+    },
+    {
+      "item_code": "SU-DEXT",
+      "description": "Corn Sugar - Dextrose",
+      "total_quantity": 3,
+      "unit_price": 52,
+      "amount": 156
+    },
+    {
+      "item_code": "FM-US05",
+      "description": "Fermentis SafAle US-05 Yeast",
+      "total_quantity": 6,
+      "unit_price": 63.5,
+      "amount": 381
+    },
+    {
+      "item_code": "YC-MOSC",
+      "description": "Cryo Hop Pellets - Mosaic",
+      "total_quantity": 2,
+      "unit_price": 326.7,
+      "amount": 653.4
+    },
+    {
+      "item_code": "YC-IDAT",
+      "description": "T90 Hop Pellets - Idaho 7",
+      "total_quantity": 2,
+      "unit_price": 99,
+      "amount": 198
+    },
+    {
+      "item_code": "YC-ELDT",
+      "description": "T90 Hop Pellets - El Dorado",
+      "total_quantity": 4,
+      "unit_price": 44,
+      "amount": 176
+    },
+    {
+      "item_code": "YC-CHIT",
+      "description": "T90 Hop Pellets - Chinook",
+      "total_quantity": 4,
+      "unit_price": 121,
+      "amount": 484
+    }
+  ],
+  "totals": {
+    "total_due": 3065.3
+  },
+  "terms": "Net 30 days"
+}

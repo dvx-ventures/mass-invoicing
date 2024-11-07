@@ -1,0 +1,31 @@
+{
+  "invoiceDetails": {
+    "source": "SOR06497",
+    "reference": "PO#1682"
+  },
+  "freightDunnage": [
+    {
+      "description": "Freight - Arranged by Customer",
+      "quantity": 1,
+      "unitPrice": 0,
+      "amount": 0
+    },
+    {
+      "description": "One-way Wood Dunnage",
+      "quantity": 8,
+      "unitPrice": 0,
+      "amount": 0
+    }
+  ],
+  "freightDunnageSubtotal": 0,
+  "paymentInstructions": {
+    "creditCard": {
+      "note": "We accept Visa, MasterCard, Discover, and American Express. There is a 3% fee applied for all credit card transactions."
+    },
+    "checkPayments": {
+      "payableTo": "Wildpack Holdings U.S. Inc. DBA Wildpack Beverage",
+      "westCoastAddress": "Suite FF 3917 E. Lone Mountain Road, North Las Vegas, Nevada, 89081, USA",
+      "eastCoastAddress": "Suite A2 1301 Edison Hwy, Baltimore, Maryland, 21213, USA"
+    }
+  }
+}

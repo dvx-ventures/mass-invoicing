@@ -1,0 +1,84 @@
+{
+  "invoice": {
+    "invoiceNumber": "SI024792",
+    "invoiceDate": "2024-05-20",
+    "dueDate": "2024-06-19",
+    "soldTo": {
+      "name": "ORE DOCK BREWING COMPANY, LLC",
+      "address": "114 W SPRING ST, MARQUETTE, MI 49855, USA",
+      "customerNumber": "C01645"
+    },
+    "shipTo": {
+      "name": "ORE DOCK BREWING COMPANY, LLC",
+      "address": "114 W SPRING ST, MARQUETTE, MI 49855, USA"
+    },
+    "shipping": {
+      "shipVia": "Tax-Air",
+      "customerPONumber": "1353"
+    },
+    "paymentTerms": {
+      "terms": "N30"
+    },
+    "salesAgent": "Mike Illig",
+    "items": [
+      {
+        "itemNumber": "5106",
+        "units_ordered": 30,
+        "units_shipped": 30,
+        "unit_price": 0.49,
+        "amount": 24.5,
+        "description": "Rice Hulls 50#04032024 (50 LB)"
+      },
+      {
+        "itemNumber": "5298",
+        "units_ordered": 1500,
+        "units_shipped": 1500,
+        "unit_price": 0.52,
+        "amount": 780,
+        "description": "Brewers Malt 240422C (1,450 LB), 240425B (50 LB)"
+      },
+      {
+        "itemNumber": "5301",
+        "units_ordered": 2000,
+        "units_shipped": 2000,
+        "unit_price": 0.53,
+        "amount": 1070,
+        "description": "Pale Ale Malt 240405C (2,000 LB)"
+      },
+      {
+        "itemNumber": "7236",
+        "units_ordered": 500,
+        "units_shipped": 500,
+        "unit_price": 0.54,
+        "amount": 272.5,
+        "description": "Synergy Select Pilsen Malt 240405A (500 LB)"
+      },
+      {
+        "itemNumber": "FREIGHT",
+        "units_ordered": 1,
+        "units_shipped": 1,
+        "unit_price": 237.31,
+        "amount": 237.31,
+        "description": "Shipping and Handling Fees"
+      },
+      {
+        "itemNumber": "PLT-ST",
+        "units_ordered": 2,
+        "units_shipped": 2,
+        "unit_price": 0,
+        "amount": 0,
+        "description": "Standard Wood Pallet"
+      }
+    ],
+    "totals": {
+      "merchandise_total": 2384.31,
+      "total_due": 2384.31
+    }
+  },
+  "company": {
+    "name": "Briess Industries",
+    "address": "Milwaukee, WI 53288-8679",
+    "phone": "(920) 849-7711",
+    "fax": "(920) 849-4277"
+  }
+}

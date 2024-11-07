@@ -1,0 +1,110 @@
+{
+  "invoice_number": "SI022067",
+  "date": "2024-03-01",
+  "remit_to": null,
+  "bill_to": {
+    "name": "ORE DOCK BREWING COMPANY, LLC",
+    "address": {
+      "street": "114 W SPRING ST.",
+      "city": "MARQUETTE",
+      "state": "MI",
+      "postal_code": "49855",
+      "country": "USA"
+    }
+  },
+  "ship_to": {
+    "name": "ORE DOCK BREWING COMPANY, LLC",
+    "address": {
+      "street": "114 W SPRING ST.",
+      "city": "MARQUETTE",
+      "state": "MI",
+      "postal_code": "49855",
+      "country": "USA"
+    }
+  },
+  "customer_po": "1332",
+  "due_date": "2024-03-31",
+  "shipping_info": {
+    "shipped_via": "Tax-Air"
+  },
+  "sales_agent": "Mike Illig",
+  "items": [
+    {
+      "item_code": "5106",
+      "units_ordered": 100,
+      "unit_price": 0.49,
+      "amount": 49
+    },
+    {
+      "item_code": "5298",
+      "units_ordered": 2000,
+      "unit_price": 0.52,
+      "amount": 1040
+    },
+    {
+      "item_code": "5301",
+      "units_ordered": 2000,
+      "unit_price": 0.53,
+      "amount": 1070
+    },
+    {
+      "item_code": "5317",
+      "units_ordered": 1000,
+      "unit_price": 0.665,
+      "amount": 665
+    },
+    {
+      "item_code": "5344",
+      "units_ordered": 1500,
+      "unit_price": 0.615,
+      "amount": 922.5
+    },
+    {
+      "item_code": "7051",
+      "units_ordered": 300,
+      "unit_price": 0.74,
+      "amount": 222
+    },
+    {
+      "item_code": "7070",
+      "units_ordered": 1500,
+      "unit_price": 0.73,
+      "amount": 1095
+    },
+    {
+      "item_code": "7572",
+      "units_ordered": 200,
+      "unit_price": 0.91,
+      "amount": 182
+    },
+    {
+      "item_code": "7735",
+      "units_ordered": 500,
+      "unit_price": 0.78,
+      "amount": 390
+    },
+    {
+      "item_code": "7236",
+      "units_ordered": 2000,
+      "unit_price": 0.545,
+      "amount": 1090
+    },
+    {
+      "item_code": "PLT-ST",
+      "units_ordered": 6,
+      "unit_price": 0,
+      "amount": 0
+    },
+    {
+      "item_code": "FREIGHT",
+      "units_ordered": 1,
+      "unit_price": null,
+      "amount": 468.22
+    }
+  ],
+  "totals": {
+    "merchandise_total": 7193.72,
+    "total_due": 7193.72
+  },
+  "terms": "N30"
+}

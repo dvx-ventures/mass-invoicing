@@ -1,0 +1,48 @@
+{
+  "invoice_number": "0088404-IN",
+  "date": "08/07/2024",
+  "page": "1",
+  "remit_to": {
+    "name": "Sap House Meadery LLC",
+    "address": "PO Box 595\nCenter Ossipee, NH 03814"
+  },
+  "bill_to": {
+    "name": "Sap House Meadery LLC",
+    "address": "PO Box 595",
+    "city": "Center Ossipee",
+    "state": "NH",
+    "zip": "03814"
+  },
+  "ship_to": {
+    "name": "Sap House Meadery",
+    "address": "6 Folsom Road",
+    "city": "Center Ossipee",
+    "state": "NH",
+    "zip": "03814"
+  },
+  "customer_po": null,
+  "terms": "Net 30 Days",
+  "shipping_info": {
+    "bill_of_lading": "0071998",
+    "shipped_via": "ROSS"
+  },
+  "items": [
+    {
+      "units_ordered": 24,
+      "transUOM": "EACH",
+      "description": "Moor - 60 lb. W.F. Honey Pail",
+      "unit_price": 165,
+      "amount": 3960,
+      "additionalInfo": {
+        "LotSN": "03724D"
+      }
+    }
+  ],
+  "totals": {
+    "merchandise_total": 3960,
+    "sales_tax": 0,
+    "shipping": 189,
+    "total_due": 4149
+  },
+  "due_date": "09/06/2024"
+}

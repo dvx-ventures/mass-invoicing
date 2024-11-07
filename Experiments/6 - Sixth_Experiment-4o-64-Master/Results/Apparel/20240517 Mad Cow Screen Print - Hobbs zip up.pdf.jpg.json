@@ -1,0 +1,48 @@
+{
+  "invoice_number": "14165",
+  "date": "5/17/2024",
+  "bill_to": {
+    "type": "object",
+    "name": "Hobbs Tavern"
+  },
+  "ship_to": {
+    "name": "Mad Cow Screen Print",
+    "address": "925 Route 16 Bld. #1, Ossipee, NH 03864",
+    "phone": "603-539-2862"
+  },
+  "customer_po": "tavern sweats",
+  "terms": null,
+  "date_shipped": "5/17/2024",
+  "due_date": "5/17/2024",
+  "customer_service_email": "madcownh@aol.com",
+  "website": "www.madcowscreenprint.com",
+  "items": [
+    {
+      "description": "MISC. GARMENTS 3739 bella canvas zip up heather navy with 1 color front and back sm-16 med-20 lg-24 xl-24 xxl-16",
+      "units_ordered": 100,
+      "unit_price": 24.5,
+      "amount": 2450
+    },
+    {
+      "description": "XXL UPCHARGE FOR SWEAT SHIRTS",
+      "units_ordered": 16,
+      "unit_price": 3.5,
+      "amount": 56
+    }
+  ],
+  "totals": {
+    "merchandise_total": 2506,
+    "sales_tax": 0,
+    "total_due": 2506
+  },
+  "shipping": {
+    "address": {
+      "street": "925 Route 16 Bld. #1",
+      "city": "Ossipee",
+      "state": "NH",
+      "postal_code": "03864",
+      "country": "USA"
+    },
+    "phone": "603-539-2862"
+  }
+}

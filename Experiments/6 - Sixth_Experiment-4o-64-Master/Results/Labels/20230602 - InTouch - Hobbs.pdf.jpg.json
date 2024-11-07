@@ -1,0 +1,86 @@
+{
+  "invoice_number": "75543",
+  "date": "6/2/2023",
+  "remit_to": {
+    "name": "Hobbs Tavern and Brewing Company",
+    "address": "765 NH 16",
+    "city": "Ossipee",
+    "state": "NH",
+    "zip": "03864"
+  },
+  "due_date": "7/2/2023",
+  "bill_to": {
+    "name": "Hobbs Tavern and Brewing Company",
+    "address": "765 NH 16",
+    "city": "Ossipee",
+    "state": "NH",
+    "zip": "03864"
+  },
+  "ship_to": {
+    "name": "Hobbs Brewing Company",
+    "address": "2415 NH Route 16",
+    "city": "West Ossipee",
+    "state": "NH",
+    "zip": "03890"
+  },
+  "terms": "Net 30",
+  "shipping_info": {
+    "shipped_via": "UPS"
+  },
+  "totals": {
+    "subtotal": 931.79,
+    "tax": 0,
+    "total_due": 931.79
+  },
+  "items": [
+    {
+      "item_code": "Labels",
+      "description": "Lake Life 16oz",
+      "units_ordered": 2000,
+      "unit_price": 0.09,
+      "amount": 180
+    },
+    {
+      "item_code": "Labels",
+      "description": "Jacked Up 16oz",
+      "units_ordered": 2400,
+      "unit_price": 0.09,
+      "amount": 216
+    },
+    {
+      "item_code": "Labels",
+      "description": "La Fresh 16oz",
+      "units_ordered": 800,
+      "unit_price": 0.09,
+      "amount": 72
+    },
+    {
+      "item_code": "Labels",
+      "description": "Pitch-A-Tent 16oz",
+      "units_ordered": 1200,
+      "unit_price": 0.09,
+      "amount": 108
+    },
+    {
+      "item_code": "Labels",
+      "description": "Hold my Juice 16oz",
+      "units_ordered": 2400,
+      "unit_price": 0.09,
+      "amount": 216
+    },
+    {
+      "item_code": "Labels",
+      "description": "Camp Life NEIPA 16oz",
+      "units_ordered": 800,
+      "unit_price": 0.09,
+      "amount": 72
+    },
+    {
+      "item_code": "Shipping",
+      "description": "UPS Saturday Delivery",
+      "units_ordered": 1,
+      "unit_price": 67.79,
+      "amount": 67.79
+    }
+  ]
+}

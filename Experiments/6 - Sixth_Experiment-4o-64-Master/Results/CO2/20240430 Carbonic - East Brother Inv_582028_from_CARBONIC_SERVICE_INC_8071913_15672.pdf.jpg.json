@@ -1,0 +1,68 @@
+{
+  "invoice_number": "582028",
+  "date": "4/30/2024",
+  "remit_to": {
+    "name": "Carbonic Service Inc",
+    "address": "1920 De La Cruz Blvd, Santa Clara, CA 95050, US",
+    "phone": "(408) 227-8355"
+  },
+  "bill_to": {
+    "name": "East Brother Beer",
+    "address": "72 Valley Circle, Mill Valley, CA 94941, US"
+  },
+  "ship_to": {
+    "name": "East Brother Beer",
+    "address": "1001 Canal Blvd #C2, Richmond, CA 94804, US"
+  },
+  "customer_po": "",
+  "terms": "Net 30",
+  "due_date": "4/30/2024",
+  "date_shipped": "4/30/2024",
+  "sales_agent": "18",
+  "items": [
+    {
+      "quantity": 1,
+      "unit": "",
+      "item_code": "26010",
+      "description": "Fuel Surcharge SF Moxie",
+      "unit_price": 32,
+      "amount": 32
+    },
+    {
+      "quantity": 1400,
+      "unit": "CUB",
+      "item_code": "6010",
+      "description": "CO2-Bulk Beverage Grade",
+      "unit_price": 0.28,
+      "amount": 392
+    },
+    {
+      "quantity": 1,
+      "unit": "",
+      "item_code": "26011",
+      "description": "Hazmat Fees",
+      "unit_price": 8,
+      "amount": 8
+    },
+    {
+      "quantity": 1,
+      "unit": "",
+      "item_code": "",
+      "description": "Richmond, City Of",
+      "unit_price": 0,
+      "amount": 0
+    }
+  ],
+  "taxInfo": {
+    "taxRate": "9.75%"
+  },
+  "totals": {
+    "merchandise_total": 432,
+    "total_due": 1624.95
+  },
+  "additional_notes": "CO2 Temp Surcharge ...",
+  "website": "www.carbonicservice.com",
+  "shipping_info": {
+    "freight_terms": "Net 30"
+  }
+}

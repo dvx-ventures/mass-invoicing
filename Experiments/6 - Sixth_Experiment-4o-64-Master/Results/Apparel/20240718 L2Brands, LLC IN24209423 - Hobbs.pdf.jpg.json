@@ -1,0 +1,74 @@
+{
+  "invoice_number": "IN24209423",
+  "date": "7/18/2024",
+  "due_date": "08/17/2024",
+  "terms": "N30",
+  "remit_to": {
+    "name": "L2 Brands, LLC",
+    "address": {
+      "street": "300 Fame Ave",
+      "city": "Hanover",
+      "state": "PA",
+      "postal_code": "17331"
+    }
+  },
+  "bill_to": {
+    "name": "Hobbs Tavern & Brewing Company LLC",
+    "address": "756 Route 16",
+    "city": "Ossipee",
+    "state": "NH",
+    "zip": "03864"
+  },
+  "ship_to": {
+    "name": "Hobbs Brewing Co",
+    "address": "765 NH Route 16",
+    "city": "Ossipee",
+    "state": "NH",
+    "zip": "03864"
+  },
+  "shipping_info": {
+    "shipped_via": "FEDEX Ground"
+  },
+  "items": [
+    {
+      "item_code": "LA085-444-S",
+      "description": "REORDER#:2018807 - Heather Navy LA085 w/Hobbs Brewing Co-THE",
+      "units_ordered": 8,
+      "unit_price": 11.5,
+      "amount": 92
+    },
+    {
+      "item_code": "LA085-444-M",
+      "description": "REORDER#:2018807 - Heather Navy LA085 w/Hobbs Brewing Co-THE",
+      "units_ordered": 10,
+      "unit_price": 11.5,
+      "amount": 115
+    },
+    {
+      "item_code": "LA085-444-L",
+      "description": "REORDER#:2018807 - Heather Navy LA085 w/Hobbs Brewing Co-THE",
+      "units_ordered": 10,
+      "unit_price": 11.5,
+      "amount": 115
+    },
+    {
+      "item_code": "LA085-444-XL",
+      "description": "REORDER#:2018807 - Heather Navy LA085 w/Hobbs Brewing Co-THE",
+      "units_ordered": 10,
+      "unit_price": 11.5,
+      "amount": 115
+    },
+    {
+      "item_code": "100",
+      "description": "Shipping/Handling",
+      "units_ordered": 1,
+      "unit_price": 24.51,
+      "amount": 24.51
+    }
+  ],
+  "totals": {
+    "subtotal": 461.51,
+    "tax": 0,
+    "total_due": 461.51
+  }
+}

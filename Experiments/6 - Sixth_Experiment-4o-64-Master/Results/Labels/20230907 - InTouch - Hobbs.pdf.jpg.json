@@ -1,0 +1,48 @@
+{
+  "invoice_number": "79157",
+  "date": "9/7/2023",
+  "due_date": "10/7/2023",
+  "bill_to": {
+    "name": "Hobbs Tavern and Brewing Company",
+    "address": "765 NH 16",
+    "city": "Ossipee",
+    "state": "NH",
+    "zip": "03864"
+  },
+  "ship_to": {
+    "name": "Hobbs Brewing Company",
+    "address": "2415 NH Route 16",
+    "city": "West Ossipee",
+    "state": "NH",
+    "zip": "03890"
+  },
+  "items": [
+    {
+      "description": "Toucan 16oz",
+      "units_ordered": 3600,
+      "unit_price": 0.09,
+      "amount": 324
+    },
+    {
+      "description": "Jambo 16oz",
+      "units_ordered": 450,
+      "unit_price": 0.09,
+      "amount": 40.5
+    },
+    {
+      "description": "UPS Ground",
+      "units_ordered": 1,
+      "unit_price": 8.86,
+      "amount": 8.86
+    }
+  ],
+  "terms": "Net 30",
+  "shipping_info": {
+    "shipped_via": "UPS"
+  },
+  "totals": {
+    "total_due": 373.36,
+    "tax": 0
+  },
+  "additional_notes": "Thank you for your business!"
+}

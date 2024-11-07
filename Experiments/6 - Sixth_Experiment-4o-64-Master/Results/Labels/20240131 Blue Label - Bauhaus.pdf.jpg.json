@@ -1,0 +1,72 @@
+{
+  "invoice_number": "255982",
+  "date": "1/31/2024",
+  "contact": {
+    "name": "Matt Schwandt",
+    "phone": "(612) 387-1407"
+  },
+  "customer_po": "011924",
+  "bill_to": {
+    "name": "Matt Schwandt",
+    "address": "1315 Tyler Street NE",
+    "city": "Minneapolis",
+    "state": "MN",
+    "zip": "55413",
+    "country": "USA",
+    "company": "Bauhaus Brew Labs"
+  },
+  "ship_to": {
+    "address": {
+      "address_line1": "1315 Tyler Street NE",
+      "city": "Minneapolis",
+      "state": "MN",
+      "postal_code": "55413",
+      "country": "USA"
+    },
+    "name": "Bauhaus Brew Labs",
+    "address_line1": "1315 Tyler Street NE",
+    "city": "Minneapolis",
+    "state": "MN",
+    "postal_code": "55413",
+    "country": "USA"
+  },
+  "items": [
+    {
+      "description": "12oz Wonderstuff",
+      "units_ordered": 10000,
+      "unit_price": 79,
+      "amount": 790
+    },
+    {
+      "description": "12oz Nah Helles Version 1",
+      "units_ordered": 30000,
+      "unit_price": 79,
+      "amount": 2370
+    },
+    {
+      "description": "12oz Bolo Sour Lemonade",
+      "units_ordered": 14000,
+      "unit_price": 67,
+      "amount": 938
+    },
+    {
+      "description": "12oz Bolo Sour Cherry Lime",
+      "units_ordered": 12000,
+      "unit_price": 67,
+      "amount": 804
+    }
+  ],
+  "totals": {
+    "total_due": 5382.59
+  },
+  "paymentTerms": {
+    "netDueDate": "2/29/2024",
+    "terms": "Net 30 Days"
+  },
+  "soldTo": {
+    "customerNumber": 112976
+  },
+  "shipping": {
+    "cost": 480.59
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "invoice_number": "0060895",
+  "date": "6/23/2024",
+  "remit_to": {
+    "name": "Ore Dock Brewing Company",
+    "address": "114 W Springs Street, Marquette, MI 49855, United States",
+    "email": [
+      "wes@oredockbrewingcompany.com",
+      "info@oredockbrewingcompany.com"
+    ]
+  },
+  "bill_to": {
+    "name": "Northwestern Extract Company",
+    "address": "W194N11250 McCormick Drive, Germantown, WI 53022-3032",
+    "phone": "(262) 345-6900"
+  },
+  "due_date": "5/23/2024",
+  "shipped_via": "Best Option",
+  "items": [
+    {
+      "description": "Blueberry FL, Nat-Type, WS",
+      "item_code": "S61280-1-G",
+      "units_ordered": 8.235,
+      "unit_price": 70,
+      "amount": 560
+    },
+    {
+      "description": "Cola FL, Nat-Type, WS",
+      "item_code": "S61298-1-G",
+      "units_ordered": 1,
+      "unit_price": 135,
+      "amount": 135
+    },
+    {
+      "description": "Ginger Beer FL, Nat-Type, WS",
+      "item_code": "S6825-G",
+      "units_ordered": 1,
+      "unit_price": 81,
+      "amount": 81
+    },
+    {
+      "description": "Hot Solution #97.005",
+      "item_code": "S60108-1-G",
+      "units_ordered": 1,
+      "unit_price": 66,
+      "amount": 66
+    },
+    {
+      "description": "Peach FL, Nat-Type, WS",
+      "item_code": "S61011-1-G",
+      "units_ordered": 4,
+      "unit_price": 75,
+      "amount": 300
+    },
+    {
+      "description": "Quinine Beverage Base",
+      "item_code": "S60966-1-G",
+      "units_ordered": 1,
+      "unit_price": 135,
+      "amount": 135
+    }
+  ],
+  "totals": {
+    "shipping": 87.29,
+    "total_due": 1364.29,
+    "currency": "USD"
+  },
+  "terms": "1.9% interest will be added if not paid within 30 days of invoice date"
+}

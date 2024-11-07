@@ -1,0 +1,65 @@
+{
+  "invoice_number": "INV-30511349",
+  "date": "09/29/2023",
+  "due_date": "10/14/2023",
+  "remit_to": {
+    "name": "Wildpack Holdings U.S. Inc. DBA Wildpack Beverage",
+    "address": "Suite FF 3917 E. Lone Mountain Road, North Las Vegas, Nevada, 89081, USA"
+  },
+  "bill_to": {
+    "name": "East Brother Beer Company",
+    "address": "1001 Canal Blvd #C-2"
+  },
+  "ship_to": {
+    "name": "East Brother Beer Company, East Brother - Deliveries",
+    "address": "1001 Canal Blvd, #C-2",
+    "city": "Richmond",
+    "state": "CA",
+    "zip": "94804",
+    "country": "United States"
+  },
+  "items": [
+    {
+      "description": "Brite Cans",
+      "units_ordered": 6224,
+      "unit_price": 0.1497,
+      "amount": 931.73
+    },
+    {
+      "description": "[FREIGHT-CUST] Freight - Arranged by Customer",
+      "units_ordered": 1,
+      "unit_price": 0,
+      "amount": 0
+    },
+    {
+      "description": "Split Pallet Fee",
+      "units_ordered": 1,
+      "unit_price": 100,
+      "amount": 100
+    },
+    {
+      "description": "Ball - Top Frame",
+      "units_ordered": 2,
+      "unit_price": 20,
+      "amount": 40
+    },
+    {
+      "description": "Ball - Tier Sheet",
+      "units_ordered": 18,
+      "unit_price": 2.7,
+      "amount": 48.6
+    },
+    {
+      "description": "Ball - Pallet",
+      "units_ordered": 2,
+      "unit_price": 62,
+      "amount": 124
+    }
+  ],
+  "totals": {
+    "merchandise_total": 1244.33
+  },
+  "paymentTerms": {
+    "terms": "15 Days from invoice date"
+  }
+}

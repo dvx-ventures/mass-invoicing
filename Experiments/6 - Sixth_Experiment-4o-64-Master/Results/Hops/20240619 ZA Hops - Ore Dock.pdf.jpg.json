@@ -1,0 +1,56 @@
+{
+  "invoice_number": "88083",
+  "date": "June 19, 2024",
+  "remit_to": {
+    "name": "Weston Pernsteiner",
+    "address": "114 W Spring St",
+    "city": "Marquette",
+    "state": "MI",
+    "postal_code": "49855",
+    "phone": "9063621081"
+  },
+  "bill_to": {
+    "name": "Weston Pernsteiner",
+    "address": "114 W Spring St",
+    "city": "Marquette",
+    "state": "MI",
+    "postal_code": "49855",
+    "email": "wes@oredockbrewingcompany.com",
+    "phone": "9063621081",
+    "company": "Ore Dock Brewing Company"
+  },
+  "ship_to": {
+    "name": "Weston Pernsteiner",
+    "address_line1": "114 W Spring St",
+    "city": "Marquette",
+    "state": "MI",
+    "postal_code": "49855"
+  },
+  "order_date": "June 19, 2024",
+  "shipping_info": {
+    "method": "UPS",
+    "cost": 141.5
+  },
+  "items": [
+    {
+      "description": "Southern Sublime (N1/69) - 2022",
+      "weight": "11lb",
+      "unit_price": 205.1,
+      "quantity": 4,
+      "total_price": 820.4
+    },
+    {
+      "description": "XJA2/436 - 2022",
+      "weight": "11lb",
+      "unit_price": 193,
+      "quantity": 1,
+      "total_price": 193
+    }
+  ],
+  "totals": {
+    "merchandise_total": 1013.4,
+    "shipping": 141.5,
+    "total_due": 1154.9
+  },
+  "payment_method": "Credit card (Square)"
+}

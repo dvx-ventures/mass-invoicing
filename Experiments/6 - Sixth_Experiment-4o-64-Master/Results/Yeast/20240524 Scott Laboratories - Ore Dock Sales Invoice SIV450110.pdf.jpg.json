@@ -1,0 +1,92 @@
+{
+  "invoice": {
+    "invoiceNumber": "SIV450110",
+    "invoiceDate": "05/24/2024",
+    "invoice": {},
+    "branchPlant": null,
+    "shipmentNumber": null
+  },
+  "invoice_number": "SIV450110",
+  "date": "05/24/2024",
+  "page": "1",
+  "remit_to": {
+    "name": "Scott Laboratories, Inc.",
+    "address": "PO Box 888198, Los Angeles, CA 90088-8198",
+    "city": "Los Angeles",
+    "state": "CA",
+    "zip": "90088-8198",
+    "phone": "707-765-6666"
+  },
+  "bill_to": {
+    "name": "ORE DOCK BREWING CO",
+    "address": "114 W SPRING STREET",
+    "city": "MARQUETTE",
+    "state": "MI",
+    "zip": "49855",
+    "company": "ORE DOCK BREWING CO"
+  },
+  "ship_to": {
+    "name": "ORE DOCK BREWING CO",
+    "address": "114 W SPRING STREET",
+    "city": "MARQUETTE",
+    "state": "MI",
+    "zip": "49855"
+  },
+  "customer_po": "WEBORDER",
+  "order_date": "05/24/2024",
+  "date_shipped": "05/24/2024",
+  "due_date": "05/24/2024",
+  "shipping_info": {},
+  "sales_agent": null,
+  "items": [
+    {
+      "description": "500G LALBREW LoNa",
+      "units_ordered": 1,
+      "units_shipped": 1,
+      "unit_price": 226,
+      "amount": 203.4
+    },
+    {
+      "description": "500G NOTTINGHAM ALE YEAST",
+      "units_ordered": 20,
+      "units_shipped": 20,
+      "unit_price": 165,
+      "amount": 2640
+    },
+    {
+      "description": "500G NOVALAGER YEAST",
+      "units_ordered": 20,
+      "units_shipped": 20,
+      "unit_price": 215,
+      "amount": 3440
+    },
+    {
+      "description": "500G ABBAYE BELGIAN STYLE ALE YEAST",
+      "units_ordered": 10,
+      "units_shipped": 10,
+      "unit_price": 176,
+      "amount": 1584
+    },
+    {
+      "description": "Shipping Charges",
+      "units_ordered": 1,
+      "units_shipped": 1,
+      "unit_price": 76.31,
+      "amount": 76.31
+    }
+  ],
+  "totals": {
+    "taxable_sales": 7867.4,
+    "sales_tax": 472.04,
+    "total_due": 8415.75
+  },
+  "terms": "CREDIT CARD",
+  "freight_terms": "FOB Petaluma CA PPD&Add",
+  "shipped_via": "FEDEX",
+  "pro_number": null,
+  "company": {
+    "name": "Scott Laboratories, Inc.",
+    "address": "PO Box 888198, Los Angeles, CA 90088-8198",
+    "phone": "707-765-6666"
+  }
+}

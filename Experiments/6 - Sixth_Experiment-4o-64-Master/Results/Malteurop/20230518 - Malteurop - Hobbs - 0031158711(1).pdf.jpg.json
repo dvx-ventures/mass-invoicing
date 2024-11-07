@@ -1,0 +1,74 @@
+{
+  "invoice_number": "31158711",
+  "date": "05/18/2023",
+  "page": "1/1",
+  "remit_to": {
+    "name": "MALTEUROP NORTH AMERICA",
+    "address": "6737 W. WASHINGTON ST. SUITE 4204, MILWAUKEE, WI 53214",
+    "bank_details": {
+      "bank_name": "JPMORGAN CHASE BANK NA",
+      "account_number": "844001040",
+      "routing_number": "071000013",
+      "swift_code": "CHASUS33"
+    }
+  },
+  "bill_to": {
+    "name": "HOBBS BREWING COMPANY LLC",
+    "address": "765 NH-16",
+    "city": "OSSIPEE",
+    "state": "NH",
+    "zip": "03864",
+    "country": "USA"
+  },
+  "ship_to": {
+    "name": "HOBBS BREWING COMPANY LLC",
+    "address": "765 NH-16",
+    "city": "OSSIPEE",
+    "state": "NH",
+    "zip": "03864",
+    "country": "USA"
+  },
+  "customer_po": "23027",
+  "terms": "30 days from B/L",
+  "sales_agent": "",
+  "shipped_via": "",
+  "pro_number": "810560",
+  "items": [
+    {
+      "description": "VIENNA BAG MALT 55LB",
+      "units_ordered": 12,
+      "units_shipped": 12,
+      "unit_price": 39.6,
+      "amount": 475.2,
+      "item_code": "",
+      "transUOM": "BAG"
+    },
+    {
+      "description": "2ROW CRAFT BAG MALT 55LB",
+      "units_ordered": 20,
+      "units_shipped": 20,
+      "unit_price": 38.5,
+      "amount": 770,
+      "item_code": "",
+      "transUOM": "BAG"
+    },
+    {
+      "description": "CRYSTAL WHEAT 3L BAG MALT 55LB",
+      "units_ordered": 4,
+      "units_shipped": 4,
+      "unit_price": 49.5,
+      "amount": 198,
+      "item_code": "",
+      "transUOM": "BAG"
+    }
+  ],
+  "totals": {
+    "shipping": 155,
+    "total": 1598.2,
+    "currency": "USD"
+  },
+  "contact": {
+    "phone": "844-546-6258",
+    "email": "customersuccess@malteurop.com"
+  }
+}

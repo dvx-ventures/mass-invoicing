@@ -1,0 +1,93 @@
+{
+  "invoice_number": "6685824",
+  "date": "2/7/24",
+  "due_date": "3/8/24",
+  "remit_to": {
+    "name": "Hawkins, Inc.",
+    "address": "2381 Rosegate, Roseville, MN 55113",
+    "phone": "(612) 331-6910"
+  },
+  "bill_to": {
+    "name": "BAUHAUS BREW LABS",
+    "address": "1315 Tyler St NE, Minneapolis MN 55413-1530",
+    "city": "Minneapolis",
+    "state": "MN",
+    "zip": "55413-1530"
+  },
+  "ship_to": {
+    "name": "BAUHAUS BREW LABS",
+    "address": "1315 Tyler St NE, Minneapolis MN 55413-1530",
+    "city": "Minneapolis",
+    "state": "MN",
+    "zip": "55413-1530"
+  },
+  "customer_po": "Chris S.",
+  "sales_agent": "046",
+  "items": [
+    {
+      "lineNumber": 1,
+      "item_code": "00055379",
+      "description": "Berliner Souring Blend",
+      "tax": "1N",
+      "units_shipped": 3,
+      "transUOM": "DG",
+      "unit_price": 9.8291,
+      "priceUOM": "LB",
+      "weightNetGross": {
+        "Net": 144,
+        "Gross": 159
+      },
+      "amount": 1415.39
+    },
+    {
+      "lineNumber": 1.01,
+      "item_code": "Fuel Surcharge",
+      "tax": "Freight",
+      "units_shipped": 1,
+      "transUOM": "EA",
+      "unit_price": 27,
+      "priceUOM": "EA",
+      "weightNetGross": {
+        "Net": 1,
+        "Gross": 1
+      },
+      "amount": 27
+    },
+    {
+      "lineNumber": 2,
+      "item_code": "000499991",
+      "description": "Freight Charge",
+      "tax": "N",
+      "units_shipped": 1,
+      "transUOM": "EA",
+      "unit_price": 15,
+      "priceUOM": "EA",
+      "weightNetGross": {
+        "Net": 1,
+        "Gross": 1
+      },
+      "amount": 15
+    },
+    {
+      "lineNumber": 3,
+      "item_code": "00055371X",
+      "description": "Souring Blend",
+      "tax": "N",
+      "units_shipped": 1,
+      "transUOM": "DG",
+      "unit_price": 9.8518,
+      "priceUOM": "LB",
+      "weightNetGross": {
+        "Net": 49,
+        "Gross": 54
+      },
+      "amount": 482.74
+    }
+  ],
+  "totals": {
+    "total_due": 1940.13,
+    "sales_tax": 0
+  },
+  "freight_terms": "PPA Origin",
+  "shipped_via": "HWTG"
+}

@@ -1,0 +1,56 @@
+{
+  "invoice_number": "250283",
+  "date": "10/12/2023",
+  "ship_to": {
+    "name": "Urban South Brewery",
+    "address": "1645 Tchoupitoulas Street, New Orleans, LA 70130, USA"
+  },
+  "customer_po": "372963",
+  "due_date": "10/12/2023",
+  "terms": "Due Upon Receipt",
+  "contact": {
+    "name": "Kyle Huling",
+    "phone": "504-462-0037"
+  },
+  "items": [
+    {
+      "item_code": "421015",
+      "description": "12oz Coco Gnar",
+      "units_ordered": 8000,
+      "unit_price": 81.83,
+      "amount": 654.64
+    },
+    {
+      "item_code": "421014",
+      "description": "12oz Lemon Lavender",
+      "units_ordered": 900,
+      "unit_price": 81.83,
+      "amount": 73.65
+    },
+    {
+      "item_code": "402235",
+      "description": "12oz Pop! Tangerine Sour",
+      "units_ordered": 10000,
+      "unit_price": 81.83,
+      "amount": 818.3
+    },
+    {
+      "item_code": "413171",
+      "description": "12oz Po Boy Lager",
+      "units_ordered": 10000,
+      "unit_price": 81.83,
+      "amount": 818.3
+    }
+  ],
+  "totals": {
+    "total_due": 2563.77,
+    "shipping": 198.88
+  },
+  "shipping_info": {
+    "tracking_number": "1ZVY86650364130477",
+    "shipped_via": "UPS Ground"
+  },
+  "sold_to": {
+    "customerNumber": "103802"
+  }
+}

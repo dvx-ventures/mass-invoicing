@@ -1,0 +1,62 @@
+{
+  "invoice_number": "31168811",
+  "date": "03/01/2024",
+  "page": "1/1",
+  "remit_to": {
+    "name": "MALTEUROP NORTH AMERICA",
+    "bank_details": {
+      "bank_name": "JPMORGAN CHASE BANK NA",
+      "account_number": "844001040",
+      "routing_number": "CHASUS33"
+    },
+    "phone": "844-546-6258",
+    "email": "customersuccess@malteurop.com"
+  },
+  "bill_to": {
+    "name": "HOBBS BREWING COMPANY LLC",
+    "address": "765 NH-16",
+    "city": "OSSIPEE",
+    "state": "NH",
+    "zip": "03864",
+    "country": "USA"
+  },
+  "ship_to": {
+    "name": "HOBBS BREWING COMPANY LLC",
+    "address": "765 NH-16",
+    "city": "OSSIPEE",
+    "state": "NH",
+    "zip": "03864",
+    "country": "USA"
+  },
+  "customer_po": "PO 23103",
+  "shipping_info": {
+    "freight_terms": "DAP OSSIPEE"
+  },
+  "totals": {
+    "total_due": 1460.7,
+    "currency": "USD"
+  },
+  "paymentTerms": {
+    "terms": "30 days from B/L"
+  },
+  "items": [
+    {
+      "description": "PILSEN BAG MALT 55LB",
+      "units_ordered": 14,
+      "unit_price": 33,
+      "amount": 462,
+      "transUOM": "BAG",
+      "date_shipped": "03/01/2024",
+      "shipment_number": "867240"
+    },
+    {
+      "description": "2ROW CRAFT BAG MALT 55LB",
+      "units_ordered": 26,
+      "unit_price": 32.45,
+      "amount": 843.7,
+      "transUOM": "BAG",
+      "date_shipped": "03/01/2024",
+      "shipment_number": "867240"
+    }
+  ]
+}

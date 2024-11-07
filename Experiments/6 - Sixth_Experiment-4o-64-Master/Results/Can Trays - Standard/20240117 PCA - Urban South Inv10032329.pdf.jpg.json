@@ -1,0 +1,68 @@
+{
+  "invoice_number": "URBS0020001",
+  "date": "1/17/24",
+  "page": "1",
+  "remit_to": {
+    "name": "Packaging Corporation of America",
+    "address": "P.O. BOX 532058",
+    "city": "Atlanta",
+    "state": "GA",
+    "zip": "30353-2058"
+  },
+  "ship_to": {
+    "name": "Urban South Brewery",
+    "address": "1645 Tchoupitoulas St",
+    "city": "New Orleans",
+    "state": "LA",
+    "zip": "70130-1852",
+    "country": "USA"
+  },
+  "sold_to": {
+    "name": "Urban South Brewery",
+    "address": "1645 Tchoupitoulas St",
+    "city": "New Orleans",
+    "state": "LA",
+    "zip": "70130-1852",
+    "country": "USA"
+  },
+  "shipping_info": {
+    "freight_terms": "Destination",
+    "shipped_via": "Venture Express",
+    "bill_of_lading": "70691"
+  },
+  "sales_agent": "2824",
+  "items": [
+    {
+      "order_number": "635071",
+      "description": "CASE TRAY",
+      "units_shipped": 43063,
+      "units_ordered": 42000,
+      "unit_price": 211,
+      "amount": 9086.29,
+      "additionalInfo": {
+        "msf": 100.78,
+        "dimensions": "15 15/16 x 10 9/16 x 2 1/2",
+        "die_cut": "EC32-B30-0-010-0000-340-01"
+      }
+    },
+    {
+      "order_number": "636232",
+      "description": "UNPRINTED CASE TRAY",
+      "units_shipped": 5496,
+      "units_ordered": 4800,
+      "unit_price": 211,
+      "amount": 1159.66,
+      "additionalInfo": {
+        "msf": 12.86,
+        "dimensions": "15 15/16 x 10 9/16 x 2 1/2",
+        "die_cut": "EC32-B30-0-010-0000-340-01"
+      }
+    }
+  ],
+  "totals": {
+    "total_due": 10245.95
+  },
+  "paymentTerms": {
+    "terms": "1-10 Net 30"
+  }
+}

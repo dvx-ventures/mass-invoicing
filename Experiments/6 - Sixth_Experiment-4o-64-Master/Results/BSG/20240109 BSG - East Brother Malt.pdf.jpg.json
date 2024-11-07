@@ -1,0 +1,59 @@
+{
+  "invoice_number": "INV-0701026",
+  "date": "1/9/2024",
+  "remit_to": {
+    "name": "BSG",
+    "address": {
+      "street": "PO Box 74769",
+      "city": "Chicago",
+      "state": "IL",
+      "postal_code": "60694-4769",
+      "country": "USA"
+    }
+  },
+  "bill_to": {
+    "name": "East Brother Beer Co",
+    "address": {
+      "street": "72 Valley Cir, Robert Lightner",
+      "city": "Mill Valley",
+      "state": "CA",
+      "postal_code": "94941",
+      "country": "USA"
+    }
+  },
+  "ship_to": {
+    "name": "East Brother Beer Co",
+    "address": {
+      "street": "1001 Canal Blvd",
+      "city": "Richmond",
+      "state": "CA",
+      "postal_code": "94804-3533",
+      "country": "USA"
+    }
+  },
+  "customer_po": "SO160-0897774",
+  "due_date": "2/8/2024",
+  "shipping_info": {
+    "shipping_date": "1/8/2024",
+    "estimated_delivery_date": "1/8/2024",
+    "carrier": "Customer Pick Up",
+    "shipment_number": "SHP160-0733632"
+  },
+  "items": [
+    {
+      "item_code": "MWEY1016",
+      "description": "Weyermann® Vienna 25 kg",
+      "quantity": 1,
+      "transUOM": "EA",
+      "unit_price": 50.27,
+      "amount": 50.27
+    }
+  ],
+  "totals": {
+    "merchandise_total": 50.27,
+    "sales_tax": 0,
+    "total_due": 50.27
+  },
+  "terms": "Net 30 Days",
+  "additional_notes": "If you wish to receive your invoices electronically, please call 1-800-374-2739 or send an e-mail to accountsreceivable@bsgcraft.com with your customer number and e-mail address."
+}

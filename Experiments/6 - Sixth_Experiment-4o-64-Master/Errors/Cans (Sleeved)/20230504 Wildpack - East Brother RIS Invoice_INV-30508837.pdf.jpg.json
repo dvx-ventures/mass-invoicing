@@ -1,0 +1,40 @@
+{
+  "source": "SOR04696",
+  "subtotals": [
+    {
+      "description": "Subtotal",
+      "amount": 832.46
+    },
+    {
+      "description": "Subtotal",
+      "amount": 0
+    }
+  ],
+  "payment_instructions": {
+    "invoice_communication": "Please use the following communication for your payment : INV-30508837",
+    "payment_remittance_instructions": {
+      "wire_ach": {
+        "beneficiary_account_name": "Wildpack Holdings US Inc.",
+        "beneficiary_address": "1301 Edison Hwy Ste A2, Baltimore, MD 21213",
+        "beneficiary_bank_address": "111 West Ocean Boulevard, Suite 530, Long Beach, California, 90802"
+      },
+      "credit_card": {
+        "accepted_cards": [
+          "Visa",
+          "MasterCard",
+          "Discover",
+          "American Express"
+        ],
+        "fee": "3%",
+        "payment_link": "found on electronic copy",
+        "phone": "725-277-4518"
+      },
+      "bill_com": {
+        "network_id": "ID0294455381392096",
+        "connect_link": "https://app02.us.bill.com/network/wildpackbeverageinc"
+      }
+    },
+    "order_release_conditions": "Orders requiring pre-payment cannot be released until receipt of funds in Wildpack’s bank account. If paying by check this could lead to a 3-5 day delay in order release. For same day order release, please use Wire or Credit Card."
+  },
+  "customer_portal": "To complete payment through our customer portal, visit: [Pay Now]"
+}

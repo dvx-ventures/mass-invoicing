@@ -1,0 +1,49 @@
+{
+  "invoice_number": "13662954",
+  "customer_po": "TJ3L1/00",
+  "invoice": {
+    "invoiceDate": "6/03/24",
+    "due_date": "6/13/24",
+    "totalInvoice": "6680"
+  },
+  "terms": "NET 10TH",
+  "soldTo": {
+    "name": "East Brother Beer Company",
+    "address": "1001 Canal Blvd #C-2",
+    "city": "Richmond",
+    "state": "CA",
+    "zip": "95804"
+  },
+  "remit_to": {
+    "phone": "(916) 447-1000 or (877) 398-3030",
+    "fax": "(916) 447-1217"
+  },
+  "shipTo": {
+    "name": "East Brother Beer Company",
+    "address": "1001 Canal Blvd #C-2",
+    "city": "Richmond",
+    "state": "CA",
+    "zip": "95804"
+  },
+  "items": [
+    {
+      "description": "15-3/8X10-7/16X2-15/16 32B KFT QPCE202260PCR EASY REMV 4PK 202",
+      "units_shipped": 5250,
+      "price": 0.4,
+      "amount": 2100,
+      "item_code": "PCA24CANTRAYSAC"
+    },
+    {
+      "description": "CAN HLDR BLACK 788/CS 40/P QPCE4PKBLACK",
+      "units_shipped": 40,
+      "price": 114.5,
+      "amount": 4580,
+      "item_code": "330098400"
+    }
+  ],
+  "totals": {
+    "merchandise_total": 6680,
+    "sales_tax": 0,
+    "total_due": 6680
+  }
+}

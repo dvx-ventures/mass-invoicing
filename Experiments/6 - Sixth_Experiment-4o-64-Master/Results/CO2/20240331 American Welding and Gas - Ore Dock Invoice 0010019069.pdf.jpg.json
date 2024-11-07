@@ -1,0 +1,52 @@
+{
+  "invoice_number": "03C1031459",
+  "date": "03/31/24",
+  "terms": "20 Days",
+  "due_date": "04/20/24",
+  "bill_to": {
+    "name": "AMERICAN WELDING & GAS, INC.",
+    "address": "PO BOX 798090",
+    "city": "ST LOUIS",
+    "state": "MO",
+    "zip": "63179-8009",
+    "phone": "(314) 835-1151"
+  },
+  "ship_to": {
+    "name": "ORE DOCK BREWING COMPANY LLC",
+    "address_line1": "114 W SPRING ST",
+    "city": "MARQUETTE",
+    "state": "MI",
+    "postal_code": "49855"
+  },
+  "items": [
+    {
+      "description": "BULK TANK LIQUID LQ",
+      "units_ordered": 1,
+      "unit_price": 126.32,
+      "amount": 126.32
+    },
+    {
+      "description": "RENT CHARGE",
+      "units_ordered": 1,
+      "unit_price": 5,
+      "amount": 5
+    },
+    {
+      "description": "OXYGEN CYL",
+      "units_ordered": 4,
+      "unit_price": 148.74,
+      "amount": 148.74
+    },
+    {
+      "description": "SAFETY & COMPLIANCE",
+      "units_ordered": 1,
+      "unit_price": 5,
+      "amount": 5
+    }
+  ],
+  "totals": {
+    "sales_tax": 0,
+    "total_due": 228.94
+  },
+  "sales_agent": "C212"
+}

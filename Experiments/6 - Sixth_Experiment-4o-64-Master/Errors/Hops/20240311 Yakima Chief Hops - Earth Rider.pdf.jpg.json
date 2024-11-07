@@ -1,0 +1,29 @@
+{
+  "invoice_date": "03/11/2024",
+  "customer_id": "EAR003",
+  "shipping_address": {
+    "name": "Earth Rider Brewery",
+    "address": "1617 N 3rd St",
+    "city": "Superior",
+    "state": "WI",
+    "zip_code": "54880",
+    "country": "United States of America"
+  },
+  "payment_details": {
+    "bank_transfer": {
+      "bank_name": "CoBank",
+      "customer_name": "NWFCS FBO Yakima Chief Hops LLC",
+      "routing_number": "307088754",
+      "address": "6340 S. Fiddlers Green Circ, Greenwood Village, CO 80111",
+      "account_number": "00043365",
+      "swift_code": "NBFCUS55"
+    },
+    "ach_payment": {
+      "bank_name": "CoBank, ACB",
+      "customer_name": "Yakima Chief Hops LLC",
+      "routing_number": "107007508",
+      "address": "6340 S. Fiddlers Green Ci, Greenwood Village, CO 80111",
+      "account_number": "1129150176"
+    }
+  }
+}

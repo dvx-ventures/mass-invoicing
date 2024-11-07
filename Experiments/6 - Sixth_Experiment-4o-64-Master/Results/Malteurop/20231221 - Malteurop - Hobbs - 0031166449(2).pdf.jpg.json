@@ -1,0 +1,63 @@
+{
+  "invoice_number": "31166449",
+  "date": "12/21/2023",
+  "page": "1/1",
+  "bill_to": {
+    "name": "HOBBS BREWING COMPANY LLC",
+    "address": "765 NH-16, OSSIPEE, NH, 03864, USA"
+  },
+  "ship_to": {
+    "name": "HOBBS BREWING COMPANY LLC",
+    "address": "765 NH-16, OSSIPEE, NH, 03864, USA",
+    "city": "OSSIPEE",
+    "state": "NH",
+    "zip": "03864"
+  },
+  "sold_to": {
+    "customerNumber": 103924,
+    "name": "HOBBS BREWING COMPANY LLC",
+    "address": "765 NH-16, OSSIPEE, NH, 03864, USA"
+  },
+  "customer_po": "23085",
+  "incoterms": "DAP OSSIPEE",
+  "paymentTerms": {
+    "terms": "30 days from B/L",
+    "netDueDate": "01/20/2024"
+  },
+  "items": [
+    {
+      "description": "PILSEN BAG MALT 55LB",
+      "units_ordered": 8,
+      "units_shipped": 8,
+      "unit_price": 39.05,
+      "amount": 312.4,
+      "transUOM": "BAG"
+    },
+    {
+      "description": "2ROW CRAFT BAG MALT 55LB",
+      "units_ordered": 29,
+      "units_shipped": 29,
+      "unit_price": 38.5,
+      "amount": 1116.5,
+      "transUOM": "BAG"
+    },
+    {
+      "description": "CRYSTAL WHEAT 3L BAG MALT 55LB",
+      "units_ordered": 3,
+      "units_shipped": 3,
+      "unit_price": 49.5,
+      "amount": 148.5,
+      "transUOM": "BAG"
+    }
+  ],
+  "totals": {
+    "shipping": 155,
+    "total_due": 1732.4,
+    "currency": "USD"
+  },
+  "customer_service_email": "customersuccess@malteurop.com",
+  "company": {
+    "name": "MALTEUROP NORTH AMERICA",
+    "phone": "844-546-6258"
+  }
+}

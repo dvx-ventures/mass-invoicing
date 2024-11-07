@@ -1,0 +1,63 @@
+{
+  "invoice_number": "216392",
+  "date": "12/14/2023",
+  "due_date": "1/13/2024",
+  "remit_to": {
+    "name": "Chemco Products Company",
+    "address": "6401 Alondra Blvd, Paramount, CA 90723-3758",
+    "phone": "(562) 602-2116",
+    "fax": "(562) 602-2811"
+  },
+  "bill_to": {
+    "name": "East Brother Beer Co.",
+    "address": "1001 Canal Blvd, Richmond, CA 94804"
+  },
+  "ship_to": {
+    "name": "East Brother Beer Co.",
+    "address": "1001 Canal Blvd, Richmond, CA 94804"
+  },
+  "customer_po": "35063121",
+  "order_date": "12/13/2023",
+  "terms": "Net 30",
+  "shipping_info": {
+    "freight_terms": "Delivered",
+    "shipped_via": "OAK HARBOR",
+    "bill_of_lading": "248207",
+    "pro_number": "CN-41LP"
+  },
+  "sales_agent": "CHG-FUELSCHG",
+  "items": [
+    {
+      "description": "CYCLONE",
+      "item_code": "CH-FL11631-55",
+      "units_shipped": 1,
+      "total_quantity": 55,
+      "unit_price": 12.33,
+      "amount": 678.15
+    },
+    {
+      "description": "CHEMCO PAA 15",
+      "item_code": "CH-FL99912-5",
+      "units_shipped": 1,
+      "total_quantity": 5,
+      "unit_price": 23.53,
+      "amount": 117.65
+    },
+    {
+      "description": "ENERGY/FUEL SURCHARGE",
+      "item_code": "CHG-FUELSCHG",
+      "units_shipped": 1,
+      "total_quantity": 1,
+      "unit_price": 40,
+      "amount": 40
+    }
+  ],
+  "totals": {
+    "merchandise_total": 835.8,
+    "taxable_sales": 835.8,
+    "sales_tax": 81.49,
+    "total_due": 917.29
+  },
+  "customer_service_email": "myorders@chemcoprod.com",
+  "website": "www.chemcoprod.com"
+}

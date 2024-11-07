@@ -1,0 +1,77 @@
+{
+  "invoice_number": "6707149",
+  "date": "3/12/24",
+  "remit_to": {
+    "name": "Hawkins, Inc.",
+    "address": "2381 Rosegate, Roseville, MN 55113",
+    "phone": "(612) 331-6910"
+  },
+  "bill_to": {
+    "name": "Accounts Payable, Bauhaus Brew Labs",
+    "address": "1315 Tyler St NE, Minneapolis MN 55413-1530"
+  },
+  "ship_to": {
+    "name": "Bauhaus Brew Labs",
+    "address": "1315 Tyler St NE, Minneapolis MN 55413-1530"
+  },
+  "customer_po": "Chris S.",
+  "due_date": "4/11/24",
+  "shipping_info": {
+    "freight_terms": "PPA Origin",
+    "shipped_via": "HWTG"
+  },
+  "sales_agent": "046",
+  "items": [
+    {
+      "lineNumber": 1,
+      "item_code": "499991",
+      "description": "Freight Charge",
+      "unit_price": 15,
+      "units_shipped": 1,
+      "amount": 15,
+      "tax": "N"
+    },
+    {
+      "lineNumber": 1.01,
+      "description": "Fuel Surcharge Freight",
+      "unit_price": 29,
+      "units_shipped": 1,
+      "amount": 29,
+      "tax": "N"
+    },
+    {
+      "lineNumber": 2,
+      "item_code": "62782",
+      "description": "Potassium Sorbate/Sod Benzoate",
+      "unit_price": 8.4731,
+      "units_shipped": 5,
+      "amount": 1970,
+      "tax": "N",
+      "additionalInfo": {
+        "LotSN": "789727",
+        "weightNetGross": "232.5 LB"
+      }
+    },
+    {
+      "lineNumber": 3,
+      "item_code": "38781",
+      "description": "Ascorbic Acid - USP",
+      "unit_price": 14.97,
+      "units_shipped": 1,
+      "amount": 374.25,
+      "tax": "N",
+      "additionalInfo": {
+        "LotSN": "3230111088",
+        "weightNetGross": "55.1 LB"
+      }
+    }
+  ],
+  "totals": {
+    "total_due": 2388.25,
+    "sales_tax": 0
+  },
+  "contact": {
+    "email": "Credit.Dept@HawkinsInc.com",
+    "phone": "612-331-6910"
+  }
+}

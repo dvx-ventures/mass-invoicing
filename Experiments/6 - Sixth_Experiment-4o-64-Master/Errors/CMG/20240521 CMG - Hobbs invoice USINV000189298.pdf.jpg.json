@@ -1,0 +1,54 @@
+{
+  "invoice": {
+    "header": {
+      "company": "Hobbs Tavern & Brewing",
+      "address": "2415 White Mountain Hwy, West Ossipee, NH 03890, USA",
+      "customerAccount": "USC004300",
+      "orderNumber": "USS100406208",
+      "currency": "USD",
+      "customerRefPO": "23131"
+    },
+    "billing": {
+      "remitTo": {
+        "creditsReturns": "360-905-3366"
+      },
+      "contactEmails": {
+        "trackingInquiries": "cmglogisticsteam@countrymalt.com",
+        "claims": "claims@countrymalt.com",
+        "credits": "credit@greatwesternmalting.com",
+        "newAccounts": "newaccts@gwmalt.com",
+        "remittance": "remittance@gwmalt.com"
+      }
+    },
+    "shipping": {
+      "shipFrom": {
+        "company": "Country Malt Group",
+        "address": "16 Beeman Way, Champlain, NY 12919, USA"
+      }
+    },
+    "fees": {
+      "freight": {
+        "fee": 95,
+        "tax": 0
+      },
+      "truck": {
+        "fee": 65,
+        "tax": 0
+      },
+      "skid": {
+        "fee": 9,
+        "tax": 0
+      },
+      "fsc": {
+        "fee": 36.1,
+        "tax": 0
+      },
+      "total": 205.1
+    },
+    "totals": {
+      "totalQtyShipped": 45,
+      "totalWeightLbs": 2326,
+      "freightAndAccessorialFees": 205.1
+    }
+  }
+}

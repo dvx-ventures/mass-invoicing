@@ -1,0 +1,64 @@
+{
+  "invoice_number": "77254",
+  "invoice": {
+    "invoiceDate": "7/21/2023"
+  },
+  "paymentTerms": {
+    "netDueDate": "8/20/2023",
+    "terms": "Net 30"
+  },
+  "bill_to": {
+    "name": "Hobbs Tavern and Brewing Company",
+    "address": "765 NH 16, Ossipee, NH 03864"
+  },
+  "shipTo": {
+    "name": "Hobbs Brewing Company",
+    "address": "2415 NH Route 16, West Ossipee, NH 03890"
+  },
+  "soldTo": {
+    "name": "InTouch Labels & Packaging, Part of Avery Products Corporation",
+    "address": "12 Technology Drive, North Chelmsford, MA 01863"
+  },
+  "date_shipped": "7/21/2023",
+  "shipping": {
+    "shipVia": "UPS"
+  },
+  "items": [
+    {
+      "item_code": "Labels",
+      "description": "Pitch-A-Tent 16oz",
+      "units_ordered": 4000,
+      "unit_price": 0.09,
+      "amount": 360
+    },
+    {
+      "item_code": "Labels",
+      "description": "Hold My Juice 16oz",
+      "units_ordered": 5500,
+      "unit_price": 0.09,
+      "amount": 495
+    },
+    {
+      "item_code": "Labels",
+      "description": "Toucan 16oz",
+      "units_ordered": 3500,
+      "unit_price": 0.09,
+      "amount": 315
+    },
+    {
+      "item_code": "Shipping",
+      "description": "UPS Ground",
+      "units_ordered": 1,
+      "unit_price": 24.89,
+      "amount": 24.89
+    }
+  ],
+  "totals": {
+    "subtotal": 1194.89,
+    "total_due": 1194.89
+  },
+  "taxInfo": {
+    "taxAmount": 0
+  },
+  "additional_notes": "Thank you for your business!"
+}

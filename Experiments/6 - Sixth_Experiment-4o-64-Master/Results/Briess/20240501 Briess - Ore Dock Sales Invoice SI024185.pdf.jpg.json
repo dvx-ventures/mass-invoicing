@@ -1,0 +1,102 @@
+{
+  "invoice_number": "SI024185",
+  "date": "2024-05-01",
+  "remit_to": {
+    "name": "ORE DOCK BREWING COMPANY, LLC",
+    "address": "114 W SPRING ST",
+    "city": "MARQUETTE",
+    "state": "MI",
+    "zip": "49855",
+    "country": "USA",
+    "contact": "Wes Pernsteiner"
+  },
+  "bill_to": {
+    "name": "ORE DOCK BREWING COMPANY, LLC",
+    "address": "114 W SPRING ST",
+    "city": "MARQUETTE",
+    "state": "MI",
+    "zip": "49855",
+    "country": "USA",
+    "contact": "Wes Pernsteiner"
+  },
+  "ship_to": {
+    "name": "ORE DOCK BREWING COMPANY, LLC",
+    "address": "114 W SPRING ST",
+    "city": "MARQUETTE",
+    "state": "MI",
+    "zip": "49855",
+    "country": "USA"
+  },
+  "customer_po": "1347",
+  "order_date": "2024-05-01",
+  "due_date": "2024-05-31",
+  "shipping_info": {
+    "ship_point": "I-Tec Distribution Center",
+    "shipped_via": "Tax-Air"
+  },
+  "terms": "N30",
+  "sales_agent": "Mike Illig",
+  "items": [
+    {
+      "item_number": "5106",
+      "units_ordered": 100,
+      "trans_uom": "Pound",
+      "piece_count": 2,
+      "unit_price": 0.49,
+      "amount": 49,
+      "additionalInfo": {
+        "description": "Rice Hulls 50#"
+      }
+    },
+    {
+      "item_number": "5298",
+      "units_ordered": 1500,
+      "trans_uom": "Pound",
+      "piece_count": 30,
+      "unit_price": 0.52,
+      "amount": 780,
+      "additionalInfo": {
+        "description": "Brewers Malt"
+      }
+    },
+    {
+      "item_number": "6659",
+      "units_ordered": 500,
+      "trans_uom": "Pound",
+      "piece_count": 10,
+      "unit_price": 0.59,
+      "amount": 297.5,
+      "additionalInfo": {
+        "description": "Goldpils® Vienna Malt"
+      }
+    },
+    {
+      "item_number": "7236",
+      "units_ordered": 2000,
+      "trans_uom": "Pound",
+      "piece_count": 40,
+      "unit_price": 0.54,
+      "amount": 1090,
+      "additionalInfo": {
+        "description": "Synergy Select Pilsen Malt"
+      }
+    },
+    {
+      "item_number": "FREIGHT",
+      "units_ordered": 1,
+      "trans_uom": "Each",
+      "piece_count": 1,
+      "unit_price": 239.09,
+      "amount": 239.09,
+      "additionalInfo": {
+        "description": "Shipping and Handling Fees"
+      }
+    }
+  ],
+  "totals": {
+    "subtotal": 2455.59,
+    "tax": 0,
+    "total_due": 2455.59
+  },
+  "additional_notes": "Finance charge of 1.5% per month will be applied to any past due balances."
+}

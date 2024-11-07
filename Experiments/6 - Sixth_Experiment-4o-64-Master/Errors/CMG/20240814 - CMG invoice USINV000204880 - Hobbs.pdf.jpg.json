@@ -1,0 +1,49 @@
+{
+  "invoice": {
+    "companyDetails": {
+      "name": "Hobbs Tavern & Brewing",
+      "address": "2415 White Mountain Hwy",
+      "city": "West Ossipee",
+      "state": "NH",
+      "zip": "03890",
+      "country": "USA"
+    },
+    "customerAccount": "USC004300",
+    "totals": {
+      "totalQtyShipped": 40,
+      "totalWeight": 2089.71,
+      "freightFees": 205.1,
+      "totalTaxes": 0
+    },
+    "freightFeesBreakdown": [
+      {
+        "feeType": "Freight",
+        "amount": 95,
+        "tax": 0
+      },
+      {
+        "feeType": "Truck",
+        "amount": 65,
+        "tax": 0
+      },
+      {
+        "feeType": "Skid",
+        "amount": 9,
+        "tax": 0
+      },
+      {
+        "feeType": "FSC",
+        "amount": 36.1,
+        "tax": 0
+      }
+    ],
+    "contactInformation": {
+      "creditsAndReturns": "claims@countrymalt.com",
+      "accountInquiries": "credit@greatwesternmalting.com",
+      "accountUpdate": "newaccts@gwmalt.com",
+      "remittanceEmail": "remittance@gwmalt.com",
+      "arInquiries": "360-905-3380",
+      "creditsReturnsPhone": "360-905-3366"
+    }
+  }
+}

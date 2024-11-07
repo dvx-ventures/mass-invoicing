@@ -1,0 +1,95 @@
+{
+  "invoice_number": "31156811",
+  "date": "03/31/2023",
+  "page": "1/1",
+  "remit_to": {
+    "name": "MALTEUROP NORTH AMERICA",
+    "address": "6737 W. WASHINGTON ST. SUITE 4204, MILWAUKEE, WI 53214",
+    "phone": null,
+    "bank_details": {
+      "bank_name": "JPMORGAN CHASE BANK NA",
+      "account_number": "844001040",
+      "routing_number": "071000013",
+      "swift_code": "CHASUS33"
+    }
+  },
+  "ship_to": {
+    "name": "HOBBS BREWING COMPANY LLC",
+    "address": "765 NH-16",
+    "city": "OSSIPEE",
+    "state": "NH",
+    "zip": "03864"
+  },
+  "bill_to": {
+    "name": "HOBBS BREWING COMPANY LLC",
+    "address": {
+      "street": "765 NH-16",
+      "city": "OSSIPEE",
+      "state": "NH",
+      "postal_code": "03864",
+      "country": "USA"
+    }
+  },
+  "items": [
+    {
+      "description": "PILSEN BAG MALT 55LB",
+      "units_ordered": 18,
+      "unit_price": 39.05,
+      "amount": 702.9,
+      "batch": "8000728389"
+    },
+    {
+      "description": "VIENNA BAG MALT 55LB",
+      "units_ordered": 12,
+      "unit_price": 39.6,
+      "amount": 475.2,
+      "batch": "8000720516"
+    },
+    {
+      "description": "2ROW CRAFT BAG MALT 55LB",
+      "units_ordered": 26,
+      "unit_price": 38.5,
+      "amount": 1001,
+      "batch": [
+        "8000721135",
+        "8000728788"
+      ]
+    },
+    {
+      "description": "STEAMED C40 BAG MALT 55LB",
+      "units_ordered": 2,
+      "unit_price": 49.5,
+      "amount": 99,
+      "batch": "8000697289"
+    },
+    {
+      "description": "BAVARIAN PILSEN BAG MALT 55LB",
+      "units_ordered": 15,
+      "unit_price": 52.8,
+      "amount": 792,
+      "batch": "8000688094"
+    },
+    {
+      "description": "CRYSTAL WHEAT 3L BAG MALT 55LB",
+      "units_ordered": 2,
+      "unit_price": 49.5,
+      "amount": 99,
+      "batch": "8000698234"
+    }
+  ],
+  "freight_terms": "DAP OSSIPEE",
+  "shipping_info": {
+    "freight": 310
+  },
+  "totals": {
+    "total": 3479.1,
+    "currency": "USD"
+  },
+  "contact": {
+    "phone": "844-546-6258",
+    "email": "customersuccess@malteurop.com"
+  },
+  "paymentTerms": {
+    "terms": "30 days from B/L"
+  }
+}

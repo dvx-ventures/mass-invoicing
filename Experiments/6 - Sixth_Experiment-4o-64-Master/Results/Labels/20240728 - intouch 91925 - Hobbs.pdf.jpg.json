@@ -1,0 +1,81 @@
+{
+  "invoice_number": "91925",
+  "date": "6/28/2024",
+  "due_date": "7/28/2024",
+  "remit_to": {
+    "name": "Hobbs Tavern and Brewing Company",
+    "address": "765 NH 16",
+    "city": "Ossipee",
+    "state": "NH",
+    "zip": "03864"
+  },
+  "bill_to": {
+    "name": "Hobbs Tavern and Brewing Company",
+    "address": "765 NH 16",
+    "city": "Ossipee",
+    "state": "NH",
+    "zip": "03864"
+  },
+  "ship_to": {
+    "name": "Hobbs Brewing Company",
+    "address": "2415 NH Route 16",
+    "city": "West Ossipee",
+    "state": "NH",
+    "zip": "03890"
+  },
+  "items": [
+    {
+      "item_no": "Labels",
+      "description": "HiJack 16oz",
+      "total_quantity": 6000,
+      "unit_price": 0.09,
+      "amount": 540
+    },
+    {
+      "item_no": "Labels",
+      "description": "Touscan 16oz",
+      "total_quantity": 1200,
+      "unit_price": 0.09,
+      "amount": 108
+    },
+    {
+      "item_no": "Labels",
+      "description": "Hold My Juice 16oz",
+      "total_quantity": 6000,
+      "unit_price": 0.09,
+      "amount": 540
+    },
+    {
+      "item_no": "Labels",
+      "description": "Pitch-A-tenant 16oz",
+      "total_quantity": 3600,
+      "unit_price": 0.09,
+      "amount": 324
+    },
+    {
+      "item_no": "Labels",
+      "description": "Black Sheep 16oz",
+      "total_quantity": 1000,
+      "unit_price": 0.09,
+      "amount": 90
+    },
+    {
+      "item_no": "Shipping",
+      "description": "UPS Ground",
+      "total_quantity": 1,
+      "unit_price": 64.06,
+      "amount": 64.06
+    }
+  ],
+  "terms": "Net 30",
+  "shipping_info": {
+    "shipping_date": "6/28/2024 12:00:00 AM",
+    "shipped_via": "UPS"
+  },
+  "totals": {
+    "subtotal": 1666.06,
+    "tax": 0,
+    "total_due": 1666.06
+  },
+  "additional_notes": "Thank you for your business!"
+}

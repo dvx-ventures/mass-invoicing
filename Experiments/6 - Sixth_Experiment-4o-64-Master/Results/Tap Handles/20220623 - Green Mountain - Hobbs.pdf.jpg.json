@@ -1,0 +1,51 @@
+{
+  "invoice_number": "10324",
+  "date": "6/30/2022",
+  "bill_to": {
+    "name": "Hobbs Tavern & Brewing Co.",
+    "address": "765 NH -16",
+    "city": "Ossipee",
+    "state": "NH",
+    "zip": "03864"
+  },
+  "ship_to": {
+    "name": "Hobbs Tavern & Brewing Co.",
+    "address": "765 NH -16",
+    "city": "Ossipee",
+    "state": "NH",
+    "zip": "03864"
+  },
+  "customer_po": null,
+  "due_date": "6/30/2022",
+  "shipping_info": {
+    "shipped_via": "UPS",
+    "tracking_number": null
+  },
+  "contact": {
+    "phone": "6033365555",
+    "email": "accounting@greenmountaintaps.com",
+    "website": "www.greenmountaintaps.com"
+  },
+  "items": [
+    {
+      "description": "50% deposit required to begin production of order",
+      "units_ordered": 100,
+      "unit_price": 27.86,
+      "amount": 2786,
+      "item_code": "Order Deposit"
+    }
+  ],
+  "totals": {
+    "total_due": 1393
+  },
+  "additional_notes": "We appreciate your business. Cheers!",
+  "company": {
+    "name": "Green Mountain Taps",
+    "address": "PO Box 371",
+    "city": "Hinsdale",
+    "state": "NH",
+    "zip": "03451",
+    "phone": "(603) 336-5555"
+  },
+  "terms": "Upon Receipt"
+}

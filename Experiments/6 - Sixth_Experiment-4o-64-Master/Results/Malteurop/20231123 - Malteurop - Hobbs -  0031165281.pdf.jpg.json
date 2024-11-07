@@ -1,0 +1,71 @@
+{
+  "invoice_number": "31165281",
+  "date": "11/14/2023",
+  "remit_to": {
+    "name": "MALTEUROP NORTH AMERICA",
+    "address": "MENA, 6737 W. WASHINGTON ST. SUITE 4204, MILWAUKEE, WI 53214"
+  },
+  "ship_to": {
+    "name": "HOBBS BREWING COMPANY LLC",
+    "address": "765 NH-16, OSSIPEE NH 03864, USA"
+  },
+  "customer_po": "23077",
+  "payment_terms": {
+    "terms": "30 days from B/L"
+  },
+  "items": [
+    {
+      "date_shipped": "11/14/2023",
+      "line_number": 1,
+      "description": "PILSEN BAG MALT 55LB",
+      "item_number": 1,
+      "country_of_origin": "US",
+      "quantity": 6,
+      "transUOM": "BAG",
+      "unit_price": "39.05",
+      "amount": 234.3,
+      "currency": "USD"
+    },
+    {
+      "date_shipped": "11/14/2023",
+      "line_number": 2,
+      "description": "2ROW CRAFT BAG MALT 55LB",
+      "item_number": 2,
+      "country_of_origin": "US",
+      "quantity": 12,
+      "transUOM": "BAG",
+      "unit_price": "38.5",
+      "amount": 462,
+      "currency": "USD"
+    },
+    {
+      "date_shipped": "11/14/2023",
+      "line_number": 3,
+      "description": "BAVARIAN PILSEN BAG MALT 55LB",
+      "item_number": 3,
+      "country_of_origin": "DE",
+      "quantity": 14,
+      "transUOM": "BAG",
+      "unit_price": "52.8",
+      "amount": 739.2,
+      "currency": "USD"
+    },
+    {
+      "date_shipped": "11/14/2023",
+      "line_number": 4,
+      "description": "CRYSTAL WHEAT 3L BAG MALT 55LB",
+      "item_number": 4,
+      "country_of_origin": "US",
+      "quantity": 2,
+      "transUOM": "BAG",
+      "unit_price": "49.5",
+      "amount": 99,
+      "currency": "USD"
+    }
+  ],
+  "totals": {
+    "freight": 155,
+    "total_due": 1689.5,
+    "currency": "USD"
+  }
+}

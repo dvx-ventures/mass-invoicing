@@ -1,0 +1,39 @@
+{
+  "invoice_number": "IN0172328",
+  "date": "4/12/2023",
+  "page": "1",
+  "soldTo": {
+    "name": "Hobbs Tavern & Brewing Company, LLC",
+    "address": "765 White Mountain Highway",
+    "city": "Ossipee",
+    "state": "NH",
+    "zip": "03864"
+  },
+  "shipTo": {
+    "name": "Hobbs Tavern & Brewing Company, LLC",
+    "address": "765 White Mountain Highway",
+    "city": "Ossipee",
+    "state": "NH",
+    "zip": "03864"
+  },
+  "items": [
+    {
+      "transUOM": "3",
+      "description": "16 oz Aluminum Regular Brite Can - No Print",
+      "total_quantity": 15171,
+      "unit_price": "186.00 / M",
+      "amount": 2821.81
+    }
+  ],
+  "totals": {
+    "total_due": 2821.81
+  },
+  "paymentTerms": {
+    "terms": "Net 30 Days",
+    "netDueDate": "5/12/2023"
+  },
+  "shipping_info": {
+    "bill_of_lading": "W58231002",
+    "shipped_via": "New Penn Motor Express"
+  }
+}

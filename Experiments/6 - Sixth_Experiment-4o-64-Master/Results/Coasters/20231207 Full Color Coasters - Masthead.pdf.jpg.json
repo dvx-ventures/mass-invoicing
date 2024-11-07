@@ -1,0 +1,42 @@
+{
+  "invoice_number": "30310",
+  "date": "12/7/2023",
+  "bill_to": {
+    "name": "Masthead Brewing Co.",
+    "address": "1261 Superior Avenue",
+    "city": "Cleveland",
+    "state": "Ohio",
+    "zip": "44114",
+    "email": "liz@mastheadbrewingco.com"
+  },
+  "ship_to": {
+    "name": "Masthead Brewing Co.",
+    "address": "1261 Superior Avenue",
+    "city": "Cleveland",
+    "state": "OH",
+    "zip": "44114"
+  },
+  "customer_po": "Liz Pelechaty",
+  "terms": "Due on receipt",
+  "date_shipped": "12/7/2023",
+  "shipped_via": "FedEx",
+  "items": [
+    {
+      "units_ordered": 6.85,
+      "item_code": "Coaster4rndC",
+      "description": "Pulpboard Coaster, 60 point medium weight, 4\" round with full color imprint on both sides. Per case of 3,500 coasters (20 sleeves of 175 per sleeve).",
+      "unit_price": 199.75,
+      "amount": 1368.29
+    },
+    {
+      "units_ordered": 1,
+      "item_code": "Freight",
+      "description": "Shipping & Handling - Del Sched 12/11/23 707088577978",
+      "unit_price": 181.71,
+      "amount": 181.71
+    }
+  ],
+  "totals": {
+    "total_due": 1550
+  }
+}

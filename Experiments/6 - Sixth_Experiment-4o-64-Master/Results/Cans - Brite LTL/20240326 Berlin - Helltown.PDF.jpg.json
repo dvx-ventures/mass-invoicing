@@ -1,0 +1,73 @@
+{
+  "invoice_number": "0410058671",
+  "date": "03/26/2024",
+  "order_date": "03/26/2024",
+  "customer_po": "3-26-24 EMAIL",
+  "sales_agent": "James Sauer",
+  "soldTo": {
+    "customerNumber": 334811,
+    "name": "Helltown Brewing",
+    "address": "5578 Old William Penn Hwy, Export PA 15632"
+  },
+  "shipTo": {
+    "customerNumber": 334811,
+    "name": "Helltown Brewing",
+    "address": "5578 Old William Penn Hwy, Export PA 15632"
+  },
+  "freight_terms": "FOB Origin, Freight PPD & Add",
+  "terms": "Cash In Advance",
+  "shipping_info": {
+    "shipped_via": "TO BE DETERMINED"
+  },
+  "items": [
+    {
+      "lineNumber": 1,
+      "itemNumber": "1275849",
+      "description": "12OZ ALUMINUM BEER CANS - 21 LAYERS PER PALLET",
+      "scheduledShipDate": "03/27/2024",
+      "quantity": 49014,
+      "transUOM": "EA",
+      "unitPrice": 0.114,
+      "extendedPrice": 5587.6,
+      "additionalInfo": {
+        "capacity": "BEER CANS 12OZ ALUMINUM, 389 CANS PER LAYER, 21 LAYERS PER PALLET"
+      }
+    },
+    {
+      "lineNumber": 2,
+      "itemNumber": "CROWN-PLASTIC-PLT",
+      "description": "CROWN PLASTIC PALLET 44X56",
+      "scheduledShipDate": "03/27/2024",
+      "quantity": 6,
+      "transUOM": "EA",
+      "unitPrice": 65,
+      "extendedPrice": 390
+    },
+    {
+      "lineNumber": 3,
+      "itemNumber": "CROWN-TOPFRAME",
+      "description": "CROWN OVERSIZED PLASTIC TOP FRAME 56\" X 44\" X 2\"",
+      "scheduledShipDate": "03/27/2024",
+      "quantity": 6,
+      "transUOM": "EA",
+      "unitPrice": 20,
+      "extendedPrice": 120
+    },
+    {
+      "lineNumber": 4,
+      "itemNumber": "CROWN-TIERSHEET",
+      "description": "CROWN OVERSIZED PLASTIC TIER SHEET 56\" X 44\" X 1\"",
+      "scheduledShipDate": "03/27/2024",
+      "quantity": 132,
+      "transUOM": "EA",
+      "unitPrice": 2.5,
+      "extendedPrice": 330
+    }
+  ],
+  "totals": {
+    "merchandise_total": 6427.6,
+    "sales_tax": 0,
+    "total_due": 6427.6,
+    "currency": "USD"
+  }
+}

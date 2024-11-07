@@ -1,0 +1,67 @@
+{
+  "invoice_number": "00042410 R3",
+  "invoice": {
+    "invoiceDate": "Mar-05-2024"
+  },
+  "due_date": "Apr-04-2024",
+  "soldTo": {
+    "name": "Helltown Brewing",
+    "contactPerson": "Shawn D Gentry - Brewery Acquisition Operator",
+    "address": "5578 Old William Penn Hwy, Export, PA 15632"
+  },
+  "shipTo": {
+    "name": "Headquarters",
+    "addressLine1": "644 South 5th Street, Milwaukee, WI 53204",
+    "regions": [
+      {
+        "name": "Southwest Region",
+        "address": "1001 North CR 3 East, Monte Vista, CO 81144"
+      },
+      {
+        "name": "Mid-Atlantic Region",
+        "address": "33222 Bi-State Boulevard, Laurel, DE 19956"
+      }
+    ]
+  },
+  "sales_agent": "Matt Bartley",
+  "terms": "30 Days (A Service Charge of 1.5% will be added to all invoices over 30 days)",
+  "items": [
+    {
+      "description": "OAT MALT 55LB",
+      "additionalInfo": {
+        "LotSN": "1-45300"
+      },
+      "ordered": 40,
+      "qtyShipped": 40,
+      "units_shipped": 40,
+      "unit_price": 46.75,
+      "priceUOM": "55LB",
+      "amount": 1870
+    },
+    {
+      "description": "MIDATLANTIC WHEAT MALT 55LB",
+      "additionalInfo": {
+        "LotSN": "2-45350"
+      },
+      "ordered": 40,
+      "qtyShipped": 40,
+      "units_shipped": 40,
+      "unit_price": 39.05,
+      "priceUOM": "55LB",
+      "amount": 1562
+    }
+  ],
+  "totals": {
+    "merchandise_total": 3510,
+    "total_due": 3510
+  },
+  "paymentTerms": {
+    "terms": "30 Days (A Service Charge of 1.5% will be added to all invoices over 30 days)"
+  },
+  "payment_instructions": {
+    "wire_or_credit_card": "Call 414-755-8394",
+    "credit_card_fee": "Credit card payments will incur up to a 3% processing fee per Proximity Malt's payment policy",
+    "e_checks": "E-checks and remittance info can be sent to:  AR@ProximityMalt.com",
+    "check_mail": "To pay by check, mail to:  644 South 5th Street, Milwaukee, WI  53204"
+  }
+}

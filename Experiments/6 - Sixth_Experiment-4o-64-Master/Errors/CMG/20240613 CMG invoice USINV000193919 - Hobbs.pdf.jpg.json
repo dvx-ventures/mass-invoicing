@@ -1,0 +1,45 @@
+{
+  "invoice": {
+    "customer_account": "USC004300",
+    "order_number": "USS100411125",
+    "order_date": "06/13/2024",
+    "due_date": "07/13/2024",
+    "currency": "USD",
+    "customer_ref": "23142",
+    "ship_date": "06/13/2024",
+    "ship_from": {
+      "name": "Country Malt Group",
+      "address": "16 Beeman Way",
+      "city": "Champlain",
+      "state": "NY",
+      "zip": "12919",
+      "country": "USA"
+    },
+    "total_qty_shipped": 42,
+    "total_weight_lbs": 1493.3,
+    "total_ext_price": 2860.2,
+    "freight_accessorial_fees": {
+      "freight": {
+        "fee": 95,
+        "tax": 0
+      },
+      "truck": {
+        "fee": 65,
+        "tax": 0
+      },
+      "skid": {
+        "fee": 9,
+        "tax": 0
+      },
+      "fsc": {
+        "fee": 36.1,
+        "tax": 0
+      },
+      "total": {
+        "fee": 205.1,
+        "tax": 0
+      }
+    },
+    "total_of_taxes": 0
+  }
+}

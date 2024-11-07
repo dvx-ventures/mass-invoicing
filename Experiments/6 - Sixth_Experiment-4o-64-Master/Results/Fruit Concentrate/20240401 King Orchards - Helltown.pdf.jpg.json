@@ -1,0 +1,68 @@
+{
+  "invoice": {
+    "invoiceNumber": "66608",
+    "invoiceDate": "04/01/2024",
+    "salesAgent": "Kristin",
+    "status": "Open",
+    "invoice": {},
+    "totalInvoice": "3,394.10"
+  },
+  "remit_to": {
+    "name": "Helltown Brewing",
+    "address": "5578 Old William Penn Hwy",
+    "city": "Export",
+    "state": "PA",
+    "zip": "15632"
+  },
+  "bill_to": {
+    "name": "Helltown Brewing",
+    "address": "5578 Old William Penn Hwy",
+    "city": "Export",
+    "state": "PA",
+    "zip": "15632"
+  },
+  "ship_to": {
+    "name": "Helltown Brewing",
+    "address": "5578 Old William Penn Hwy",
+    "city": "Export",
+    "state": "PA",
+    "zip": "15632"
+  },
+  "customer_po": "Shawn - email",
+  "due_date": "05/01/2024",
+  "items": [
+    {
+      "description": "5 Gal Pail of Montmorency Concentrate",
+      "units_ordered": 12,
+      "unitPrice": "$250.00",
+      "extendedPrice": "$3,000.00"
+    },
+    {
+      "description": "Pallet",
+      "units_ordered": 1,
+      "unitPrice": "$10.00",
+      "extendedPrice": "$10.00"
+    },
+    {
+      "description": "Shipping",
+      "units_ordered": 1,
+      "unitPrice": "$384.10",
+      "extendedPrice": "$384.10"
+    }
+  ],
+  "totals": {
+    "subtotal": "3,394.10",
+    "salesTax": "0.00",
+    "total_due": "3,394.10"
+  },
+  "company": {
+    "name": "King Orchards, Inc.",
+    "address": "4620 N M-88",
+    "city": "Central Lake",
+    "state": "MI",
+    "zip": "49622",
+    "phone": "(231) 544-6479",
+    "email": "office@kingorchards.com"
+  },
+  "additional_notes": "Thank you for doing business with us!"
+}

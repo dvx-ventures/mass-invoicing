@@ -1,0 +1,62 @@
+{
+  "invoice_number": "81723",
+  "invoice": {
+    "invoiceDate": "11/3/2023",
+    "dueDate": "12/3/2023"
+  },
+  "bill_to": {
+    "name": "Hobbs Tavern and Brewing Company",
+    "address": "765 NH 16",
+    "city": "Ossipee",
+    "state": "NH",
+    "zip": "03864"
+  },
+  "ship_to": {
+    "name": "Hobbs Brewing Company",
+    "address": "2415 NH Route 16",
+    "city": "West Ossipee",
+    "state": "NH",
+    "zip": "03890"
+  },
+  "shipTo": {
+    "name": "Hobbs Brewing Company",
+    "addressLine1": "2415 NH Route 16",
+    "addressLine2": "",
+    "city": "West Ossipee",
+    "state": "NH",
+    "postalCode": "03890"
+  },
+  "terms": "Net 30",
+  "items": [
+    {
+      "description": "HiJack 16oz",
+      "total_quantity": 4000,
+      "unit_price": 0.09,
+      "amount": 360
+    },
+    {
+      "description": "Wizard of Hobbs 16oz",
+      "total_quantity": 1250,
+      "unit_price": 0.09,
+      "amount": 112.5
+    },
+    {
+      "description": "UPS Ground",
+      "total_quantity": 1,
+      "unit_price": 14.86,
+      "amount": 14.86
+    }
+  ],
+  "totals": {
+    "merchandise_total": 487.36,
+    "sales_tax": 0,
+    "total_due": 487.36
+  },
+  "shipping_info": {
+    "shipped_via": "UPS"
+  },
+  "paymentTerms": {
+    "netDueDate": "12/3/2023",
+    "terms": "Net 30"
+  }
+}

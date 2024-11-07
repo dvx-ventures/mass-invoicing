@@ -1,0 +1,81 @@
+{
+  "invoice_number": "31155456",
+  "date": "02/22/2023",
+  "soldTo": {
+    "customerNumber": 103924,
+    "name": "HOBBS BREWING COMPANY LLC",
+    "address": {
+      "street": "765 NH-16",
+      "city": "OSSIPEE",
+      "state": "NH",
+      "postalCode": "03864",
+      "country": "USA"
+    }
+  },
+  "shipTo": {
+    "customerNumber": 103924,
+    "name": "HOBBS BREWING COMPANY LLC",
+    "address": {
+      "street": "765 NH-16",
+      "city": "OSSIPEE",
+      "state": "NH",
+      "postalCode": "03864",
+      "country": "USA"
+    }
+  },
+  "shipping_information": {
+    "point_of_origin": "WINONA MN",
+    "point_of_loading": "WINONA MN",
+    "place_of_delivery": "OSSIPEE NH",
+    "country_of_origin": "USA",
+    "country_of_final_destination": "USA"
+  },
+  "items": [
+    {
+      "date_shipped": "02/22/23",
+      "description": "BAG PILSEN MALT",
+      "units_ordered": 770,
+      "unit_price": 0.65,
+      "amount": 500.5,
+      "currency": "USD"
+    },
+    {
+      "date_shipped": "02/22/23",
+      "description": "BAG CRAFT 2RS MALT",
+      "units_ordered": 1045,
+      "unit_price": 0.66,
+      "amount": 689.7,
+      "currency": "USD"
+    },
+    {
+      "date_shipped": "02/22/23",
+      "description": "DEXTRIN BAG MALT",
+      "units_ordered": 385,
+      "unit_price": 0.83,
+      "amount": 319.55,
+      "currency": "USD"
+    }
+  ],
+  "totals": {
+    "total": 1509.75,
+    "currency": "USD"
+  },
+  "paymentTerms": {
+    "terms": "30 days from B/L",
+    "netDueDate": null
+  },
+  "payment_information": {
+    "remit_to": {
+      "name": "MALTEUROP NORTH AMERICA",
+      "address": "MENA, 6737 W. WASHINGTON ST. SUITE 4204, MILWAUKEE, WI 53214",
+      "note": "REFERENCE INVOICE NUMBER",
+      "bank_details": {
+        "bank_name": "JPMORGAN CHASE BANK NA",
+        "account_number": "844001040",
+        "routing_number": "071000013"
+      },
+      "credit_card_contact": "844-546-6258",
+      "email": "customersuccess@malteurop.com"
+    }
+  }
+}

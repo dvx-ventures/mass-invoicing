@@ -1,0 +1,27 @@
+{
+  "invoice": {
+    "registered_office": "818 Cattail Lane NE, Leesburg, VA, 20176, USA",
+    "invoice_details": {
+      "company_name": "Workhorse Brewing Company",
+      "company_address": "250 King Manor Dr, KING OF PRUSSIA PA 19406, USA",
+      "invoice_date": "May 13, 2023",
+      "invoice_number": "493504"
+    },
+    "payment_instructions": {
+      "paypal": true,
+      "check_payable_to": [
+        "Bright Yeast Labs",
+        "Jasper Yeast"
+      ],
+      "contact_email": "info@jasperyeast.com"
+    },
+    "payment_advice": {
+      "to": "Jasper Yeast",
+      "address": "23600 Overland Drive #150, Sterling, VA 20166, USA",
+      "customer": "Workhorse Brewing Company",
+      "invoice_number": "493504",
+      "amount_due": 2545,
+      "due_date": "May 27, 2023"
+    }
+  }
+}

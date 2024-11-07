@@ -1,0 +1,109 @@
+{
+  "invoice_number": "SI024421",
+  "date": "May 8, 2024",
+  "remit_to": {
+    "name": "ORE DOCK BREWING COMPANY, LLC",
+    "address": "114 W SPRING ST",
+    "city": "MARQUETTE",
+    "state": "MI",
+    "postal_code": "49855",
+    "country": "USA"
+  },
+  "bill_to": {
+    "name": "ORE DOCK BREWING COMPANY, LLC",
+    "address": "114 W SPRING ST",
+    "city": "MARQUETTE",
+    "state": "MI",
+    "zip": "49855"
+  },
+  "ship_to": {
+    "name": "ORE DOCK BREWING COMPANY, LLC",
+    "address": "114 W SPRING ST",
+    "city": "MARQUETTE",
+    "state": "MI",
+    "zip": "49855"
+  },
+  "customer_po": "1348",
+  "due_date": "June 7, 2024",
+  "shipping_info": {
+    "ship_via": "Tax-Air"
+  },
+  "sales_agent": "Mike Illig",
+  "terms": "N30",
+  "items": [
+    {
+      "item_code": "5106",
+      "units_ordered": 150,
+      "unit_price": 0.49,
+      "total_price": 73.5,
+      "priceUOM": "Pound"
+    },
+    {
+      "item_code": "5298",
+      "units_ordered": 1000,
+      "unit_price": 0.52,
+      "total_price": 520,
+      "priceUOM": "Pound"
+    },
+    {
+      "item_code": "5301",
+      "units_ordered": 2000,
+      "unit_price": 0.53,
+      "total_price": 1070,
+      "priceUOM": "Pound"
+    },
+    {
+      "item_code": "5317",
+      "units_ordered": 500,
+      "unit_price": 0.66,
+      "total_price": 332.5,
+      "priceUOM": "Pound"
+    },
+    {
+      "item_code": "6659",
+      "units_ordered": 300,
+      "unit_price": 0.59,
+      "total_price": 178.5,
+      "priceUOM": "Pound"
+    },
+    {
+      "item_code": "7051",
+      "units_ordered": 100,
+      "unit_price": 0.74,
+      "total_price": 74,
+      "priceUOM": "Pound"
+    },
+    {
+      "item_code": "7236",
+      "units_ordered": 1500,
+      "unit_price": 0.54,
+      "total_price": 817.5,
+      "priceUOM": "Pound"
+    },
+    {
+      "item_code": "7572",
+      "units_ordered": 200,
+      "unit_price": 0.91,
+      "total_price": 182,
+      "priceUOM": "Pound"
+    },
+    {
+      "item_code": "7735",
+      "units_ordered": 400,
+      "unit_price": 0.78,
+      "total_price": 312,
+      "priceUOM": "Pound"
+    },
+    {
+      "item_code": "FREIGHT",
+      "units_ordered": 1,
+      "unit_price": 301.96,
+      "total_price": 301.96,
+      "priceUOM": "Each"
+    }
+  ],
+  "totals": {
+    "merchandise_total": 3859.96,
+    "total_due": 3861.96
+  }
+}

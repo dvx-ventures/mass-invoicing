@@ -1,0 +1,45 @@
+{
+  "invoice_number": "USINV000161372",
+  "date": "01/25/2024",
+  "remit_to": {
+    "name": "Country Malt",
+    "address": "PO Box 51602, Los Angeles, CA, 90051-5902",
+    "phone": "360-905-3380"
+  },
+  "bill_to": {
+    "name": "East Brother Beer Co",
+    "address": "1001 Canal Blvd - #C 2, Richmond, CA, 94804",
+    "city": "Richmond",
+    "state": "CA",
+    "zip": "94804",
+    "company": "East Brother Beer Co"
+  },
+  "ship_to": {
+    "name": "East Brother Beer Co",
+    "address_line1": "1001 Canal Blvd - #C-2",
+    "city": "Richmond",
+    "state": "CA",
+    "postal_code": "94804",
+    "country": "USA"
+  },
+  "customer_po": "USS100351076",
+  "order_date": "01/25/2024",
+  "due_date": "02/24/2024",
+  "items": [
+    {
+      "description": "Great Western Malting Superior Pilsen Malt",
+      "quantity": 200,
+      "unit_price": 35.2,
+      "total_price": 7040
+    }
+  ],
+  "totals": {
+    "total_due": 7671.5,
+    "sales_tax": 0
+  },
+  "terms": "Net 30 days",
+  "shipping_info": {
+    "shipped_via": "DEPENDABLE HIGHWAY EXPRESS"
+  },
+  "date_shipped": "01/25/2024"
+}

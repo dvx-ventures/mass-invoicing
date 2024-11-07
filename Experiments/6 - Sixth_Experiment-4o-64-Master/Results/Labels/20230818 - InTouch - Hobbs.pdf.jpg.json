@@ -1,0 +1,58 @@
+{
+  "invoice_number": "78607",
+  "date": "8/18/2023",
+  "due_date": "9/17/2023",
+  "bill_to": {
+    "name": "Hobbs Tavern and Brewing Company",
+    "address": "765 NH 16, Ossipee, NH 03864"
+  },
+  "ship_to": {
+    "name": "Hobbs Brewing Company",
+    "address": "2415 NH Route 16, West Ossipee, NH 03890"
+  },
+  "items": [
+    {
+      "item_code": "Labels",
+      "description": "HiJack 16oz",
+      "units_ordered": 5800,
+      "unit_price": 0.09,
+      "amount": 522
+    },
+    {
+      "item_code": "Labels",
+      "description": "Cold Brook 16oz",
+      "units_ordered": 2000,
+      "unit_price": 0.09,
+      "amount": 180
+    },
+    {
+      "item_code": "Labels",
+      "description": "Black Sheep lager 16oz",
+      "units_ordered": 3500,
+      "unit_price": 0.09,
+      "amount": 315
+    },
+    {
+      "item_code": "Labels",
+      "description": "Hold My Juice 16oz",
+      "units_ordered": 4200,
+      "unit_price": 0.09,
+      "amount": 378
+    },
+    {
+      "item_code": "Shipping",
+      "description": "UPS Ground",
+      "units_ordered": 1,
+      "unit_price": 26.97,
+      "amount": 26.97
+    }
+  ],
+  "date_shipped": "8/18/2023",
+  "shipped_via": "UPS",
+  "terms": "Net 30",
+  "totals": {
+    "subtotal": 1421.97,
+    "tax": 0,
+    "total_due": 1421.97
+  }
+}

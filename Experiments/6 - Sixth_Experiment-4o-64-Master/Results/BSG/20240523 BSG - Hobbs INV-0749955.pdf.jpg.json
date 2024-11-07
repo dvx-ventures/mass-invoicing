@@ -1,0 +1,46 @@
+{
+  "invoice_number": "INV-0749955",
+  "date": "5/23/2024",
+  "due_date": "6/22/2024",
+  "invoice": {
+    "salesOrderNumberType": "SO160-0991453"
+  },
+  "paymentTerms": {
+    "terms": "Net 30 Days"
+  },
+  "bill_to": {
+    "name": "Hobbs Tavern & Brewing Co",
+    "address": "PO Box 539, West Ossipee, NH 03890, USA"
+  },
+  "ship_to": {
+    "name": "Hobbs Tavern & Brewing Co",
+    "address": "765 Route 16, Ossipee, NH 03864-7167, USA",
+    "customer_reference": "Mike Frothingham"
+  },
+  "shipping": {
+    "shipmentNumber": "SHP160-0784878",
+    "shipping_date": "5/22/2024",
+    "estimated_delivery_date": "5/30/2024",
+    "carrier": "Parcel"
+  },
+  "items": [
+    {
+      "item_code": "HCSZ0011",
+      "description": "Czech Saaz 11 lb/5 kg",
+      "total_quantity": 2,
+      "transUOM": "EA",
+      "unit_price": 137.13,
+      "amount": 274.26
+    }
+  ],
+  "totals": {
+    "sales_subtotal_amount": 274.26,
+    "sales_tax": 0,
+    "total": 274.26
+  },
+  "company": {
+    "name": "Brewers Supply Group",
+    "address": "PO Box 74769, Chicago, IL 60694-4769, USA"
+  },
+  "additional_notes": "If you wish to receive your invoices electronically, please call 1-800-374-2739 or send an e-mail to accountsreceivable@bsgcraft.com with your customer number and e-mail address."
+}

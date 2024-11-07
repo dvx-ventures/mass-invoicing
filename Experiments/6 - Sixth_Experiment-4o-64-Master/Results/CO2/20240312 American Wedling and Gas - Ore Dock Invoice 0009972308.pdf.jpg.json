@@ -1,0 +1,56 @@
+{
+  "invoice_number": "006769315-00",
+  "date": "03/12/14",
+  "bill_to": {
+    "name": "American Welding & Gas, Inc.",
+    "address": "21 Peltier Ave",
+    "city": "South Lansing",
+    "state": "MI",
+    "zip": "48906",
+    "phone": "906-252-7577",
+    "fax": "906-341-5720"
+  },
+  "ship_to": {
+    "name": "Orr Corp Engine Company LLC",
+    "address_line1": "114 S Spruce St",
+    "city": "Marquette",
+    "state": "MI",
+    "zip": "49855"
+  },
+  "items": [
+    {
+      "item_code": "76034150.1AN H",
+      "description": "NON-FLAMMABLE GAS\nCARBON DIOXIDE, REFRIGERATED LIQUID",
+      "units_ordered": 28,
+      "unit_price": 0.55,
+      "amount": 1.54
+    },
+    {
+      "item_code": "76034150.2CU H-BUM",
+      "description": "NON-FLAMMABLE GAS LOT VALVE-153\nRECLAIMED - MISCELLANEOUS DELIVERY NUMBER: 1-941-05814",
+      "units_ordered": 1150,
+      "unit_price": 0.335472,
+      "amount": 571.68
+    },
+    {
+      "item_code": "76034150.2CG-ARIT",
+      "description": "CYLINDERS RENTAL MONTH SIL DRY ICE SAMPLES HDS",
+      "units_ordered": 1,
+      "unit_price": 7.05,
+      "amount": 7.05
+    }
+  ],
+  "totals": {
+    "merchandise_total": 737.04,
+    "total_due": 737.04
+  },
+  "soldTo": {
+    "customerNumber": 321669
+  },
+  "shipping": {
+    "customerPONumber": "4500875303"
+  },
+  "taxInfo": {
+    "taxRate": "1 EXEMPT/CERT INDUSTRIAL"
+  }
+}

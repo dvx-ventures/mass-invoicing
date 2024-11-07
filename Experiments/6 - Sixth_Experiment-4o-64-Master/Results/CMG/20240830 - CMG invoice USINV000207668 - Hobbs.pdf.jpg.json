@@ -1,0 +1,128 @@
+{
+  "invoice_number": "USINV000207668",
+  "date": "08/30/2024",
+  "remit_to": {
+    "name": "Country Malt",
+    "address": "PO Box 51602, Los Angeles, CA 90051-5902",
+    "phone": "360-905-3380"
+  },
+  "remit_to.name": "Country Malt",
+  "remit_to.address": "PO Box 51602, Los Angeles, CA 90051-5902",
+  "remit_to.phone": "360-905-3380",
+  "bill_to": {
+    "name": "Hobbs Tavern & Brewing",
+    "address": "765 NH Rt 16, Ossipee, NH 03864, USA"
+  },
+  "bill_to.name": "Hobbs Tavern & Brewing",
+  "bill_to.address": "765 NH Rt 16, Ossipee, NH 03864, USA",
+  "ship_to": {
+    "name": "Hobbs Tavern & Brewing",
+    "address_line1": "765 NH Rt 16",
+    "city": "Ossipee",
+    "state": "NH",
+    "postal_code": "03864",
+    "country": "USA"
+  },
+  "ship_to.name": "Hobbs Tavern & Brewing",
+  "ship_to.address": "765 NH Rt 16, Ossipee, NH 03864, USA",
+  "ship_to.city": "Ossipee",
+  "ship_to.state": "NH",
+  "ship_to.zip": "03864",
+  "customer_po": "23167",
+  "order_date": "08/30/2024",
+  "date_shipped": "08/30/2024",
+  "due_date": "09/29/2024",
+  "shipping_info": {
+    "ship_via": "ROSS EXPRESS"
+  },
+  "shipping_info.shipped_via": "ROSS EXPRESS",
+  "terms": "Net 30 days",
+  "items": [
+    {
+      "item_no": "CM-NE2R",
+      "description": "Canada Malting New Englander Two Row Brewers Malt",
+      "qtyShipped": 6,
+      "unitPrice": 37.4,
+      "priceUOM": "EA",
+      "extendedPrice": "224.4"
+    },
+    {
+      "item_no": "GW-VIEN",
+      "description": "Great Western Malting Vienna Malt",
+      "qtyShipped": 3,
+      "unitPrice": 42.9,
+      "priceUOM": "EA",
+      "extendedPrice": "128.7"
+    },
+    {
+      "item_no": "GW-BRYE",
+      "description": "Great Western Malting Biscuit Rye Malt",
+      "qtyShipped": 1,
+      "unitPrice": 54.45,
+      "priceUOM": "EA",
+      "extendedPrice": "54.45"
+    },
+    {
+      "item_no": "BZ-DWHT",
+      "description": "Bestmalz Wheat Malt Dark",
+      "qtyShipped": 1,
+      "unitPrice": 45.1,
+      "priceUOM": "EA",
+      "extendedPrice": "45.1"
+    },
+    {
+      "item_no": "YC-COMT",
+      "description": "T90 Hop Pellets - Comet, Size: 1x5KG Year: 2022",
+      "qtyShipped": 4,
+      "unitPrice": 85.25,
+      "priceUOM": "EA",
+      "extendedPrice": "341"
+    },
+    {
+      "item_no": "YC-AMAT",
+      "description": "T90 Hop Pellets - Amarillo, Size: 1x5KG Year: 2022",
+      "qtyShipped": 2,
+      "unitPrice": 121,
+      "priceUOM": "EA",
+      "extendedPrice": "242"
+    },
+    {
+      "item_no": "CM-EURO",
+      "description": "Canada Malting Euro Style Pilsen",
+      "qtyShipped": 3,
+      "unitPrice": 40.7,
+      "priceUOM": "EA",
+      "extendedPrice": "122.1"
+    },
+    {
+      "item_no": "CM-WWHT",
+      "description": "Canada Malting White Wheat Malt",
+      "qtyShipped": 3,
+      "unitPrice": 37.4,
+      "priceUOM": "EA",
+      "extendedPrice": "112.2"
+    },
+    {
+      "item_no": "LB-PHLS",
+      "description": "Lallemand WildBrew Philly Sour™ - Yeast for acid production",
+      "qtyShipped": 6,
+      "unitPrice": 199,
+      "priceUOM": "EA",
+      "extendedPrice": "199"
+    },
+    {
+      "item_no": "SP-SWOP",
+      "description": "Sweet Orange Peel",
+      "qtyShipped": 3,
+      "unitPrice": 10.4,
+      "priceUOM": "EA",
+      "extendedPrice": "31.2"
+    }
+  ],
+  "totals": {
+    "total_qty_shipped": 25,
+    "shipping": 205.1,
+    "total": 1705.25,
+    "currency": "USD"
+  }
+}

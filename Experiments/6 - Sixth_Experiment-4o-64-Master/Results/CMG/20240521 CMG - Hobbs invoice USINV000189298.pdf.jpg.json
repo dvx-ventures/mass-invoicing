@@ -1,0 +1,79 @@
+{
+  "invoice_number": "USINV000189298",
+  "date": "05/21/2024",
+  "page": "1 of 2",
+  "remit_to": {
+    "name": "Country Malt",
+    "address": "PO Box 51602, Los Angeles, CA 90051-5902",
+    "phone": "360-905-3380"
+  },
+  "bill_to": {},
+  "ship_to": {
+    "name": "Hobbs Tavern & Brewing",
+    "address": "765 NH Rt 16, Ossipee, NH 03864, USA"
+  },
+  "customer_po": "23131",
+  "order_date": "05/21/2024",
+  "date_shipped": "05/21/2024",
+  "due_date": "06/20/2024",
+  "shipping_info": {
+    "shipped_via": "ROSS EXPRESS"
+  },
+  "terms": "Net 30 days",
+  "items": [
+    {
+      "item_code": "CM-OATM",
+      "description": "Canada Malting Oat Malt",
+      "units_shipped": 11,
+      "unit_price": 46.2,
+      "amount": 508.2
+    },
+    {
+      "item_code": "CM-WWHT",
+      "description": "Canada Malting White Wheat Malt",
+      "units_shipped": 4,
+      "unit_price": 37.4,
+      "amount": 149.6
+    },
+    {
+      "item_code": "CM-FBOT",
+      "description": "Canada Malting Premier Flaked Brewers Oats",
+      "units_shipped": 7,
+      "unit_price": 36.5,
+      "amount": 255.5
+    },
+    {
+      "item_code": "BZ-CRPL",
+      "description": "Bestmalz Caramel Pils Malt",
+      "units_shipped": 9,
+      "unit_price": 45.65,
+      "amount": 410.85
+    },
+    {
+      "item_code": "BZ-SPLT",
+      "description": "Bestmalz Spelt Malt",
+      "units_shipped": 4,
+      "unit_price": 81.95,
+      "amount": 327.8
+    },
+    {
+      "item_code": "BZ-HDBR",
+      "description": "Bestmalz Heidelberg Malt",
+      "units_shipped": 6,
+      "unit_price": 44.55,
+      "amount": 267.3
+    },
+    {
+      "item_code": "YC-SIMTT",
+      "description": "T90 Hop Pellets - Simcoe",
+      "units_shipped": 4,
+      "unit_price": 165,
+      "amount": 574.2
+    }
+  ],
+  "totals": {
+    "taxable_sales": 2493.45,
+    "sales_tax": 0,
+    "total_due": 2698.55
+  }
+}

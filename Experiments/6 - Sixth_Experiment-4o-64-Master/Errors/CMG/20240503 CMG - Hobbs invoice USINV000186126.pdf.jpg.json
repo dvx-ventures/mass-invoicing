@@ -1,0 +1,48 @@
+{
+  "invoice": {
+    "orderNumber": "USS100397831",
+    "customerAccount": "USC004300",
+    "currency": "USD",
+    "shipFrom": {
+      "name": "Country Malt Group",
+      "address": "16 Beeman Way, Champlain, NY 12919, USA"
+    },
+    "totals": {
+      "totalWeightLbs": 2296.53,
+      "freightAndAccessorialFees": 205.1,
+      "totalOfTaxes": 0,
+      "feesBreakdown": [
+        {
+          "fee": "Freight",
+          "amount": 95,
+          "tax": 0
+        },
+        {
+          "fee": "Truck",
+          "amount": 65,
+          "tax": 0
+        },
+        {
+          "fee": "Skid",
+          "amount": 9,
+          "tax": 0
+        },
+        {
+          "fee": "FSC",
+          "amount": 36.1,
+          "tax": 0
+        }
+      ]
+    }
+  },
+  "contactInfo": {
+    "trackingInquiries": "cmglogisticsteam@countrymalt.com",
+    "trackingPhone": "844-274-3344",
+    "creditsAndReturnsEmail": "claims@countrymalt.com",
+    "accountQuestionsEmail": "credit@greatwesternmalting.com",
+    "accountChangesEmail": "newaccts@gwmalt.com",
+    "remittanceEmail": "remittance@gwmalt.com"
+  },
+  "paymentsInquiriesContact": "360-905-3380",
+  "creditsReturnsContact": "360-905-3366"
+}

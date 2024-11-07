@@ -1,0 +1,56 @@
+{
+  "invoice_number": "31153462",
+  "date": "01/13/2023",
+  "bill_to": {
+    "name": "Hobbs Brewing Company LLC",
+    "address": "765 NH-16",
+    "city": "Ossipee",
+    "state": "NH",
+    "zip": "03864",
+    "country": "USA"
+  },
+  "ship_to": {
+    "name": "Hobbs Brewing Company LLC",
+    "address": "765 NH-16",
+    "city": "Ossipee",
+    "state": "NH",
+    "country": "USA"
+  },
+  "shipping_info": {
+    "freight_terms": "DAP Ossipee",
+    "shipped_via": "1 day truck delivery Route"
+  },
+  "items": [
+    {
+      "date_shipped": "01/13/23",
+      "description": "Bag Pilsen Malt",
+      "qtyShipped": 880,
+      "unit_price": 0.65,
+      "amount": 572,
+      "item_code": "8000717619"
+    },
+    {
+      "date_shipped": "01/13/23",
+      "description": "Bag Craft 2RS Malt",
+      "qtyShipped": 1100,
+      "unit_price": 0.66,
+      "amount": 726,
+      "item_code": "8000717620"
+    }
+  ],
+  "totals": {
+    "merchandise_total": 1298
+  },
+  "terms": "30 days from B/L",
+  "remit_to": {
+    "name": "Malteurop North America",
+    "bank_details": {
+      "bank_name": "JPMorgan Chase Bank NA",
+      "account_number": "844001040",
+      "routing_number": "071000013",
+      "swift_code": "021000021"
+    },
+    "address": "MENA, 6737 W. Washington St. Suite 4204, Milwaukee, WI 53214",
+    "phone": "844-546-6258"
+  }
+}

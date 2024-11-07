@@ -1,0 +1,40 @@
+{
+  "invoice_number": "90857",
+  "invoice.invoiceDate": "6/11/2024",
+  "due_date": "7/11/2024",
+  "bill_to": {
+    "name": "Sap House Meadery LLC",
+    "address": "P.O. Box 595",
+    "city": "Center Ossipee",
+    "state": "NH",
+    "zip": "03814"
+  },
+  "ship_to": {
+    "name": "Sap House Meadery LLC",
+    "address": "6 Folsom Road",
+    "city": "Center Ossipee",
+    "state": "NH",
+    "zip": "03814"
+  },
+  "ship_to.name": "Sap House Meadery LLC",
+  "ship_to.address": "6 Folsom Road",
+  "ship_to.city": "Center Ossipee",
+  "ship_to.state": "NH",
+  "ship_to.zip": "03814",
+  "terms": "Net 30",
+  "items": [
+    {
+      "items[].description": "Strawberry Rhubarb",
+      "items[].itemNumber": "Labels",
+      "items[].transUOM": 150,
+      "items[].unitPrice": 0.31,
+      "items[].extendedPrice": 46.25
+    }
+  ],
+  "totals": {
+    "totals.subtotal": 46.25,
+    "totals.sales_tax": 0,
+    "totals.total_due": 46.25
+  },
+  "additional_notes": "Thank you for your business!"
+}

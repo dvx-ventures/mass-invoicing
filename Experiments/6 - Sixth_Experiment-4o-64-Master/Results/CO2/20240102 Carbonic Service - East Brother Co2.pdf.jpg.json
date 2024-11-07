@@ -1,0 +1,48 @@
+{
+  "invoice_number": "555881",
+  "date": "1/2/2014",
+  "remit_to": {
+    "name": "Carbonic Service Inc",
+    "address": "1920 De La Cruz Blvd, Santa Clara, CA 95050"
+  },
+  "website": "www.carbonicservice.com",
+  "bill_to": {
+    "name": "East Brother Beer",
+    "address": "72 Valley Circle, Mill Valley, CA 94941, US"
+  },
+  "ship_to": {
+    "name": "East Brother Beer",
+    "address": "1001 Canal Blvd #C2, Richmond, CA 94804, US"
+  },
+  "due_date": "NET 30",
+  "terms": "18",
+  "items": [
+    {
+      "units_ordered": 1,
+      "item_code": "26010",
+      "description": "Fuel Surcharge SF & Norcal",
+      "unit_price": 32,
+      "amount": 32
+    },
+    {
+      "units_ordered": 85,
+      "item_code": "6010",
+      "description": "CO2 BULK BEVERAGE GRADE",
+      "unit_price": 0.27,
+      "amount": 157.95
+    },
+    {
+      "units_ordered": 1,
+      "item_code": "26011",
+      "description": "Hazmat Fee",
+      "unit_price": 8,
+      "amount": 8
+    }
+  ],
+  "totals": {
+    "customerTotalBalance": 1652.68,
+    "invoiceTotal": 197.95
+  },
+  "ship_to.state": "CA",
+  "remit_to.phone": "(408) 727-8355"
+}

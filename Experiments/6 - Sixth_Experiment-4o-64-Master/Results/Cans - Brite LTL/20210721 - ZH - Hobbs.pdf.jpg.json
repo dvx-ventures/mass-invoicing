@@ -1,0 +1,39 @@
+{
+  "invoice_number": "IN0123619",
+  "date": "7/21/2021",
+  "page": "1",
+  "soldTo": {
+    "name": "Hobbs Tavern & Brewing Company, LLC",
+    "address": "765 White Mountain Highway",
+    "city": "Ossipee",
+    "state": "NH",
+    "zip": "03864"
+  },
+  "shipTo": {
+    "name": "Hobbs Tavern & Brewing Company, LLC",
+    "address": "765 White Mountain Highway",
+    "city": "Ossipee",
+    "state": "NH",
+    "zip": "03864"
+  },
+  "items": [
+    {
+      "transUOM": "Ea",
+      "qtyShipped": 1,
+      "unitPrice": "746.26",
+      "additionalInfo": {
+        "DNR": "FRTOUT-BEV-118",
+        "capacity": "WARD"
+      },
+      "description": "Freight Out (Beverage)",
+      "amount": 746.26
+    }
+  ],
+  "totals": {
+    "total_due": "746.26"
+  },
+  "paymentTerms": {
+    "netDueDate": "8/20/2021",
+    "terms": "Net 30 Days"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "invoice_number": "IN24203743",
+  "date": "7/12/2024",
+  "due_date": "08/11/2024",
+  "remit_to": {
+    "name": "L2 Brands, LLC",
+    "address": {
+      "street": "300 Fame Ave",
+      "city": "Hanover",
+      "state": "PA",
+      "postal_code": "17331"
+    }
+  },
+  "ship_to": {
+    "name": "Hobbs Brewing Co",
+    "address": "765 NH Route 16",
+    "city": "Ossipee",
+    "state": "NH",
+    "zip": "03864",
+    "country": "USA"
+  },
+  "sold_to": {
+    "name": "Hobbs Tavern & Brewing Company LLC",
+    "address": {
+      "street": "756 Route 16",
+      "city": "Ossipee",
+      "state": "NH",
+      "zip": "03864",
+      "country": "USA"
+    }
+  },
+  "customer_po": "062724Kasey",
+  "sales_agent": "622",
+  "shipping_info": {
+    "shipped_via": "FEDEX Ground",
+    "cost": 48.38
+  },
+  "items": [
+    {
+      "description": "REORDER#:2016141 - Washed pepper MU420 w/ Hobbs Tavern Logo",
+      "item_code": "MU420-850-S",
+      "quantity": 12,
+      "uom": "1",
+      "unit_price": 16,
+      "amount": 192
+    },
+    {
+      "description": "REORDER#:2016141 - Washed pepper MU420 w/ Hobbs Tavern Logo",
+      "item_code": "MU420-850-M",
+      "quantity": 12,
+      "uom": "1",
+      "unit_price": 16,
+      "amount": 192
+    },
+    {
+      "description": "REORDER#:2016141 - Washed pepper MU420 w/ Hobbs Tavern Logo",
+      "item_code": "MU420-850-L",
+      "quantity": 16,
+      "uom": "1",
+      "unit_price": 16,
+      "amount": 256
+    },
+    {
+      "description": "REORDER#:2016141 - Washed pepper MU420 w/ Hobbs Tavern Logo",
+      "item_code": "MU420-850-XL",
+      "quantity": 24,
+      "uom": "1",
+      "unit_price": 16,
+      "amount": 384
+    },
+    {
+      "description": "REORDER#:2016141 - Washed pepper MU420 w/ Hobbs Tavern Logo",
+      "item_code": "MU420-850-2XL",
+      "quantity": 18,
+      "uom": "1",
+      "unit_price": 16,
+      "amount": 288
+    },
+    {
+      "description": "Shipping/Handling",
+      "item_code": "100",
+      "quantity": 1,
+      "uom": "1",
+      "unit_price": 48.38,
+      "amount": 48.38
+    }
+  ],
+  "totals": {
+    "subtotal": "1,360.38",
+    "tax": "0.00",
+    "total_due": "1,360.38"
+  }
+}

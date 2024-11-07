@@ -1,0 +1,51 @@
+{
+  "invoice_number": "82298",
+  "date": "11/17/2023",
+  "due_date": "12/17/2023",
+  "bill_to": {
+    "name": "Hobbs Tavern and Brewing Company",
+    "address": "765 NH 16, Ossipee, NH 03864"
+  },
+  "ship_to": {
+    "name": "Hobbs Brewing Company",
+    "address": "2415 NH Route 16, West Ossipee, NH 03890"
+  },
+  "remit_to": {
+    "name": "InTouch Labels & Packaging. Part of Avery Products Corporation",
+    "address": "12 Technology Drive, North Chelmsford, MA 01863"
+  },
+  "terms": "Net 30",
+  "shipping_info": {
+    "shipping_date": "11/17/2023",
+    "ship_via": "UPS"
+  },
+  "items": [
+    {
+      "item_code": "1159D9-1700347181",
+      "description": "Hold My Juice 16oz",
+      "total_quantity": 3570,
+      "unit_price": 0.09,
+      "amount": 321.3
+    },
+    {
+      "item_code": "1159DA-1700347181",
+      "description": "Lodge Life 16oz",
+      "total_quantity": 3800,
+      "unit_price": 0.09,
+      "amount": 342
+    },
+    {
+      "item_code": "1159DB-1700347181",
+      "description": "UPS Ground",
+      "total_quantity": 1,
+      "unit_price": 25.5,
+      "amount": 25.5
+    }
+  ],
+  "totals": {
+    "subtotal": 688.8,
+    "tax": 0,
+    "total_due": 688.8
+  },
+  "additional_notes": "Thank you for your business!"
+}

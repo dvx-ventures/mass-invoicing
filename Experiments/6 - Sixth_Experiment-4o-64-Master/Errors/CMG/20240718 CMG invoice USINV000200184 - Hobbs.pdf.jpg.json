@@ -1,0 +1,61 @@
+{
+  "invoice": {
+    "companyDetails": {
+      "name": "Country Malt Group",
+      "address": {
+        "line1": "PO Box 51602",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90051-5902",
+        "country": "USA"
+      },
+      "contacts": {
+        "AR/Payments/Inquiries": "360-905-3380",
+        "Credits/Returns": "360-905-3366"
+      }
+    },
+    "invoiceDetails": {
+      "invoiceNumber": "USINV000200184",
+      "orderNumber": "USS100422872",
+      "orderDate": "07/18/2024",
+      "invoiceDate": "07/18/2024",
+      "dueDate": "08/17/2024",
+      "paymentTerms": "Net 30 days",
+      "currency": "USD",
+      "customerRefPO": "23150",
+      "shipment": {
+        "shipDate": "07/18/2024",
+        "shipVia": "ROSS EXPRESS",
+        "shipTo": {
+          "name": "Hobbs Tavern & Brewing",
+          "address": {
+            "line1": "765 NH Rt 16",
+            "city": "Ossipee",
+            "state": "NH",
+            "zip": "03864",
+            "country": "USA"
+          }
+        },
+        "shipFrom": {
+          "name": "Country Malt Group",
+          "address": {
+            "line1": "16 Beeman Way",
+            "city": "Champlain",
+            "state": "NY",
+            "zip": "12919",
+            "country": "USA"
+          }
+        }
+      }
+    }
+  },
+  "freightAndAccessorialFees": {
+    "freight": 95,
+    "truck": 65,
+    "skid": 9,
+    "fsc": 36.1
+  },
+  "customerDetails": {
+    "customerAccount": "USC004300"
+  }
+}

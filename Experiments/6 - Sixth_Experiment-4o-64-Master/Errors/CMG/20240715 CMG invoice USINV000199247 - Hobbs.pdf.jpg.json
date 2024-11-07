@@ -1,0 +1,51 @@
+{
+  "invoice": {
+    "company": "Hobbs Tavern & Brewing",
+    "address": {
+      "street": "2415 White Mountain Hwy",
+      "city": "West Ossipee",
+      "state": "NH",
+      "zip": "03890",
+      "country": "USA"
+    },
+    "sales_invoice": {
+      "customer_account": "USC004300",
+      "order_no": "USS100419923",
+      "payment_terms": "Net 30 days",
+      "currency": "USD",
+      "total_qty_to_be_shipped": 38,
+      "total_weight_lbs": 1973.7,
+      "freight_accessorial_fees": 205.1,
+      "freight_accessorial_fees_details": [
+        {
+          "fee_type": "Freight",
+          "fee": 95,
+          "tax": 0
+        },
+        {
+          "fee_type": "Truck",
+          "fee": 65,
+          "tax": 0
+        },
+        {
+          "fee_type": "Skid",
+          "fee": 9,
+          "tax": 0
+        },
+        {
+          "fee_type": "FSC",
+          "fee": 36.1,
+          "tax": 0
+        }
+      ]
+    }
+  },
+  "ship_from": {
+    "name": "Country Malt Group",
+    "street": "16 Beeman Way",
+    "city": "Champlain",
+    "state": "NY",
+    "zip": "12919",
+    "country": "USA"
+  }
+}

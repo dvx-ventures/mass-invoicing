@@ -1,0 +1,70 @@
+{
+  "invoice_number": "1324",
+  "invoice": {
+    "invoiceDate": "2/16/2024"
+  },
+  "ship_to": {
+    "name": "ORE DOCK BREWING COMPANY",
+    "address": "114 W SPRINGS STREET, MARQUETTE, MI 49855, United States"
+  },
+  "items": [
+    {
+      "description": "LEMON #1",
+      "control_lot": "S6747-G",
+      "qtyShipped": 4,
+      "unitPrice": "83",
+      "amount": 332,
+      "transUOM": "GL"
+    },
+    {
+      "description": "LEMON PEEL FL, NAT-TYPE, WS",
+      "control_lot": "S60238-1-G",
+      "qtyShipped": 4,
+      "unitPrice": "83",
+      "amount": 332,
+      "transUOM": "GL"
+    },
+    {
+      "description": "LEMON ZEST FL, NAT-TYPE, WS",
+      "control_lot": "S60238-2-G",
+      "qtyShipped": 4,
+      "unitPrice": "90",
+      "amount": 360,
+      "transUOM": "GL"
+    },
+    {
+      "description": "ROOT BEER NATURAL #215",
+      "control_lot": "S60238-3-G",
+      "qtyShipped": 8,
+      "unitPrice": "70",
+      "amount": 560,
+      "transUOM": "GL"
+    },
+    {
+      "description": "CITRIC ACID FCC",
+      "control_lot": "P5172-1",
+      "qtyShipped": 50,
+      "unitPrice": "2.75",
+      "amount": 137.5,
+      "transUOM": "LB"
+    }
+  ],
+  "totals": {
+    "total_due": 1989.08,
+    "currency": "USD"
+  },
+  "terms": "1.9% INTEREST WILL BE ADDED IF NOT PAID WITHIN 30 DAYS OF INVOICE DATE",
+  "contact": {
+    "email": [
+      "WES@OREDOCKBREWINGCOMPANY.COM",
+      "INFO@OREDOCKBREWINGCOMPANY.COM"
+    ]
+  },
+  "soldTo": {
+    "name": "ORE DOCK BREWING COMPANY",
+    "address": "114 W SPRINGS STREET, MARQUETTE, MI 49855, United States"
+  },
+  "shipping": {
+    "cost": 267.58
+  }
+}

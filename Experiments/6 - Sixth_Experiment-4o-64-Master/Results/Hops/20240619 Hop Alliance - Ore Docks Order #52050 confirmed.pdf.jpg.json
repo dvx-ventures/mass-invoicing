@@ -1,0 +1,41 @@
+{
+  "invoice_number": "52050",
+  "remit_to": {
+    "name": "Weston Pernsteiner",
+    "address": "114 W Spring St, Marquette, MI 49855, United States",
+    "email": "Hops@hopalliance.com"
+  },
+  "bill_to": {
+    "name": "Weston Pernsteiner",
+    "address": "114 W Spring St, Marquette, MI 49855, United States",
+    "email": "Hops@hopalliance.com",
+    "company": "Ore Dock Brewing Company"
+  },
+  "ship_to": {
+    "name": "Weston Pernsteiner",
+    "address_line1": "114 W Spring St",
+    "city": "Marquette",
+    "state": "MI",
+    "postal_code": "49855",
+    "country": "United States",
+    "email": "Hops@hopalliance.com"
+  },
+  "customer_po": "52050",
+  "items": [
+    {
+      "description": "Lotus™ Hop Pellets (2023)",
+      "units_ordered": 4,
+      "unit_price": 11.99,
+      "amount": 527.56
+    }
+  ],
+  "totals": {
+    "subtotal": 527.56,
+    "shipping": 20.02,
+    "sales_tax": 0,
+    "total_due": 547.58
+  },
+  "shipping_info": {
+    "shipped_via": "FedEx Home Delivery®"
+  }
+}

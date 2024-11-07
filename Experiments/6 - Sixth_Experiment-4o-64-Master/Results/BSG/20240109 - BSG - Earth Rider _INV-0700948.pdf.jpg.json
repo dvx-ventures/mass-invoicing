@@ -1,0 +1,75 @@
+{
+  "invoice_number": "INV-0700948",
+  "invoice": {
+    "invoiceDate": "1/9/2024",
+    "totalInvoice": "378.77",
+    "invoiceNumber": "0700948",
+    "salesOrderNumberType": "SO160-0897591",
+    "salesAgent": "PO# 1368 - Frank",
+    "shipmentNumber": "SHP160-0733551",
+    "paymentTerms": {
+      "terms": "Net 30 Days",
+      "netDueDate": "2/8/2024"
+    }
+  },
+  "order_date": "1/9/2024",
+  "due_date": "2/8/2024",
+  "bill_to": {
+    "name": "Earth Rider Brewing",
+    "address": {
+      "street": "PO Box 3167",
+      "city": "Duluth",
+      "state": "MN",
+      "zip": "55803",
+      "country": "USA"
+    }
+  },
+  "ship_to": {
+    "name": "Earth Rider Brewing",
+    "address": {
+      "street": "1617 N 3rd St",
+      "city": "Superior",
+      "state": "WI",
+      "zip": "54880-1016",
+      "country": "USA"
+    }
+  },
+  "shipping_info": {
+    "carrier": "Parcel",
+    "pro_number": "494134711046912",
+    "shipping_date": "1/8/2024",
+    "estimated_delivery_date": "1/12/2024",
+    "freight_terms": "36.81"
+  },
+  "items": [
+    {
+      "itemNumber": "HPER0011",
+      "description": "German Perle 11 lb/5 kg",
+      "total_quantity": 4,
+      "transUOM": "EA",
+      "extendedPrice": "341.96",
+      "unit_price": 85.49,
+      "amount": 341.96
+    }
+  ],
+  "totals": {
+    "merchandise_total": 341.96,
+    "shipping": 36.81,
+    "taxable_sales": 0,
+    "total_due": 378.77
+  },
+  "additional_notes": [
+    "Thank you for being a valued customer of BSG!",
+    "If you wish to receive your invoices electronically, please call 1-800-374-2739 or send an e-mail to accountsreceivable@bsgcraft.com with your customer number and e-mail address."
+  ],
+  "remit_to": {
+    "name": "Brewers Supply Group",
+    "address": {
+      "street": "PO Box 74769",
+      "city": "Chicago",
+      "state": "IL",
+      "zip": "60694-4769",
+      "country": "USA"
+    }
+  }
+}

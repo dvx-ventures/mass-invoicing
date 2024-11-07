@@ -1,0 +1,58 @@
+{
+  "invoice_number": "80328",
+  "date": "10/4/2023",
+  "due_date": "11/3/2023",
+  "bill_to": {
+    "name": "Hobbs Tavern and Brewing Company",
+    "address": "765 NH 16, Ossipee, NH 03864"
+  },
+  "ship_to": {
+    "name": "Hobbs Brewing Company",
+    "address": "2415 NH Route 16, West Ossipee, NH 03890"
+  },
+  "remit_to": {
+    "name": "InTouch Labels & Packaging, Part of Avery Products Corporation",
+    "address": "12 Technology Drive, North Chelmsford, MA 01863"
+  },
+  "items": [
+    {
+      "item_code": "Labels",
+      "description": "HiJack 16oz",
+      "units_ordered": 6500,
+      "unit_price": 0.09,
+      "amount": 585
+    },
+    {
+      "item_code": "Labels",
+      "description": "Jacked Up 16oz",
+      "units_ordered": 4300,
+      "unit_price": 0.09,
+      "amount": 387
+    },
+    {
+      "item_code": "Labels",
+      "description": "Pitch-A-Tent 16oz",
+      "units_ordered": 3600,
+      "unit_price": 0.09,
+      "amount": 324
+    },
+    {
+      "item_code": "Shipping",
+      "description": "UPS Ground",
+      "units_ordered": 1,
+      "unit_price": 39.68,
+      "amount": 39.68
+    }
+  ],
+  "terms": "Net 30",
+  "shipping_info": {
+    "shipping_date": "10/4/2023 12:00:00 AM",
+    "shipped_via": "UPS"
+  },
+  "totals": {
+    "subtotal": 1335.68,
+    "sales_tax": 0,
+    "total_due": 1335.68
+  },
+  "additional_notes": "Thank you for your business!"
+}

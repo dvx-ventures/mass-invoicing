@@ -1,0 +1,90 @@
+{
+  "invoice_number": "SIV439866",
+  "date": "02/06/2024",
+  "page": "1",
+  "bill_to": {
+    "name": "ASHLEY ENDERSON",
+    "address": {
+      "street": "PO BOX 683",
+      "city": "CENTER OSSIPEE",
+      "state": "NH",
+      "zip": "03814-0683",
+      "country": "UNITED STATES"
+    },
+    "company": "SAP HOUSE MEADERY"
+  },
+  "ship_to": {
+    "address": {
+      "street": "6 FOLSOM RD",
+      "city": "CTR OSSIPEE",
+      "state": "NH",
+      "zip": "03814-6803",
+      "country": "UNITED STATES"
+    },
+    "company": "SAP HOUSE MEADERY"
+  },
+  "remit_to": {
+    "company": "Scott Laboratories, Inc.",
+    "address": {
+      "street": "PO Box 888198",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zip": "90088-8198",
+      "country": "UNITED STATES"
+    },
+    "phone": "707-765-6666",
+    "department": "Accounts Receivable"
+  },
+  "soldTo": {
+    "name": "PAUL LAROCHE",
+    "address": {
+      "street": "PO BOX 683",
+      "city": "CENTER OSSIPEE",
+      "state": "NH",
+      "zipCode": "03814-0683",
+      "country": "UNITED STATES"
+    },
+    "company": "SAP HOUSE MEADERY"
+  },
+  "items": [
+    {
+      "units_ordered": 1,
+      "units_shipped": 1,
+      "description": "2.5KG GOFERM STEROL FLASH",
+      "LotSN": "80W25550930827E",
+      "transUOM": "Each",
+      "unit_price": 113.9,
+      "amount": 113.9
+    },
+    {
+      "units_ordered": 1,
+      "units_shipped": 1,
+      "description": "2.5KG FERMAID O",
+      "LotSN": "83629040920834E",
+      "transUOM": "Each",
+      "unit_price": 109.6,
+      "amount": 109.6
+    },
+    {
+      "units_ordered": 1,
+      "units_shipped": 1,
+      "description": "Shipping Charges 91417",
+      "unit_price": 28.76,
+      "amount": 28.76
+    }
+  ],
+  "totals": {
+    "taxable_sales": 0,
+    "sales_tax": 0,
+    "merchandise_total": 252.26,
+    "total_due": 252.26
+  },
+  "paymentTerms": {
+    "terms": "CREDIT CARD"
+  },
+  "terms": "CREDIT CARD",
+  "shipping_info": {
+    "shipped_via": "FEDEX",
+    "freight_terms": "Petaluma CA PPD&Add"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "invoice_number": "31159491",
+  "date": "06/06/2023",
+  "page": "1/1",
+  "bill_to": {
+    "name": "HOBBS BREWING COMPANY LLC",
+    "address": "765 NH-16, OSSIPEE NH 03864, USA"
+  },
+  "ship_to": {
+    "name": "HOBBS BREWING COMPANY LLC",
+    "address": "765 NH-16, OSSIPEE NH 03864, USA"
+  },
+  "customer_po": "23035",
+  "paymentTerms": {
+    "terms": "30 days from B/L",
+    "netDueDate": "07/06/2023"
+  },
+  "items": [
+    {
+      "date_shipped": "06/06/2023",
+      "shipping_info": {
+        "bill_of_lading": "814509"
+      },
+      "description": "PILSEN BAG MALT 55LB",
+      "additionalInfo": {
+        "LotSN": "8000736671"
+      },
+      "units_shipped": 4,
+      "transUOM": "BAG",
+      "unitPrice": 39.05,
+      "amount": 156.2
+    },
+    {
+      "date_shipped": "06/06/2023",
+      "shipping_info": {
+        "bill_of_lading": "814509"
+      },
+      "description": "VIENNA BAG MALT 55LB",
+      "additionalInfo": {
+        "LotSN": "8000732026"
+      },
+      "units_shipped": 10,
+      "transUOM": "BAG",
+      "unitPrice": 39.6,
+      "amount": 396
+    },
+    {
+      "date_shipped": "06/06/2023",
+      "shipping_info": {
+        "bill_of_lading": "814509"
+      },
+      "description": "2ROW CRAFT BAG MALT 55LB",
+      "additionalInfo": {
+        "LotSN": "8000735896,8000740630"
+      },
+      "units_shipped": 24,
+      "transUOM": "BAG",
+      "unitPrice": 38.5,
+      "amount": 924
+    },
+    {
+      "date_shipped": "06/06/2023",
+      "shipping_info": {
+        "bill_of_lading": "814509"
+      },
+      "description": "CRYSTAL WHEAT 3L BAG MALT 55LB",
+      "additionalInfo": {
+        "LotSN": "8000704986"
+      },
+      "units_shipped": 4,
+      "transUOM": "BAG",
+      "unitPrice": 49.5,
+      "amount": 198
+    }
+  ],
+  "totals": {
+    "total_due": 1984.2,
+    "currency": "USD"
+  },
+  "contact": {
+    "email": "customersuccess@malteurop.com",
+    "phone": "844-546-6258"
+  }
+}

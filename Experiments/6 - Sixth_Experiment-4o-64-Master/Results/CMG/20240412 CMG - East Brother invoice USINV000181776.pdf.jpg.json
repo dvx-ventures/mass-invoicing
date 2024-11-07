@@ -1,0 +1,111 @@
+{
+  "invoice_number": "USINV000181776",
+  "date": "04/12/2024",
+  "remit_to": {
+    "name": "Country Malt Group",
+    "address": "2488 Baumann Avenue",
+    "city": "San Lorenzo",
+    "state": "CA",
+    "zip": "94580",
+    "phone": "360-905-3380",
+    "fax": "360-905-3366"
+  },
+  "bill_to": {
+    "name": "East Brother Beer Co",
+    "address": "1001 Canal Blvd - #C 2",
+    "city": "Richmond",
+    "state": "CA",
+    "zip": "94804"
+  },
+  "ship_to": {
+    "name": "East Brother Beer Co",
+    "address": "1001 Canal Blvd - #C 2",
+    "city": "Richmond",
+    "state": "CA",
+    "zip": "94804"
+  },
+  "customer_po": "USS100390003",
+  "order_date": "04/12/2024",
+  "date_shipped": "04/12/2024",
+  "due_date": "05/12/2024",
+  "terms": "Net 30 days",
+  "shipped_via": "Customer pickup/carrier",
+  "items": [
+    {
+      "item_code": "GW-PAHC",
+      "description": "Great Western Malting Pale High Color Malt",
+      "units_shipped": 17,
+      "unit_price": 33.55,
+      "amount": 570.35
+    },
+    {
+      "item_code": "CM-FBOT",
+      "description": "Canada Malting Premier Flaked Brewers Oats",
+      "units_shipped": 8,
+      "unit_price": 35,
+      "amount": 280
+    },
+    {
+      "item_code": "GW-C60M",
+      "description": "Great Western Malting Crystal 60 Malt",
+      "units_shipped": 1,
+      "unit_price": 47.3,
+      "amount": 47.3
+    },
+    {
+      "item_code": "BM-MWHT",
+      "description": "Briess Malting Midnight Wheat Malt",
+      "units_shipped": 2,
+      "unit_price": 58.5,
+      "amount": 117
+    },
+    {
+      "item_code": "BM-VICT",
+      "description": "Briess Malting Victory Malt",
+      "units_shipped": 2,
+      "unit_price": 51.5,
+      "amount": 103
+    },
+    {
+      "item_code": "GW-PILS",
+      "description": "Great Western Malting Superior Pilsen Malt",
+      "units_shipped": 12,
+      "unit_price": 35.2,
+      "amount": 422.4
+    },
+    {
+      "item_code": "GW-BRUM",
+      "description": "Great Western Malting Brumalt",
+      "units_shipped": 1,
+      "unit_price": 45.1,
+      "amount": 45.1
+    },
+    {
+      "item_code": "CM-FWHT",
+      "description": "Canada Malting Superior Flaked Wheat",
+      "units_shipped": 1,
+      "unit_price": 32.5,
+      "amount": 32.5
+    },
+    {
+      "item_code": "CM-SPIL",
+      "description": "Canada Malting Superior Pilsen Malt",
+      "units_shipped": 12,
+      "unit_price": 35.75,
+      "amount": 429
+    },
+    {
+      "item_code": "PICKUP",
+      "description": "Pickup",
+      "units_shipped": 1,
+      "unit_price": 0,
+      "amount": 0
+    }
+  ],
+  "totals": {
+    "merchandise_total": 2046.65,
+    "total_due": 2046.65,
+    "currency": "USD",
+    "sales_tax": 0
+  }
+}

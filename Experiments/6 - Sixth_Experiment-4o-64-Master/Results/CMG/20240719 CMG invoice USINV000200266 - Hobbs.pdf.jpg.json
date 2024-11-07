@@ -1,0 +1,54 @@
+{
+  "invoice_number": "USINV000200266",
+  "date": "07/19/2024",
+  "remit_to": {
+    "name": "Country Malt",
+    "address": {
+      "street": "PO Box 51602",
+      "city": "Los Angeles",
+      "state": "CA",
+      "postal_code": "90051-5902"
+    },
+    "phone": "360-905-3380"
+  },
+  "bill_to": {
+    "name": "Hobbs Tavern & Brewing",
+    "address": {
+      "street": "2415 White Mountain Hwy",
+      "city": "West Ossipee",
+      "state": "NH",
+      "postal_code": "03890",
+      "country": "USA"
+    }
+  },
+  "ship_to": {
+    "name": "Hobbs Tavern & Brewing",
+    "address_line1": "765 NH Rt 16",
+    "city": "Ossipee",
+    "state": "NH",
+    "postal_code": "03864",
+    "country": "USA"
+  },
+  "customer_po": "EMAIL MIKE 71824",
+  "order_date": "07/19/2024",
+  "date_shipped": "07/19/2024",
+  "due_date": "08/18/2024",
+  "shipping_info": {
+    "freight_terms": null,
+    "shipped_via": "FedEx"
+  },
+  "terms": "Net 30 days",
+  "items": [
+    {
+      "item_code": "YC-CITC",
+      "description": "Cryo Hop Pellets - Citra, Size: 1x5KG Year: 2022",
+      "units_shipped": 1,
+      "unit_price": 301.18,
+      "amount": 301.18
+    }
+  ],
+  "totals": {
+    "total_due": 321.13
+  },
+  "customer_service_email": "cmglogisticsteam@countrymalt.com"
+}
