@@ -1,6 +1,6 @@
 const fs = require('fs-extra');
 const path = require('path');
-const OpenAI = require('openai');
+const OpenAIApi = require('openai');
 const pdfParse = require('pdf-parse');
 
 // Parse command-line arguments
