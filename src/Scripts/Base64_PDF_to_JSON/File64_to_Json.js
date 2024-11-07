@@ -13,8 +13,10 @@ if (args.length < 3) {
 const [base64Dir, pdfDir, outputDir] = args;
 
 // Initialize OpenAI API with your API key
-const openai = new OpenAI({
-  apiKey: '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',
+require('dotenv').config();
+
+const openai = new OpenAIApi({
+  apiKey: process.env.OPENAI_API_KEY, // Reads the API key from the .env file
 });
 
 // Function to process a Base64 file and get the API response

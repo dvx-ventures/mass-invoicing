@@ -7,8 +7,10 @@ const inputDir = '../../../ocr';  // specify your input directory
 const outputDir = '../../../Experiments'; // specify your output directory
 
 // Initialize OpenAI API with Configuration
+require('dotenv').config();
+
 const openai = new OpenAIApi({
-    apiKey: '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',  // Make sure your OpenAI API key is set as an environment variable
+  apiKey: process.env.OPENAI_API_KEY, // Reads the API key from the .env file
 });
 
 // Function to convert a PDF to JSON using the OpenAI API

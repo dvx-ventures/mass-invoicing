@@ -20,8 +20,10 @@ if (!fs.existsSync(inputDir) || !fs.statSync(inputDir).isDirectory()) {
 }
 
 // Initialize OpenAI API with Configuration
+require('dotenv').config();
+
 const openai = new OpenAIApi({
-  apiKey: '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', // Ensure this key is securely managed
+  apiKey: process.env.OPENAI_API_KEY, // Reads the API key from the .env file
 });
 
 // Check if API key is provided
