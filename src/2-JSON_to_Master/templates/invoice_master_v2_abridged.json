@@ -1,0 +1,299 @@
+{
+  "additional_notes": {
+    "type": "string"
+  },
+  "bill_to": {
+    "type": "object"
+  },
+  "bill_to.address": {
+    "type": "string"
+  },
+  "bill_to.city": {
+    "type": "string"
+  },
+  "bill_to.name": {
+    "type": "string"
+  },
+  "bill_to.state": {
+    "type": "string"
+  },
+  "bill_to.zip": {
+    "type": "string"
+  },
+  "company": {
+    "type": "object"
+  },
+  "company.address": {
+    "type": "string"
+  },
+  "company.name": {
+    "type": "string"
+  },
+  "company.phone": {
+    "type": "string"
+  },
+  "contact": {
+    "type": "object"
+  },
+  "contact.email": {
+    "type": "string"
+  },
+  "customer_po": {
+    "type": "string"
+  },
+  "customer_service_email": {
+    "type": "string"
+  },
+  "date": {
+    "type": "string"
+  },
+  "date_shipped": {
+    "type": "string"
+  },
+  "due_date": {
+    "type": "string"
+  },
+  "freight_terms": {
+    "type": "string"
+  },
+  "invoice": {
+    "type": "object"
+  },
+  "invoice.branchPlant": {
+    "type": "number"
+  },
+  "invoice.invoiceDate": {
+    "type": "string"
+  },
+  "invoice.invoiceNumber": {
+    "type": "number"
+  },
+  "invoice.salesOrderNumberType": {
+    "type": "string"
+  },
+  "invoice.shipmentNumber": {
+    "type": "number"
+  },
+  "invoice.totalInvoice": {
+    "type": "string"
+  },
+  "invoice_number": {
+    "type": "string"
+  },
+  "items": {
+    "type": "array"
+  },
+  "items[].additionalInfo": {
+    "type": "object"
+  },
+  "items[].additionalInfo.DNR": {
+    "type": "string"
+  },
+  "items[].additionalInfo.GW": {
+    "type": "string"
+  },
+  "items[].additionalInfo.LotSN": {
+    "type": "string"
+  },
+  "items[].additionalInfo.capacity": {
+    "type": "string"
+  },
+  "items[].amount": {
+    "type": "number"
+  },
+  "items[].description": {
+    "type": "string"
+  },
+  "items[].extendedPrice": {
+    "type": "string"
+  },
+  "items[].itemNumber": {
+    "type": "number"
+  },
+  "items[].item_code": {
+    "type": "string"
+  },
+  "items[].lineNumber": {
+    "type": "number"
+  },
+  "items[].priceUOM": {
+    "type": "string"
+  },
+  "items[].qtyShipped": {
+    "type": "number"
+  },
+  "items[].tax": {
+    "type": "string"
+  },
+  "items[].total_quantity": {
+    "type": "number"
+  },
+  "items[].transUOM": {
+    "type": "string"
+  },
+  "items[].unitPrice": {
+    "type": "string"
+  },
+  "items[].unit_price": {
+    "type": "number"
+  },
+  "items[].units_ordered": {
+    "type": "number"
+  },
+  "items[].units_shipped": {
+    "type": "number"
+  },
+  "items[].weightNetGross": {
+    "type": "string"
+  },
+  "order_date": {
+    "type": "string"
+  },
+  "page": {
+    "type": "string"
+  },
+  "paymentTerms": {
+    "type": "object"
+  },
+  "paymentTerms.netDueDate": {
+    "type": "string"
+  },
+  "paymentTerms.terms": {
+    "type": "string"
+  },
+  "pro_number": {
+    "type": "string"
+  },
+  "remit_to": {
+    "type": "object"
+  },
+  "remit_to.address": {
+    "type": "string"
+  },
+  "remit_to.city": {
+    "type": "string"
+  },
+  "remit_to.fax": {
+    "type": "string"
+  },
+  "remit_to.name": {
+    "type": "string"
+  },
+  "remit_to.phone": {
+    "type": "string"
+  },
+  "remit_to.state": {
+    "type": "string"
+  },
+  "remit_to.zip": {
+    "type": "string"
+  },
+  "sales_agent": {
+    "type": "string"
+  },
+  "shipTo": {
+    "type": "object"
+  },
+  "shipTo.address": {
+    "type": "string"
+  },
+  "shipTo.customerNumber": {
+    "type": "number"
+  },
+  "shipTo.name": {
+    "type": "string"
+  },
+  "ship_to": {
+    "type": "object"
+  },
+  "ship_to.address": {
+    "type": "string"
+  },
+  "ship_to.city": {
+    "type": "string"
+  },
+  "ship_to.name": {
+    "type": "string"
+  },
+  "ship_to.state": {
+    "type": "string"
+  },
+  "ship_to.zip": {
+    "type": "string"
+  },
+  "shipped_via": {
+    "type": "string"
+  },
+  "shipping": {
+    "type": "object"
+  },
+  "shipping.FOBDescription": {
+    "type": "string"
+  },
+  "shipping.POReleaseSalesAgentNumber": {
+    "type": "number"
+  },
+  "shipping.customerPONumber": {
+    "type": "string"
+  },
+  "shipping.shipVia": {
+    "type": "string"
+  },
+  "shipping_info": {
+    "type": "object"
+  },
+  "shipping_info.bill_of_lading": {
+    "type": "string"
+  },
+  "shipping_info.freight_terms": {
+    "type": "string"
+  },
+  "shipping_info.pro_number": {
+    "type": "string"
+  },
+  "shipping_info.shipped_via": {
+    "type": "string"
+  },
+  "soldTo": {
+    "type": "object"
+  },
+  "soldTo.address": {
+    "type": "string"
+  },
+  "soldTo.customerNumber": {
+    "type": "number"
+  },
+  "soldTo.name": {
+    "type": "string"
+  },
+  "taxInfo": {
+    "type": "object"
+  },
+  "taxInfo.salesTax": {
+    "type": "string"
+  },
+  "taxInfo.taxRate": {
+    "type": "string"
+  },
+  "terms": {
+    "type": "string"
+  },
+  "totals": {
+    "type": "object"
+  },
+  "totals.merchandise_total": {
+    "type": "number"
+  },
+  "totals.sales_tax": {
+    "type": "number"
+  },
+  "totals.taxable_sales": {
+    "type": "number"
+  },
+  "totals.total_due": {
+    "type": "number"
+  },
+  "website": {
+    "type": "string"
+  }
+}

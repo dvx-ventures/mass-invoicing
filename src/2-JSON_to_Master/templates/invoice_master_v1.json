@@ -1,0 +1,314 @@
+{
+  "invoice_number": {
+    "type": "string",
+    "description": "The \"invoice_number\" field in the invoice JSON structure is a string type that typically represents a unique identifier or reference number assigned to an invoice. It is used to differentiate one invoice from another and is often used for tracking and reference purposes."
+  },
+  "date": {
+    "type": "string",
+    "description": "The \"date\" field in an invoice JSON structure represents the date on which the invoice was issued or created. It is a string type, typically formatted according to a standard date format such as \"YYYY-MM-DD\" or \"MM/DD/YYYY\". This field is used to record the specific date of the invoice for billing and accounting purposes."
+  },
+  "page": {
+    "type": "string",
+    "description": "The \"page\" field in an invoice JSON structure likely represents the page number of the invoice. It is a string type, which means it may contain numerical values as well as any additional characters that the page numbering system may use (e.g., \"Page 1\", \"Page 2\", \"Page A\", etc.)."
+  },
+  "remit_to": {
+    "type": "object",
+    "description": "The \"remit_to\" field in an invoice JSON structure is an object that contains information about the entity to which the payment should be remitted. This object may include subfields such as name, address, contact information, and any other relevant details related to the remittance recipient. The \"remit_to\" object helps to specify the recipient of the payment and ensure that the funds are directed to the correct party."
+  },
+  "remit_to.name": {
+    "type": "string",
+    "description": "The \"remit_to.name\" field in an invoice JSON structure is a string type that represents the name of the entity or individual to whom the invoice is to be remitted. This field typically contains the name of the recipient or the remittance address."
+  },
+  "remit_to.address": {
+    "type": "string",
+    "description": "The \"remit_to.address\" field in an invoice JSON structure contains the address to which the payment should be remitted. This field is of type string, and it typically includes the street address, city, state or province, postal code, and country of the remittance address."
+  },
+  "remit_to.city": {
+    "type": "string",
+    "description": "The \"remit_to.city\" field in an invoice JSON structure represents the city of the remittance address. It is a string type, meaning it contains alphanumeric characters and possibly special characters to denote the city name where the payment should be sent."
+  },
+  "remit_to.state": {
+    "type": "string",
+    "description": "The \"remit_to.state\" field in an invoice JSON structure is a string type that represents the state or province of the remit-to address for the invoice. This field typically contains the abbreviated or full name of the state or province where the remittance should be sent."
+  },
+  "remit_to.zip": {
+    "type": "string",
+    "description": "The \"remit_to.zip\" field in an invoice JSON structure typically represents the zip code of the remittance address. It is a string type, meaning it contains a sequence of characters (e.g., numbers and/or letters) that represent the postal code for the remittance address. This field is commonly used in invoicing to specify the location for sending payments or correspondence related to the invoice."
+  },
+  "remit_to.phone": {
+    "type": "string",
+    "description": "The \"remit_to.phone\" field in an invoice JSON structure represents the phone number associated with the remittance address. This field is of type string, indicating that it contains a sequence of characters that represents the phone number in a specific format (e.g., \"(555) 123-4567\"). It is used to provide contact information for the entity to which the invoice payment should be remitted."
+  },
+  "remit_to.fax": {
+    "type": "string",
+    "description": "The \"remit_to.fax\" field in an invoice JSON structure represents the fax number of the entity to which the payment should be remitted. It is a string type, indicating that it should be formatted as a sequence of characters representing the fax number. This field is typically used to provide the recipient with the means to receive payment-related documents via fax."
+  },
+  "bill_to": {
+    "type": "object",
+    "description": "The \"bill_to\" field in an invoice JSON structure is an object type that contains information about the entity or individual to whom the invoice is addressed. This object may include subfields such as name, address, contact information, and any other relevant details pertaining to the billing recipient."
+  },
+  "bill_to.name": {
+    "type": "string",
+    "description": "The \"bill_to.name\" field in an invoice JSON structure represents the name of the entity or individual to whom the invoice is addressed. It is a string type, meaning it contains a sequence of characters, such as letters, numbers, and special characters, that represents the name of the billing recipient. This field typically includes the full name of the customer or company to whom the invoice is being sent."
+  },
+  "bill_to.address": {
+    "type": "string",
+    "description": "The \"bill_to.address\" field in an invoice JSON structure contains the address of the entity to which the bill is being sent. It is a string type, typically including the street address, city, state, postal code, and country information. This field provides the specific location where the invoice recipient is located."
+  },
+  "bill_to.city": {
+    "type": "string",
+    "description": "The \"bill_to.city\" field in an invoice JSON structure represents the city of the billing address. It is a string type, indicating the name of the city where the invoice is being sent. This field is typically used to specify the city for billing purposes, such as for tax calculations and location-specific billing information."
+  },
+  "bill_to.state": {
+    "type": "string",
+    "description": "The \"bill_to.state\" field in an invoice JSON structure is a string type that represents the state or province of the billing address for the invoice. This field typically contains the abbreviated or full name of the state or province associated with the billing address, such as \"CA\" for California or \"New York\" for the state of New York."
+  },
+  "bill_to.zip": {
+    "type": "string",
+    "description": "The \"bill_to.zip\" field in an invoice JSON structure represents the zip code of the billing address. It is a string type, and it typically contains the postal code or ZIP code associated with the billing address for the invoice. This field is used to specify the location of the billing address for the invoice recipient."
+  },
+  "ship_to": {
+    "type": "object",
+    "description": "The \"ship_to\" field in an invoice JSON structure is an object that typically contains the details of the recipient or destination of the shipment. This object may include subfields such as \"name,\" \"address,\" \"city,\" \"state,\" \"zip_code,\" and \"country,\" providing a comprehensive set of information about the shipping destination. This structure allows for the clear and organized representation of the shipping details associated with the invoice."
+  },
+  "ship_to.name": {
+    "type": "string",
+    "description": "The \"ship_to.name\" field in an invoice JSON structure contains the name of the recipient or addressee to whom the shipment is being sent. It is a string type, which means it stores a sequence of characters, typically representing the name of the individual or organization receiving the invoice."
+  },
+  "ship_to.address": {
+    "type": "string",
+    "description": "The field \"ship_to.address\" in an invoice JSON structure refers to the shipping address of the recipient. It is a string type field that typically contains the full address details, including street name, city, state, postal code, and country. This field provides the location where the invoice items are to be shipped or delivered."
+  },
+  "ship_to.city": {
+    "type": "string",
+    "description": "The \"ship_to.city\" field in an invoice JSON structure represents the city where the shipment is being sent. It is a string type, indicating the name of the city for the shipping address. This field is used to specify the destination city for the delivery of the goods or services mentioned in the invoice."
+  },
+  "ship_to.state": {
+    "type": "string",
+    "description": "The \"ship_to.state\" field in an invoice JSON structure contains the state or province of the shipping address. It is a string type, typically representing the abbreviated or full name of the state or province where the items are being shipped. This field is used to specify the destination state or province for the shipment of the invoice items."
+  },
+  "ship_to.zip": {
+    "type": "string",
+    "description": "The \"ship_to.zip\" field in an invoice JSON structure represents the ZIP or postal code of the shipping address. It is a string type, typically used to store the numerical or alphanumeric code that identifies the specific geographic area for delivery purposes. This field is commonly used in shipping and logistics processes to ensure accurate and timely delivery of goods to the intended destination."
+  },
+  "customer_po": {
+    "type": "string",
+    "description": "The \"customer_po\" field in an invoice JSON structure represents the customer's purchase order number. It is a string type field, which typically contains a unique identifier assigned by the customer to reference the specific purchase order related to the invoice. This field is used to link the invoice to the corresponding purchase order for tracking and reconciliation purposes."
+  },
+  "order_date": {
+    "type": "string",
+    "description": "The \"order_date\" field in the invoice JSON structure represents the date when the order was placed. It is of type string, indicating that it should be formatted as a date in a specific format, such as \"YYYY-MM-DD\" or \"MM/DD/YYYY\". This field is used to record the date when the customer made the purchase or placed the order for the items listed in the invoice."
+  },
+  "date_shipped": {
+    "type": "string",
+    "description": "The \"date_shipped\" field in an invoice JSON structure represents the date on which the items included in the invoice were shipped or dispatched. It is a string type, typically formatted as a date (e.g., \"YYYY-MM-DD\") to indicate the specific calendar date when the shipment occurred. This field helps track the timing of product deliveries and can be used for logistics and inventory management purposes."
+  },
+  "due_date": {
+    "type": "string",
+    "description": "The \"due_date\" field in an invoice JSON structure represents the date by which the payment for the invoice is due. It is a string type, typically formatted as a date (e.g., \"YYYY-MM-DD\") to indicate the specific deadline for payment. This field helps to communicate the timeline for settling the invoice amount."
+  },
+  "shipping_info": {
+    "type": "object",
+    "description": "The \"shipping_info\" field in an invoice JSON structure is an object that typically contains information related to the shipping details of the invoice. This may include fields such as \"shipping_address\", \"shipping_method\", \"tracking_number\", \"estimated_delivery_date\", and any other relevant details related to the shipment of the goods or services associated with the invoice. The object may contain subfields to store specific shipping information, such as the recipient's name, address, and contact details, as well as details about the shipping carrier and delivery status."
+  },
+  "shipping_info.freight_terms": {
+    "type": "string",
+    "description": "The field \"shipping_info.freight_terms\" in an invoice JSON structure represents the terms and conditions related to the freight or shipping of the items. It is a string type, and it may include information about the agreed-upon terms for shipping, such as who is responsible for the freight charges, the delivery schedule, and any specific requirements or restrictions related to the shipping process."
+  },
+  "shipping_info.shipped_via": {
+    "type": "string",
+    "description": "The field \"shipping_info.shipped_via\" in an invoice JSON structure is a string that indicates the method or carrier used to ship the items in the invoice. It typically contains the name or code of the shipping company or service used for the delivery."
+  },
+  "shipping_info.bill_of_lading": {
+    "type": "string",
+    "description": "The field \"shipping_info.bill_of_lading\" in an invoice JSON structure is a string type. This field typically contains the unique reference number assigned to a shipment for tracking and identification purposes. It is often used in logistics and transportation to document the movement of goods and serves as a key document for the shipment."
+  },
+  "shipping_info.pro_number": {
+    "type": "string",
+    "description": "The field \"shipping_info.pro_number\" in an invoice JSON structure represents the pro number associated with the shipping information. The pro number is a unique identifier used in the transportation industry to track and manage shipments. It is typically a string value that allows for the accurate identification and tracing of the specific shipment associated with the invoice."
+  },
+  "sales_agent": {
+    "type": "string",
+    "description": "The \"sales_agent\" field in an invoice JSON structure is a string type that typically contains the name or identifier of the sales agent responsible for the sale or transaction associated with the invoice. This field may include the sales agent's full name, username, employee ID, or any other relevant identifier."
+  },
+  "items": {
+    "type": "array",
+    "description": "The \"items\" field in the invoice JSON structure is an array that contains a list of individual items included in the invoice. Each item typically includes details such as the product or service description, quantity, unit price, total price, and any applicable taxes or discounts. The array allows for multiple items to be included in the invoice, providing a comprehensive breakdown of the goods or services being billed."
+  },
+  "totals": {
+    "type": "object",
+    "description": "The \"totals\" field in an invoice JSON structure is an object that typically includes various calculated totals related to the invoice, such as the subtotal, taxes, discounts, and the grand total. This object may contain key-value pairs representing different types of totals, with the keys indicating the type of total (e.g., \"subtotal\", \"taxes\", \"discounts\", \"grandTotal\") and the values representing the corresponding amounts. This field provides a summary of the financial aspects of the invoice."
+  },
+  "totals.merchandise_total": {
+    "type": "number",
+    "description": "The \"totals.merchandise_total\" field in an invoice JSON structure represents the total cost of the merchandise items included in the invoice. This field is of type number, indicating a numerical value that represents the sum of the costs of all merchandise items listed on the invoice."
+  },
+  "totals.taxable_sales": {
+    "type": "number",
+    "description": "The field \"totals.taxable_sales\" in an invoice JSON structure represents the total amount of sales that are subject to tax. It is a numerical value of type number, indicating the sum of all taxable sales included in the invoice. This field is important for calculating and reporting tax liabilities accurately."
+  },
+  "totals.sales_tax": {
+    "type": "number",
+    "description": "The field \"totals.sales_tax\" in the invoice JSON structure represents the total amount of sales tax applied to the invoice. It is of type number, indicating the numerical value of the sales tax calculated for the invoice. This field would typically contain the sum of all sales tax amounts for the items listed on the invoice."
+  },
+  "totals.total_due": {
+    "type": "number",
+    "description": "The \"totals.total_due\" field in the invoice JSON structure represents the total amount due for the invoice. It is a numeric value that indicates the sum of all charges and fees that the recipient of the invoice is required to pay. This field is typically expressed in the currency specified for the invoice and is used to communicate the final amount owed by the recipient."
+  },
+  "customer_service_email": {
+    "type": "string",
+    "description": "The \"customer_service_email\" field in an invoice JSON structure represents the email address of the customer service department or team associated with the invoice. This field is of type string, meaning it contains a series of characters that form an email address, such as \"support@example.com\". It is used to provide recipients with a direct contact point for addressing any queries or issues related to the invoice or the associated products or services."
+  },
+  "website": {
+    "type": "string",
+    "description": "The \"website\" field in an invoice JSON structure typically represents the website of the company or entity that issued the invoice. It is a string type, containing the URL of the company's website. This field is useful for providing additional contact information and for referencing the company's online presence."
+  },
+  "terms": {
+    "type": "string",
+    "description": "The \"terms\" field in an invoice JSON structure typically represents the payment terms or conditions associated with the invoice. It is a string type field that may contain information such as the due date, payment method, late payment penalties, and any other specific terms or instructions related to the payment of the invoice."
+  },
+  "freight_terms": {
+    "type": "string",
+    "description": "The \"freight_terms\" field in an invoice JSON structure typically represents the terms and conditions related to the transportation of goods, including details about who is responsible for the freight charges, the method of shipment, and any specific instructions or requirements for the delivery of the goods. This field is usually expressed as a string value, providing a clear understanding of the freight terms associated with the invoice."
+  },
+  "shipped_via": {
+    "type": "string",
+    "description": "The \"shipped_via\" field in an invoice JSON structure is a string that indicates the method or company used to ship the goods associated with the invoice. This field typically contains the name or code of the shipping carrier or service used for delivering the products to the customer."
+  },
+  "pro_number": {
+    "type": "string",
+    "description": "The \"pro_number\" field in an invoice JSON structure is a string type that typically represents the shipment's pro number. This number is often used to track and identify the shipment throughout its journey and can be associated with various transportation and logistics processes."
+  },
+  "contact": {
+    "type": "object",
+    "description": "The \"contact\" field in an invoice JSON structure is an object that contains information about the contact associated with the invoice. This object may include fields such as \"name\" for the contact's name, \"email\" for the contact's email address, \"phone\" for the contact's phone number, and any other relevant contact information. The \"contact\" object allows for the inclusion of detailed information about the individual or organization associated with the invoice, facilitating communication and record-keeping."
+  },
+  "contact.email": {
+    "type": "string",
+    "description": "The \"contact.email\" field in an invoice JSON structure represents the email address of the contact associated with the invoice. It is a string type, meaning it contains a sequence of characters that form an email address, such as \"example@email.com\". This field is used to store the contact's email information for communication and correspondence related to the invoice."
+  },
+  "additional_notes": {
+    "type": "string",
+    "description": "The \"additional_notes\" field in an invoice JSON structure is a string type that allows for additional information or comments to be included with the invoice. This field can be used to provide any supplementary details that may be relevant to the invoice, such as special instructions, additional context, or any other notes that the sender or recipient may want to include."
+  },
+  "company": {
+    "type": "object",
+    "description": "The \"company\" field in an invoice JSON structure is an object that contains information about the company associated with the invoice. This object may include subfields such as company name, address, contact information, tax identification number, and any other relevant details about the company. It allows for the structured representation of the company's information within the invoice data."
+  },
+  "company.name": {
+    "type": "string",
+    "description": "The field \"company.name\" in an invoice JSON structure represents the name of the company associated with the invoice. It is a string type, indicating the name of the company that is issuing or receiving the invoice. This field typically contains the legal or business name of the company involved in the transaction."
+  },
+  "company.address": {
+    "type": "string",
+    "description": "The field \"company.address\" in an invoice JSON structure represents the physical address of the company. It is a string type, typically containing the street address, city, state/province, postal/zip code, and country of the company's location. This field provides important information for identifying the company's place of business."
+  },
+  "company.phone": {
+    "type": "string",
+    "description": "The field \"company.phone\" in the invoice JSON structure represents the phone number of the company associated with the invoice. It is of type string, indicating that it should be formatted as a sequence of characters representing the phone number. This field typically contains the contact phone number for the company, which may be used for communication or reference purposes."
+  },
+  "invoice": {
+    "type": "object",
+    "description": "The \"invoice\" field in a JSON structure is an object that represents an invoice. This object typically contains various subfields such as invoice number, issue date, due date, customer information, line items, total amount, and any other relevant details related to the invoice. Each subfield within the \"invoice\" object provides specific information about the invoice, allowing for a comprehensive representation of the billing details."
+  },
+  "invoice.totalInvoice": {
+    "type": "string",
+    "description": "The \"invoice.totalInvoice\" field in the JSON structure represents the total amount of the invoice. It is of type string, indicating that the total amount is represented as a string value, which may include numerical digits and possibly a decimal point. This field typically contains the sum of all charges, such as item costs, taxes, and any other applicable fees, associated with the invoice."
+  },
+  "invoice.invoiceNumber": {
+    "type": "number",
+    "description": "The field \"invoice.invoiceNumber\" in the JSON structure represents the unique number assigned to an invoice. It is of type \"number,\" indicating that it should be a numerical value without decimal places. This number serves as a reference for identifying and tracking the invoice within a system or organization."
+  },
+  "invoice.invoiceDate": {
+    "type": "string",
+    "description": "The \"invoiceDate\" field in the invoice JSON structure represents the date on which the invoice was issued. It is of type string, indicating that it should be formatted as a date in a specific format, such as \"YYYY-MM-DD\" or \"MM/DD/YYYY\". The invoiceDate field is important for record-keeping and financial purposes, as it helps to track when the invoice was generated."
+  },
+  "invoice.salesOrderNumberType": {
+    "type": "string",
+    "description": "The field \"invoice.salesOrderNumberType\" in the invoice JSON structure represents the type of sales order number associated with the invoice. It is a string type, which means it can contain alphanumeric characters and special symbols. This field may indicate the format or source of the sales order number, such as \"internal\", \"external\", \"custom\", or any other relevant identifier."
+  },
+  "invoice.branchPlant": {
+    "type": "number",
+    "description": "The field \"invoice.branchPlant\" in the JSON structure represents the branch plant associated with the invoice. It is of type number, indicating a numerical identifier for the specific branch plant location. This field could be used to track and manage inventory, sales, or other business operations associated with a particular branch plant within an organization."
+  },
+  "invoice.shipmentNumber": {
+    "type": "number",
+    "description": "The \"invoice.shipmentNumber\" field in the invoice JSON structure is a numerical value that represents the unique identifier or number associated with the shipment of the invoice. This number is used to track and identify the specific shipment related to the invoice within the business or shipping system."
+  },
+  "soldTo": {
+    "type": "object",
+    "description": "The \"soldTo\" field in an invoice JSON structure is an object that contains information about the customer who is purchasing the goods or services. This object may include sub-fields such as the customer's name, address, contact information, and any other relevant details related to the customer's identity and location."
+  },
+  "soldTo.customerNumber": {
+    "type": "number",
+    "description": "The field \"soldTo.customerNumber\" in an invoice JSON structure represents the unique identification number associated with the customer to whom the goods or services are sold. It is of type number, indicating that it should contain numerical values only. This customer number can be used for internal tracking, billing, or any other customer-specific operations within the invoicing system."
+  },
+  "soldTo.name": {
+    "type": "string",
+    "description": "The \"soldTo.name\" field in an invoice JSON structure represents the name of the customer or entity to whom the goods or services are sold. It is a string type, meaning it contains a sequence of characters (text) that identifies the name of the customer or entity. This field is typically used to store the name of the individual or organization that is the recipient of the invoice."
+  },
+  "soldTo.address": {
+    "type": "string",
+    "description": "The \"soldTo.address\" field in the invoice JSON structure represents the address of the customer to whom the goods or services are sold. It is a string type field, typically containing the complete postal address including street, city, state, postal code, and country. This field provides essential information for shipping and billing purposes."
+  },
+  "shipTo": {
+    "type": "object",
+    "description": "The \"shipTo\" field in an invoice JSON structure is an object that contains the details of the shipping address for the invoice. This object may include subfields such as \"name\" for the recipient's name, \"address\" for the street address, \"city\" for the city, \"state\" for the state or province, \"postalCode\" for the postal code, and \"country\" for the country. These subfields provide a comprehensive description of the destination to which the invoice items are to be shipped."
+  },
+  "shipTo.customerNumber": {
+    "type": "number",
+    "description": "The field \"shipTo.customerNumber\" in an invoice JSON structure represents the unique identifier or reference number associated with the customer to whom the shipment is being delivered. It is of type \"number\", indicating that it should be a numerical value. This field is typically used to link the shipment to a specific customer within the system."
+  },
+  "shipTo.name": {
+    "type": "string",
+    "description": "The \"shipTo.name\" field in an invoice JSON structure represents the name of the entity or individual to whom the shipment is being sent. It is a string type, indicating the name of the recipient or the entity that will receive the products or services listed in the invoice. This field is typically used to provide the name of the recipient for shipping purposes."
+  },
+  "shipTo.address": {
+    "type": "string",
+    "description": "The \"shipTo.address\" field in an invoice JSON structure represents the shipping address for the invoice. It is a string type that typically contains the full address details, including street, city, state, postal code, and country, where the invoice items are to be shipped. This field provides important information for the delivery of the goods or services associated with the invoice."
+  },
+  "paymentTerms": {
+    "type": "object",
+    "description": "The \"paymentTerms\" field in an invoice JSON structure is an object that typically contains information about the payment terms for the invoice. This can include details such as the payment due date, any applicable discounts for early payment, the accepted payment methods, and any late payment penalties or fees. The object may include sub-fields such as \"dueDate\", \"discounts\", \"paymentMethods\", and \"latePaymentFees\". The \"paymentTerms\" object provides important information for both the seller and the buyer regarding the terms and conditions of payment for the invoice."
+  },
+  "paymentTerms.netDueDate": {
+    "type": "string",
+    "description": "The \"paymentTerms.netDueDate\" field in an invoice JSON structure represents the net due date for the payment terms specified for the invoice. It is a string type, indicating the date by which the payment for the invoice is due after considering any applicable net terms. The value of this field could be a date in a specific format, such as \"YYYY-MM-DD\", representing the deadline for payment without incurring any additional charges or interest."
+  },
+  "paymentTerms.terms": {
+    "type": "string",
+    "description": "The paymentTerms.terms field in the invoice JSON structure represents the specific terms or conditions related to the payment for the invoice. This field typically contains a string value that outlines the agreed-upon payment terms, such as the due date, payment method, any applicable discounts or late fees, and other relevant payment-related details. It provides important information for both the seller and the buyer regarding the expectations and requirements for fulfilling the payment obligations associated with the invoice."
+  },
+  "shipping": {
+    "type": "object",
+    "description": "The \"shipping\" field in an invoice JSON structure is an object that contains information related to the shipping details of the invoice. This object may include subfields such as \"address,\" \"carrier,\" \"tracking_number,\" \"estimated_delivery_date,\" and any other relevant information related to the shipping process for the invoice."
+  },
+  "shipping.FOBDescription": {
+    "type": "string",
+    "description": "The \"shipping.FOBDescription\" field in an invoice JSON structure is a string type that typically represents the \"Free On Board\" (FOB) shipping point or destination. This field is used to describe the specific terms of the shipping arrangement, such as who is responsible for the transportation and associated costs at various stages of the shipping process."
+  },
+  "shipping.shipVia": {
+    "type": "string",
+    "description": "The \"shipping.shipVia\" field in an invoice JSON structure represents the shipping method or carrier used for delivering the goods. It is a string type field that typically contains the name or code of the shipping company or service chosen for the shipment, such as \"UPS\", \"FedEx\", \"USPS\", \"DHL\", \"Standard Ground Shipping\", \"Express Shipping\", etc. This field helps in identifying the specific shipping method associated with the invoice."
+  },
+  "shipping.customerPONumber": {
+    "type": "string",
+    "description": "The field \"shipping.customerPONumber\" in an invoice JSON structure is a string type that typically represents the customer's purchase order number related to the shipping of the invoice. This field may be used to track and reference the customer's specific purchase order for shipping and invoicing purposes."
+  },
+  "shipping.POReleaseSalesAgentNumber": {
+    "type": "number",
+    "description": "The field shipping.POReleaseSalesAgentNumber represents the sales agent number associated with the purchase order release for shipping. It is a numeric value that uniquely identifies the sales agent responsible for the release of the purchase order for shipping."
+  },
+  "taxInfo": {
+    "type": "object",
+    "description": "The \"taxInfo\" field in an invoice JSON structure is an object that typically contains information related to taxes applicable to the invoice. This can include details such as the tax rate, tax amount, tax type, tax ID, and any other relevant tax-related information. The structure of the \"taxInfo\" object may vary depending on the specific requirements and regulations of the tax jurisdiction applicable to the invoice."
+  },
+  "taxInfo.taxRate": {
+    "type": "string",
+    "description": "The field taxInfo.taxRate is a string type within an invoice JSON structure. It likely represents the tax rate applied to the invoice, expressed as a string value. It could be in percentage format (e.g., \"7.5%\") or a decimal format (e.g., \"0.075\"). It's important to note that in a real-world scenario, tax rates are often represented as numeric values rather than strings for easier calculation and comparison."
+  },
+  "taxInfo.salesTax": {
+    "type": "string",
+    "description": "The field \"taxInfo.salesTax\" in the invoice JSON structure is a string type that typically holds the sales tax information related to the invoice. This could include the amount of sales tax charged, the tax rate applied, or any other relevant sales tax details associated with the invoice."
+  }
+}
