@@ -1,0 +1,67 @@
+{
+    "invoice_number": "C1111-2406573",
+    "invoice_date": "03/11/2024",
+    "customer_id": "EAR003",
+    "bill_to": {
+      "name": "Earth Rider Brewery",
+      "address": {
+        "street": "1617 N 3rd St",
+        "city": "Superior",
+        "state": "WI",
+        "zip": "54880",
+        "country": "United States of America"
+      }
+    },
+    "ship_to": {
+      "name": "Earth Rider Brewery",
+      "address": {
+        "street": "1617 N 3rd St",
+        "city": "Superior",
+        "state": "WI",
+        "zip": "54880",
+        "country": "United States of America"
+      }
+    },
+    "customer_reference": "1389",
+    "order_id": "DE111-2405596",
+    "date_shipped": "03/11/2024",
+    "ship_via": "UPS 3 Day Select",
+    "payment_terms": "Net due 30 days from invoice",
+    "terms_of_sale": "",
+    "due_date": "04/11/2024",
+    "comments": "",
+    "line_items": [
+      {
+        "item": "Pellet T90, 4x5K/11L, Citra® - 2023 Contract",
+        "lot_number": "P92-IUCIT3035",
+        "qty_packs": "4.0 CAR",
+        "stock_qty": "176.0 LBS",
+        "percent_alpha": "",
+        "crop_year": "2023",
+        "sold_qty": "4.0 CAR",
+        "unit_price": "611.16 USD",
+        "total_value": "2,444.64 USD"
+      }
+    ],
+    "sub_total": "2,444.64 USD",
+    "freight": "113.00 USD",
+    "handling_other_costs": "0.00 USD",
+    "total_amount": "2,557.64 USD",
+    "payment_instructions": {
+      "by_mail": {
+        "address": "Yakima Chief Hops LLC, 306 Division St, Yakima, WA 98902"
+      },
+      "by_wire_transfer": {
+        "bank_name": "CoBank",
+        "customer_name": "NWFCS FBO Yakima Chief Hops LLC",
+        "address": "6340 S. Fiddlers Green Circ, Greenwood Village, CO 80111"
+      },
+      "by_ach": {
+        "bank_name": "CoBank, ACB",
+        "customer_name": "Yakima Chief Hops LLC",
+        "address": "6340 S. Fiddlers Green Ci, Greenwood Village, CO 80111"
+      }
+    },
+    "late_charge_policy": "A late charge of NY Prime + 2% per month will be applied to all past due accounts ($5.00 minimum)."
+  }
+  
