@@ -16,7 +16,7 @@ const [base64Dir, pdfDir, outputDir] = args;
 require('dotenv').config();
 
 const openai = new OpenAIApi({
-  apiKey: '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'
+  apiKey: process.env.OPENAI_API_KEY
 });
 
 // Function to process a Base64 file and get the API response
