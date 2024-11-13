@@ -1,0 +1,140 @@
+{
+  "invoice_date": {
+    "value": "5/9/2024",
+    "confidence": 0.985114574432373
+  },
+  "total_amount": {
+    "value": "816.90",
+    "confidence": 0.9815086722373962
+  },
+  "due_date": {
+    "value": "06/08/2024",
+    "confidence": 0.9694416522979736
+  },
+  "total_tax_amount": {
+    "value": "0.00",
+    "confidence": 0.9659703373908997
+  },
+  "net_amount": {
+    "value": "816.90",
+    "confidence": 0.9637818932533264
+  },
+  "invoice_id": {
+    "value": "IN24135501",
+    "confidence": 0.9471466541290283
+  },
+  "ship_to_address": {
+    "value": "765 NH Route 16\nOssipee, NH 03864\nUSA",
+    "confidence": 0.9206845760345459
+  },
+  "remit_to_name": {
+    "value": "L2 Brands, LLC",
+    "confidence": 0.800706148147583
+  },
+  "ship_to_name": {
+    "value": "Hobbs Brewing Co",
+    "confidence": 0.7681566476821899
+  },
+  "receiver_address": {
+    "value": "756 Route 16\nOssipee, NH 03864\nUSA",
+    "confidence": 0.6418293118476868
+  },
+  "receiver_name": {
+    "value": "Hobbs Tavern & Brewing Company LLC",
+    "confidence": 0.5991048812866211
+  },
+  "supplier_name": {
+    "value": "L2 Brands, LLC",
+    "confidence": 0.5434892773628235
+  },
+  "purchase_order": {
+    "value": "041824Kas",
+    "confidence": 0.4474644362926483
+  },
+  "carrier": {
+    "value": "FEDEX",
+    "confidence": 0.44186046719551086
+  },
+  "invoice_type": {
+    "value": "",
+    "confidence": 0.4417411983013153
+  },
+  "remit_to_address": {
+    "value": "300 Fame Ave\nHanover, PA 17331",
+    "confidence": 0.3961848020553589
+  },
+  "payment_terms": {
+    "value": "N30",
+    "confidence": 0.36895039677619934
+  },
+  "supplier_address": {
+    "value": "300 Fame Ave\nLOCALE Hanover, PA 17331",
+    "confidence": 0.3509015142917633
+  },
+  "supplier_phone": {
+    "value": "(717) 630-0892",
+    "confidence": 0.2475523203611374
+  },
+  "line_items": [
+    {
+      "line_item/quantity": {
+        "value": "1",
+        "confidence": 0.4025205671787262
+      },
+      "line_item/unit_price": {
+        "value": "11.75",
+        "confidence": 0.9413973689079285
+      },
+      "line_item/amount": {
+        "value": "705.00",
+        "confidence": 0.906495213508606
+      },
+      "line_item/description": {
+        "value": "REORDER#:1535274 - Melange",
+        "confidence": 0.5635573267936707
+      }
+    },
+    {
+      "line_item/description": {
+        "value": "grey/white trucker MPS w/ Hobb's",
+        "confidence": 0.5003789663314819
+      }
+    },
+    {
+      "line_item/description": {
+        "value": "Front Printed Custom Patch",
+        "confidence": 0.5356222987174988
+      },
+      "line_item/quantity": {
+        "value": "1",
+        "confidence": 0.37974444031715393
+      },
+      "line_item/unit_price": {
+        "value": "1.50",
+        "confidence": 0.9396467208862305
+      },
+      "line_item/amount": {
+        "value": "90.00",
+        "confidence": 0.8972635269165039
+      }
+    },
+    {
+      "line_item/description": {
+        "value": "Shipping/Handling",
+        "confidence": 0.5448040962219238
+      },
+      "line_item/quantity": {
+        "value": "1",
+        "confidence": 0.4008321166038513
+      },
+      "line_item/unit_price": {
+        "value": "21.90",
+        "confidence": 0.9381388425827026
+      },
+      "line_item/amount": {
+        "value": "21.90",
+        "confidence": 0.9071865677833557
+      }
+    }
+  ]
+}

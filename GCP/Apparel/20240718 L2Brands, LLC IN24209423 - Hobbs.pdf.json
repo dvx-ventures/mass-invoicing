@@ -1,0 +1,200 @@
+{
+  "invoice_date": {
+    "value": "7/18/2024",
+    "confidence": 0.986905038356781
+  },
+  "total_amount": {
+    "value": "461.51",
+    "confidence": 0.9763711094856262
+  },
+  "total_tax_amount": {
+    "value": "0.00",
+    "confidence": 0.9676048159599304
+  },
+  "net_amount": {
+    "value": "461.51",
+    "confidence": 0.9604933261871338
+  },
+  "invoice_id": {
+    "value": "IN24209423",
+    "confidence": 0.9413791298866272
+  },
+  "due_date": {
+    "value": "08/17/2024",
+    "confidence": 0.9375437498092651
+  },
+  "ship_to_address": {
+    "value": "765 NH Route 16\nOssipee, NH 03864\nUSA",
+    "confidence": 0.9204779267311096
+  },
+  "remit_to_name": {
+    "value": "L2 Brands, LLC",
+    "confidence": 0.8016997575759888
+  },
+  "ship_to_name": {
+    "value": "Hobbs Brewing Co",
+    "confidence": 0.774962306022644
+  },
+  "receiver_address": {
+    "value": "756 Route 16\nOssipee, NH 03864\nUSA",
+    "confidence": 0.6437311172485352
+  },
+  "invoice_type": {
+    "value": "",
+    "confidence": 0.6401429772377014
+  },
+  "receiver_name": {
+    "value": "Hobbs Tavern & Brewing Company LLC",
+    "confidence": 0.5971724390983582
+  },
+  "supplier_name": {
+    "value": "L2 Brands, LLC",
+    "confidence": 0.5369017124176025
+  },
+  "carrier": {
+    "value": "FEDEX",
+    "confidence": 0.44186046719551086
+  },
+  "remit_to_address": {
+    "value": "300 Fame Ave\nHanover, PA 17331",
+    "confidence": 0.43497079610824585
+  },
+  "purchase_order": {
+    "value": "062724Kas",
+    "confidence": 0.4149858355522156
+  },
+  "payment_terms": {
+    "value": "N30",
+    "confidence": 0.39325231313705444
+  },
+  "supplier_address": {
+    "value": "300 Fame Ave\nLOCALE Hanover, PA 17331",
+    "confidence": 0.35005423426628113
+  },
+  "supplier_phone": {
+    "value": "(717) 630-0892",
+    "confidence": 0.2508017122745514
+  },
+  "line_items": [
+    {
+      "line_item/product_code": {
+        "value": "LA085-444-S",
+        "confidence": 0.7744409441947937
+      },
+      "line_item/quantity": {
+        "value": "1",
+        "confidence": 0.31260231137275696
+      },
+      "line_item/unit_price": {
+        "value": "11.50",
+        "confidence": 0.9508654475212097
+      },
+      "line_item/amount": {
+        "value": "92.00",
+        "confidence": 0.9199151396751404
+      },
+      "line_item/description": {
+        "value": "REORDER#:2018807 - Heather Navy\nLA085 w/Hobbs Brewing Co-THE",
+        "confidence": 0.6129000782966614
+      }
+    },
+    {
+      "line_item/product_code": {
+        "value": "LA085-444-M",
+        "confidence": 0.7750340700149536
+      },
+      "line_item/quantity": {
+        "value": "1",
+        "confidence": 0.2851355969905853
+      },
+      "line_item/unit_price": {
+        "value": "11.50",
+        "confidence": 0.9503347277641296
+      },
+      "line_item/amount": {
+        "value": "115.00",
+        "confidence": 0.9332343935966492
+      },
+      "line_item/description": {
+        "value": "REORDER#:2018807 - Heather Navy",
+        "confidence": 0.46071457862854004
+      }
+    },
+    {
+      "line_item/product_code": {
+        "value": "LA085",
+        "confidence": 0.6286484003067017
+      },
+      "line_item/description": {
+        "value": "w/Hobbs Brewing Co-THE",
+        "confidence": 0.42669716477394104
+      }
+    },
+    {
+      "line_item/description": {
+        "value": "REORDER#:2018807 - Heather Navy\nLA085 w/Hobbs Brewing Co-THE",
+        "confidence": 0.48810267448425293
+      },
+      "line_item/product_code": {
+        "value": "LA085-444-L",
+        "confidence": 0.7491716146469116
+      },
+      "line_item/quantity": {
+        "value": "1",
+        "confidence": 0.47036874294281006
+      },
+      "line_item/unit_price": {
+        "value": "11.50",
+        "confidence": 0.8863853216171265
+      },
+      "line_item/amount": {
+        "value": "115.00",
+        "confidence": 0.8887150287628174
+      }
+    },
+    {
+      "line_item/description": {
+        "value": "REORDER#:2018807 - Heather Navy\nLA085 w/Hobbs Brewing Co-THE",
+        "confidence": 0.4400288760662079
+      },
+      "line_item/product_code": {
+        "value": "LA085-444-XL",
+        "confidence": 0.8188326358795166
+      },
+      "line_item/quantity": {
+        "value": "1",
+        "confidence": 0.5363188982009888
+      },
+      "line_item/unit_price": {
+        "value": "11.50",
+        "confidence": 0.897071123123169
+      },
+      "line_item/amount": {
+        "value": "115.00",
+        "confidence": 0.908435046672821
+      }
+    },
+    {
+      "line_item/description": {
+        "value": "Shipping/Handling",
+        "confidence": 0.5460237264633179
+      },
+      "line_item/product_code": {
+        "value": "100",
+        "confidence": 0.8224655389785767
+      },
+      "line_item/quantity": {
+        "value": "1",
+        "confidence": 0.4582381248474121
+      },
+      "line_item/unit_price": {
+        "value": "24.51",
+        "confidence": 0.8721229434013367
+      },
+      "line_item/amount": {
+        "value": "24.51",
+        "confidence": 0.9048308730125427
+      }
+    }
+  ]
+}

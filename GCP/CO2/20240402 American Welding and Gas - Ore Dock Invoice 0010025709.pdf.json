@@ -1,0 +1,192 @@
+{
+  "vat": {
+    "vat/amount": {
+      "value": "0.00",
+      "confidence": 0.1337827742099762
+    }
+  },
+  "invoice_date": {
+    "value": "04/02/24",
+    "confidence": 0.9554862380027771
+  },
+  "total_amount": {
+    "value": "760.74",
+    "confidence": 0.9132854342460632
+  },
+  "net_amount": {
+    "value": "760.74",
+    "confidence": 0.9089500308036804
+  },
+  "invoice_id": {
+    "value": "0010025709",
+    "confidence": 0.8491989970207214
+  },
+  "remit_to_name": {
+    "value": "AMERICAN WELDING & GAS, INC.",
+    "confidence": 0.8198343515396118
+  },
+  "payment_terms": {
+    "value": "30 DAYS\nINITIALS DG",
+    "confidence": 0.7754606008529663
+  },
+  "supplier_address": {
+    "value": "114 W SPRING ST\nMARQUETTE MI 49805",
+    "confidence": 0.6194875240325928
+  },
+  "supplier_name": {
+    "value": "BORE DOCK BREWING COMPANY LLC",
+    "confidence": 0.598008394241333
+  },
+  "invoice_type": {
+    "value": "",
+    "confidence": 0.4966500401496887
+  },
+  "remit_to_address": {
+    "value": "PO BOX 779009\nCHICAGO IL 60677-9009",
+    "confidence": 0.4933127760887146
+  },
+  "purchase_order": {
+    "value": "0007922906-",
+    "confidence": 0.46398496627807617
+  },
+  "supplier_phone": {
+    "value": "(906) 334-2977",
+    "confidence": 0.412922203540802
+  },
+  "supplier_tax_id": {
+    "value": "000000000000131",
+    "confidence": 0.15532086789608002
+  },
+  "line_items": [
+    {
+      "line_item/quantity": {
+        "value": "0",
+        "confidence": 0.35037508606910706
+      },
+      "line_item/unit": {
+        "value": "CYL",
+        "confidence": 0.7718184590339661
+      },
+      "line_item/unit_price": {
+        "value": "20.768",
+        "confidence": 0.934441089630127
+      },
+      "line_item/amount": {
+        "value": "20.77N",
+        "confidence": 0.8864182829856873
+      }
+    },
+    {
+      "line_item/description": {
+        "value": "79229060401NI T",
+        "confidence": 0.531913161277771
+      },
+      "line_item/quantity": {
+        "value": "2",
+        "confidence": 0.3836591839790344
+      },
+      "line_item/unit": {
+        "value": "CYL",
+        "confidence": 0.7840089797973633
+      },
+      "line_item/unit_price": {
+        "value": "81.56",
+        "confidence": 0.9344465732574463
+      },
+      "line_item/amount": {
+        "value": "163.12N",
+        "confidence": 0.9036446809768677
+      }
+    },
+    {
+      "line_item/description": {
+        "value": "79229060401CD BULK",
+        "confidence": 0.5209667682647705
+      },
+      "line_item/unit": {
+        "value": "LB",
+        "confidence": 0.6558452248573303
+      },
+      "line_item/unit_price": {
+        "value": "0.395472",
+        "confidence": 0.8659719228744507
+      },
+      "line_item/amount": {
+        "value": "524.00N",
+        "confidence": 0.8964306712150574
+      }
+    },
+    {
+      "line_item/quantity": {
+        "value": "608",
+        "confidence": 0.30459997057914734
+      }
+    },
+    {
+      "line_item/quantity": {
+        "value": "1",
+        "confidence": 0.41539284586906433
+      },
+      "line_item/unit": {
+        "value": "EA",
+        "confidence": 0.6832233667373657
+      },
+      "line_item/description": {
+        "value": "HAZARDOUS MATERIAL FEE AWG",
+        "confidence": 0.6198097467422485
+      },
+      "line_item/unit_price": {
+        "value": "7.05",
+        "confidence": 0.831904411315918
+      },
+      "line_item/amount": {
+        "value": "7.05N",
+        "confidence": 0.6930133104324341
+      }
+    },
+    {
+      "line_item/quantity": {
+        "value": "1",
+        "confidence": 0.5206948518753052
+      },
+      "line_item/description": {
+        "value": "DELIVERY CHARGE",
+        "confidence": 0.5694409012794495
+      },
+      "line_item/unit": {
+        "value": "EA",
+        "confidence": 0.8554713726043701
+      },
+      "line_item/unit_price": {
+        "value": "37.30",
+        "confidence": 0.8610628843307495
+      },
+      "line_item/amount": {
+        "value": "37.30N",
+        "confidence": 0.7596793174743652
+      }
+    },
+    {
+      "line_item/description": {
+        "value": "FUEL SURCHARGE GAS & HARDGOODS",
+        "confidence": 0.5241224765777588
+      },
+      "line_item/unit_price": {
+        "value": "8.50",
+        "confidence": 0.8400204181671143
+      },
+      "line_item/amount": {
+        "value": "8.50N",
+        "confidence": 0.5512128472328186
+      },
+      "line_item/quantity": {
+        "value": "1",
+        "confidence": 0.4420457184314728
+      },
+      "line_item/unit": {
+        "value": "EA",
+        "confidence": 0.8034675717353821
+      }
+    }
+  ]
+}

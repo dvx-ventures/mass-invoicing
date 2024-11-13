@@ -1,0 +1,344 @@
+[
+  {
+    "properties": [],
+    "textAnchor": null,
+    "type": "invoice_type",
+    "mentionText": "",
+    "mentionId": "",
+    "confidence": 0.9801558256149292,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": null,
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "0",
+    "normalizedValue": {
+      "text": "other"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "4752",
+          "endIndex": "4762"
+        }
+      ],
+      "content": "08/19/2024"
+    },
+    "type": "invoice_date",
+    "mentionText": "08/19/2024",
+    "mentionId": "",
+    "confidence": 0.8716214299201965,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.22980660200119019,
+                "y": 0.8492307662963867
+              },
+              {
+                "x": 0.33788394927978516,
+                "y": 0.8492307662963867
+              },
+              {
+                "x": 0.33788394927978516,
+                "y": 0.8619779944419861
+              },
+              {
+                "x": 0.22980660200119019,
+                "y": 0.8619779944419861
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "1",
+    "normalizedValue": {
+      "text": "2024-08-19",
+      "dateValue": {
+        "year": 2024,
+        "month": 8,
+        "day": 19
+      },
+      "structuredValue": "dateValue"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "5373",
+          "endIndex": "5394"
+        }
+      ],
+      "content": "Kirby@SauconyBeer.com"
+    },
+    "type": "supplier_email",
+    "mentionText": "Kirby@SauconyBeer.com",
+    "mentionId": "",
+    "confidence": 0.6018070578575134,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "1",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.6001137495040894,
+                "y": 0.3129670321941376
+              },
+              {
+                "x": 0.806598424911499,
+                "y": 0.3129670321941376
+              },
+              {
+                "x": 0.806598424911499,
+                "y": 0.3309890031814575
+              },
+              {
+                "x": 0.6001137495040894,
+                "y": 0.3309890031814575
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "2",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "4536",
+          "endIndex": "4569"
+        }
+      ],
+      "content": "Saucony Creek Brewing Company LLC"
+    },
+    "type": "supplier_name",
+    "mentionText": "Saucony Creek Brewing Company LLC",
+    "mentionId": "",
+    "confidence": 0.2780359983444214,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.5938566327095032,
+                "y": 0.772747278213501
+              },
+              {
+                "x": 0.7690557241439819,
+                "y": 0.772747278213501
+              },
+              {
+                "x": 0.7690557241439819,
+                "y": 0.7828571200370789
+              },
+              {
+                "x": 0.5938566327095032,
+                "y": 0.7828571200370789
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "3",
+    "normalizedValue": {
+      "text": "Saucony"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "4844",
+          "endIndex": "4871"
+        }
+      ],
+      "content": "PO Box 454\nRumson, NJ 07760"
+    },
+    "type": "receiver_address",
+    "mentionText": "PO Box 454\nRumson, NJ 07760",
+    "mentionId": "",
+    "confidence": 0.2341531217098236,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.25142207741737366,
+                "y": 0.878241777420044
+              },
+              {
+                "x": 0.39362913370132446,
+                "y": 0.878241777420044
+              },
+              {
+                "x": 0.39362913370132446,
+                "y": 0.9076923131942749
+              },
+              {
+                "x": 0.25142207741737366,
+                "y": 0.9076923131942749
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "4",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "5721",
+              "endIndex": "5751"
+            }
+          ],
+          "content": "Audit trail date format\nStatus"
+        },
+        "type": "line_item/description",
+        "mentionText": "Audit trail date format\nStatus",
+        "mentionId": "",
+        "confidence": 0.5705583095550537,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "2",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.0813424363732338,
+                    "y": 0.1850549429655075
+                  },
+                  {
+                    "x": 0.2184300273656845,
+                    "y": 0.1850549429655075
+                  },
+                  {
+                    "x": 0.2184300273656845,
+                    "y": 0.21802197396755219
+                  },
+                  {
+                    "x": 0.0813424363732338,
+                    "y": 0.21802197396755219
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "6",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      }
+    ],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "5721",
+          "endIndex": "5751"
+        }
+      ],
+      "content": ""
+    },
+    "type": "line_item",
+    "mentionText": "Audit trail date format\nStatus",
+    "mentionId": "",
+    "confidence": 1,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "2",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.0813424363732338,
+                "y": 0.1850549429655075
+              },
+              {
+                "x": 0.2184300273656845,
+                "y": 0.1850549429655075
+              },
+              {
+                "x": 0.2184300273656845,
+                "y": 0.21802197396755219
+              },
+              {
+                "x": 0.0813424363732338,
+                "y": 0.21802197396755219
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "5",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  }
+]

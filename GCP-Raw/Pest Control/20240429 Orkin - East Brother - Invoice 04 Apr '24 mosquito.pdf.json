@@ -1,0 +1,666 @@
+[
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "8",
+          "endIndex": "17"
+        }
+      ],
+      "content": "262653372"
+    },
+    "type": "invoice_id",
+    "mentionText": "262653372",
+    "mentionId": "",
+    "confidence": 0.9649105668067932,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.8191125988960266,
+                "y": 0.02857142873108387
+              },
+              {
+                "x": 0.9158134460449219,
+                "y": 0.02857142873108387
+              },
+              {
+                "x": 0.9158134460449219,
+                "y": 0.04219780117273331
+              },
+              {
+                "x": 0.8191125988960266,
+                "y": 0.04219780117273331
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "0",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "24",
+          "endIndex": "33"
+        }
+      ],
+      "content": "4/29/2024"
+    },
+    "type": "invoice_date",
+    "mentionText": "4/29/2024",
+    "mentionId": "",
+    "confidence": 0.961256206035614,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.8100113868713379,
+                "y": 0.06285714358091354
+              },
+              {
+                "x": 0.894197940826416,
+                "y": 0.06285714358091354
+              },
+              {
+                "x": 0.894197940826416,
+                "y": 0.07780219614505768
+              },
+              {
+                "x": 0.8100113868713379,
+                "y": 0.07780219614505768
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "1",
+    "normalizedValue": {
+      "text": "2024-04-29",
+      "dateValue": {
+        "year": 2024,
+        "month": 4,
+        "day": 29
+      },
+      "structuredValue": "dateValue"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "713",
+          "endIndex": "719"
+        }
+      ],
+      "content": "128.99"
+    },
+    "type": "total_amount",
+    "mentionText": "128.99",
+    "mentionId": "",
+    "confidence": 0.7900176644325256,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.24630261957645416,
+                "y": 0.9309890270233154
+              },
+              {
+                "x": 0.2957906723022461,
+                "y": 0.9309890270233154
+              },
+              {
+                "x": 0.2957906723022461,
+                "y": 0.9437362551689148
+              },
+              {
+                "x": 0.24630261957645416,
+                "y": 0.9437362551689148
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "2",
+    "normalizedValue": {
+      "text": "128.99"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "712",
+          "endIndex": "713"
+        }
+      ],
+      "content": "$"
+    },
+    "type": "currency",
+    "mentionText": "$",
+    "mentionId": "",
+    "confidence": 0.585066556930542,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.23833902180194855,
+                "y": 0.9309890270233154
+              },
+              {
+                "x": 0.2428896427154541,
+                "y": 0.9309890270233154
+              },
+              {
+                "x": 0.2428896427154541,
+                "y": 0.9432967305183411
+              },
+              {
+                "x": 0.23833902180194855,
+                "y": 0.9432967305183411
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "3",
+    "normalizedValue": {
+      "text": "USD"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": null,
+    "type": "invoice_type",
+    "mentionText": "",
+    "mentionId": "",
+    "confidence": 0.48066744208335876,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": null,
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "4",
+    "normalizedValue": {
+      "text": "invoice_statement"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "556",
+          "endIndex": "603"
+        }
+      ],
+      "content": "1001 CANAL BLVD STE C-2 RICHMOND, CA 94804-3533"
+    },
+    "type": "remit_to_address",
+    "mentionText": "1001 CANAL BLVD STE C-2 RICHMOND, CA 94804-3533",
+    "mentionId": "",
+    "confidence": 0.4710674285888672,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.5659840703010559,
+                "y": 0.7775824069976807
+              },
+              {
+                "x": 0.914675772190094,
+                "y": 0.7775824069976807
+              },
+              {
+                "x": 0.914675772190094,
+                "y": 0.7890110015869141
+              },
+              {
+                "x": 0.5659840703010559,
+                "y": 0.7890110015869141
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "5",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "34",
+          "endIndex": "39"
+        }
+      ],
+      "content": "Orkin"
+    },
+    "type": "supplier_name",
+    "mentionText": "Orkin",
+    "mentionId": "",
+    "confidence": 0.4568164050579071,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.05915813520550728,
+                "y": 0.06021977961063385
+              },
+              {
+                "x": 0.10125142335891724,
+                "y": 0.06021977961063385
+              },
+              {
+                "x": 0.10125142335891724,
+                "y": 0.07428571581840515
+              },
+              {
+                "x": 0.05915813520550728,
+                "y": 0.07428571581840515
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "6",
+    "normalizedValue": {
+      "text": "Orkin"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "40",
+          "endIndex": "79"
+        }
+      ],
+      "content": "PO BOX 740300\nCINCINNATI, OH 45274-0300"
+    },
+    "type": "supplier_address",
+    "mentionText": "PO BOX 740300\nCINCINNATI, OH 45274-0300",
+    "mentionId": "",
+    "confidence": 0.4342750012874603,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.055745165795087814,
+                "y": 0.07780219614505768
+              },
+              {
+                "x": 0.27474403381347656,
+                "y": 0.07780219614505768
+              },
+              {
+                "x": 0.27474403381347656,
+                "y": 0.1063736230134964
+              },
+              {
+                "x": 0.055745165795087814,
+                "y": 0.1063736230134964
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "7",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "613",
+          "endIndex": "627"
+        }
+      ],
+      "content": "(866) 580-1813"
+    },
+    "type": "supplier_phone",
+    "mentionText": "(866) 580-1813",
+    "mentionId": "",
+    "confidence": 0.32780393958091736,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.5403867959976196,
+                "y": 0.7964835166931152
+              },
+              {
+                "x": 0.6507394909858704,
+                "y": 0.7964835166931152
+              },
+              {
+                "x": 0.6507394909858704,
+                "y": 0.8105494379997253
+              },
+              {
+                "x": 0.5403867959976196,
+                "y": 0.8105494379997253
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "8",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "316",
+              "endIndex": "347"
+            }
+          ],
+          "content": "Mosquito Seasonal - PC Standard"
+        },
+        "type": "line_item/description",
+        "mentionText": "Mosquito Seasonal - PC Standard",
+        "mentionId": "",
+        "confidence": 0.6086206436157227,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.06598407030105591,
+                    "y": 0.37626373767852783
+                  },
+                  {
+                    "x": 0.3213879466056824,
+                    "y": 0.37626373767852783
+                  },
+                  {
+                    "x": 0.3213879466056824,
+                    "y": 0.3920879065990448
+                  },
+                  {
+                    "x": 0.06598407030105591,
+                    "y": 0.3920879065990448
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "10",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "349",
+              "endIndex": "355"
+            }
+          ],
+          "content": "128.99"
+        },
+        "type": "line_item/amount",
+        "mentionText": "128.99",
+        "mentionId": "",
+        "confidence": 0.2505706548690796,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.4106939733028412,
+                    "y": 0.3780219852924347
+                  },
+                  {
+                    "x": 0.45790672302246094,
+                    "y": 0.3780219852924347
+                  },
+                  {
+                    "x": 0.45790672302246094,
+                    "y": 0.39032965898513794
+                  },
+                  {
+                    "x": 0.4106939733028412,
+                    "y": 0.39032965898513794
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "11",
+        "normalizedValue": {
+          "text": "128.99"
+        },
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "369",
+              "endIndex": "375"
+            }
+          ],
+          "content": "128.99"
+        },
+        "type": "line_item/amount",
+        "mentionText": "128.99",
+        "mentionId": "",
+        "confidence": 0.6815950870513916,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.8850967288017273,
+                    "y": 0.3780219852924347
+                  },
+                  {
+                    "x": 0.9323094487190247,
+                    "y": 0.3780219852924347
+                  },
+                  {
+                    "x": 0.9323094487190247,
+                    "y": 0.39076924324035645
+                  },
+                  {
+                    "x": 0.8850967288017273,
+                    "y": 0.39076924324035645
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "12",
+        "normalizedValue": {
+          "text": "128.99"
+        },
+        "provenance": null,
+        "redacted": false
+      }
+    ],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "316",
+          "endIndex": "347"
+        },
+        {
+          "startIndex": "349",
+          "endIndex": "355"
+        },
+        {
+          "startIndex": "369",
+          "endIndex": "375"
+        }
+      ],
+      "content": ""
+    },
+    "type": "line_item",
+    "mentionText": "Mosquito Seasonal - PC Standard 128.99 128.99",
+    "mentionId": "",
+    "confidence": 1,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.06598407030105591,
+                "y": 0.37626373767852783
+              },
+              {
+                "x": 0.9323094487190247,
+                "y": 0.37626373767852783
+              },
+              {
+                "x": 0.9323094487190247,
+                "y": 0.3920879065990448
+              },
+              {
+                "x": 0.06598407030105591,
+                "y": 0.3920879065990448
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "9",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  }
+]

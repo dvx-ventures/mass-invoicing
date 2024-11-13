@@ -1,0 +1,1378 @@
+[
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "47",
+          "endIndex": "56"
+        }
+      ],
+      "content": "12/7/2023"
+    },
+    "type": "invoice_date",
+    "mentionText": "12/7/2023",
+    "mentionId": "",
+    "confidence": 0.9837501645088196,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.8100113868713379,
+                "y": 0.07604395598173141
+              },
+              {
+                "x": 0.8998862504959106,
+                "y": 0.07604395598173141
+              },
+              {
+                "x": 0.8998862504959106,
+                "y": 0.09098900854587555
+              },
+              {
+                "x": 0.8100113868713379,
+                "y": 0.09098900854587555
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "0",
+    "normalizedValue": {
+      "text": "2023-12-07",
+      "dateValue": {
+        "year": 2023,
+        "month": 12,
+        "day": 7
+      },
+      "structuredValue": "dateValue"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "193",
+          "endIndex": "198"
+        }
+      ],
+      "content": "30310"
+    },
+    "type": "invoice_id",
+    "mentionText": "30310",
+    "mentionId": "",
+    "confidence": 0.9720990061759949,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.8151308298110962,
+                "y": 0.13626374304294586
+              },
+              {
+                "x": 0.8924914598464966,
+                "y": 0.13626374304294586
+              },
+              {
+                "x": 0.8924914598464966,
+                "y": 0.15560439229011536
+              },
+              {
+                "x": 0.8151308298110962,
+                "y": 0.15560439229011536
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "1",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "941",
+          "endIndex": "949"
+        }
+      ],
+      "content": "1,550.00"
+    },
+    "type": "total_amount",
+    "mentionText": "1,550.00",
+    "mentionId": "",
+    "confidence": 0.9723881483078003,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.8657565712928772,
+                "y": 0.9156044125556946
+              },
+              {
+                "x": 0.9425483345985413,
+                "y": 0.9156044125556946
+              },
+              {
+                "x": 0.9425483345985413,
+                "y": 0.9309890270233154
+              },
+              {
+                "x": 0.8657565712928772,
+                "y": 0.9309890270233154
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "2",
+    "normalizedValue": {
+      "text": "1550"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "940",
+          "endIndex": "941"
+        }
+      ],
+      "content": "$"
+    },
+    "type": "currency",
+    "mentionText": "$",
+    "mentionId": "",
+    "confidence": 0.7839782238006592,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.8532423377037048,
+                "y": 0.9160439372062683
+              },
+              {
+                "x": 0.8589305877685547,
+                "y": 0.9160439372062683
+              },
+              {
+                "x": 0.8589305877685547,
+                "y": 0.9309890270233154
+              },
+              {
+                "x": 0.8532423377037048,
+                "y": 0.9309890270233154
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "3",
+    "normalizedValue": {
+      "text": "USD"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": null,
+    "type": "invoice_type",
+    "mentionText": "",
+    "mentionId": "",
+    "confidence": 0.66399747133255,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": null,
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "4",
+    "normalizedValue": {
+      "text": "invoice_statement"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "346",
+          "endIndex": "386"
+        }
+      ],
+      "content": "1261 Superior Avenue\nCleveland, OH 44114"
+    },
+    "type": "ship_to_address",
+    "mentionText": "1261 Superior Avenue\nCleveland, OH 44114",
+    "mentionId": "",
+    "confidence": 0.6394723057746887,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.6296928524971008,
+                "y": 0.2325274795293808
+              },
+              {
+                "x": 0.8048919439315796,
+                "y": 0.2325274795293808
+              },
+              {
+                "x": 0.8048919439315796,
+                "y": 0.26461538672447205
+              },
+              {
+                "x": 0.6296928524971008,
+                "y": 0.26461538672447205
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "5",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "450",
+          "endIndex": "476"
+        }
+      ],
+      "content": "info@fullcolorcoasters.com"
+    },
+    "type": "supplier_email",
+    "mentionText": "info@fullcolorcoasters.com",
+    "mentionId": "",
+    "confidence": 0.6010627150535583,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.5500568747520447,
+                "y": 0.32043954730033875
+              },
+              {
+                "x": 0.7172923684120178,
+                "y": 0.32043954730033875
+              },
+              {
+                "x": 0.7172923684120178,
+                "y": 0.3336263597011566
+              },
+              {
+                "x": 0.5500568747520447,
+                "y": 0.3336263597011566
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "6",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "89",
+          "endIndex": "118"
+        }
+      ],
+      "content": "P.O. BOX 8\nCARLISLE, PA 17013"
+    },
+    "type": "remit_to_address",
+    "mentionText": "P.O. BOX 8\nCARLISLE, PA 17013",
+    "mentionId": "",
+    "confidence": 0.5248854756355286,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.03924914821982384,
+                "y": 0.10681318491697311
+              },
+              {
+                "x": 0.24914675951004028,
+                "y": 0.10681318491697311
+              },
+              {
+                "x": 0.24914675951004028,
+                "y": 0.14417582750320435
+              },
+              {
+                "x": 0.03924914821982384,
+                "y": 0.14417582750320435
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "7",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "485",
+          "endIndex": "497"
+        }
+      ],
+      "content": "802-893-0200"
+    },
+    "type": "supplier_phone",
+    "mentionText": "802-893-0200",
+    "mentionId": "",
+    "confidence": 0.4444889426231384,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.76450514793396,
+                "y": 0.32043954730033875
+              },
+              {
+                "x": 0.8469852209091187,
+                "y": 0.32043954730033875
+              },
+              {
+                "x": 0.8469852209091187,
+                "y": 0.3336263597011566
+              },
+              {
+                "x": 0.76450514793396,
+                "y": 0.3336263597011566
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "8",
+    "normalizedValue": {
+      "text": "+1 802 893 0200"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "575",
+          "endIndex": "580"
+        }
+      ],
+      "content": "FedEx"
+    },
+    "type": "carrier",
+    "mentionText": "FedEx",
+    "mentionId": "",
+    "confidence": 0.44186046719551086,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.7485779523849487,
+                "y": 0.41010987758636475
+              },
+              {
+                "x": 0.8054607510566711,
+                "y": 0.41010987758636475
+              },
+              {
+                "x": 0.8054607510566711,
+                "y": 0.42461538314819336
+              },
+              {
+                "x": 0.7485779523849487,
+                "y": 0.42461538314819336
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "9",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "613",
+          "endIndex": "627"
+        }
+      ],
+      "content": "Due on receipt"
+    },
+    "type": "payment_terms",
+    "mentionText": "Due on receipt",
+    "mentionId": "",
+    "confidence": 0.4339725077152252,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.31342434883117676,
+                "y": 0.40791207551956177
+              },
+              {
+                "x": 0.4510807693004608,
+                "y": 0.40791207551956177
+              },
+              {
+                "x": 0.4510807693004608,
+                "y": 0.4290109872817993
+              },
+              {
+                "x": 0.31342434883117676,
+                "y": 0.4290109872817993
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "10",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "215",
+          "endIndex": "235"
+        }
+      ],
+      "content": "Masthead Brewing Co."
+    },
+    "type": "supplier_name",
+    "mentionText": "Masthead Brewing Co.",
+    "mentionId": "",
+    "confidence": 0.2059427946805954,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.09158134460449219,
+                "y": 0.1964835226535797
+              },
+              {
+                "x": 0.27474403381347656,
+                "y": 0.1964835226535797
+              },
+              {
+                "x": 0.27474403381347656,
+                "y": 0.21494504809379578
+              },
+              {
+                "x": 0.09158134460449219,
+                "y": 0.21494504809379578
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "11",
+    "normalizedValue": {
+      "text": "Masthead Brewing Co."
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "67",
+          "endIndex": "88"
+        }
+      ],
+      "content": "MACKENZIE\nSMITH, INC."
+    },
+    "type": "remit_to_name",
+    "mentionText": "MACKENZIE\nSMITH, INC.",
+    "mentionId": "",
+    "confidence": 0.17587119340896606,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.03583617880940437,
+                "y": 0.0531868115067482
+              },
+              {
+                "x": 0.2531285583972931,
+                "y": 0.0531868115067482
+              },
+              {
+                "x": 0.2531285583972931,
+                "y": 0.10549450665712357
+              },
+              {
+                "x": 0.03583617880940437,
+                "y": 0.10549450665712357
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "12",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "262",
+          "endIndex": "304"
+        }
+      ],
+      "content": "1261 Superior Avenue\nCleveland, Ohio 44114"
+    },
+    "type": "supplier_address",
+    "mentionText": "1261 Superior Avenue\nCleveland, Ohio 44114",
+    "mentionId": "",
+    "confidence": 0.17151103913784027,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.09385665506124496,
+                "y": 0.23296703398227692
+              },
+              {
+                "x": 0.2724687159061432,
+                "y": 0.23296703398227692
+              },
+              {
+                "x": 0.2724687159061432,
+                "y": 0.26725274324417114
+              },
+              {
+                "x": 0.09385665506124496,
+                "y": 0.26725274324417114
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "13",
+    "normalizedValue": {
+      "text": "1261 Superior Ave Cleveland, OH 44114 USA",
+      "addressValue": {
+        "addressLines": [
+          "1261 Superior Ave"
+        ],
+        "recipients": [],
+        "revision": 0,
+        "regionCode": "US",
+        "languageCode": "en-US",
+        "postalCode": "44114-3204",
+        "sortingCode": "",
+        "administrativeArea": "Ohio",
+        "locality": "Cleveland",
+        "sublocality": "",
+        "organization": ""
+      },
+      "structuredValue": "addressValue"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "326",
+          "endIndex": "345"
+        }
+      ],
+      "content": "attn: Liz Pelechaty"
+    },
+    "type": "ship_to_name",
+    "mentionText": "attn: Liz Pelechaty",
+    "mentionId": "",
+    "confidence": 0.06759988516569138,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.6291239857673645,
+                "y": 0.21406593918800354
+              },
+              {
+                "x": 0.7724686861038208,
+                "y": 0.21406593918800354
+              },
+              {
+                "x": 0.7724686861038208,
+                "y": 0.23032967746257782
+              },
+              {
+                "x": 0.6291239857673645,
+                "y": 0.23032967746257782
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "14",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "669",
+              "endIndex": "673"
+            }
+          ],
+          "content": "6.85"
+        },
+        "type": "line_item/quantity",
+        "mentionText": "6.85",
+        "mentionId": "",
+        "confidence": 0.9766445755958557,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.14163821935653687,
+                    "y": 0.4518681466579437
+                  },
+                  {
+                    "x": 0.17519909143447876,
+                    "y": 0.4518681466579437
+                  },
+                  {
+                    "x": 0.17519909143447876,
+                    "y": 0.46989011764526367
+                  },
+                  {
+                    "x": 0.14163821935653687,
+                    "y": 0.46989011764526367
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "16",
+        "normalizedValue": {
+          "text": "6.85"
+        },
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "674",
+              "endIndex": "839"
+            }
+          ],
+          "content": "Coaster4rndC... Pulpboard Coaster, 60 point medium weight,\n4\" round with full color imprint on both\nsides. Per case of 3,500 coasters (20 sleeves\nof 175 per sleeve)."
+        },
+        "type": "line_item/description",
+        "mentionText": "Coaster4rndC... Pulpboard Coaster, 60 point medium weight,\n4\" round with full color imprint on both\nsides. Per case of 3,500 coasters (20 sleeves\nof 175 per sleeve).",
+        "mentionId": "",
+        "confidence": 0.44658926129341125,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.18714448809623718,
+                    "y": 0.4518681466579437
+                  },
+                  {
+                    "x": 0.6763367652893066,
+                    "y": 0.4518681466579437
+                  },
+                  {
+                    "x": 0.6763367652893066,
+                    "y": 0.5235164761543274
+                  },
+                  {
+                    "x": 0.18714448809623718,
+                    "y": 0.5235164761543274
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "17",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "840",
+              "endIndex": "846"
+            }
+          ],
+          "content": "199.75"
+        },
+        "type": "line_item/unit_price",
+        "mentionText": "199.75",
+        "mentionId": "",
+        "confidence": 0.8713245987892151,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.766780436038971,
+                    "y": 0.4536263644695282
+                  },
+                  {
+                    "x": 0.8191125988960266,
+                    "y": 0.4536263644695282
+                  },
+                  {
+                    "x": 0.8191125988960266,
+                    "y": 0.46593406796455383
+                  },
+                  {
+                    "x": 0.766780436038971,
+                    "y": 0.46593406796455383
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "18",
+        "normalizedValue": {
+          "text": "199.75"
+        },
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "847",
+              "endIndex": "855"
+            }
+          ],
+          "content": "1,368.29"
+        },
+        "type": "line_item/amount",
+        "mentionText": "1,368.29",
+        "mentionId": "",
+        "confidence": 0.9038676619529724,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.8782707452774048,
+                    "y": 0.45230770111083984
+                  },
+                  {
+                    "x": 0.9442548155784607,
+                    "y": 0.45230770111083984
+                  },
+                  {
+                    "x": 0.9442548155784607,
+                    "y": 0.46857142448425293
+                  },
+                  {
+                    "x": 0.8782707452774048,
+                    "y": 0.46857142448425293
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "19",
+        "normalizedValue": {
+          "text": "1368.29"
+        },
+        "provenance": null,
+        "redacted": false
+      }
+    ],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "669",
+          "endIndex": "673"
+        },
+        {
+          "startIndex": "674",
+          "endIndex": "839"
+        },
+        {
+          "startIndex": "840",
+          "endIndex": "846"
+        },
+        {
+          "startIndex": "847",
+          "endIndex": "855"
+        }
+      ],
+      "content": ""
+    },
+    "type": "line_item",
+    "mentionText": "6.85 Coaster4rndC... Pulpboard Coaster, 60 point medium weight,\n4\" round with full color imprint on both\nsides. Per case of 3,500 coasters (20 sleeves\nof 175 per sleeve). 199.75 1,368.29",
+    "mentionId": "",
+    "confidence": 1,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.14163821935653687,
+                "y": 0.4518681466579437
+              },
+              {
+                "x": 0.9442548155784607,
+                "y": 0.4518681466579437
+              },
+              {
+                "x": 0.9442548155784607,
+                "y": 0.5235164761543274
+              },
+              {
+                "x": 0.14163821935653687,
+                "y": 0.5235164761543274
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "15",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "856",
+              "endIndex": "857"
+            }
+          ],
+          "content": "1"
+        },
+        "type": "line_item/quantity",
+        "mentionText": "1",
+        "mentionId": "",
+        "confidence": 0.39488521218299866,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.16951081156730652,
+                    "y": 0.5595604181289673
+                  },
+                  {
+                    "x": 0.1757679134607315,
+                    "y": 0.5595604181289673
+                  },
+                  {
+                    "x": 0.1757679134607315,
+                    "y": 0.5753846168518066
+                  },
+                  {
+                    "x": 0.16951081156730652,
+                    "y": 0.5753846168518066
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "21",
+        "normalizedValue": {
+          "text": "1"
+        },
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "858",
+              "endIndex": "865"
+            }
+          ],
+          "content": "Freight"
+        },
+        "type": "line_item/product_code",
+        "mentionText": "Freight",
+        "mentionId": "",
+        "confidence": 0.6241562366485596,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.18657565116882324,
+                    "y": 0.5600000023841858
+                  },
+                  {
+                    "x": 0.2440273016691208,
+                    "y": 0.5600000023841858
+                  },
+                  {
+                    "x": 0.2440273016691208,
+                    "y": 0.5775824189186096
+                  },
+                  {
+                    "x": 0.18657565116882324,
+                    "y": 0.5775824189186096
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "22",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "866",
+              "endIndex": "872"
+            }
+          ],
+          "content": "181.71"
+        },
+        "type": "line_item/unit_price",
+        "mentionText": "181.71",
+        "mentionId": "",
+        "confidence": 0.8771027326583862,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.7679181098937988,
+                    "y": 0.560879111289978
+                  },
+                  {
+                    "x": 0.8202502727508545,
+                    "y": 0.560879111289978
+                  },
+                  {
+                    "x": 0.8202502727508545,
+                    "y": 0.5740659236907959
+                  },
+                  {
+                    "x": 0.7679181098937988,
+                    "y": 0.5740659236907959
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "23",
+        "normalizedValue": {
+          "text": "181.71"
+        },
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "873",
+              "endIndex": "879"
+            }
+          ],
+          "content": "181.71"
+        },
+        "type": "line_item/amount",
+        "mentionText": "181.71",
+        "mentionId": "",
+        "confidence": 0.786598801612854,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.891922652721405,
+                    "y": 0.560879111289978
+                  },
+                  {
+                    "x": 0.9442548155784607,
+                    "y": 0.560879111289978
+                  },
+                  {
+                    "x": 0.9442548155784607,
+                    "y": 0.5731868147850037
+                  },
+                  {
+                    "x": 0.891922652721405,
+                    "y": 0.5731868147850037
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "24",
+        "normalizedValue": {
+          "text": "181.71"
+        },
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "880",
+              "endIndex": "933"
+            }
+          ],
+          "content": "Shipping & Handling - Del Sched 12/11/23\n707088577978"
+        },
+        "type": "line_item/description",
+        "mentionText": "Shipping & Handling - Del Sched 12/11/23\n707088577978",
+        "mentionId": "",
+        "confidence": 0.6246733665466309,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.32480090856552124,
+                    "y": 0.5578022003173828
+                  },
+                  {
+                    "x": 0.6615471839904785,
+                    "y": 0.5578022003173828
+                  },
+                  {
+                    "x": 0.6615471839904785,
+                    "y": 0.5938461422920227
+                  },
+                  {
+                    "x": 0.32480090856552124,
+                    "y": 0.5938461422920227
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "25",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      }
+    ],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "856",
+          "endIndex": "857"
+        },
+        {
+          "startIndex": "858",
+          "endIndex": "865"
+        },
+        {
+          "startIndex": "866",
+          "endIndex": "872"
+        },
+        {
+          "startIndex": "873",
+          "endIndex": "879"
+        },
+        {
+          "startIndex": "880",
+          "endIndex": "933"
+        }
+      ],
+      "content": ""
+    },
+    "type": "line_item",
+    "mentionText": "1 Freight 181.71 181.71 Shipping & Handling - Del Sched 12/11/23\n707088577978",
+    "mentionId": "",
+    "confidence": 1,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.16951081156730652,
+                "y": 0.5578022003173828
+              },
+              {
+                "x": 0.9442548155784607,
+                "y": 0.5578022003173828
+              },
+              {
+                "x": 0.9442548155784607,
+                "y": 0.5938461422920227
+              },
+              {
+                "x": 0.16951081156730652,
+                "y": 0.5938461422920227
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "20",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  }
+]

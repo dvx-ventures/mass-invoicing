@@ -1,0 +1,666 @@
+[
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "8",
+          "endIndex": "17"
+        }
+      ],
+      "content": "262395644"
+    },
+    "type": "invoice_id",
+    "mentionText": "262395644",
+    "mentionId": "",
+    "confidence": 0.972567617893219,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.8185437917709351,
+                "y": 0.02857142873108387
+              },
+              {
+                "x": 0.9129692912101746,
+                "y": 0.02857142873108387
+              },
+              {
+                "x": 0.9129692912101746,
+                "y": 0.04219780117273331
+              },
+              {
+                "x": 0.8185437917709351,
+                "y": 0.04219780117273331
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "0",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "24",
+          "endIndex": "33"
+        }
+      ],
+      "content": "4/29/2024"
+    },
+    "type": "invoice_date",
+    "mentionText": "4/29/2024",
+    "mentionId": "",
+    "confidence": 0.9654970169067383,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.8100113868713379,
+                "y": 0.06285714358091354
+              },
+              {
+                "x": 0.894197940826416,
+                "y": 0.06285714358091354
+              },
+              {
+                "x": 0.894197940826416,
+                "y": 0.07780219614505768
+              },
+              {
+                "x": 0.8100113868713379,
+                "y": 0.07780219614505768
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "1",
+    "normalizedValue": {
+      "text": "2024-04-29",
+      "dateValue": {
+        "year": 2024,
+        "month": 4,
+        "day": 29
+      },
+      "structuredValue": "dateValue"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "717",
+          "endIndex": "723"
+        }
+      ],
+      "content": "160.00"
+    },
+    "type": "total_amount",
+    "mentionText": "160.00",
+    "mentionId": "",
+    "confidence": 0.7965075373649597,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.24744027853012085,
+                "y": 0.9309890270233154
+              },
+              {
+                "x": 0.2935153543949127,
+                "y": 0.9309890270233154
+              },
+              {
+                "x": 0.2935153543949127,
+                "y": 0.9437362551689148
+              },
+              {
+                "x": 0.24744027853012085,
+                "y": 0.9437362551689148
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "2",
+    "normalizedValue": {
+      "text": "160"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": null,
+    "type": "invoice_type",
+    "mentionText": "",
+    "mentionId": "",
+    "confidence": 0.7166686654090881,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": null,
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "3",
+    "normalizedValue": {
+      "text": "invoice_statement"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "716",
+          "endIndex": "717"
+        }
+      ],
+      "content": "$"
+    },
+    "type": "currency",
+    "mentionText": "$",
+    "mentionId": "",
+    "confidence": 0.5924789905548096,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.23720136284828186,
+                "y": 0.9309890270233154
+              },
+              {
+                "x": 0.24175198376178741,
+                "y": 0.9309890270233154
+              },
+              {
+                "x": 0.24175198376178741,
+                "y": 0.9437362551689148
+              },
+              {
+                "x": 0.23720136284828186,
+                "y": 0.9437362551689148
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "4",
+    "normalizedValue": {
+      "text": "USD"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "34",
+          "endIndex": "39"
+        }
+      ],
+      "content": "Orkin"
+    },
+    "type": "supplier_name",
+    "mentionText": "Orkin",
+    "mentionId": "",
+    "confidence": 0.5077216029167175,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.05915813520550728,
+                "y": 0.06021977961063385
+              },
+              {
+                "x": 0.10125142335891724,
+                "y": 0.06021977961063385
+              },
+              {
+                "x": 0.10125142335891724,
+                "y": 0.07428571581840515
+              },
+              {
+                "x": 0.05915813520550728,
+                "y": 0.07428571581840515
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "5",
+    "normalizedValue": {
+      "text": "Orkin"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "40",
+          "endIndex": "79"
+        }
+      ],
+      "content": "PO BOX 740300\nCINCINNATI, OH 45274-0300"
+    },
+    "type": "supplier_address",
+    "mentionText": "PO BOX 740300\nCINCINNATI, OH 45274-0300",
+    "mentionId": "",
+    "confidence": 0.49440231919288635,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.055745165795087814,
+                "y": 0.07780219614505768
+              },
+              {
+                "x": 0.27474403381347656,
+                "y": 0.07780219614505768
+              },
+              {
+                "x": 0.27474403381347656,
+                "y": 0.1063736230134964
+              },
+              {
+                "x": 0.055745165795087814,
+                "y": 0.1063736230134964
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "6",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "560",
+          "endIndex": "607"
+        }
+      ],
+      "content": "1001 CANAL BLVD STE C-2 RICHMOND, CA 94804-3533"
+    },
+    "type": "remit_to_address",
+    "mentionText": "1001 CANAL BLVD STE C-2 RICHMOND, CA 94804-3533",
+    "mentionId": "",
+    "confidence": 0.45870494842529297,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.5659840703010559,
+                "y": 0.7775824069976807
+              },
+              {
+                "x": 0.914675772190094,
+                "y": 0.7775824069976807
+              },
+              {
+                "x": 0.914675772190094,
+                "y": 0.7890110015869141
+              },
+              {
+                "x": 0.5659840703010559,
+                "y": 0.7890110015869141
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "7",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "617",
+          "endIndex": "631"
+        }
+      ],
+      "content": "(866) 580-1813"
+    },
+    "type": "supplier_phone",
+    "mentionText": "(866) 580-1813",
+    "mentionId": "",
+    "confidence": 0.3531830906867981,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.5403867959976196,
+                "y": 0.7964835166931152
+              },
+              {
+                "x": 0.6507394909858704,
+                "y": 0.7964835166931152
+              },
+              {
+                "x": 0.6507394909858704,
+                "y": 0.8105494379997253
+              },
+              {
+                "x": 0.5403867959976196,
+                "y": 0.8105494379997253
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "8",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "316",
+              "endIndex": "351"
+            }
+          ],
+          "content": "PC Standard - Monthly - PC Standard"
+        },
+        "type": "line_item/description",
+        "mentionText": "PC Standard - Monthly - PC Standard",
+        "mentionId": "",
+        "confidence": 0.5546340942382812,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.06541524827480316,
+                    "y": 0.37714284658432007
+                  },
+                  {
+                    "x": 0.33503982424736023,
+                    "y": 0.37714284658432007
+                  },
+                  {
+                    "x": 0.33503982424736023,
+                    "y": 0.3916483521461487
+                  },
+                  {
+                    "x": 0.06541524827480316,
+                    "y": 0.3916483521461487
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "10",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "353",
+              "endIndex": "359"
+            }
+          ],
+          "content": "160.00"
+        },
+        "type": "line_item/amount",
+        "mentionText": "160.00",
+        "mentionId": "",
+        "confidence": 0.2942851483821869,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.41012513637542725,
+                    "y": 0.3780219852924347
+                  },
+                  {
+                    "x": 0.457337886095047,
+                    "y": 0.3780219852924347
+                  },
+                  {
+                    "x": 0.457337886095047,
+                    "y": 0.39032965898513794
+                  },
+                  {
+                    "x": 0.41012513637542725,
+                    "y": 0.39032965898513794
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "11",
+        "normalizedValue": {
+          "text": "160"
+        },
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "373",
+              "endIndex": "379"
+            }
+          ],
+          "content": "160.00"
+        },
+        "type": "line_item/amount",
+        "mentionText": "160.00",
+        "mentionId": "",
+        "confidence": 0.6521176099777222,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.8856655359268188,
+                    "y": 0.3780219852924347
+                  },
+                  {
+                    "x": 0.9294652938842773,
+                    "y": 0.3780219852924347
+                  },
+                  {
+                    "x": 0.9294652938842773,
+                    "y": 0.39032965898513794
+                  },
+                  {
+                    "x": 0.8856655359268188,
+                    "y": 0.39032965898513794
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "12",
+        "normalizedValue": {
+          "text": "160"
+        },
+        "provenance": null,
+        "redacted": false
+      }
+    ],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "316",
+          "endIndex": "351"
+        },
+        {
+          "startIndex": "353",
+          "endIndex": "359"
+        },
+        {
+          "startIndex": "373",
+          "endIndex": "379"
+        }
+      ],
+      "content": ""
+    },
+    "type": "line_item",
+    "mentionText": "PC Standard - Monthly - PC Standard 160.00 160.00",
+    "mentionId": "",
+    "confidence": 1,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.06541524827480316,
+                "y": 0.37714284658432007
+              },
+              {
+                "x": 0.9294652938842773,
+                "y": 0.37714284658432007
+              },
+              {
+                "x": 0.9294652938842773,
+                "y": 0.3916483521461487
+              },
+              {
+                "x": 0.06541524827480316,
+                "y": 0.3916483521461487
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "9",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  }
+]

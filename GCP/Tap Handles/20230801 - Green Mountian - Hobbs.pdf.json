@@ -1,0 +1,122 @@
+{
+  "invoice_id": {
+    "value": "10984",
+    "confidence": 0.967929482460022
+  },
+  "invoice_date": {
+    "value": "8/11/2023",
+    "confidence": 0.9614067673683167
+  },
+  "due_date": {
+    "value": "9/10/2023",
+    "confidence": 0.9518791437149048
+  },
+  "supplier_email": {
+    "value": "accounting@greenmountaintaps.com",
+    "confidence": 0.8740420937538147
+  },
+  "supplier_website": {
+    "value": "www.greenmountaintaps.com",
+    "confidence": 0.7925133109092712
+  },
+  "receiver_name": {
+    "value": "Hobbs Tavern & Brewing Co.",
+    "confidence": 0.7061914801597595
+  },
+  "invoice_type": {
+    "value": "",
+    "confidence": 0.6634202003479004
+  },
+  "ship_to_address": {
+    "value": "765 \nNH\n-\n16\nOssipee\n,\nNH \n03864",
+    "confidence": 0.6633036732673645
+  },
+  "ship_to_name": {
+    "value": "ewing Co.\nHobbs \nTavern \n&",
+    "confidence": 0.6391242146492004
+  },
+  "total_amount": {
+    "value": "1,383.72",
+    "confidence": 0.6379439234733582
+  },
+  "supplier_address": {
+    "value": "PO Box 371\nHinsdale, NH 03451",
+    "confidence": 0.6369129419326782
+  },
+  "supplier_phone": {
+    "value": "(603) 336-5555",
+    "confidence": 0.6065266728401184
+  },
+  "payment_terms": {
+    "value": "Net 30",
+    "confidence": 0.49584001302719116
+  },
+  "carrier": {
+    "value": "UPS",
+    "confidence": 0.44186046719551086
+  },
+  "purchase_order": {
+    "value": "3978",
+    "confidence": 0.37987303733825684
+  },
+  "receiver_address": {
+    "value": "765 NH -16\nOssipee,NH 03864",
+    "confidence": 0.2665604054927826
+  },
+  "supplier_name": {
+    "value": "",
+    "confidence": 0
+  },
+  "line_items": [
+    {
+      "line_item/product_code": {
+        "value": "Hobbs",
+        "confidence": 0.592349648475647
+      },
+      "line_item/description": {
+        "value": "Hobbs handle",
+        "confidence": 0.5870298147201538
+      },
+      "line_item/quantity": {
+        "value": "97",
+        "confidence": 0.8682143092155457
+      },
+      "line_item/unit_price": {
+        "value": "28.52",
+        "confidence": 0.9229188561439514
+      },
+      "line_item/amount": {
+        "value": "2,766.44",
+        "confidence": 0.9040191173553467
+      }
+    },
+    {
+      "line_item/description": {
+        "value": "Less 50% deposit required to begin production of order.",
+        "confidence": 0.5632204413414001
+      },
+      "line_item/quantity": {
+        "value": "100",
+        "confidence": 0.8383798599243164
+      },
+      "line_item/unit_price": {
+        "value": "-14.26",
+        "confidence": 0.8975540399551392
+      },
+      "line_item/amount": {
+        "value": "-1,426.00",
+        "confidence": 0.8889255523681641
+      }
+    },
+    {
+      "line_item/unit_price": {
+        "value": "43.28",
+        "confidence": 0.9065955281257629
+      },
+      "line_item/amount": {
+        "value": "43.28",
+        "confidence": 0.8214079141616821
+      }
+    }
+  ]
+}

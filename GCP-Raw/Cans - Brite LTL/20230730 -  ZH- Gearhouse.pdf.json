@@ -1,0 +1,2797 @@
+[
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "1412",
+          "endIndex": "1421"
+        }
+      ],
+      "content": "IN0179231"
+    },
+    "type": "invoice_id",
+    "mentionText": "IN0179231",
+    "mentionId": "",
+    "confidence": 0.9529551267623901,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "1",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.8114285469055176,
+                "y": 0.04379977285861969
+              },
+              {
+                "x": 0.8681318759918213,
+                "y": 0.04379977285861969
+              },
+              {
+                "x": 0.8681318759918213,
+                "y": 0.057451650500297546
+              },
+              {
+                "x": 0.8114285469055176,
+                "y": 0.057451650500297546
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "0",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "1687",
+          "endIndex": "1696"
+        }
+      ],
+      "content": "7/30/2023"
+    },
+    "type": "due_date",
+    "mentionText": "7/30/2023",
+    "mentionId": "",
+    "confidence": 0.940312922000885,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "1",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.8136263489723206,
+                "y": 0.20648464560508728
+              },
+              {
+                "x": 0.8624175786972046,
+                "y": 0.20648464560508728
+              },
+              {
+                "x": 0.8624175786972046,
+                "y": 0.22070534527301788
+              },
+              {
+                "x": 0.8136263489723206,
+                "y": 0.22070534527301788
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "1",
+    "normalizedValue": {
+      "text": "2023-07-30",
+      "dateValue": {
+        "year": 2023,
+        "month": 7,
+        "day": 30
+      },
+      "structuredValue": "dateValue"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "1882",
+          "endIndex": "1921"
+        }
+      ],
+      "content": "253 Grant Street\nChambersburg, PA 17201"
+    },
+    "type": "ship_to_address",
+    "mentionText": "253 Grant Street\nChambersburg, PA 17201",
+    "mentionId": "",
+    "confidence": 0.935982882976532,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "1",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.0923076942563057,
+                "y": 0.3270762264728546
+              },
+              {
+                "x": 0.2237362563610077,
+                "y": 0.3270762264728546
+              },
+              {
+                "x": 0.2237362563610077,
+                "y": 0.35949942469596863
+              },
+              {
+                "x": 0.0923076942563057,
+                "y": 0.35949942469596863
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "2",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "2112",
+          "endIndex": "2120"
+        }
+      ],
+      "content": "4,909.09"
+    },
+    "type": "total_amount",
+    "mentionText": "4,909.09",
+    "mentionId": "",
+    "confidence": 0.9276767373085022,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "1",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.8698900938034058,
+                "y": 0.583048939704895
+              },
+              {
+                "x": 0.9151648283004761,
+                "y": 0.583048939704895
+              },
+              {
+                "x": 0.9151648283004761,
+                "y": 0.6001137495040894
+              },
+              {
+                "x": 0.8698900938034058,
+                "y": 0.6001137495040894
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "3",
+    "normalizedValue": {
+      "text": "4909.09"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "103",
+          "endIndex": "112"
+        }
+      ],
+      "content": "6/30/2023"
+    },
+    "type": "invoice_date",
+    "mentionText": "6/30/2023",
+    "mentionId": "",
+    "confidence": 0.9169819951057434,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.8118681311607361,
+                "y": 0.06769055873155594
+              },
+              {
+                "x": 0.8615384697914124,
+                "y": 0.06769055873155594
+              },
+              {
+                "x": 0.8615384697914124,
+                "y": 0.08020477741956711
+              },
+              {
+                "x": 0.8118681311607361,
+                "y": 0.08020477741956711
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "4",
+    "normalizedValue": {
+      "text": "2023-06-30",
+      "dateValue": {
+        "year": 2023,
+        "month": 6,
+        "day": 30
+      },
+      "structuredValue": "dateValue"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": null,
+    "type": "invoice_type",
+    "mentionText": "",
+    "mentionId": "",
+    "confidence": 0.8857040405273438,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": null,
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "5",
+    "normalizedValue": {
+      "text": "invoice_statement"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "461",
+          "endIndex": "482"
+        }
+      ],
+      "content": "Gearhouse Brewing Co."
+    },
+    "type": "ship_to_name",
+    "mentionText": "Gearhouse Brewing Co.",
+    "mentionId": "",
+    "confidence": 0.72991943359375,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.09450549632310867,
+                "y": 0.3071672320365906
+              },
+              {
+                "x": 0.21626374125480652,
+                "y": 0.3071672320365906
+              },
+              {
+                "x": 0.21626374125480652,
+                "y": 0.3242320716381073
+              },
+              {
+                "x": 0.09450549632310867,
+                "y": 0.3242320716381073
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "6",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "329",
+          "endIndex": "340"
+        }
+      ],
+      "content": "Net 30 Days"
+    },
+    "type": "payment_terms",
+    "mentionText": "Net 30 Days",
+    "mentionId": "",
+    "confidence": 0.717999279499054,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.8105494379997253,
+                "y": 0.25142207741737366
+              },
+              {
+                "x": 0.873846173286438,
+                "y": 0.25142207741737366
+              },
+              {
+                "x": 0.873846173286438,
+                "y": 0.2684869170188904
+              },
+              {
+                "x": 0.8105494379997253,
+                "y": 0.2684869170188904
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "7",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "1922",
+          "endIndex": "1943"
+        }
+      ],
+      "content": "Gearhouse Brewing Co."
+    },
+    "type": "receiver_name",
+    "mentionText": "Gearhouse Brewing Co.",
+    "mentionId": "",
+    "confidence": 0.6571252942085266,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "1",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.3731868267059326,
+                "y": 0.30432310700416565
+              },
+              {
+                "x": 0.49450549483299255,
+                "y": 0.30432310700416565
+              },
+              {
+                "x": 0.49450549483299255,
+                "y": 0.3213879466056824
+              },
+              {
+                "x": 0.3731868267059326,
+                "y": 0.3213879466056824
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "8",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "2126",
+          "endIndex": "2143"
+        }
+      ],
+      "content": "86823 1358 RT0001"
+    },
+    "type": "supplier_tax_id",
+    "mentionText": "86823 1358 RT0001",
+    "mentionId": "",
+    "confidence": 0.5966773629188538,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "1",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.08703296631574631,
+                "y": 0.8879408240318298
+              },
+              {
+                "x": 0.19120879471302032,
+                "y": 0.8879408240318298
+              },
+              {
+                "x": 0.19120879471302032,
+                "y": 0.9015927314758301
+              },
+              {
+                "x": 0.08703296631574631,
+                "y": 0.9015927314758301
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "9",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "1944",
+          "endIndex": "1983"
+        }
+      ],
+      "content": "253 Grant Street\nChambersburg, PA 17201"
+    },
+    "type": "receiver_address",
+    "mentionText": "253 Grant Street\nChambersburg, PA 17201",
+    "mentionId": "",
+    "confidence": 0.4034317135810852,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "1",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.3718681335449219,
+                "y": 0.32366326451301575
+              },
+              {
+                "x": 0.5032967329025269,
+                "y": 0.32366326451301575
+              },
+              {
+                "x": 0.5032967329025269,
+                "y": 0.3566552996635437
+              },
+              {
+                "x": 0.3718681335449219,
+                "y": 0.3566552996635437
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "10",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "20",
+          "endIndex": "63"
+        }
+      ],
+      "content": "191 S. Gulph Road\nKing of Prussia, PA 19406"
+    },
+    "type": "supplier_address",
+    "mentionText": "191 S. Gulph Road\nKing of Prussia, PA 19406",
+    "mentionId": "",
+    "confidence": 0.37364333868026733,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.12263736128807068,
+                "y": 0.04835039749741554
+              },
+              {
+                "x": 0.2610988914966583,
+                "y": 0.04835039749741554
+              },
+              {
+                "x": 0.2610988914966583,
+                "y": 0.08703071624040604
+              },
+              {
+                "x": 0.12263736128807068,
+                "y": 0.08703071624040604
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "11",
+    "normalizedValue": {
+      "text": "191 S Gulph Rd King of Prussia, PA 19406 USA",
+      "addressValue": {
+        "addressLines": [
+          "191 S Gulph Rd"
+        ],
+        "recipients": [],
+        "revision": 0,
+        "regionCode": "US",
+        "languageCode": "en-US",
+        "postalCode": "19406-3103",
+        "sortingCode": "",
+        "administrativeArea": "Pennsylvania",
+        "locality": "King of Prussia",
+        "sublocality": "",
+        "organization": ""
+      },
+      "structuredValue": "addressValue"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "2261",
+          "endIndex": "2301"
+        }
+      ],
+      "content": "http://www.zh-inc.com/Customer Terms.pdf"
+    },
+    "type": "supplier_website",
+    "mentionText": "http://www.zh-inc.com/Customer Terms.pdf",
+    "mentionId": "",
+    "confidence": 0.31894275546073914,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "1",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.48351648449897766,
+                "y": 0.9215016961097717
+              },
+              {
+                "x": 0.7002198100090027,
+                "y": 0.9215016961097717
+              },
+              {
+                "x": 0.7002198100090027,
+                "y": 0.9402730464935303
+              },
+              {
+                "x": 0.48351648449897766,
+                "y": 0.9402730464935303
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "12",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "63",
+          "endIndex": "94"
+        }
+      ],
+      "content": "ZUCKERMAN \nHONICKMAN zh-inc.com"
+    },
+    "type": "supplier_name",
+    "mentionText": "ZUCKERMAN \nHONICKMAN zh-inc.com",
+    "mentionId": "",
+    "confidence": 0.11758100241422653,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.031208790838718414,
+                "y": 0.06825938820838928
+              },
+              {
+                "x": 0.18109890818595886,
+                "y": 0.06825938820838928
+              },
+              {
+                "x": 0.18109890818595886,
+                "y": 0.1046643927693367
+              },
+              {
+                "x": 0.031208790838718414,
+                "y": 0.1046643927693367
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "13",
+    "normalizedValue": {
+      "text": "Zuckerman Honickman Inc"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "688",
+              "endIndex": "694"
+            }
+          ],
+          "content": "10,114"
+        },
+        "type": "line_item/quantity",
+        "mentionText": "10,114",
+        "mentionId": "",
+        "confidence": 0.9608503580093384,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.15824176371097565,
+                    "y": 0.49032992124557495
+                  },
+                  {
+                    "x": 0.19164834916591644,
+                    "y": 0.49032992124557495
+                  },
+                  {
+                    "x": 0.19164834916591644,
+                    "y": 0.5062571167945862
+                  },
+                  {
+                    "x": 0.15824176371097565,
+                    "y": 0.5062571167945862
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "15",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "695",
+              "endIndex": "699"
+            }
+          ],
+          "content": "PL50"
+        },
+        "type": "line_item/product_code",
+        "mentionText": "PL50",
+        "mentionId": "",
+        "confidence": 0.6637305021286011,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.09406593441963196,
+                    "y": 0.4908987581729889
+                  },
+                  {
+                    "x": 0.11736264079809189,
+                    "y": 0.4908987581729889
+                  },
+                  {
+                    "x": 0.11736264079809189,
+                    "y": 0.5039817690849304
+                  },
+                  {
+                    "x": 0.09406593441963196,
+                    "y": 0.5039817690849304
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "16",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "695",
+              "endIndex": "699"
+            }
+          ],
+          "content": "PL50"
+        },
+        "type": "line_item/unit",
+        "mentionText": "PL50",
+        "mentionId": "",
+        "confidence": 0.29582589864730835,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.09406593441963196,
+                    "y": 0.4908987581729889
+                  },
+                  {
+                    "x": 0.11736264079809189,
+                    "y": 0.4908987581729889
+                  },
+                  {
+                    "x": 0.11736264079809189,
+                    "y": 0.5039817690849304
+                  },
+                  {
+                    "x": 0.09406593441963196,
+                    "y": 0.5039817690849304
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "17",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "700",
+              "endIndex": "706"
+            }
+          ],
+          "content": "191.00"
+        },
+        "type": "line_item/unit_price",
+        "mentionText": "191.00",
+        "mentionId": "",
+        "confidence": 0.8651565909385681,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.21450549364089966,
+                    "y": 0.49146756529808044
+                  },
+                  {
+                    "x": 0.24747252464294434,
+                    "y": 0.49146756529808044
+                  },
+                  {
+                    "x": 0.24747252464294434,
+                    "y": 0.5039817690849304
+                  },
+                  {
+                    "x": 0.21450549364089966,
+                    "y": 0.5039817690849304
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "18",
+        "normalizedValue": {
+          "text": "191"
+        },
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "752",
+              "endIndex": "793"
+            }
+          ],
+          "content": "16 oz Aluminum Regular Brite\nCan No Print"
+        },
+        "type": "line_item/description",
+        "mentionText": "16 oz Aluminum Regular Brite\nCan No Print",
+        "mentionId": "",
+        "confidence": 0.6376612782478333,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.6725274920463562,
+                    "y": 0.49032992124557495
+                  },
+                  {
+                    "x": 0.8219780325889587,
+                    "y": 0.49032992124557495
+                  },
+                  {
+                    "x": 0.8219780325889587,
+                    "y": 0.5216154456138611
+                  },
+                  {
+                    "x": 0.6725274920463562,
+                    "y": 0.5216154456138611
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "19",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "794",
+              "endIndex": "802"
+            }
+          ],
+          "content": "1,931.77"
+        },
+        "type": "line_item/amount",
+        "mentionText": "1,931.77",
+        "mentionId": "",
+        "confidence": 0.9056187868118286,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.870769202709198,
+                    "y": 0.489761084318161
+                  },
+                  {
+                    "x": 0.9142857193946838,
+                    "y": 0.489761084318161
+                  },
+                  {
+                    "x": 0.9142857193946838,
+                    "y": 0.5056883096694946
+                  },
+                  {
+                    "x": 0.870769202709198,
+                    "y": 0.5056883096694946
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "20",
+        "normalizedValue": {
+          "text": "1931.77"
+        },
+        "provenance": null,
+        "redacted": false
+      }
+    ],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "688",
+          "endIndex": "694"
+        },
+        {
+          "startIndex": "695",
+          "endIndex": "699"
+        },
+        {
+          "startIndex": "700",
+          "endIndex": "706"
+        },
+        {
+          "startIndex": "752",
+          "endIndex": "793"
+        },
+        {
+          "startIndex": "794",
+          "endIndex": "802"
+        }
+      ],
+      "content": ""
+    },
+    "type": "line_item",
+    "mentionText": "10,114 PL50 PL50 191.00 16 oz Aluminum Regular Brite\nCan No Print 1,931.77",
+    "mentionId": "",
+    "confidence": 1,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.09406593441963196,
+                "y": 0.489761084318161
+              },
+              {
+                "x": 0.9142857193946838,
+                "y": 0.489761084318161
+              },
+              {
+                "x": 0.9142857193946838,
+                "y": 0.5216154456138611
+              },
+              {
+                "x": 0.09406593441963196,
+                "y": 0.5216154456138611
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "14",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "803",
+              "endIndex": "809"
+            }
+          ],
+          "content": "23,712"
+        },
+        "type": "line_item/quantity",
+        "mentionText": "23,712",
+        "mentionId": "",
+        "confidence": 0.14113204181194305,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.03692307695746422,
+                    "y": 0.5420932769775391
+                  },
+                  {
+                    "x": 0.07076922804117203,
+                    "y": 0.5420932769775391
+                  },
+                  {
+                    "x": 0.07076922804117203,
+                    "y": 0.555176317691803
+                  },
+                  {
+                    "x": 0.03692307695746422,
+                    "y": 0.555176317691803
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "22",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "810",
+              "endIndex": "812"
+            }
+          ],
+          "content": "Ea"
+        },
+        "type": "line_item/unit",
+        "mentionText": "Ea",
+        "mentionId": "",
+        "confidence": 0.576754093170166,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.0923076942563057,
+                    "y": 0.5415244698524475
+                  },
+                  {
+                    "x": 0.1063736230134964,
+                    "y": 0.5415244698524475
+                  },
+                  {
+                    "x": 0.1063736230134964,
+                    "y": 0.5540387034416199
+                  },
+                  {
+                    "x": 0.0923076942563057,
+                    "y": 0.5540387034416199
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "23",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "813",
+              "endIndex": "819"
+            }
+          ],
+          "content": "23,712"
+        },
+        "type": "line_item/quantity",
+        "mentionText": "23,712",
+        "mentionId": "",
+        "confidence": 0.9228672981262207,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.15912087261676788,
+                    "y": 0.5415244698524475
+                  },
+                  {
+                    "x": 0.19252747297286987,
+                    "y": 0.5415244698524475
+                  },
+                  {
+                    "x": 0.19252747297286987,
+                    "y": 0.5568827986717224
+                  },
+                  {
+                    "x": 0.15912087261676788,
+                    "y": 0.5568827986717224
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "24",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "820",
+              "endIndex": "825"
+            }
+          ],
+          "content": "41.00"
+        },
+        "type": "line_item/unit_price",
+        "mentionText": "41.00",
+        "mentionId": "",
+        "confidence": 0.7232121229171753,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.21186813712120056,
+                    "y": 0.5420932769775391
+                  },
+                  {
+                    "x": 0.24043956398963928,
+                    "y": 0.5420932769775391
+                  },
+                  {
+                    "x": 0.24043956398963928,
+                    "y": 0.555176317691803
+                  },
+                  {
+                    "x": 0.21186813712120056,
+                    "y": 0.555176317691803
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "25",
+        "normalizedValue": {
+          "text": "41"
+        },
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "828",
+              "endIndex": "845"
+            }
+          ],
+          "content": "768AL202ENDS02-12"
+        },
+        "type": "line_item/product_code",
+        "mentionText": "768AL202ENDS02-12",
+        "mentionId": "",
+        "confidence": 0.7566245198249817,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.30901098251342773,
+                    "y": 0.5409556031227112
+                  },
+                  {
+                    "x": 0.4202197790145874,
+                    "y": 0.5409556031227112
+                  },
+                  {
+                    "x": 0.4202197790145874,
+                    "y": 0.5546075105667114
+                  },
+                  {
+                    "x": 0.30901098251342773,
+                    "y": 0.5546075105667114
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "26",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "846",
+              "endIndex": "855"
+            }
+          ],
+          "content": "624SLEEVE"
+        },
+        "type": "line_item/description",
+        "mentionText": "624SLEEVE",
+        "mentionId": "",
+        "confidence": 0.5201786756515503,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.44175824522972107,
+                    "y": 0.5415244698524475
+                  },
+                  {
+                    "x": 0.5046153664588928,
+                    "y": 0.5415244698524475
+                  },
+                  {
+                    "x": 0.5046153664588928,
+                    "y": 0.5546075105667114
+                  },
+                  {
+                    "x": 0.44175824522972107,
+                    "y": 0.5546075105667114
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "27",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "856",
+              "endIndex": "862"
+            }
+          ],
+          "content": "CANEND"
+        },
+        "type": "line_item/description",
+        "mentionText": "CANEND",
+        "mentionId": "",
+        "confidence": 0.41586604714393616,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.5318681597709656,
+                    "y": 0.5415244698524475
+                  },
+                  {
+                    "x": 0.5775824189186096,
+                    "y": 0.5415244698524475
+                  },
+                  {
+                    "x": 0.5775824189186096,
+                    "y": 0.5546075105667114
+                  },
+                  {
+                    "x": 0.5318681597709656,
+                    "y": 0.5546075105667114
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "28",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "863",
+              "endIndex": "869"
+            }
+          ],
+          "content": "SILVER"
+        },
+        "type": "line_item/description",
+        "mentionText": "SILVER",
+        "mentionId": "",
+        "confidence": 0.6145191788673401,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.6026373505592346,
+                    "y": 0.5415244698524475
+                  },
+                  {
+                    "x": 0.6395604610443115,
+                    "y": 0.5415244698524475
+                  },
+                  {
+                    "x": 0.6395604610443115,
+                    "y": 0.5546075105667114
+                  },
+                  {
+                    "x": 0.6026373505592346,
+                    "y": 0.5546075105667114
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "29",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "870",
+              "endIndex": "876"
+            }
+          ],
+          "content": "972.19"
+        },
+        "type": "line_item/amount",
+        "mentionText": "972.19",
+        "mentionId": "",
+        "confidence": 0.8690614104270935,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.8791208863258362,
+                    "y": 0.5415244698524475
+                  },
+                  {
+                    "x": 0.9129670262336731,
+                    "y": 0.5415244698524475
+                  },
+                  {
+                    "x": 0.9129670262336731,
+                    "y": 0.5540387034416199
+                  },
+                  {
+                    "x": 0.8791208863258362,
+                    "y": 0.5540387034416199
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "30",
+        "normalizedValue": {
+          "text": "972.19"
+        },
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "877",
+              "endIndex": "926"
+            }
+          ],
+          "content": "202 Diameter LOE 10 States -\nB64 Aluminum Can End"
+        },
+        "type": "line_item/description",
+        "mentionText": "202 Diameter LOE 10 States -\nB64 Aluminum Can End",
+        "mentionId": "",
+        "confidence": 0.4372579753398895,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.6720879077911377,
+                    "y": 0.5415244698524475
+                  },
+                  {
+                    "x": 0.8241758346557617,
+                    "y": 0.5415244698524475
+                  },
+                  {
+                    "x": 0.8241758346557617,
+                    "y": 0.5716723799705505
+                  },
+                  {
+                    "x": 0.6720879077911377,
+                    "y": 0.5716723799705505
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "31",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      }
+    ],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "803",
+          "endIndex": "809"
+        },
+        {
+          "startIndex": "810",
+          "endIndex": "812"
+        },
+        {
+          "startIndex": "813",
+          "endIndex": "819"
+        },
+        {
+          "startIndex": "820",
+          "endIndex": "825"
+        },
+        {
+          "startIndex": "828",
+          "endIndex": "845"
+        },
+        {
+          "startIndex": "846",
+          "endIndex": "855"
+        },
+        {
+          "startIndex": "856",
+          "endIndex": "862"
+        },
+        {
+          "startIndex": "863",
+          "endIndex": "869"
+        },
+        {
+          "startIndex": "870",
+          "endIndex": "876"
+        },
+        {
+          "startIndex": "877",
+          "endIndex": "926"
+        }
+      ],
+      "content": ""
+    },
+    "type": "line_item",
+    "mentionText": "23,712 Ea 23,712 41.00 768AL202ENDS02-12 624SLEEVE CANEND SILVER 972.19 202 Diameter LOE 10 States -\nB64 Aluminum Can End",
+    "mentionId": "",
+    "confidence": 1,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.03692307695746422,
+                "y": 0.5409556031227112
+              },
+              {
+                "x": 0.9129670262336731,
+                "y": 0.5409556031227112
+              },
+              {
+                "x": 0.9129670262336731,
+                "y": 0.5716723799705505
+              },
+              {
+                "x": 0.03692307695746422,
+                "y": 0.5716723799705505
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "21",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "929",
+              "endIndex": "935"
+            }
+          ],
+          "content": "PL6613"
+        },
+        "type": "line_item/product_code",
+        "mentionText": "PL6613",
+        "mentionId": "",
+        "confidence": 0.8225659132003784,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.09098900854587555,
+                    "y": 0.5927190184593201
+                  },
+                  {
+                    "x": 0.1314285695552826,
+                    "y": 0.5927190184593201
+                  },
+                  {
+                    "x": 0.1314285695552826,
+                    "y": 0.605802059173584
+                  },
+                  {
+                    "x": 0.09098900854587555,
+                    "y": 0.605802059173584
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "33",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "929",
+              "endIndex": "935"
+            }
+          ],
+          "content": "PL6613"
+        },
+        "type": "line_item/unit",
+        "mentionText": "PL6613",
+        "mentionId": "",
+        "confidence": 0.3585773706436157,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.09098900854587555,
+                    "y": 0.5927190184593201
+                  },
+                  {
+                    "x": 0.1314285695552826,
+                    "y": 0.5927190184593201
+                  },
+                  {
+                    "x": 0.1314285695552826,
+                    "y": 0.605802059173584
+                  },
+                  {
+                    "x": 0.09098900854587555,
+                    "y": 0.605802059173584
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "34",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "936",
+              "endIndex": "942"
+            }
+          ],
+          "content": "13,226"
+        },
+        "type": "line_item/quantity",
+        "mentionText": "13,226",
+        "mentionId": "",
+        "confidence": 0.87139493227005,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.15824176371097565,
+                    "y": 0.5921501517295837
+                  },
+                  {
+                    "x": 0.190769225358963,
+                    "y": 0.5921501517295837
+                  },
+                  {
+                    "x": 0.190769225358963,
+                    "y": 0.6063708662986755
+                  },
+                  {
+                    "x": 0.15824176371097565,
+                    "y": 0.6063708662986755
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "35",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "943",
+              "endIndex": "949"
+            }
+          ],
+          "content": "151.00"
+        },
+        "type": "line_item/unit_price",
+        "mentionText": "151.00",
+        "mentionId": "",
+        "confidence": 0.7352507710456848,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.21450549364089966,
+                    "y": 0.5927190184593201
+                  },
+                  {
+                    "x": 0.24747252464294434,
+                    "y": 0.5927190184593201
+                  },
+                  {
+                    "x": 0.24747252464294434,
+                    "y": 0.6052331924438477
+                  },
+                  {
+                    "x": 0.21450549364089966,
+                    "y": 0.6052331924438477
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "36",
+        "normalizedValue": {
+          "text": "151"
+        },
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "983",
+              "endIndex": "991"
+            }
+          ],
+          "content": "1,997.13"
+        },
+        "type": "line_item/amount",
+        "mentionText": "1,997.13",
+        "mentionId": "",
+        "confidence": 0.8501637578010559,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.8712087869644165,
+                    "y": 0.5915813446044922
+                  },
+                  {
+                    "x": 0.9129670262336731,
+                    "y": 0.5915813446044922
+                  },
+                  {
+                    "x": 0.9129670262336731,
+                    "y": 0.6069397330284119
+                  },
+                  {
+                    "x": 0.8712087869644165,
+                    "y": 0.6069397330284119
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "37",
+        "normalizedValue": {
+          "text": "1997.13"
+        },
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "992",
+              "endIndex": "1033"
+            }
+          ],
+          "content": "12 oz Aluminum Regular Brite\nCan No Print"
+        },
+        "type": "line_item/description",
+        "mentionText": "12 oz Aluminum Regular Brite\nCan No Print",
+        "mentionId": "",
+        "confidence": 0.45259299874305725,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.6720879077911377,
+                    "y": 0.5921501517295837
+                  },
+                  {
+                    "x": 0.8224175572395325,
+                    "y": 0.5921501517295837
+                  },
+                  {
+                    "x": 0.8224175572395325,
+                    "y": 0.6222980618476868
+                  },
+                  {
+                    "x": 0.6720879077911377,
+                    "y": 0.6222980618476868
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "38",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      }
+    ],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "929",
+          "endIndex": "935"
+        },
+        {
+          "startIndex": "936",
+          "endIndex": "942"
+        },
+        {
+          "startIndex": "943",
+          "endIndex": "949"
+        },
+        {
+          "startIndex": "983",
+          "endIndex": "991"
+        },
+        {
+          "startIndex": "992",
+          "endIndex": "1033"
+        }
+      ],
+      "content": ""
+    },
+    "type": "line_item",
+    "mentionText": "PL6613 PL6613 13,226 151.00 1,997.13 12 oz Aluminum Regular Brite\nCan No Print",
+    "mentionId": "",
+    "confidence": 1,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.09098900854587555,
+                "y": 0.5915813446044922
+              },
+              {
+                "x": 0.9129670262336731,
+                "y": 0.5915813446044922
+              },
+              {
+                "x": 0.9129670262336731,
+                "y": 0.6222980618476868
+              },
+              {
+                "x": 0.09098900854587555,
+                "y": 0.6222980618476868
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "32",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "1034",
+              "endIndex": "1035"
+            }
+          ],
+          "content": "1"
+        },
+        "type": "line_item/quantity",
+        "mentionText": "1",
+        "mentionId": "",
+        "confidence": 0.36825525760650635,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.053626373410224915,
+                    "y": 0.6433447003364563
+                  },
+                  {
+                    "x": 0.05582417547702789,
+                    "y": 0.6433447003364563
+                  },
+                  {
+                    "x": 0.05582417547702789,
+                    "y": 0.6541524529457092
+                  },
+                  {
+                    "x": 0.053626373410224915,
+                    "y": 0.6541524529457092
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "40",
+        "normalizedValue": {
+          "text": "1"
+        },
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "1036",
+              "endIndex": "1038"
+            }
+          ],
+          "content": "Ea"
+        },
+        "type": "line_item/unit",
+        "mentionText": "Ea",
+        "mentionId": "",
+        "confidence": 0.7552137970924377,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.09186813235282898,
+                    "y": 0.6427758932113647
+                  },
+                  {
+                    "x": 0.10549450665712357,
+                    "y": 0.6427758932113647
+                  },
+                  {
+                    "x": 0.10549450665712357,
+                    "y": 0.6552901268005371
+                  },
+                  {
+                    "x": 0.09186813235282898,
+                    "y": 0.6552901268005371
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "41",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "1039",
+              "endIndex": "1040"
+            }
+          ],
+          "content": "1"
+        },
+        "type": "line_item/quantity",
+        "mentionText": "1",
+        "mentionId": "",
+        "confidence": 0.5493922829627991,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.17494505643844604,
+                    "y": 0.6433447003364563
+                  },
+                  {
+                    "x": 0.17714285850524902,
+                    "y": 0.6433447003364563
+                  },
+                  {
+                    "x": 0.17714285850524902,
+                    "y": 0.6541524529457092
+                  },
+                  {
+                    "x": 0.17494505643844604,
+                    "y": 0.6541524529457092
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "42",
+        "normalizedValue": {
+          "text": "1"
+        },
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "1041",
+              "endIndex": "1045"
+            }
+          ],
+          "content": "8.00"
+        },
+        "type": "line_item/unit_price",
+        "mentionText": "8.00",
+        "mentionId": "",
+        "confidence": 0.8538888096809387,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.2127472460269928,
+                    "y": 0.6422070264816284
+                  },
+                  {
+                    "x": 0.23428571224212646,
+                    "y": 0.6422070264816284
+                  },
+                  {
+                    "x": 0.23428571224212646,
+                    "y": 0.6552901268005371
+                  },
+                  {
+                    "x": 0.2127472460269928,
+                    "y": 0.6552901268005371
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "43",
+        "normalizedValue": {
+          "text": "8"
+        },
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "1046",
+              "endIndex": "1048"
+            }
+          ],
+          "content": "Ea"
+        },
+        "type": "line_item/unit",
+        "mentionText": "Ea",
+        "mentionId": "",
+        "confidence": 0.21391476690769196,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.24483516812324524,
+                    "y": 0.6427758932113647
+                  },
+                  {
+                    "x": 0.25934067368507385,
+                    "y": 0.6427758932113647
+                  },
+                  {
+                    "x": 0.25934067368507385,
+                    "y": 0.6558589339256287
+                  },
+                  {
+                    "x": 0.24483516812324524,
+                    "y": 0.6558589339256287
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "44",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "1049",
+              "endIndex": "1062"
+            }
+          ],
+          "content": "PALLET-BEV-34"
+        },
+        "type": "line_item/product_code",
+        "mentionText": "PALLET-BEV-34",
+        "mentionId": "",
+        "confidence": 0.7070717811584473,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.3081318736076355,
+                    "y": 0.6422070264816284
+                  },
+                  {
+                    "x": 0.3925274610519409,
+                    "y": 0.6422070264816284
+                  },
+                  {
+                    "x": 0.3925274610519409,
+                    "y": 0.6552901268005371
+                  },
+                  {
+                    "x": 0.3081318736076355,
+                    "y": 0.6552901268005371
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "45",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "1063",
+              "endIndex": "1065"
+            }
+          ],
+          "content": "ZH"
+        },
+        "type": "line_item/description",
+        "mentionText": "ZH",
+        "mentionId": "",
+        "confidence": 0.6323701739311218,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.44395604729652405,
+                    "y": 0.6422070264816284
+                  },
+                  {
+                    "x": 0.45494505763053894,
+                    "y": 0.6422070264816284
+                  },
+                  {
+                    "x": 0.45494505763053894,
+                    "y": 0.6547212600708008
+                  },
+                  {
+                    "x": 0.44395604729652405,
+                    "y": 0.6547212600708008
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "46",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "1092",
+              "endIndex": "1096"
+            }
+          ],
+          "content": "8.00"
+        },
+        "type": "line_item/amount",
+        "mentionText": "8.00",
+        "mentionId": "",
+        "confidence": 0.774745762348175,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.8927472233772278,
+                    "y": 0.6422070264816284
+                  },
+                  {
+                    "x": 0.9129670262336731,
+                    "y": 0.6422070264816284
+                  },
+                  {
+                    "x": 0.9129670262336731,
+                    "y": 0.6552901268005371
+                  },
+                  {
+                    "x": 0.8927472233772278,
+                    "y": 0.6552901268005371
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "47",
+        "normalizedValue": {
+          "text": "8"
+        },
+        "provenance": null,
+        "redacted": false
+      }
+    ],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "1034",
+          "endIndex": "1035"
+        },
+        {
+          "startIndex": "1036",
+          "endIndex": "1038"
+        },
+        {
+          "startIndex": "1039",
+          "endIndex": "1040"
+        },
+        {
+          "startIndex": "1041",
+          "endIndex": "1045"
+        },
+        {
+          "startIndex": "1046",
+          "endIndex": "1048"
+        },
+        {
+          "startIndex": "1049",
+          "endIndex": "1062"
+        },
+        {
+          "startIndex": "1063",
+          "endIndex": "1065"
+        },
+        {
+          "startIndex": "1092",
+          "endIndex": "1096"
+        }
+      ],
+      "content": ""
+    },
+    "type": "line_item",
+    "mentionText": "1 Ea 1 8.00 Ea PALLET-BEV-34 ZH 8.00",
+    "mentionId": "",
+    "confidence": 1,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.053626373410224915,
+                "y": 0.6422070264816284
+              },
+              {
+                "x": 0.9129670262336731,
+                "y": 0.6422070264816284
+              },
+              {
+                "x": 0.9129670262336731,
+                "y": 0.6558589339256287
+              },
+              {
+                "x": 0.053626373410224915,
+                "y": 0.6558589339256287
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "39",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "1132",
+              "endIndex": "1133"
+            }
+          ],
+          "content": "1"
+        },
+        "type": "line_item/quantity",
+        "mentionText": "1",
+        "mentionId": "",
+        "confidence": 0.6525055170059204,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.025054944679141045,
+                    "y": 0.7747440338134766
+                  },
+                  {
+                    "x": 0.027252746745944023,
+                    "y": 0.7747440338134766
+                  },
+                  {
+                    "x": 0.027252746745944023,
+                    "y": 0.7855517864227295
+                  },
+                  {
+                    "x": 0.025054944679141045,
+                    "y": 0.7855517864227295
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "49",
+        "normalizedValue": {
+          "text": "1"
+        },
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "1134",
+              "endIndex": "1136"
+            }
+          ],
+          "content": "Ea"
+        },
+        "type": "line_item/unit",
+        "mentionText": "Ea",
+        "mentionId": "",
+        "confidence": 0.8375877737998962,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.09362637251615524,
+                    "y": 0.7707622051239014
+                  },
+                  {
+                    "x": 0.10241758078336716,
+                    "y": 0.7707622051239014
+                  },
+                  {
+                    "x": 0.10241758078336716,
+                    "y": 0.7901023626327515
+                  },
+                  {
+                    "x": 0.09362637251615524,
+                    "y": 0.7901023626327515
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "50",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "1137",
+              "endIndex": "1170"
+            }
+          ],
+          "content": "Freight Out (Beverage)\nFRTOUT-BEV"
+        },
+        "type": "line_item/description",
+        "mentionText": "Freight Out (Beverage)\nFRTOUT-BEV",
+        "mentionId": "",
+        "confidence": 0.649316132068634,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.2070329636335373,
+                    "y": 0.7736063599586487
+                  },
+                  {
+                    "x": 0.5142857432365417,
+                    "y": 0.7736063599586487
+                  },
+                  {
+                    "x": 0.5142857432365417,
+                    "y": 0.7901023626327515
+                  },
+                  {
+                    "x": 0.2070329636335373,
+                    "y": 0.7901023626327515
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "51",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      }
+    ],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "1132",
+          "endIndex": "1133"
+        },
+        {
+          "startIndex": "1134",
+          "endIndex": "1136"
+        },
+        {
+          "startIndex": "1137",
+          "endIndex": "1170"
+        }
+      ],
+      "content": ""
+    },
+    "type": "line_item",
+    "mentionText": "1 Ea Freight Out (Beverage)\nFRTOUT-BEV",
+    "mentionId": "",
+    "confidence": 1,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.025054944679141045,
+                "y": 0.7707622051239014
+              },
+              {
+                "x": 0.5142857432365417,
+                "y": 0.7707622051239014
+              },
+              {
+                "x": 0.5142857432365417,
+                "y": 0.7901023626327515
+              },
+              {
+                "x": 0.025054944679141045,
+                "y": 0.7901023626327515
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "48",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  }
+]

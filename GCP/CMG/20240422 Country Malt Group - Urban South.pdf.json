@@ -1,0 +1,104 @@
+{
+  "invoice_date": {
+    "value": "04/22/2024",
+    "confidence": 0.9856806993484497
+  },
+  "due_date": {
+    "value": "05/22/2024",
+    "confidence": 0.9743704795837402
+  },
+  "total_amount": {
+    "value": "17,204.40",
+    "confidence": 0.9685012698173523
+  },
+  "ship_to_address": {
+    "value": "1645 Tchoupitoulas St\nNew Orleans, LA 70130\nUSA",
+    "confidence": 0.9225456118583679
+  },
+  "currency": {
+    "value": "USD",
+    "confidence": 0.9107598066329956
+  },
+  "invoice_id": {
+    "value": "CAINV000026446",
+    "confidence": 0.8775295615196228
+  },
+  "total_tax_amount": {
+    "value": "0.00",
+    "confidence": 0.8772991299629211
+  },
+  "invoice_type": {
+    "value": "",
+    "confidence": 0.7097143530845642
+  },
+  "supplier_tax_id": {
+    "value": "8966 11431 RT0001",
+    "confidence": 0.7094898819923401
+  },
+  "payment_terms": {
+    "value": "Net 30 days",
+    "confidence": 0.6152074933052063
+  },
+  "ship_to_name": {
+    "value": "CAC002171\nUrban South Brewery",
+    "confidence": 0.5300363302230835
+  },
+  "purchase_order": {
+    "value": "1141",
+    "confidence": 0.35017910599708557
+  },
+  "supplier_name": {
+    "value": "THE\nCOUNTRY MALT\nGROUP\nESTD\n.\n1995\nGREAT\nCANADA \nWESTERN\nMALTING\nMALTING \nCO\n.",
+    "confidence": 0.19479411840438843
+  },
+  "supplier_address": {
+    "value": "3316 Bonnybrook Rd. SE\nCalgary, AB T2G 4M9\nCanada",
+    "confidence": 0.15269145369529724
+  },
+  "receiver_address": {
+    "value": "Orleans, LA 70130\nUSA",
+    "confidence": 0.001621727366000414
+  },
+  "line_items": [
+    {
+      "line_item/amount": {
+        "value": "17,204.40",
+        "confidence": 0.6875343322753906
+      },
+      "line_item/product_code": {
+        "value": "SCC2205820",
+        "confidence": 0.6435989141464233
+      },
+      "line_item/description": {
+        "value": "CM-2ROWBK Blended",
+        "confidence": 0.5538550019264221
+      },
+      "line_item/quantity": {
+        "value": "20,820.00",
+        "confidence": 0.87332683801651
+      },
+      "line_item/unit_price": {
+        "value": "1,000.00",
+        "confidence": 0.7387455105781555
+      }
+    },
+    {
+      "line_item/amount": {
+        "value": "20.820",
+        "confidence": 0.31443697214126587
+      }
+    },
+    {
+      "line_item/amount": {
+        "value": "20,820.00",
+        "confidence": 0.3258908689022064
+      }
+    },
+    {
+      "line_item/amount": {
+        "value": "45,900.00",
+        "confidence": 0.30186697840690613
+      }
+    }
+  ]
+}

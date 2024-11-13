@@ -1,0 +1,130 @@
+{
+  "invoice_id": {
+    "value": "10383",
+    "confidence": 0.9648920297622681
+  },
+  "invoice_date": {
+    "value": "8/5/2022",
+    "confidence": 0.9589025378227234
+  },
+  "due_date": {
+    "value": "8/5/2022",
+    "confidence": 0.9469360709190369
+  },
+  "supplier_email": {
+    "value": "accounting@greenmountaintaps.com",
+    "confidence": 0.8777161836624146
+  },
+  "supplier_address": {
+    "value": "PO Box 371\nHinsdale, NH 03451",
+    "confidence": 0.8295208215713501
+  },
+  "supplier_website": {
+    "value": "www.greenmountaintaps.com",
+    "confidence": 0.82033371925354
+  },
+  "invoice_type": {
+    "value": "",
+    "confidence": 0.7718695402145386
+  },
+  "receiver_name": {
+    "value": "Hobbs Tavern & Brewing Co.",
+    "confidence": 0.7142577171325684
+  },
+  "ship_to_name": {
+    "value": "ewing Co.\nHobbs \nTavern \n&",
+    "confidence": 0.6635895371437073
+  },
+  "ship_to_address": {
+    "value": "765 \nNH\n-\n16\nOssipee\n,\nNH \n03864",
+    "confidence": 0.652391254901886
+  },
+  "total_amount": {
+    "value": "1,043.40",
+    "confidence": 0.5803819894790649
+  },
+  "supplier_phone": {
+    "value": "(603) 336-5555",
+    "confidence": 0.5566413998603821
+  },
+  "currency": {
+    "value": "$",
+    "confidence": 0.5420331358909607
+  },
+  "payment_terms": {
+    "value": "Upon Receipt",
+    "confidence": 0.44526928663253784
+  },
+  "carrier": {
+    "value": "UPS",
+    "confidence": 0.44186046719551086
+  },
+  "purchase_order": {
+    "value": "3562",
+    "confidence": 0.3967331349849701
+  },
+  "receiver_address": {
+    "value": "765 NH-16\nOssipee,NH 03864",
+    "confidence": 0.23413121700286865
+  },
+  "supplier_name": {
+    "value": "Mountain\nTaps\nGreen",
+    "confidence": 0.17906364798545837
+  },
+  "line_items": [
+    {
+      "line_item/product_code": {
+        "value": "Hobbs",
+        "confidence": 0.5673444271087646
+      },
+      "line_item/quantity": {
+        "value": "104",
+        "confidence": 0.8651120662689209
+      },
+      "line_item/unit_price": {
+        "value": "23.00",
+        "confidence": 0.9204071164131165
+      },
+      "line_item/amount": {
+        "value": "2,392.00",
+        "confidence": 0.9164183735847473
+      },
+      "line_item/description": {
+        "value": "HOBBSB-TAP-1001\nHOBBS CAST TAP HANDLE",
+        "confidence": 0.546830415725708
+      }
+    },
+    {
+      "line_item/description": {
+        "value": "LESS 50% deposit required to begin production of order",
+        "confidence": 0.5656169652938843
+      },
+      "line_item/quantity": {
+        "value": "-100",
+        "confidence": 0.9599153995513916
+      },
+      "line_item/unit_price": {
+        "value": "13.93",
+        "confidence": 0.8983522057533264
+      },
+      "line_item/amount": {
+        "value": "-1,393.00",
+        "confidence": 0.8782525658607483
+      }
+    },
+    {
+      "line_item/description": {
+        "value": "Shipping & Handl... UPS Shipping & Handling: 8/5/2022",
+        "confidence": 0.5509513020515442
+      },
+      "line_item/unit_price": {
+        "value": "44.40",
+        "confidence": 0.8817358016967773
+      },
+      "line_item/amount": {
+        "value": "44.40",
+        "confidence": 0.7647843360900879
+      }
+    }
+  ]
+}

@@ -1,0 +1,1004 @@
+[
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "10",
+          "endIndex": "19"
+        }
+      ],
+      "content": "IN0175838"
+    },
+    "type": "invoice_id",
+    "mentionText": "IN0175838",
+    "mentionId": "",
+    "confidence": 0.9605322480201721,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.8118681311607361,
+                "y": 0.04379977285861969
+              },
+              {
+                "x": 0.8654944896697998,
+                "y": 0.04379977285861969
+              },
+              {
+                "x": 0.8654944896697998,
+                "y": 0.05802047625184059
+              },
+              {
+                "x": 0.8118681311607361,
+                "y": 0.05802047625184059
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "0",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "266",
+          "endIndex": "275"
+        }
+      ],
+      "content": "6/23/2023"
+    },
+    "type": "due_date",
+    "mentionText": "6/23/2023",
+    "mentionId": "",
+    "confidence": 0.9459077715873718,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.8131868243217468,
+                "y": 0.20477814972400665
+              },
+              {
+                "x": 0.8624175786972046,
+                "y": 0.20477814972400665
+              },
+              {
+                "x": 0.8624175786972046,
+                "y": 0.22184300422668457
+              },
+              {
+                "x": 0.8131868243217468,
+                "y": 0.22184300422668457
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "1",
+    "normalizedValue": {
+      "text": "2023-06-23",
+      "dateValue": {
+        "year": 2023,
+        "month": 6,
+        "day": 23
+      },
+      "structuredValue": "dateValue"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "103",
+          "endIndex": "112"
+        }
+      ],
+      "content": "5/24/2023"
+    },
+    "type": "invoice_date",
+    "mentionText": "5/24/2023",
+    "mentionId": "",
+    "confidence": 0.9168591499328613,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.8114285469055176,
+                "y": 0.0671217292547226
+              },
+              {
+                "x": 0.8624175786972046,
+                "y": 0.0671217292547226
+              },
+              {
+                "x": 0.8624175786972046,
+                "y": 0.08077360689640045
+              },
+              {
+                "x": 0.8114285469055176,
+                "y": 0.08077360689640045
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "2",
+    "normalizedValue": {
+      "text": "2023-05-24",
+      "dateValue": {
+        "year": 2023,
+        "month": 5,
+        "day": 24
+      },
+      "structuredValue": "dateValue"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "819",
+          "endIndex": "827"
+        }
+      ],
+      "content": "3,762.41"
+    },
+    "type": "total_amount",
+    "mentionText": "3,762.41",
+    "mentionId": "",
+    "confidence": 0.8987329602241516,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.870769202709198,
+                "y": 0.6257110238075256
+              },
+              {
+                "x": 0.9142857193946838,
+                "y": 0.6257110238075256
+              },
+              {
+                "x": 0.9142857193946838,
+                "y": 0.6410694122314453
+              },
+              {
+                "x": 0.870769202709198,
+                "y": 0.6410694122314453
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "3",
+    "normalizedValue": {
+      "text": "3762.41"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": null,
+    "type": "invoice_type",
+    "mentionText": "",
+    "mentionId": "",
+    "confidence": 0.8164336681365967,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": null,
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "4",
+    "normalizedValue": {
+      "text": "invoice_statement"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "442",
+          "endIndex": "486"
+        }
+      ],
+      "content": "765 White Mountain Highway\nOssipee, NH 03864"
+    },
+    "type": "ship_to_address",
+    "mentionText": "765 White Mountain Highway\nOssipee, NH 03864",
+    "mentionId": "",
+    "confidence": 0.794671356678009,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.09186813235282898,
+                "y": 0.32480090856552124
+              },
+              {
+                "x": 0.23999999463558197,
+                "y": 0.32480090856552124
+              },
+              {
+                "x": 0.23999999463558197,
+                "y": 0.35949942469596863
+              },
+              {
+                "x": 0.09186813235282898,
+                "y": 0.35949942469596863
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "5",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "291",
+          "endIndex": "302"
+        }
+      ],
+      "content": "Net 30 Days"
+    },
+    "type": "payment_terms",
+    "mentionText": "Net 30 Days",
+    "mentionId": "",
+    "confidence": 0.5913622379302979,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.8105494379997253,
+                "y": 0.25142207741737366
+              },
+              {
+                "x": 0.873846173286438,
+                "y": 0.25142207741737366
+              },
+              {
+                "x": 0.873846173286438,
+                "y": 0.2684869170188904
+              },
+              {
+                "x": 0.8105494379997253,
+                "y": 0.2684869170188904
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "6",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "833",
+          "endIndex": "850"
+        }
+      ],
+      "content": "86823 1358 RT0001"
+    },
+    "type": "supplier_tax_id",
+    "mentionText": "86823 1358 RT0001",
+    "mentionId": "",
+    "confidence": 0.5654617547988892,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.08703296631574631,
+                "y": 0.8879408240318298
+              },
+              {
+                "x": 0.19120879471302032,
+                "y": 0.8879408240318298
+              },
+              {
+                "x": 0.19120879471302032,
+                "y": 0.9015927314758301
+              },
+              {
+                "x": 0.08703296631574631,
+                "y": 0.9015927314758301
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "7",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "408",
+          "endIndex": "441"
+        }
+      ],
+      "content": "Hobbs Tavern & Brewing Company, L"
+    },
+    "type": "ship_to_name",
+    "mentionText": "Hobbs Tavern & Brewing Company, L",
+    "mentionId": "",
+    "confidence": 0.5558087229728699,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.09362637251615524,
+                "y": 0.30546075105667114
+              },
+              {
+                "x": 0.2830769121646881,
+                "y": 0.30546075105667114
+              },
+              {
+                "x": 0.2830769121646881,
+                "y": 0.3242320716381073
+              },
+              {
+                "x": 0.09362637251615524,
+                "y": 0.3242320716381073
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "8",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "968",
+          "endIndex": "1008"
+        }
+      ],
+      "content": "http://www.zh-inc.com/Customer Terms.pdf"
+    },
+    "type": "supplier_website",
+    "mentionText": "http://www.zh-inc.com/Customer Terms.pdf",
+    "mentionId": "",
+    "confidence": 0.3662637770175934,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.48351648449897766,
+                "y": 0.9215016961097717
+              },
+              {
+                "x": 0.7002198100090027,
+                "y": 0.9215016961097717
+              },
+              {
+                "x": 0.7002198100090027,
+                "y": 0.9402730464935303
+              },
+              {
+                "x": 0.48351648449897766,
+                "y": 0.9402730464935303
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "9",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "20",
+          "endIndex": "63"
+        }
+      ],
+      "content": "191 S. Gulph Road\nKing of Prussia, PA 19406"
+    },
+    "type": "supplier_address",
+    "mentionText": "191 S. Gulph Road\nKing of Prussia, PA 19406",
+    "mentionId": "",
+    "confidence": 0.36099475622177124,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.12263736128807068,
+                "y": 0.04835039749741554
+              },
+              {
+                "x": 0.2610988914966583,
+                "y": 0.04835039749741554
+              },
+              {
+                "x": 0.2610988914966583,
+                "y": 0.08703071624040604
+              },
+              {
+                "x": 0.12263736128807068,
+                "y": 0.08703071624040604
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "10",
+    "normalizedValue": {
+      "text": "191 S Gulph Rd King of Prussia, PA 19406 USA",
+      "addressValue": {
+        "addressLines": [
+          "191 S Gulph Rd"
+        ],
+        "recipients": [],
+        "revision": 0,
+        "regionCode": "US",
+        "languageCode": "en-US",
+        "postalCode": "19406-3103",
+        "sortingCode": "",
+        "administrativeArea": "Pennsylvania",
+        "locality": "King of Prussia",
+        "sublocality": "",
+        "organization": ""
+      },
+      "structuredValue": "addressValue"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "487",
+          "endIndex": "522"
+        }
+      ],
+      "content": "Hobbs Tavern & Brewing Company, LLC"
+    },
+    "type": "remit_to_name",
+    "mentionText": "Hobbs Tavern & Brewing Company, LLC",
+    "mentionId": "",
+    "confidence": 0.11692281067371368,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.37142857909202576,
+                "y": 0.30318543314933777
+              },
+              {
+                "x": 0.5758242011070251,
+                "y": 0.30318543314933777
+              },
+              {
+                "x": 0.5758242011070251,
+                "y": 0.3219567835330963
+              },
+              {
+                "x": 0.37142857909202576,
+                "y": 0.3219567835330963
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "11",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "63",
+          "endIndex": "94"
+        }
+      ],
+      "content": "ZUCKERMAN \nHONICKMAN zh-inc.com"
+    },
+    "type": "supplier_name",
+    "mentionText": "ZUCKERMAN \nHONICKMAN zh-inc.com",
+    "mentionId": "",
+    "confidence": 0.1100970059633255,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.031208790838718414,
+                "y": 0.06825938820838928
+              },
+              {
+                "x": 0.18109890818595886,
+                "y": 0.06825938820838928
+              },
+              {
+                "x": 0.18109890818595886,
+                "y": 0.1046643927693367
+              },
+              {
+                "x": 0.031208790838718414,
+                "y": 0.1046643927693367
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "12",
+    "normalizedValue": {
+      "text": "Zuckerman Honickman Inc"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "691",
+              "endIndex": "697"
+            }
+          ],
+          "content": "PL5057"
+        },
+        "type": "line_item/product_code",
+        "mentionText": "PL5057",
+        "mentionId": "",
+        "confidence": 0.6618831753730774,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.09362637251615524,
+                    "y": 0.4908987581729889
+                  },
+                  {
+                    "x": 0.1314285695552826,
+                    "y": 0.4908987581729889
+                  },
+                  {
+                    "x": 0.1314285695552826,
+                    "y": 0.5039817690849304
+                  },
+                  {
+                    "x": 0.09362637251615524,
+                    "y": 0.5039817690849304
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "14",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "698",
+              "endIndex": "704"
+            }
+          ],
+          "content": "20,228"
+        },
+        "type": "line_item/quantity",
+        "mentionText": "20,228",
+        "mentionId": "",
+        "confidence": 0.9742959141731262,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.15824176371097565,
+                    "y": 0.4908987581729889
+                  },
+                  {
+                    "x": 0.19164834916591644,
+                    "y": 0.4908987581729889
+                  },
+                  {
+                    "x": 0.19164834916591644,
+                    "y": 0.5068259239196777
+                  },
+                  {
+                    "x": 0.15824176371097565,
+                    "y": 0.5068259239196777
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "15",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "705",
+              "endIndex": "711"
+            }
+          ],
+          "content": "186.00"
+        },
+        "type": "line_item/unit_price",
+        "mentionText": "186.00",
+        "mentionId": "",
+        "confidence": 0.8523257970809937,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.21450549364089966,
+                    "y": 0.49146756529808044
+                  },
+                  {
+                    "x": 0.24703297019004822,
+                    "y": 0.49146756529808044
+                  },
+                  {
+                    "x": 0.24703297019004822,
+                    "y": 0.5045506358146667
+                  },
+                  {
+                    "x": 0.21450549364089966,
+                    "y": 0.5045506358146667
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "16",
+        "normalizedValue": {
+          "text": "186"
+        },
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "756",
+              "endIndex": "796"
+            }
+          ],
+          "content": "16 oz Aluminum Regular Brit\nCan No Print"
+        },
+        "type": "line_item/description",
+        "mentionText": "16 oz Aluminum Regular Brit\nCan No Print",
+        "mentionId": "",
+        "confidence": 0.6287782192230225,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.6725274920463562,
+                    "y": 0.489761084318161
+                  },
+                  {
+                    "x": 0.816263735294342,
+                    "y": 0.489761084318161
+                  },
+                  {
+                    "x": 0.816263735294342,
+                    "y": 0.5210466384887695
+                  },
+                  {
+                    "x": 0.6725274920463562,
+                    "y": 0.5210466384887695
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "17",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "797",
+              "endIndex": "805"
+            }
+          ],
+          "content": "3,762.41"
+        },
+        "type": "line_item/amount",
+        "mentionText": "3,762.41",
+        "mentionId": "",
+        "confidence": 0.9037616848945618,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.8703296780586243,
+                    "y": 0.4908987581729889
+                  },
+                  {
+                    "x": 0.9147253036499023,
+                    "y": 0.4908987581729889
+                  },
+                  {
+                    "x": 0.9147253036499023,
+                    "y": 0.5056883096694946
+                  },
+                  {
+                    "x": 0.8703296780586243,
+                    "y": 0.5056883096694946
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "18",
+        "normalizedValue": {
+          "text": "3762.41"
+        },
+        "provenance": null,
+        "redacted": false
+      }
+    ],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "691",
+          "endIndex": "697"
+        },
+        {
+          "startIndex": "698",
+          "endIndex": "704"
+        },
+        {
+          "startIndex": "705",
+          "endIndex": "711"
+        },
+        {
+          "startIndex": "756",
+          "endIndex": "796"
+        },
+        {
+          "startIndex": "797",
+          "endIndex": "805"
+        }
+      ],
+      "content": ""
+    },
+    "type": "line_item",
+    "mentionText": "PL5057 20,228 186.00 16 oz Aluminum Regular Brit\nCan No Print 3,762.41",
+    "mentionId": "",
+    "confidence": 1,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.09362637251615524,
+                "y": 0.489761084318161
+              },
+              {
+                "x": 0.9147253036499023,
+                "y": 0.489761084318161
+              },
+              {
+                "x": 0.9147253036499023,
+                "y": 0.5210466384887695
+              },
+              {
+                "x": 0.09362637251615524,
+                "y": 0.5210466384887695
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "13",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  }
+]

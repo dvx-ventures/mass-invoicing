@@ -1,0 +1,100 @@
+{
+  "invoice_date": {
+    "value": "04/01/2024",
+    "confidence": 0.9862424731254578
+  },
+  "due_date": {
+    "value": "05/01/2024",
+    "confidence": 0.9738916754722595
+  },
+  "total_amount": {
+    "value": "17,201.77",
+    "confidence": 0.9670213460922241
+  },
+  "currency": {
+    "value": "USD",
+    "confidence": 0.907498300075531
+  },
+  "total_tax_amount": {
+    "value": "0.00",
+    "confidence": 0.8809075355529785
+  },
+  "invoice_id": {
+    "value": "CAINV000024999",
+    "confidence": 0.8635664582252502
+  },
+  "invoice_type": {
+    "value": "",
+    "confidence": 0.8571063280105591
+  },
+  "supplier_tax_id": {
+    "value": "8966 11431 RT0001",
+    "confidence": 0.6617441177368164
+  },
+  "ship_to_address": {
+    "value": "5578 Old William Penn Hwy\nExport, PA 15632\nUSA",
+    "confidence": 0.6538234353065491
+  },
+  "payment_terms": {
+    "value": "Net 30 days",
+    "confidence": 0.6363238096237183
+  },
+  "receiver_name": {
+    "value": "Helltown Brewing",
+    "confidence": 0.3722418248653412
+  },
+  "ship_to_name": {
+    "value": "Helltown Brewing",
+    "confidence": 0.26663273572921753
+  },
+  "supplier_name": {
+    "value": "THE\nCOUNTRY MALT\nGROUP\nESTD\n.\n1995\nGREAT\nCANADA \nWESTERN\nMALTING\nMALTING \nCO\n.",
+    "confidence": 0.19190260767936707
+  },
+  "receiver_address": {
+    "value": "Export, PA 15632\nUSA",
+    "confidence": 0.019959300756454468
+  },
+  "line_items": [
+    {
+      "line_item/product_code": {
+        "value": "CASC000000730",
+        "confidence": 0.6125783920288086
+      },
+      "line_item/description": {
+        "value": "CM-2ROWBK Blended",
+        "confidence": 0.5246714949607849
+      },
+      "line_item/quantity": {
+        "value": "21,591.00",
+        "confidence": 0.8408722281455994
+      },
+      "line_item/unit_price": {
+        "value": "1,000.00",
+        "confidence": 0.7736246585845947
+      },
+      "line_item/amount": {
+        "value": "17,201.77",
+        "confidence": 0.6649162173271179
+      }
+    },
+    {
+      "line_item/amount": {
+        "value": "21.591",
+        "confidence": 0.2799512445926666
+      }
+    },
+    {
+      "line_item/amount": {
+        "value": "21,591.00",
+        "confidence": 0.27497315406799316
+      }
+    },
+    {
+      "line_item/amount": {
+        "value": "47,600.00",
+        "confidence": 0.2507513761520386
+      }
+    }
+  ]
+}

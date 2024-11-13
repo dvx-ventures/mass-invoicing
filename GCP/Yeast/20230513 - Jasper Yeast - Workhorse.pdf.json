@@ -1,0 +1,92 @@
+{
+  "invoice_date": {
+    "value": "May 13, 2023",
+    "confidence": 0.9871007204055786
+  },
+  "invoice_type": {
+    "value": "",
+    "confidence": 0.9765946865081787
+  },
+  "net_amount": {
+    "value": "2,545.00",
+    "confidence": 0.9763429164886475
+  },
+  "invoice_id": {
+    "value": "493504",
+    "confidence": 0.9572259783744812
+  },
+  "due_date": {
+    "value": "May 27, 2023",
+    "confidence": 0.9447712898254395
+  },
+  "total_amount": {
+    "value": "2,545.00",
+    "confidence": 0.9419506192207336
+  },
+  "currency": {
+    "value": "USD",
+    "confidence": 0.9192723631858826
+  },
+  "supplier_address": {
+    "value": "818 Cattail Lane NE, Leesburg, VA, 20176, USA.",
+    "confidence": 0.6705648899078369
+  },
+  "remit_to_name": {
+    "value": "Jasper Yeast",
+    "confidence": 0.6665054559707642
+  },
+  "supplier_name": {
+    "value": "Workhorse Brewing Company",
+    "confidence": 0.5807370543479919
+  },
+  "receiver_name": {
+    "value": "Workhorse Brewing Company",
+    "confidence": 0.5744441747665405
+  },
+  "supplier_email": {
+    "value": "info@jasperyeast.com",
+    "confidence": 0.5721356868743896
+  },
+  "remit_to_address": {
+    "value": "23600 Overland Drive #150\nSterling, VA 20166\nUSA",
+    "confidence": 0.3137909770011902
+  },
+  "line_items": [
+    {
+      "line_item/quantity": {
+        "value": "1.00",
+        "confidence": 0.9727180600166321
+      },
+      "line_item/unit_price": {
+        "value": "2,400.00",
+        "confidence": 0.9326172471046448
+      },
+      "line_item/amount": {
+        "value": "2,400.00",
+        "confidence": 0.9260830283164978
+      },
+      "line_item/description": {
+        "value": "5/3 Ship Date\n150 bbl JY218 Augustiner Lager",
+        "confidence": 0.4391217529773712
+      }
+    },
+    {
+      "line_item/description": {
+        "value": "Shipping Overnight",
+        "confidence": 0.48766976594924927
+      },
+      "line_item/quantity": {
+        "value": "1.00",
+        "confidence": 0.9584360718727112
+      },
+      "line_item/unit_price": {
+        "value": "145.00",
+        "confidence": 0.9310731887817383
+      },
+      "line_item/amount": {
+        "value": "145.00",
+        "confidence": 0.8692530989646912
+      }
+    }
+  ]
+}

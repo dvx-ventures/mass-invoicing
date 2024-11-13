@@ -1,0 +1,114 @@
+{
+  "invoice_date": {
+    "value": "2/5/2024",
+    "confidence": 0.9761208295822144
+  },
+  "invoice_id": {
+    "value": "40008069",
+    "confidence": 0.9692137241363525
+  },
+  "total_tax_amount": {
+    "value": "40.73",
+    "confidence": 0.9686041474342346
+  },
+  "net_amount": {
+    "value": "451.29",
+    "confidence": 0.9527291059494019
+  },
+  "total_amount": {
+    "value": "492.02",
+    "confidence": 0.9294865131378174
+  },
+  "invoice_type": {
+    "value": "",
+    "confidence": 0.8311580419540405
+  },
+  "supplier_name": {
+    "value": "ChemStation Minnesota LLC",
+    "confidence": 0.7940316796302795
+  },
+  "supplier_address": {
+    "value": "PO Box 933033\nCleveland OH 44193",
+    "confidence": 0.788673996925354
+  },
+  "ship_to_address": {
+    "value": "1315 Tyler St NE\nMinneapolis MN 55413",
+    "confidence": 0.6948594450950623
+  },
+  "currency": {
+    "value": "$",
+    "confidence": 0.6210089921951294
+  },
+  "freight_amount": {
+    "value": "0.00",
+    "confidence": 0.621442973613739
+  },
+  "ship_to_name": {
+    "value": "BAUHAUS BREW LABS",
+    "confidence": 0.6116827130317688
+  },
+  "supplier_phone": {
+    "value": "(000) 000-0000",
+    "confidence": 0.4462375342845917
+  },
+  "line_items": [
+    {
+      "line_item/quantity": {
+        "value": "5",
+        "confidence": 0.49580898880958557
+      },
+      "line_item/product_code": {
+        "value": "30085",
+        "confidence": 0.5167236328125
+      },
+      "line_item/unit_price": {
+        "value": "9.99",
+        "confidence": 0.8970029950141907
+      },
+      "line_item/amount": {
+        "value": "49.95",
+        "confidence": 0.8059468269348145
+      }
+    },
+    {
+      "line_item/quantity": {
+        "value": "80.000",
+        "confidence": 0.3944759964942932
+      },
+      "line_item/description": {
+        "value": "BREWERY WASH",
+        "confidence": 0.5608885884284973
+      },
+      "line_item/unit_price": {
+        "value": "3.68",
+        "confidence": 0.8699721097946167
+      },
+      "line_item/amount": {
+        "value": "294.40",
+        "confidence": 0.8359106779098511
+      }
+    },
+    {
+      "line_item/quantity": {
+        "value": "1",
+        "confidence": 0.4471978545188904
+      },
+      "line_item/product_code": {
+        "value": "OXYDATE 35# PAIL",
+        "confidence": 0.4543706178665161
+      },
+      "line_item/description": {
+        "value": "Oxydate 35# Pail",
+        "confidence": 0.3983425796031952
+      },
+      "line_item/unit_price": {
+        "value": "106.94",
+        "confidence": 0.8703573942184448
+      },
+      "line_item/amount": {
+        "value": "106.94",
+        "confidence": 0.7604085803031921
+      }
+    }
+  ]
+}

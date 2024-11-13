@@ -1,0 +1,100 @@
+{
+  "invoice_id": {
+    "value": "CR0003177",
+    "confidence": 0.9816227555274963
+  },
+  "due_date": {
+    "value": "9/28/2022",
+    "confidence": 0.9705556631088257
+  },
+  "invoice_date": {
+    "value": "8/29/2022",
+    "confidence": 0.9539929628372192
+  },
+  "ship_to_address": {
+    "value": "765 White Mountain Highway\nOssipee, NH 03864",
+    "confidence": 0.9165300130844116
+  },
+  "total_amount": {
+    "value": "-965.89",
+    "confidence": 0.9063167572021484
+  },
+  "invoice_type": {
+    "value": "",
+    "confidence": 0.8556056022644043
+  },
+  "ship_to_name": {
+    "value": "Hobbs Tavern & Brewing Company, L",
+    "confidence": 0.6580527424812317
+  },
+  "supplier_address": {
+    "value": "191 S. Gulph Road\nKing of Prussia, PA 19406",
+    "confidence": 0.5619813203811646
+  },
+  "payment_terms": {
+    "value": "Net 30 Days",
+    "confidence": 0.5294832587242126
+  },
+  "receiver_name": {
+    "value": "Hobbs Tavern & Brewing Company, LLC",
+    "confidence": 0.5132312774658203
+  },
+  "supplier_tax_id": {
+    "value": "86823 1358 RT0001",
+    "confidence": 0.507584273815155
+  },
+  "receiver_address": {
+    "value": "765 White Mountain Highway\nOssipee, NH 03864",
+    "confidence": 0.3785821795463562
+  },
+  "supplier_website": {
+    "value": "http://www.zh-inc.com/Customer Terms.pdf",
+    "confidence": 0.17004084587097168
+  },
+  "supplier_name": {
+    "value": "ZUCKERMAN \nHONICKMAN zh-inc.com",
+    "confidence": 0.15890829265117645
+  },
+  "line_items": [
+    {
+      "line_item/quantity": {
+        "value": "-5,057",
+        "confidence": 0.9487489461898804
+      },
+      "line_item/unit_price": {
+        "value": "191.00",
+        "confidence": 0.864683985710144
+      },
+      "line_item/amount": {
+        "value": "-965.89",
+        "confidence": 0.9145852327346802
+      },
+      "line_item/product_code": {
+        "value": "PL5057",
+        "confidence": 0.5961167216300964
+      },
+      "line_item/unit": {
+        "value": "-1",
+        "confidence": 0.3156614601612091
+      },
+      "line_item/description": {
+        "value": "16 oz Aluminum Regular\nBrite Can No Print",
+        "confidence": 0.5851303935050964
+      }
+    },
+    {
+      "line_item/description": {
+        "value": "Freight Out (Beverage)\nMold\nFRTOUT-BEV",
+        "confidence": 0.6632354855537415
+      },
+      "line_item/quantity": {
+        "value": "1",
+        "confidence": 0.29749196767807007
+      },
+      "line_item/unit": {
+        "value": "Ea",
+        "confidence": 0.7112029194831848
+      }
+    }
+  ]
+}

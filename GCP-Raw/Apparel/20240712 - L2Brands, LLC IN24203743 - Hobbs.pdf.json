@@ -1,0 +1,3408 @@
+[
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "129",
+          "endIndex": "138"
+        }
+      ],
+      "content": "7/12/2024"
+    },
+    "type": "invoice_date",
+    "mentionText": "7/12/2024",
+    "mentionId": "",
+    "confidence": 0.9876275062561035,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.8401592969894409,
+                "y": 0.1336851418018341
+              },
+              {
+                "x": 0.9072809815406799,
+                "y": 0.1336851418018341
+              },
+              {
+                "x": 0.9072809815406799,
+                "y": 0.14379946887493134
+              },
+              {
+                "x": 0.8401592969894409,
+                "y": 0.14379946887493134
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "0",
+    "normalizedValue": {
+      "text": "2024-07-12",
+      "dateValue": {
+        "year": 2024,
+        "month": 7,
+        "day": 12
+      },
+      "structuredValue": "dateValue"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "1253",
+          "endIndex": "1261"
+        }
+      ],
+      "content": "1,360.38"
+    },
+    "type": "total_amount",
+    "mentionText": "1,360.38",
+    "mentionId": "",
+    "confidence": 0.979913055896759,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.8646188974380493,
+                "y": 0.8724713921546936
+              },
+              {
+                "x": 0.912400484085083,
+                "y": 0.8724713921546936
+              },
+              {
+                "x": 0.912400484085083,
+                "y": 0.8825857639312744
+              },
+              {
+                "x": 0.8646188974380493,
+                "y": 0.8825857639312744
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "1",
+    "normalizedValue": {
+      "text": "1360.38"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "1239",
+          "endIndex": "1247"
+        }
+      ],
+      "content": "1,360.38"
+    },
+    "type": "net_amount",
+    "mentionText": "1,360.38",
+    "mentionId": "",
+    "confidence": 0.9627712965011597,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.864050030708313,
+                "y": 0.8421283960342407
+              },
+              {
+                "x": 0.9135380983352661,
+                "y": 0.8421283960342407
+              },
+              {
+                "x": 0.9135380983352661,
+                "y": 0.8522427678108215
+              },
+              {
+                "x": 0.864050030708313,
+                "y": 0.8522427678108215
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "2",
+    "normalizedValue": {
+      "text": "1360.38"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "1248",
+          "endIndex": "1252"
+        }
+      ],
+      "content": "0.00"
+    },
+    "type": "total_tax_amount",
+    "mentionText": "0.00",
+    "mentionId": "",
+    "confidence": 0.9593275189399719,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.8873720169067383,
+                "y": 0.8570800423622131
+              },
+              {
+                "x": 0.912400484085083,
+                "y": 0.8570800423622131
+              },
+              {
+                "x": 0.912400484085083,
+                "y": 0.8667545914649963
+              },
+              {
+                "x": 0.8873720169067383,
+                "y": 0.8667545914649963
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "3",
+    "normalizedValue": {
+      "text": "0"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "111",
+          "endIndex": "121"
+        }
+      ],
+      "content": "IN24203743"
+    },
+    "type": "invoice_id",
+    "mentionText": "IN24203743",
+    "mentionId": "",
+    "confidence": 0.951104998588562,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.8208191394805908,
+                "y": 0.09454705566167831
+              },
+              {
+                "x": 0.9089874625205994,
+                "y": 0.09454705566167831
+              },
+              {
+                "x": 0.9089874625205994,
+                "y": 0.10686016082763672
+              },
+              {
+                "x": 0.8208191394805908,
+                "y": 0.10686016082763672
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "4",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "1064",
+          "endIndex": "1074"
+        }
+      ],
+      "content": "08/11/2024"
+    },
+    "type": "due_date",
+    "mentionText": "08/11/2024",
+    "mentionId": "",
+    "confidence": 0.9366392493247986,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.22241182625293732,
+                "y": 0.5580474734306335
+              },
+              {
+                "x": 0.286689430475235,
+                "y": 0.5580474734306335
+              },
+              {
+                "x": 0.286689430475235,
+                "y": 0.5672823190689087
+              },
+              {
+                "x": 0.22241182625293732,
+                "y": 0.5672823190689087
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "5",
+    "normalizedValue": {
+      "text": "2024-08-11",
+      "dateValue": {
+        "year": 2024,
+        "month": 8,
+        "day": 11
+      },
+      "structuredValue": "dateValue"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "298",
+          "endIndex": "335"
+        }
+      ],
+      "content": "765 NH Route 16\nOssipee, NH 03864\nUSA"
+    },
+    "type": "ship_to_address",
+    "mentionText": "765 NH Route 16\nOssipee, NH 03864\nUSA",
+    "mentionId": "",
+    "confidence": 0.9205782413482666,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.5910125374794006,
+                "y": 0.2291117012500763
+              },
+              {
+                "x": 0.7372013926506042,
+                "y": 0.2291117012500763
+              },
+              {
+                "x": 0.7372013926506042,
+                "y": 0.2695690393447876
+              },
+              {
+                "x": 0.5910125374794006,
+                "y": 0.2695690393447876
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "6",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "1103",
+          "endIndex": "1117"
+        }
+      ],
+      "content": "L2 Brands, LLC"
+    },
+    "type": "remit_to_name",
+    "mentionText": "L2 Brands, LLC",
+    "mentionId": "",
+    "confidence": 0.8104376196861267,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.08589305728673935,
+                "y": 0.8685136437416077
+              },
+              {
+                "x": 0.17633675038814545,
+                "y": 0.8685136437416077
+              },
+              {
+                "x": 0.17633675038814545,
+                "y": 0.8781881928443909
+              },
+              {
+                "x": 0.08589305728673935,
+                "y": 0.8781881928443909
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "7",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": null,
+    "type": "invoice_type",
+    "mentionText": "",
+    "mentionId": "",
+    "confidence": 0.7902591228485107,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": null,
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "8",
+    "normalizedValue": {
+      "text": "invoice_statement"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "281",
+          "endIndex": "297"
+        }
+      ],
+      "content": "Hobbs Brewing Co"
+    },
+    "type": "ship_to_name",
+    "mentionText": "Hobbs Brewing Co",
+    "mentionId": "",
+    "confidence": 0.7740439176559448,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.5915813446044922,
+                "y": 0.2132805585861206
+              },
+              {
+                "x": 0.7252559661865234,
+                "y": 0.2132805585861206
+              },
+              {
+                "x": 0.7252559661865234,
+                "y": 0.22823219001293182
+              },
+              {
+                "x": 0.5915813446044922,
+                "y": 0.22823219001293182
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "9",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "246",
+          "endIndex": "280"
+        }
+      ],
+      "content": "756 Route 16\nOssipee, NH 03864\nUSA"
+    },
+    "type": "receiver_address",
+    "mentionText": "756 Route 16\nOssipee, NH 03864\nUSA",
+    "mentionId": "",
+    "confidence": 0.6299007534980774,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.13765642046928406,
+                "y": 0.2291117012500763
+              },
+              {
+                "x": 0.2844141125679016,
+                "y": 0.2291117012500763
+              },
+              {
+                "x": 0.2844141125679016,
+                "y": 0.2695690393447876
+              },
+              {
+                "x": 0.13765642046928406,
+                "y": 0.2695690393447876
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "10",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "211",
+          "endIndex": "245"
+        }
+      ],
+      "content": "Hobbs Tavern & Brewing Company LLC"
+    },
+    "type": "receiver_name",
+    "mentionText": "Hobbs Tavern & Brewing Company LLC",
+    "mentionId": "",
+    "confidence": 0.5891789197921753,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.13993173837661743,
+                "y": 0.21284081041812897
+              },
+              {
+                "x": 0.42548349499702454,
+                "y": 0.21284081041812897
+              },
+              {
+                "x": 0.42548349499702454,
+                "y": 0.22955144941806793
+              },
+              {
+                "x": 0.13993173837661743,
+                "y": 0.22955144941806793
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "11",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "18",
+          "endIndex": "32"
+        }
+      ],
+      "content": "L2 Brands, LLC"
+    },
+    "type": "supplier_name",
+    "mentionText": "L2 Brands, LLC",
+    "mentionId": "",
+    "confidence": 0.5406112670898438,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.24175198376178741,
+                "y": 0.06904133409261703
+              },
+              {
+                "x": 0.37144482135772705,
+                "y": 0.06904133409261703
+              },
+              {
+                "x": 0.37144482135772705,
+                "y": 0.08355320990085602
+              },
+              {
+                "x": 0.24175198376178741,
+                "y": 0.08355320990085602
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "12",
+    "normalizedValue": {
+      "text": "L2 Brands"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "435",
+          "endIndex": "440"
+        }
+      ],
+      "content": "FEDEX"
+    },
+    "type": "carrier",
+    "mentionText": "FEDEX",
+    "mentionId": "",
+    "confidence": 0.44186046719551086,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.608077347278595,
+                "y": 0.328056275844574
+              },
+              {
+                "x": 0.6507394909858704,
+                "y": 0.328056275844574
+              },
+              {
+                "x": 0.6507394909858704,
+                "y": 0.3372911214828491
+              },
+              {
+                "x": 0.608077347278595,
+                "y": 0.3372911214828491
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "13",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "1118",
+          "endIndex": "1148"
+        }
+      ],
+      "content": "300 Fame Ave\nHanover, PA 17331"
+    },
+    "type": "remit_to_address",
+    "mentionText": "300 Fame Ave\nHanover, PA 17331",
+    "mentionId": "",
+    "confidence": 0.4326836168766022,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.08646188676357269,
+                "y": 0.880387008190155
+              },
+              {
+                "x": 0.20136518776416779,
+                "y": 0.880387008190155
+              },
+              {
+                "x": 0.20136518776416779,
+                "y": 0.9028144478797913
+              },
+              {
+                "x": 0.08646188676357269,
+                "y": 0.9028144478797913
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "14",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "459",
+          "endIndex": "462"
+        }
+      ],
+      "content": "N30"
+    },
+    "type": "payment_terms",
+    "mentionText": "N30",
+    "mentionId": "",
+    "confidence": 0.4206084907054901,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.7849829196929932,
+                "y": 0.328056275844574
+              },
+              {
+                "x": 0.8083049058914185,
+                "y": 0.328056275844574
+              },
+              {
+                "x": 0.8083049058914185,
+                "y": 0.3372911214828491
+              },
+              {
+                "x": 0.7849829196929932,
+                "y": 0.3372911214828491
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "15",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "46",
+          "endIndex": "83"
+        }
+      ],
+      "content": "300 Fame Ave\nLOCALE Hanover, PA 17331"
+    },
+    "type": "supplier_address",
+    "mentionText": "300 Fame Ave\nLOCALE Hanover, PA 17331",
+    "mentionId": "",
+    "confidence": 0.35009098052978516,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.19226393103599548,
+                "y": 0.08751099556684494
+              },
+              {
+                "x": 0.38282138109207153,
+                "y": 0.08751099556684494
+              },
+              {
+                "x": 0.38282138109207153,
+                "y": 0.11785399913787842
+              },
+              {
+                "x": 0.19226393103599548,
+                "y": 0.11785399913787842
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "16",
+    "normalizedValue": {
+      "text": "300 Fame Ave Hanover, PA 17331 USA",
+      "addressValue": {
+        "addressLines": [
+          "300 Fame Ave"
+        ],
+        "recipients": [],
+        "revision": 0,
+        "regionCode": "US",
+        "languageCode": "en-US",
+        "postalCode": "17331-9586",
+        "sortingCode": "",
+        "administrativeArea": "Pennsylvania",
+        "locality": "Hanover",
+        "sublocality": "",
+        "organization": ""
+      },
+      "structuredValue": "addressValue"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "158",
+          "endIndex": "172"
+        }
+      ],
+      "content": "(717) 630-0892"
+    },
+    "type": "supplier_phone",
+    "mentionText": "(717) 630-0892",
+    "mentionId": "",
+    "confidence": 0.2530572712421417,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.23321956396102905,
+                "y": 0.17370273172855377
+              },
+              {
+                "x": 0.3555176258087158,
+                "y": 0.17370273172855377
+              },
+              {
+                "x": 0.3555176258087158,
+                "y": 0.19085311889648438
+              },
+              {
+                "x": 0.23321956396102905,
+                "y": 0.19085311889648438
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "17",
+    "normalizedValue": {
+      "text": "+1 717 630 0892"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "379",
+          "endIndex": "390"
+        }
+      ],
+      "content": "22409131603"
+    },
+    "type": "purchase_order",
+    "mentionText": "22409131603",
+    "mentionId": "",
+    "confidence": 0.2072981745004654,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.24004550278186798,
+                "y": 0.32761654257774353
+              },
+              {
+                "x": 0.3179749846458435,
+                "y": 0.32761654257774353
+              },
+              {
+                "x": 0.3179749846458435,
+                "y": 0.3381706178188324
+              },
+              {
+                "x": 0.24004550278186798,
+                "y": 0.3381706178188324
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "18",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "490",
+              "endIndex": "501"
+            }
+          ],
+          "content": "MU420-850-S"
+        },
+        "type": "line_item/product_code",
+        "mentionText": "MU420-850-S",
+        "mentionId": "",
+        "confidence": 0.7319751381874084,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.09215017408132553,
+                    "y": 0.3711521625518799
+                  },
+                  {
+                    "x": 0.16951081156730652,
+                    "y": 0.3711521625518799
+                  },
+                  {
+                    "x": 0.16951081156730652,
+                    "y": 0.38038697838783264
+                  },
+                  {
+                    "x": 0.09215017408132553,
+                    "y": 0.38038697838783264
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "20",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "515",
+              "endIndex": "517"
+            }
+          ],
+          "content": "12"
+        },
+        "type": "line_item/quantity",
+        "mentionText": "12",
+        "mentionId": "",
+        "confidence": 0.7180352210998535,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.5779294371604919,
+                    "y": 0.37203165888786316
+                  },
+                  {
+                    "x": 0.5904436707496643,
+                    "y": 0.37203165888786316
+                  },
+                  {
+                    "x": 0.5904436707496643,
+                    "y": 0.3808267414569855
+                  },
+                  {
+                    "x": 0.5779294371604919,
+                    "y": 0.3808267414569855
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "21",
+        "normalizedValue": {
+          "text": "12"
+        },
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "518",
+              "endIndex": "519"
+            }
+          ],
+          "content": "1"
+        },
+        "type": "line_item/quantity",
+        "mentionText": "1",
+        "mentionId": "",
+        "confidence": 0.3322570025920868,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.6211603879928589,
+                    "y": 0.372471421957016
+                  },
+                  {
+                    "x": 0.6240045428276062,
+                    "y": 0.372471421957016
+                  },
+                  {
+                    "x": 0.6240045428276062,
+                    "y": 0.38038697838783264
+                  },
+                  {
+                    "x": 0.6211603879928589,
+                    "y": 0.38038697838783264
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "22",
+        "normalizedValue": {
+          "text": "1"
+        },
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "520",
+              "endIndex": "525"
+            }
+          ],
+          "content": "16.00"
+        },
+        "type": "line_item/unit_price",
+        "mentionText": "16.00",
+        "mentionId": "",
+        "confidence": 0.9415403008460999,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.7315130829811096,
+                    "y": 0.37203165888786316
+                  },
+                  {
+                    "x": 0.7605233192443848,
+                    "y": 0.37203165888786316
+                  },
+                  {
+                    "x": 0.7605233192443848,
+                    "y": 0.38170623779296875
+                  },
+                  {
+                    "x": 0.7315130829811096,
+                    "y": 0.38170623779296875
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "23",
+        "normalizedValue": {
+          "text": "16"
+        },
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "526",
+              "endIndex": "532"
+            }
+          ],
+          "content": "192.00"
+        },
+        "type": "line_item/amount",
+        "mentionText": "192.00",
+        "mentionId": "",
+        "confidence": 0.9235697388648987,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.871444821357727,
+                    "y": 0.37203165888786316
+                  },
+                  {
+                    "x": 0.9072809815406799,
+                    "y": 0.37203165888786316
+                  },
+                  {
+                    "x": 0.9072809815406799,
+                    "y": 0.3812665045261383
+                  },
+                  {
+                    "x": 0.871444821357727,
+                    "y": 0.3812665045261383
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "24",
+        "normalizedValue": {
+          "text": "192"
+        },
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "614",
+              "endIndex": "674"
+            }
+          ],
+          "content": "REORDER#:2016141 - Washed\npepper MU420 w/ Hobbs Tavern Logo-"
+        },
+        "type": "line_item/description",
+        "mentionText": "REORDER#:2016141 - Washed\npepper MU420 w/ Hobbs Tavern Logo-",
+        "mentionId": "",
+        "confidence": 0.5741135478019714,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.22184300422668457,
+                    "y": 0.3711521625518799
+                  },
+                  {
+                    "x": 0.4442548453807831,
+                    "y": 0.3711521625518799
+                  },
+                  {
+                    "x": 0.4442548453807831,
+                    "y": 0.3948988616466522
+                  },
+                  {
+                    "x": 0.22184300422668457,
+                    "y": 0.3948988616466522
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "25",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      }
+    ],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "490",
+          "endIndex": "501"
+        },
+        {
+          "startIndex": "515",
+          "endIndex": "517"
+        },
+        {
+          "startIndex": "518",
+          "endIndex": "519"
+        },
+        {
+          "startIndex": "520",
+          "endIndex": "525"
+        },
+        {
+          "startIndex": "526",
+          "endIndex": "532"
+        },
+        {
+          "startIndex": "614",
+          "endIndex": "674"
+        }
+      ],
+      "content": ""
+    },
+    "type": "line_item",
+    "mentionText": "MU420-850-S 12 1 16.00 192.00 REORDER#:2016141 - Washed\npepper MU420 w/ Hobbs Tavern Logo-",
+    "mentionId": "",
+    "confidence": 1,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.09215017408132553,
+                "y": 0.3711521625518799
+              },
+              {
+                "x": 0.9072809815406799,
+                "y": 0.3711521625518799
+              },
+              {
+                "x": 0.9072809815406799,
+                "y": 0.3948988616466522
+              },
+              {
+                "x": 0.09215017408132553,
+                "y": 0.3948988616466522
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "19",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "533",
+              "endIndex": "544"
+            }
+          ],
+          "content": "MU420-850-M"
+        },
+        "type": "line_item/product_code",
+        "mentionText": "MU420-850-M",
+        "mentionId": "",
+        "confidence": 0.7077986598014832,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.09271899610757828,
+                    "y": 0.39797714352607727
+                  },
+                  {
+                    "x": 0.16951081156730652,
+                    "y": 0.39797714352607727
+                  },
+                  {
+                    "x": 0.16951081156730652,
+                    "y": 0.40765172243118286
+                  },
+                  {
+                    "x": 0.09271899610757828,
+                    "y": 0.40765172243118286
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "27",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "545",
+              "endIndex": "547"
+            }
+          ],
+          "content": "12"
+        },
+        "type": "line_item/quantity",
+        "mentionText": "12",
+        "mentionId": "",
+        "confidence": 0.731600284576416,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.5796359777450562,
+                    "y": 0.3970976173877716
+                  },
+                  {
+                    "x": 0.5870307087898254,
+                    "y": 0.3970976173877716
+                  },
+                  {
+                    "x": 0.5870307087898254,
+                    "y": 0.40853121876716614
+                  },
+                  {
+                    "x": 0.5796359777450562,
+                    "y": 0.40853121876716614
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "28",
+        "normalizedValue": {
+          "text": "12"
+        },
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "548",
+              "endIndex": "549"
+            }
+          ],
+          "content": "1"
+        },
+        "type": "line_item/quantity",
+        "mentionText": "1",
+        "mentionId": "",
+        "confidence": 0.2544328570365906,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.6217292547225952,
+                    "y": 0.39885663986206055
+                  },
+                  {
+                    "x": 0.6245733499526978,
+                    "y": 0.39885663986206055
+                  },
+                  {
+                    "x": 0.6245733499526978,
+                    "y": 0.4067721962928772
+                  },
+                  {
+                    "x": 0.6217292547225952,
+                    "y": 0.4067721962928772
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "29",
+        "normalizedValue": {
+          "text": "1"
+        },
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "550",
+              "endIndex": "555"
+            }
+          ],
+          "content": "16.00"
+        },
+        "type": "line_item/unit_price",
+        "mentionText": "16.00",
+        "mentionId": "",
+        "confidence": 0.9489961266517639,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.7303754091262817,
+                    "y": 0.3984168767929077
+                  },
+                  {
+                    "x": 0.7599545121192932,
+                    "y": 0.3984168767929077
+                  },
+                  {
+                    "x": 0.7599545121192932,
+                    "y": 0.40765172243118286
+                  },
+                  {
+                    "x": 0.7303754091262817,
+                    "y": 0.40765172243118286
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "30",
+        "normalizedValue": {
+          "text": "16"
+        },
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "556",
+              "endIndex": "562"
+            }
+          ],
+          "content": "192.00"
+        },
+        "type": "line_item/amount",
+        "mentionText": "192.00",
+        "mentionId": "",
+        "confidence": 0.9333998560905457,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.871444821357727,
+                    "y": 0.3984168767929077
+                  },
+                  {
+                    "x": 0.9072809815406799,
+                    "y": 0.3984168767929077
+                  },
+                  {
+                    "x": 0.9072809815406799,
+                    "y": 0.40765172243118286
+                  },
+                  {
+                    "x": 0.871444821357727,
+                    "y": 0.40765172243118286
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "31",
+        "normalizedValue": {
+          "text": "192"
+        },
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "675",
+              "endIndex": "735"
+            }
+          ],
+          "content": "REORDER#:2016141 - Washed\npepper MU420 w/ Hobbs Tavern Logo-"
+        },
+        "type": "line_item/description",
+        "mentionText": "REORDER#:2016141 - Washed\npepper MU420 w/ Hobbs Tavern Logo-",
+        "mentionId": "",
+        "confidence": 0.45466482639312744,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.22298066318035126,
+                    "y": 0.39753738045692444
+                  },
+                  {
+                    "x": 0.44368600845336914,
+                    "y": 0.39753738045692444
+                  },
+                  {
+                    "x": 0.44368600845336914,
+                    "y": 0.42216357588768005
+                  },
+                  {
+                    "x": 0.22298066318035126,
+                    "y": 0.42216357588768005
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "32",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      }
+    ],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "533",
+          "endIndex": "544"
+        },
+        {
+          "startIndex": "545",
+          "endIndex": "547"
+        },
+        {
+          "startIndex": "548",
+          "endIndex": "549"
+        },
+        {
+          "startIndex": "550",
+          "endIndex": "555"
+        },
+        {
+          "startIndex": "556",
+          "endIndex": "562"
+        },
+        {
+          "startIndex": "675",
+          "endIndex": "735"
+        }
+      ],
+      "content": ""
+    },
+    "type": "line_item",
+    "mentionText": "MU420-850-M 12 1 16.00 192.00 REORDER#:2016141 - Washed\npepper MU420 w/ Hobbs Tavern Logo-",
+    "mentionId": "",
+    "confidence": 1,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.09271899610757828,
+                "y": 0.3970976173877716
+              },
+              {
+                "x": 0.9072809815406799,
+                "y": 0.3970976173877716
+              },
+              {
+                "x": 0.9072809815406799,
+                "y": 0.42216357588768005
+              },
+              {
+                "x": 0.09271899610757828,
+                "y": 0.42216357588768005
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "26",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "563",
+              "endIndex": "574"
+            }
+          ],
+          "content": "MU420-850-L"
+        },
+        "type": "line_item/product_code",
+        "mentionText": "MU420-850-L",
+        "mentionId": "",
+        "confidence": 0.6856922507286072,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.09101251512765884,
+                    "y": 0.4243623614311218
+                  },
+                  {
+                    "x": 0.16837315261363983,
+                    "y": 0.4243623614311218
+                  },
+                  {
+                    "x": 0.16837315261363983,
+                    "y": 0.4340369403362274
+                  },
+                  {
+                    "x": 0.09101251512765884,
+                    "y": 0.4340369403362274
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "34",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "575",
+              "endIndex": "577"
+            }
+          ],
+          "content": "16"
+        },
+        "type": "line_item/quantity",
+        "mentionText": "16",
+        "mentionId": "",
+        "confidence": 0.7356682419776917,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.5784983038902283,
+                    "y": 0.4243623614311218
+                  },
+                  {
+                    "x": 0.5910125374794006,
+                    "y": 0.4243623614311218
+                  },
+                  {
+                    "x": 0.5910125374794006,
+                    "y": 0.4335971772670746
+                  },
+                  {
+                    "x": 0.5784983038902283,
+                    "y": 0.4335971772670746
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "35",
+        "normalizedValue": {
+          "text": "16"
+        },
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "578",
+              "endIndex": "579"
+            }
+          ],
+          "content": "1"
+        },
+        "type": "line_item/quantity",
+        "mentionText": "1",
+        "mentionId": "",
+        "confidence": 0.40270134806632996,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.6217292547225952,
+                    "y": 0.4252418577671051
+                  },
+                  {
+                    "x": 0.6245733499526978,
+                    "y": 0.4252418577671051
+                  },
+                  {
+                    "x": 0.6245733499526978,
+                    "y": 0.43315744400024414
+                  },
+                  {
+                    "x": 0.6217292547225952,
+                    "y": 0.43315744400024414
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "36",
+        "normalizedValue": {
+          "text": "1"
+        },
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "580",
+              "endIndex": "585"
+            }
+          ],
+          "content": "16.00"
+        },
+        "type": "line_item/unit_price",
+        "mentionText": "16.00",
+        "mentionId": "",
+        "confidence": 0.9441654682159424,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.7320818901062012,
+                    "y": 0.42480212450027466
+                  },
+                  {
+                    "x": 0.7610921263694763,
+                    "y": 0.42480212450027466
+                  },
+                  {
+                    "x": 0.7610921263694763,
+                    "y": 0.4340369403362274
+                  },
+                  {
+                    "x": 0.7320818901062012,
+                    "y": 0.4340369403362274
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "37",
+        "normalizedValue": {
+          "text": "16"
+        },
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "586",
+              "endIndex": "592"
+            }
+          ],
+          "content": "256.00"
+        },
+        "type": "line_item/amount",
+        "mentionText": "256.00",
+        "mentionId": "",
+        "confidence": 0.944867730140686,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.8697383403778076,
+                    "y": 0.42480212450027466
+                  },
+                  {
+                    "x": 0.9072809815406799,
+                    "y": 0.42480212450027466
+                  },
+                  {
+                    "x": 0.9072809815406799,
+                    "y": 0.4340369403362274
+                  },
+                  {
+                    "x": 0.8697383403778076,
+                    "y": 0.4340369403362274
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "38",
+        "normalizedValue": {
+          "text": "256"
+        },
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "736",
+              "endIndex": "796"
+            }
+          ],
+          "content": "REORDER#:2016141 - Washed\npepper MU420 w/ Hobbs Tavern Logo-"
+        },
+        "type": "line_item/description",
+        "mentionText": "REORDER#:2016141 - Washed\npepper MU420 w/ Hobbs Tavern Logo-",
+        "mentionId": "",
+        "confidence": 0.43488141894340515,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.22241182625293732,
+                    "y": 0.4243623614311218
+                  },
+                  {
+                    "x": 0.4442548453807831,
+                    "y": 0.4243623614311218
+                  },
+                  {
+                    "x": 0.4442548453807831,
+                    "y": 0.44766929745674133
+                  },
+                  {
+                    "x": 0.22241182625293732,
+                    "y": 0.44766929745674133
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "39",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      }
+    ],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "563",
+          "endIndex": "574"
+        },
+        {
+          "startIndex": "575",
+          "endIndex": "577"
+        },
+        {
+          "startIndex": "578",
+          "endIndex": "579"
+        },
+        {
+          "startIndex": "580",
+          "endIndex": "585"
+        },
+        {
+          "startIndex": "586",
+          "endIndex": "592"
+        },
+        {
+          "startIndex": "736",
+          "endIndex": "796"
+        }
+      ],
+      "content": ""
+    },
+    "type": "line_item",
+    "mentionText": "MU420-850-L 16 1 16.00 256.00 REORDER#:2016141 - Washed\npepper MU420 w/ Hobbs Tavern Logo-",
+    "mentionId": "",
+    "confidence": 1,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.09101251512765884,
+                "y": 0.4243623614311218
+              },
+              {
+                "x": 0.9072809815406799,
+                "y": 0.4243623614311218
+              },
+              {
+                "x": 0.9072809815406799,
+                "y": 0.44766929745674133
+              },
+              {
+                "x": 0.09101251512765884,
+                "y": 0.44766929745674133
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "33",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "797",
+              "endIndex": "822"
+            }
+          ],
+          "content": "REORDER#:2016141 - Washed"
+        },
+        "type": "line_item/description",
+        "mentionText": "REORDER#:2016141 - Washed",
+        "mentionId": "",
+        "confidence": 0.44499045610427856,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.22241182625293732,
+                    "y": 0.4507475793361664
+                  },
+                  {
+                    "x": 0.40898749232292175,
+                    "y": 0.4507475793361664
+                  },
+                  {
+                    "x": 0.40898749232292175,
+                    "y": 0.4608619213104248
+                  },
+                  {
+                    "x": 0.22241182625293732,
+                    "y": 0.4608619213104248
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "41",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "937",
+              "endIndex": "949"
+            }
+          ],
+          "content": "MU420-850-XL"
+        },
+        "type": "line_item/product_code",
+        "mentionText": "MU420-850-XL",
+        "mentionId": "",
+        "confidence": 0.667051374912262,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.09158134460449219,
+                    "y": 0.4507475793361664
+                  },
+                  {
+                    "x": 0.1769055724143982,
+                    "y": 0.4507475793361664
+                  },
+                  {
+                    "x": 0.1769055724143982,
+                    "y": 0.460422158241272
+                  },
+                  {
+                    "x": 0.09158134460449219,
+                    "y": 0.460422158241272
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "42",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "950",
+              "endIndex": "952"
+            }
+          ],
+          "content": "24"
+        },
+        "type": "line_item/quantity",
+        "mentionText": "24",
+        "mentionId": "",
+        "confidence": 0.3983539640903473,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.5784983038902283,
+                    "y": 0.4498680830001831
+                  },
+                  {
+                    "x": 0.5870307087898254,
+                    "y": 0.4498680830001831
+                  },
+                  {
+                    "x": 0.5870307087898254,
+                    "y": 0.4630606770515442
+                  },
+                  {
+                    "x": 0.5784983038902283,
+                    "y": 0.4630606770515442
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "43",
+        "normalizedValue": {
+          "text": "24"
+        },
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "953",
+              "endIndex": "954"
+            }
+          ],
+          "content": "1"
+        },
+        "type": "line_item/quantity",
+        "mentionText": "1",
+        "mentionId": "",
+        "confidence": 0.4731479585170746,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.6211603879928589,
+                    "y": 0.45162707567214966
+                  },
+                  {
+                    "x": 0.6240045428276062,
+                    "y": 0.45162707567214966
+                  },
+                  {
+                    "x": 0.6240045428276062,
+                    "y": 0.4595426619052887
+                  },
+                  {
+                    "x": 0.6211603879928589,
+                    "y": 0.4595426619052887
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "44",
+        "normalizedValue": {
+          "text": "1"
+        },
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "955",
+              "endIndex": "960"
+            }
+          ],
+          "content": "16.00"
+        },
+        "type": "line_item/unit_price",
+        "mentionText": "16.00",
+        "mentionId": "",
+        "confidence": 0.8985942602157593,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.7309442758560181,
+                    "y": 0.45162707567214966
+                  },
+                  {
+                    "x": 0.7622298002243042,
+                    "y": 0.45162707567214966
+                  },
+                  {
+                    "x": 0.7622298002243042,
+                    "y": 0.45998239517211914
+                  },
+                  {
+                    "x": 0.7309442758560181,
+                    "y": 0.45998239517211914
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "45",
+        "normalizedValue": {
+          "text": "16"
+        },
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "961",
+              "endIndex": "967"
+            }
+          ],
+          "content": "384.00"
+        },
+        "type": "line_item/amount",
+        "mentionText": "384.00",
+        "mentionId": "",
+        "confidence": 0.8846185803413391,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.8691695332527161,
+                    "y": 0.4507475793361664
+                  },
+                  {
+                    "x": 0.9067121744155884,
+                    "y": 0.4507475793361664
+                  },
+                  {
+                    "x": 0.9067121744155884,
+                    "y": 0.460422158241272
+                  },
+                  {
+                    "x": 0.8691695332527161,
+                    "y": 0.460422158241272
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "46",
+        "normalizedValue": {
+          "text": "384"
+        },
+        "provenance": null,
+        "redacted": false
+      }
+    ],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "797",
+          "endIndex": "822"
+        },
+        {
+          "startIndex": "937",
+          "endIndex": "949"
+        },
+        {
+          "startIndex": "950",
+          "endIndex": "952"
+        },
+        {
+          "startIndex": "953",
+          "endIndex": "954"
+        },
+        {
+          "startIndex": "955",
+          "endIndex": "960"
+        },
+        {
+          "startIndex": "961",
+          "endIndex": "967"
+        }
+      ],
+      "content": ""
+    },
+    "type": "line_item",
+    "mentionText": "REORDER#:2016141 - Washed MU420-850-XL 24 1 16.00 384.00",
+    "mentionId": "",
+    "confidence": 1,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.09158134460449219,
+                "y": 0.4498680830001831
+              },
+              {
+                "x": 0.9067121744155884,
+                "y": 0.4498680830001831
+              },
+              {
+                "x": 0.9067121744155884,
+                "y": 0.4630606770515442
+              },
+              {
+                "x": 0.09158134460449219,
+                "y": 0.4630606770515442
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "40",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "823",
+              "endIndex": "857"
+            }
+          ],
+          "content": "pepper MU420 w/ Hobbs Tavern Logo-"
+        },
+        "type": "line_item/description",
+        "mentionText": "pepper MU420 w/ Hobbs Tavern Logo-",
+        "mentionId": "",
+        "confidence": 0.442642480134964,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.22298066318035126,
+                    "y": 0.46262094378471375
+                  },
+                  {
+                    "x": 0.4419795274734497,
+                    "y": 0.46262094378471375
+                  },
+                  {
+                    "x": 0.4419795274734497,
+                    "y": 0.47493404150009155
+                  },
+                  {
+                    "x": 0.22298066318035126,
+                    "y": 0.47493404150009155
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "48",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      }
+    ],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "823",
+          "endIndex": "857"
+        }
+      ],
+      "content": ""
+    },
+    "type": "line_item",
+    "mentionText": "pepper MU420 w/ Hobbs Tavern Logo-",
+    "mentionId": "",
+    "confidence": 1,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.22298066318035126,
+                "y": 0.46262094378471375
+              },
+              {
+                "x": 0.4419795274734497,
+                "y": 0.46262094378471375
+              },
+              {
+                "x": 0.4419795274734497,
+                "y": 0.47493404150009155
+              },
+              {
+                "x": 0.22298066318035126,
+                "y": 0.47493404150009155
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "47",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "858",
+              "endIndex": "918"
+            }
+          ],
+          "content": "REORDER#:2016141 - Washed\npepper MU420 w/ Hobbs Tavern Logo-"
+        },
+        "type": "line_item/description",
+        "mentionText": "REORDER#:2016141 - Washed\npepper MU420 w/ Hobbs Tavern Logo-",
+        "mentionId": "",
+        "confidence": 0.44813573360443115,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.22241182625293732,
+                    "y": 0.47713279724121094
+                  },
+                  {
+                    "x": 0.4419795274734497,
+                    "y": 0.47713279724121094
+                  },
+                  {
+                    "x": 0.4419795274734497,
+                    "y": 0.5017589926719666
+                  },
+                  {
+                    "x": 0.22241182625293732,
+                    "y": 0.5017589926719666
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "50",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "968",
+              "endIndex": "981"
+            }
+          ],
+          "content": "MU420-850-2XL"
+        },
+        "type": "line_item/product_code",
+        "mentionText": "MU420-850-2XL",
+        "mentionId": "",
+        "confidence": 0.758232593536377,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.09158134460449219,
+                    "y": 0.47713279724121094
+                  },
+                  {
+                    "x": 0.18543799221515656,
+                    "y": 0.47713279724121094
+                  },
+                  {
+                    "x": 0.18543799221515656,
+                    "y": 0.48724713921546936
+                  },
+                  {
+                    "x": 0.09158134460449219,
+                    "y": 0.48724713921546936
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "51",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "982",
+              "endIndex": "984"
+            }
+          ],
+          "content": "18"
+        },
+        "type": "line_item/quantity",
+        "mentionText": "18",
+        "mentionId": "",
+        "confidence": 0.5464339256286621,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.5784983038902283,
+                    "y": 0.4780123233795166
+                  },
+                  {
+                    "x": 0.5910125374794006,
+                    "y": 0.4780123233795166
+                  },
+                  {
+                    "x": 0.5910125374794006,
+                    "y": 0.4863676428794861
+                  },
+                  {
+                    "x": 0.5784983038902283,
+                    "y": 0.4863676428794861
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "52",
+        "normalizedValue": {
+          "text": "18"
+        },
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "985",
+              "endIndex": "986"
+            }
+          ],
+          "content": "1"
+        },
+        "type": "line_item/quantity",
+        "mentionText": "1",
+        "mentionId": "",
+        "confidence": 0.5185926556587219,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.6217292547225952,
+                    "y": 0.4780123233795166
+                  },
+                  {
+                    "x": 0.6245733499526978,
+                    "y": 0.4780123233795166
+                  },
+                  {
+                    "x": 0.6245733499526978,
+                    "y": 0.4863676428794861
+                  },
+                  {
+                    "x": 0.6217292547225952,
+                    "y": 0.4863676428794861
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "53",
+        "normalizedValue": {
+          "text": "1"
+        },
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "987",
+              "endIndex": "992"
+            }
+          ],
+          "content": "16.00"
+        },
+        "type": "line_item/unit_price",
+        "mentionText": "16.00",
+        "mentionId": "",
+        "confidence": 0.9005054235458374,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.7309442758560181,
+                    "y": 0.47713279724121094
+                  },
+                  {
+                    "x": 0.7599545121192932,
+                    "y": 0.47713279724121094
+                  },
+                  {
+                    "x": 0.7599545121192932,
+                    "y": 0.48724713921546936
+                  },
+                  {
+                    "x": 0.7309442758560181,
+                    "y": 0.48724713921546936
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "54",
+        "normalizedValue": {
+          "text": "16"
+        },
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "993",
+              "endIndex": "999"
+            }
+          ],
+          "content": "288.00"
+        },
+        "type": "line_item/amount",
+        "mentionText": "288.00",
+        "mentionId": "",
+        "confidence": 0.8925607204437256,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.8708760142326355,
+                    "y": 0.4780123233795166
+                  },
+                  {
+                    "x": 0.9084186553955078,
+                    "y": 0.4780123233795166
+                  },
+                  {
+                    "x": 0.9084186553955078,
+                    "y": 0.48724713921546936
+                  },
+                  {
+                    "x": 0.8708760142326355,
+                    "y": 0.48724713921546936
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "55",
+        "normalizedValue": {
+          "text": "288"
+        },
+        "provenance": null,
+        "redacted": false
+      }
+    ],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "858",
+          "endIndex": "918"
+        },
+        {
+          "startIndex": "968",
+          "endIndex": "981"
+        },
+        {
+          "startIndex": "982",
+          "endIndex": "984"
+        },
+        {
+          "startIndex": "985",
+          "endIndex": "986"
+        },
+        {
+          "startIndex": "987",
+          "endIndex": "992"
+        },
+        {
+          "startIndex": "993",
+          "endIndex": "999"
+        }
+      ],
+      "content": ""
+    },
+    "type": "line_item",
+    "mentionText": "REORDER#:2016141 - Washed\npepper MU420 w/ Hobbs Tavern Logo- MU420-850-2XL 18 1 16.00 288.00",
+    "mentionId": "",
+    "confidence": 1,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.09158134460449219,
+                "y": 0.47713279724121094
+              },
+              {
+                "x": 0.9084186553955078,
+                "y": 0.47713279724121094
+              },
+              {
+                "x": 0.9084186553955078,
+                "y": 0.5017589926719666
+              },
+              {
+                "x": 0.09158134460449219,
+                "y": 0.5017589926719666
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "49",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "919",
+              "endIndex": "936"
+            }
+          ],
+          "content": "Shipping/Handling"
+        },
+        "type": "line_item/description",
+        "mentionText": "Shipping/Handling",
+        "mentionId": "",
+        "confidence": 0.519595205783844,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.2246871441602707,
+                    "y": 0.5035180449485779
+                  },
+                  {
+                    "x": 0.3282138705253601,
+                    "y": 0.5035180449485779
+                  },
+                  {
+                    "x": 0.3282138705253601,
+                    "y": 0.5158311128616333
+                  },
+                  {
+                    "x": 0.2246871441602707,
+                    "y": 0.5158311128616333
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "57",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "1000",
+              "endIndex": "1003"
+            }
+          ],
+          "content": "100"
+        },
+        "type": "line_item/product_code",
+        "mentionText": "100",
+        "mentionId": "",
+        "confidence": 0.8255090117454529,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.09385665506124496,
+                    "y": 0.5043975114822388
+                  },
+                  {
+                    "x": 0.11149033159017563,
+                    "y": 0.5043975114822388
+                  },
+                  {
+                    "x": 0.11149033159017563,
+                    "y": 0.5131925940513611
+                  },
+                  {
+                    "x": 0.09385665506124496,
+                    "y": 0.5131925940513611
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "58",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "1004",
+              "endIndex": "1005"
+            }
+          ],
+          "content": "1"
+        },
+        "type": "line_item/quantity",
+        "mentionText": "1",
+        "mentionId": "",
+        "confidence": 0.5032123923301697,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.5870307087898254,
+                    "y": 0.5052770376205444
+                  },
+                  {
+                    "x": 0.5898748636245728,
+                    "y": 0.5052770376205444
+                  },
+                  {
+                    "x": 0.5898748636245728,
+                    "y": 0.5127528309822083
+                  },
+                  {
+                    "x": 0.5870307087898254,
+                    "y": 0.5127528309822083
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "59",
+        "normalizedValue": {
+          "text": "1"
+        },
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "1006",
+              "endIndex": "1007"
+            }
+          ],
+          "content": "1"
+        },
+        "type": "line_item/quantity",
+        "mentionText": "1",
+        "mentionId": "",
+        "confidence": 0.4851016700267792,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.6217292547225952,
+                    "y": 0.5048372745513916
+                  },
+                  {
+                    "x": 0.6245733499526978,
+                    "y": 0.5048372745513916
+                  },
+                  {
+                    "x": 0.6245733499526978,
+                    "y": 0.5123131275177002
+                  },
+                  {
+                    "x": 0.6217292547225952,
+                    "y": 0.5123131275177002
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "60",
+        "normalizedValue": {
+          "text": "1"
+        },
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "1008",
+              "endIndex": "1013"
+            }
+          ],
+          "content": "48.38"
+        },
+        "type": "line_item/unit_price",
+        "mentionText": "48.38",
+        "mentionId": "",
+        "confidence": 0.8795686960220337,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.7292377948760986,
+                    "y": 0.5043975114822388
+                  },
+                  {
+                    "x": 0.7622298002243042,
+                    "y": 0.5043975114822388
+                  },
+                  {
+                    "x": 0.7622298002243042,
+                    "y": 0.5127528309822083
+                  },
+                  {
+                    "x": 0.7292377948760986,
+                    "y": 0.5127528309822083
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "61",
+        "normalizedValue": {
+          "text": "48.38"
+        },
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "1014",
+              "endIndex": "1019"
+            }
+          ],
+          "content": "48.38"
+        },
+        "type": "line_item/amount",
+        "mentionText": "48.38",
+        "mentionId": "",
+        "confidence": 0.8964527249336243,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.8754266500473022,
+                    "y": 0.5043975114822388
+                  },
+                  {
+                    "x": 0.9078498482704163,
+                    "y": 0.5043975114822388
+                  },
+                  {
+                    "x": 0.9078498482704163,
+                    "y": 0.5131925940513611
+                  },
+                  {
+                    "x": 0.8754266500473022,
+                    "y": 0.5131925940513611
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "62",
+        "normalizedValue": {
+          "text": "48.38"
+        },
+        "provenance": null,
+        "redacted": false
+      }
+    ],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "919",
+          "endIndex": "936"
+        },
+        {
+          "startIndex": "1000",
+          "endIndex": "1003"
+        },
+        {
+          "startIndex": "1004",
+          "endIndex": "1005"
+        },
+        {
+          "startIndex": "1006",
+          "endIndex": "1007"
+        },
+        {
+          "startIndex": "1008",
+          "endIndex": "1013"
+        },
+        {
+          "startIndex": "1014",
+          "endIndex": "1019"
+        }
+      ],
+      "content": ""
+    },
+    "type": "line_item",
+    "mentionText": "Shipping/Handling 100 1 1 48.38 48.38",
+    "mentionId": "",
+    "confidence": 1,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.09385665506124496,
+                "y": 0.5035180449485779
+              },
+              {
+                "x": 0.9078498482704163,
+                "y": 0.5035180449485779
+              },
+              {
+                "x": 0.9078498482704163,
+                "y": 0.5158311128616333
+              },
+              {
+                "x": 0.09385665506124496,
+                "y": 0.5158311128616333
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "56",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  }
+]

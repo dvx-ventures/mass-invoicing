@@ -1,0 +1,98 @@
+{
+  "invoice_date": {
+    "value": "05/24/2024",
+    "confidence": 0.9891859889030457
+  },
+  "invoice_type": {
+    "value": "",
+    "confidence": 0.985127329826355
+  },
+  "due_date": {
+    "value": "05/24/2024",
+    "confidence": 0.980816662311554
+  },
+  "invoice_id": {
+    "value": "114692",
+    "confidence": 0.9768470525741577
+  },
+  "total_amount": {
+    "value": "241.55",
+    "confidence": 0.9671453237533569
+  },
+  "total_tax_amount": {
+    "value": "0.00",
+    "confidence": 0.925649881362915
+  },
+  "supplier_address": {
+    "value": "106 Glen Dale Dr\nWOODLAND PARK, CO 80863",
+    "confidence": 0.8664710521697998
+  },
+  "supplier_name": {
+    "value": "Brewing Science Institute",
+    "confidence": 0.7255120277404785
+  },
+  "currency": {
+    "value": "$",
+    "confidence": 0.5796791911125183
+  },
+  "line_items": [
+    {
+      "line_item/quantity": {
+        "value": "3",
+        "confidence": 0.7778924107551575
+      },
+      "line_item/product_code": {
+        "value": "A-68",
+        "confidence": 0.6676324605941772
+      },
+      "line_item/description": {
+        "value": "London Ale II",
+        "confidence": 0.557201087474823
+      },
+      "line_item/unit_price": {
+        "value": "43.00",
+        "confidence": 0.9295963048934937
+      },
+      "line_item/amount": {
+        "value": "129.00",
+        "confidence": 0.8773572444915771
+      }
+    },
+    {
+      "line_item/quantity": {
+        "value": "1",
+        "confidence": 0.80092853307724
+      },
+      "line_item/product_code": {
+        "value": "LMDA",
+        "confidence": 0.6507793068885803
+      },
+      "line_item/description": {
+        "value": "Bacteria Media",
+        "confidence": 0.5350126028060913
+      },
+      "line_item/unit_price": {
+        "value": "50.00",
+        "confidence": 0.9338585734367371
+      },
+      "line_item/amount": {
+        "value": "50.00",
+        "confidence": 0.8513002395629883
+      }
+    },
+    {
+      "line_item/description": {
+        "value": "Ship Date 5/22",
+        "confidence": 0.4640437066555023
+      },
+      "line_item/unit_price": {
+        "value": "62.55",
+        "confidence": 0.9226924180984497
+      },
+      "line_item/amount": {
+        "value": "62.55",
+        "confidence": 0.8341649770736694
+      }
+    }
+  ]
+}

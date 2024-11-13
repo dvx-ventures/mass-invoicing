@@ -1,0 +1,124 @@
+{
+  "invoice_date": {
+    "value": "7/30/2024",
+    "confidence": 0.9889503717422485
+  },
+  "invoice_type": {
+    "value": "",
+    "confidence": 0.98076993227005
+  },
+  "total_amount": {
+    "value": "1,418.73",
+    "confidence": 0.981218159198761
+  },
+  "net_amount": {
+    "value": "1,418.73",
+    "confidence": 0.9689486622810364
+  },
+  "total_tax_amount": {
+    "value": "0.00",
+    "confidence": 0.964918851852417
+  },
+  "invoice_id": {
+    "value": "IVC0000003901",
+    "confidence": 0.9350615739822388
+  },
+  "ship_to_address": {
+    "value": "6 \nFolsom \nRoad\nCenter \nOssipee\n, \nNH \n03814\nUSA",
+    "confidence": 0.8338963389396667
+  },
+  "supplier_address": {
+    "value": "PO Box 329\n39149 Red Arrow Hwy.\nPaw Paw, MI 49079\nUSA",
+    "confidence": 0.7084383368492126
+  },
+  "currency": {
+    "value": "$",
+    "confidence": 0.6827605366706848
+  },
+  "supplier_name": {
+    "value": "GLCC Co.",
+    "confidence": 0.6691586375236511
+  },
+  "freight_amount": {
+    "value": "0.00",
+    "confidence": 0.6150824427604675
+  },
+  "purchase_order": {
+    "value": "VerbalMatt070324",
+    "confidence": 0.5634170174598694
+  },
+  "supplier_phone": {
+    "value": "269-657-3167",
+    "confidence": 0.4963466227054596
+  },
+  "ship_to_name": {
+    "value": "Sap House Meadery",
+    "confidence": 0.4810976982116699
+  },
+  "carrier": {
+    "value": "Sap House Meadery",
+    "confidence": 0.44186046719551086
+  },
+  "receiver_address": {
+    "value": "6 Folsom Road\nCenter Ossipee, NH 03814\nUSA",
+    "confidence": 0.29755929112434387
+  },
+  "remit_to_address": {
+    "value": "PO Box 329\nPaw Paw, MI 49079",
+    "confidence": 0.1891910433769226
+  },
+  "line_items": [
+    {
+      "line_item/description": {
+        "value": "RASPBERRY WONF 50911.40 5 GAL PAIL, TEAR\nTAB",
+        "confidence": 0.6721988916397095
+      },
+      "line_item/quantity": {
+        "value": "6",
+        "confidence": 0.7814332246780396
+      },
+      "line_item/product_code": {
+        "value": "50911.40.04",
+        "confidence": 0.7974514961242676
+      },
+      "line_item/unit": {
+        "value": "Each",
+        "confidence": 0.6667894124984741
+      },
+      "line_item/unit_price": {
+        "value": "192.35",
+        "confidence": 0.8774289488792419
+      },
+      "line_item/amount": {
+        "value": "1,154.10",
+        "confidence": 0.8385151028633118
+      }
+    },
+    {
+      "line_item/quantity": {
+        "value": "1",
+        "confidence": 0.7416683435440063
+      },
+      "line_item/product_code": {
+        "value": "Freight Outgoing",
+        "confidence": 0.5548816919326782
+      },
+      "line_item/description": {
+        "value": "Freight, Outgoing, Flavors",
+        "confidence": 0.5261563658714294
+      },
+      "line_item/unit": {
+        "value": "Each",
+        "confidence": 0.7299883365631104
+      },
+      "line_item/unit_price": {
+        "value": "264.63",
+        "confidence": 0.9000262022018433
+      },
+      "line_item/amount": {
+        "value": "264.63",
+        "confidence": 0.8144694566726685
+      }
+    }
+  ]
+}

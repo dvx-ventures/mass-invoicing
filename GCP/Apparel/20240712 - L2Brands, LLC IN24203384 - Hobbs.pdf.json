@@ -1,0 +1,190 @@
+{
+  "invoice_date": {
+    "value": "7/12/2024",
+    "confidence": 0.987381637096405
+  },
+  "total_tax_amount": {
+    "value": "0.00",
+    "confidence": 0.9667096138000488
+  },
+  "net_amount": {
+    "value": "450.11",
+    "confidence": 0.9648948311805725
+  },
+  "total_amount": {
+    "value": "450.11",
+    "confidence": 0.9638206958770752
+  },
+  "due_date": {
+    "value": "08/11/2024",
+    "confidence": 0.9471427202224731
+  },
+  "invoice_id": {
+    "value": "IN24203384",
+    "confidence": 0.9479372501373291
+  },
+  "ship_to_address": {
+    "value": "765 NH Route 16\nOssipee, NH 03864\nUSA",
+    "confidence": 0.9188254475593567
+  },
+  "remit_to_name": {
+    "value": "L2 Brands, LLC",
+    "confidence": 0.7993304133415222
+  },
+  "ship_to_name": {
+    "value": "Hobbs Brewing Co",
+    "confidence": 0.7683702111244202
+  },
+  "receiver_address": {
+    "value": "756 Route 16\nOssipee, NH 03864\nUSA",
+    "confidence": 0.6483577489852905
+  },
+  "invoice_type": {
+    "value": "",
+    "confidence": 0.6203398704528809
+  },
+  "receiver_name": {
+    "value": "Hobbs Tavern & Brewing Company LLC",
+    "confidence": 0.6032161116600037
+  },
+  "supplier_name": {
+    "value": "L2 Brands, LLC",
+    "confidence": 0.5223729014396667
+  },
+  "remit_to_address": {
+    "value": "300 Fame Ave\nHanover, PA 17331",
+    "confidence": 0.45831501483917236
+  },
+  "carrier": {
+    "value": "FEDEX",
+    "confidence": 0.44186046719551086
+  },
+  "payment_terms": {
+    "value": "N30",
+    "confidence": 0.40436068177223206
+  },
+  "supplier_address": {
+    "value": "300 Fame Ave\nLOCALE Hanover, PA 17331",
+    "confidence": 0.34732767939567566
+  },
+  "supplier_phone": {
+    "value": "(717) 630-0892",
+    "confidence": 0.239898681640625
+  },
+  "purchase_order": {
+    "value": "22409131602",
+    "confidence": 0.19871146976947784
+  },
+  "line_items": [
+    {
+      "line_item/product_code": {
+        "value": "LA085-451-S",
+        "confidence": 0.7488265633583069
+      },
+      "line_item/quantity": {
+        "value": "1",
+        "confidence": 0.31001991033554077
+      },
+      "line_item/unit_price": {
+        "value": "11.50",
+        "confidence": 0.9465199708938599
+      },
+      "line_item/amount": {
+        "value": "80.50",
+        "confidence": 0.9095526933670044
+      },
+      "line_item/description": {
+        "value": "REORDER#:2016135 - Heather\nriviera LA085 w/ Hobbs Tavern Log",
+        "confidence": 0.567712664604187
+      }
+    },
+    {
+      "line_item/product_code": {
+        "value": "LA085-451-M",
+        "confidence": 0.750819742679596
+      },
+      "line_item/quantity": {
+        "value": "1",
+        "confidence": 0.19233623147010803
+      },
+      "line_item/unit_price": {
+        "value": "11.50",
+        "confidence": 0.9481538534164429
+      },
+      "line_item/amount": {
+        "value": "115.00",
+        "confidence": 0.9305134415626526
+      },
+      "line_item/description": {
+        "value": "REORDER#:2016135 - Heather\nriviera LA085 w/ Hobbs Tavern Log",
+        "confidence": 0.44864141941070557
+      }
+    },
+    {
+      "line_item/description": {
+        "value": "REORDER#:2016135 - Heather\nriviera LA085 w/ Hobbs Tavern Log",
+        "confidence": 0.4486583471298218
+      },
+      "line_item/product_code": {
+        "value": "LA085-451-L",
+        "confidence": 0.7536091208457947
+      },
+      "line_item/quantity": {
+        "value": "1",
+        "confidence": 0.47390273213386536
+      },
+      "line_item/unit_price": {
+        "value": "11.50",
+        "confidence": 0.87824547290802
+      },
+      "line_item/amount": {
+        "value": "115.00",
+        "confidence": 0.8928003907203674
+      }
+    },
+    {
+      "line_item/description": {
+        "value": "REORDER#:2016135 - Heather\nriviera LA085 w/ Hobbs Tavern Log",
+        "confidence": 0.44534939527511597
+      },
+      "line_item/product_code": {
+        "value": "LA085-451-XL",
+        "confidence": 0.8132553100585938
+      },
+      "line_item/quantity": {
+        "value": "1",
+        "confidence": 0.556111752986908
+      },
+      "line_item/unit_price": {
+        "value": "11.50",
+        "confidence": 0.8873337507247925
+      },
+      "line_item/amount": {
+        "value": "115.00",
+        "confidence": 0.8992800712585449
+      }
+    },
+    {
+      "line_item/description": {
+        "value": "Shipping/Handling",
+        "confidence": 0.5546566843986511
+      },
+      "line_item/product_code": {
+        "value": "100",
+        "confidence": 0.8246873021125793
+      },
+      "line_item/quantity": {
+        "value": "1",
+        "confidence": 0.43901050090789795
+      },
+      "line_item/unit_price": {
+        "value": "24.61",
+        "confidence": 0.851110577583313
+      },
+      "line_item/amount": {
+        "value": "24.61",
+        "confidence": 0.8950108289718628
+      }
+    }
+  ]
+}

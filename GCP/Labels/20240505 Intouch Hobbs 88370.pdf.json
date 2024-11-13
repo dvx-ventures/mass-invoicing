@@ -1,0 +1,168 @@
+{
+  "vat": {
+    "vat/tax_rate": {
+      "value": "0.0900",
+      "confidence": 0.6620811223983765
+    }
+  },
+  "net_amount": {
+    "value": "1,409.79",
+    "confidence": 0.9837379455566406
+  },
+  "due_date": {
+    "value": "5/19/2024",
+    "confidence": 0.971025288105011
+  },
+  "invoice_date": {
+    "value": "4/19/2024",
+    "confidence": 0.9635189771652222
+  },
+  "invoice_id": {
+    "value": "88370",
+    "confidence": 0.943755030632019
+  },
+  "total_tax_amount": {
+    "value": "0.00",
+    "confidence": 0.9321399927139282
+  },
+  "ship_to_address": {
+    "value": "2415 NH Route 16\nWest Ossipee, NH 03890",
+    "confidence": 0.9212759733200073
+  },
+  "receiver_name": {
+    "value": "Hobbs Tavern and Brewing Company",
+    "confidence": 0.766496479511261
+  },
+  "ship_to_name": {
+    "value": "Hobbs Brewing Company",
+    "confidence": 0.7633463144302368
+  },
+  "invoice_type": {
+    "value": "",
+    "confidence": 0.6740116477012634
+  },
+  "supplier_name": {
+    "value": "Avery Products Corporation",
+    "confidence": 0.6293373107910156
+  },
+  "supplier_address": {
+    "value": "12 Technology Drive\nNorth Chelmsford, MA 01863",
+    "confidence": 0.6239330172538757
+  },
+  "total_amount": {
+    "value": "1,409.79",
+    "confidence": 0.6217036843299866
+  },
+  "currency": {
+    "value": "$",
+    "confidence": 0.5733428001403809
+  },
+  "payment_terms": {
+    "value": "Net 30",
+    "confidence": 0.4566708207130432
+  },
+  "carrier": {
+    "value": "UPS",
+    "confidence": 0.44186046719551086
+  },
+  "receiver_address": {
+    "value": "765 NH 16\nOssipee, NH 03864",
+    "confidence": 0.34360960125923157
+  },
+  "line_items": [
+    {
+      "line_item/unit_price": {
+        "value": "0.090000",
+        "confidence": 0.9227078557014465
+      },
+      "line_item/amount": {
+        "value": "540.00",
+        "confidence": 0.8717751502990723
+      },
+      "line_item/description": {
+        "value": "Lake Life 16oz",
+        "confidence": 0.578265368938446
+      },
+      "line_item/quantity": {
+        "value": "6,000.00",
+        "confidence": 0.955302357673645
+      }
+    },
+    {
+      "line_item/description": {
+        "value": "Camp Life NEIPA 16oz",
+        "confidence": 0.5925571918487549
+      },
+      "line_item/quantity": {
+        "value": "1,500.00",
+        "confidence": 0.9428881406784058
+      },
+      "line_item/unit_price": {
+        "value": "0.090000",
+        "confidence": 0.9089375138282776
+      },
+      "line_item/amount": {
+        "value": "135.00",
+        "confidence": 0.8694493770599365
+      }
+    },
+    {
+      "line_item/description": {
+        "value": "HiJack 16oz",
+        "confidence": 0.4689970910549164
+      },
+      "line_item/amount": {
+        "value": "540.00",
+        "confidence": 0.886383056640625
+      },
+      "line_item/quantity": {
+        "value": "6,000.00",
+        "confidence": 0.946644127368927
+      },
+      "line_item/unit_price": {
+        "value": "0.090000",
+        "confidence": 0.8652885556221008
+      }
+    },
+    {
+      "line_item/quantity": {
+        "value": "1,500.00",
+        "confidence": 0.9435568451881409
+      },
+      "line_item/description": {
+        "value": "River Drifter 16oz",
+        "confidence": 0.623559832572937
+      },
+      "line_item/unit_price": {
+        "value": "0.090000",
+        "confidence": 0.8396158814430237
+      },
+      "line_item/amount": {
+        "value": "135.00",
+        "confidence": 0.8655816316604614
+      }
+    },
+    {
+      "line_item/unit_price": {
+        "value": "59.790000",
+        "confidence": 0.8646962642669678
+      },
+      "line_item/product_code": {
+        "value": "Shipping",
+        "confidence": 0.5088003873825073
+      },
+      "line_item/description": {
+        "value": "UPS Ground",
+        "confidence": 0.42021724581718445
+      },
+      "line_item/quantity": {
+        "value": "1.00",
+        "confidence": 0.9406672716140747
+      },
+      "line_item/amount": {
+        "value": "59.79",
+        "confidence": 0.876772940158844
+      }
+    }
+  ]
+}

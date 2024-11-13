@@ -1,5 +1,6 @@
-// Imports the Google Cloud client library
+// Imports the Google Cloud client libraries
 const { DocumentProcessorServiceClient } = require('@google-cloud/documentai').v1;
+const { Storage } = require('@google-cloud/storage');
 const fs = require('fs-extra'); // Use fs-extra for promise-based methods
 const path = require('path');
 
@@ -14,120 +15,109 @@ const inputDir = argv.inputDir;
 const outputDir = argv.outputDir;
 const entitiesOutputDir = argv.entitiesOutputDir;
 
+// Initialize Document AI client
+const documentClient = new DocumentProcessorServiceClient({
+  keyFilename: '../invoice_credentials.json', // Update this path
+});
+
+// Initialize Google Cloud Storage client
+const storage = new Storage({
+  keyFilename: '../invoice_credentials.json', // Update this path
+});
+
+// Function to upload PDF to Cloud Storage
+async function uploadToCloudStorage(filePath, bucketName) {
+  const fileName = path.basename(filePath);
+  const bucket = storage.bucket(bucketName);
+  
+  await bucket.upload(filePath, {
+    destination: fileName,
+    resumable: false,
+  });
+  
+  console.log(`${fileName} uploaded to ${bucketName}.`);
+  return `gs://${bucketName}/${fileName}`;
+}
+
 // Function to process a single invoice PDF
 async function processInvoice(filePath, outputFilePath, entitiesOutputFilePath) {
-  // Set these variables before running the script
-  const projectId = 'mass-data-tools';
-  const location = 'us';  // Format: 'us' or 'eu'
-  const processorId = '2af4402ea6a6c913';
-  const mimeType = 'application/pdf';  // e.g., application/pdf
-
-  // Provide the path to your service account key file
-  const client = new DocumentProcessorServiceClient({
-    keyFilename: '../invoice_credentials.json', // Update this path
-  });
-
-  // The full resource name of the processor
-  const name = `projects/${projectId}/locations/${location}/processors/${processorId}`;
-
-  try {
-    // Debugging: Log filePath
-    console.log('Processing file:', filePath);
-
-    // Read the file into a buffer
-    const imageFile = await fs.readFile(filePath);
-    const encodedImage = imageFile.toString('base64');
-
-    // Configure the request
-    const request = {
-      name: name,
-      rawDocument: {
-        content: encodedImage,
-        mimeType: mimeType,
-      },
-    };
-
-    // Process the document
-    const [result] = await client.processDocument(request);
-    const { document } = result;
-
-    // Write document.entities to the entities output file
-    await fs.ensureDir(path.dirname(entitiesOutputFilePath));
-    await fs.writeFile(entitiesOutputFilePath, JSON.stringify(document.entities, null, 2));
-
-    // Initialize the invoice object
-    const invoiceData = {};
-
-    // Collect line items separately
-    const lineItems = [];
-
-    if (document.entities && document.entities.length > 0) {
-      console.log('Processing document:', filePath);
-      document.entities.forEach(entity => {
-        // Check if the entity has properties
-        if (entity.properties && entity.properties.length > 0) {
-          // Initialize an object to hold the entity's properties
-          const entityData = {};
-
-          entity.properties.forEach(property => {
-            const key = property.type; // Use the property type as the key
-            const value = property.textAnchor
-              ? getText(property.textAnchor, document.text)
-              : '';
-            const confidence = property.confidence || 0;
-
-            // Include value and confidence
-            entityData[key] = {
-              value: value,
-              confidence: confidence,
-            };
-          });
-
-          if (entity.type === 'line_item') {
-            // Add to line items array
-            lineItems.push(entityData);
-          } else {
-            // Add to invoice data using the entity type as the key
-            invoiceData[entity.type] = entityData;
-          }
-        } else {
-          // Entities without properties
-          const key = entity.type; // Use the entity field name as the key
-          const value = entity.textAnchor
-            ? getText(entity.textAnchor, document.text)
-            : '';
-          const confidence = entity.confidence || 0;
-
-          // Include value and confidence
-          invoiceData[key] = {
-            value: value,
-            confidence: confidence,
-          };
+    const projectId = 'mass-data-tools';
+    const location = 'us';  // Ensure this matches your processor’s region
+    const processorId = '2af4402ea6a6c913';
+    const mimeType = 'application/pdf';
+    const bucketName = 'mass-invoicing';  // Replace with your Cloud Storage bucket name
+  
+    // The full resource name of the processor
+    const name = `projects/${projectId}/locations/${location}/processors/${processorId}`;
+  
+    try {
+      // Upload the file to Cloud Storage and get the GCS URI
+      const gcsUri = await uploadToCloudStorage(filePath, bucketName);
+      
+      console.log("gcsURI:",gcsUri);
+      // Configure the request for Document AI using the GCS URI
+      const request = {
+        name,
+        rawDocument: {
+            content: await fs.readFile(filePath),
+            mimeType: 'application/pdf'
         }
-      });
-
-      // Add line items to the invoice data if any
-      if (lineItems.length > 0) {
-        invoiceData['line_items'] = lineItems;
+        };
+        
+      console.log("request:",request);
+      // Process the document
+      const [result] = await documentClient.processDocument(request);
+      const { document } = result;
+  
+      // Write document.entities to the entities output file
+      await fs.ensureDir(path.dirname(entitiesOutputFilePath));
+      await fs.writeFile(entitiesOutputFilePath, JSON.stringify(document.entities, null, 2));
+  
+      // Handle extracted document entities and properties
+      const invoiceData = {};
+      const lineItems = [];
+  
+      if (document.entities && document.entities.length > 0) {
+        document.entities.forEach(entity => {
+          const entityData = {};
+          if (entity.properties && entity.properties.length > 0) {
+            entity.properties.forEach(property => {
+              const key = property.type;
+              const value = property.textAnchor ? getText(property.textAnchor, document.text) : '';
+              const confidence = property.confidence || 0;
+              entityData[key] = { value, confidence };
+            });
+  
+            if (entity.type === 'line_item') {
+              lineItems.push(entityData);
+            } else {
+              invoiceData[entity.type] = entityData;
+            }
+          } else {
+            const key = entity.type;
+            const value = entity.textAnchor ? getText(entity.textAnchor, document.text) : '';
+            const confidence = entity.confidence || 0;
+            invoiceData[key] = { value, confidence };
+          }
+        });
+  
+        if (lineItems.length > 0) {
+          invoiceData['line_items'] = lineItems;
+        }
+  
+        const jsonOutput = JSON.stringify(invoiceData, null, 2);
+        await fs.ensureDir(path.dirname(outputFilePath));
+        await fs.writeFile(outputFilePath, jsonOutput);
+  
+        console.log(`Invoice data has been written to ${outputFilePath}`);
+      } else {
+        console.log('No entities found in the document.');
       }
-
-      // Output the invoice data as JSON
-      const jsonOutput = JSON.stringify(invoiceData, null, 2);
-
-      // Ensure the output directory exists
-      await fs.ensureDir(path.dirname(outputFilePath));
-
-      // Write the JSON data to a file
-      await fs.writeFile(outputFilePath, jsonOutput);
-
-      console.log(`Invoice data has been written to ${outputFilePath}`);
-    } else {
-      console.log('No entities found in the document.');
+    } catch (error) {
+      console.error('Error processing document:', error);
     }
-  } catch (error) {
-    console.error('Error processing document:', error);
   }
-}
+  
 
 // Helper function to extract text using text anchors
 function getText(textAnchor, text) {

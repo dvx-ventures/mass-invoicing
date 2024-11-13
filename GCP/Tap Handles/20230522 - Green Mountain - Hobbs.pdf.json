@@ -1,0 +1,112 @@
+{
+  "invoice_id": {
+    "value": "10850",
+    "confidence": 0.9710376858711243
+  },
+  "invoice_date": {
+    "value": "5/22/2023",
+    "confidence": 0.9552031755447388
+  },
+  "due_date": {
+    "value": "5/22/2023",
+    "confidence": 0.9279195070266724
+  },
+  "supplier_email": {
+    "value": "accounting@greenmountaintaps.com",
+    "confidence": 0.8727445006370544
+  },
+  "supplier_website": {
+    "value": "www.greenmountaintaps.com",
+    "confidence": 0.8002485036849976
+  },
+  "total_amount": {
+    "value": "614.69",
+    "confidence": 0.7516554594039917
+  },
+  "receiver_name": {
+    "value": "Hobbs Tavern & Brewing Co.",
+    "confidence": 0.7406386733055115
+  },
+  "ship_to_address": {
+    "value": "765 \nNH\n-\n16\nOssipee\n,\nNH \n03864",
+    "confidence": 0.6881296038627625
+  },
+  "supplier_address": {
+    "value": "PO Box 371\nHinsdale, NH 03451",
+    "confidence": 0.6836825609207153
+  },
+  "ship_to_name": {
+    "value": "ewing Co.\nHobbs \nTavern \n&",
+    "confidence": 0.654872477054596
+  },
+  "supplier_phone": {
+    "value": "(603) 336-5555",
+    "confidence": 0.6266752481460571
+  },
+  "invoice_type": {
+    "value": "",
+    "confidence": 0.560038685798645
+  },
+  "currency": {
+    "value": "$",
+    "confidence": 0.5529170632362366
+  },
+  "payment_terms": {
+    "value": "Upon Receipt",
+    "confidence": 0.5352186560630798
+  },
+  "purchase_order": {
+    "value": "3913",
+    "confidence": 0.45824891328811646
+  },
+  "carrier": {
+    "value": "UPS",
+    "confidence": 0.44186046719551086
+  },
+  "receiver_address": {
+    "value": "765 NH -16\nOssipee,NH",
+    "confidence": 0.2610629200935364
+  },
+  "supplier_name": {
+    "value": "",
+    "confidence": 0
+  },
+  "line_items": [
+    {
+      "line_item/product_code": {
+        "value": "Hobbs",
+        "confidence": 0.5150708556175232
+      },
+      "line_item/quantity": {
+        "value": "200",
+        "confidence": 0.8833755850791931
+      },
+      "line_item/unit_price": {
+        "value": "3.00",
+        "confidence": 0.9205833077430725
+      },
+      "line_item/amount": {
+        "value": "600.00",
+        "confidence": 0.9054769277572632
+      },
+      "line_item/description": {
+        "value": "HOBBS LBL 1001\n5/18 LABEL SETS",
+        "confidence": 0.5766926407814026
+      }
+    },
+    {
+      "line_item/description": {
+        "value": "Shipping & Handl... UPS Shipping & Handling",
+        "confidence": 0.45284104347229004
+      },
+      "line_item/unit_price": {
+        "value": "14.688",
+        "confidence": 0.895862877368927
+      },
+      "line_item/amount": {
+        "value": "14.69",
+        "confidence": 0.8996594548225403
+      }
+    }
+  ]
+}

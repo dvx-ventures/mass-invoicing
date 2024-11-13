@@ -1,0 +1,168 @@
+{
+  "vat": {
+    "vat/tax_rate": {
+      "value": "0.0900",
+      "confidence": 0.6617261171340942
+    }
+  },
+  "net_amount": {
+    "value": "1,172.90",
+    "confidence": 0.9835559129714966
+  },
+  "invoice_date": {
+    "value": "5/5/2023",
+    "confidence": 0.9696319699287415
+  },
+  "due_date": {
+    "value": "6/4/2023",
+    "confidence": 0.9673024415969849
+  },
+  "total_tax_amount": {
+    "value": "0.00",
+    "confidence": 0.9334997534751892
+  },
+  "invoice_id": {
+    "value": "74512",
+    "confidence": 0.9247856140136719
+  },
+  "ship_to_address": {
+    "value": "2415 NH Route 16\nWest Ossipee, NH 03890",
+    "confidence": 0.9252446889877319
+  },
+  "invoice_type": {
+    "value": "",
+    "confidence": 0.8628578782081604
+  },
+  "ship_to_name": {
+    "value": "Hobbs Brewing Company",
+    "confidence": 0.7559797167778015
+  },
+  "receiver_name": {
+    "value": "Hobbs Tavern and Brewing Company",
+    "confidence": 0.7345879077911377
+  },
+  "total_amount": {
+    "value": "1,172.90",
+    "confidence": 0.619950532913208
+  },
+  "supplier_name": {
+    "value": "Avery Products Corporation",
+    "confidence": 0.48363351821899414
+  },
+  "payment_terms": {
+    "value": "Net 30",
+    "confidence": 0.45697513222694397
+  },
+  "carrier": {
+    "value": "UPS",
+    "confidence": 0.44186046719551086
+  },
+  "receiver_address": {
+    "value": "765 NH 16\nOssipee, NH 03864",
+    "confidence": 0.3697803318500519
+  },
+  "supplier_address": {
+    "value": "30 Payton Street\nLowell, MA 01852",
+    "confidence": 0.36537492275238037
+  },
+  "line_items": [
+    {
+      "line_item/product_code": {
+        "value": "Labels",
+        "confidence": 0.41519924998283386
+      },
+      "line_item/description": {
+        "value": "HiJack 16oz",
+        "confidence": 0.5685251355171204
+      },
+      "line_item/unit_price": {
+        "value": "0.090000",
+        "confidence": 0.9186576008796692
+      },
+      "line_item/amount": {
+        "value": "306.00",
+        "confidence": 0.8501646518707275
+      },
+      "line_item/quantity": {
+        "value": "3,400.00",
+        "confidence": 0.9514591097831726
+      }
+    },
+    {
+      "line_item/unit_price": {
+        "value": "0.090000",
+        "confidence": 0.9033259749412537
+      },
+      "line_item/amount": {
+        "value": "180.00",
+        "confidence": 0.8346333503723145
+      },
+      "line_item/quantity": {
+        "value": "2,000.00",
+        "confidence": 0.9527912735939026
+      },
+      "line_item/description": {
+        "value": "Hold My Juice 16oz",
+        "confidence": 0.6341567039489746
+      }
+    },
+    {
+      "line_item/quantity": {
+        "value": "3,500.00",
+        "confidence": 0.9453526735305786
+      },
+      "line_item/description": {
+        "value": "Jacke Up 16oz",
+        "confidence": 0.5700348615646362
+      },
+      "line_item/amount": {
+        "value": "315.00",
+        "confidence": 0.8570795655250549
+      },
+      "line_item/unit_price": {
+        "value": "0.090000",
+        "confidence": 0.8548454642295837
+      }
+    },
+    {
+      "line_item/quantity": {
+        "value": "3,800.00",
+        "confidence": 0.9475579261779785
+      },
+      "line_item/description": {
+        "value": "River Drifter 16oz",
+        "confidence": 0.5926001071929932
+      },
+      "line_item/unit_price": {
+        "value": "0.090000",
+        "confidence": 0.8455968499183655
+      },
+      "line_item/amount": {
+        "value": "342.00",
+        "confidence": 0.8431155681610107
+      }
+    },
+    {
+      "line_item/unit_price": {
+        "value": "29.900000",
+        "confidence": 0.8700056076049805
+      },
+      "line_item/product_code": {
+        "value": "Shipping",
+        "confidence": 0.42862462997436523
+      },
+      "line_item/description": {
+        "value": "UPS Ground",
+        "confidence": 0.3909923732280731
+      },
+      "line_item/quantity": {
+        "value": "1.00",
+        "confidence": 0.9436114430427551
+      },
+      "line_item/amount": {
+        "value": "29.90",
+        "confidence": 0.8261190056800842
+      }
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "invoice_id": {
+    "value": "IN0123619",
+    "confidence": 0.9561489224433899
+  },
+  "due_date": {
+    "value": "8/20/2021",
+    "confidence": 0.9449781775474548
+  },
+  "total_amount": {
+    "value": "746.26",
+    "confidence": 0.9399716258049011
+  },
+  "invoice_date": {
+    "value": "7/21/2021",
+    "confidence": 0.9293410778045654
+  },
+  "ship_to_address": {
+    "value": "765 White Mountain Highway\nOssipee, NH 03864",
+    "confidence": 0.8487154245376587
+  },
+  "invoice_type": {
+    "value": "",
+    "confidence": 0.8254868984222412
+  },
+  "supplier_website": {
+    "value": "www.zh-inc.com",
+    "confidence": 0.7876585125923157
+  },
+  "supplier_address": {
+    "value": "191 s. gulph road\nZUCKERMAN king of prussia, pa 19406\nHONICKMAN",
+    "confidence": 0.7094427943229675
+  },
+  "ship_to_name": {
+    "value": "Hobbs Tavern & Brewing Company, L",
+    "confidence": 0.6543493270874023
+  },
+  "supplier_tax_id": {
+    "value": "86823 1358 RT0001",
+    "confidence": 0.4649279713630676
+  },
+  "payment_terms": {
+    "value": "Net 30 Days",
+    "confidence": 0.45004966855049133
+  },
+  "receiver_name": {
+    "value": "Hobbs Tavern & Brewing Company, LLC",
+    "confidence": 0.42723241448402405
+  },
+  "ship_from_address": {
+    "value": "765 White Mountain Highway\nOssipee, NH 03864",
+    "confidence": 0.346688836812973
+  },
+  "receiver_address": {
+    "value": "765 White Mountain Highway\nOssipee, NH 03864",
+    "confidence": 0.3034079670906067
+  },
+  "line_items": [
+    {
+      "line_item/description": {
+        "value": "WARD",
+        "confidence": 0.5499051809310913
+      },
+      "line_item/quantity": {
+        "value": "1",
+        "confidence": 0.8782883882522583
+      },
+      "line_item/unit": {
+        "value": "Ea",
+        "confidence": 0.4045899212360382
+      },
+      "line_item/unit_price": {
+        "value": "746.26",
+        "confidence": 0.8921741843223572
+      },
+      "line_item/product_code": {
+        "value": "FRTOUT-BEV-118",
+        "confidence": 0.709446370601654
+      },
+      "line_item/amount": {
+        "value": "746.26",
+        "confidence": 0.9017173051834106
+      }
+    },
+    {
+      "line_item/quantity": {
+        "value": "1",
+        "confidence": 0.5027936100959778
+      },
+      "line_item/unit": {
+        "value": "Ea",
+        "confidence": 0.8502324819564819
+      },
+      "line_item/description": {
+        "value": "FRTOUT-BEV",
+        "confidence": 0.4311152994632721
+      }
+    }
+  ]
+}

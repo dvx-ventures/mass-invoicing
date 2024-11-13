@@ -1,0 +1,1691 @@
+[
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "114",
+          "endIndex": "123"
+        }
+      ],
+      "content": "9/30/2022"
+    },
+    "type": "invoice_date",
+    "mentionText": "9/30/2022",
+    "mentionId": "",
+    "confidence": 0.9783956408500671,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.776450514793396,
+                "y": 0.09890110045671463
+              },
+              {
+                "x": 0.8367462754249573,
+                "y": 0.09890110045671463
+              },
+              {
+                "x": 0.8367462754249573,
+                "y": 0.10857142508029938
+              },
+              {
+                "x": 0.776450514793396,
+                "y": 0.10857142508029938
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "0",
+    "normalizedValue": {
+      "text": "2022-09-30",
+      "dateValue": {
+        "year": 2022,
+        "month": 9,
+        "day": 30
+      },
+      "structuredValue": "dateValue"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "106",
+          "endIndex": "113"
+        }
+      ],
+      "content": "3360431"
+    },
+    "type": "invoice_id",
+    "mentionText": "3360431",
+    "mentionId": "",
+    "confidence": 0.9700231552124023,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.7781569957733154,
+                "y": 0.08351648598909378
+              },
+              {
+                "x": 0.829351544380188,
+                "y": 0.08351648598909378
+              },
+              {
+                "x": 0.829351544380188,
+                "y": 0.09318681061267853
+              },
+              {
+                "x": 0.7781569957733154,
+                "y": 0.09318681061267853
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "1",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "837",
+          "endIndex": "843"
+        }
+      ],
+      "content": "484.00"
+    },
+    "type": "total_amount",
+    "mentionText": "484.00",
+    "mentionId": "",
+    "confidence": 0.9669286012649536,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.9027303457260132,
+                "y": 0.6021978259086609
+              },
+              {
+                "x": 0.9368600845336914,
+                "y": 0.6021978259086609
+              },
+              {
+                "x": 0.9368600845336914,
+                "y": 0.6114285588264465
+              },
+              {
+                "x": 0.9027303457260132,
+                "y": 0.6114285588264465
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "2",
+    "normalizedValue": {
+      "text": "484"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "797",
+          "endIndex": "803"
+        }
+      ],
+      "content": "484.00"
+    },
+    "type": "net_amount",
+    "mentionText": "484.00",
+    "mentionId": "",
+    "confidence": 0.9608317017555237,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.9044368863105774,
+                "y": 0.5542857050895691
+              },
+              {
+                "x": 0.9379976987838745,
+                "y": 0.5542857050895691
+              },
+              {
+                "x": 0.9379976987838745,
+                "y": 0.563076913356781
+              },
+              {
+                "x": 0.9044368863105774,
+                "y": 0.563076913356781
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "3",
+    "normalizedValue": {
+      "text": "484"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": null,
+    "type": "invoice_type",
+    "mentionText": "",
+    "mentionId": "",
+    "confidence": 0.9191211462020874,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": null,
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "4",
+    "normalizedValue": {
+      "text": "invoice_statement"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "809",
+          "endIndex": "813"
+        }
+      ],
+      "content": "0.00"
+    },
+    "type": "total_tax_amount",
+    "mentionText": "0.00",
+    "mentionId": "",
+    "confidence": 0.9071663618087769,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.916951060295105,
+                "y": 0.5692307949066162
+              },
+              {
+                "x": 0.9368600845336914,
+                "y": 0.5692307949066162
+              },
+              {
+                "x": 0.9368600845336914,
+                "y": 0.5775824189186096
+              },
+              {
+                "x": 0.916951060295105,
+                "y": 0.5775824189186096
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "5",
+    "normalizedValue": {
+      "text": "0"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "38",
+          "endIndex": "70"
+        }
+      ],
+      "content": "101 Emerson Rd\nMilford, NH 03055"
+    },
+    "type": "supplier_address",
+    "mentionText": "101 Emerson Rd\nMilford, NH 03055",
+    "mentionId": "",
+    "confidence": 0.8415436744689941,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.07736063748598099,
+                "y": 0.09098900854587555
+              },
+              {
+                "x": 0.1939704269170761,
+                "y": 0.09098900854587555
+              },
+              {
+                "x": 0.1939704269170761,
+                "y": 0.11560439318418503
+              },
+              {
+                "x": 0.07736063748598099,
+                "y": 0.11560439318418503
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "6",
+    "normalizedValue": {
+      "text": "34 Hammond Rd Milford, NH 03055 USA",
+      "addressValue": {
+        "addressLines": [
+          "34 Hammond Rd"
+        ],
+        "recipients": [],
+        "revision": 0,
+        "regionCode": "US",
+        "languageCode": "en-US",
+        "postalCode": "03055",
+        "sortingCode": "",
+        "administrativeArea": "New Hampshire",
+        "locality": "Milford",
+        "sublocality": "",
+        "organization": ""
+      },
+      "structuredValue": "addressValue"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "477",
+          "endIndex": "483"
+        }
+      ],
+      "content": "NET 30"
+    },
+    "type": "payment_terms",
+    "mentionText": "NET 30",
+    "mentionId": "",
+    "confidence": 0.6714891195297241,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.3111490309238434,
+                "y": 0.37450549006462097
+              },
+              {
+                "x": 0.34926050901412964,
+                "y": 0.37450549006462097
+              },
+              {
+                "x": 0.34926050901412964,
+                "y": 0.3841758370399475
+              },
+              {
+                "x": 0.3111490309238434,
+                "y": 0.3841758370399475
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "7",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "156",
+          "endIndex": "185"
+        }
+      ],
+      "content": "Hobbs Brewing Company Taproom"
+    },
+    "type": "receiver_name",
+    "mentionText": "Hobbs Brewing Company Taproom",
+    "mentionId": "",
+    "confidence": 0.6437516212463379,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.1331057995557785,
+                "y": 0.22241757810115814
+              },
+              {
+                "x": 0.33674630522727966,
+                "y": 0.22241757810115814
+              },
+              {
+                "x": 0.33674630522727966,
+                "y": 0.2351648360490799
+              },
+              {
+                "x": 0.1331057995557785,
+                "y": 0.2351648360490799
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "8",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "836",
+          "endIndex": "837"
+        }
+      ],
+      "content": "$"
+    },
+    "type": "currency",
+    "mentionText": "$",
+    "mentionId": "",
+    "confidence": 0.5862122774124146,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.8987485766410828,
+                "y": 0.6021978259086609
+              },
+              {
+                "x": 0.9021615386009216,
+                "y": 0.6021978259086609
+              },
+              {
+                "x": 0.9021615386009216,
+                "y": 0.6114285588264465
+              },
+              {
+                "x": 0.8987485766410828,
+                "y": 0.6114285588264465
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "9",
+    "normalizedValue": {
+      "text": "USD"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "124",
+          "endIndex": "131"
+        }
+      ],
+      "content": "3360431"
+    },
+    "type": "purchase_order",
+    "mentionText": "3360431",
+    "mentionId": "",
+    "confidence": 0.5254381895065308,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.7775881886482239,
+                "y": 0.11428571492433548
+              },
+              {
+                "x": 0.8287827372550964,
+                "y": 0.11428571492433548
+              },
+              {
+                "x": 0.8287827372550964,
+                "y": 0.12395604699850082
+              },
+              {
+                "x": 0.7775881886482239,
+                "y": 0.12395604699850082
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "10",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "21",
+          "endIndex": "37"
+        }
+      ],
+      "content": "JP Pest Services"
+    },
+    "type": "supplier_name",
+    "mentionText": "JP Pest Services",
+    "mentionId": "",
+    "confidence": 0.5230607986450195,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.07679180800914764,
+                "y": 0.07736263424158096
+              },
+              {
+                "x": 0.18543799221515656,
+                "y": 0.07736263424158096
+              },
+              {
+                "x": 0.18543799221515656,
+                "y": 0.08747252821922302
+              },
+              {
+                "x": 0.07679180800914764,
+                "y": 0.08747252821922302
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "11",
+    "normalizedValue": {
+      "text": "JP Pest Services"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "186",
+          "endIndex": "221"
+        }
+      ],
+      "content": "765 Route 16\nOssipee, NH 03864-7167"
+    },
+    "type": "receiver_address",
+    "mentionText": "765 Route 16\nOssipee, NH 03864-7167",
+    "mentionId": "",
+    "confidence": 0.5142704248428345,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.1342434585094452,
+                "y": 0.23472528159618378
+              },
+              {
+                "x": 0.2827076315879822,
+                "y": 0.23472528159618378
+              },
+              {
+                "x": 0.2827076315879822,
+                "y": 0.2571428716182709
+              },
+              {
+                "x": 0.1342434585094452,
+                "y": 0.2571428716182709
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "12",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "71",
+          "endIndex": "83"
+        }
+      ],
+      "content": "603-673-2908"
+    },
+    "type": "supplier_phone",
+    "mentionText": "603-673-2908",
+    "mentionId": "",
+    "confidence": 0.26854389905929565,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.07679180800914764,
+                "y": 0.11692307889461517
+              },
+              {
+                "x": 0.1666666716337204,
+                "y": 0.11692307889461517
+              },
+              {
+                "x": 0.1666666716337204,
+                "y": 0.12747253477573395
+              },
+              {
+                "x": 0.07679180800914764,
+                "y": 0.12747253477573395
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "13",
+    "normalizedValue": {
+      "text": "+1 603 673 2908"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "533",
+              "endIndex": "547"
+            }
+          ],
+          "content": "CR RFP INITIAL"
+        },
+        "type": "line_item/description",
+        "mentionText": "CR RFP INITIAL",
+        "mentionId": "",
+        "confidence": 0.5786767601966858,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.04493742808699608,
+                    "y": 0.4843955934047699
+                  },
+                  {
+                    "x": 0.12741751968860626,
+                    "y": 0.4843955934047699
+                  },
+                  {
+                    "x": 0.12741751968860626,
+                    "y": 0.4927472472190857
+                  },
+                  {
+                    "x": 0.04493742808699608,
+                    "y": 0.4927472472190857
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "15",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "548",
+              "endIndex": "586"
+            }
+          ],
+          "content": "RETAIL FOOD PROTECTION PROGRAM INITIAL"
+        },
+        "type": "line_item/description",
+        "mentionText": "RETAIL FOOD PROTECTION PROGRAM INITIAL",
+        "mentionId": "",
+        "confidence": 0.4401724338531494,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.2946530282497406,
+                    "y": 0.4839560389518738
+                  },
+                  {
+                    "x": 0.552901029586792,
+                    "y": 0.4839560389518738
+                  },
+                  {
+                    "x": 0.552901029586792,
+                    "y": 0.4931868016719818
+                  },
+                  {
+                    "x": 0.2946530282497406,
+                    "y": 0.4931868016719818
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "16",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "627",
+              "endIndex": "633"
+            }
+          ],
+          "content": "260.00"
+        },
+        "type": "line_item/amount",
+        "mentionText": "260.00",
+        "mentionId": "",
+        "confidence": 0.8163616061210632,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.9067121744155884,
+                    "y": 0.4848351776599884
+                  },
+                  {
+                    "x": 0.9385665655136108,
+                    "y": 0.4848351776599884
+                  },
+                  {
+                    "x": 0.9385665655136108,
+                    "y": 0.4931868016719818
+                  },
+                  {
+                    "x": 0.9067121744155884,
+                    "y": 0.4931868016719818
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "17",
+        "normalizedValue": {
+          "text": "260"
+        },
+        "provenance": null,
+        "redacted": false
+      }
+    ],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "533",
+          "endIndex": "547"
+        },
+        {
+          "startIndex": "548",
+          "endIndex": "586"
+        },
+        {
+          "startIndex": "627",
+          "endIndex": "633"
+        }
+      ],
+      "content": ""
+    },
+    "type": "line_item",
+    "mentionText": "CR RFP INITIAL RETAIL FOOD PROTECTION PROGRAM INITIAL 260.00",
+    "mentionId": "",
+    "confidence": 1,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.04493742808699608,
+                "y": 0.4839560389518738
+              },
+              {
+                "x": 0.9385665655136108,
+                "y": 0.4839560389518738
+              },
+              {
+                "x": 0.9385665655136108,
+                "y": 0.4931868016719818
+              },
+              {
+                "x": 0.04493742808699608,
+                "y": 0.4931868016719818
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "14",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "587",
+              "endIndex": "625"
+            }
+          ],
+          "content": "TIN CAT RODENT MONITOR REPEATER DEVICE"
+        },
+        "type": "line_item/description",
+        "mentionText": "TIN CAT RODENT MONITOR REPEATER DEVICE",
+        "mentionId": "",
+        "confidence": 0.5247015357017517,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.29635950922966003,
+                    "y": 0.4984615445137024
+                  },
+                  {
+                    "x": 0.5568827986717224,
+                    "y": 0.4984615445137024
+                  },
+                  {
+                    "x": 0.5568827986717224,
+                    "y": 0.5076923370361328
+                  },
+                  {
+                    "x": 0.29635950922966003,
+                    "y": 0.5076923370361328
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "19",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "635",
+              "endIndex": "641"
+            }
+          ],
+          "content": "102.00"
+        },
+        "type": "line_item/amount",
+        "mentionText": "102.00",
+        "mentionId": "",
+        "confidence": 0.7939940690994263,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.9067121744155884,
+                    "y": 0.4980219900608063
+                  },
+                  {
+                    "x": 0.9385665655136108,
+                    "y": 0.4980219900608063
+                  },
+                  {
+                    "x": 0.9385665655136108,
+                    "y": 0.5081318616867065
+                  },
+                  {
+                    "x": 0.9067121744155884,
+                    "y": 0.5081318616867065
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "20",
+        "normalizedValue": {
+          "text": "102"
+        },
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "642",
+              "endIndex": "652"
+            }
+          ],
+          "content": "PR TIN CAT"
+        },
+        "type": "line_item/description",
+        "mentionText": "PR TIN CAT",
+        "mentionId": "",
+        "confidence": 0.5564199090003967,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.04379977285861969,
+                    "y": 0.4989010989665985
+                  },
+                  {
+                    "x": 0.10864619165658951,
+                    "y": 0.4989010989665985
+                  },
+                  {
+                    "x": 0.10864619165658951,
+                    "y": 0.5076923370361328
+                  },
+                  {
+                    "x": 0.04379977285861969,
+                    "y": 0.5076923370361328
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "21",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      }
+    ],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "587",
+          "endIndex": "625"
+        },
+        {
+          "startIndex": "635",
+          "endIndex": "641"
+        },
+        {
+          "startIndex": "642",
+          "endIndex": "652"
+        }
+      ],
+      "content": ""
+    },
+    "type": "line_item",
+    "mentionText": "TIN CAT RODENT MONITOR REPEATER DEVICE 102.00 PR TIN CAT",
+    "mentionId": "",
+    "confidence": 1,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.04379977285861969,
+                "y": 0.4980219900608063
+              },
+              {
+                "x": 0.9385665655136108,
+                "y": 0.4980219900608063
+              },
+              {
+                "x": 0.9385665655136108,
+                "y": 0.5081318616867065
+              },
+              {
+                "x": 0.04379977285861969,
+                "y": 0.5081318616867065
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "18",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "653",
+              "endIndex": "666"
+            }
+          ],
+          "content": "PR TRAPPER 24"
+        },
+        "type": "line_item/description",
+        "mentionText": "PR TRAPPER 24",
+        "mentionId": "",
+        "confidence": 0.38492506742477417,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.04379977285861969,
+                    "y": 0.5142857432365417
+                  },
+                  {
+                    "x": 0.13253697752952576,
+                    "y": 0.5142857432365417
+                  },
+                  {
+                    "x": 0.13253697752952576,
+                    "y": 0.5226373672485352
+                  },
+                  {
+                    "x": 0.04379977285861969,
+                    "y": 0.5226373672485352
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "23",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "667",
+              "endIndex": "701"
+            }
+          ],
+          "content": "TRAPPER 24/7 MOUSE REPEATER DEVICE"
+        },
+        "type": "line_item/description",
+        "mentionText": "TRAPPER 24/7 MOUSE REPEATER DEVICE",
+        "mentionId": "",
+        "confidence": 0.5733910202980042,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.2946530282497406,
+                    "y": 0.5142857432365417
+                  },
+                  {
+                    "x": 0.5278725624084473,
+                    "y": 0.5142857432365417
+                  },
+                  {
+                    "x": 0.5278725624084473,
+                    "y": 0.5226373672485352
+                  },
+                  {
+                    "x": 0.2946530282497406,
+                    "y": 0.5226373672485352
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "24",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "703",
+              "endIndex": "708"
+            }
+          ],
+          "content": "34.00"
+        },
+        "type": "line_item/amount",
+        "mentionText": "34.00",
+        "mentionId": "",
+        "confidence": 0.8092625141143799,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.9129692912101746,
+                    "y": 0.5147252678871155
+                  },
+                  {
+                    "x": 0.9391353726387024,
+                    "y": 0.5147252678871155
+                  },
+                  {
+                    "x": 0.9391353726387024,
+                    "y": 0.5226373672485352
+                  },
+                  {
+                    "x": 0.9129692912101746,
+                    "y": 0.5226373672485352
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "25",
+        "normalizedValue": {
+          "text": "34"
+        },
+        "provenance": null,
+        "redacted": false
+      }
+    ],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "653",
+          "endIndex": "666"
+        },
+        {
+          "startIndex": "667",
+          "endIndex": "701"
+        },
+        {
+          "startIndex": "703",
+          "endIndex": "708"
+        }
+      ],
+      "content": ""
+    },
+    "type": "line_item",
+    "mentionText": "PR TRAPPER 24 TRAPPER 24/7 MOUSE REPEATER DEVICE 34.00",
+    "mentionId": "",
+    "confidence": 1,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.04379977285861969,
+                "y": 0.5142857432365417
+              },
+              {
+                "x": 0.9391353726387024,
+                "y": 0.5142857432365417
+              },
+              {
+                "x": 0.9391353726387024,
+                "y": 0.5226373672485352
+              },
+              {
+                "x": 0.04379977285861969,
+                "y": 0.5226373672485352
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "22",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "709",
+              "endIndex": "723"
+            }
+          ],
+          "content": "PR PROTECTA EV"
+        },
+        "type": "line_item/description",
+        "mentionText": "PR PROTECTA EV",
+        "mentionId": "",
+        "confidence": 0.5008188486099243,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.04436860233545303,
+                    "y": 0.5292307734489441
+                  },
+                  {
+                    "x": 0.1433447152376175,
+                    "y": 0.5292307734489441
+                  },
+                  {
+                    "x": 0.1433447152376175,
+                    "y": 0.5375823974609375
+                  },
+                  {
+                    "x": 0.04436860233545303,
+                    "y": 0.5375823974609375
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "27",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "724",
+              "endIndex": "754"
+            }
+          ],
+          "content": "EVO EXPRESS BAIT STATION BLACK"
+        },
+        "type": "line_item/description",
+        "mentionText": "EVO EXPRESS BAIT STATION BLACK",
+        "mentionId": "",
+        "confidence": 0.450766921043396,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.2935153543949127,
+                    "y": 0.5292307734489441
+                  },
+                  {
+                    "x": 0.49544936418533325,
+                    "y": 0.5292307734489441
+                  },
+                  {
+                    "x": 0.49544936418533325,
+                    "y": 0.538021981716156
+                  },
+                  {
+                    "x": 0.2935153543949127,
+                    "y": 0.538021981716156
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "28",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "756",
+              "endIndex": "761"
+            }
+          ],
+          "content": "88.00"
+        },
+        "type": "line_item/amount",
+        "mentionText": "88.00",
+        "mentionId": "",
+        "confidence": 0.830241322517395,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.912400484085083,
+                    "y": 0.5287911891937256
+                  },
+                  {
+                    "x": 0.9391353726387024,
+                    "y": 0.5287911891937256
+                  },
+                  {
+                    "x": 0.9391353726387024,
+                    "y": 0.538021981716156
+                  },
+                  {
+                    "x": 0.912400484085083,
+                    "y": 0.538021981716156
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "29",
+        "normalizedValue": {
+          "text": "88"
+        },
+        "provenance": null,
+        "redacted": false
+      }
+    ],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "709",
+          "endIndex": "723"
+        },
+        {
+          "startIndex": "724",
+          "endIndex": "754"
+        },
+        {
+          "startIndex": "756",
+          "endIndex": "761"
+        }
+      ],
+      "content": ""
+    },
+    "type": "line_item",
+    "mentionText": "PR PROTECTA EV EVO EXPRESS BAIT STATION BLACK 88.00",
+    "mentionId": "",
+    "confidence": 1,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.04436860233545303,
+                "y": 0.5287911891937256
+              },
+              {
+                "x": 0.9391353726387024,
+                "y": 0.5287911891937256
+              },
+              {
+                "x": 0.9391353726387024,
+                "y": 0.538021981716156
+              },
+              {
+                "x": 0.04436860233545303,
+                "y": 0.538021981716156
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "26",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "762",
+              "endIndex": "786"
+            }
+          ],
+          "content": "Initial install complete"
+        },
+        "type": "line_item/description",
+        "mentionText": "Initial install complete",
+        "mentionId": "",
+        "confidence": 0.636793851852417,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.04550625756382942,
+                    "y": 0.5485714077949524
+                  },
+                  {
+                    "x": 0.17235495150089264,
+                    "y": 0.5485714077949524
+                  },
+                  {
+                    "x": 0.17235495150089264,
+                    "y": 0.5617582201957703
+                  },
+                  {
+                    "x": 0.04550625756382942,
+                    "y": 0.5617582201957703
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "31",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      }
+    ],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "762",
+          "endIndex": "786"
+        }
+      ],
+      "content": ""
+    },
+    "type": "line_item",
+    "mentionText": "Initial install complete",
+    "mentionId": "",
+    "confidence": 1,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.04550625756382942,
+                "y": 0.5485714077949524
+              },
+              {
+                "x": 0.17235495150089264,
+                "y": 0.5485714077949524
+              },
+              {
+                "x": 0.17235495150089264,
+                "y": 0.5617582201957703
+              },
+              {
+                "x": 0.04550625756382942,
+                "y": 0.5617582201957703
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "30",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  }
+]
