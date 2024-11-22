@@ -1,0 +1,136 @@
+{
+  "invoice_type": {
+    "value": "",
+    "confidence": 0.9727950692176819
+  },
+  "invoice_date": {
+    "value": "Mar-05-2024",
+    "confidence": 0.9625166058540344
+  },
+  "net_amount": {
+    "value": "3,510.00",
+    "confidence": 0.9438861608505249
+  },
+  "total_amount": {
+    "value": "3,510.00",
+    "confidence": 0.8685021996498108
+  },
+  "invoice_id": {
+    "value": "00042410 R3",
+    "confidence": 0.8299407958984375
+  },
+  "supplier_address": {
+    "value": "644 South 5th Street\nMilwaukee, WI 53204",
+    "confidence": 0.8161702156066895
+  },
+  "currency": {
+    "value": "USD",
+    "confidence": 0.8132710456848145
+  },
+  "payment_terms": {
+    "value": "30 Days (A Service Charge of 1.5% will be added to all invoices over 30 days",
+    "confidence": 0.7813507318496704
+  },
+  "receiver_name": {
+    "value": "Helltown Brewing",
+    "confidence": 0.7487973570823669
+  },
+  "due_date": {
+    "value": "Apr-04-2024",
+    "confidence": 0.6665393710136414
+  },
+  "supplier_name": {
+    "value": "Southwest Region",
+    "confidence": 0.4962708055973053
+  },
+  "receiver_address": {
+    "value": "33222 Bi-State Boulevard\nLaurel, DE 19956",
+    "confidence": 0.30407050251960754
+  },
+  "supplier_email": {
+    "value": "AR@ProximityMalt.com",
+    "confidence": 0.2590439021587372
+  },
+  "line_items": [
+    {
+      "line_item/quantity": {
+        "value": "40.000",
+        "confidence": 0.8214183449745178
+      },
+      "line_item/unit": {
+        "value": "55LB",
+        "confidence": 0.6799803972244263
+      },
+      "line_item/description": {
+        "value": "OAT MALT 55LB",
+        "confidence": 0.631374716758728
+      },
+      "line_item/unit_price": {
+        "value": "46.7500",
+        "confidence": 0.612584114074707
+      },
+      "line_item/amount": {
+        "value": "1,870.00",
+        "confidence": 0.8842788338661194
+      }
+    },
+    {
+      "line_item/quantity": {
+        "value": "40.000",
+        "confidence": 0.4437198340892792
+      },
+      "line_item/description": {
+        "value": "OAT MALT 55LB",
+        "confidence": 0.5558367967605591
+      }
+    },
+    {
+      "line_item/quantity": {
+        "value": "40.000",
+        "confidence": 0.9358268976211548
+      },
+      "line_item/unit": {
+        "value": "55LB",
+        "confidence": 0.2102174013853073
+      },
+      "line_item/description": {
+        "value": "MIDATLANTIC WHEAT MALT 55LB",
+        "confidence": 0.633368194103241
+      },
+      "line_item/amount": {
+        "value": "1,562.00",
+        "confidence": 0.8294665217399597
+      },
+      "line_item/unit_price": {
+        "value": "39.0500",
+        "confidence": 0.5403194427490234
+      }
+    },
+    {
+      "line_item/quantity": {
+        "value": "40.000",
+        "confidence": 0.6043131351470947
+      }
+    },
+    {
+      "line_item/description": {
+        "value": "Load Discount",
+        "confidence": 0.5943980813026428
+      },
+      "line_item/amount": {
+        "value": "-132.00",
+        "confidence": 0.6816695332527161
+      }
+    },
+    {
+      "line_item/description": {
+        "value": "Freight Charges",
+        "confidence": 0.49728500843048096
+      },
+      "line_item/amount": {
+        "value": "210.00",
+        "confidence": 0.5967299342155457
+      }
+    }
+  ]
+}

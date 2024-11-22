@@ -1,0 +1,112 @@
+{
+  "invoice_date": {
+    "value": "28-Jun-2024",
+    "confidence": 0.9865560531616211
+  },
+  "due_date": {
+    "value": "01-Aug-2024",
+    "confidence": 0.9633849263191223
+  },
+  "net_amount": {
+    "value": "21,511.04",
+    "confidence": 0.9624504446983337
+  },
+  "invoice_id": {
+    "value": "INV21792",
+    "confidence": 0.9561159610748291
+  },
+  "currency": {
+    "value": "USD",
+    "confidence": 0.9059463739395142
+  },
+  "ship_to_address": {
+    "value": "2515 W Superior St\nDuluth MN 55806\nUnited States",
+    "confidence": 0.9067081809043884
+  },
+  "total_amount": {
+    "value": "22,346.33",
+    "confidence": 0.8381778597831726
+  },
+  "supplier_tax_id": {
+    "value": "1229319023",
+    "confidence": 0.808577835559845
+  },
+  "ship_to_name": {
+    "value": "Wild State Cider (USD)",
+    "confidence": 0.7661888003349304
+  },
+  "receiver_name": {
+    "value": "Wild State Cider",
+    "confidence": 0.6225484013557434
+  },
+  "supplier_address": {
+    "value": "8250 Borden Street\nVancouver BC V5P 3E7",
+    "confidence": 0.5419350862503052
+  },
+  "payment_terms": {
+    "value": "Net 30",
+    "confidence": 0.5342886447906494
+  },
+  "receiver_address": {
+    "value": "500 S 29th Ave W\nDuluth MN 55806\nUnited States",
+    "confidence": 0.49439817667007446
+  },
+  "invoice_type": {
+    "value": "",
+    "confidence": 0.4888341426849365
+  },
+  "supplier_name": {
+    "value": "Vessel BC Head Office",
+    "confidence": 0.41215780377388
+  },
+  "purchase_order": {
+    "value": "2740",
+    "confidence": 0.3102942407131195
+  },
+  "total_tax_amount": {
+    "value": "835.29",
+    "confidence": 0.20941419899463654
+  },
+  "line_items": [
+    {
+      "line_item/description": {
+        "value": "Ends 202 - Crown LOE 10\nState BPA-NI",
+        "confidence": 0.5444313883781433
+      },
+      "line_item/unit_price": {
+        "value": "0.0305",
+        "confidence": 0.8668075203895569
+      },
+      "line_item/amount": {
+        "value": "21,511.04",
+        "confidence": 0.9248042702674866
+      },
+      "line_item/quantity": {
+        "value": "705,280",
+        "confidence": 0.9759784936904907
+      }
+    },
+    {
+      "line_item/quantity": {
+        "value": "2",
+        "confidence": 0.74638432264328
+      },
+      "line_item/product_code": {
+        "value": "Dunnage - Crown Pallet",
+        "confidence": 0.7215060591697693
+      },
+      "line_item/description": {
+        "value": "Dunnage Crown Pallet",
+        "confidence": 0.5010337233543396
+      },
+      "line_item/unit_price": {
+        "value": "0.00",
+        "confidence": 0.8881945610046387
+      },
+      "line_item/amount": {
+        "value": "0.00",
+        "confidence": 0.8204376697540283
+      }
+    }
+  ]
+}

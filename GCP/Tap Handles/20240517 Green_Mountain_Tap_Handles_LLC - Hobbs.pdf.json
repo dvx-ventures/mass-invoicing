@@ -1,0 +1,126 @@
+{
+  "invoice_id": {
+    "value": "11368",
+    "confidence": 0.9667925238609314
+  },
+  "invoice_date": {
+    "value": "5/17/2024",
+    "confidence": 0.9570888876914978
+  },
+  "due_date": {
+    "value": "6/16/2024",
+    "confidence": 0.9472707509994507
+  },
+  "supplier_email": {
+    "value": "accounting@greenmountaintaps.com",
+    "confidence": 0.8749060034751892
+  },
+  "supplier_website": {
+    "value": "www.greenmountaintaps.com",
+    "confidence": 0.8002134561538696
+  },
+  "receiver_name": {
+    "value": "Hobbs Tavern & Brewing Co.",
+    "confidence": 0.7091993689537048
+  },
+  "total_amount": {
+    "value": "1,274.30",
+    "confidence": 0.6917179226875305
+  },
+  "ship_to_address": {
+    "value": "765 \nNH\n-\n16\nOssipee\n,\nNH \n03864",
+    "confidence": 0.6692994236946106
+  },
+  "supplier_address": {
+    "value": "PO Box 371\nHinsdale, NH 03451",
+    "confidence": 0.6543068885803223
+  },
+  "ship_to_name": {
+    "value": "ewing Co.\nHobbs \nTavern \n&",
+    "confidence": 0.6507835984230042
+  },
+  "supplier_phone": {
+    "value": "(603) 336-5555",
+    "confidence": 0.6128869652748108
+  },
+  "invoice_type": {
+    "value": "",
+    "confidence": 0.49750304222106934
+  },
+  "payment_terms": {
+    "value": "Net 30",
+    "confidence": 0.4449748396873474
+  },
+  "carrier": {
+    "value": "UPS",
+    "confidence": 0.44186046719551086
+  },
+  "purchase_order": {
+    "value": "4192",
+    "confidence": 0.3472583591938019
+  },
+  "receiver_address": {
+    "value": "765 NH -16\nOssipee,NH 03864",
+    "confidence": 0.24846068024635315
+  },
+  "supplier_name": {
+    "value": "",
+    "confidence": 0
+  },
+  "line_items": [
+    {
+      "line_item/product_code": {
+        "value": "Hobbs",
+        "confidence": 0.6127831935882568
+      },
+      "line_item/description": {
+        "value": "Resin Tap",
+        "confidence": 0.6200228333473206
+      },
+      "line_item/quantity": {
+        "value": "92",
+        "confidence": 0.8854795694351196
+      },
+      "line_item/unit_price": {
+        "value": "29.70",
+        "confidence": 0.9228439927101135
+      },
+      "line_item/amount": {
+        "value": "2,732.40",
+        "confidence": 0.9106976985931396
+      }
+    },
+    {
+      "line_item/description": {
+        "value": "Less 50% deposit required to begin production of order.",
+        "confidence": 0.5520883202552795
+      },
+      "line_item/quantity": {
+        "value": "100",
+        "confidence": 0.8397983908653259
+      },
+      "line_item/unit_price": {
+        "value": "-14.85",
+        "confidence": 0.9007826447486877
+      },
+      "line_item/amount": {
+        "value": "-1,485.00",
+        "confidence": 0.8980915546417236
+      }
+    },
+    {
+      "line_item/description": {
+        "value": "Shipping & Handl... UPS Shipping & Handling",
+        "confidence": 0.5418325662612915
+      },
+      "line_item/unit_price": {
+        "value": "26.90",
+        "confidence": 0.9018287062644958
+      },
+      "line_item/amount": {
+        "value": "26.90",
+        "confidence": 0.8177682161331177
+      }
+    }
+  ]
+}

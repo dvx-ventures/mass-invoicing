@@ -1,0 +1,106 @@
+{
+  "invoice_date": {
+    "value": "09/12/2023",
+    "confidence": 0.9731953740119934
+  },
+  "total_amount": {
+    "value": "1,131.40",
+    "confidence": 0.9534855484962463
+  },
+  "total_tax_amount": {
+    "value": "0.00",
+    "confidence": 0.9534450769424438
+  },
+  "net_amount": {
+    "value": "965.40",
+    "confidence": 0.9355477094650269
+  },
+  "invoice_id": {
+    "value": "INV-231850",
+    "confidence": 0.9053143858909607
+  },
+  "ship_to_name": {
+    "value": "Barrel and Beam, LLC\nNick VanCourt",
+    "confidence": 0.7401620745658875
+  },
+  "supplier_address": {
+    "value": "PO Box 6715\nTraverse City, MI 49696-6715",
+    "confidence": 0.7075058817863464
+  },
+  "ship_to_address": {
+    "value": "260 Northwoods Road\nMarquette, MI 49855",
+    "confidence": 0.6997822523117065
+  },
+  "freight_amount": {
+    "value": "166.00",
+    "confidence": 0.6187576651573181
+  },
+  "receiver_name": {
+    "value": "Barrel and Beam, LLC",
+    "confidence": 0.515825092792511
+  },
+  "supplier_phone": {
+    "value": "866-770-7600",
+    "confidence": 0.4906291663646698
+  },
+  "invoice_type": {
+    "value": "",
+    "confidence": 0.38673290610313416
+  },
+  "receiver_address": {
+    "value": "260 Northwoods Road\nMarquette, MI 49855",
+    "confidence": 0.29643240571022034
+  },
+  "supplier_name": {
+    "value": "",
+    "confidence": 0
+  },
+  "line_items": [
+    {
+      "line_item/description": {
+        "value": "UniKeg, 30 Liter, Double Walled",
+        "confidence": 0.4916899800300598
+      },
+      "line_item/unit_price": {
+        "value": "19.80",
+        "confidence": 0.925452470779419
+      },
+      "line_item/amount": {
+        "value": "950.40",
+        "confidence": 0.8449780344963074
+      },
+      "line_item/quantity": {
+        "value": "48",
+        "confidence": 0.39776477217674255
+      },
+      "line_item/unit": {
+        "value": "EA",
+        "confidence": 0.8803783059120178
+      }
+    },
+    {
+      "line_item/description": {
+        "value": "Lightweight PET, 48 pc/PL",
+        "confidence": 0.5790911316871643
+      }
+    },
+    {
+      "line_item/quantity": {
+        "value": "1",
+        "confidence": 0.5533972978591919
+      },
+      "line_item/unit": {
+        "value": "EA",
+        "confidence": 0.8587495684623718
+      },
+      "line_item/unit_price": {
+        "value": "15.00",
+        "confidence": 0.935472846031189
+      },
+      "line_item/amount": {
+        "value": "15.00",
+        "confidence": 0.8668516278266907
+      }
+    }
+  ]
+}

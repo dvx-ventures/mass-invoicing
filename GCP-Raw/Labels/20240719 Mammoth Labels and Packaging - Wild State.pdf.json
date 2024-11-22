@@ -1,0 +1,1757 @@
+[
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "187",
+          "endIndex": "196"
+        }
+      ],
+      "content": "7/19/2024"
+    },
+    "type": "invoice_date",
+    "mentionText": "7/19/2024",
+    "mentionId": "",
+    "confidence": 0.9846675395965576,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.7855517864227295,
+                "y": 0.06417582184076309
+              },
+              {
+                "x": 0.8538111448287964,
+                "y": 0.06417582184076309
+              },
+              {
+                "x": 0.8538111448287964,
+                "y": 0.0756043940782547
+              },
+              {
+                "x": 0.7855517864227295,
+                "y": 0.0756043940782547
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "0",
+    "normalizedValue": {
+      "text": "2024-07-19",
+      "dateValue": {
+        "year": 2024,
+        "month": 7,
+        "day": 19
+      },
+      "structuredValue": "dateValue"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "180",
+          "endIndex": "186"
+        }
+      ],
+      "content": "539265"
+    },
+    "type": "invoice_id",
+    "mentionText": "539265",
+    "mentionId": "",
+    "confidence": 0.9792669415473938,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.7827076315879822,
+                "y": 0.04967033118009567
+              },
+              {
+                "x": 0.8378839492797852,
+                "y": 0.04967033118009567
+              },
+              {
+                "x": 0.8378839492797852,
+                "y": 0.06109889969229698
+              },
+              {
+                "x": 0.7827076315879822,
+                "y": 0.06109889969229698
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "1",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "901",
+          "endIndex": "910"
+        }
+      ],
+      "content": "8/19/2024"
+    },
+    "type": "due_date",
+    "mentionText": "8/19/2024",
+    "mentionId": "",
+    "confidence": 0.9661000370979309,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.2428896427154541,
+                "y": 0.6474725008010864
+              },
+              {
+                "x": 0.2997724711894989,
+                "y": 0.6474725008010864
+              },
+              {
+                "x": 0.2997724711894989,
+                "y": 0.6575824022293091
+              },
+              {
+                "x": 0.2428896427154541,
+                "y": 0.6575824022293091
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "2",
+    "normalizedValue": {
+      "text": "2024-08-19",
+      "dateValue": {
+        "year": 2024,
+        "month": 8,
+        "day": 19
+      },
+      "structuredValue": "dateValue"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "434",
+          "endIndex": "482"
+        }
+      ],
+      "content": "500 South 59th Ave. West\nDock 6\nDuluth, MN 55807"
+    },
+    "type": "ship_to_address",
+    "mentionText": "500 South 59th Ave. West\nDock 6\nDuluth, MN 55807",
+    "mentionId": "",
+    "confidence": 0.9366819262504578,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.6075085401535034,
+                "y": 0.2408791184425354
+              },
+              {
+                "x": 0.7827076315879822,
+                "y": 0.2408791184425354
+              },
+              {
+                "x": 0.7827076315879822,
+                "y": 0.28131869435310364
+              },
+              {
+                "x": 0.6075085401535034,
+                "y": 0.28131869435310364
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "3",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "308",
+          "endIndex": "343"
+        }
+      ],
+      "content": "Camp Cider LLC DBA Wild State Cider"
+    },
+    "type": "receiver_name",
+    "mentionText": "Camp Cider LLC DBA Wild State Cider",
+    "mentionId": "",
+    "confidence": 0.8434152603149414,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.12229806929826736,
+                "y": 0.22593407332897186
+              },
+              {
+                "x": 0.3799772560596466,
+                "y": 0.22593407332897186
+              },
+              {
+                "x": 0.3799772560596466,
+                "y": 0.23912088572978973
+              },
+              {
+                "x": 0.12229806929826736,
+                "y": 0.23912088572978973
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "4",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "863",
+          "endIndex": "871"
+        }
+      ],
+      "content": "2,590.31"
+    },
+    "type": "net_amount",
+    "mentionText": "2,590.31",
+    "mentionId": "",
+    "confidence": 0.804270327091217,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.8993173837661743,
+                "y": 0.6171428561210632
+              },
+              {
+                "x": 0.9499431252479553,
+                "y": 0.6171428561210632
+              },
+              {
+                "x": 0.9499431252479553,
+                "y": 0.6276922821998596
+              },
+              {
+                "x": 0.8993173837661743,
+                "y": 0.6276922821998596
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "5",
+    "normalizedValue": {
+      "text": "2590.31"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "398",
+          "endIndex": "433"
+        }
+      ],
+      "content": "Camp Cider LLC DBA Wild State Cider"
+    },
+    "type": "ship_to_name",
+    "mentionText": "Camp Cider LLC DBA Wild State Cider",
+    "mentionId": "",
+    "confidence": 0.7839861512184143,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.6103526949882507,
+                "y": 0.22549450397491455
+              },
+              {
+                "x": 0.8663253784179688,
+                "y": 0.22549450397491455
+              },
+              {
+                "x": 0.8663253784179688,
+                "y": 0.2382417619228363
+              },
+              {
+                "x": 0.6103526949882507,
+                "y": 0.2382417619228363
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "6",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "344",
+          "endIndex": "388"
+        }
+      ],
+      "content": "500 South 59th Ave. West\nDuluth\n, \nMN \n55807"
+    },
+    "type": "receiver_address",
+    "mentionText": "500 South 59th Ave. West\nDuluth\n, \nMN \n55807",
+    "mentionId": "",
+    "confidence": 0.6978092789649963,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.12172923982143402,
+                "y": 0.23912088572978973
+              },
+              {
+                "x": 0.29635950922966003,
+                "y": 0.23912088572978973
+              },
+              {
+                "x": 0.29635950922966003,
+                "y": 0.27912089228630066
+              },
+              {
+                "x": 0.12172923982143402,
+                "y": 0.27912089228630066
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "7",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "879",
+          "endIndex": "890"
+        }
+      ],
+      "content": "Net 30 Days"
+    },
+    "type": "payment_terms",
+    "mentionText": "Net 30 Days",
+    "mentionId": "",
+    "confidence": 0.6719489693641663,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.12229806929826736,
+                "y": 0.6325274705886841
+              },
+              {
+                "x": 0.19453924894332886,
+                "y": 0.6325274705886841
+              },
+              {
+                "x": 0.19453924894332886,
+                "y": 0.6443955898284912
+              },
+              {
+                "x": 0.12229806929826736,
+                "y": 0.6443955898284912
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "8",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "45",
+          "endIndex": "57"
+        }
+      ],
+      "content": "614-875-9010"
+    },
+    "type": "supplier_phone",
+    "mentionText": "614-875-9010",
+    "mentionId": "",
+    "confidence": 0.6207324862480164,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.4306029677391052,
+                "y": 0.07076922804117203
+              },
+              {
+                "x": 0.5312855243682861,
+                "y": 0.07076922804117203
+              },
+              {
+                "x": 0.5312855243682861,
+                "y": 0.08483516424894333
+              },
+              {
+                "x": 0.4306029677391052,
+                "y": 0.08483516424894333
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "9",
+    "normalizedValue": {
+      "text": "+1 614 875 9010"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "0",
+          "endIndex": "37"
+        }
+      ],
+      "content": "2050 Hardy Parkway\nColumbus, OH 43123"
+    },
+    "type": "supplier_address",
+    "mentionText": "2050 Hardy Parkway\nColumbus, OH 43123",
+    "mentionId": "",
+    "confidence": 0.5634039044380188,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.38054606318473816,
+                "y": 0.0364835150539875
+              },
+              {
+                "x": 0.5335608720779419,
+                "y": 0.0364835150539875
+              },
+              {
+                "x": 0.5335608720779419,
+                "y": 0.06945054978132248
+              },
+              {
+                "x": 0.38054606318473816,
+                "y": 0.06945054978132248
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "10",
+    "normalizedValue": {
+      "text": "2050 Hardy Pkwy Grove City, OH 43123 USA",
+      "addressValue": {
+        "addressLines": [
+          "2050 Hardy Pkwy"
+        ],
+        "recipients": [],
+        "revision": 0,
+        "regionCode": "US",
+        "languageCode": "en-US",
+        "postalCode": "43123",
+        "sortingCode": "",
+        "administrativeArea": "Ohio",
+        "locality": "Grove City",
+        "sublocality": "",
+        "organization": ""
+      },
+      "structuredValue": "addressValue"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "925",
+          "endIndex": "933"
+        }
+      ],
+      "content": "2,590.31"
+    },
+    "type": "total_amount",
+    "mentionText": "2,590.31",
+    "mentionId": "",
+    "confidence": 0.5524168014526367,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.8993173837661743,
+                "y": 0.6479120850563049
+              },
+              {
+                "x": 0.9482366442680359,
+                "y": 0.6479120850563049
+              },
+              {
+                "x": 0.9482366442680359,
+                "y": 0.6575824022293091
+              },
+              {
+                "x": 0.8993173837661743,
+                "y": 0.6575824022293091
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "11",
+    "normalizedValue": {
+      "text": "2590.31"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": null,
+    "type": "invoice_type",
+    "mentionText": "",
+    "mentionId": "",
+    "confidence": 0.4330684244632721,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": null,
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "12",
+    "normalizedValue": {
+      "text": "restaurant_statement"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "623",
+          "endIndex": "636"
+        }
+      ],
+      "content": "July Beer Day"
+    },
+    "type": "purchase_order",
+    "mentionText": "July Beer Day",
+    "mentionId": "",
+    "confidence": 0.29414984583854675,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.372013658285141,
+                "y": 0.40747252106666565
+              },
+              {
+                "x": 0.4562002420425415,
+                "y": 0.40747252106666565
+              },
+              {
+                "x": 0.4562002420425415,
+                "y": 0.41934067010879517
+              },
+              {
+                "x": 0.372013658285141,
+                "y": 0.41934067010879517
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "13",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "237",
+          "endIndex": "263"
+        }
+      ],
+      "content": "MAMMOTH\nLABELS & PACKAGING"
+    },
+    "type": "supplier_name",
+    "mentionText": "MAMMOTH\nLABELS & PACKAGING",
+    "mentionId": "",
+    "confidence": 0.16035321354866028,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.01990898698568344,
+                "y": 0.10021977871656418
+              },
+              {
+                "x": 0.18373151123523712,
+                "y": 0.10021977871656418
+              },
+              {
+                "x": 0.18373151123523712,
+                "y": 0.13362637162208557
+              },
+              {
+                "x": 0.01990898698568344,
+                "y": 0.13362637162208557
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "14",
+    "normalizedValue": {
+      "text": "Mammoth Labels & Packaging"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "580",
+              "endIndex": "586"
+            }
+          ],
+          "content": "26,700"
+        },
+        "type": "line_item/quantity",
+        "mentionText": "26,700",
+        "mentionId": "",
+        "confidence": 0.965674877166748,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.1422070562839508,
+                    "y": 0.4228571355342865
+                  },
+                  {
+                    "x": 0.18031854927539825,
+                    "y": 0.4228571355342865
+                  },
+                  {
+                    "x": 0.18031854927539825,
+                    "y": 0.4334065914154053
+                  },
+                  {
+                    "x": 0.1422070562839508,
+                    "y": 0.4334065914154053
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "16",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "587",
+              "endIndex": "595"
+            }
+          ],
+          "content": "81.00000"
+        },
+        "type": "line_item/unit_price",
+        "mentionText": "81.00000",
+        "mentionId": "",
+        "confidence": 0.9307737946510315,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.7292377948760986,
+                    "y": 0.4228571355342865
+                  },
+                  {
+                    "x": 0.7832764387130737,
+                    "y": 0.4228571355342865
+                  },
+                  {
+                    "x": 0.7832764387130737,
+                    "y": 0.43252748250961304
+                  },
+                  {
+                    "x": 0.7292377948760986,
+                    "y": 0.43252748250961304
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "17",
+        "normalizedValue": {
+          "text": "81"
+        },
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "605",
+              "endIndex": "613"
+            }
+          ],
+          "content": "2,162.70"
+        },
+        "type": "line_item/amount",
+        "mentionText": "2,162.70",
+        "mentionId": "",
+        "confidence": 0.8878265619277954,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.8998862504959106,
+                    "y": 0.4232966899871826
+                  },
+                  {
+                    "x": 0.9476677775382996,
+                    "y": 0.4232966899871826
+                  },
+                  {
+                    "x": 0.9476677775382996,
+                    "y": 0.43296703696250916
+                  },
+                  {
+                    "x": 0.8998862504959106,
+                    "y": 0.43296703696250916
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "18",
+        "normalizedValue": {
+          "text": "2162.7"
+        },
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "637",
+              "endIndex": "643"
+            }
+          ],
+          "content": "26,700"
+        },
+        "type": "line_item/quantity",
+        "mentionText": "26,700",
+        "mentionId": "",
+        "confidence": 0.9764688014984131,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.25767919421195984,
+                    "y": 0.4228571355342865
+                  },
+                  {
+                    "x": 0.2969283163547516,
+                    "y": 0.4228571355342865
+                  },
+                  {
+                    "x": 0.2969283163547516,
+                    "y": 0.43296703696250916
+                  },
+                  {
+                    "x": 0.25767919421195984,
+                    "y": 0.43296703696250916
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "19",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "644",
+              "endIndex": "694"
+            }
+          ],
+          "content": "Birdie Tea + Lemonade\n433170 Birdie Tea + Lemonade"
+        },
+        "type": "line_item/description",
+        "mentionText": "Birdie Tea + Lemonade\n433170 Birdie Tea + Lemonade",
+        "mentionId": "",
+        "confidence": 0.4499339759349823,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.30887371301651,
+                    "y": 0.4228571355342865
+                  },
+                  {
+                    "x": 0.5017064809799194,
+                    "y": 0.4228571355342865
+                  },
+                  {
+                    "x": 0.5017064809799194,
+                    "y": 0.44703295826911926
+                  },
+                  {
+                    "x": 0.30887371301651,
+                    "y": 0.44703295826911926
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "20",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      }
+    ],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "580",
+          "endIndex": "586"
+        },
+        {
+          "startIndex": "587",
+          "endIndex": "595"
+        },
+        {
+          "startIndex": "605",
+          "endIndex": "613"
+        },
+        {
+          "startIndex": "637",
+          "endIndex": "643"
+        },
+        {
+          "startIndex": "644",
+          "endIndex": "694"
+        }
+      ],
+      "content": ""
+    },
+    "type": "line_item",
+    "mentionText": "26,700 81.00000 2,162.70 26,700 Birdie Tea + Lemonade\n433170 Birdie Tea + Lemonade",
+    "mentionId": "",
+    "confidence": 1,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.1422070562839508,
+                "y": 0.4228571355342865
+              },
+              {
+                "x": 0.9476677775382996,
+                "y": 0.4228571355342865
+              },
+              {
+                "x": 0.9476677775382996,
+                "y": 0.44703295826911926
+              },
+              {
+                "x": 0.1422070562839508,
+                "y": 0.44703295826911926
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "15",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "614",
+              "endIndex": "636"
+            }
+          ],
+          "content": "Your PO: July Beer Day"
+        },
+        "type": "line_item/description",
+        "mentionText": "Your PO: July Beer Day",
+        "mentionId": "",
+        "confidence": 0.5735731720924377,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.3100113868713379,
+                    "y": 0.40703296661376953
+                  },
+                  {
+                    "x": 0.4562002420425415,
+                    "y": 0.40703296661376953
+                  },
+                  {
+                    "x": 0.4562002420425415,
+                    "y": 0.41934067010879517
+                  },
+                  {
+                    "x": 0.3100113868713379,
+                    "y": 0.41934067010879517
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "22",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      }
+    ],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "614",
+          "endIndex": "636"
+        }
+      ],
+      "content": ""
+    },
+    "type": "line_item",
+    "mentionText": "Your PO: July Beer Day",
+    "mentionId": "",
+    "confidence": 1,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.3100113868713379,
+                "y": 0.40703296661376953
+              },
+              {
+                "x": 0.4562002420425415,
+                "y": 0.40703296661376953
+              },
+              {
+                "x": 0.4562002420425415,
+                "y": 0.41934067010879517
+              },
+              {
+                "x": 0.3100113868713379,
+                "y": 0.41934067010879517
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "21",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "695",
+              "endIndex": "700"
+            }
+          ],
+          "content": "2,600"
+        },
+        "type": "line_item/quantity",
+        "mentionText": "2,600",
+        "mentionId": "",
+        "confidence": 0.9767000079154968,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.26564276218414307,
+                    "y": 0.4531868100166321
+                  },
+                  {
+                    "x": 0.2969283163547516,
+                    "y": 0.4531868100166321
+                  },
+                  {
+                    "x": 0.2969283163547516,
+                    "y": 0.464175820350647
+                  },
+                  {
+                    "x": 0.26564276218414307,
+                    "y": 0.464175820350647
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "24",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "701",
+              "endIndex": "751"
+            }
+          ],
+          "content": "Hazy Apple Pie\n433171 Hazy Apple Pie\nExtra costs :"
+        },
+        "type": "line_item/description",
+        "mentionText": "Hazy Apple Pie\n433171 Hazy Apple Pie\nExtra costs :",
+        "mentionId": "",
+        "confidence": 0.4518374502658844,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.30830490589141846,
+                    "y": 0.45274725556373596
+                  },
+                  {
+                    "x": 0.45164960622787476,
+                    "y": 0.45274725556373596
+                  },
+                  {
+                    "x": 0.45164960622787476,
+                    "y": 0.4923076927661896
+                  },
+                  {
+                    "x": 0.30830490589141846,
+                    "y": 0.4923076927661896
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "25",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "752",
+              "endIndex": "757"
+            }
+          ],
+          "content": "2,600"
+        },
+        "type": "line_item/quantity",
+        "mentionText": "2,600",
+        "mentionId": "",
+        "confidence": 0.953861653804779,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.14960181713104248,
+                    "y": 0.45274725556373596
+                  },
+                  {
+                    "x": 0.18259385228157043,
+                    "y": 0.45274725556373596
+                  },
+                  {
+                    "x": 0.18259385228157043,
+                    "y": 0.4628571569919586
+                  },
+                  {
+                    "x": 0.14960181713104248,
+                    "y": 0.4628571569919586
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "26",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "758",
+              "endIndex": "766"
+            }
+          ],
+          "content": "81.00000"
+        },
+        "type": "line_item/unit_price",
+        "mentionText": "81.00000",
+        "mentionId": "",
+        "confidence": 0.923659086227417,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.7298066020011902,
+                    "y": 0.45274725556373596
+                  },
+                  {
+                    "x": 0.7827076315879822,
+                    "y": 0.45274725556373596
+                  },
+                  {
+                    "x": 0.7827076315879822,
+                    "y": 0.4624175727367401
+                  },
+                  {
+                    "x": 0.7298066020011902,
+                    "y": 0.4624175727367401
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "27",
+        "normalizedValue": {
+          "text": "81"
+        },
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "776",
+              "endIndex": "782"
+            }
+          ],
+          "content": "210.60"
+        },
+        "type": "line_item/amount",
+        "mentionText": "210.60",
+        "mentionId": "",
+        "confidence": 0.8677619099617004,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.9089874625205994,
+                    "y": 0.45230770111083984
+                  },
+                  {
+                    "x": 0.9493743181228638,
+                    "y": 0.45230770111083984
+                  },
+                  {
+                    "x": 0.9493743181228638,
+                    "y": 0.4624175727367401
+                  },
+                  {
+                    "x": 0.9089874625205994,
+                    "y": 0.4624175727367401
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "28",
+        "normalizedValue": {
+          "text": "210.6"
+        },
+        "provenance": null,
+        "redacted": false
+      }
+    ],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "695",
+          "endIndex": "700"
+        },
+        {
+          "startIndex": "701",
+          "endIndex": "751"
+        },
+        {
+          "startIndex": "752",
+          "endIndex": "757"
+        },
+        {
+          "startIndex": "758",
+          "endIndex": "766"
+        },
+        {
+          "startIndex": "776",
+          "endIndex": "782"
+        }
+      ],
+      "content": ""
+    },
+    "type": "line_item",
+    "mentionText": "2,600 Hazy Apple Pie\n433171 Hazy Apple Pie\nExtra costs : 2,600 81.00000 210.60",
+    "mentionId": "",
+    "confidence": 1,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.14960181713104248,
+                "y": 0.45230770111083984
+              },
+              {
+                "x": 0.9493743181228638,
+                "y": 0.45230770111083984
+              },
+              {
+                "x": 0.9493743181228638,
+                "y": 0.4923076927661896
+              },
+              {
+                "x": 0.14960181713104248,
+                "y": 0.4923076927661896
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "23",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "823",
+              "endIndex": "824"
+            }
+          ],
+          "content": "1"
+        },
+        "type": "line_item/quantity",
+        "mentionText": "1",
+        "mentionId": "",
+        "confidence": 0.5112661123275757,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.2918088734149933,
+                    "y": 0.5428571701049805
+                  },
+                  {
+                    "x": 0.2957906723022461,
+                    "y": 0.5428571701049805
+                  },
+                  {
+                    "x": 0.2957906723022461,
+                    "y": 0.5542857050895691
+                  },
+                  {
+                    "x": 0.2918088734149933,
+                    "y": 0.5542857050895691
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "30",
+        "normalizedValue": {
+          "text": "1"
+        },
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "825",
+              "endIndex": "841"
+            }
+          ],
+          "content": "Freight Label 71"
+        },
+        "type": "line_item/description",
+        "mentionText": "Freight Label 71",
+        "mentionId": "",
+        "confidence": 0.5504040122032166,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.3100113868713379,
+                    "y": 0.5415384769439697
+                  },
+                  {
+                    "x": 0.40500569343566895,
+                    "y": 0.5415384769439697
+                  },
+                  {
+                    "x": 0.40500569343566895,
+                    "y": 0.5542857050895691
+                  },
+                  {
+                    "x": 0.3100113868713379,
+                    "y": 0.5542857050895691
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "31",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "844",
+              "endIndex": "850"
+            }
+          ],
+          "content": "217.01"
+        },
+        "type": "line_item/amount",
+        "mentionText": "217.01",
+        "mentionId": "",
+        "confidence": 0.7644807696342468,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.9095563292503357,
+                    "y": 0.5428571701049805
+                  },
+                  {
+                    "x": 0.9482366442680359,
+                    "y": 0.5428571701049805
+                  },
+                  {
+                    "x": 0.9482366442680359,
+                    "y": 0.5525274872779846
+                  },
+                  {
+                    "x": 0.9095563292503357,
+                    "y": 0.5525274872779846
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "32",
+        "normalizedValue": {
+          "text": "217.01"
+        },
+        "provenance": null,
+        "redacted": false
+      }
+    ],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "823",
+          "endIndex": "824"
+        },
+        {
+          "startIndex": "825",
+          "endIndex": "841"
+        },
+        {
+          "startIndex": "844",
+          "endIndex": "850"
+        }
+      ],
+      "content": ""
+    },
+    "type": "line_item",
+    "mentionText": "1 Freight Label 71 217.01",
+    "mentionId": "",
+    "confidence": 1,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.2918088734149933,
+                "y": 0.5415384769439697
+              },
+              {
+                "x": 0.9482366442680359,
+                "y": 0.5415384769439697
+              },
+              {
+                "x": 0.9482366442680359,
+                "y": 0.5542857050895691
+              },
+              {
+                "x": 0.2918088734149933,
+                "y": 0.5542857050895691
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "29",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  }
+]

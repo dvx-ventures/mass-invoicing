@@ -1,0 +1,98 @@
+{
+  "invoice_id": {
+    "value": "0060134",
+    "confidence": 0.9765695333480835
+  },
+  "total_amount": {
+    "value": "107.47",
+    "confidence": 0.9667372107505798
+  },
+  "invoice_date": {
+    "value": "3/27/2024",
+    "confidence": 0.8341408967971802
+  },
+  "currency": {
+    "value": "US\nUS DOLLARS",
+    "confidence": 0.8195765018463135
+  },
+  "receiver_name": {
+    "value": "ORE DOCK BREWING COMPANY",
+    "confidence": 0.5681478381156921
+  },
+  "freight_amount": {
+    "value": "19.47",
+    "confidence": 0.5638253688812256
+  },
+  "invoice_type": {
+    "value": "",
+    "confidence": 0.5456486344337463
+  },
+  "supplier_phone": {
+    "value": "(262) 345-6900",
+    "confidence": 0.5199655294418335
+  },
+  "supplier_email": {
+    "value": "INFO@OREDOCKBREWINGCOMPANY.COM",
+    "confidence": 0.48414894938468933
+  },
+  "carrier": {
+    "value": "BEST OPTION",
+    "confidence": 0.44186046719551086
+  },
+  "purchase_order": {
+    "value": "0060835",
+    "confidence": 0.4184229373931885
+  },
+  "receiver_address": {
+    "value": "114 W SPRINGS STREET\nMARQUETTE, MI 49855\nUnited States",
+    "confidence": 0.4006642699241638
+  },
+  "payment_terms": {
+    "value": "PAID WITHIN 30 DAYS OF INVOICE DATE",
+    "confidence": 0.3718830943107605
+  },
+  "supplier_address": {
+    "value": "114 W SPRINGS STREET\nMARQUETTE, MI 49855\nUnited States",
+    "confidence": 0.29883643984794617
+  },
+  "supplier_name": {
+    "value": "ORE DOCK BREWING COMPANY",
+    "confidence": 0.17553845047950745
+  },
+  "line_items": [
+    {
+      "line_item/unit_price": {
+        "value": "44.00",
+        "confidence": 0.937271237373352
+      },
+      "line_item/amount": {
+        "value": "88.00",
+        "confidence": 0.928551971912384
+      },
+      "line_item/description": {
+        "value": "2.000 GL MSPKLGFM\nSPARKLING FOAM\nControl Lot #(s)",
+        "confidence": 0.44038790464401245
+      },
+      "line_item/quantity": {
+        "value": "GL",
+        "confidence": 0.013335535302758217
+      }
+    },
+    {
+      "line_item/product_code": {
+        "value": "S6690-G",
+        "confidence": 0.45456910133361816
+      }
+    },
+    {
+      "line_item/unit_price": {
+        "value": "0.00",
+        "confidence": 0.9048687815666199
+      },
+      "line_item/amount": {
+        "value": "19.47",
+        "confidence": 0.8986506462097168
+      }
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "net_amount": {
+    "value": "347.55",
+    "confidence": 0.982997715473175
+  },
+  "due_date": {
+    "value": "7/11/2024",
+    "confidence": 0.969161331653595
+  },
+  "invoice_date": {
+    "value": "6/11/2024",
+    "confidence": 0.9602090716362
+  },
+  "invoice_id": {
+    "value": "90922",
+    "confidence": 0.952200174331665
+  },
+  "total_tax_amount": {
+    "value": "0.00",
+    "confidence": 0.9503958225250244
+  },
+  "ship_to_address": {
+    "value": "6 Folsom Road\nCenter Ossipee, NH 03814",
+    "confidence": 0.9377462863922119
+  },
+  "invoice_type": {
+    "value": "",
+    "confidence": 0.819657564163208
+  },
+  "ship_to_name": {
+    "value": "Sap House Meadery LLC",
+    "confidence": 0.8156458735466003
+  },
+  "receiver_name": {
+    "value": "Sap House Meadery LLC",
+    "confidence": 0.7056542634963989
+  },
+  "supplier_name": {
+    "value": "Avery Products Corporation",
+    "confidence": 0.6033976674079895
+  },
+  "total_amount": {
+    "value": "347.55",
+    "confidence": 0.5747904777526855
+  },
+  "receiver_address": {
+    "value": "P.O. Box 595\nCenter Ossipee, NH 03814",
+    "confidence": 0.5664514899253845
+  },
+  "currency": {
+    "value": "$",
+    "confidence": 0.5513681769371033
+  },
+  "supplier_address": {
+    "value": "12 Technology Drive\nNorth Chelmsford, MA 01863",
+    "confidence": 0.5287657976150513
+  },
+  "payment_terms": {
+    "value": "Net 30",
+    "confidence": 0.46762099862098694
+  },
+  "carrier": {
+    "value": "UPS",
+    "confidence": 0.44186046719551086
+  },
+  "line_items": [
+    {
+      "line_item/quantity": {
+        "value": "1,000.00",
+        "confidence": 0.9795677661895752
+      },
+      "line_item/unit_price": {
+        "value": "0.330000",
+        "confidence": 0.9308096766471863
+      },
+      "line_item/amount": {
+        "value": "334.00",
+        "confidence": 0.8951111435890198
+      },
+      "line_item/description": {
+        "value": "Honey Blueberry Pie",
+        "confidence": 0.5387924909591675
+      }
+    },
+    {
+      "line_item/description": {
+        "value": "Shipping",
+        "confidence": 0.47942790389060974
+      },
+      "line_item/quantity": {
+        "value": "1.00",
+        "confidence": 0.9511396884918213
+      },
+      "line_item/unit_price": {
+        "value": "13.550000",
+        "confidence": 0.931807279586792
+      },
+      "line_item/amount": {
+        "value": "13.55",
+        "confidence": 0.8955429792404175
+      }
+    }
+  ]
+}

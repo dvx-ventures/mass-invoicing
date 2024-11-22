@@ -1,0 +1,3239 @@
+[
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "1678",
+          "endIndex": "1690"
+        }
+      ],
+      "content": "204567697760"
+    },
+    "type": "invoice_id",
+    "mentionText": "204567697760",
+    "mentionId": "",
+    "confidence": 0.9229562282562256,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "1",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.8209242820739746,
+                "y": 0.09080280363559723
+              },
+              {
+                "x": 0.9255455732345581,
+                "y": 0.09080280363559723
+              },
+              {
+                "x": 0.9255455732345581,
+                "y": 0.09976617246866226
+              },
+              {
+                "x": 0.8209242820739746,
+                "y": 0.09976617246866226
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "0",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "3165",
+          "endIndex": "3171"
+        }
+      ],
+      "content": "220.24"
+    },
+    "type": "total_tax_amount",
+    "mentionText": "220.24",
+    "mentionId": "",
+    "confidence": 0.7736140489578247,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "1",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.846598207950592,
+                "y": 0.4419329762458801
+              },
+              {
+                "x": 0.8806161880493164,
+                "y": 0.4419329762458801
+              },
+              {
+                "x": 0.8806161880493164,
+                "y": 0.4493374824523926
+              },
+              {
+                "x": 0.846598207950592,
+                "y": 0.4493374824523926
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "1",
+    "normalizedValue": {
+      "text": "220.24"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": null,
+    "type": "invoice_type",
+    "mentionText": "",
+    "mentionId": "",
+    "confidence": 0.6790002584457397,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": null,
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "2",
+    "normalizedValue": {
+      "text": "utility_statement"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "1199",
+          "endIndex": "1207"
+        }
+      ],
+      "content": "3,891.84"
+    },
+    "type": "total_amount",
+    "mentionText": "3,891.84",
+    "mentionId": "",
+    "confidence": 0.6590940356254578,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.8562259078025818,
+                "y": 0.865939199924469
+              },
+              {
+                "x": 0.9492939710617065,
+                "y": 0.865939199924469
+              },
+              {
+                "x": 0.9492939710617065,
+                "y": 0.8815276622772217
+              },
+              {
+                "x": 0.8562259078025818,
+                "y": 0.8815276622772217
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "3",
+    "normalizedValue": {
+      "text": "3891.84"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "136",
+          "endIndex": "154"
+        }
+      ],
+      "content": "September 05, 2023"
+    },
+    "type": "invoice_date",
+    "mentionText": "September 05, 2023",
+    "mentionId": "",
+    "confidence": 0.6485169529914856,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.8023106455802917,
+                "y": 0.08300857245922089
+              },
+              {
+                "x": 0.9492939710617065,
+                "y": 0.08300857245922089
+              },
+              {
+                "x": 0.9492939710617065,
+                "y": 0.09586905688047409
+              },
+              {
+                "x": 0.8023106455802917,
+                "y": 0.09586905688047409
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "4",
+    "normalizedValue": {
+      "text": "2023-09-05",
+      "dateValue": {
+        "year": 2023,
+        "month": 9,
+        "day": 5
+      },
+      "structuredValue": "dateValue"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "3207",
+          "endIndex": "3225"
+        }
+      ],
+      "content": "September 05, 2023"
+    },
+    "type": "due_date",
+    "mentionText": "September 05, 2023",
+    "mentionId": "",
+    "confidence": 0.6376442313194275,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "1",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.4865211844444275,
+                "y": 0.48090413212776184
+              },
+              {
+                "x": 0.6501925587654114,
+                "y": 0.48090413212776184
+              },
+              {
+                "x": 0.6501925587654114,
+                "y": 0.49454402923583984
+              },
+              {
+                "x": 0.4865211844444275,
+                "y": 0.49454402923583984
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "5",
+    "normalizedValue": {
+      "text": "2023-09-05",
+      "dateValue": {
+        "year": 2023,
+        "month": 9,
+        "day": 5
+      },
+      "structuredValue": "dateValue"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "1265",
+          "endIndex": "1305"
+        }
+      ],
+      "content": "3618 GEMBRIT CIR\nKALAMAZOO MI 49001-4616"
+    },
+    "type": "supplier_address",
+    "mentionText": "3618 GEMBRIT CIR\nKALAMAZOO MI 49001-4616",
+    "mentionId": "",
+    "confidence": 0.5860984325408936,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.044929396361112595,
+                "y": 0.9169914126396179
+              },
+              {
+                "x": 0.20089858770370483,
+                "y": 0.9169914126396179
+              },
+              {
+                "x": 0.20089858770370483,
+                "y": 0.9337490200996399
+              },
+              {
+                "x": 0.044929396361112595,
+                "y": 0.9337490200996399
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "6",
+    "normalizedValue": {
+      "text": "2500 East Cork Street Kalamazoo, MI 49001 USA",
+      "addressValue": {
+        "addressLines": [
+          "2500 East Cork Street"
+        ],
+        "recipients": [],
+        "revision": 0,
+        "regionCode": "US",
+        "languageCode": "en-US",
+        "postalCode": "49001-5085",
+        "sortingCode": "",
+        "administrativeArea": "Michigan",
+        "locality": "Kalamazoo",
+        "sublocality": "",
+        "organization": ""
+      },
+      "structuredValue": "addressValue"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "1321",
+          "endIndex": "1359"
+        }
+      ],
+      "content": "PO BOX 740309\nCINCINNATI OH 45274-0309"
+    },
+    "type": "remit_to_address",
+    "mentionText": "PO BOX 740309\nCINCINNATI OH 45274-0309",
+    "mentionId": "",
+    "confidence": 0.5817395448684692,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.33311939239501953,
+                "y": 0.9193297028541565
+              },
+              {
+                "x": 0.49550706148147583,
+                "y": 0.9193297028541565
+              },
+              {
+                "x": 0.49550706148147583,
+                "y": 0.9353078603744507
+              },
+              {
+                "x": 0.33311939239501953,
+                "y": 0.9353078603744507
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "7",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "1198",
+          "endIndex": "1199"
+        }
+      ],
+      "content": "$"
+    },
+    "type": "currency",
+    "mentionText": "$",
+    "mentionId": "",
+    "confidence": 0.5668800473213196,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.8453145027160645,
+                "y": 0.8667186498641968
+              },
+              {
+                "x": 0.8523748517036438,
+                "y": 0.8667186498641968
+              },
+              {
+                "x": 0.8523748517036438,
+                "y": 0.8815276622772217
+              },
+              {
+                "x": 0.8453145027160645,
+                "y": 0.8815276622772217
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "8",
+    "normalizedValue": {
+      "text": "USD"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "110",
+          "endIndex": "122"
+        }
+      ],
+      "content": "800-805-0490"
+    },
+    "type": "supplier_phone",
+    "mentionText": "800-805-0490",
+    "mentionId": "",
+    "confidence": 0.5625712275505066,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.49101412296295166,
+                "y": 0.0802805945277214
+              },
+              {
+                "x": 0.6116816401481628,
+                "y": 0.0802805945277214
+              },
+              {
+                "x": 0.6116816401481628,
+                "y": 0.09119252115488052
+              },
+              {
+                "x": 0.49101412296295166,
+                "y": 0.09119252115488052
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "9",
+    "normalizedValue": {
+      "text": "+1 800 805 0490"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "24",
+          "endIndex": "40"
+        }
+      ],
+      "content": "Consumers Energy"
+    },
+    "type": "supplier_name",
+    "mentionText": "Consumers Energy",
+    "mentionId": "",
+    "confidence": 0.3544198274612427,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.05263157933950424,
+                "y": 0.05845674127340317
+              },
+              {
+                "x": 0.23876765370368958,
+                "y": 0.05845674127340317
+              },
+              {
+                "x": 0.23876765370368958,
+                "y": 0.07521434128284454
+              },
+              {
+                "x": 0.05263157933950424,
+                "y": 0.07521434128284454
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "10",
+    "normalizedValue": {
+      "text": "Consumers Energy"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "3977",
+          "endIndex": "4011"
+        }
+      ],
+      "content": "www.ConsumersEnergy.com/YourEnergy"
+    },
+    "type": "supplier_website",
+    "mentionText": "www.ConsumersEnergy.com/YourEnergy",
+    "mentionId": "",
+    "confidence": 0.34734266996383667,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "1",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.6688061356544495,
+                "y": 0.7186282277107239
+              },
+              {
+                "x": 0.8973042368888855,
+                "y": 0.7186282277107239
+              },
+              {
+                "x": 0.8973042368888855,
+                "y": 0.7295401692390442
+              },
+              {
+                "x": 0.6688061356544495,
+                "y": 0.7295401692390442
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "11",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "3155",
+          "endIndex": "3163"
+        }
+      ],
+      "content": "3,671.60"
+    },
+    "type": "net_amount",
+    "mentionText": "3,671.60",
+    "mentionId": "",
+    "confidence": 0.31389689445495605,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "1",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.8344030976295471,
+                "y": 0.432579904794693
+              },
+              {
+                "x": 0.881899893283844,
+                "y": 0.432579904794693
+              },
+              {
+                "x": 0.881899893283844,
+                "y": 0.44115355610847473
+              },
+              {
+                "x": 0.8344030976295471,
+                "y": 0.44115355610847473
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "12",
+    "normalizedValue": {
+      "text": "3671.6"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "694",
+              "endIndex": "700"
+            }
+          ],
+          "content": "19,800"
+        },
+        "type": "line_item/quantity",
+        "mentionText": "19,800",
+        "mentionId": "",
+        "confidence": 0.48906388878822327,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.1463414579629898,
+                    "y": 0.5144193172454834
+                  },
+                  {
+                    "x": 0.20860077440738678,
+                    "y": 0.5144193172454834
+                  },
+                  {
+                    "x": 0.20860077440738678,
+                    "y": 0.5288386344909668
+                  },
+                  {
+                    "x": 0.1463414579629898,
+                    "y": 0.5288386344909668
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "14",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      }
+    ],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "694",
+          "endIndex": "700"
+        }
+      ],
+      "content": ""
+    },
+    "type": "line_item",
+    "mentionText": "19,800",
+    "mentionId": "",
+    "confidence": 1,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.1463414579629898,
+                "y": 0.5144193172454834
+              },
+              {
+                "x": 0.20860077440738678,
+                "y": 0.5144193172454834
+              },
+              {
+                "x": 0.20860077440738678,
+                "y": 0.5288386344909668
+              },
+              {
+                "x": 0.1463414579629898,
+                "y": 0.5288386344909668
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "13",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "1892",
+              "endIndex": "1900"
+            }
+          ],
+          "content": "4,115.48"
+        },
+        "type": "line_item/amount",
+        "mentionText": "4,115.48",
+        "mentionId": "",
+        "confidence": 0.34001168608665466,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "1",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.829910159111023,
+                    "y": 0.13211223483085632
+                  },
+                  {
+                    "x": 0.885750949382782,
+                    "y": 0.13211223483085632
+                  },
+                  {
+                    "x": 0.885750949382782,
+                    "y": 0.14146532118320465
+                  },
+                  {
+                    "x": 0.829910159111023,
+                    "y": 0.14146532118320465
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "16",
+        "normalizedValue": {
+          "text": "4115.48"
+        },
+        "provenance": null,
+        "redacted": false
+      }
+    ],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "1892",
+          "endIndex": "1900"
+        }
+      ],
+      "content": ""
+    },
+    "type": "line_item",
+    "mentionText": "4,115.48",
+    "mentionId": "",
+    "confidence": 1,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "1",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.829910159111023,
+                "y": 0.13211223483085632
+              },
+              {
+                "x": 0.885750949382782,
+                "y": 0.13211223483085632
+              },
+              {
+                "x": 0.885750949382782,
+                "y": 0.14146532118320465
+              },
+              {
+                "x": 0.829910159111023,
+                "y": 0.14146532118320465
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "15",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "2193",
+              "endIndex": "2221"
+            }
+          ],
+          "content": "Gas Gen Serv Rate GS-1 - Com"
+        },
+        "type": "line_item/description",
+        "mentionText": "Gas Gen Serv Rate GS-1 - Com",
+        "mentionId": "",
+        "confidence": 0.5380071997642517,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "1",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.040436457842588425,
+                    "y": 0.241621196269989
+                  },
+                  {
+                    "x": 0.24133504927158356,
+                    "y": 0.241621196269989
+                  },
+                  {
+                    "x": 0.24133504927158356,
+                    "y": 0.25058457255363464
+                  },
+                  {
+                    "x": 0.040436457842588425,
+                    "y": 0.25058457255363464
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "18",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "2535",
+              "endIndex": "2540"
+            }
+          ],
+          "content": "27.32"
+        },
+        "type": "line_item/amount",
+        "mentionText": "27.32",
+        "mentionId": "",
+        "confidence": 0.4570711553096771,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "1",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.8536585569381714,
+                    "y": 0.24123148620128632
+                  },
+                  {
+                    "x": 0.8806161880493164,
+                    "y": 0.24123148620128632
+                  },
+                  {
+                    "x": 0.8806161880493164,
+                    "y": 0.24902571737766266
+                  },
+                  {
+                    "x": 0.8536585569381714,
+                    "y": 0.24902571737766266
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "19",
+        "normalizedValue": {
+          "text": "27.32"
+        },
+        "provenance": null,
+        "redacted": false
+      }
+    ],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "2193",
+          "endIndex": "2221"
+        },
+        {
+          "startIndex": "2535",
+          "endIndex": "2540"
+        }
+      ],
+      "content": ""
+    },
+    "type": "line_item",
+    "mentionText": "Gas Gen Serv Rate GS-1 - Com 27.32",
+    "mentionId": "",
+    "confidence": 1,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "1",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.040436457842588425,
+                "y": 0.24123148620128632
+              },
+              {
+                "x": 0.8806161880493164,
+                "y": 0.24123148620128632
+              },
+              {
+                "x": 0.8806161880493164,
+                "y": 0.25058457255363464
+              },
+              {
+                "x": 0.040436457842588425,
+                "y": 0.25058457255363464
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "17",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "2378",
+              "endIndex": "2391"
+            }
+          ],
+          "content": "FCM Incentive"
+        },
+        "type": "line_item/description",
+        "mentionText": "FCM Incentive",
+        "mentionId": "",
+        "confidence": 0.5526912808418274,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "1",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.46213093400001526,
+                    "y": 0.2860483229160309
+                  },
+                  {
+                    "x": 0.5385109186172485,
+                    "y": 0.2860483229160309
+                  },
+                  {
+                    "x": 0.5385109186172485,
+                    "y": 0.2934528589248657
+                  },
+                  {
+                    "x": 0.46213093400001526,
+                    "y": 0.2934528589248657
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "21",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "2570",
+              "endIndex": "2574"
+            }
+          ],
+          "content": "1.94"
+        },
+        "type": "line_item/amount",
+        "mentionText": "1.94",
+        "mentionId": "",
+        "confidence": 0.37763622403144836,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "1",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.860718846321106,
+                    "y": 0.2860483229160309
+                  },
+                  {
+                    "x": 0.8812580108642578,
+                    "y": 0.2860483229160309
+                  },
+                  {
+                    "x": 0.8812580108642578,
+                    "y": 0.29306313395500183
+                  },
+                  {
+                    "x": 0.860718846321106,
+                    "y": 0.29306313395500183
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "22",
+        "normalizedValue": {
+          "text": "1.94"
+        },
+        "provenance": null,
+        "redacted": false
+      }
+    ],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "2378",
+          "endIndex": "2391"
+        },
+        {
+          "startIndex": "2570",
+          "endIndex": "2574"
+        }
+      ],
+      "content": ""
+    },
+    "type": "line_item",
+    "mentionText": "FCM Incentive 1.94",
+    "mentionId": "",
+    "confidence": 1,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "1",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.46213093400001526,
+                "y": 0.2860483229160309
+              },
+              {
+                "x": 0.8812580108642578,
+                "y": 0.2860483229160309
+              },
+              {
+                "x": 0.8812580108642578,
+                "y": 0.2934528589248657
+              },
+              {
+                "x": 0.46213093400001526,
+                "y": 0.2934528589248657
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "20",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "2392",
+              "endIndex": "2408"
+            }
+          ],
+          "content": "Other Surcharges"
+        },
+        "type": "line_item/description",
+        "mentionText": "Other Surcharges",
+        "mentionId": "",
+        "confidence": 0.4849989712238312,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "1",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.46148908138275146,
+                    "y": 0.2934528589248657
+                  },
+                  {
+                    "x": 0.5577663779258728,
+                    "y": 0.2934528589248657
+                  },
+                  {
+                    "x": 0.5577663779258728,
+                    "y": 0.30397504568099976
+                  },
+                  {
+                    "x": 0.46148908138275146,
+                    "y": 0.30397504568099976
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "24",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "2576",
+              "endIndex": "2582"
+            }
+          ],
+          "content": "271.86"
+        },
+        "type": "line_item/amount",
+        "mentionText": "271.86",
+        "mentionId": "",
+        "confidence": 0.41504669189453125,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "1",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.846598207950592,
+                    "y": 0.2938425540924072
+                  },
+                  {
+                    "x": 0.8799743056297302,
+                    "y": 0.2938425540924072
+                  },
+                  {
+                    "x": 0.8799743056297302,
+                    "y": 0.30163678526878357
+                  },
+                  {
+                    "x": 0.846598207950592,
+                    "y": 0.30163678526878357
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "25",
+        "normalizedValue": {
+          "text": "271.86"
+        },
+        "provenance": null,
+        "redacted": false
+      }
+    ],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "2392",
+          "endIndex": "2408"
+        },
+        {
+          "startIndex": "2576",
+          "endIndex": "2582"
+        }
+      ],
+      "content": ""
+    },
+    "type": "line_item",
+    "mentionText": "Other Surcharges 271.86",
+    "mentionId": "",
+    "confidence": 1,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "1",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.46148908138275146,
+                "y": 0.2934528589248657
+              },
+              {
+                "x": 0.8799743056297302,
+                "y": 0.2934528589248657
+              },
+              {
+                "x": 0.8799743056297302,
+                "y": 0.30397504568099976
+              },
+              {
+                "x": 0.46148908138275146,
+                "y": 0.30397504568099976
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "23",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "2409",
+              "endIndex": "2435"
+            }
+          ],
+          "content": "Power Plant Securitization"
+        },
+        "type": "line_item/description",
+        "mentionText": "Power Plant Securitization",
+        "mentionId": "",
+        "confidence": 0.4969440698623657,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "1",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.46277278661727905,
+                    "y": 0.30319562554359436
+                  },
+                  {
+                    "x": 0.6026957631111145,
+                    "y": 0.30319562554359436
+                  },
+                  {
+                    "x": 0.6026957631111145,
+                    "y": 0.3109898567199707
+                  },
+                  {
+                    "x": 0.46277278661727905,
+                    "y": 0.3109898567199707
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "27",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "2584",
+              "endIndex": "2589"
+            }
+          ],
+          "content": "24.29"
+        },
+        "type": "line_item/amount",
+        "mentionText": "24.29",
+        "mentionId": "",
+        "confidence": 0.4064139425754547,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "1",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.8536585569381714,
+                    "y": 0.30319562554359436
+                  },
+                  {
+                    "x": 0.8806161880493164,
+                    "y": 0.30319562554359436
+                  },
+                  {
+                    "x": 0.8806161880493164,
+                    "y": 0.3102104365825653
+                  },
+                  {
+                    "x": 0.8536585569381714,
+                    "y": 0.3102104365825653
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "28",
+        "normalizedValue": {
+          "text": "24.29"
+        },
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "2596",
+              "endIndex": "2611"
+            }
+          ],
+          "content": "19800@ 0.001227"
+        },
+        "type": "line_item/quantity",
+        "mentionText": "19800@ 0.001227",
+        "mentionId": "",
+        "confidence": 0.279736191034317,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "1",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.6854942440986633,
+                    "y": 0.30280593037605286
+                  },
+                  {
+                    "x": 0.7830551862716675,
+                    "y": 0.30280593037605286
+                  },
+                  {
+                    "x": 0.7830551862716675,
+                    "y": 0.3102104365825653
+                  },
+                  {
+                    "x": 0.6854942440986633,
+                    "y": 0.3102104365825653
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "29",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      }
+    ],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "2409",
+          "endIndex": "2435"
+        },
+        {
+          "startIndex": "2584",
+          "endIndex": "2589"
+        },
+        {
+          "startIndex": "2596",
+          "endIndex": "2611"
+        }
+      ],
+      "content": ""
+    },
+    "type": "line_item",
+    "mentionText": "Power Plant Securitization 24.29 19800@ 0.001227",
+    "mentionId": "",
+    "confidence": 1,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "1",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.46277278661727905,
+                "y": 0.30280593037605286
+              },
+              {
+                "x": 0.8806161880493164,
+                "y": 0.30280593037605286
+              },
+              {
+                "x": 0.8806161880493164,
+                "y": 0.3109898567199707
+              },
+              {
+                "x": 0.46277278661727905,
+                "y": 0.3109898567199707
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "26",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "2436",
+              "endIndex": "2458"
+            }
+          ],
+          "content": "Low-Income Assist Fund"
+        },
+        "type": "line_item/description",
+        "mentionText": "Low-Income Assist Fund",
+        "mentionId": "",
+        "confidence": 0.5508835911750793,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "1",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.46148908138275146,
+                    "y": 0.31215900182724
+                  },
+                  {
+                    "x": 0.5937098860740662,
+                    "y": 0.31215900182724
+                  },
+                  {
+                    "x": 0.5937098860740662,
+                    "y": 0.31956353783607483
+                  },
+                  {
+                    "x": 0.46148908138275146,
+                    "y": 0.31956353783607483
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "31",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "2591",
+              "endIndex": "2595"
+            }
+          ],
+          "content": "0.90"
+        },
+        "type": "line_item/amount",
+        "mentionText": "0.90",
+        "mentionId": "",
+        "confidence": 0.2820598781108856,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "1",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.8594352006912231,
+                    "y": 0.3117692768573761
+                  },
+                  {
+                    "x": 0.8799743056297302,
+                    "y": 0.3117692768573761
+                  },
+                  {
+                    "x": 0.8799743056297302,
+                    "y": 0.31956353783607483
+                  },
+                  {
+                    "x": 0.8594352006912231,
+                    "y": 0.31956353783607483
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "32",
+        "normalizedValue": {
+          "text": "0.9"
+        },
+        "provenance": null,
+        "redacted": false
+      }
+    ],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "2436",
+          "endIndex": "2458"
+        },
+        {
+          "startIndex": "2591",
+          "endIndex": "2595"
+        }
+      ],
+      "content": ""
+    },
+    "type": "line_item",
+    "mentionText": "Low-Income Assist Fund 0.90",
+    "mentionId": "",
+    "confidence": 1,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "1",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.46148908138275146,
+                "y": 0.3117692768573761
+              },
+              {
+                "x": 0.8799743056297302,
+                "y": 0.3117692768573761
+              },
+              {
+                "x": 0.8799743056297302,
+                "y": 0.31956353783607483
+              },
+              {
+                "x": 0.46148908138275146,
+                "y": 0.31956353783607483
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "30",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "2525",
+              "endIndex": "2533"
+            }
+          ],
+          "content": "2,112.34"
+        },
+        "type": "line_item/amount",
+        "mentionText": "2,112.34",
+        "mentionId": "",
+        "confidence": 0.4066973924636841,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "1",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.8382541537284851,
+                    "y": 0.23226812481880188
+                  },
+                  {
+                    "x": 0.8806161880493164,
+                    "y": 0.23226812481880188
+                  },
+                  {
+                    "x": 0.8806161880493164,
+                    "y": 0.24045206606388092
+                  },
+                  {
+                    "x": 0.8382541537284851,
+                    "y": 0.24045206606388092
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "34",
+        "normalizedValue": {
+          "text": "2112.34"
+        },
+        "provenance": null,
+        "redacted": false
+      }
+    ],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "2525",
+          "endIndex": "2533"
+        }
+      ],
+      "content": ""
+    },
+    "type": "line_item",
+    "mentionText": "2,112.34",
+    "mentionId": "",
+    "confidence": 1,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "1",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.8382541537284851,
+                "y": 0.23226812481880188
+              },
+              {
+                "x": 0.8806161880493164,
+                "y": 0.23226812481880188
+              },
+              {
+                "x": 0.8806161880493164,
+                "y": 0.24045206606388092
+              },
+              {
+                "x": 0.8382541537284851,
+                "y": 0.24045206606388092
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "33",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "2542",
+              "endIndex": "2547"
+            }
+          ],
+          "content": "20.00"
+        },
+        "type": "line_item/amount",
+        "mentionText": "20.00",
+        "mentionId": "",
+        "confidence": 0.5025948882102966,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "1",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.8530166745185852,
+                    "y": 0.25019484758377075
+                  },
+                  {
+                    "x": 0.8799743056297302,
+                    "y": 0.25019484758377075
+                  },
+                  {
+                    "x": 0.8799743056297302,
+                    "y": 0.2587684988975525
+                  },
+                  {
+                    "x": 0.8530166745185852,
+                    "y": 0.2587684988975525
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "36",
+        "normalizedValue": {
+          "text": "20"
+        },
+        "provenance": null,
+        "redacted": false
+      }
+    ],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "2542",
+          "endIndex": "2547"
+        }
+      ],
+      "content": ""
+    },
+    "type": "line_item",
+    "mentionText": "20.00",
+    "mentionId": "",
+    "confidence": 1,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "1",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.8530166745185852,
+                "y": 0.25019484758377075
+              },
+              {
+                "x": 0.8799743056297302,
+                "y": 0.25019484758377075
+              },
+              {
+                "x": 0.8799743056297302,
+                "y": 0.2587684988975525
+              },
+              {
+                "x": 0.8530166745185852,
+                "y": 0.2587684988975525
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "35",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "2549",
+              "endIndex": "2553"
+            }
+          ],
+          "content": "4.51"
+        },
+        "type": "line_item/amount",
+        "mentionText": "4.51",
+        "mentionId": "",
+        "confidence": 0.36590057611465454,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "1",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.8594352006912231,
+                    "y": 0.2591582238674164
+                  },
+                  {
+                    "x": 0.8806161880493164,
+                    "y": 0.2591582238674164
+                  },
+                  {
+                    "x": 0.8806161880493164,
+                    "y": 0.26617303490638733
+                  },
+                  {
+                    "x": 0.8594352006912231,
+                    "y": 0.26617303490638733
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "38",
+        "normalizedValue": {
+          "text": "4.51"
+        },
+        "provenance": null,
+        "redacted": false
+      }
+    ],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "2549",
+          "endIndex": "2553"
+        }
+      ],
+      "content": ""
+    },
+    "type": "line_item",
+    "mentionText": "4.51",
+    "mentionId": "",
+    "confidence": 1,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "1",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.8594352006912231,
+                "y": 0.2591582238674164
+              },
+              {
+                "x": 0.8806161880493164,
+                "y": 0.2591582238674164
+              },
+              {
+                "x": 0.8806161880493164,
+                "y": 0.26617303490638733
+              },
+              {
+                "x": 0.8594352006912231,
+                "y": 0.26617303490638733
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "37",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "2555",
+              "endIndex": "2560"
+            }
+          ],
+          "content": "8.04-"
+        },
+        "type": "line_item/amount",
+        "mentionText": "8.04-",
+        "mentionId": "",
+        "confidence": 0.3899168372154236,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "1",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.858793318271637,
+                    "y": 0.2677318751811981
+                  },
+                  {
+                    "x": 0.8831835389137268,
+                    "y": 0.2677318751811981
+                  },
+                  {
+                    "x": 0.8831835389137268,
+                    "y": 0.27552610635757446
+                  },
+                  {
+                    "x": 0.858793318271637,
+                    "y": 0.27552610635757446
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "40",
+        "normalizedValue": {
+          "text": "8.04"
+        },
+        "provenance": null,
+        "redacted": false
+      }
+    ],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "2555",
+          "endIndex": "2560"
+        }
+      ],
+      "content": ""
+    },
+    "type": "line_item",
+    "mentionText": "8.04-",
+    "mentionId": "",
+    "confidence": 1,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "1",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.858793318271637,
+                "y": 0.2677318751811981
+              },
+              {
+                "x": 0.8831835389137268,
+                "y": 0.2677318751811981
+              },
+              {
+                "x": 0.8831835389137268,
+                "y": 0.27552610635757446
+              },
+              {
+                "x": 0.858793318271637,
+                "y": 0.27552610635757446
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "39",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "2562",
+              "endIndex": "2568"
+            }
+          ],
+          "content": "884.90"
+        },
+        "type": "line_item/amount",
+        "mentionText": "884.90",
+        "mentionId": "",
+        "confidence": 0.4700784981250763,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "1",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.8459563255310059,
+                    "y": 0.27630552649497986
+                  },
+                  {
+                    "x": 0.8799743056297302,
+                    "y": 0.27630552649497986
+                  },
+                  {
+                    "x": 0.8799743056297302,
+                    "y": 0.2844894826412201
+                  },
+                  {
+                    "x": 0.8459563255310059,
+                    "y": 0.2844894826412201
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "42",
+        "normalizedValue": {
+          "text": "884.9"
+        },
+        "provenance": null,
+        "redacted": false
+      }
+    ],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "2562",
+          "endIndex": "2568"
+        }
+      ],
+      "content": ""
+    },
+    "type": "line_item",
+    "mentionText": "884.90",
+    "mentionId": "",
+    "confidence": 1,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "1",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.8459563255310059,
+                "y": 0.27630552649497986
+              },
+              {
+                "x": 0.8799743056297302,
+                "y": 0.27630552649497986
+              },
+              {
+                "x": 0.8799743056297302,
+                "y": 0.2844894826412201
+              },
+              {
+                "x": 0.8459563255310059,
+                "y": 0.2844894826412201
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "41",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "2885",
+              "endIndex": "2890"
+            }
+          ],
+          "content": "38.4@"
+        },
+        "type": "line_item/quantity",
+        "mentionText": "38.4@",
+        "mentionId": "",
+        "confidence": 0.22449667751789093,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "1",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.6957638263702393,
+                    "y": 0.37061575055122375
+                  },
+                  {
+                    "x": 0.7240051627159119,
+                    "y": 0.37061575055122375
+                  },
+                  {
+                    "x": 0.7240051627159119,
+                    "y": 0.3772408366203308
+                  },
+                  {
+                    "x": 0.6957638263702393,
+                    "y": 0.3772408366203308
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "44",
+        "normalizedValue": {
+          "text": "38.4"
+        },
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "2993",
+              "endIndex": "2999"
+            }
+          ],
+          "content": "163.57"
+        },
+        "type": "line_item/amount",
+        "mentionText": "163.57",
+        "mentionId": "",
+        "confidence": 0.513191819190979,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "1",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.846598207950592,
+                    "y": 0.36983633041381836
+                  },
+                  {
+                    "x": 0.8812580108642578,
+                    "y": 0.36983633041381836
+                  },
+                  {
+                    "x": 0.8812580108642578,
+                    "y": 0.3768511414527893
+                  },
+                  {
+                    "x": 0.846598207950592,
+                    "y": 0.3768511414527893
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "45",
+        "normalizedValue": {
+          "text": "163.57"
+        },
+        "provenance": null,
+        "redacted": false
+      }
+    ],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "2885",
+          "endIndex": "2890"
+        },
+        {
+          "startIndex": "2993",
+          "endIndex": "2999"
+        }
+      ],
+      "content": ""
+    },
+    "type": "line_item",
+    "mentionText": "38.4@ 163.57",
+    "mentionId": "",
+    "confidence": 1,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "1",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.6957638263702393,
+                "y": 0.36983633041381836
+              },
+              {
+                "x": 0.8812580108642578,
+                "y": 0.36983633041381836
+              },
+              {
+                "x": 0.8812580108642578,
+                "y": 0.3772408366203308
+              },
+              {
+                "x": 0.6957638263702393,
+                "y": 0.3772408366203308
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "43",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "2933",
+              "endIndex": "2949"
+            }
+          ],
+          "content": "Voluntary Refund"
+        },
+        "type": "line_item/description",
+        "mentionText": "Voluntary Refund",
+        "mentionId": "",
+        "confidence": 0.63780677318573,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "1",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.46148908138275146,
+                    "y": 0.3784099817276001
+                  },
+                  {
+                    "x": 0.5558408498764038,
+                    "y": 0.3784099817276001
+                  },
+                  {
+                    "x": 0.5558408498764038,
+                    "y": 0.3873733580112457
+                  },
+                  {
+                    "x": 0.46148908138275146,
+                    "y": 0.3873733580112457
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "47",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "3001",
+              "endIndex": "3006"
+            }
+          ],
+          "content": "1.52-"
+        },
+        "type": "line_item/amount",
+        "mentionText": "1.52-",
+        "mentionId": "",
+        "confidence": 0.39778152108192444,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "1",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.860718846321106,
+                    "y": 0.3791894018650055
+                  },
+                  {
+                    "x": 0.881899893283844,
+                    "y": 0.3791894018650055
+                  },
+                  {
+                    "x": 0.881899893283844,
+                    "y": 0.38659390807151794
+                  },
+                  {
+                    "x": 0.860718846321106,
+                    "y": 0.38659390807151794
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "48",
+        "normalizedValue": {
+          "text": "1.52"
+        },
+        "provenance": null,
+        "redacted": false
+      }
+    ],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "2933",
+          "endIndex": "2949"
+        },
+        {
+          "startIndex": "3001",
+          "endIndex": "3006"
+        }
+      ],
+      "content": ""
+    },
+    "type": "line_item",
+    "mentionText": "Voluntary Refund 1.52-",
+    "mentionId": "",
+    "confidence": 1,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "1",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.46148908138275146,
+                "y": 0.3784099817276001
+              },
+              {
+                "x": 0.881899893283844,
+                "y": 0.3784099817276001
+              },
+              {
+                "x": 0.881899893283844,
+                "y": 0.3873733580112457
+              },
+              {
+                "x": 0.46148908138275146,
+                "y": 0.3873733580112457
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "46",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "2950",
+              "endIndex": "2966"
+            }
+          ],
+          "content": "Other Surcharges"
+        },
+        "type": "line_item/description",
+        "mentionText": "Other Surcharges",
+        "mentionId": "",
+        "confidence": 0.4749312102794647,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "1",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.46341463923454285,
+                    "y": 0.38698363304138184
+                  },
+                  {
+                    "x": 0.5577663779258728,
+                    "y": 0.38698363304138184
+                  },
+                  {
+                    "x": 0.5577663779258728,
+                    "y": 0.39633670449256897
+                  },
+                  {
+                    "x": 0.46341463923454285,
+                    "y": 0.39633670449256897
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "50",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "3008",
+              "endIndex": "3013"
+            }
+          ],
+          "content": "18.96"
+        },
+        "type": "line_item/amount",
+        "mentionText": "18.96",
+        "mentionId": "",
+        "confidence": 0.553313136100769,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "1",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.8536585569381714,
+                    "y": 0.3881527781486511
+                  },
+                  {
+                    "x": 0.8812580108642578,
+                    "y": 0.3881527781486511
+                  },
+                  {
+                    "x": 0.8812580108642578,
+                    "y": 0.39516758918762207
+                  },
+                  {
+                    "x": 0.8536585569381714,
+                    "y": 0.39516758918762207
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "51",
+        "normalizedValue": {
+          "text": "18.96"
+        },
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "3022",
+              "endIndex": "3027"
+            }
+          ],
+          "content": "38.4@"
+        },
+        "type": "line_item/quantity",
+        "mentionText": "38.4@",
+        "mentionId": "",
+        "confidence": 0.28565242886543274,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "1",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.6957638263702393,
+                    "y": 0.3881527781486511
+                  },
+                  {
+                    "x": 0.7240051627159119,
+                    "y": 0.3881527781486511
+                  },
+                  {
+                    "x": 0.7240051627159119,
+                    "y": 0.3947778642177582
+                  },
+                  {
+                    "x": 0.6957638263702393,
+                    "y": 0.3947778642177582
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "52",
+        "normalizedValue": {
+          "text": "38.4"
+        },
+        "provenance": null,
+        "redacted": false
+      }
+    ],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "2950",
+          "endIndex": "2966"
+        },
+        {
+          "startIndex": "3008",
+          "endIndex": "3013"
+        },
+        {
+          "startIndex": "3022",
+          "endIndex": "3027"
+        }
+      ],
+      "content": ""
+    },
+    "type": "line_item",
+    "mentionText": "Other Surcharges 18.96 38.4@",
+    "mentionId": "",
+    "confidence": 1,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "1",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.46341463923454285,
+                "y": 0.38698363304138184
+              },
+              {
+                "x": 0.8812580108642578,
+                "y": 0.38698363304138184
+              },
+              {
+                "x": 0.8812580108642578,
+                "y": 0.39633670449256897
+              },
+              {
+                "x": 0.46341463923454285,
+                "y": 0.39633670449256897
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "49",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "2967",
+              "endIndex": "2984"
+            }
+          ],
+          "content": "Gas Cost Recovery"
+        },
+        "type": "line_item/description",
+        "mentionText": "Gas Cost Recovery",
+        "mentionId": "",
+        "confidence": 0.5382134318351746,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "1",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.46277278661727905,
+                    "y": 0.39594700932502747
+                  },
+                  {
+                    "x": 0.5596919059753418,
+                    "y": 0.39594700932502747
+                  },
+                  {
+                    "x": 0.5596919059753418,
+                    "y": 0.4053000807762146
+                  },
+                  {
+                    "x": 0.46277278661727905,
+                    "y": 0.4053000807762146
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "54",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "3015",
+              "endIndex": "3021"
+            }
+          ],
+          "content": "134.57"
+        },
+        "type": "line_item/amount",
+        "mentionText": "134.57",
+        "mentionId": "",
+        "confidence": 0.568737268447876,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "1",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.846598207950592,
+                    "y": 0.39672642946243286
+                  },
+                  {
+                    "x": 0.8812580108642578,
+                    "y": 0.39672642946243286
+                  },
+                  {
+                    "x": 0.8812580108642578,
+                    "y": 0.4041309356689453
+                  },
+                  {
+                    "x": 0.846598207950592,
+                    "y": 0.4041309356689453
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "55",
+        "normalizedValue": {
+          "text": "134.57"
+        },
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "3037",
+              "endIndex": "3042"
+            }
+          ],
+          "content": "38.4@"
+        },
+        "type": "line_item/quantity",
+        "mentionText": "38.4@",
+        "mentionId": "",
+        "confidence": 0.31455373764038086,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "1",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.6957638263702393,
+                    "y": 0.39711612462997437
+                  },
+                  {
+                    "x": 0.7240051627159119,
+                    "y": 0.39711612462997437
+                  },
+                  {
+                    "x": 0.7240051627159119,
+                    "y": 0.4037412405014038
+                  },
+                  {
+                    "x": 0.6957638263702393,
+                    "y": 0.4037412405014038
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "56",
+        "normalizedValue": {
+          "text": "38.4"
+        },
+        "provenance": null,
+        "redacted": false
+      }
+    ],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "2967",
+          "endIndex": "2984"
+        },
+        {
+          "startIndex": "3015",
+          "endIndex": "3021"
+        },
+        {
+          "startIndex": "3037",
+          "endIndex": "3042"
+        }
+      ],
+      "content": ""
+    },
+    "type": "line_item",
+    "mentionText": "Gas Cost Recovery 134.57 38.4@",
+    "mentionId": "",
+    "confidence": 1,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "1",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.46277278661727905,
+                "y": 0.39594700932502747
+              },
+              {
+                "x": 0.8812580108642578,
+                "y": 0.39594700932502747
+              },
+              {
+                "x": 0.8812580108642578,
+                "y": 0.4053000807762146
+              },
+              {
+                "x": 0.46277278661727905,
+                "y": 0.4053000807762146
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "53",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "2986",
+              "endIndex": "2991"
+            }
+          ],
+          "content": "16.00"
+        },
+        "type": "line_item/amount",
+        "mentionText": "16.00",
+        "mentionId": "",
+        "confidence": 0.46494778990745544,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "1",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.8530166745185852,
+                    "y": 0.36087295413017273
+                  },
+                  {
+                    "x": 0.8799743056297302,
+                    "y": 0.36087295413017273
+                  },
+                  {
+                    "x": 0.8799743056297302,
+                    "y": 0.3686671853065491
+                  },
+                  {
+                    "x": 0.8530166745185852,
+                    "y": 0.3686671853065491
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "58",
+        "normalizedValue": {
+          "text": "16"
+        },
+        "provenance": null,
+        "redacted": false
+      }
+    ],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "2986",
+          "endIndex": "2991"
+        }
+      ],
+      "content": ""
+    },
+    "type": "line_item",
+    "mentionText": "16.00",
+    "mentionId": "",
+    "confidence": 1,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "1",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.8530166745185852,
+                "y": 0.36087295413017273
+              },
+              {
+                "x": 0.8799743056297302,
+                "y": 0.36087295413017273
+              },
+              {
+                "x": 0.8799743056297302,
+                "y": 0.3686671853065491
+              },
+              {
+                "x": 0.8530166745185852,
+                "y": 0.3686671853065491
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "57",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "3071",
+              "endIndex": "3077"
+            }
+          ],
+          "content": "331.58"
+        },
+        "type": "line_item/amount",
+        "mentionText": "331.58",
+        "mentionId": "",
+        "confidence": 0.27827268838882446,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "1",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.8453145027160645,
+                    "y": 0.41075605154037476
+                  },
+                  {
+                    "x": 0.883825421333313,
+                    "y": 0.41075605154037476
+                  },
+                  {
+                    "x": 0.883825421333313,
+                    "y": 0.4185502827167511
+                  },
+                  {
+                    "x": 0.8453145027160645,
+                    "y": 0.4185502827167511
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "60",
+        "normalizedValue": {
+          "text": "331.58"
+        },
+        "provenance": null,
+        "redacted": false
+      }
+    ],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "3071",
+          "endIndex": "3077"
+        }
+      ],
+      "content": ""
+    },
+    "type": "line_item",
+    "mentionText": "331.58",
+    "mentionId": "",
+    "confidence": 1,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "1",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.8453145027160645,
+                "y": 0.41075605154037476
+              },
+              {
+                "x": 0.883825421333313,
+                "y": 0.41075605154037476
+              },
+              {
+                "x": 0.883825421333313,
+                "y": 0.4185502827167511
+              },
+              {
+                "x": 0.8453145027160645,
+                "y": 0.4185502827167511
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "59",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  }
+]

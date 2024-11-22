@@ -1,0 +1,108 @@
+{
+  "invoice_id": {
+    "value": "IN0145387",
+    "confidence": 0.9792909026145935
+  },
+  "due_date": {
+    "value": "5/14/2022",
+    "confidence": 0.9414523839950562
+  },
+  "invoice_date": {
+    "value": "4/14/2022",
+    "confidence": 0.9370689988136292
+  },
+  "total_amount": {
+    "value": "336.81",
+    "confidence": 0.9150438904762268
+  },
+  "ship_to_address": {
+    "value": "765 White Mountain Highway\nOssipee, NH 03864",
+    "confidence": 0.832537055015564
+  },
+  "invoice_type": {
+    "value": "",
+    "confidence": 0.8240834474563599
+  },
+  "ship_to_name": {
+    "value": "Hobbs Tavern & Brewing Company, L",
+    "confidence": 0.6524179577827454
+  },
+  "receiver_name": {
+    "value": "Hobbs Tavern & Brewing Company, LLC",
+    "confidence": 0.5320138931274414
+  },
+  "supplier_tax_id": {
+    "value": "86823 1358 RT0001",
+    "confidence": 0.5283818244934082
+  },
+  "supplier_address": {
+    "value": "191 S. Gulph Road\nKing of Prussia, PA 19406",
+    "confidence": 0.5135261416435242
+  },
+  "payment_terms": {
+    "value": "Net 30 Days",
+    "confidence": 0.4639355540275574
+  },
+  "ship_from_address": {
+    "value": "765 White Mountain Highway\nOssipee, NH 03864",
+    "confidence": 0.41045239567756653
+  },
+  "receiver_address": {
+    "value": "765 White Mountain Highway\nOssipee, NH 03864",
+    "confidence": 0.35175833106040955
+  },
+  "supplier_website": {
+    "value": "http://www.zh-inc.com/Customer Terms.pdf",
+    "confidence": 0.3039182722568512
+  },
+  "supplier_name": {
+    "value": "zh-inc.com",
+    "confidence": 0.14199881255626678
+  },
+  "line_items": [
+    {
+      "line_item/description": {
+        "value": "Freight Out (Beverage)",
+        "confidence": 0.6724457144737244
+      },
+      "line_item/quantity": {
+        "value": "1",
+        "confidence": 0.8622749447822571
+      },
+      "line_item/unit": {
+        "value": "Ea",
+        "confidence": 0.30313512682914734
+      },
+      "line_item/unit_price": {
+        "value": "338.01",
+        "confidence": 0.8945533633232117
+      },
+      "line_item/amount": {
+        "value": "338.01",
+        "confidence": 0.8908481001853943
+      }
+    },
+    {
+      "line_item/description": {
+        "value": "RIST",
+        "confidence": 0.5238738059997559
+      },
+      "line_item/quantity": {
+        "value": "1",
+        "confidence": 0.85896897315979
+      },
+      "line_item/unit": {
+        "value": "Ea",
+        "confidence": 0.24937336146831512
+      },
+      "line_item/unit_price": {
+        "value": "336.81",
+        "confidence": 0.8794931769371033
+      },
+      "line_item/amount": {
+        "value": "336.81",
+        "confidence": 0.8852877616882324
+      }
+    }
+  ]
+}

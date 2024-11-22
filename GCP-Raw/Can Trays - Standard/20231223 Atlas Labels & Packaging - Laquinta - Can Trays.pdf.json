@@ -1,0 +1,1537 @@
+[
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "837",
+          "endIndex": "844"
+        }
+      ],
+      "content": "2892.45"
+    },
+    "type": "net_amount",
+    "mentionText": "2892.45",
+    "mentionId": "",
+    "confidence": 0.9812007546424866,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.9061433672904968,
+                "y": 0.7819780111312866
+              },
+              {
+                "x": 0.9630261659622192,
+                "y": 0.7819780111312866
+              },
+              {
+                "x": 0.9630261659622192,
+                "y": 0.7942857146263123
+              },
+              {
+                "x": 0.9061433672904968,
+                "y": 0.7942857146263123
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "0",
+    "normalizedValue": {
+      "text": "2892.45"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "864",
+          "endIndex": "872"
+        }
+      ],
+      "content": "01/19/24"
+    },
+    "type": "due_date",
+    "mentionText": "01/19/24",
+    "mentionId": "",
+    "confidence": 0.9652836322784424,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.6183162927627563,
+                "y": 0.7775824069976807
+              },
+              {
+                "x": 0.6922639608383179,
+                "y": 0.7775824069976807
+              },
+              {
+                "x": 0.6922639608383179,
+                "y": 0.7947252988815308
+              },
+              {
+                "x": 0.6183162927627563,
+                "y": 0.7947252988815308
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "1",
+    "normalizedValue": {
+      "text": "2024-01-19",
+      "dateValue": {
+        "year": 2024,
+        "month": 1,
+        "day": 19
+      },
+      "structuredValue": "dateValue"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "1040",
+          "endIndex": "1044"
+        }
+      ],
+      "content": "0.00"
+    },
+    "type": "total_tax_amount",
+    "mentionText": "0.00",
+    "mentionId": "",
+    "confidence": 0.9455556869506836,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.9317406415939331,
+                "y": 0.8123077154159546
+              },
+              {
+                "x": 0.9630261659622192,
+                "y": 0.8123077154159546
+              },
+              {
+                "x": 0.9630261659622192,
+                "y": 0.8237362504005432
+              },
+              {
+                "x": 0.9317406415939331,
+                "y": 0.8237362504005432
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "2",
+    "normalizedValue": {
+      "text": "0"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "289",
+          "endIndex": "297"
+        }
+      ],
+      "content": "12/20/23"
+    },
+    "type": "invoice_date",
+    "mentionText": "12/20/23",
+    "mentionId": "",
+    "confidence": 0.9351744055747986,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.6120591759681702,
+                "y": 0.0923076942563057
+              },
+              {
+                "x": 0.6729238033294678,
+                "y": 0.0923076942563057
+              },
+              {
+                "x": 0.6729238033294678,
+                "y": 0.10417582094669342
+              },
+              {
+                "x": 0.6120591759681702,
+                "y": 0.10417582094669342
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "3",
+    "normalizedValue": {
+      "text": "2023-12-20",
+      "dateValue": {
+        "year": 2023,
+        "month": 12,
+        "day": 20
+      },
+      "structuredValue": "dateValue"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": null,
+    "type": "invoice_type",
+    "mentionText": "",
+    "mentionId": "",
+    "confidence": 0.8500872254371643,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": null,
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "4",
+    "normalizedValue": {
+      "text": "invoice_statement"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "56",
+          "endIndex": "95"
+        }
+      ],
+      "content": "11435 Strang Line Road\nLenexa, KS 66215"
+    },
+    "type": "supplier_address",
+    "mentionText": "11435 Strang Line Road\nLenexa, KS 66215",
+    "mentionId": "",
+    "confidence": 0.8462086319923401,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.13993173837661743,
+                "y": 0.0756043940782547
+              },
+              {
+                "x": 0.3151308298110962,
+                "y": 0.0756043940782547
+              },
+              {
+                "x": 0.3151308298110962,
+                "y": 0.10593406856060028
+              },
+              {
+                "x": 0.13993173837661743,
+                "y": 0.10593406856060028
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "5",
+    "normalizedValue": {
+      "text": "11435 Strang Line Rd Lenexa, KS 66215 USA",
+      "addressValue": {
+        "addressLines": [
+          "11435 Strang Line Rd"
+        ],
+        "recipients": [],
+        "revision": 0,
+        "regionCode": "US",
+        "languageCode": "en-US",
+        "postalCode": "66215",
+        "sortingCode": "",
+        "administrativeArea": "Kansas",
+        "locality": "Lenexa",
+        "sublocality": "",
+        "organization": ""
+      },
+      "structuredValue": "addressValue"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "327",
+          "endIndex": "335"
+        }
+      ],
+      "content": "12/15/23"
+    },
+    "type": "delivery_date",
+    "mentionText": "12/15/23",
+    "mentionId": "",
+    "confidence": 0.8040236234664917,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.6103526949882507,
+                "y": 0.14989010989665985
+              },
+              {
+                "x": 0.6723549365997314,
+                "y": 0.14989010989665985
+              },
+              {
+                "x": 0.6723549365997314,
+                "y": 0.16131867468357086
+              },
+              {
+                "x": 0.6103526949882507,
+                "y": 0.16131867468357086
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "6",
+    "normalizedValue": {
+      "text": "2023-12-15",
+      "dateValue": {
+        "year": 2023,
+        "month": 12,
+        "day": 15
+      },
+      "structuredValue": "dateValue"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "576",
+          "endIndex": "621"
+        }
+      ],
+      "content": "74-714 Technology Drive\nPalm Desert, CA 92211"
+    },
+    "type": "ship_to_address",
+    "mentionText": "74-714 Technology Drive\nPalm Desert, CA 92211",
+    "mentionId": "",
+    "confidence": 0.7835855484008789,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.5989761352539062,
+                "y": 0.2549450695514679
+              },
+              {
+                "x": 0.7844141125679016,
+                "y": 0.2549450695514679
+              },
+              {
+                "x": 0.7844141125679016,
+                "y": 0.282637357711792
+              },
+              {
+                "x": 0.5989761352539062,
+                "y": 0.282637357711792
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "7",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "336",
+          "endIndex": "341"
+        }
+      ],
+      "content": "68557"
+    },
+    "type": "purchase_order",
+    "mentionText": "68557",
+    "mentionId": "",
+    "confidence": 0.7655934691429138,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.788395881652832,
+                "y": 0.09274725615978241
+              },
+              {
+                "x": 0.8344709873199463,
+                "y": 0.09274725615978241
+              },
+              {
+                "x": 0.8344709873199463,
+                "y": 0.10329670459032059
+              },
+              {
+                "x": 0.788395881652832,
+                "y": 0.10329670459032059
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "8",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "186",
+          "endIndex": "212"
+        }
+      ],
+      "content": "accounting@atlaslabels.com"
+    },
+    "type": "supplier_email",
+    "mentionText": "accounting@atlaslabels.com",
+    "mentionId": "",
+    "confidence": 0.75144362449646,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.3577929437160492,
+                "y": 0.12527473270893097
+              },
+              {
+                "x": 0.5699658989906311,
+                "y": 0.12527473270893097
+              },
+              {
+                "x": 0.5699658989906311,
+                "y": 0.14153845608234406
+              },
+              {
+                "x": 0.3577929437160492,
+                "y": 0.14153845608234406
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "9",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "348",
+          "endIndex": "359"
+        }
+      ],
+      "content": "Net 30 Days"
+    },
+    "type": "payment_terms",
+    "mentionText": "Net 30 Days",
+    "mentionId": "",
+    "confidence": 0.722314715385437,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.788395881652832,
+                "y": 0.117802195250988
+              },
+              {
+                "x": 0.8794084191322327,
+                "y": 0.117802195250988
+              },
+              {
+                "x": 0.8794084191322327,
+                "y": 0.13318681716918945
+              },
+              {
+                "x": 0.788395881652832,
+                "y": 0.13318681716918945
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "10",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "1240",
+          "endIndex": "1247"
+        }
+      ],
+      "content": "4493.71"
+    },
+    "type": "total_amount",
+    "mentionText": "4493.71",
+    "mentionId": "",
+    "confidence": 0.7101636528968811,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.9027303457260132,
+                "y": 0.9037362933158875
+              },
+              {
+                "x": 0.9618884921073914,
+                "y": 0.9037362933158875
+              },
+              {
+                "x": 0.9618884921073914,
+                "y": 0.9151648283004761
+              },
+              {
+                "x": 0.9027303457260132,
+                "y": 0.9151648283004761
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "11",
+    "normalizedValue": {
+      "text": "4493.71"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "145",
+          "endIndex": "164"
+        }
+      ],
+      "content": "www.atlaslabels.com"
+    },
+    "type": "supplier_website",
+    "mentionText": "www.atlaslabels.com",
+    "mentionId": "",
+    "confidence": 0.6254352331161499,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.13765642046928406,
+                "y": 0.10549450665712357
+              },
+              {
+                "x": 0.29806599020957947,
+                "y": 0.10549450665712357
+              },
+              {
+                "x": 0.29806599020957947,
+                "y": 0.12747253477573395
+              },
+              {
+                "x": 0.13765642046928406,
+                "y": 0.12747253477573395
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "12",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "424",
+          "endIndex": "454"
+        }
+      ],
+      "content": "La Quinta Brewing Company, LLC"
+    },
+    "type": "receiver_name",
+    "mentionText": "La Quinta Brewing Company, LLC",
+    "mentionId": "",
+    "confidence": 0.5827184319496155,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.12571103870868683,
+                "y": 0.20615383982658386
+              },
+              {
+                "x": 0.39761093258857727,
+                "y": 0.20615383982658386
+              },
+              {
+                "x": 0.39761093258857727,
+                "y": 0.22197802364826202
+              },
+              {
+                "x": 0.12571103870868683,
+                "y": 0.22197802364826202
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "13",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "119",
+          "endIndex": "131"
+        }
+      ],
+      "content": "913.897.9645"
+    },
+    "type": "supplier_phone",
+    "mentionText": "913.897.9645",
+    "mentionId": "",
+    "confidence": 0.5320702195167542,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.42207053303718567,
+                "y": 0.0923076942563057
+              },
+              {
+                "x": 0.5221843123435974,
+                "y": 0.0923076942563057
+              },
+              {
+                "x": 0.5221843123435974,
+                "y": 0.10505494475364685
+              },
+              {
+                "x": 0.42207053303718567,
+                "y": 0.10505494475364685
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "14",
+    "normalizedValue": {
+      "text": "+1 800 247 0360"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "0",
+          "endIndex": "24"
+        }
+      ],
+      "content": "Atlas Labels & Packaging"
+    },
+    "type": "supplier_name",
+    "mentionText": "Atlas Labels & Packaging",
+    "mentionId": "",
+    "confidence": 0.4499831199645996,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.13765642046928406,
+                "y": 0.03956044092774391
+              },
+              {
+                "x": 0.5039817690849304,
+                "y": 0.03956044092774391
+              },
+              {
+                "x": 0.5039817690849304,
+                "y": 0.07076922804117203
+              },
+              {
+                "x": 0.13765642046928406,
+                "y": 0.07076922804117203
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "15",
+    "normalizedValue": {
+      "text": "Atlas Labels & Packaging"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "455",
+          "endIndex": "500"
+        }
+      ],
+      "content": "74-714 Technology Drive\nPalm Desert, CA 92211"
+    },
+    "type": "receiver_address",
+    "mentionText": "74-714 Technology Drive\nPalm Desert, CA 92211",
+    "mentionId": "",
+    "confidence": 0.43739044666290283,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.12627986073493958,
+                "y": 0.22241757810115814
+              },
+              {
+                "x": 0.3310580253601074,
+                "y": 0.22241757810115814
+              },
+              {
+                "x": 0.3310580253601074,
+                "y": 0.25318682193756104
+              },
+              {
+                "x": 0.12627986073493958,
+                "y": 0.25318682193756104
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "16",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "526",
+          "endIndex": "575"
+        }
+      ],
+      "content": "La Quinta Brewing Company, LLC\nAttn: Scott Stokes"
+    },
+    "type": "ship_to_name",
+    "mentionText": "La Quinta Brewing Company, LLC\nAttn: Scott Stokes",
+    "mentionId": "",
+    "confidence": 0.33878931403160095,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.6001137495040894,
+                "y": 0.22549450397491455
+              },
+              {
+                "x": 0.8441410660743713,
+                "y": 0.22549450397491455
+              },
+              {
+                "x": 0.8441410660743713,
+                "y": 0.2527472674846649
+              },
+              {
+                "x": 0.6001137495040894,
+                "y": 0.2527472674846649
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "17",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "455",
+          "endIndex": "500"
+        }
+      ],
+      "content": "74-714 Technology Drive\nPalm Desert, CA 92211"
+    },
+    "type": "remit_to_address",
+    "mentionText": "74-714 Technology Drive\nPalm Desert, CA 92211",
+    "mentionId": "",
+    "confidence": 0.29759401082992554,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.12627986073493958,
+                "y": 0.22241757810115814
+              },
+              {
+                "x": 0.3310580253601074,
+                "y": 0.22241757810115814
+              },
+              {
+                "x": 0.3310580253601074,
+                "y": 0.25318682193756104
+              },
+              {
+                "x": 0.12627986073493958,
+                "y": 0.25318682193756104
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "18",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "735",
+              "endIndex": "739"
+            }
+          ],
+          "content": "5259"
+        },
+        "type": "line_item/product_code",
+        "mentionText": "5259",
+        "mentionId": "",
+        "confidence": 0.556233823299408,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.04835039749741554,
+                    "y": 0.372307687997818
+                  },
+                  {
+                    "x": 0.08304891735315323,
+                    "y": 0.372307687997818
+                  },
+                  {
+                    "x": 0.08304891735315323,
+                    "y": 0.3841758370399475
+                  },
+                  {
+                    "x": 0.04835039749741554,
+                    "y": 0.3841758370399475
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "20",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "735",
+              "endIndex": "739"
+            }
+          ],
+          "content": "5259"
+        },
+        "type": "line_item/quantity",
+        "mentionText": "5259",
+        "mentionId": "",
+        "confidence": 0.7462944984436035,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.04835039749741554,
+                    "y": 0.372307687997818
+                  },
+                  {
+                    "x": 0.08304891735315323,
+                    "y": 0.372307687997818
+                  },
+                  {
+                    "x": 0.08304891735315323,
+                    "y": 0.3841758370399475
+                  },
+                  {
+                    "x": 0.04835039749741554,
+                    "y": 0.3841758370399475
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "21",
+        "normalizedValue": {
+          "text": "5259"
+        },
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "740",
+              "endIndex": "742"
+            }
+          ],
+          "content": "ea"
+        },
+        "type": "line_item/unit",
+        "mentionText": "ea",
+        "mentionId": "",
+        "confidence": 0.9154518842697144,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.12286689132452011,
+                    "y": 0.37450549006462097
+                  },
+                  {
+                    "x": 0.14163821935653687,
+                    "y": 0.37450549006462097
+                  },
+                  {
+                    "x": 0.14163821935653687,
+                    "y": 0.3832966983318329
+                  },
+                  {
+                    "x": 0.12286689132452011,
+                    "y": 0.3832966983318329
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "22",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "743",
+              "endIndex": "758"
+            }
+          ],
+          "content": "LAQUINTACANTRAY"
+        },
+        "type": "line_item/product_code",
+        "mentionText": "LAQUINTACANTRAY",
+        "mentionId": "",
+        "confidence": 0.627033531665802,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.15984073281288147,
+                    "y": 0.37142857909202576
+                  },
+                  {
+                    "x": 0.31854379177093506,
+                    "y": 0.37142857909202576
+                  },
+                  {
+                    "x": 0.31854379177093506,
+                    "y": 0.38461539149284363
+                  },
+                  {
+                    "x": 0.15984073281288147,
+                    "y": 0.38461539149284363
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "23",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "771",
+              "endIndex": "814"
+            }
+          ],
+          "content": "La Quinta Brewing 24 Can Roll End Tray - 3\""
+        },
+        "type": "line_item/description",
+        "mentionText": "La Quinta Brewing 24 Can Roll End Tray - 3\"",
+        "mentionId": "",
+        "confidence": 0.6433270573616028,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.3475540280342102,
+                    "y": 0.3718681335449219
+                  },
+                  {
+                    "x": 0.670648455619812,
+                    "y": 0.3718681335449219
+                  },
+                  {
+                    "x": 0.670648455619812,
+                    "y": 0.385934054851532
+                  },
+                  {
+                    "x": 0.3475540280342102,
+                    "y": 0.385934054851532
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "24",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "815",
+              "endIndex": "819"
+            }
+          ],
+          "content": "0.55"
+        },
+        "type": "line_item/unit_price",
+        "mentionText": "0.55",
+        "mentionId": "",
+        "confidence": 0.9009743332862854,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.8026165962219238,
+                    "y": 0.372307687997818
+                  },
+                  {
+                    "x": 0.8321956992149353,
+                    "y": 0.372307687997818
+                  },
+                  {
+                    "x": 0.8321956992149353,
+                    "y": 0.3841758370399475
+                  },
+                  {
+                    "x": 0.8026165962219238,
+                    "y": 0.3841758370399475
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "25",
+        "normalizedValue": {
+          "text": "0.55"
+        },
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "820",
+              "endIndex": "827"
+            }
+          ],
+          "content": "2892.45"
+        },
+        "type": "line_item/amount",
+        "mentionText": "2892.45",
+        "mentionId": "",
+        "confidence": 0.9161663055419922,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.9021615386009216,
+                    "y": 0.3718681335449219
+                  },
+                  {
+                    "x": 0.9584755301475525,
+                    "y": 0.3718681335449219
+                  },
+                  {
+                    "x": 0.9584755301475525,
+                    "y": 0.383736252784729
+                  },
+                  {
+                    "x": 0.9021615386009216,
+                    "y": 0.383736252784729
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "26",
+        "normalizedValue": {
+          "text": "2892.45"
+        },
+        "provenance": null,
+        "redacted": false
+      }
+    ],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "735",
+          "endIndex": "739"
+        },
+        {
+          "startIndex": "740",
+          "endIndex": "742"
+        },
+        {
+          "startIndex": "743",
+          "endIndex": "758"
+        },
+        {
+          "startIndex": "771",
+          "endIndex": "814"
+        },
+        {
+          "startIndex": "815",
+          "endIndex": "819"
+        },
+        {
+          "startIndex": "820",
+          "endIndex": "827"
+        }
+      ],
+      "content": ""
+    },
+    "type": "line_item",
+    "mentionText": "5259 5259 ea LAQUINTACANTRAY La Quinta Brewing 24 Can Roll End Tray - 3\" 0.55 2892.45",
+    "mentionId": "",
+    "confidence": 1,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.04835039749741554,
+                "y": 0.37142857909202576
+              },
+              {
+                "x": 0.9584755301475525,
+                "y": 0.37142857909202576
+              },
+              {
+                "x": 0.9584755301475525,
+                "y": 0.385934054851532
+              },
+              {
+                "x": 0.04835039749741554,
+                "y": 0.385934054851532
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "19",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "1131",
+              "endIndex": "1138"
+            }
+          ],
+          "content": "1601.26"
+        },
+        "type": "line_item/amount",
+        "mentionText": "1601.26",
+        "mentionId": "",
+        "confidence": 0.2617979645729065,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.9061433672904968,
+                    "y": 0.8426373600959778
+                  },
+                  {
+                    "x": 0.9613196849822998,
+                    "y": 0.8426373600959778
+                  },
+                  {
+                    "x": 0.9613196849822998,
+                    "y": 0.8540659546852112
+                  },
+                  {
+                    "x": 0.9061433672904968,
+                    "y": 0.8540659546852112
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "28",
+        "normalizedValue": {
+          "text": "1601.26"
+        },
+        "provenance": null,
+        "redacted": false
+      }
+    ],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "1131",
+          "endIndex": "1138"
+        }
+      ],
+      "content": ""
+    },
+    "type": "line_item",
+    "mentionText": "1601.26",
+    "mentionId": "",
+    "confidence": 1,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.9061433672904968,
+                "y": 0.8426373600959778
+              },
+              {
+                "x": 0.9613196849822998,
+                "y": 0.8426373600959778
+              },
+              {
+                "x": 0.9613196849822998,
+                "y": 0.8540659546852112
+              },
+              {
+                "x": 0.9061433672904968,
+                "y": 0.8540659546852112
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "27",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  }
+]

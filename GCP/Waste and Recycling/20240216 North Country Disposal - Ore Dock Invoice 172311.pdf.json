@@ -1,0 +1,88 @@
+{
+  "invoice_id": {
+    "value": "172311",
+    "confidence": 0.9526700973510742
+  },
+  "due_date": {
+    "value": "2/16/24",
+    "confidence": 0.927726686000824
+  },
+  "invoice_date": {
+    "value": "2/1/24",
+    "confidence": 0.8189206719398499
+  },
+  "total_amount": {
+    "value": "305.00",
+    "confidence": 0.7679919004440308
+  },
+  "invoice_type": {
+    "value": "",
+    "confidence": 0.7219792604446411
+  },
+  "supplier_address": {
+    "value": "83 Eagle Mills Road, Negaunee, MI 49866",
+    "confidence": 0.7133646011352539
+  },
+  "receiver_name": {
+    "value": "Ore Dock Brewing Company",
+    "confidence": 0.5086571574211121
+  },
+  "receiver_address": {
+    "value": "114 Spring Street\nMarquette, MI 49855",
+    "confidence": 0.38870108127593994
+  },
+  "remit_to_name": {
+    "value": "North Country Disposal, Inc.",
+    "confidence": 0.35478532314300537
+  },
+  "supplier_name": {
+    "value": "NORTH COUNTRY",
+    "confidence": 0.35148921608924866
+  },
+  "supplier_phone": {
+    "value": "906-249-4500",
+    "confidence": 0.3451114296913147
+  },
+  "receiver_phone": {
+    "value": "906-249-4500",
+    "confidence": 0.2890241742134094
+  },
+  "line_items": [
+    {
+      "line_item/unit": {
+        "value": "Yard",
+        "confidence": 0.22514215111732483
+      },
+      "line_item/description": {
+        "value": "Service for February (Twice a week)",
+        "confidence": 0.6603727340698242
+      },
+      "line_item/unit_price": {
+        "value": "180.00",
+        "confidence": 0.8843433856964111
+      },
+      "line_item/amount": {
+        "value": "180.00",
+        "confidence": 0.9090473055839539
+      }
+    },
+    {
+      "line_item/quantity": {
+        "value": "2",
+        "confidence": 0.3286060094833374
+      },
+      "line_item/description": {
+        "value": "Service for February (Twice a week)",
+        "confidence": 0.4660743176937103
+      },
+      "line_item/unit_price": {
+        "value": "125.00",
+        "confidence": 0.863802969455719
+      },
+      "line_item/amount": {
+        "value": "125.00",
+        "confidence": 0.8645960688591003
+      }
+    }
+  ]
+}

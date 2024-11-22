@@ -1,0 +1,1800 @@
+[
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "494",
+          "endIndex": "501"
+        }
+      ],
+      "content": "1/17/24"
+    },
+    "type": "invoice_date",
+    "mentionText": "1/17/24",
+    "mentionId": "",
+    "confidence": 0.9623920917510986,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.12571103870868683,
+                "y": 0.33450549840927124
+              },
+              {
+                "x": 0.16723549365997314,
+                "y": 0.33450549840927124
+              },
+              {
+                "x": 0.16723549365997314,
+                "y": 0.3446153700351715
+              },
+              {
+                "x": 0.12571103870868683,
+                "y": 0.3446153700351715
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "0",
+    "normalizedValue": {
+      "text": "2024-01-17",
+      "dateValue": {
+        "year": 2024,
+        "month": 1,
+        "day": 17
+      },
+      "structuredValue": "dateValue"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "427",
+          "endIndex": "479"
+        }
+      ],
+      "content": "1645 Tchoupitoulas St\nNew Orleans, LA 70130-1852 USA"
+    },
+    "type": "ship_to_address",
+    "mentionText": "1645 Tchoupitoulas St\nNew Orleans, LA 70130-1852 USA",
+    "mentionId": "",
+    "confidence": 0.9514018297195435,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.6160409450531006,
+                "y": 0.2435164898633957
+              },
+              {
+                "x": 0.8384528160095215,
+                "y": 0.2435164898633957
+              },
+              {
+                "x": 0.8384528160095215,
+                "y": 0.26989009976387024
+              },
+              {
+                "x": 0.6160409450531006,
+                "y": 0.26989009976387024
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "1",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "228",
+          "endIndex": "239"
+        }
+      ],
+      "content": "34010032329"
+    },
+    "type": "invoice_id",
+    "mentionText": "34010032329",
+    "mentionId": "",
+    "confidence": 0.9424951076507568,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.7167235612869263,
+                "y": 0.15824176371097565
+              },
+              {
+                "x": 0.8083049058914185,
+                "y": 0.15824176371097565
+              },
+              {
+                "x": 0.8083049058914185,
+                "y": 0.1683516502380371
+              },
+              {
+                "x": 0.7167235612869263,
+                "y": 0.1683516502380371
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "2",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": null,
+    "type": "invoice_type",
+    "mentionText": "",
+    "mentionId": "",
+    "confidence": 0.8829271197319031,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": null,
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "3",
+    "normalizedValue": {
+      "text": "invoice_statement"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "256",
+          "endIndex": "266"
+        }
+      ],
+      "content": "36-4277050"
+    },
+    "type": "supplier_tax_id",
+    "mentionText": "36-4277050",
+    "mentionId": "",
+    "confidence": 0.8833820819854736,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.15073947608470917,
+                "y": 0.1964835226535797
+              },
+              {
+                "x": 0.2184300273656845,
+                "y": 0.1964835226535797
+              },
+              {
+                "x": 0.2184300273656845,
+                "y": 0.20659340918064117
+              },
+              {
+                "x": 0.15073947608470917,
+                "y": 0.20659340918064117
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "4",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "38",
+          "endIndex": "70"
+        }
+      ],
+      "content": "Packaging Corporation of America"
+    },
+    "type": "remit_to_name",
+    "mentionText": "Packaging Corporation of America",
+    "mentionId": "",
+    "confidence": 0.8246034383773804,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.6171786189079285,
+                "y": 0.08527472615242004
+              },
+              {
+                "x": 0.8321956992149353,
+                "y": 0.08527472615242004
+              },
+              {
+                "x": 0.8321956992149353,
+                "y": 0.10021977871656418
+              },
+              {
+                "x": 0.6171786189079285,
+                "y": 0.10021977871656418
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "5",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "407",
+          "endIndex": "426"
+        }
+      ],
+      "content": "Urban South Brewery"
+    },
+    "type": "ship_to_name",
+    "mentionText": "Urban South Brewery",
+    "mentionId": "",
+    "confidence": 0.8185790777206421,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.61774742603302,
+                "y": 0.22813187539577484
+              },
+              {
+                "x": 0.7451649308204651,
+                "y": 0.22813187539577484
+              },
+              {
+                "x": 0.7451649308204651,
+                "y": 0.2413186877965927
+              },
+              {
+                "x": 0.61774742603302,
+                "y": 0.2413186877965927
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "6",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "1031",
+          "endIndex": "1040"
+        }
+      ],
+      "content": "10,245.95"
+    },
+    "type": "total_amount",
+    "mentionText": "10,245.95",
+    "mentionId": "",
+    "confidence": 0.7491517663002014,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.8987485766410828,
+                "y": 0.9226373434066772
+              },
+              {
+                "x": 0.9601820111274719,
+                "y": 0.9226373434066772
+              },
+              {
+                "x": 0.9601820111274719,
+                "y": 0.9353846311569214
+              },
+              {
+                "x": 0.8987485766410828,
+                "y": 0.9353846311569214
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "7",
+    "normalizedValue": {
+      "text": "10245.95"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "172",
+          "endIndex": "202"
+        }
+      ],
+      "content": "100 Willie Dr, Pearl, MS 39208"
+    },
+    "type": "supplier_address",
+    "mentionText": "100 Willie Dr, Pearl, MS 39208",
+    "mentionId": "",
+    "confidence": 0.6648044586181641,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.04436860233545303,
+                "y": 0.1652747243642807
+              },
+              {
+                "x": 0.20989760756492615,
+                "y": 0.1652747243642807
+              },
+              {
+                "x": 0.20989760756492615,
+                "y": 0.17494505643844604
+              },
+              {
+                "x": 0.04436860233545303,
+                "y": 0.17494505643844604
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "8",
+    "normalizedValue": {
+      "text": "100 Willie Dr Pearl, MS 39208 USA",
+      "addressValue": {
+        "addressLines": [
+          "100 Willie Dr"
+        ],
+        "recipients": [],
+        "revision": 0,
+        "regionCode": "US",
+        "languageCode": "en-US",
+        "postalCode": "39208-3400",
+        "sortingCode": "",
+        "administrativeArea": "Mississippi",
+        "locality": "Pearl",
+        "sublocality": "",
+        "organization": ""
+      },
+      "structuredValue": "addressValue"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "1030",
+          "endIndex": "1031"
+        }
+      ],
+      "content": "$"
+    },
+    "type": "currency",
+    "mentionText": "$",
+    "mentionId": "",
+    "confidence": 0.6069821119308472,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.8924914598464966,
+                "y": 0.9226373434066772
+              },
+              {
+                "x": 0.8970420956611633,
+                "y": 0.9226373434066772
+              },
+              {
+                "x": 0.8970420956611633,
+                "y": 0.9345055222511292
+              },
+              {
+                "x": 0.8924914598464966,
+                "y": 0.9345055222511292
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "9",
+    "normalizedValue": {
+      "text": "USD"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "113",
+          "endIndex": "145"
+        }
+      ],
+      "content": "PACKAGING CORPORATION OF AMERICA"
+    },
+    "type": "supplier_name",
+    "mentionText": "PACKAGING CORPORATION OF AMERICA",
+    "mentionId": "",
+    "confidence": 0.4691102206707001,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.04664391279220581,
+                "y": 0.13054944574832916
+              },
+              {
+                "x": 0.2571103572845459,
+                "y": 0.13054944574832916
+              },
+              {
+                "x": 0.2571103572845459,
+                "y": 0.14417582750320435
+              },
+              {
+                "x": 0.04664391279220581,
+                "y": 0.14417582750320435
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "10",
+    "normalizedValue": {
+      "text": "Packaging Corporation of America"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "71",
+          "endIndex": "112"
+        }
+      ],
+      "content": "P.O. BOX 532058\nAtlanta\n, \nGA \n30353-2058"
+    },
+    "type": "remit_to_address",
+    "mentionText": "P.O. BOX 532058\nAtlanta\n, \nGA \n30353-2058",
+    "mentionId": "",
+    "confidence": 0.4032345414161682,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.61774742603302,
+                "y": 0.10153846442699432
+              },
+              {
+                "x": 0.7633674740791321,
+                "y": 0.10153846442699432
+              },
+              {
+                "x": 0.7633674740791321,
+                "y": 0.13626374304294586
+              },
+              {
+                "x": 0.61774742603302,
+                "y": 0.13626374304294586
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "11",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "1058",
+          "endIndex": "1064"
+        }
+      ],
+      "content": "713.55"
+    },
+    "type": "freight_amount",
+    "mentionText": "713.55",
+    "mentionId": "",
+    "confidence": 0.3943040370941162,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.11660978198051453,
+                "y": 0.9046154022216797
+              },
+              {
+                "x": 0.14789533615112305,
+                "y": 0.9046154022216797
+              },
+              {
+                "x": 0.14789533615112305,
+                "y": 0.9142857193946838
+              },
+              {
+                "x": 0.11660978198051453,
+                "y": 0.9142857193946838
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "12",
+    "normalizedValue": {
+      "text": "713.55"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "544",
+          "endIndex": "555"
+        }
+      ],
+      "content": "1-10 Net 30"
+    },
+    "type": "payment_terms",
+    "mentionText": "1-10 Net 30",
+    "mentionId": "",
+    "confidence": 0.33077913522720337,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.08930602669715881,
+                "y": 0.36263737082481384
+              },
+              {
+                "x": 0.13651877641677856,
+                "y": 0.36263737082481384
+              },
+              {
+                "x": 0.13651877641677856,
+                "y": 0.37054944038391113
+              },
+              {
+                "x": 0.08930602669715881,
+                "y": 0.37054944038391113
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "13",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "321",
+          "endIndex": "373"
+        }
+      ],
+      "content": "1645 Tchoupitoulas St\nNew Orleans, LA 70130-1852 USA"
+    },
+    "type": "receiver_address",
+    "mentionText": "1645 Tchoupitoulas St\nNew Orleans, LA 70130-1852 USA",
+    "mentionId": "",
+    "confidence": 0.19655583798885345,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.11604095250368118,
+                "y": 0.25318682193756104
+              },
+              {
+                "x": 0.33276450634002686,
+                "y": 0.25318682193756104
+              },
+              {
+                "x": 0.33276450634002686,
+                "y": 0.28087911009788513
+              },
+              {
+                "x": 0.11604095250368118,
+                "y": 0.28087911009788513
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "14",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "203",
+          "endIndex": "215"
+        }
+      ],
+      "content": "601-939-5111"
+    },
+    "type": "supplier_phone",
+    "mentionText": "601-939-5111",
+    "mentionId": "",
+    "confidence": 0.174489825963974,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.22582480311393738,
+                "y": 0.16483516991138458
+              },
+              {
+                "x": 0.2997724711894989,
+                "y": 0.16483516991138458
+              },
+              {
+                "x": 0.2997724711894989,
+                "y": 0.17406593263149261
+              },
+              {
+                "x": 0.22582480311393738,
+                "y": 0.17406593263149261
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "15",
+    "normalizedValue": {
+      "text": "+1 601 939 5111"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "1339",
+          "endIndex": "1361"
+        }
+      ],
+      "content": "www.Packaging Corp.com"
+    },
+    "type": "supplier_website",
+    "mentionText": "www.Packaging Corp.com",
+    "mentionId": "",
+    "confidence": 0.06833160668611526,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.09840728342533112,
+                "y": 0.9551648497581482
+              },
+              {
+                "x": 0.19055745005607605,
+                "y": 0.9551648497581482
+              },
+              {
+                "x": 0.19055745005607605,
+                "y": 0.9639560580253601
+              },
+              {
+                "x": 0.09840728342533112,
+                "y": 0.9639560580253601
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "16",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "735",
+              "endIndex": "740"
+            }
+          ],
+          "content": "42000"
+        },
+        "type": "line_item/quantity",
+        "mentionText": "42000",
+        "mentionId": "",
+        "confidence": 0.5305741429328918,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.05403868108987808,
+                    "y": 0.4153846204280853
+                  },
+                  {
+                    "x": 0.0813424363732338,
+                    "y": 0.4153846204280853
+                  },
+                  {
+                    "x": 0.0813424363732338,
+                    "y": 0.4232966899871826
+                  },
+                  {
+                    "x": 0.05403868108987808,
+                    "y": 0.4232966899871826
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "18",
+        "normalizedValue": {
+          "text": "42000"
+        },
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "748",
+              "endIndex": "757"
+            }
+          ],
+          "content": "CASE TRAY"
+        },
+        "type": "line_item/description",
+        "mentionText": "CASE TRAY",
+        "mentionId": "",
+        "confidence": 0.5717272162437439,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.18316268920898438,
+                    "y": 0.4140659272670746
+                  },
+                  {
+                    "x": 0.24573378264904022,
+                    "y": 0.4140659272670746
+                  },
+                  {
+                    "x": 0.24573378264904022,
+                    "y": 0.42197802662849426
+                  },
+                  {
+                    "x": 0.18316268920898438,
+                    "y": 0.42197802662849426
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "19",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "766",
+              "endIndex": "771"
+            }
+          ],
+          "content": "43063"
+        },
+        "type": "line_item/quantity",
+        "mentionText": "43063",
+        "mentionId": "",
+        "confidence": 0.7505477070808411,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.6916950941085815,
+                    "y": 0.4145054817199707
+                  },
+                  {
+                    "x": 0.7201365232467651,
+                    "y": 0.4145054817199707
+                  },
+                  {
+                    "x": 0.7201365232467651,
+                    "y": 0.4224175810813904
+                  },
+                  {
+                    "x": 0.6916950941085815,
+                    "y": 0.4224175810813904
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "20",
+        "normalizedValue": {
+          "text": "43063"
+        },
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "772",
+              "endIndex": "773"
+            }
+          ],
+          "content": "C"
+        },
+        "type": "line_item/unit",
+        "mentionText": "C",
+        "mentionId": "",
+        "confidence": 0.19161391258239746,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.7349260449409485,
+                    "y": 0.4145054817199707
+                  },
+                  {
+                    "x": 0.7377701997756958,
+                    "y": 0.4145054817199707
+                  },
+                  {
+                    "x": 0.7377701997756958,
+                    "y": 0.4224175810813904
+                  },
+                  {
+                    "x": 0.7349260449409485,
+                    "y": 0.4224175810813904
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "21",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "776",
+              "endIndex": "782"
+            }
+          ],
+          "content": "211.00"
+        },
+        "type": "line_item/unit_price",
+        "mentionText": "211.00",
+        "mentionId": "",
+        "confidence": 0.7271946668624878,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.7707622051239014,
+                    "y": 0.4153846204280853
+                  },
+                  {
+                    "x": 0.8009101152420044,
+                    "y": 0.4153846204280853
+                  },
+                  {
+                    "x": 0.8009101152420044,
+                    "y": 0.4237362742424011
+                  },
+                  {
+                    "x": 0.7707622051239014,
+                    "y": 0.4237362742424011
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "22",
+        "normalizedValue": {
+          "text": "211"
+        },
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "785",
+              "endIndex": "793"
+            }
+          ],
+          "content": "9,086.29"
+        },
+        "type": "line_item/amount",
+        "mentionText": "9,086.29",
+        "mentionId": "",
+        "confidence": 0.812413215637207,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.9197952151298523,
+                    "y": 0.4140659272670746
+                  },
+                  {
+                    "x": 0.9584755301475525,
+                    "y": 0.4140659272670746
+                  },
+                  {
+                    "x": 0.9584755301475525,
+                    "y": 0.4224175810813904
+                  },
+                  {
+                    "x": 0.9197952151298523,
+                    "y": 0.4224175810813904
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "23",
+        "normalizedValue": {
+          "text": "9086.29"
+        },
+        "provenance": null,
+        "redacted": false
+      }
+    ],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "735",
+          "endIndex": "740"
+        },
+        {
+          "startIndex": "748",
+          "endIndex": "757"
+        },
+        {
+          "startIndex": "766",
+          "endIndex": "771"
+        },
+        {
+          "startIndex": "772",
+          "endIndex": "773"
+        },
+        {
+          "startIndex": "776",
+          "endIndex": "782"
+        },
+        {
+          "startIndex": "785",
+          "endIndex": "793"
+        }
+      ],
+      "content": ""
+    },
+    "type": "line_item",
+    "mentionText": "42000 CASE TRAY 43063 C 211.00 9,086.29",
+    "mentionId": "",
+    "confidence": 1,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.05403868108987808,
+                "y": 0.4140659272670746
+              },
+              {
+                "x": 0.9584755301475525,
+                "y": 0.4140659272670746
+              },
+              {
+                "x": 0.9584755301475525,
+                "y": 0.4237362742424011
+              },
+              {
+                "x": 0.05403868108987808,
+                "y": 0.4237362742424011
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "17",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "796",
+              "endIndex": "844"
+            }
+          ],
+          "content": "15 15/16 x 10 9/16 x 2 1/2\nDIE CUT ROTARY EC32-B"
+        },
+        "type": "line_item/description",
+        "mentionText": "15 15/16 x 10 9/16 x 2 1/2\nDIE CUT ROTARY EC32-B",
+        "mentionId": "",
+        "confidence": 0.584662675857544,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.18316268920898438,
+                    "y": 0.43032968044281006
+                  },
+                  {
+                    "x": 0.32366326451301575,
+                    "y": 0.43032968044281006
+                  },
+                  {
+                    "x": 0.32366326451301575,
+                    "y": 0.4514285624027252
+                  },
+                  {
+                    "x": 0.18316268920898438,
+                    "y": 0.4514285624027252
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "25",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      }
+    ],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "796",
+          "endIndex": "844"
+        }
+      ],
+      "content": ""
+    },
+    "type": "line_item",
+    "mentionText": "15 15/16 x 10 9/16 x 2 1/2\nDIE CUT ROTARY EC32-B",
+    "mentionId": "",
+    "confidence": 1,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.18316268920898438,
+                "y": 0.43032968044281006
+              },
+              {
+                "x": 0.32366326451301575,
+                "y": 0.43032968044281006
+              },
+              {
+                "x": 0.32366326451301575,
+                "y": 0.4514285624027252
+              },
+              {
+                "x": 0.18316268920898438,
+                "y": 0.4514285624027252
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "24",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "891",
+              "endIndex": "910"
+            }
+          ],
+          "content": "UNPRINTED CASE TRAY"
+        },
+        "type": "line_item/description",
+        "mentionText": "UNPRINTED CASE TRAY",
+        "mentionId": "",
+        "confidence": 0.6345456838607788,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.18373151123523712,
+                    "y": 0.48835164308547974
+                  },
+                  {
+                    "x": 0.31854379177093506,
+                    "y": 0.48835164308547974
+                  },
+                  {
+                    "x": 0.31854379177093506,
+                    "y": 0.49714285135269165
+                  },
+                  {
+                    "x": 0.18373151123523712,
+                    "y": 0.49714285135269165
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "27",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "919",
+              "endIndex": "923"
+            }
+          ],
+          "content": "5496"
+        },
+        "type": "line_item/quantity",
+        "mentionText": "5496",
+        "mentionId": "",
+        "confidence": 0.31239214539527893,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.6985210180282593,
+                    "y": 0.48879119753837585
+                  },
+                  {
+                    "x": 0.721274197101593,
+                    "y": 0.48879119753837585
+                  },
+                  {
+                    "x": 0.721274197101593,
+                    "y": 0.49670329689979553
+                  },
+                  {
+                    "x": 0.6985210180282593,
+                    "y": 0.49670329689979553
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "28",
+        "normalizedValue": {
+          "text": "5496"
+        },
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "928",
+              "endIndex": "934"
+            }
+          ],
+          "content": "211.00"
+        },
+        "type": "line_item/unit_price",
+        "mentionText": "211.00",
+        "mentionId": "",
+        "confidence": 0.6285510659217834,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.7707622051239014,
+                    "y": 0.4905494451522827
+                  },
+                  {
+                    "x": 0.8003413081169128,
+                    "y": 0.4905494451522827
+                  },
+                  {
+                    "x": 0.8003413081169128,
+                    "y": 0.4989010989665985
+                  },
+                  {
+                    "x": 0.7707622051239014,
+                    "y": 0.4989010989665985
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "29",
+        "normalizedValue": {
+          "text": "211"
+        },
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "937",
+              "endIndex": "945"
+            }
+          ],
+          "content": "1,159.66"
+        },
+        "type": "line_item/amount",
+        "mentionText": "1,159.66",
+        "mentionId": "",
+        "confidence": 0.8381142020225525,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.9197952151298523,
+                    "y": 0.4879120886325836
+                  },
+                  {
+                    "x": 0.9590443968772888,
+                    "y": 0.4879120886325836
+                  },
+                  {
+                    "x": 0.9590443968772888,
+                    "y": 0.49670329689979553
+                  },
+                  {
+                    "x": 0.9197952151298523,
+                    "y": 0.49670329689979553
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "30",
+        "normalizedValue": {
+          "text": "1159.66"
+        },
+        "provenance": null,
+        "redacted": false
+      }
+    ],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "891",
+          "endIndex": "910"
+        },
+        {
+          "startIndex": "919",
+          "endIndex": "923"
+        },
+        {
+          "startIndex": "928",
+          "endIndex": "934"
+        },
+        {
+          "startIndex": "937",
+          "endIndex": "945"
+        }
+      ],
+      "content": ""
+    },
+    "type": "line_item",
+    "mentionText": "UNPRINTED CASE TRAY 5496 211.00 1,159.66",
+    "mentionId": "",
+    "confidence": 1,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.18373151123523712,
+                "y": 0.4879120886325836
+              },
+              {
+                "x": 0.9590443968772888,
+                "y": 0.4879120886325836
+              },
+              {
+                "x": 0.9590443968772888,
+                "y": 0.4989010989665985
+              },
+              {
+                "x": 0.18373151123523712,
+                "y": 0.4989010989665985
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "26",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "946",
+              "endIndex": "947"
+            }
+          ],
+          "content": "M"
+        },
+        "type": "line_item/unit",
+        "mentionText": "M",
+        "mentionId": "",
+        "confidence": 0.17441560328006744,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.8481228947639465,
+                    "y": 0.5050549507141113
+                  },
+                  {
+                    "x": 0.8503981828689575,
+                    "y": 0.5050549507141113
+                  },
+                  {
+                    "x": 0.8503981828689575,
+                    "y": 0.5112087726593018
+                  },
+                  {
+                    "x": 0.8481228947639465,
+                    "y": 0.5112087726593018
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "32",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "948",
+              "endIndex": "996"
+            }
+          ],
+          "content": "15 15/16 x 10 9/16 x 2 1/2\nDIE CUT ROTARY EC32-B"
+        },
+        "type": "line_item/description",
+        "mentionText": "15 15/16 x 10 9/16 x 2 1/2\nDIE CUT ROTARY EC32-B",
+        "mentionId": "",
+        "confidence": 0.5398781895637512,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.18316268920898438,
+                    "y": 0.5050549507141113
+                  },
+                  {
+                    "x": 0.3219567835330963,
+                    "y": 0.5050549507141113
+                  },
+                  {
+                    "x": 0.3219567835330963,
+                    "y": 0.5248351693153381
+                  },
+                  {
+                    "x": 0.18316268920898438,
+                    "y": 0.5248351693153381
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "33",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      }
+    ],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "946",
+          "endIndex": "947"
+        },
+        {
+          "startIndex": "948",
+          "endIndex": "996"
+        }
+      ],
+      "content": ""
+    },
+    "type": "line_item",
+    "mentionText": "M 15 15/16 x 10 9/16 x 2 1/2\nDIE CUT ROTARY EC32-B",
+    "mentionId": "",
+    "confidence": 1,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.18316268920898438,
+                "y": 0.5050549507141113
+              },
+              {
+                "x": 0.8503981828689575,
+                "y": 0.5050549507141113
+              },
+              {
+                "x": 0.8503981828689575,
+                "y": 0.5248351693153381
+              },
+              {
+                "x": 0.18316268920898438,
+                "y": 0.5248351693153381
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "31",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  }
+]

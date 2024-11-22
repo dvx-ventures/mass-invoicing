@@ -1,0 +1,1229 @@
+[
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "147",
+          "endIndex": "153"
+        }
+      ],
+      "content": "174516"
+    },
+    "type": "invoice_id",
+    "mentionText": "174516",
+    "mentionId": "",
+    "confidence": 0.9459807872772217,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.8418657779693604,
+                "y": 0.1287912130355835
+              },
+              {
+                "x": 0.8885096907615662,
+                "y": 0.1287912130355835
+              },
+              {
+                "x": 0.8885096907615662,
+                "y": 0.1397802233695984
+              },
+              {
+                "x": 0.8418657779693604,
+                "y": 0.1397802233695984
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "0",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "132",
+          "endIndex": "139"
+        }
+      ],
+      "content": "4/16/24"
+    },
+    "type": "due_date",
+    "mentionText": "4/16/24",
+    "mentionId": "",
+    "confidence": 0.9122816324234009,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.5773606300354004,
+                "y": 0.12835164368152618
+              },
+              {
+                "x": 0.6217292547225952,
+                "y": 0.12835164368152618
+              },
+              {
+                "x": 0.6217292547225952,
+                "y": 0.1397802233695984
+              },
+              {
+                "x": 0.5773606300354004,
+                "y": 0.1397802233695984
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "1",
+    "normalizedValue": {
+      "text": "2024-04-16",
+      "dateValue": {
+        "year": 2024,
+        "month": 4,
+        "day": 16
+      },
+      "structuredValue": "dateValue"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "722",
+          "endIndex": "728"
+        }
+      ],
+      "content": "305.00"
+    },
+    "type": "total_amount",
+    "mentionText": "305.00",
+    "mentionId": "",
+    "confidence": 0.8224648833274841,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.8703071475028992,
+                "y": 0.8637362718582153
+              },
+              {
+                "x": 0.9135380983352661,
+                "y": 0.8637362718582153
+              },
+              {
+                "x": 0.9135380983352661,
+                "y": 0.8769230842590332
+              },
+              {
+                "x": 0.8703071475028992,
+                "y": 0.8769230842590332
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "2",
+    "normalizedValue": {
+      "text": "305"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "140",
+          "endIndex": "146"
+        }
+      ],
+      "content": "4/1/24"
+    },
+    "type": "invoice_date",
+    "mentionText": "4/1/24",
+    "mentionId": "",
+    "confidence": 0.8113893270492554,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.711604118347168,
+                "y": 0.12791208922863007
+              },
+              {
+                "x": 0.7508532404899597,
+                "y": 0.12791208922863007
+              },
+              {
+                "x": 0.7508532404899597,
+                "y": 0.1397802233695984
+              },
+              {
+                "x": 0.711604118347168,
+                "y": 0.1397802233695984
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "3",
+    "normalizedValue": {
+      "text": "2024-04-01",
+      "dateValue": {
+        "year": 2024,
+        "month": 4,
+        "day": 1
+      },
+      "structuredValue": "dateValue"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "79",
+          "endIndex": "118"
+        }
+      ],
+      "content": "83 Eagle Mills Road, Negaunee, MI 49866"
+    },
+    "type": "supplier_address",
+    "mentionText": "83 Eagle Mills Road, Negaunee, MI 49866",
+    "mentionId": "",
+    "confidence": 0.7665177583694458,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.08475540578365326,
+                "y": 0.11648351699113846
+              },
+              {
+                "x": 0.36518770456314087,
+                "y": 0.11648351699113846
+              },
+              {
+                "x": 0.36518770456314087,
+                "y": 0.13054944574832916
+              },
+              {
+                "x": 0.08475540578365326,
+                "y": 0.13054944574832916
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "4",
+    "normalizedValue": {
+      "text": "83 Eagle Mills Rd Negaunee, MI 49866 USA",
+      "addressValue": {
+        "addressLines": [
+          "83 Eagle Mills Rd"
+        ],
+        "recipients": [],
+        "revision": 0,
+        "regionCode": "US",
+        "languageCode": "en-US",
+        "postalCode": "49866",
+        "sortingCode": "",
+        "administrativeArea": "Michigan",
+        "locality": "Negaunee",
+        "sublocality": "",
+        "organization": ""
+      },
+      "structuredValue": "addressValue"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": null,
+    "type": "invoice_type",
+    "mentionText": "",
+    "mentionId": "",
+    "confidence": 0.7208625674247742,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": null,
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "5",
+    "normalizedValue": {
+      "text": "invoice_statement"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "187",
+          "endIndex": "211"
+        }
+      ],
+      "content": "Ore Dock Brewing Company"
+    },
+    "type": "receiver_name",
+    "mentionText": "Ore Dock Brewing Company",
+    "mentionId": "",
+    "confidence": 0.7085195183753967,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.08987485617399216,
+                "y": 0.20571428537368774
+              },
+              {
+                "x": 0.31854379177093506,
+                "y": 0.20571428537368774
+              },
+              {
+                "x": 0.31854379177093506,
+                "y": 0.22505494952201843
+              },
+              {
+                "x": 0.08987485617399216,
+                "y": 0.22505494952201843
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "6",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "0",
+          "endIndex": "13"
+        }
+      ],
+      "content": "NORTH COUNTRY"
+    },
+    "type": "supplier_name",
+    "mentionText": "NORTH COUNTRY",
+    "mentionId": "",
+    "confidence": 0.49053770303726196,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.06825938820838928,
+                "y": 0.04615384712815285
+              },
+              {
+                "x": 0.36006826162338257,
+                "y": 0.04615384712815285
+              },
+              {
+                "x": 0.36006826162338257,
+                "y": 0.09142857044935226
+              },
+              {
+                "x": 0.06825938820838928,
+                "y": 0.09142857044935226
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "7",
+    "normalizedValue": {
+      "text": "North Country Disposal & Septic"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "212",
+          "endIndex": "249"
+        }
+      ],
+      "content": "114 Spring Street\nMarquette, MI 49855"
+    },
+    "type": "receiver_address",
+    "mentionText": "114 Spring Street\nMarquette, MI 49855",
+    "mentionId": "",
+    "confidence": 0.4885006844997406,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.08816837519407272,
+                "y": 0.22505494952201843
+              },
+              {
+                "x": 0.26166099309921265,
+                "y": 0.22505494952201843
+              },
+              {
+                "x": 0.26166099309921265,
+                "y": 0.2602197825908661
+              },
+              {
+                "x": 0.08816837519407272,
+                "y": 0.2602197825908661
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "8",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "490",
+          "endIndex": "502"
+        }
+      ],
+      "content": "906-249-4500"
+    },
+    "type": "receiver_phone",
+    "mentionText": "906-249-4500",
+    "mentionId": "",
+    "confidence": 0.37550461292266846,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.06257110089063644,
+                "y": 0.4206593334674835
+              },
+              {
+                "x": 0.17349261045455933,
+                "y": 0.4206593334674835
+              },
+              {
+                "x": 0.17349261045455933,
+                "y": 0.4338461458683014
+              },
+              {
+                "x": 0.06257110089063644,
+                "y": 0.4338461458683014
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "9",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "423",
+          "endIndex": "451"
+        }
+      ],
+      "content": "North Country Disposal, Inc."
+    },
+    "type": "remit_to_name",
+    "mentionText": "North Country Disposal, Inc.",
+    "mentionId": "",
+    "confidence": 0.28993716835975647,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.06257110089063644,
+                "y": 0.36043956875801086
+              },
+              {
+                "x": 0.3077360689640045,
+                "y": 0.36043956875801086
+              },
+              {
+                "x": 0.3077360689640045,
+                "y": 0.3780219852924347
+              },
+              {
+                "x": 0.06257110089063644,
+                "y": 0.3780219852924347
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "10",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "119",
+          "endIndex": "131"
+        }
+      ],
+      "content": "906-249-4500"
+    },
+    "type": "supplier_phone",
+    "mentionText": "906-249-4500",
+    "mentionId": "",
+    "confidence": 0.28194940090179443,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.17804323136806488,
+                "y": 0.1314285695552826
+              },
+              {
+                "x": 0.2696245610713959,
+                "y": 0.1314285695552826
+              },
+              {
+                "x": 0.2696245610713959,
+                "y": 0.14373625814914703
+              },
+              {
+                "x": 0.17804323136806488,
+                "y": 0.14373625814914703
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "11",
+    "normalizedValue": {
+      "text": "+1 906 249 4500"
+    },
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "546",
+              "endIndex": "550"
+            }
+          ],
+          "content": "Yard"
+        },
+        "type": "line_item/unit",
+        "mentionText": "Yard",
+        "mentionId": "",
+        "confidence": 0.22084105014801025,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.0711035281419754,
+                    "y": 0.49670329689979553
+                  },
+                  {
+                    "x": 0.09613196551799774,
+                    "y": 0.49670329689979553
+                  },
+                  {
+                    "x": 0.09613196551799774,
+                    "y": 0.5059340596199036
+                  },
+                  {
+                    "x": 0.0711035281419754,
+                    "y": 0.5059340596199036
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "13",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "580",
+              "endIndex": "612"
+            }
+          ],
+          "content": "Service for April (Twice a week)"
+        },
+        "type": "line_item/description",
+        "mentionText": "Service for April (Twice a week)",
+        "mentionId": "",
+        "confidence": 0.6791196465492249,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.18828213214874268,
+                    "y": 0.4958241879940033
+                  },
+                  {
+                    "x": 0.40614333748817444,
+                    "y": 0.4958241879940033
+                  },
+                  {
+                    "x": 0.40614333748817444,
+                    "y": 0.5116483569145203
+                  },
+                  {
+                    "x": 0.18828213214874268,
+                    "y": 0.5116483569145203
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "14",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "646",
+              "endIndex": "652"
+            }
+          ],
+          "content": "180.00"
+        },
+        "type": "line_item/unit_price",
+        "mentionText": "180.00",
+        "mentionId": "",
+        "confidence": 0.8924242258071899,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.7389078736305237,
+                    "y": 0.4984615445137024
+                  },
+                  {
+                    "x": 0.7804322838783264,
+                    "y": 0.4984615445137024
+                  },
+                  {
+                    "x": 0.7804322838783264,
+                    "y": 0.508571445941925
+                  },
+                  {
+                    "x": 0.7389078736305237,
+                    "y": 0.508571445941925
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "15",
+        "normalizedValue": {
+          "text": "180"
+        },
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "660",
+              "endIndex": "666"
+            }
+          ],
+          "content": "180.00"
+        },
+        "type": "line_item/amount",
+        "mentionText": "180.00",
+        "mentionId": "",
+        "confidence": 0.904704749584198,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.8566552996635437,
+                    "y": 0.49934065341949463
+                  },
+                  {
+                    "x": 0.9004550576210022,
+                    "y": 0.49934065341949463
+                  },
+                  {
+                    "x": 0.9004550576210022,
+                    "y": 0.5094505548477173
+                  },
+                  {
+                    "x": 0.8566552996635437,
+                    "y": 0.5094505548477173
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "16",
+        "normalizedValue": {
+          "text": "180"
+        },
+        "provenance": null,
+        "redacted": false
+      }
+    ],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "546",
+          "endIndex": "550"
+        },
+        {
+          "startIndex": "580",
+          "endIndex": "612"
+        },
+        {
+          "startIndex": "646",
+          "endIndex": "652"
+        },
+        {
+          "startIndex": "660",
+          "endIndex": "666"
+        }
+      ],
+      "content": ""
+    },
+    "type": "line_item",
+    "mentionText": "Yard Service for April (Twice a week) 180.00 180.00",
+    "mentionId": "",
+    "confidence": 1,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.0711035281419754,
+                "y": 0.4958241879940033
+              },
+              {
+                "x": 0.9004550576210022,
+                "y": 0.4958241879940033
+              },
+              {
+                "x": 0.9004550576210022,
+                "y": 0.5116483569145203
+              },
+              {
+                "x": 0.0711035281419754,
+                "y": 0.5116483569145203
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "12",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  },
+  {
+    "properties": [
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "551",
+              "endIndex": "552"
+            }
+          ],
+          "content": "2"
+        },
+        "type": "line_item/quantity",
+        "mentionText": "2",
+        "mentionId": "",
+        "confidence": 0.29914942383766174,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.05915813520550728,
+                    "y": 0.5090109705924988
+                  },
+                  {
+                    "x": 0.06427758932113647,
+                    "y": 0.5090109705924988
+                  },
+                  {
+                    "x": 0.06427758932113647,
+                    "y": 0.5217582583427429
+                  },
+                  {
+                    "x": 0.05915813520550728,
+                    "y": 0.5217582583427429
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "18",
+        "normalizedValue": {
+          "text": "2"
+        },
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "553",
+              "endIndex": "567"
+            }
+          ],
+          "content": "Yard Recycling"
+        },
+        "type": "line_item/product_code",
+        "mentionText": "Yard Recycling",
+        "mentionId": "",
+        "confidence": 0.3137773275375366,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.0711035281419754,
+                    "y": 0.5090109705924988
+                  },
+                  {
+                    "x": 0.16040955483913422,
+                    "y": 0.5090109705924988
+                  },
+                  {
+                    "x": 0.16040955483913422,
+                    "y": 0.5239560604095459
+                  },
+                  {
+                    "x": 0.0711035281419754,
+                    "y": 0.5239560604095459
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "19",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "613",
+              "endIndex": "645"
+            }
+          ],
+          "content": "Service for April (Twice a week)"
+        },
+        "type": "line_item/description",
+        "mentionText": "Service for April (Twice a week)",
+        "mentionId": "",
+        "confidence": 0.4726012349128723,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.1899886280298233,
+                    "y": 0.5103296637535095
+                  },
+                  {
+                    "x": 0.40614333748817444,
+                    "y": 0.5103296637535095
+                  },
+                  {
+                    "x": 0.40614333748817444,
+                    "y": 0.5265933871269226
+                  },
+                  {
+                    "x": 0.1899886280298233,
+                    "y": 0.5265933871269226
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "20",
+        "normalizedValue": null,
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "653",
+              "endIndex": "659"
+            }
+          ],
+          "content": "125.00"
+        },
+        "type": "line_item/unit_price",
+        "mentionText": "125.00",
+        "mentionId": "",
+        "confidence": 0.8691355586051941,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.7377701997756958,
+                    "y": 0.5134065747261047
+                  },
+                  {
+                    "x": 0.7815699577331543,
+                    "y": 0.5134065747261047
+                  },
+                  {
+                    "x": 0.7815699577331543,
+                    "y": 0.5235164761543274
+                  },
+                  {
+                    "x": 0.7377701997756958,
+                    "y": 0.5235164761543274
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "21",
+        "normalizedValue": {
+          "text": "125"
+        },
+        "provenance": null,
+        "redacted": false
+      },
+      {
+        "properties": [],
+        "textAnchor": {
+          "textSegments": [
+            {
+              "startIndex": "667",
+              "endIndex": "673"
+            }
+          ],
+          "content": "125.00"
+        },
+        "type": "line_item/amount",
+        "mentionText": "125.00",
+        "mentionId": "",
+        "confidence": 0.843605101108551,
+        "pageAnchor": {
+          "pageRefs": [
+            {
+              "page": "0",
+              "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+              "layoutId": "",
+              "boundingPoly": {
+                "vertices": [],
+                "normalizedVertices": [
+                  {
+                    "x": 0.8566552996635437,
+                    "y": 0.5138461589813232
+                  },
+                  {
+                    "x": 0.9010238647460938,
+                    "y": 0.5138461589813232
+                  },
+                  {
+                    "x": 0.9010238647460938,
+                    "y": 0.5239560604095459
+                  },
+                  {
+                    "x": 0.8566552996635437,
+                    "y": 0.5239560604095459
+                  }
+                ]
+              },
+              "confidence": 0
+            }
+          ]
+        },
+        "id": "22",
+        "normalizedValue": {
+          "text": "125"
+        },
+        "provenance": null,
+        "redacted": false
+      }
+    ],
+    "textAnchor": {
+      "textSegments": [
+        {
+          "startIndex": "551",
+          "endIndex": "552"
+        },
+        {
+          "startIndex": "553",
+          "endIndex": "567"
+        },
+        {
+          "startIndex": "613",
+          "endIndex": "645"
+        },
+        {
+          "startIndex": "653",
+          "endIndex": "659"
+        },
+        {
+          "startIndex": "667",
+          "endIndex": "673"
+        }
+      ],
+      "content": ""
+    },
+    "type": "line_item",
+    "mentionText": "2 Yard Recycling Service for April (Twice a week) 125.00 125.00",
+    "mentionId": "",
+    "confidence": 1,
+    "pageAnchor": {
+      "pageRefs": [
+        {
+          "page": "0",
+          "layoutType": "LAYOUT_TYPE_UNSPECIFIED",
+          "layoutId": "",
+          "boundingPoly": {
+            "vertices": [],
+            "normalizedVertices": [
+              {
+                "x": 0.05915813520550728,
+                "y": 0.5090109705924988
+              },
+              {
+                "x": 0.9010238647460938,
+                "y": 0.5090109705924988
+              },
+              {
+                "x": 0.9010238647460938,
+                "y": 0.5265933871269226
+              },
+              {
+                "x": 0.05915813520550728,
+                "y": 0.5265933871269226
+              }
+            ]
+          },
+          "confidence": 0
+        }
+      ]
+    },
+    "id": "17",
+    "normalizedValue": null,
+    "provenance": null,
+    "redacted": false
+  }
+]

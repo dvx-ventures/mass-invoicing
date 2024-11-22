@@ -1,0 +1,92 @@
+{
+  "invoice_date": {
+    "value": "May 13, 2023",
+    "confidence": 0.9867929220199585
+  },
+  "net_amount": {
+    "value": "318.00",
+    "confidence": 0.9752496480941772
+  },
+  "invoice_type": {
+    "value": "",
+    "confidence": 0.9718939661979675
+  },
+  "invoice_id": {
+    "value": "493525",
+    "confidence": 0.9579684734344482
+  },
+  "total_amount": {
+    "value": "318.00",
+    "confidence": 0.9511752128601074
+  },
+  "due_date": {
+    "value": "May 27, 2023",
+    "confidence": 0.9390150904655457
+  },
+  "currency": {
+    "value": "USD",
+    "confidence": 0.9105051159858704
+  },
+  "supplier_address": {
+    "value": "818 Cattail Lane NE, Leesburg, VA, 20176, USA.",
+    "confidence": 0.6658399701118469
+  },
+  "remit_to_name": {
+    "value": "Jasper Yeast",
+    "confidence": 0.6487528085708618
+  },
+  "supplier_name": {
+    "value": "Workhorse Brewing Company",
+    "confidence": 0.5845150947570801
+  },
+  "supplier_email": {
+    "value": "info@jasperyeast.com",
+    "confidence": 0.569568932056427
+  },
+  "receiver_name": {
+    "value": "Workhorse Brewing Company",
+    "confidence": 0.46674832701683044
+  },
+  "remit_to_address": {
+    "value": "23600 Overland Drive #150\nSterling, VA 20166\nUSA",
+    "confidence": 0.30000126361846924
+  },
+  "line_items": [
+    {
+      "line_item/quantity": {
+        "value": "1.00",
+        "confidence": 0.9691428542137146
+      },
+      "line_item/unit_price": {
+        "value": "290.00",
+        "confidence": 0.9237710237503052
+      },
+      "line_item/amount": {
+        "value": "290.00",
+        "confidence": 0.884630560874939
+      },
+      "line_item/description": {
+        "value": "5/8 Ship Date\n10 bbl JY214 Hefeweizen",
+        "confidence": 0.39496344327926636
+      }
+    },
+    {
+      "line_item/description": {
+        "value": "Shipping Overnight",
+        "confidence": 0.5217843651771545
+      },
+      "line_item/quantity": {
+        "value": "1.00",
+        "confidence": 0.9625844359397888
+      },
+      "line_item/unit_price": {
+        "value": "28.00",
+        "confidence": 0.9385812282562256
+      },
+      "line_item/amount": {
+        "value": "28.00",
+        "confidence": 0.855501651763916
+      }
+    }
+  ]
+}
