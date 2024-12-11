@@ -11,7 +11,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 // Initialize Firebase Admin SDK
-const serviceAccountPath = path.join(__dirname, './mass-firebase.json'); // Update with the correct path
+const serviceAccountPath = path.join(__dirname, './mass-7e4f9-firebase.json'); // Update with the correct path
 const serviceAccount = JSON.parse(fs.readFileSync(serviceAccountPath, 'utf-8'));
 
 admin.initializeApp({
