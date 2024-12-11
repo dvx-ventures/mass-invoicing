@@ -1,86 +1,94 @@
 import { useLogin } from "@refinedev/core";
-import { useEffect, useRef } from "react";
+import { useState } from "react";
 
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import { ThemedTitleV2 } from "@refinedev/mui";
+import TextField from "@mui/material/TextField";
+import Button from "@mui/material/Button";
 
-import { CredentialResponse } from "../interfaces/google";
-
-// Todo: Update your Google Client ID here
+// TODO: Update your Google Client ID here
 const GOOGLE_CLIENT_ID =
-  "1041339102270-e1fpe2b6v6u1didfndh7jkjmpcashs4f.apps.googleusercontent.com";
+  "790780927928-il7cdlauco53dhaif2mooakff6v3kdia.apps.googleusercontent.com";
 
-export const Login: React.FC = () => {
-  const { mutate: login } = useLogin<CredentialResponse>();
+const Login: React.FC = () => {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const { mutate: login } = useLogin();
 
-  const GoogleButton = (): JSX.Element => {
-    const divRef = useRef<HTMLDivElement>(null);
+  const handleEmailLogin = () => {
+    login({ email, password });
+  };
 
-    useEffect(() => {
-      if (typeof window === "undefined" || !window.google || !divRef.current) {
-        return;
-      }
-
-      try {
-        window.google.accounts.id.initialize({
-          ux_mode: "popup",
-          client_id: GOOGLE_CLIENT_ID,
-          callback: async (res: CredentialResponse) => {
-            if (res.credential) {
-              login(res);
-            }
-          },
-        });
-        window.google.accounts.id.renderButton(divRef.current, {
-          theme: "filled_blue",
-          size: "medium",
-          type: "standard",
-        });
-      } catch (error) {
-        console.log(error);
-      }
-    }, []);
-
-    return <div ref={divRef} />;
+  const handleGoogleLogin = () => {
+    login({ providerName: "google" });
   };
 
   return (
-    <Container
-      style={{
-        height: "100vh",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
+    <Container maxWidth="xs">
       <Box
+        mt={8}
         display="flex"
-        gap="36px"
-        justifyContent="center"
         flexDirection="column"
+        alignItems="center"
+        boxShadow={3}
+        p={4}
+        borderRadius={2}
       >
-        <ThemedTitleV2
-          collapsed={false}
-          wrapperStyles={{
-            fontSize: "22px",
-            justifyContent: "center",
-          }}
-        />
+        <ThemedTitleV2 collapsed={false} />
 
-        <GoogleButton />
-
-        <Typography align="center" color={"text.secondary"} fontSize="12px">
-          Powered by
-          <img
-            style={{ padding: "0 5px" }}
-            alt="Google"
-            src="https://refine.ams3.cdn.digitaloceanspaces.com/superplate-auth-icons%2Fgoogle.svg"
-          />
-          Google
+        <Typography component="h1" variant="h5" gutterBottom>
+          Sign in to your account
         </Typography>
+        <Box component="form" width="100%" mt={1}>
+          <TextField
+            variant="outlined"
+            margin="normal"
+            required
+            fullWidth
+            label="Email Address"
+            name="email"
+            autoComplete="email"
+            autoFocus
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+          />
+          <TextField
+            variant="outlined"
+            margin="normal"
+            required
+            fullWidth
+            name="password"
+            label="Password"
+            type="password"
+            autoComplete="current-password"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+          />
+          <Button
+            type="button"
+            fullWidth
+            variant="contained"
+            color="primary"
+            onClick={handleEmailLogin}
+            sx={{ mt: 3, mb: 2 }}
+          >
+            Sign In
+          </Button>
+          <Button
+            type="button"
+            fullWidth
+            variant="outlined"
+            color="secondary"
+            onClick={handleGoogleLogin}
+          >
+            Sign In with Google
+          </Button>
+        </Box>
       </Box>
     </Container>
   );
 };
+
+export default Login;

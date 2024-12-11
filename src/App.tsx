@@ -1,15 +1,13 @@
 import {
-  AuthBindings,
   Authenticated,
-  GitHubBanner,
+  AuthBindings,
   Refine,
 } from "@refinedev/core";
 import { DevtoolsPanel, DevtoolsProvider } from "@refinedev/devtools";
 import { RefineKbar, RefineKbarProvider } from "@refinedev/kbar";
-
+import { doc, getDoc } from 'firebase/firestore';
 import {
   ErrorComponent,
-  notificationProvider,
   RefineSnackbarProvider,
   ThemedLayoutV2,
 } from "@refinedev/mui";
@@ -22,7 +20,6 @@ import routerBindings, {
   NavigateToResource,
   UnsavedChangesNotifier,
 } from "@refinedev/react-router-v6";
-import dataProvider from "@refinedev/simple-rest";
 import axios from "axios";
 import { BrowserRouter, Outlet, Route, Routes } from "react-router-dom";
 import { AppIcon } from "./components/app-icon";
@@ -30,116 +27,192 @@ import { Header } from "./components/header";
 import { ColorModeContextProvider } from "./contexts/color-mode";
 import { CredentialResponse } from "./interfaces/google";
 import {
-  BlogPostCreate,
-  BlogPostEdit,
-  BlogPostList,
-  BlogPostShow,
-} from "./pages/blog-posts";
-import {
-  CategoryCreate,
-  CategoryEdit,
-  CategoryList,
-  CategoryShow,
-} from "./pages/categories";
-import {
   InvoiceCreate,
   InvoiceEdit,
   InvoiceList,
   InvoiceShow,
-} from "./pages/invoices";
-import { Login } from "./pages/login";
+} from "./pages/invoice";
+import Login from "./pages/login";
 import { parseJwt } from "./utils/parse-jwt";
-import { firebaseAuth, firestoreDatabase } from "./firebaseConfig";
+import { firebaseAuth, firestoreDatabase, firestore, app } from "./firebaseConfig";
+import {
+  GoogleAuthProvider,
+  signInWithPopup,
+  signInWithEmailAndPassword,
+  signOut,
+  onAuthStateChanged,
+  User,
+} from "firebase/auth";
+import { FirestoreDatabase } from "refine-firebase";
 
 const axiosInstance = axios.create();
-axiosInstance.interceptors.request.use((config) => {
-  const token = localStorage.getItem("token");
-  if (config.headers) {
+
+axiosInstance.interceptors.request.use(async (config) => {
+  const token = await firebaseAuth.currentUser?.getIdToken();
+  if (config.headers && token) {
     config.headers["Authorization"] = `Bearer ${token}`;
   }
-
   return config;
 });
 
 function App() {
   const authProvider: AuthBindings = {
-    login: async ({ credential }: CredentialResponse) => {
-      const profileObj = credential ? parseJwt(credential) : null;
+    login: async ({ email, password, providerName }): Promise<{
+      success: boolean;
+      redirectTo?: string;
+      error?: { message: string; name: string };
+    }> => {
+      try {
+        let userCredential;
+        if (providerName === "google") {
+          const provider = new GoogleAuthProvider();
+          userCredential = await signInWithPopup(firebaseAuth, provider);
+        } else if (email && password) {
+          userCredential = await signInWithEmailAndPassword(
+            firebaseAuth,
+            email,
+            password
+          );
+        } else {
+          return {
+            success: false,
+            error: {
+              message: "Invalid login credentials",
+              name: "LoginError",
+            },
+          };
+        }
 
-      if (profileObj) {
-        localStorage.setItem(
-          "user",
-          JSON.stringify({
-            ...profileObj,
-            avatar: profileObj.picture,
-          })
-        );
+        const user = userCredential.user;
+        const token = await user.getIdToken();
 
-        localStorage.setItem("token", `${credential}`);
+        localStorage.setItem("token", token);
+        localStorage.setItem("user", JSON.stringify(user));
 
         return {
           success: true,
           redirectTo: "/",
         };
+      } catch (error: any) {
+        return {
+          success: false,
+          error: {
+            message: error.message,
+            name: error.code,
+          },
+        };
       }
-
-      return {
-        success: false,
-      };
     },
-    logout: async () => {
-      const token = localStorage.getItem("token");
 
-      if (token && typeof window !== "undefined") {
+    logout: async (): Promise<{
+      success: boolean;
+      redirectTo?: string;
+      error?: { message: string; name: string };
+    }> => {
+      try {
+        await signOut(firebaseAuth);
         localStorage.removeItem("token");
         localStorage.removeItem("user");
-        axios.defaults.headers.common = {};
-        window.google?.accounts.id.revoke(token, () => {
-          return {};
-        });
+        return {
+          success: true,
+          redirectTo: "/login",
+        };
+      } catch (error: any) {
+        return {
+          success: false,
+          error: {
+            message: error.message,
+            name: error.code,
+          },
+        };
       }
-
-      return {
-        success: true,
-        redirectTo: "/login",
-      };
     },
-    onError: async (error) => {
+
+    check: async () => {
+      try {
+        const user = firebaseAuth.currentUser;
+        console.log("user:", user?.email);
+        if (user) {
+          // Reference to the user document in Firestore
+          const userDocRef = doc(firestore, 'user', user.uid);
+          console.log("userDocRef:", userDocRef);
+          const userDoc = await getDoc(userDocRef);
+          console.log("userDoc:", userDoc.id);
+          console.log("userDoc:", userDoc?.data()?.email);
+          if (userDoc.exists()) {
+            // User document exists, authentication successful
+            console.log("user doc exists");
+            return { authenticated: true };
+          } else {
+            // User document does not exist, sign out and redirect to login
+            console.log("user doc DOES NOT exist");
+            await signOut(firebaseAuth);
+            localStorage.removeItem("token");
+            localStorage.removeItem("user");
+            return {
+              authenticated: false,
+              error: {
+                message: 'User not authorized',
+                name: 'AuthError',
+              },
+              logout: true,
+              redirectTo: '/login',
+            };
+          }
+        } else {
+          // No user is currently authenticated
+          return {
+            authenticated: false,
+            error: {
+              message: 'User not authenticated',
+              name: 'AuthError',
+            },
+            logout: true,
+            redirectTo: '/login',
+          };
+        }
+      } catch (error: any) {
+        console.error('Auth check error:', error);
+        return {
+          authenticated: false,
+          error: {
+            message: 'Authentication check failed',
+            name: 'AuthError',
+          },
+          logout: true,
+          redirectTo: '/login',
+        };
+      }
+    },
+
+    getIdentity: async (): Promise<{
+      id: string;
+      email: string | null;
+      name: string | null;
+      avatar: string | null;
+    } | null> => {
+      const user = firebaseAuth.currentUser;
+      if (user) {
+        return {
+          id: user.uid,
+          email: user.email,
+          name: user.displayName,
+          avatar: user.photoURL,
+        };
+      }
+      return null;
+    },
+
+    onError: async (error: any): Promise<{ error: any }> => {
       console.error(error);
       return { error };
     },
-    check: async () => {
-      const token = localStorage.getItem("token");
 
-      if (token) {
-        return {
-          authenticated: true,
-        };
-      }
-
-      return {
-        authenticated: false,
-        error: {
-          message: "Check failed",
-          name: "Token not found",
-        },
-        logout: true,
-        redirectTo: "/login",
-      };
-    },
     getPermissions: async () => null,
-    getIdentity: async () => {
-      const user = localStorage.getItem("user");
-      if (user) {
-        return JSON.parse(user);
-      }
-
-      return null;
-    },
   };
 
   return (
-    (<BrowserRouter>
+    <BrowserRouter>
       <RefineKbarProvider>
         <ColorModeContextProvider>
           <CssBaseline />
@@ -148,37 +221,20 @@ function App() {
             <DevtoolsProvider>
               <Refine
                 dataProvider={firestoreDatabase.getDataProvider()}
-                notificationProvider={notificationProvider}
                 authProvider={authProvider}
                 routerProvider={routerBindings}
-                resources={[{
-                  name: "blog_posts",
-                  list: "/blog-posts",
-                  create: "/blog-posts/create",
-                  edit: "/blog-posts/edit/:id",
-                  show: "/blog-posts/show/:id",
-                  meta: {
-                    canDelete: true,
+                resources={[
+                  {
+                    name: "invoice",
+                    list: InvoiceList,
+                    create: InvoiceCreate,
+                    edit: InvoiceEdit,
+                    show: InvoiceShow,
+                    meta: {
+                      canDelete: true,
+                    },
                   },
-                }, {
-                  name: "categories",
-                  list: "/categories",
-                  create: "/categories/create",
-                  edit: "/categories/edit/:id",
-                  show: "/categories/show/:id",
-                  meta: {
-                    canDelete: true,
-                  },
-                }, {
-                  name: "invoices",
-                  list: InvoiceList,
-                  create: InvoiceCreate,
-                  edit: InvoiceEdit,
-                  show: InvoiceShow,
-                  meta: {
-                    canDelete: true,
-                  },
-                }]}
+                ]}
                 options={{
                   syncWithLocation: true,
                   warnWhenUnsavedChanges: true,
@@ -202,21 +258,9 @@ function App() {
                   >
                     <Route
                       index
-                      element={<NavigateToResource resource="blog_posts" />}
+                      element={<NavigateToResource resource="invoice" />}
                     />
-                    <Route path="/blog-posts">
-                      <Route index element={<BlogPostList />} />
-                      <Route path="create" element={<BlogPostCreate />} />
-                      <Route path="edit/:id" element={<BlogPostEdit />} />
-                      <Route path="show/:id" element={<BlogPostShow />} />
-                    </Route>
-                    <Route path="/categories">
-                      <Route index element={<CategoryList />} />
-                      <Route path="create" element={<CategoryCreate />} />
-                      <Route path="edit/:id" element={<CategoryEdit />} />
-                      <Route path="show/:id" element={<CategoryShow />} />
-                    </Route>
-                    <Route path="/invoices">
+                    <Route path="/invoice">
                       <Route index element={<InvoiceList />} />
                       <Route path="create" element={<InvoiceCreate />} />
                       <Route path="edit/:id" element={<InvoiceEdit />} />
@@ -247,7 +291,7 @@ function App() {
           </RefineSnackbarProvider>
         </ColorModeContextProvider>
       </RefineKbarProvider>
-    </BrowserRouter>)
+    </BrowserRouter>
   );
 }
 
