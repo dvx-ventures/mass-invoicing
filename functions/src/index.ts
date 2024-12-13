@@ -3,12 +3,25 @@ import * as admin from "firebase-admin";
 import { google } from "googleapis";
 import { JWT } from "google-auth-library";
 import { SecretManagerServiceClient } from "@google-cloud/secret-manager";
+import { onDocumentCreated } from "firebase-functions/v2/firestore";
+import { DocumentProcessorServiceClient } from "@google-cloud/documentai";
+import * as path from "path";
+import * as os from "os";
+import * as fs from "fs";
+import { v4 as uuidv4 } from "uuid";
 
 // Initialize Firebase Admin
 admin.initializeApp();
 
 // Initialize Firestore
 const firestore = admin.firestore();
+//const storage = admin.storage();
+
+const projectId = "mass-7e4f9";
+const location = "us"; // e.g. us, eu
+const processorId = "4a6027a84b72700b";
+
+const document_client = new DocumentProcessorServiceClient();
 
 // Initialize Secret Manager Client
 const client = new SecretManagerServiceClient();
@@ -38,13 +51,110 @@ async function getServiceAccount() {
   }
 }
 
+export const processInvoice = onDocumentCreated(
+  {
+    document: "email/{docId}",
+  },
+  async (event) => {
+    const docId = event.params.docId;
+    const data = event.data?.data();
+
+    if (!data) {
+      console.error(`No data found for docId: ${docId}`);
+      return;
+    }
+
+    if (!data.attachments || data.attachments.length === 0) {
+      console.log(`No attachments found for docId: ${docId}. Nothing to process.`);
+      return;
+    }
+
+    // Assuming we only process the first attachment or a specific one known to be the invoice
+    const attachment = data.attachments[0];
+    const fileUrl = attachment.url;
+
+    if (!fileUrl) {
+      console.error(`No attachment URL found for docId: ${docId}`);
+      return;
+    }
+
+    console.log(`Processing invoice for docId: ${docId} from URL: ${fileUrl}`);
+
+    try {
+      const tempFilePath = path.join(os.tmpdir(), uuidv4() + path.extname(fileUrl));
+
+      const fetch = await import("node-fetch");
+      const response = await fetch.default(fileUrl);
+
+      if (!response.ok) {
+        throw new Error(`Failed to fetch the attachment file from: ${fileUrl}, status: ${response.status}`);
+      }
+
+      const buffer = Buffer.from(await response.arrayBuffer());
+      fs.writeFileSync(tempFilePath, buffer);
+      console.log(`Downloaded attachment to ${tempFilePath}`);
+
+      const name = `projects/${projectId}/locations/${location}/processors/${processorId}`;
+      
+      // Correctly structure the request object
+      const request = {
+        name: name,
+        rawDocument: {
+          content: buffer.toString("base64"),
+          mimeType: attachment.mimeType || "application/pdf"
+        }
+      };
+
+      console.log("Sending document to Document AI for invoice parsing...");
+      
+      // Use the correctly structured request
+      const [result] = await document_client.processDocument(request);
+
+      console.log("Document AI processing complete.");
+
+      const parsedDocument = result.document;
+      if (!parsedDocument) {
+        console.error("No parsed document returned from Document AI.");
+        return;
+      }
+
+      const invoiceFields: Record<string, any> = {};
+
+      if (parsedDocument.entities) {
+        for (const entity of parsedDocument.entities) {
+          if (entity.type && entity.mentionText) {
+            invoiceFields[entity.type] = entity.mentionText;
+          }
+        }
+      }
+
+      console.log("Extracted invoice fields:", invoiceFields);
+
+      const invoiceDoc = {
+        emailDocId: docId,
+        processedAt: admin.firestore.FieldValue.serverTimestamp(),
+        invoiceData: invoiceFields,
+      };
+
+      await firestore.collection("invoices").add(invoiceDoc);
+      console.log(`Saved parsed invoice data to "invoices" collection for docId: ${docId}`);
+
+      // Cleanup temp file
+      fs.unlinkSync(tempFilePath);
+
+    } catch (error) {
+      console.error(`Error processing invoice for docId: ${docId}`, error);
+    }
+  }
+);
+
 export const readInvoiceEmail = onSchedule(
   {
     schedule: "every 5 minutes",
   },
   async (event) => {
     console.log("readInvoiceEmail function triggered by scheduler.");
-    console.log("test 1");
+    console.log("test 3");
     try {
       console.log("Starting to retrieve service account credentials.");
       const serviceAccount = await getServiceAccount();
@@ -195,7 +305,7 @@ export const readInvoiceEmail = onSchedule(
           }
 
           // Save email data to Firestore
-          await firestore.collection("emails").doc(messageId).set(emailData);
+          await firestore.collection("email").doc(messageId).set(emailData);
           console.log(`Saved email ID: ${messageId} to Firestore.`);
 
           // Mark the message as read by removing the "UNREAD" label
@@ -219,8 +329,8 @@ export const readInvoiceEmail = onSchedule(
       console.log("Finished processing all unread messages.");
       return; // return void
     } catch (error) {
-      console.error("Error reading invoice emails:", error);
-      throw new Error("Failed to read invoice emails.");
+      console.error("Error reading invoice email:", error);
+      throw new Error("Failed to read invoice email.");
     }
   }
 );
