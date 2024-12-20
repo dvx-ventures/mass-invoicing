@@ -1,0 +1,132 @@
+{
+  "invoice_date": "7/1/2024",
+  "total_tax_amount": 0,
+  "net_amount": 801,
+  "total_amount": 820.61,
+  "invoice_id": "18212",
+  "ship_to_address": "500 S 59th Ave W Duluth, MN 55806",
+  "receiver_name": "Wild State Cider",
+  "receiver_address": "500 S 59th Ave W Duluth, MN 55806",
+  "ship_to_name": "Wild State Cider",
+  "purchase_order": "Sam 062524",
+  "supplier_address": "PO Box 9495 | Fargo, ND 58106-9495",
+  "payment_terms": "Net 30",
+  "invoice_type": "",
+  "supplier_tax_id": "11-125-5295",
+  "freight_amount": 19.61,
+  "supplier_website": "Northernplainslabel.com",
+  "supplier_name": "",
+  "supplier_phone": "",
+  "line_items": [
+    {
+      "line_item/quantity": 5000,
+      "line_item/unit_price": 0.1602,
+      "line_item/unit": "Each",
+      "line_item/amount": 801
+    },
+    {
+      "line_item/quantity": 5000
+    }
+  ],
+  "fieldsConfidence": [
+    {
+      "field": "Invoice_date",
+      "confidence": 0.9834783673286438
+    },
+    {
+      "field": "Total_tax_amount",
+      "confidence": 0.9568678736686707
+    },
+    {
+      "field": "Net_amount",
+      "confidence": 0.948818027973175
+    },
+    {
+      "field": "Total_amount",
+      "confidence": 0.9491379857063293
+    },
+    {
+      "field": "Invoice_id",
+      "confidence": 0.9275241494178772
+    },
+    {
+      "field": "Ship_to_address",
+      "confidence": 0.9052692651748657
+    },
+    {
+      "field": "Receiver_name",
+      "confidence": 0.8804004192352295
+    },
+    {
+      "field": "Receiver_address",
+      "confidence": 0.7830675840377808
+    },
+    {
+      "field": "Ship_to_name",
+      "confidence": 0.7249037623405457
+    },
+    {
+      "field": "Purchase_order",
+      "confidence": 0.6705113649368286
+    },
+    {
+      "field": "Supplier_address",
+      "confidence": 0.588018536567688
+    },
+    {
+      "field": "Payment_terms",
+      "confidence": 0.5775375962257385
+    },
+    {
+      "field": "Invoice_type",
+      "confidence": 0.4725629985332489
+    },
+    {
+      "field": "Supplier_tax_id",
+      "confidence": 0.4567803144454956
+    },
+    {
+      "field": "Freight_amount",
+      "confidence": 0.3233353793621063
+    },
+    {
+      "field": "Supplier_website",
+      "confidence": 0.028914451599121094
+    },
+    {
+      "field": "Supplier_name",
+      "confidence": 0
+    },
+    {
+      "field": "Supplier_phone",
+      "confidence": 0
+    },
+    {
+      "field": "Line_item.0.line_item/quantity",
+      "confidence": 0.9242652058601379
+    },
+    {
+      "field": "Line_item.0.line_item/unit_price",
+      "confidence": 0.8862037062644958
+    },
+    {
+      "field": "Line_item.0.line_item/unit",
+      "confidence": 0.3068099915981293
+    },
+    {
+      "field": "Line_item.0.line_item/amount",
+      "confidence": 0.8502936363220215
+    },
+    {
+      "field": "Line_item.1.line_item/quantity",
+      "confidence": 0.9033355116844177
+    }
+  ],
+  "receivedAt": "2024-12-18t02:18:39.712z",
+  "processedAt": "2024-12-18t02:18:39.712z",
+  "from": "",
+  "messageId": "",
+  "snippet": "",
+  "subject": "",
+  "emailDocId": ""
+}

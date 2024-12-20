@@ -1,0 +1,212 @@
+{
+  "invoice_id": "SI022861",
+  "due_date": "March 25, 2024",
+  "invoice_date": "March 25, 2024",
+  "ship_to_address": "1617 N 3RD ST\nSUPERIOR, WI 54880\nUSA\nFrank Kaszuba",
+  "supplier_name": "Briess Industries",
+  "supplier_address": "PO Box 88679\nMilwaukee, WI 53288-8679",
+  "invoice_type": "",
+  "ship_to_name": "EARTH RIDER BREWING CO",
+  "receiver_name": "EARTH RIDER BREWING LLC",
+  "supplier_phone": "(920) 849-7711",
+  "receiver_address": "1617 N 3RD ST\nSUPERIOR, WI 54880\nUSA",
+  "carrier": "I-Tec Distribution Center",
+  "payment_terms": "Mike Illig",
+  "freight_amount": "2,000",
+  "purchase_order": "1396",
+  "line_items": [
+    {
+      "line_item/product_code": "5323",
+      "line_item/quantity": "16.00",
+      "line_item/unit": "Pound",
+      "line_item/unit_price": "0.575",
+      "line_item/amount": "450.80"
+    },
+    {
+      "line_item/description": "Wheat Malt, Red\n240124B (800 LB)"
+    },
+    {
+      "line_item/product_code": "7735",
+      "line_item/quantity": "24.00",
+      "line_item/unit": "Pound",
+      "line_item/unit_price": "0.78",
+      "line_item/amount": "917.28"
+    },
+    {
+      "line_item/description": "Brewers Yellow Corn Flakes Non-GMO 50#\n240229X# (1,200 LB)"
+    },
+    {
+      "line_item/product_code": "PLT-ST",
+      "line_item/quantity": "1",
+      "line_item/unit": "Each",
+      "line_item/unit_price": "0.00"
+    },
+    {
+      "line_item/quantity": "1.00",
+      "line_item/unit_price": "450.80",
+      "line_item/amount": "-450.80"
+    },
+    {
+      "line_item/quantity": "1.00",
+      "line_item/unit_price": "917.28",
+      "line_item/amount": "-917.28"
+    }
+  ],
+  "fieldsConfidence": [
+    {
+      "field": "invoice_id",
+      "confidence": 0.9762426018714905
+    },
+    {
+      "field": "due_date",
+      "confidence": 0.9708712697029114
+    },
+    {
+      "field": "invoice_date",
+      "confidence": 0.9610440135002136
+    },
+    {
+      "field": "ship_to_address",
+      "confidence": 0.8565556406974792
+    },
+    {
+      "field": "supplier_name",
+      "confidence": 0.7717021703720093
+    },
+    {
+      "field": "supplier_address",
+      "confidence": 0.7632506489753723
+    },
+    {
+      "field": "invoice_type",
+      "confidence": 0.7600042223930359
+    },
+    {
+      "field": "ship_to_name",
+      "confidence": 0.7597524523735046
+    },
+    {
+      "field": "receiver_name",
+      "confidence": 0.6665078401565552
+    },
+    {
+      "field": "supplier_phone",
+      "confidence": 0.6566683053970337
+    },
+    {
+      "field": "receiver_address",
+      "confidence": 0.5994644165039062
+    },
+    {
+      "field": "carrier",
+      "confidence": 0.44186046719551086
+    },
+    {
+      "field": "payment_terms",
+      "confidence": 0.42021381855010986
+    },
+    {
+      "field": "freight_amount",
+      "confidence": 0.2532442808151245
+    },
+    {
+      "field": "purchase_order",
+      "confidence": 0.25184503197669983
+    },
+    {
+      "field": "line_item.0.line_item/product_code",
+      "confidence": 0.5357996225357056
+    },
+    {
+      "field": "line_item.0.line_item/quantity",
+      "confidence": 0.35972753167152405
+    },
+    {
+      "field": "line_item.0.line_item/unit",
+      "confidence": 0.8086467981338501
+    },
+    {
+      "field": "line_item.0.line_item/unit_price",
+      "confidence": 0.8289787769317627
+    },
+    {
+      "field": "line_item.0.line_item/amount",
+      "confidence": 0.8786292672157288
+    },
+    {
+      "field": "line_item.1.line_item/description",
+      "confidence": 0.48355966806411743
+    },
+    {
+      "field": "line_item.2.line_item/product_code",
+      "confidence": 0.7145339250564575
+    },
+    {
+      "field": "line_item.2.line_item/quantity",
+      "confidence": 0.48142924904823303
+    },
+    {
+      "field": "line_item.2.line_item/unit",
+      "confidence": 0.8247789144515991
+    },
+    {
+      "field": "line_item.2.line_item/unit_price",
+      "confidence": 0.7908594012260437
+    },
+    {
+      "field": "line_item.2.line_item/amount",
+      "confidence": 0.8681719899177551
+    },
+    {
+      "field": "line_item.3.line_item/description",
+      "confidence": 0.5407808423042297
+    },
+    {
+      "field": "line_item.4.line_item/product_code",
+      "confidence": 0.6501408815383911
+    },
+    {
+      "field": "line_item.4.line_item/quantity",
+      "confidence": 0.607259213924408
+    },
+    {
+      "field": "line_item.4.line_item/unit",
+      "confidence": 0.8216812014579773
+    },
+    {
+      "field": "line_item.4.line_item/unit_price",
+      "confidence": 0.5431655645370483
+    },
+    {
+      "field": "line_item.5.line_item/quantity",
+      "confidence": 0.6650488972663879
+    },
+    {
+      "field": "line_item.5.line_item/unit_price",
+      "confidence": 0.6236736178398132
+    },
+    {
+      "field": "line_item.5.line_item/amount",
+      "confidence": 0.7556924223899841
+    },
+    {
+      "field": "line_item.6.line_item/quantity",
+      "confidence": 0.3300437927246094
+    },
+    {
+      "field": "line_item.6.line_item/unit_price",
+      "confidence": 0.3153373897075653
+    },
+    {
+      "field": "line_item.6.line_item/amount",
+      "confidence": 0.6900402307510376
+    }
+  ],
+  "receivedAt": "2024-12-18T02:18:39.442Z",
+  "processedAt": "2024-12-18T02:18:39.442Z",
+  "from": "",
+  "messageId": "",
+  "snippet": "",
+  "subject": "",
+  "emailDocId": ""
+}

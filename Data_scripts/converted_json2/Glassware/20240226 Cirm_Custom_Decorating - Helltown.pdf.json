@@ -1,0 +1,132 @@
+{
+  "total_amount": 2007.64,
+  "due_date": "2/26/2024",
+  "purchase_order": "15976",
+  "currency": "$",
+  "ship_to_address": "5578 Old William Penn Highway Export PA 15632",
+  "ship_to_name": "Helltown Bre",
+  "receiver_name": "Helltown Brewing",
+  "supplier_name": "Cirm Custom Decorating",
+  "delivery_date": "2/26/2024",
+  "supplier_phone": "330-886-0250",
+  "invoice_type": "",
+  "invoice_date": "2/26/2024",
+  "supplier_address": "",
+  "line_items": [
+    {
+      "line_item/product_code": "Gag3960",
+      "line_item/quantity": 1008,
+      "line_item/unit_price": 1.8,
+      "line_item/amount": 1814.4,
+      "line_item/description": "DG16 - 16 oz Draught Glass side 1:HELLTOWN BREWING side 2:TAIL LOGO 2 colors: WHITE / RED"
+    },
+    {
+      "line_item/product_code": "Freight Charge",
+      "line_item/description": "Freight Charge",
+      "line_item/quantity": 1,
+      "line_item/unit_price": 193.24,
+      "line_item/amount": 193.24
+    }
+  ],
+  "fieldsConfidence": [
+    {
+      "field": "Total_amount",
+      "confidence": 0.9564191699028015
+    },
+    {
+      "field": "Due_date",
+      "confidence": 0.9039487838745117
+    },
+    {
+      "field": "Purchase_order",
+      "confidence": 0.7925832867622375
+    },
+    {
+      "field": "Currency",
+      "confidence": 0.7812966108322144
+    },
+    {
+      "field": "Ship_to_address",
+      "confidence": 0.7003253102302551
+    },
+    {
+      "field": "Ship_to_name",
+      "confidence": 0.687992513179779
+    },
+    {
+      "field": "Receiver_name",
+      "confidence": 0.5873631238937378
+    },
+    {
+      "field": "Supplier_name",
+      "confidence": 0.5645578503608704
+    },
+    {
+      "field": "Delivery_date",
+      "confidence": 0.42499178647994995
+    },
+    {
+      "field": "Supplier_phone",
+      "confidence": 0.3693626821041107
+    },
+    {
+      "field": "Invoice_type",
+      "confidence": 0.2640720307826996
+    },
+    {
+      "field": "Invoice_date",
+      "confidence": 0.22249698638916016
+    },
+    {
+      "field": "Supplier_address",
+      "confidence": 0
+    },
+    {
+      "field": "Line_item.0.line_item/product_code",
+      "confidence": 0.635687530040741
+    },
+    {
+      "field": "Line_item.0.line_item/quantity",
+      "confidence": 0.953660249710083
+    },
+    {
+      "field": "Line_item.0.line_item/unit_price",
+      "confidence": 0.7413232922554016
+    },
+    {
+      "field": "Line_item.0.line_item/amount",
+      "confidence": 0.8506948947906494
+    },
+    {
+      "field": "Line_item.0.line_item/description",
+      "confidence": 0.47551196813583374
+    },
+    {
+      "field": "Line_item.1.line_item/product_code",
+      "confidence": 0.4700968265533447
+    },
+    {
+      "field": "Line_item.1.line_item/description",
+      "confidence": 0.5620045065879822
+    },
+    {
+      "field": "Line_item.1.line_item/quantity",
+      "confidence": 0.800369381904602
+    },
+    {
+      "field": "Line_item.1.line_item/unit_price",
+      "confidence": 0.8501099348068237
+    },
+    {
+      "field": "Line_item.1.line_item/amount",
+      "confidence": 0.8668577075004578
+    }
+  ],
+  "receivedAt": "2024-12-18t02:18:39.649z",
+  "processedAt": "2024-12-18t02:18:39.649z",
+  "from": "",
+  "messageId": "",
+  "snippet": "",
+  "subject": "",
+  "emailDocId": ""
+}

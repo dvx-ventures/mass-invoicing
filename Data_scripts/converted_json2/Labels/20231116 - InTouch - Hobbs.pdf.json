@@ -1,0 +1,110 @@
+{
+  "due_date": "11/16/2023",
+  "net_amount": 90,
+  "invoice_date": "10/17/2023",
+  "total_tax_amount": 0,
+  "invoice_id": "80879",
+  "ship_to_address": "2415 NH Route 16 West Ossipee, NH 03890",
+  "receiver_name": "Hobbs Tavern and Brewing Company",
+  "ship_to_name": "Hobbs Brewing Company",
+  "supplier_name": "Avery Products Corporation",
+  "supplier_address": "12 Technology Drive North Chelmsford, MA 01863",
+  "currency": "$",
+  "payment_terms": "Net 30",
+  "invoice_type": "",
+  "carrier": "Ups",
+  "receiver_address": "765 NH 16 Ossipee, NH 03864",
+  "line_items": [
+    {
+      "line_item/description": "Tripple 16oz",
+      "line_item/quantity": 1000,
+      "line_item/unit_price": 0.09,
+      "line_item/amount": 90
+    }
+  ],
+  "fieldsConfidence": [
+    {
+      "field": "Due_date",
+      "confidence": 0.9814721941947937
+    },
+    {
+      "field": "Net_amount",
+      "confidence": 0.980789840221405
+    },
+    {
+      "field": "Invoice_date",
+      "confidence": 0.9678804874420166
+    },
+    {
+      "field": "Total_tax_amount",
+      "confidence": 0.9501014947891235
+    },
+    {
+      "field": "Invoice_id",
+      "confidence": 0.9334586262702942
+    },
+    {
+      "field": "Ship_to_address",
+      "confidence": 0.923580527305603
+    },
+    {
+      "field": "Receiver_name",
+      "confidence": 0.7702674269676208
+    },
+    {
+      "field": "Ship_to_name",
+      "confidence": 0.7478452324867249
+    },
+    {
+      "field": "Supplier_name",
+      "confidence": 0.609926700592041
+    },
+    {
+      "field": "Supplier_address",
+      "confidence": 0.5772833228111267
+    },
+    {
+      "field": "Currency",
+      "confidence": 0.5695326328277588
+    },
+    {
+      "field": "Payment_terms",
+      "confidence": 0.4536488950252533
+    },
+    {
+      "field": "Invoice_type",
+      "confidence": 0.4514983892440796
+    },
+    {
+      "field": "Carrier",
+      "confidence": 0.44186046719551086
+    },
+    {
+      "field": "Receiver_address",
+      "confidence": 0.38443809747695923
+    },
+    {
+      "field": "Line_item.0.line_item/description",
+      "confidence": 0.5605088472366333
+    },
+    {
+      "field": "Line_item.0.line_item/quantity",
+      "confidence": 0.9731835126876831
+    },
+    {
+      "field": "Line_item.0.line_item/unit_price",
+      "confidence": 0.9228543043136597
+    },
+    {
+      "field": "Line_item.0.line_item/amount",
+      "confidence": 0.8904416561126709
+    }
+  ],
+  "receivedAt": "2024-12-18t02:18:39.684z",
+  "processedAt": "2024-12-18t02:18:39.684z",
+  "from": "",
+  "messageId": "",
+  "snippet": "",
+  "subject": "",
+  "emailDocId": ""
+}

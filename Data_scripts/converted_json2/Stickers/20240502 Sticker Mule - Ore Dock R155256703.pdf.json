@@ -1,0 +1,114 @@
+{
+  "supplier_address": "336 Forest Ave, Amsterdam, NY 12010",
+  "supplier_name": "Sticker Mule, LLC",
+  "net_amount": 217,
+  "receiver_name": "Kris Wierenga",
+  "ship_to_address": "114 W Spring St Marquette MI 49855 United States",
+  "total_amount": 166,
+  "ship_to_name": "Kris Wierenga",
+  "invoice_type": "",
+  "receiver_address": "114 W Spring St Marquette MI 49855",
+  "freight_amount": 0,
+  "supplier_website": "Stickermule.com",
+  "invoice_date": "Receipt May 02, 2024",
+  "invoice_id": "R155256703",
+  "line_items": [
+    {
+      "line_item/description": "Custom 3\" x 1.68\" Holographic stickers",
+      "line_item/quantity": 350,
+      "line_item/amount": 217
+    },
+    {
+      "line_item/quantity": 1,
+      "line_item/amount": 0
+    },
+    {
+      "line_item/amount": 51
+    }
+  ],
+  "fieldsConfidence": [
+    {
+      "field": "Supplier_address",
+      "confidence": 0.8330180644989014
+    },
+    {
+      "field": "Supplier_name",
+      "confidence": 0.8175147771835327
+    },
+    {
+      "field": "Net_amount",
+      "confidence": 0.7018828988075256
+    },
+    {
+      "field": "Receiver_name",
+      "confidence": 0.6966206431388855
+    },
+    {
+      "field": "Ship_to_address",
+      "confidence": 0.6588567495346069
+    },
+    {
+      "field": "Total_amount",
+      "confidence": 0.5298750996589661
+    },
+    {
+      "field": "Ship_to_name",
+      "confidence": 0.5079705715179443
+    },
+    {
+      "field": "Invoice_type",
+      "confidence": 0.46474766731262207
+    },
+    {
+      "field": "Receiver_address",
+      "confidence": 0.3708619773387909
+    },
+    {
+      "field": "Freight_amount",
+      "confidence": 0.35224413871765137
+    },
+    {
+      "field": "Supplier_website",
+      "confidence": 0.2687090039253235
+    },
+    {
+      "field": "Invoice_date",
+      "confidence": 0.09981119632720947
+    },
+    {
+      "field": "Invoice_id",
+      "confidence": 0.0920715481042862
+    },
+    {
+      "field": "Line_item.0.line_item/description",
+      "confidence": 0.6488568782806396
+    },
+    {
+      "field": "Line_item.0.line_item/quantity",
+      "confidence": 0.7902459502220154
+    },
+    {
+      "field": "Line_item.0.line_item/amount",
+      "confidence": 0.9147405624389648
+    },
+    {
+      "field": "Line_item.1.line_item/quantity",
+      "confidence": 0.5905094146728516
+    },
+    {
+      "field": "Line_item.1.line_item/amount",
+      "confidence": 0.702451229095459
+    },
+    {
+      "field": "Line_item.2.line_item/amount",
+      "confidence": 0.2702186405658722
+    }
+  ],
+  "receivedAt": "2024-12-18t02:18:39.798z",
+  "processedAt": "2024-12-18t02:18:39.798z",
+  "from": "",
+  "messageId": "",
+  "snippet": "",
+  "subject": "",
+  "emailDocId": ""
+}

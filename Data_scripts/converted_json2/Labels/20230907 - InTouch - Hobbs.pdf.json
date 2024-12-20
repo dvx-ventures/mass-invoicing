@@ -1,0 +1,164 @@
+{
+  "net_amount": 373.36,
+  "invoice_date": "9/7/2023",
+  "due_date": "10/7/2023",
+  "invoice_id": "79157",
+  "total_tax_amount": 0,
+  "ship_to_address": "2415 NH Route 16 West Ossipee, NH 03890",
+  "receiver_name": "Hobbs Tavern and Brewing Company",
+  "ship_to_name": "Hobbs Brewing Company",
+  "supplier_name": "Avery Products Corporation",
+  "currency": "$",
+  "supplier_address": "12 Technology Drive North Chelmsford, MA 01863",
+  "total_amount": 373.36,
+  "payment_terms": "Net 30",
+  "carrier": "Ups",
+  "invoice_type": "",
+  "receiver_address": "765 NH 16 Ossipee, NH 03864",
+  "line_items": [
+    {
+      "line_item/description": "Toucan 16oz",
+      "line_item/quantity": 3600,
+      "line_item/unit_price": 0.09,
+      "line_item/amount": 324
+    },
+    {
+      "line_item/description": "Labels Jambo 16oz",
+      "line_item/quantity": 450,
+      "line_item/unit_price": 0.09,
+      "line_item/amount": 40.5
+    },
+    {
+      "line_item/product_code": "Shipping",
+      "line_item/description": "UPS Ground",
+      "line_item/quantity": 1,
+      "line_item/unit_price": 8.86,
+      "line_item/amount": 8.86
+    }
+  ],
+  "fieldsConfidence": [
+    {
+      "field": "Net_amount",
+      "confidence": 0.9820092916488647
+    },
+    {
+      "field": "Invoice_date",
+      "confidence": 0.9677480459213257
+    },
+    {
+      "field": "Due_date",
+      "confidence": 0.9633690714836121
+    },
+    {
+      "field": "Invoice_id",
+      "confidence": 0.9465054869651794
+    },
+    {
+      "field": "Total_tax_amount",
+      "confidence": 0.9376200437545776
+    },
+    {
+      "field": "Ship_to_address",
+      "confidence": 0.9214520454406738
+    },
+    {
+      "field": "Receiver_name",
+      "confidence": 0.7741265296936035
+    },
+    {
+      "field": "Ship_to_name",
+      "confidence": 0.7589446902275085
+    },
+    {
+      "field": "Supplier_name",
+      "confidence": 0.6299319863319397
+    },
+    {
+      "field": "Currency",
+      "confidence": 0.6145234704017639
+    },
+    {
+      "field": "Supplier_address",
+      "confidence": 0.5986576080322266
+    },
+    {
+      "field": "Total_amount",
+      "confidence": 0.5872781872749329
+    },
+    {
+      "field": "Payment_terms",
+      "confidence": 0.45206835865974426
+    },
+    {
+      "field": "Carrier",
+      "confidence": 0.44186046719551086
+    },
+    {
+      "field": "Invoice_type",
+      "confidence": 0.4293050169944763
+    },
+    {
+      "field": "Receiver_address",
+      "confidence": 0.35590842366218567
+    },
+    {
+      "field": "Line_item.0.line_item/description",
+      "confidence": 0.5878272652626038
+    },
+    {
+      "field": "Line_item.0.line_item/quantity",
+      "confidence": 0.9730509519577026
+    },
+    {
+      "field": "Line_item.0.line_item/unit_price",
+      "confidence": 0.9200085401535034
+    },
+    {
+      "field": "Line_item.0.line_item/amount",
+      "confidence": 0.8742883205413818
+    },
+    {
+      "field": "Line_item.1.line_item/description",
+      "confidence": 0.5333186984062195
+    },
+    {
+      "field": "Line_item.1.line_item/quantity",
+      "confidence": 0.9344800114631653
+    },
+    {
+      "field": "Line_item.1.line_item/unit_price",
+      "confidence": 0.9233588576316833
+    },
+    {
+      "field": "Line_item.1.line_item/amount",
+      "confidence": 0.8780018091201782
+    },
+    {
+      "field": "Line_item.2.line_item/product_code",
+      "confidence": 0.49993130564689636
+    },
+    {
+      "field": "Line_item.2.line_item/description",
+      "confidence": 0.4561503827571869
+    },
+    {
+      "field": "Line_item.2.line_item/quantity",
+      "confidence": 0.9415279030799866
+    },
+    {
+      "field": "Line_item.2.line_item/unit_price",
+      "confidence": 0.937812328338623
+    },
+    {
+      "field": "Line_item.2.line_item/amount",
+      "confidence": 0.8574303984642029
+    }
+  ],
+  "receivedAt": "2024-12-18t02:18:39.679z",
+  "processedAt": "2024-12-18t02:18:39.679z",
+  "from": "",
+  "messageId": "",
+  "snippet": "",
+  "subject": "",
+  "emailDocId": ""
+}

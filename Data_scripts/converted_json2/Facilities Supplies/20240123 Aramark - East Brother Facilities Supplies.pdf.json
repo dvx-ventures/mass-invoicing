@@ -1,0 +1,348 @@
+{
+  "invoice_date": "01/23/2024",
+  "invoice_id": "5172217826",
+  "invoice_type": "",
+  "total_amount": 50.95,
+  "total_tax_amount": 0,
+  "due_date": "February 10, 2024",
+  "supplier_address": "2680 Palumbo Drive Lexington, KY 40509",
+  "net_amount": 50.95,
+  "payment_terms": "Net 10 Eom",
+  "ship_to_address": "1001 Canal Blvd Richmond CA 94808",
+  "remit_to_name": "Aramark",
+  "ship_to_name": "East Brother Beer",
+  "currency": "$",
+  "receiver_name": "East Brother Beer Brother",
+  "supplier_name": "Aramark",
+  "freight_amount": 0,
+  "supplier_website": "Http://myaccount.aramark.com",
+  "receiver_address": "1001 Canal Blvd Richmond CA 94808",
+  "remit_to_address": "PO Box 101179 Pasadena CA 91189-1179",
+  "line_items": [
+    {
+      "line_item/quantity": 0
+    },
+    {
+      "line_item/amount": 4.6,
+      "line_item/description": "Logo Mat",
+      "line_item/quantity": 1,
+      "line_item/product_code": "Dl6000horz",
+      "line_item/unit_price": 4.6
+    },
+    {
+      "line_item/product_code": "Ow1012whit",
+      "line_item/unit": "Case",
+      "line_item/unit_price": 0,
+      "line_item/amount": 0,
+      "line_item/description": "Sca Towel Ctrpl"
+    },
+    {
+      "line_item/unit_price": 0,
+      "line_item/unit": "Case",
+      "line_item/quantity": 0,
+      "line_item/amount": 0,
+      "line_item/product_code": "Ow1082whit",
+      "line_item/description": "Seat Cvrs Refill"
+    },
+    {
+      "line_item/unit": "Case",
+      "line_item/quantity": 0,
+      "line_item/unit_price": 0,
+      "line_item/amount": 0,
+      "line_item/product_code": "Ow1216whit",
+      "line_item/description": "Bath Tissue 2ply"
+    },
+    {
+      "line_item/product_code": "Case",
+      "line_item/description": "Soap Foam Antibacterial",
+      "line_item/unit_price": 0,
+      "line_item/amount": 0
+    },
+    {
+      "line_item/product_code": "To0016whit",
+      "line_item/unit_price": 0.069,
+      "line_item/amount": 20.7,
+      "line_item/description": "Bar Mop Ribbed",
+      "line_item/quantity": 300
+    },
+    {
+      "line_item/product_code": "To0108yelo",
+      "line_item/description": "Inventory Maint Rent Inventory Maint",
+      "line_item/unit_price": 1.438,
+      "line_item/amount": 5.75,
+      "line_item/quantity": 4
+    },
+    {
+      "line_item/product_code": "Xx0297grey",
+      "line_item/description": "Laundry Bag Ergo Clips",
+      "line_item/quantity": 0,
+      "line_item/unit_price": 0,
+      "line_item/amount": 0
+    },
+    {
+      "line_item/description": "Service Charge",
+      "line_item/amount": 1
+    }
+  ],
+  "fieldsConfidence": [
+    {
+      "field": "Invoice_date",
+      "confidence": 0.9846205115318298
+    },
+    {
+      "field": "Invoice_id",
+      "confidence": 0.9642733335494995
+    },
+    {
+      "field": "Invoice_type",
+      "confidence": 0.9648881554603577
+    },
+    {
+      "field": "Total_amount",
+      "confidence": 0.9594206213951111
+    },
+    {
+      "field": "Total_tax_amount",
+      "confidence": 0.9584818482398987
+    },
+    {
+      "field": "Due_date",
+      "confidence": 0.9503960609436035
+    },
+    {
+      "field": "Supplier_address",
+      "confidence": 0.911931574344635
+    },
+    {
+      "field": "Net_amount",
+      "confidence": 0.8995833992958069
+    },
+    {
+      "field": "Payment_terms",
+      "confidence": 0.851292073726654
+    },
+    {
+      "field": "Ship_to_address",
+      "confidence": 0.8241939544677734
+    },
+    {
+      "field": "Remit_to_name",
+      "confidence": 0.726011335849762
+    },
+    {
+      "field": "Ship_to_name",
+      "confidence": 0.6513112187385559
+    },
+    {
+      "field": "Currency",
+      "confidence": 0.5928098559379578
+    },
+    {
+      "field": "Receiver_name",
+      "confidence": 0.525865912437439
+    },
+    {
+      "field": "Supplier_name",
+      "confidence": 0.5100246071815491
+    },
+    {
+      "field": "Freight_amount",
+      "confidence": 0.44647595286369324
+    },
+    {
+      "field": "Supplier_website",
+      "confidence": 0.43656522035598755
+    },
+    {
+      "field": "Receiver_address",
+      "confidence": 0.4171803593635559
+    },
+    {
+      "field": "Remit_to_address",
+      "confidence": 0.3579162359237671
+    },
+    {
+      "field": "Line_item.0.line_item/quantity",
+      "confidence": 0.5683522820472717
+    },
+    {
+      "field": "Line_item.1.line_item/amount",
+      "confidence": 0.852783203125
+    },
+    {
+      "field": "Line_item.1.line_item/description",
+      "confidence": 0.5929666757583618
+    },
+    {
+      "field": "Line_item.1.line_item/quantity",
+      "confidence": 0.677039384841919
+    },
+    {
+      "field": "Line_item.1.line_item/product_code",
+      "confidence": 0.7740312814712524
+    },
+    {
+      "field": "Line_item.1.line_item/unit_price",
+      "confidence": 0.786899209022522
+    },
+    {
+      "field": "Line_item.2.line_item/product_code",
+      "confidence": 0.4738813638687134
+    },
+    {
+      "field": "Line_item.2.line_item/unit",
+      "confidence": 0.5947332382202148
+    },
+    {
+      "field": "Line_item.2.line_item/unit_price",
+      "confidence": 0.7969318628311157
+    },
+    {
+      "field": "Line_item.2.line_item/amount",
+      "confidence": 0.8449750542640686
+    },
+    {
+      "field": "Line_item.2.line_item/description",
+      "confidence": 0.566979169845581
+    },
+    {
+      "field": "Line_item.3.line_item/unit_price",
+      "confidence": 0.7876120209693909
+    },
+    {
+      "field": "Line_item.3.line_item/unit",
+      "confidence": 0.6778097748756409
+    },
+    {
+      "field": "Line_item.3.line_item/quantity",
+      "confidence": 0.8332411050796509
+    },
+    {
+      "field": "Line_item.3.line_item/amount",
+      "confidence": 0.8759808540344238
+    },
+    {
+      "field": "Line_item.3.line_item/product_code",
+      "confidence": 0.5450721383094788
+    },
+    {
+      "field": "Line_item.3.line_item/description",
+      "confidence": 0.4142884314060211
+    },
+    {
+      "field": "Line_item.4.line_item/unit",
+      "confidence": 0.7059696316719055
+    },
+    {
+      "field": "Line_item.4.line_item/quantity",
+      "confidence": 0.8551989197731018
+    },
+    {
+      "field": "Line_item.4.line_item/unit_price",
+      "confidence": 0.8488667011260986
+    },
+    {
+      "field": "Line_item.4.line_item/amount",
+      "confidence": 0.886916995048523
+    },
+    {
+      "field": "Line_item.4.line_item/product_code",
+      "confidence": 0.5437946915626526
+    },
+    {
+      "field": "Line_item.4.line_item/description",
+      "confidence": 0.5396034121513367
+    },
+    {
+      "field": "Line_item.5.line_item/product_code",
+      "confidence": 0.6236857771873474
+    },
+    {
+      "field": "Line_item.5.line_item/description",
+      "confidence": 0.4080401659011841
+    },
+    {
+      "field": "Line_item.5.line_item/unit_price",
+      "confidence": 0.782271146774292
+    },
+    {
+      "field": "Line_item.5.line_item/amount",
+      "confidence": 0.7595557570457458
+    },
+    {
+      "field": "Line_item.6.line_item/product_code",
+      "confidence": 0.38380226492881775
+    },
+    {
+      "field": "Line_item.6.line_item/unit_price",
+      "confidence": 0.5480549335479736
+    },
+    {
+      "field": "Line_item.6.line_item/amount",
+      "confidence": 0.7417468428611755
+    },
+    {
+      "field": "Line_item.6.line_item/description",
+      "confidence": 0.4326162338256836
+    },
+    {
+      "field": "Line_item.6.line_item/quantity",
+      "confidence": 0.5786465406417847
+    },
+    {
+      "field": "Line_item.7.line_item/product_code",
+      "confidence": 0.40935972332954407
+    },
+    {
+      "field": "Line_item.7.line_item/description",
+      "confidence": 0.5900005102157593
+    },
+    {
+      "field": "Line_item.7.line_item/unit_price",
+      "confidence": 0.7056478261947632
+    },
+    {
+      "field": "Line_item.7.line_item/amount",
+      "confidence": 0.7303348779678345
+    },
+    {
+      "field": "Line_item.7.line_item/quantity",
+      "confidence": 0.7642059922218323
+    },
+    {
+      "field": "Line_item.8.line_item/product_code",
+      "confidence": 0.45793285965919495
+    },
+    {
+      "field": "Line_item.8.line_item/description",
+      "confidence": 0.500505268573761
+    },
+    {
+      "field": "Line_item.8.line_item/quantity",
+      "confidence": 0.7919003963470459
+    },
+    {
+      "field": "Line_item.8.line_item/unit_price",
+      "confidence": 0.726552426815033
+    },
+    {
+      "field": "Line_item.8.line_item/amount",
+      "confidence": 0.8171770572662354
+    },
+    {
+      "field": "Line_item.9.line_item/description",
+      "confidence": 0.4221034049987793
+    },
+    {
+      "field": "Line_item.9.line_item/amount",
+      "confidence": 0.7041378617286682
+    }
+  ],
+  "receivedAt": "2024-12-18t02:18:39.632z",
+  "processedAt": "2024-12-18t02:18:39.632z",
+  "from": "",
+  "messageId": "",
+  "snippet": "",
+  "subject": "",
+  "emailDocId": ""
+}

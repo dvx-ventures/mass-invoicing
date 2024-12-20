@@ -9,6 +9,8 @@ import * as path from "path";
 import * as os from "os";
 import * as fs from "fs";
 import { v4 as uuidv4 } from "uuid";
+import { onRequest } from 'firebase-functions/v2/https';
+import { Invoice, SupplierRecord } from './types';
 
 // Initialize Firebase Admin
 admin.initializeApp();
@@ -25,6 +27,93 @@ const document_client = new DocumentProcessorServiceClient();
 
 // Initialize Secret Manager Client
 const client = new SecretManagerServiceClient();
+
+const numericKeys = new Set([
+  'net_amount',
+  'total_amount',
+  'total_tax_amount',
+  'quantity',
+  'unit_price',
+  'amount',
+  'freight_amount',
+  'subtotal',
+  'discount_amount',
+  'discount_rate',
+  'tax_amount',
+  'tax_rate',
+  'invoice_total',
+  'amount_due',
+  'previous_unpaid_amount',
+  'payment_amount',
+  'other_fees'
+]);
+
+function toCustomTitleCase(str: string): string {
+  const words = str.split(' ');
+  return words.map(word => {
+    // If the word is fully uppercase and length ≤ 2, keep it uppercase
+    if (word === word.toUpperCase() && word.length <= 2) {
+      return word;
+    }
+    // Otherwise, standard title case: first letter uppercase, rest lowercase
+    return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+  }).join(' ');
+}
+
+function parseNumeric(str: string): number | null {
+  // Remove commas and attempt to parse as float
+  const withoutCommas = str.replace(/,/g, '');
+  const parsed = parseFloat(withoutCommas);
+  if (!isNaN(parsed)) {
+    return parsed;
+  }
+  return null; // Return null if not a valid number
+}
+
+function cleanString(str: string, key: string | null): string | number {
+  // Replace newline characters with space
+  let cleaned = str.replace(/\n/g, ' ');
+  // Reduce multiple whitespace sequences to a single space
+  cleaned = cleaned.replace(/\s+/g, ' ');
+  cleaned = cleaned.trim();
+
+  if (key) {
+    // Extract the last part of the key after any slash
+    const lastKeyPart = key.includes('/') ? key.split('/').pop() : key;
+    if (lastKeyPart && numericKeys.has(lastKeyPart)) {
+      const numericValue = parseNumeric(cleaned);
+      if (numericValue !== null) {
+        return numericValue;
+      }
+    }
+  }
+
+  const isAllLower = cleaned === cleaned.toLowerCase();
+  const isAllUpper = cleaned === cleaned.toUpperCase();
+
+  if (isAllLower || isAllUpper) {
+    cleaned = toCustomTitleCase(cleaned);
+  }
+
+  return cleaned;
+}
+
+function processJsonValue(value: any, key: string | null = null): any {
+  if (typeof value === 'string') {
+    return cleanString(value, key);
+  } else if (Array.isArray(value)) {
+    return value.map((v, i) => processJsonValue(v, null));
+  } else if (value && typeof value === 'object') {
+    const newObj: Record<string, any> = {};
+    for (const [k, v] of Object.entries(value)) {
+      // Pass the key along to check if it's numeric
+      newObj[k] = processJsonValue(v, k);
+    }
+    return newObj;
+  }
+  // For numbers, booleans, null, leave as is.
+  return value;
+}
 
 // Function to access the secret
 async function getServiceAccount() {
@@ -51,6 +140,103 @@ async function getServiceAccount() {
   }
 }
 
+
+function normalizeSupplierName(name: string): string {
+  // Remove newline characters
+  name = name.replace(/\r?\n|\r/g, ' ');
+
+  // Basic normalization: lowercase, trim, remove punctuation
+  let normalized = name.toLowerCase().trim();
+  normalized = normalized.replace(/[^\w\s]/gi, ''); // remove punctuation
+  // Remove common suffixes
+  normalized = normalized.replace(/\b(llc|inc|co|company|corp|corporation)\b/gi, '').trim();
+
+  // Collapse multiple spaces into a single space
+  normalized = normalized.replace(/\s+/g, ' ');
+  console.log("supplier_name:",normalized);
+  return normalized;
+}
+
+
+function convertEmptyFieldsToEmptyString<T extends Record<string, any>>(obj: T): T {
+  const newObj: Record<string, any> = {};
+  for (const key in obj) {
+    if (obj[key] === undefined || obj[key] === null) {
+      newObj[key] = "";
+    } else {
+      newObj[key] = obj[key];
+    }
+  }
+  return newObj as T;
+}
+
+export const buildSupplierList = onRequest({ timeoutSeconds: 540 }, async (req, res) => {
+  const db = admin.firestore();
+  // 1. Fetch all invoices from the 'invoice' collection
+  const invoicesSnap = await db.collection('invoice').get();
+  const invoices: Invoice[] = invoicesSnap.docs.map(doc => ({ id: doc.id, ...doc.data() })) as Invoice[];
+
+  // 2. Build a map to deduplicate suppliers
+  const supplierMap: { [key: string]: SupplierRecord } = {};
+
+  for (const invoice of invoices) {
+    if (!invoice.supplier_name) continue;
+
+    const normalizedName = normalizeSupplierName(invoice.supplier_name);
+    /*const normalizedAddress = invoice.supplier_address
+      ? invoice.supplier_address.toLowerCase().trim()
+      : 'unknown_address';*/
+
+    const supplierKey = normalizedName;
+
+    if (!supplierMap[supplierKey]) {
+      supplierMap[supplierKey] = {
+        supplier_name: invoice.supplier_name,
+        createdAt: admin.firestore.Timestamp.now(),
+        invoice_ids: [invoice.id],
+        matched_names: [invoice.supplier_name],
+        supplier_address: invoice.supplier_address,
+        supplier_email: invoice.supplier_email,
+        supplier_phone: invoice.supplier_phone
+      };
+    } else {
+      const supplierRecord = supplierMap[supplierKey];
+
+      if (!supplierRecord.invoice_ids.includes(invoice.id)) {
+        supplierRecord.invoice_ids.push(invoice.id);
+      }
+
+      if (!supplierRecord.matched_names.includes(invoice.supplier_name)) {
+        supplierRecord.matched_names.push(invoice.supplier_name);
+      }
+
+      if (!supplierRecord.supplier_address && invoice.supplier_address) {
+        supplierRecord.supplier_address = invoice.supplier_address;
+      }
+      if (!supplierRecord.supplier_email && invoice.supplier_email) {
+        supplierRecord.supplier_email = invoice.supplier_email;
+      }
+      if (!supplierRecord.supplier_phone && invoice.supplier_phone) {
+        supplierRecord.supplier_phone = invoice.supplier_phone;
+      }
+    }
+  }
+
+  // 3. Write results to Firestore into 'supplier' collection
+  const batch = db.batch();
+  const suppliersRef = db.collection('supplier');
+
+  Object.values(supplierMap).forEach(supplier => {
+    const cleanedSupplier = convertEmptyFieldsToEmptyString(supplier);
+    const docRef = suppliersRef.doc();
+    batch.set(docRef, cleanedSupplier);
+  });
+
+  await batch.commit();
+
+  res.status(200).json({ message: 'Supplier canonical list has been built/updated successfully.' });
+});
+
 export const processInvoice = onDocumentCreated(
   {
     document: "email/{docId}",
@@ -69,9 +255,13 @@ export const processInvoice = onDocumentCreated(
       return;
     }
 
-    // Assuming we only process the first attachment or a specific one known to be the invoice
     const attachment = data.attachments[0];
     const fileUrl = attachment.url;
+
+    if (attachment.mimeType !== "application/pdf") {
+      console.log(`Attachment is not a PDF, skipping invoice processing for docId: ${docId}.`);
+      return;
+    }
 
     if (!fileUrl) {
       console.error(`No attachment URL found for docId: ${docId}`);
@@ -81,7 +271,8 @@ export const processInvoice = onDocumentCreated(
     console.log(`Processing invoice for docId: ${docId} from URL: ${fileUrl}`);
 
     try {
-      const tempFilePath = path.join(os.tmpdir(), uuidv4() + path.extname(fileUrl));
+      const ext = ".pdf";
+      const tempFilePath = path.join(os.tmpdir(), uuidv4() + ext);
 
       const fetch = await import("node-fetch");
       const response = await fetch.default(fileUrl);
@@ -95,8 +286,7 @@ export const processInvoice = onDocumentCreated(
       console.log(`Downloaded attachment to ${tempFilePath}`);
 
       const name = `projects/${projectId}/locations/${location}/processors/${processorId}`;
-      
-      // Correctly structure the request object
+
       const request = {
         name: name,
         rawDocument: {
@@ -106,10 +296,8 @@ export const processInvoice = onDocumentCreated(
       };
 
       console.log("Sending document to Document AI for invoice parsing...");
-      
-      // Use the correctly structured request
-      const [result] = await document_client.processDocument(request);
 
+      const [result] = await document_client.processDocument(request);
       console.log("Document AI processing complete.");
 
       const parsedDocument = result.document;
@@ -119,24 +307,64 @@ export const processInvoice = onDocumentCreated(
       }
 
       const invoiceFields: Record<string, any> = {};
+      const line_items: any[] = [];
+      const fieldsConfidence: { field: string; confidence: number }[] = [];
 
       if (parsedDocument.entities) {
+        let lineItemIndex = 0;
         for (const entity of parsedDocument.entities) {
-          if (entity.type && entity.mentionText) {
+          if (entity.type === "line_item") {
+            const lineItem: Record<string, any> = {};
+            if (entity.properties) {
+              for (const prop of entity.properties) {
+                if (prop.type && prop.mentionText) {
+                  lineItem[prop.type] = prop.mentionText;
+                  fieldsConfidence.push({
+                    field: `line_item.${lineItemIndex}.${prop.type}`,
+                    confidence: prop.confidence ?? 0,
+                  });
+                }
+              }
+            }
+            line_items.push(lineItem);
+            lineItemIndex++;
+          } else if (entity.type && entity.mentionText) {
             invoiceFields[entity.type] = entity.mentionText;
+            fieldsConfidence.push({
+              field: entity.type,
+              confidence: entity.confidence ?? 0,
+            });
           }
         }
       }
 
       console.log("Extracted invoice fields:", invoiceFields);
+      console.log("Extracted line_items:", line_items);
+      console.log("Fields confidence mapping:", fieldsConfidence);
 
-      const invoiceDoc = {
+      let invoiceDoc = {
         emailDocId: docId,
         processedAt: admin.firestore.FieldValue.serverTimestamp(),
-        invoiceData: invoiceFields,
+        url: fileUrl, // Renamed from attachmentUrl to url
+        file_name: attachment.filename, // New field: file name of the attachment
+        folder_name: "attachments", // New field: hard-coded value
+        labels: [], // New field: empty array
+        organizationId: "00000001", // New field: hard-coded value
+
+        ...invoiceFields,
+        line_items,
+        fieldsConfidence,
+
+        // Include fields from the original email document
+        from: data.from,
+        messageId: data.messageId,
+        receivedAt: data.receivedAt,
+        snippet: data.snippet,
+        subject: data.subject,
       };
 
-      await firestore.collection("invoices").add(invoiceDoc);
+      invoiceDoc = processJsonValue(invoiceDoc);
+      await firestore.collection("invoice").add(invoiceDoc);
       console.log(`Saved parsed invoice data to "invoices" collection for docId: ${docId}`);
 
       // Cleanup temp file
@@ -148,13 +376,15 @@ export const processInvoice = onDocumentCreated(
   }
 );
 
+
+
 export const readInvoiceEmail = onSchedule(
   {
     schedule: "every 5 minutes",
   },
   async (event) => {
     console.log("readInvoiceEmail function triggered by scheduler.");
-    console.log("test 3");
+    console.log("test 4");
     try {
       console.log("Starting to retrieve service account credentials.");
       const serviceAccount = await getServiceAccount();

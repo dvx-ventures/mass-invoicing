@@ -1,0 +1,70 @@
+{
+  "invoice_id": "262653372",
+  "invoice_date": "4/29/2024",
+  "total_amount": "128.99",
+  "currency": "$",
+  "invoice_type": "",
+  "remit_to_address": "1001 CANAL BLVD STE C-2 RICHMOND, CA 94804-3533",
+  "supplier_name": "Orkin",
+  "supplier_address": "PO BOX 740300\nCINCINNATI, OH 45274-0300",
+  "supplier_phone": "(866) 580-1813",
+  "line_items": [
+    {
+      "line_item/description": "Mosquito Seasonal - PC Standard",
+      "line_item/amount": "128.99"
+    }
+  ],
+  "fieldsConfidence": [
+    {
+      "field": "invoice_id",
+      "confidence": 0.9649105668067932
+    },
+    {
+      "field": "invoice_date",
+      "confidence": 0.961256206035614
+    },
+    {
+      "field": "total_amount",
+      "confidence": 0.7900176644325256
+    },
+    {
+      "field": "currency",
+      "confidence": 0.585066556930542
+    },
+    {
+      "field": "invoice_type",
+      "confidence": 0.48066744208335876
+    },
+    {
+      "field": "remit_to_address",
+      "confidence": 0.4710674285888672
+    },
+    {
+      "field": "supplier_name",
+      "confidence": 0.4568164050579071
+    },
+    {
+      "field": "supplier_address",
+      "confidence": 0.4342750012874603
+    },
+    {
+      "field": "supplier_phone",
+      "confidence": 0.32780393958091736
+    },
+    {
+      "field": "line_item.0.line_item/description",
+      "confidence": 0.6086206436157227
+    },
+    {
+      "field": "line_item.0.line_item/amount",
+      "confidence": 0.6815950870513916
+    }
+  ],
+  "receivedAt": "2024-12-18T02:18:39.790Z",
+  "processedAt": "2024-12-18T02:18:39.790Z",
+  "from": "",
+  "messageId": "",
+  "snippet": "",
+  "subject": "",
+  "emailDocId": ""
+}

@@ -1,0 +1,75 @@
+{
+  "total_amount": 101.92,
+  "total_tax_amount": 0,
+  "supplier_name": "Ja-roy Pest Control",
+  "invoice_type": "",
+  "supplier_address": "PO Box 740608 Cincinnati, OH 45274-0608",
+  "invoice_id": "57683383",
+  "supplier_phone": "985-892-6882",
+  "due_date": "2/19/2024",
+  "receiver_phone": "504-517-4677",
+  "remit_to_name": "Urban South Brewery",
+  "line_items": [
+    {
+      "line_item/description": "Rodent Control Only Maintenance",
+      "line_item/amount": 101.92
+    }
+  ],
+  "fieldsConfidence": [
+    {
+      "field": "Total_amount",
+      "confidence": 0.9240481853485107
+    },
+    {
+      "field": "Total_tax_amount",
+      "confidence": 0.7998903393745422
+    },
+    {
+      "field": "Supplier_name",
+      "confidence": 0.5267026424407959
+    },
+    {
+      "field": "Invoice_type",
+      "confidence": 0.5040380358695984
+    },
+    {
+      "field": "Supplier_address",
+      "confidence": 0.4075024425983429
+    },
+    {
+      "field": "Invoice_id",
+      "confidence": 0.3042547106742859
+    },
+    {
+      "field": "Supplier_phone",
+      "confidence": 0.3045607805252075
+    },
+    {
+      "field": "Due_date",
+      "confidence": 0.26947084069252014
+    },
+    {
+      "field": "Receiver_phone",
+      "confidence": 0.21566304564476013
+    },
+    {
+      "field": "Remit_to_name",
+      "confidence": 0.18240374326705933
+    },
+    {
+      "field": "Line_item.0.line_item/description",
+      "confidence": 0.5659423470497131
+    },
+    {
+      "field": "Line_item.0.line_item/amount",
+      "confidence": 0.855218231678009
+    }
+  ],
+  "receivedAt": "2024-12-18t02:18:39.788z",
+  "processedAt": "2024-12-18t02:18:39.788z",
+  "from": "",
+  "messageId": "",
+  "snippet": "",
+  "subject": "",
+  "emailDocId": ""
+}

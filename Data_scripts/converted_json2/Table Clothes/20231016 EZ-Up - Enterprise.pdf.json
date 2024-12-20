@@ -1,0 +1,144 @@
+{
+  "net_amount": 125,
+  "total_tax_amount": 10.78,
+  "total_amount": 148.76,
+  "supplier_email": "Kenbuchholz@ezup.com",
+  "invoice_date": "10/10/23",
+  "ship_to_name": "Enterprise Brewing Company",
+  "freight_amount": 12.98,
+  "supplier_phone": "(951) 779-2356",
+  "carrier": "FedEx",
+  "supplier_address": "1150 Howard Street San Francisco, CA 94103",
+  "ship_to_address": "1150 Howard Street Attn: Cam McDonald San Francisco, CA 94103",
+  "supplier_name": "Enterprise Brewing Company",
+  "invoice_type": "",
+  "remit_to_name": "International E-Z UP, Inc.",
+  "line_items": [
+    {
+      "line_item/quantity": 1,
+      "line_item/product_code": "Tt06fbd",
+      "line_item/unit_price": 125,
+      "line_item/amount": 125,
+      "line_item/description": "6' Table Throw, FBD 2.5'x6'x28.5\" (0.8m x 1.8m) [fits 29\" (74mm) heigh"
+    },
+    {
+      "line_item/quantity": 1,
+      "line_item/product_code": "Gss5specialcp",
+      "line_item/description": "Free 5 Day Rush",
+      "line_item/unit_price": 0.01,
+      "line_item/amount": 0.01
+    },
+    {
+      "line_item/amount": 0.01
+    }
+  ],
+  "fieldsConfidence": [
+    {
+      "field": "Net_amount",
+      "confidence": 0.960407018661499
+    },
+    {
+      "field": "Total_tax_amount",
+      "confidence": 0.9524843692779541
+    },
+    {
+      "field": "Total_amount",
+      "confidence": 0.9166359901428223
+    },
+    {
+      "field": "Supplier_email",
+      "confidence": 0.6357861757278442
+    },
+    {
+      "field": "Invoice_date",
+      "confidence": 0.6329001784324646
+    },
+    {
+      "field": "Ship_to_name",
+      "confidence": 0.6251669526100159
+    },
+    {
+      "field": "Freight_amount",
+      "confidence": 0.5950941443443298
+    },
+    {
+      "field": "Supplier_phone",
+      "confidence": 0.5006803274154663
+    },
+    {
+      "field": "Carrier",
+      "confidence": 0.44186046719551086
+    },
+    {
+      "field": "Supplier_address",
+      "confidence": 0.4168563187122345
+    },
+    {
+      "field": "Ship_to_address",
+      "confidence": 0.3418038785457611
+    },
+    {
+      "field": "Supplier_name",
+      "confidence": 0.29818862676620483
+    },
+    {
+      "field": "Invoice_type",
+      "confidence": 0.2289755642414093
+    },
+    {
+      "field": "Remit_to_name",
+      "confidence": 0.0714598298072815
+    },
+    {
+      "field": "Line_item.0.line_item/quantity",
+      "confidence": 0.6628543138504028
+    },
+    {
+      "field": "Line_item.0.line_item/product_code",
+      "confidence": 0.7007421255111694
+    },
+    {
+      "field": "Line_item.0.line_item/unit_price",
+      "confidence": 0.9008312821388245
+    },
+    {
+      "field": "Line_item.0.line_item/amount",
+      "confidence": 0.861592173576355
+    },
+    {
+      "field": "Line_item.0.line_item/description",
+      "confidence": 0.4874875247478485
+    },
+    {
+      "field": "Line_item.1.line_item/quantity",
+      "confidence": 0.6778962016105652
+    },
+    {
+      "field": "Line_item.1.line_item/product_code",
+      "confidence": 0.7487134337425232
+    },
+    {
+      "field": "Line_item.1.line_item/description",
+      "confidence": 0.5152559280395508
+    },
+    {
+      "field": "Line_item.1.line_item/unit_price",
+      "confidence": 0.8773266077041626
+    },
+    {
+      "field": "Line_item.1.line_item/amount",
+      "confidence": 0.7327892184257507
+    },
+    {
+      "field": "Line_item.2.line_item/amount",
+      "confidence": 0.12526945769786835
+    }
+  ],
+  "receivedAt": "2024-12-18t02:18:39.799z",
+  "processedAt": "2024-12-18t02:18:39.799z",
+  "from": "",
+  "messageId": "",
+  "snippet": "",
+  "subject": "",
+  "emailDocId": ""
+}

@@ -1,0 +1,263 @@
+{
+  "invoice_date": "5/22/2024",
+  "due_date": "5/22/2024",
+  "total_amount": "6,196.11",
+  "invoice_id": "INV-0749303",
+  "total_tax_amount": "0.00",
+  "net_amount": "5,923.61",
+  "currency": "USD",
+  "receiver_name": "Helltown Brewing",
+  "invoice_type": "",
+  "ship_to_address": "5578 Old William Penn Hwy\nExport, PA 15632-9303\nUSA",
+  "ship_to_name": "Helltown Brewing",
+  "remit_to_name": "BSG",
+  "supplier_name": "Brewers Supply Group",
+  "supplier_email": "accounts receivable@bsgcraft.com",
+  "freight_amount": "260.00",
+  "carrier": "FedEx",
+  "supplier_address": "PO Box 74769\nChicago, IL 60694-4769\nUSA",
+  "supplier_phone": "1-800-374-2739",
+  "remit_to_address": "PO Box 74769\nChicago, IL 60694-4769\nUSA",
+  "line_items": [
+    {
+      "line_item/quantity": "8.0000",
+      "line_item/unit": "No",
+      "line_item/unit_price": "140.25",
+      "line_item/amount": "1,122.00",
+      "line_item/description": "Amarillo Ⓡ11 lb\n2023S\nQuantity: 8 Style : 2023S"
+    },
+    {
+      "line_item/product_code": "HELD0011",
+      "line_item/quantity": "11 lb",
+      "line_item/unit": "No",
+      "line_item/unit_price": "109.89",
+      "line_item/amount": "1,318.68",
+      "line_item/description": "El Dorado 11 lb\n2023S\nQuantity: 12 Style : 2023S"
+    },
+    {
+      "line_item/product_code": "HIDA0011",
+      "line_item/quantity": "12 Style : 2022S",
+      "line_item/unit": "No",
+      "line_item/unit_price": "109.89",
+      "line_item/amount": "1,318.68",
+      "line_item/description": "Idaho 7TM 11 lb\n2022S\nQuantity: 12 Style : 2022S"
+    },
+    {
+      "line_item/description": "MotuekaTM 11 lb\n2023S\nQuantity: 1 Style : 2023S",
+      "line_item/quantity": "1.0000",
+      "line_item/product_code": "HMOT0011",
+      "line_item/unit": "No",
+      "line_item/unit_price": "120.89",
+      "line_item/amount": "120.89"
+    },
+    {
+      "line_item/description": "Sabro 11 lb/5 kg~D\n2022C\nQuantity: 12 Style : 2022C",
+      "line_item/quantity": "12.0000",
+      "line_item/product_code": "HSAB0011",
+      "line_item/unit": "No",
+      "line_item/unit_price": "170.28",
+      "line_item/amount": "2,043.36"
+    }
+  ],
+  "fieldsConfidence": [
+    {
+      "field": "invoice_date",
+      "confidence": 0.9797571301460266
+    },
+    {
+      "field": "due_date",
+      "confidence": 0.9593522548675537
+    },
+    {
+      "field": "total_amount",
+      "confidence": 0.9461377263069153
+    },
+    {
+      "field": "invoice_id",
+      "confidence": 0.9246082901954651
+    },
+    {
+      "field": "total_tax_amount",
+      "confidence": 0.919067919254303
+    },
+    {
+      "field": "net_amount",
+      "confidence": 0.911872386932373
+    },
+    {
+      "field": "currency",
+      "confidence": 0.8993937373161316
+    },
+    {
+      "field": "receiver_name",
+      "confidence": 0.7892557382583618
+    },
+    {
+      "field": "invoice_type",
+      "confidence": 0.7772772908210754
+    },
+    {
+      "field": "ship_to_address",
+      "confidence": 0.7045949697494507
+    },
+    {
+      "field": "ship_to_name",
+      "confidence": 0.7054300308227539
+    },
+    {
+      "field": "remit_to_name",
+      "confidence": 0.6945117115974426
+    },
+    {
+      "field": "supplier_name",
+      "confidence": 0.5721566677093506
+    },
+    {
+      "field": "supplier_email",
+      "confidence": 0.5699525475502014
+    },
+    {
+      "field": "freight_amount",
+      "confidence": 0.5636022090911865
+    },
+    {
+      "field": "carrier",
+      "confidence": 0.44186046719551086
+    },
+    {
+      "field": "supplier_address",
+      "confidence": 0.35408321022987366
+    },
+    {
+      "field": "supplier_phone",
+      "confidence": 0.28466370701789856
+    },
+    {
+      "field": "remit_to_address",
+      "confidence": 0.201030895113945
+    },
+    {
+      "field": "line_item.0.line_item/quantity",
+      "confidence": 0.9284990429878235
+    },
+    {
+      "field": "line_item.0.line_item/unit",
+      "confidence": 0.407827228307724
+    },
+    {
+      "field": "line_item.0.line_item/unit_price",
+      "confidence": 0.8858980536460876
+    },
+    {
+      "field": "line_item.0.line_item/amount",
+      "confidence": 0.8844025731086731
+    },
+    {
+      "field": "line_item.0.line_item/description",
+      "confidence": 0.6673558950424194
+    },
+    {
+      "field": "line_item.1.line_item/product_code",
+      "confidence": 0.5174845457077026
+    },
+    {
+      "field": "line_item.1.line_item/quantity",
+      "confidence": 0.10215629637241364
+    },
+    {
+      "field": "line_item.1.line_item/unit",
+      "confidence": 0.5433734655380249
+    },
+    {
+      "field": "line_item.1.line_item/unit_price",
+      "confidence": 0.8832278251647949
+    },
+    {
+      "field": "line_item.1.line_item/amount",
+      "confidence": 0.8582570552825928
+    },
+    {
+      "field": "line_item.1.line_item/description",
+      "confidence": 0.5195666551589966
+    },
+    {
+      "field": "line_item.2.line_item/product_code",
+      "confidence": 0.7648604512214661
+    },
+    {
+      "field": "line_item.2.line_item/quantity",
+      "confidence": 0.1335594207048416
+    },
+    {
+      "field": "line_item.2.line_item/unit",
+      "confidence": 0.5503246784210205
+    },
+    {
+      "field": "line_item.2.line_item/unit_price",
+      "confidence": 0.8959822654724121
+    },
+    {
+      "field": "line_item.2.line_item/amount",
+      "confidence": 0.8546361327171326
+    },
+    {
+      "field": "line_item.2.line_item/description",
+      "confidence": 0.5125433206558228
+    },
+    {
+      "field": "line_item.3.line_item/description",
+      "confidence": 0.5382243990898132
+    },
+    {
+      "field": "line_item.3.line_item/quantity",
+      "confidence": 0.20761868357658386
+    },
+    {
+      "field": "line_item.3.line_item/product_code",
+      "confidence": 0.4068508446216583
+    },
+    {
+      "field": "line_item.3.line_item/unit",
+      "confidence": 0.39544475078582764
+    },
+    {
+      "field": "line_item.3.line_item/unit_price",
+      "confidence": 0.6840454936027527
+    },
+    {
+      "field": "line_item.3.line_item/amount",
+      "confidence": 0.8514233827590942
+    },
+    {
+      "field": "line_item.4.line_item/description",
+      "confidence": 0.521393358707428
+    },
+    {
+      "field": "line_item.4.line_item/quantity",
+      "confidence": 0.10407494753599167
+    },
+    {
+      "field": "line_item.4.line_item/product_code",
+      "confidence": 0.6619589924812317
+    },
+    {
+      "field": "line_item.4.line_item/unit",
+      "confidence": 0.34634435176849365
+    },
+    {
+      "field": "line_item.4.line_item/unit_price",
+      "confidence": 0.6758343577384949
+    },
+    {
+      "field": "line_item.4.line_item/amount",
+      "confidence": 0.8261640071868896
+    }
+  ],
+  "receivedAt": "2024-12-18T02:18:39.470Z",
+  "processedAt": "2024-12-18T02:18:39.470Z",
+  "from": "",
+  "messageId": "",
+  "snippet": "",
+  "subject": "",
+  "emailDocId": ""
+}

@@ -1,0 +1,159 @@
+{
+  "net_amount": "1,008.61",
+  "due_date": "6/17/2023",
+  "invoice_date": "5/18/2023",
+  "total_tax_amount": "0.00",
+  "invoice_id": "74913",
+  "ship_to_address": "2415 NH Route 16\nWest Ossipee, NH 03890",
+  "receiver_name": "Hobbs Tavern and Brewing Company",
+  "ship_to_name": "Hobbs Brewing Company",
+  "supplier_name": "Avery Products Corporation",
+  "supplier_address": "12 Technology Drive\nNorth Chelmsford, MA 01863",
+  "total_amount": "1,008.61",
+  "invoice_type": "",
+  "payment_terms": "Net 30",
+  "carrier": "UPS",
+  "receiver_address": "765 NH 16\nOssipee, NH 03864",
+  "line_items": [
+    {
+      "line_item/description": "Lake Life 16oz",
+      "line_item/unit_price": "0.090000",
+      "line_item/amount": "540.00",
+      "line_item/quantity": "6,000.00"
+    },
+    {
+      "line_item/description": "Hobbs Lite 16oz",
+      "line_item/quantity": "5,000.00",
+      "line_item/unit_price": "0.090000",
+      "line_item/amount": "450.00"
+    },
+    {
+      "line_item/quantity": "1.00",
+      "line_item/product_code": "Shipping",
+      "line_item/description": "UPS Ground",
+      "line_item/unit_price": "18.610000",
+      "line_item/amount": "18.61"
+    }
+  ],
+  "fieldsConfidence": [
+    {
+      "field": "net_amount",
+      "confidence": 0.9845300912857056
+    },
+    {
+      "field": "due_date",
+      "confidence": 0.9709980487823486
+    },
+    {
+      "field": "invoice_date",
+      "confidence": 0.9628725647926331
+    },
+    {
+      "field": "total_tax_amount",
+      "confidence": 0.9390445947647095
+    },
+    {
+      "field": "invoice_id",
+      "confidence": 0.9350679516792297
+    },
+    {
+      "field": "ship_to_address",
+      "confidence": 0.9227825999259949
+    },
+    {
+      "field": "receiver_name",
+      "confidence": 0.7676916718482971
+    },
+    {
+      "field": "ship_to_name",
+      "confidence": 0.757411777973175
+    },
+    {
+      "field": "supplier_name",
+      "confidence": 0.6283168196678162
+    },
+    {
+      "field": "supplier_address",
+      "confidence": 0.6055140495300293
+    },
+    {
+      "field": "total_amount",
+      "confidence": 0.5323942303657532
+    },
+    {
+      "field": "invoice_type",
+      "confidence": 0.5136492252349854
+    },
+    {
+      "field": "payment_terms",
+      "confidence": 0.4610796272754669
+    },
+    {
+      "field": "carrier",
+      "confidence": 0.44186046719551086
+    },
+    {
+      "field": "receiver_address",
+      "confidence": 0.362193763256073
+    },
+    {
+      "field": "line_item.0.line_item/description",
+      "confidence": 0.5900523066520691
+    },
+    {
+      "field": "line_item.0.line_item/unit_price",
+      "confidence": 0.9336119294166565
+    },
+    {
+      "field": "line_item.0.line_item/amount",
+      "confidence": 0.8874523639678955
+    },
+    {
+      "field": "line_item.0.line_item/quantity",
+      "confidence": 0.9676123857498169
+    },
+    {
+      "field": "line_item.1.line_item/description",
+      "confidence": 0.5786298513412476
+    },
+    {
+      "field": "line_item.1.line_item/quantity",
+      "confidence": 0.960189700126648
+    },
+    {
+      "field": "line_item.1.line_item/unit_price",
+      "confidence": 0.9250379800796509
+    },
+    {
+      "field": "line_item.1.line_item/amount",
+      "confidence": 0.891387939453125
+    },
+    {
+      "field": "line_item.2.line_item/quantity",
+      "confidence": 0.9422520399093628
+    },
+    {
+      "field": "line_item.2.line_item/product_code",
+      "confidence": 0.45768412947654724
+    },
+    {
+      "field": "line_item.2.line_item/description",
+      "confidence": 0.43854400515556335
+    },
+    {
+      "field": "line_item.2.line_item/unit_price",
+      "confidence": 0.9320139288902283
+    },
+    {
+      "field": "line_item.2.line_item/amount",
+      "confidence": 0.8896265029907227
+    }
+  ],
+  "receivedAt": "2024-12-18T02:18:39.671Z",
+  "processedAt": "2024-12-18T02:18:39.671Z",
+  "from": "",
+  "messageId": "",
+  "snippet": "",
+  "subject": "",
+  "emailDocId": ""
+}

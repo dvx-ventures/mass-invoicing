@@ -1,0 +1,122 @@
+{
+  "invoice_date": "May 13, 2023",
+  "net_amount": "318.00",
+  "invoice_type": "",
+  "invoice_id": "493525",
+  "total_amount": "318.00",
+  "due_date": "May 27, 2023",
+  "currency": "USD",
+  "supplier_address": "818 Cattail Lane NE, Leesburg, VA, 20176, USA.",
+  "remit_to_name": "Jasper Yeast",
+  "supplier_name": "Workhorse Brewing Company",
+  "supplier_email": "info@jasperyeast.com",
+  "receiver_name": "Workhorse Brewing Company",
+  "remit_to_address": "23600 Overland Drive #150\nSterling, VA 20166\nUSA",
+  "line_items": [
+    {
+      "line_item/quantity": "1.00",
+      "line_item/unit_price": "290.00",
+      "line_item/amount": "290.00",
+      "line_item/description": "5/8 Ship Date\n10 bbl JY214 Hefeweizen"
+    },
+    {
+      "line_item/description": "Shipping Overnight",
+      "line_item/quantity": "1.00",
+      "line_item/unit_price": "28.00",
+      "line_item/amount": "28.00"
+    }
+  ],
+  "fieldsConfidence": [
+    {
+      "field": "invoice_date",
+      "confidence": 0.9867929220199585
+    },
+    {
+      "field": "net_amount",
+      "confidence": 0.9752496480941772
+    },
+    {
+      "field": "invoice_type",
+      "confidence": 0.9718939661979675
+    },
+    {
+      "field": "invoice_id",
+      "confidence": 0.9579684734344482
+    },
+    {
+      "field": "total_amount",
+      "confidence": 0.9511752128601074
+    },
+    {
+      "field": "due_date",
+      "confidence": 0.9390150904655457
+    },
+    {
+      "field": "currency",
+      "confidence": 0.9105051159858704
+    },
+    {
+      "field": "supplier_address",
+      "confidence": 0.6658399701118469
+    },
+    {
+      "field": "remit_to_name",
+      "confidence": 0.6487528085708618
+    },
+    {
+      "field": "supplier_name",
+      "confidence": 0.5845150947570801
+    },
+    {
+      "field": "supplier_email",
+      "confidence": 0.569568932056427
+    },
+    {
+      "field": "receiver_name",
+      "confidence": 0.46674832701683044
+    },
+    {
+      "field": "remit_to_address",
+      "confidence": 0.30000126361846924
+    },
+    {
+      "field": "line_item.0.line_item/quantity",
+      "confidence": 0.9691428542137146
+    },
+    {
+      "field": "line_item.0.line_item/unit_price",
+      "confidence": 0.9237710237503052
+    },
+    {
+      "field": "line_item.0.line_item/amount",
+      "confidence": 0.884630560874939
+    },
+    {
+      "field": "line_item.0.line_item/description",
+      "confidence": 0.39496344327926636
+    },
+    {
+      "field": "line_item.1.line_item/description",
+      "confidence": 0.5217843651771545
+    },
+    {
+      "field": "line_item.1.line_item/quantity",
+      "confidence": 0.9625844359397888
+    },
+    {
+      "field": "line_item.1.line_item/unit_price",
+      "confidence": 0.9385812282562256
+    },
+    {
+      "field": "line_item.1.line_item/amount",
+      "confidence": 0.855501651763916
+    }
+  ],
+  "receivedAt": "2024-12-18T02:18:39.820Z",
+  "processedAt": "2024-12-18T02:18:39.820Z",
+  "from": "",
+  "messageId": "",
+  "snippet": "",
+  "subject": "",
+  "emailDocId": ""
+}

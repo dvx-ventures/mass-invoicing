@@ -1,0 +1,139 @@
+{
+  "invoice_date": "09/12/2023",
+  "total_amount": "1,131.40",
+  "total_tax_amount": "0.00",
+  "net_amount": "965.40",
+  "invoice_id": "INV-231850",
+  "ship_to_name": "Barrel and Beam, LLC\nNick VanCourt",
+  "supplier_address": "PO Box 6715\nTraverse City, MI 49696-6715",
+  "ship_to_address": "260 Northwoods Road\nMarquette, MI 49855",
+  "freight_amount": "166.00",
+  "receiver_name": "Barrel and Beam, LLC",
+  "supplier_phone": "866-770-7600",
+  "invoice_type": "",
+  "receiver_address": "260 Northwoods Road\nMarquette, MI 49855",
+  "supplier_name": "",
+  "line_items": [
+    {
+      "line_item/description": "UniKeg, 30 Liter, Double Walled",
+      "line_item/unit_price": "19.80",
+      "line_item/amount": "950.40",
+      "line_item/quantity": "48",
+      "line_item/unit": "EA"
+    },
+    {
+      "line_item/description": "Lightweight PET, 48 pc/PL"
+    },
+    {
+      "line_item/quantity": "1",
+      "line_item/unit": "EA",
+      "line_item/unit_price": "15.00",
+      "line_item/amount": "15.00"
+    }
+  ],
+  "fieldsConfidence": [
+    {
+      "field": "invoice_date",
+      "confidence": 0.9731953740119934
+    },
+    {
+      "field": "total_amount",
+      "confidence": 0.9534855484962463
+    },
+    {
+      "field": "total_tax_amount",
+      "confidence": 0.9534450769424438
+    },
+    {
+      "field": "net_amount",
+      "confidence": 0.9355477094650269
+    },
+    {
+      "field": "invoice_id",
+      "confidence": 0.9053143858909607
+    },
+    {
+      "field": "ship_to_name",
+      "confidence": 0.7401620745658875
+    },
+    {
+      "field": "supplier_address",
+      "confidence": 0.7075058817863464
+    },
+    {
+      "field": "ship_to_address",
+      "confidence": 0.6997822523117065
+    },
+    {
+      "field": "freight_amount",
+      "confidence": 0.6187576651573181
+    },
+    {
+      "field": "receiver_name",
+      "confidence": 0.515825092792511
+    },
+    {
+      "field": "supplier_phone",
+      "confidence": 0.4906291663646698
+    },
+    {
+      "field": "invoice_type",
+      "confidence": 0.38673290610313416
+    },
+    {
+      "field": "receiver_address",
+      "confidence": 0.29643240571022034
+    },
+    {
+      "field": "supplier_name",
+      "confidence": 0
+    },
+    {
+      "field": "line_item.0.line_item/description",
+      "confidence": 0.4916899800300598
+    },
+    {
+      "field": "line_item.0.line_item/unit_price",
+      "confidence": 0.925452470779419
+    },
+    {
+      "field": "line_item.0.line_item/amount",
+      "confidence": 0.8449780344963074
+    },
+    {
+      "field": "line_item.0.line_item/quantity",
+      "confidence": 0.39776477217674255
+    },
+    {
+      "field": "line_item.0.line_item/unit",
+      "confidence": 0.8803783059120178
+    },
+    {
+      "field": "line_item.1.line_item/description",
+      "confidence": 0.5790911316871643
+    },
+    {
+      "field": "line_item.2.line_item/quantity",
+      "confidence": 0.5533972978591919
+    },
+    {
+      "field": "line_item.2.line_item/unit",
+      "confidence": 0.8587495684623718
+    },
+    {
+      "field": "line_item.2.line_item/unit_price",
+      "confidence": 0.935472846031189
+    },
+    {
+      "field": "line_item.2.line_item/amount",
+      "confidence": 0.8668516278266907
+    }
+  ],
+  "receivedAt": "2024-12-18T02:18:39.664Z",
+  "processedAt": "2024-12-18T02:18:39.664Z",
+  "from": "",
+  "messageId": "",
+  "snippet": "",
+  "subject": "",
+  "emailDocId": ""
+}

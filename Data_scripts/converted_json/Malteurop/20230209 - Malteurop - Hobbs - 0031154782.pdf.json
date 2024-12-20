@@ -1,0 +1,142 @@
+{
+  "invoice_date": "02/09/2023",
+  "invoice_id": "31154782",
+  "currency": "USD",
+  "payment_terms": "30 days from B/L",
+  "total_amount": "721.60",
+  "supplier_address": "2800 Great Bear Avenue\nGreat Falls, MT 59404",
+  "receiver_name": "HOBBS BREWING COMPANY LLC",
+  "ship_to_address": "765 NH-16\nOSSIPEE NH 03864\nUSA",
+  "ship_to_name": "HOBBS BREWING COMPANY LLC",
+  "supplier_name": "Winona Malting Plant",
+  "supplier_email": "customersuccess@malteurop.com",
+  "receiver_address": "765 NH-16\nOSSIPEE NH 03864\nUSA",
+  "remit_to_address": "6737 W. WASHINGTON ST. SUITE 4204, MILWAUKEE, WI 53214",
+  "supplier_phone": "+1 406 727 5838",
+  "invoice_type": "",
+  "purchase_order": "789821",
+  "supplier_website": "malteurop.com",
+  "line_items": [
+    {
+      "line_item/quantity": "440.000",
+      "line_item/unit_price": "0.65",
+      "line_item/amount": "286.00",
+      "line_item/description": "BAG PILSEN MALT"
+    },
+    {
+      "line_item/description": "BAG CRAFT 2RS MALT\n8000723466",
+      "line_item/quantity": "660.000",
+      "line_item/unit_price": "0.66",
+      "line_item/amount": "435.60"
+    }
+  ],
+  "fieldsConfidence": [
+    {
+      "field": "invoice_date",
+      "confidence": 0.9820007085800171
+    },
+    {
+      "field": "invoice_id",
+      "confidence": 0.9471129775047302
+    },
+    {
+      "field": "currency",
+      "confidence": 0.8796505928039551
+    },
+    {
+      "field": "payment_terms",
+      "confidence": 0.8503284454345703
+    },
+    {
+      "field": "total_amount",
+      "confidence": 0.8087095618247986
+    },
+    {
+      "field": "supplier_address",
+      "confidence": 0.7951370477676392
+    },
+    {
+      "field": "receiver_name",
+      "confidence": 0.767562747001648
+    },
+    {
+      "field": "ship_to_address",
+      "confidence": 0.716202437877655
+    },
+    {
+      "field": "ship_to_name",
+      "confidence": 0.6444005966186523
+    },
+    {
+      "field": "supplier_name",
+      "confidence": 0.6451290845870972
+    },
+    {
+      "field": "supplier_email",
+      "confidence": 0.6314170956611633
+    },
+    {
+      "field": "receiver_address",
+      "confidence": 0.538814902305603
+    },
+    {
+      "field": "remit_to_address",
+      "confidence": 0.48469021916389465
+    },
+    {
+      "field": "supplier_phone",
+      "confidence": 0.48366105556488037
+    },
+    {
+      "field": "invoice_type",
+      "confidence": 0.4609719514846802
+    },
+    {
+      "field": "purchase_order",
+      "confidence": 0.35840359330177307
+    },
+    {
+      "field": "supplier_website",
+      "confidence": 0.188012957572937
+    },
+    {
+      "field": "line_item.0.line_item/quantity",
+      "confidence": 0.8578629493713379
+    },
+    {
+      "field": "line_item.0.line_item/unit_price",
+      "confidence": 0.8023608326911926
+    },
+    {
+      "field": "line_item.0.line_item/amount",
+      "confidence": 0.7960760593414307
+    },
+    {
+      "field": "line_item.0.line_item/description",
+      "confidence": 0.6002326607704163
+    },
+    {
+      "field": "line_item.1.line_item/description",
+      "confidence": 0.6647845506668091
+    },
+    {
+      "field": "line_item.1.line_item/quantity",
+      "confidence": 0.879715085029602
+    },
+    {
+      "field": "line_item.1.line_item/unit_price",
+      "confidence": 0.8362172245979309
+    },
+    {
+      "field": "line_item.1.line_item/amount",
+      "confidence": 0.8249968886375427
+    }
+  ],
+  "receivedAt": "2024-12-18T02:18:39.731Z",
+  "processedAt": "2024-12-18T02:18:39.731Z",
+  "from": "",
+  "messageId": "",
+  "snippet": "",
+  "subject": "",
+  "emailDocId": ""
+}

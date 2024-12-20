@@ -1,0 +1,269 @@
+{
+  "invoice_date": "January 12, 2024",
+  "payment_terms": "30 Days After Receipt Of Invoice",
+  "ship_to_address": "114 W Spring ST Marquette, MI 49855 Usa",
+  "purchase_order": "Dp153930w",
+  "supplier_name": "S.S. Steiner, Inc. - USA Offices",
+  "ship_to_name": "Ore Dock Brewing CO",
+  "receiver_name": "Ore Dock Brewing CO",
+  "supplier_address": "New York 725 5th Ave. New York, NY 10022",
+  "receiver_address": "114 W Spring ST Marquette, MI 49855 Usa",
+  "invoice_type": "",
+  "invoice_id": "Wct 151078",
+  "line_items": [
+    {
+      "line_item/quantity": 22,
+      "line_item/unit_price": 18.25,
+      "line_item/unit": "Lbs",
+      "line_item/amount": 401.5
+    },
+    {
+      "line_item/quantity": 11.65,
+      "line_item/unit": "Lbs",
+      "line_item/amount": 256.3
+    },
+    {
+      "line_item/quantity": 22,
+      "line_item/unit_price": 12.35,
+      "line_item/unit": "Lbs",
+      "line_item/amount": 271.7
+    },
+    {
+      "line_item/quantity": 44,
+      "line_item/unit_price": 8.6,
+      "line_item/unit": "Lbs",
+      "line_item/amount": 378.4
+    },
+    {
+      "line_item/quantity": 11,
+      "line_item/unit": "Lbs",
+      "line_item/amount": 484
+    },
+    {
+      "line_item/quantity": 10.25,
+      "line_item/unit": "Lbs",
+      "line_item/amount": 451
+    },
+    {
+      "line_item/quantity": 10.75,
+      "line_item/unit": "Lbs",
+      "line_item/amount": 473
+    },
+    {
+      "line_item/quantity": 11.15,
+      "line_item/unit": "Lbs",
+      "line_item/amount": 490.6
+    },
+    {
+      "line_item/quantity": "Ibs",
+      "line_item/amount": 968
+    },
+    {
+      "line_item/quantity": 9.75,
+      "line_item/unit": "Lbs",
+      "line_item/amount": 2145
+    },
+    {
+      "line_item/amount": 615.67
+    },
+    {
+      "line_item/amount": 6935.17
+    },
+    {
+      "line_item/unit_price": 509.453
+    }
+  ],
+  "fieldsConfidence": [
+    {
+      "field": "Invoice_date",
+      "confidence": 0.9153152108192444
+    },
+    {
+      "field": "Payment_terms",
+      "confidence": 0.742685079574585
+    },
+    {
+      "field": "Ship_to_address",
+      "confidence": 0.6822699308395386
+    },
+    {
+      "field": "Purchase_order",
+      "confidence": 0.5807695984840393
+    },
+    {
+      "field": "Supplier_name",
+      "confidence": 0.5521122813224792
+    },
+    {
+      "field": "Ship_to_name",
+      "confidence": 0.47376197576522827
+    },
+    {
+      "field": "Receiver_name",
+      "confidence": 0.3807727098464966
+    },
+    {
+      "field": "Supplier_address",
+      "confidence": 0.36333897709846497
+    },
+    {
+      "field": "Receiver_address",
+      "confidence": 0.3410741984844208
+    },
+    {
+      "field": "Invoice_type",
+      "confidence": 0.2968723177909851
+    },
+    {
+      "field": "Invoice_id",
+      "confidence": 0.2777792513370514
+    },
+    {
+      "field": "Line_item.0.line_item/quantity",
+      "confidence": 0.2140657603740692
+    },
+    {
+      "field": "Line_item.0.line_item/unit_price",
+      "confidence": 0.4479672908782959
+    },
+    {
+      "field": "Line_item.0.line_item/unit",
+      "confidence": 0.24720197916030884
+    },
+    {
+      "field": "Line_item.0.line_item/amount",
+      "confidence": 0.731319785118103
+    },
+    {
+      "field": "Line_item.1.line_item/quantity",
+      "confidence": 0.08710544556379318
+    },
+    {
+      "field": "Line_item.1.line_item/unit",
+      "confidence": 0.2010742723941803
+    },
+    {
+      "field": "Line_item.1.line_item/amount",
+      "confidence": 0.7081872224807739
+    },
+    {
+      "field": "Line_item.2.line_item/quantity",
+      "confidence": 0.1739063709974289
+    },
+    {
+      "field": "Line_item.2.line_item/unit_price",
+      "confidence": 0.5572787523269653
+    },
+    {
+      "field": "Line_item.2.line_item/unit",
+      "confidence": 0.190280944108963
+    },
+    {
+      "field": "Line_item.2.line_item/amount",
+      "confidence": 0.7236868143081665
+    },
+    {
+      "field": "Line_item.3.line_item/quantity",
+      "confidence": 0.10265485942363739
+    },
+    {
+      "field": "Line_item.3.line_item/unit_price",
+      "confidence": 0.4823265075683594
+    },
+    {
+      "field": "Line_item.3.line_item/unit",
+      "confidence": 0.1866607964038849
+    },
+    {
+      "field": "Line_item.3.line_item/amount",
+      "confidence": 0.7410929203033447
+    },
+    {
+      "field": "Line_item.4.line_item/quantity",
+      "confidence": 0.09887867420911789
+    },
+    {
+      "field": "Line_item.4.line_item/unit",
+      "confidence": 0.1832636445760727
+    },
+    {
+      "field": "Line_item.4.line_item/amount",
+      "confidence": 0.7514296174049377
+    },
+    {
+      "field": "Line_item.5.line_item/quantity",
+      "confidence": 0.17268215119838715
+    },
+    {
+      "field": "Line_item.5.line_item/unit",
+      "confidence": 0.18748313188552856
+    },
+    {
+      "field": "Line_item.5.line_item/amount",
+      "confidence": 0.7528537511825562
+    },
+    {
+      "field": "Line_item.6.line_item/quantity",
+      "confidence": 0.1876620203256607
+    },
+    {
+      "field": "Line_item.6.line_item/unit",
+      "confidence": 0.20338143408298492
+    },
+    {
+      "field": "Line_item.6.line_item/amount",
+      "confidence": 0.7333555221557617
+    },
+    {
+      "field": "Line_item.7.line_item/quantity",
+      "confidence": 0.17234155535697937
+    },
+    {
+      "field": "Line_item.7.line_item/unit",
+      "confidence": 0.20952045917510986
+    },
+    {
+      "field": "Line_item.7.line_item/amount",
+      "confidence": 0.7348684668540955
+    },
+    {
+      "field": "Line_item.8.line_item/quantity",
+      "confidence": 0.10600553452968597
+    },
+    {
+      "field": "Line_item.8.line_item/amount",
+      "confidence": 0.6860690116882324
+    },
+    {
+      "field": "Line_item.9.line_item/quantity",
+      "confidence": 0.25811511278152466
+    },
+    {
+      "field": "Line_item.9.line_item/unit",
+      "confidence": 0.2122722715139389
+    },
+    {
+      "field": "Line_item.9.line_item/amount",
+      "confidence": 0.6839569807052612
+    },
+    {
+      "field": "Line_item.10.line_item/amount",
+      "confidence": 0.564603328704834
+    },
+    {
+      "field": "Line_item.11.line_item/amount",
+      "confidence": 0.2208261340856552
+    },
+    {
+      "field": "Line_item.12.line_item/unit_price",
+      "confidence": 0.31081512570381165
+    }
+  ],
+  "receivedAt": "2024-12-18t02:18:39.652z",
+  "processedAt": "2024-12-18t02:18:39.652z",
+  "from": "",
+  "messageId": "",
+  "snippet": "",
+  "subject": "",
+  "emailDocId": ""
+}

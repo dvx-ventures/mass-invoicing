@@ -1,0 +1,181 @@
+{
+  "net_amount": 1335.68,
+  "due_date": "11/3/2023",
+  "invoice_date": "10/4/2023",
+  "invoice_id": "80328",
+  "total_tax_amount": 0,
+  "ship_to_address": "2415 NH Route 16 West Ossipee, NH 03890",
+  "ship_to_name": "Hobbs Brewing Company",
+  "receiver_name": "Hobbs Tavern and Brewing Company",
+  "invoice_type": "",
+  "supplier_name": "Avery Products Corporation",
+  "supplier_address": "12 Technology Drive North Chelmsford, MA 01863",
+  "total_amount": 1335.68,
+  "payment_terms": "Net 30",
+  "carrier": "Ups",
+  "receiver_address": "765 NH 16 Ossipee, NH 03864",
+  "line_items": [
+    {
+      "line_item/description": "HiJack 16oz",
+      "line_item/quantity": 6500,
+      "line_item/unit_price": 0.09,
+      "line_item/amount": 585
+    },
+    {
+      "line_item/quantity": 4300,
+      "line_item/unit_price": 0.09,
+      "line_item/description": "Jacked Up 16oz",
+      "line_item/amount": 387
+    },
+    {
+      "line_item/description": "Pitch-A-Tent 16oz",
+      "line_item/amount": 324,
+      "line_item/quantity": 3600,
+      "line_item/unit_price": 0.09
+    },
+    {
+      "line_item/product_code": "Shipping",
+      "line_item/description": "UPS Ground",
+      "line_item/quantity": 1,
+      "line_item/unit_price": 39.68,
+      "line_item/amount": 39.68
+    }
+  ],
+  "fieldsConfidence": [
+    {
+      "field": "Net_amount",
+      "confidence": 0.9848982691764832
+    },
+    {
+      "field": "Due_date",
+      "confidence": 0.9760780930519104
+    },
+    {
+      "field": "Invoice_date",
+      "confidence": 0.9685704112052917
+    },
+    {
+      "field": "Invoice_id",
+      "confidence": 0.9470604062080383
+    },
+    {
+      "field": "Total_tax_amount",
+      "confidence": 0.9446048140525818
+    },
+    {
+      "field": "Ship_to_address",
+      "confidence": 0.9202051758766174
+    },
+    {
+      "field": "Ship_to_name",
+      "confidence": 0.7625622749328613
+    },
+    {
+      "field": "Receiver_name",
+      "confidence": 0.7534173727035522
+    },
+    {
+      "field": "Invoice_type",
+      "confidence": 0.7236548662185669
+    },
+    {
+      "field": "Supplier_name",
+      "confidence": 0.6259929537773132
+    },
+    {
+      "field": "Supplier_address",
+      "confidence": 0.5991640686988831
+    },
+    {
+      "field": "Total_amount",
+      "confidence": 0.5522544384002686
+    },
+    {
+      "field": "Payment_terms",
+      "confidence": 0.4498487114906311
+    },
+    {
+      "field": "Carrier",
+      "confidence": 0.44186046719551086
+    },
+    {
+      "field": "Receiver_address",
+      "confidence": 0.3556297719478607
+    },
+    {
+      "field": "Line_item.0.line_item/description",
+      "confidence": 0.5848633646965027
+    },
+    {
+      "field": "Line_item.0.line_item/quantity",
+      "confidence": 0.9658053517341614
+    },
+    {
+      "field": "Line_item.0.line_item/unit_price",
+      "confidence": 0.922542154788971
+    },
+    {
+      "field": "Line_item.0.line_item/amount",
+      "confidence": 0.8937400579452515
+    },
+    {
+      "field": "Line_item.1.line_item/quantity",
+      "confidence": 0.9590166807174683
+    },
+    {
+      "field": "Line_item.1.line_item/unit_price",
+      "confidence": 0.9093163013458252
+    },
+    {
+      "field": "Line_item.1.line_item/description",
+      "confidence": 0.6280549764633179
+    },
+    {
+      "field": "Line_item.1.line_item/amount",
+      "confidence": 0.8855414390563965
+    },
+    {
+      "field": "Line_item.2.line_item/description",
+      "confidence": 0.4159599542617798
+    },
+    {
+      "field": "Line_item.2.line_item/amount",
+      "confidence": 0.8645566701889038
+    },
+    {
+      "field": "Line_item.2.line_item/quantity",
+      "confidence": 0.9403122067451477
+    },
+    {
+      "field": "Line_item.2.line_item/unit_price",
+      "confidence": 0.8886889219284058
+    },
+    {
+      "field": "Line_item.3.line_item/product_code",
+      "confidence": 0.3966140151023865
+    },
+    {
+      "field": "Line_item.3.line_item/description",
+      "confidence": 0.4824855625629425
+    },
+    {
+      "field": "Line_item.3.line_item/quantity",
+      "confidence": 0.9424951672554016
+    },
+    {
+      "field": "Line_item.3.line_item/unit_price",
+      "confidence": 0.8835471272468567
+    },
+    {
+      "field": "Line_item.3.line_item/amount",
+      "confidence": 0.8647475242614746
+    }
+  ],
+  "receivedAt": "2024-12-18t02:18:39.682z",
+  "processedAt": "2024-12-18t02:18:39.682z",
+  "from": "",
+  "messageId": "",
+  "snippet": "",
+  "subject": "",
+  "emailDocId": ""
+}

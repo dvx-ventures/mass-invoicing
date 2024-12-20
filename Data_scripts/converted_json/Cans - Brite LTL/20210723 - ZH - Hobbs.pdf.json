@@ -1,0 +1,110 @@
+{
+  "invoice_id": "IN0123772",
+  "invoice_date": "7/23/2021",
+  "due_date": "8/22/2021",
+  "total_amount": "754.07",
+  "ship_to_address": "765 White Mountain Highway\nOssipee, NH 03864",
+  "invoice_type": "",
+  "supplier_website": "www.zh-inc.com",
+  "supplier_address": "191 s. gulph road\nZUCKERMAN king of prussia, pa 19406\nHONICKMAN",
+  "ship_to_name": "Hobbs Tavern & Brewing Company, L",
+  "supplier_tax_id": "86823 1358 RT0001",
+  "payment_terms": "Net 30 Days",
+  "receiver_name": "Hobbs Tavern & Brewing Company, LLC",
+  "ship_from_address": "765 White Mountain Highway\nOssipee, NH 03864",
+  "receiver_address": "765 White Mountain Highway\nOssipee, NH 03864",
+  "line_items": [
+    {
+      "line_item/description": "Freight Out (Beverage)",
+      "line_item/quantity": "1",
+      "line_item/unit": "Ea",
+      "line_item/unit_price": "754.07",
+      "line_item/amount": "754.07"
+    }
+  ],
+  "fieldsConfidence": [
+    {
+      "field": "invoice_id",
+      "confidence": 0.9774038791656494
+    },
+    {
+      "field": "invoice_date",
+      "confidence": 0.9536430835723877
+    },
+    {
+      "field": "due_date",
+      "confidence": 0.9443798661231995
+    },
+    {
+      "field": "total_amount",
+      "confidence": 0.9102782011032104
+    },
+    {
+      "field": "ship_to_address",
+      "confidence": 0.8523222804069519
+    },
+    {
+      "field": "invoice_type",
+      "confidence": 0.8251115679740906
+    },
+    {
+      "field": "supplier_website",
+      "confidence": 0.7783492207527161
+    },
+    {
+      "field": "supplier_address",
+      "confidence": 0.6974707245826721
+    },
+    {
+      "field": "ship_to_name",
+      "confidence": 0.6425830125808716
+    },
+    {
+      "field": "supplier_tax_id",
+      "confidence": 0.5228775143623352
+    },
+    {
+      "field": "payment_terms",
+      "confidence": 0.4553966820240021
+    },
+    {
+      "field": "receiver_name",
+      "confidence": 0.42934590578079224
+    },
+    {
+      "field": "ship_from_address",
+      "confidence": 0.3458521366119385
+    },
+    {
+      "field": "receiver_address",
+      "confidence": 0.3065583407878876
+    },
+    {
+      "field": "line_item.0.line_item/description",
+      "confidence": 0.6654028296470642
+    },
+    {
+      "field": "line_item.0.line_item/quantity",
+      "confidence": 0.8772990703582764
+    },
+    {
+      "field": "line_item.0.line_item/unit",
+      "confidence": 0.3279883861541748
+    },
+    {
+      "field": "line_item.0.line_item/unit_price",
+      "confidence": 0.8820714950561523
+    },
+    {
+      "field": "line_item.0.line_item/amount",
+      "confidence": 0.8847582936286926
+    }
+  ],
+  "receivedAt": "2024-12-18T02:18:39.506Z",
+  "processedAt": "2024-12-18T02:18:39.506Z",
+  "from": "",
+  "messageId": "",
+  "snippet": "",
+  "subject": "",
+  "emailDocId": ""
+}

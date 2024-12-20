@@ -1,0 +1,70 @@
+{
+  "invoice_id": "262395644",
+  "invoice_date": "4/29/2024",
+  "total_amount": 160,
+  "invoice_type": "",
+  "currency": "$",
+  "supplier_name": "Orkin",
+  "supplier_address": "PO Box 740300 Cincinnati, OH 45274-0300",
+  "remit_to_address": "1001 Canal Blvd Ste C-2 Richmond, CA 94804-3533",
+  "supplier_phone": "(866) 580-1813",
+  "line_items": [
+    {
+      "line_item/description": "PC Standard - Monthly - PC Standard",
+      "line_item/amount": 160
+    }
+  ],
+  "fieldsConfidence": [
+    {
+      "field": "Invoice_id",
+      "confidence": 0.972567617893219
+    },
+    {
+      "field": "Invoice_date",
+      "confidence": 0.9654970169067383
+    },
+    {
+      "field": "Total_amount",
+      "confidence": 0.7965075373649597
+    },
+    {
+      "field": "Invoice_type",
+      "confidence": 0.7166686654090881
+    },
+    {
+      "field": "Currency",
+      "confidence": 0.5924789905548096
+    },
+    {
+      "field": "Supplier_name",
+      "confidence": 0.5077216029167175
+    },
+    {
+      "field": "Supplier_address",
+      "confidence": 0.49440231919288635
+    },
+    {
+      "field": "Remit_to_address",
+      "confidence": 0.45870494842529297
+    },
+    {
+      "field": "Supplier_phone",
+      "confidence": 0.3531830906867981
+    },
+    {
+      "field": "Line_item.0.line_item/description",
+      "confidence": 0.5546340942382812
+    },
+    {
+      "field": "Line_item.0.line_item/amount",
+      "confidence": 0.6521176099777222
+    }
+  ],
+  "receivedAt": "2024-12-18t02:18:39.791z",
+  "processedAt": "2024-12-18t02:18:39.791z",
+  "from": "",
+  "messageId": "",
+  "snippet": "",
+  "subject": "",
+  "emailDocId": ""
+}

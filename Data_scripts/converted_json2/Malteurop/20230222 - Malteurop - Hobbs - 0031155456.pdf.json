@@ -1,0 +1,169 @@
+{
+  "invoice_date": "02/22/2023",
+  "invoice_id": "31155456",
+  "currency": "Usd",
+  "payment_terms": "30 days from B/L",
+  "total_amount": 1509.75,
+  "supplier_address": "2800 Great Bear Avenue Great Falls, MT 59404",
+  "receiver_name": "Hobbs Brewing Company Llc",
+  "ship_to_address": "765 Nh-16 Ossipee NH 03864 Usa",
+  "ship_to_name": "Hobbs Brewing Company Llc",
+  "supplier_name": "Winona Malting Plant",
+  "supplier_email": "Customersuccess@malteurop.com",
+  "invoice_type": "",
+  "receiver_address": "765 Nh-16 Ossipee NH 03864 Usa",
+  "net_amount": 2200.002,
+  "supplier_phone": "+1 406 727 5838",
+  "remit_to_address": "6737 W. Washington St. Suite 4204, Milwaukee, WI 53214",
+  "purchase_order": "792265",
+  "supplier_website": "Malteurop.com",
+  "line_items": [
+    {
+      "line_item/quantity": 770,
+      "line_item/unit_price": 0.65,
+      "line_item/amount": 500.5,
+      "line_item/description": "Bag Pilsen Malt"
+    },
+    {
+      "line_item/description": "Bag Craft 2rs Malt",
+      "line_item/quantity": 1045,
+      "line_item/amount": 689.7
+    },
+    {
+      "line_item/description": "Dextrin Bag Malt 8000726579",
+      "line_item/purchase_order": "23001",
+      "line_item/product_code": "330635244",
+      "line_item/unit_price": 385,
+      "line_item/amount": 319.55
+    }
+  ],
+  "fieldsConfidence": [
+    {
+      "field": "Invoice_date",
+      "confidence": 0.9793150424957275
+    },
+    {
+      "field": "Invoice_id",
+      "confidence": 0.9423481822013855
+    },
+    {
+      "field": "Currency",
+      "confidence": 0.8799676895141602
+    },
+    {
+      "field": "Payment_terms",
+      "confidence": 0.8299153447151184
+    },
+    {
+      "field": "Total_amount",
+      "confidence": 0.8302505016326904
+    },
+    {
+      "field": "Supplier_address",
+      "confidence": 0.7954305410385132
+    },
+    {
+      "field": "Receiver_name",
+      "confidence": 0.761584997177124
+    },
+    {
+      "field": "Ship_to_address",
+      "confidence": 0.6954819560050964
+    },
+    {
+      "field": "Ship_to_name",
+      "confidence": 0.6535574197769165
+    },
+    {
+      "field": "Supplier_name",
+      "confidence": 0.6544980406761169
+    },
+    {
+      "field": "Supplier_email",
+      "confidence": 0.6251980066299438
+    },
+    {
+      "field": "Invoice_type",
+      "confidence": 0.6146960854530334
+    },
+    {
+      "field": "Receiver_address",
+      "confidence": 0.5280272960662842
+    },
+    {
+      "field": "Net_amount",
+      "confidence": 0.5186865329742432
+    },
+    {
+      "field": "Supplier_phone",
+      "confidence": 0.4875331223011017
+    },
+    {
+      "field": "Remit_to_address",
+      "confidence": 0.48509323596954346
+    },
+    {
+      "field": "Purchase_order",
+      "confidence": 0.31876781582832336
+    },
+    {
+      "field": "Supplier_website",
+      "confidence": 0.17622219026088715
+    },
+    {
+      "field": "Line_item.0.line_item/quantity",
+      "confidence": 0.42545023560523987
+    },
+    {
+      "field": "Line_item.0.line_item/unit_price",
+      "confidence": 0.7135922908782959
+    },
+    {
+      "field": "Line_item.0.line_item/amount",
+      "confidence": 0.7855845093727112
+    },
+    {
+      "field": "Line_item.0.line_item/description",
+      "confidence": 0.6305434107780457
+    },
+    {
+      "field": "Line_item.1.line_item/description",
+      "confidence": 0.6729333400726318
+    },
+    {
+      "field": "Line_item.1.line_item/quantity",
+      "confidence": 0.25544431805610657
+    },
+    {
+      "field": "Line_item.1.line_item/amount",
+      "confidence": 0.8303864598274231
+    },
+    {
+      "field": "Line_item.2.line_item/description",
+      "confidence": 0.6799578666687012
+    },
+    {
+      "field": "Line_item.2.line_item/purchase_order",
+      "confidence": 0.699999988079071
+    },
+    {
+      "field": "Line_item.2.line_item/product_code",
+      "confidence": 0.5502268671989441
+    },
+    {
+      "field": "Line_item.2.line_item/unit_price",
+      "confidence": 0.4410950243473053
+    },
+    {
+      "field": "Line_item.2.line_item/amount",
+      "confidence": 0.8211396932601929
+    }
+  ],
+  "receivedAt": "2024-12-18t02:18:39.732z",
+  "processedAt": "2024-12-18t02:18:39.732z",
+  "from": "",
+  "messageId": "",
+  "snippet": "",
+  "subject": "",
+  "emailDocId": ""
+}

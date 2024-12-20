@@ -1,0 +1,164 @@
+{
+  "net_amount": "487.36",
+  "invoice_date": "11/3/2023",
+  "due_date": "12/3/2023",
+  "invoice_id": "81723",
+  "total_tax_amount": "0.00",
+  "ship_to_address": "2415 NH Route 16\nWest Ossipee, NH 03890",
+  "receiver_name": "Hobbs Tavern and Brewing Company",
+  "ship_to_name": "Hobbs Brewing Company",
+  "supplier_name": "Avery Products Corporation",
+  "currency": "$",
+  "total_amount": "487.36",
+  "supplier_address": "12 Technology Drive\nNorth Chelmsford, MA 01863",
+  "invoice_type": "",
+  "payment_terms": "Net 30",
+  "carrier": "UPS",
+  "receiver_address": "765 NH 16\nOssipee, NH 03864",
+  "line_items": [
+    {
+      "line_item/description": "HiJack 16oz",
+      "line_item/quantity": "4,000.00",
+      "line_item/unit_price": "0.090000",
+      "line_item/amount": "360.00"
+    },
+    {
+      "line_item/description": "Labels\nWizard of Hobbs 16oz",
+      "line_item/quantity": "1,250.00",
+      "line_item/unit_price": "0.090000",
+      "line_item/amount": "112.50"
+    },
+    {
+      "line_item/product_code": "Shipping",
+      "line_item/description": "UPS Ground",
+      "line_item/quantity": "1.00",
+      "line_item/unit_price": "14.860000",
+      "line_item/amount": "14.86"
+    }
+  ],
+  "fieldsConfidence": [
+    {
+      "field": "net_amount",
+      "confidence": 0.9797329306602478
+    },
+    {
+      "field": "invoice_date",
+      "confidence": 0.9685691595077515
+    },
+    {
+      "field": "due_date",
+      "confidence": 0.9662723541259766
+    },
+    {
+      "field": "invoice_id",
+      "confidence": 0.932513415813446
+    },
+    {
+      "field": "total_tax_amount",
+      "confidence": 0.9293649196624756
+    },
+    {
+      "field": "ship_to_address",
+      "confidence": 0.9208505749702454
+    },
+    {
+      "field": "receiver_name",
+      "confidence": 0.7647291421890259
+    },
+    {
+      "field": "ship_to_name",
+      "confidence": 0.7531148195266724
+    },
+    {
+      "field": "supplier_name",
+      "confidence": 0.619882345199585
+    },
+    {
+      "field": "currency",
+      "confidence": 0.6019699573516846
+    },
+    {
+      "field": "total_amount",
+      "confidence": 0.6025435924530029
+    },
+    {
+      "field": "supplier_address",
+      "confidence": 0.5947394371032715
+    },
+    {
+      "field": "invoice_type",
+      "confidence": 0.502310574054718
+    },
+    {
+      "field": "payment_terms",
+      "confidence": 0.44450315833091736
+    },
+    {
+      "field": "carrier",
+      "confidence": 0.44186046719551086
+    },
+    {
+      "field": "receiver_address",
+      "confidence": 0.352967768907547
+    },
+    {
+      "field": "line_item.0.line_item/description",
+      "confidence": 0.5873105525970459
+    },
+    {
+      "field": "line_item.0.line_item/quantity",
+      "confidence": 0.9712023138999939
+    },
+    {
+      "field": "line_item.0.line_item/unit_price",
+      "confidence": 0.9212658405303955
+    },
+    {
+      "field": "line_item.0.line_item/amount",
+      "confidence": 0.8936125636100769
+    },
+    {
+      "field": "line_item.1.line_item/description",
+      "confidence": 0.6137444972991943
+    },
+    {
+      "field": "line_item.1.line_item/quantity",
+      "confidence": 0.9432311058044434
+    },
+    {
+      "field": "line_item.1.line_item/unit_price",
+      "confidence": 0.9073209166526794
+    },
+    {
+      "field": "line_item.1.line_item/amount",
+      "confidence": 0.8823750019073486
+    },
+    {
+      "field": "line_item.2.line_item/product_code",
+      "confidence": 0.5293077230453491
+    },
+    {
+      "field": "line_item.2.line_item/description",
+      "confidence": 0.4430048167705536
+    },
+    {
+      "field": "line_item.2.line_item/quantity",
+      "confidence": 0.9478378891944885
+    },
+    {
+      "field": "line_item.2.line_item/unit_price",
+      "confidence": 0.9321545362472534
+    },
+    {
+      "field": "line_item.2.line_item/amount",
+      "confidence": 0.8789443373680115
+    }
+  ],
+  "receivedAt": "2024-12-18T02:18:39.683Z",
+  "processedAt": "2024-12-18T02:18:39.683Z",
+  "from": "",
+  "messageId": "",
+  "snippet": "",
+  "subject": "",
+  "emailDocId": ""
+}

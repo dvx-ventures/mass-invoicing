@@ -32,6 +32,12 @@ import {
   InvoiceList,
   InvoiceShow,
 } from "./pages/invoice";
+import {
+  SupplierCreate,
+  SupplierEdit,
+  SupplierList,
+  SupplierShow,
+} from "./pages/supplier";
 import Login from "./pages/login";
 import { parseJwt } from "./utils/parse-jwt";
 import { firebaseAuth, firestoreDatabase, firestore, app } from "./firebaseConfig";
@@ -131,56 +137,54 @@ function App() {
     check: async () => {
       try {
         const user = firebaseAuth.currentUser;
-        console.log("user:", user?.email);
-        if (user) {
-          // Reference to the user document in Firestore
-          const userDocRef = doc(firestore, 'user', user.uid);
-          console.log("userDocRef:", userDocRef);
-          const userDoc = await getDoc(userDocRef);
-          console.log("userDoc:", userDoc.id);
-          console.log("userDoc:", userDoc?.data()?.email);
-          if (userDoc.exists()) {
-            // User document exists, authentication successful
-            console.log("user doc exists");
-            return { authenticated: true };
-          } else {
-            // User document does not exist, sign out and redirect to login
-            console.log("user doc DOES NOT exist");
-            await signOut(firebaseAuth);
-            localStorage.removeItem("token");
-            localStorage.removeItem("user");
-            return {
-              authenticated: false,
-              error: {
-                message: 'User not authorized',
-                name: 'AuthError',
-              },
-              logout: true,
-              redirectTo: '/login',
-            };
-          }
-        } else {
-          // No user is currently authenticated
+
+        // If this code is running after authInitialized is true, 
+        // user will accurately represent the user's state.
+        if (!user) {
+          // User not signed in
           return {
             authenticated: false,
             error: {
-              message: 'User not authenticated',
-              name: 'AuthError',
+              message: "User not authenticated",
+              name: "AuthError",
             },
             logout: true,
-            redirectTo: '/login',
+            redirectTo: "/login",
+          };
+        }
+
+        // Check user doc in Firestore
+        const userDocRef = doc(firestore, "user", user.uid);
+        const userDoc = await getDoc(userDocRef);
+
+        if (userDoc.exists()) {
+          // User doc exists, user is authenticated
+          return { authenticated: true };
+        } else {
+          // User doc doesn't exist
+          await signOut(firebaseAuth);
+          localStorage.removeItem("token");
+          localStorage.removeItem("user");
+          return {
+            authenticated: false,
+            error: {
+              message: "User not authorized",
+              name: "AuthError",
+            },
+            logout: true,
+            redirectTo: "/login",
           };
         }
       } catch (error: any) {
-        console.error('Auth check error:', error);
+        console.error("Auth check error:", error);
         return {
           authenticated: false,
           error: {
-            message: 'Authentication check failed',
-            name: 'AuthError',
+            message: "Authentication check failed",
+            name: "AuthError",
           },
           logout: true,
-          redirectTo: '/login',
+          redirectTo: "/login",
         };
       }
     },
@@ -212,7 +216,7 @@ function App() {
   };
 
   return (
-    <BrowserRouter>
+    (<BrowserRouter>
       <RefineKbarProvider>
         <ColorModeContextProvider>
           <CssBaseline />
@@ -223,18 +227,22 @@ function App() {
                 dataProvider={firestoreDatabase.getDataProvider()}
                 authProvider={authProvider}
                 routerProvider={routerBindings}
-                resources={[
-                  {
-                    name: "invoice",
-                    list: InvoiceList,
-                    create: InvoiceCreate,
-                    edit: InvoiceEdit,
-                    show: InvoiceShow,
-                    meta: {
-                      canDelete: true,
-                    },
+                resources={[{
+                  name: "invoice",
+                  list: InvoiceList,
+                  create: InvoiceCreate,
+                  edit: InvoiceEdit,
+                  show: InvoiceShow,
+                  meta: {
+                    canDelete: true,
                   },
-                ]}
+                }, {
+                  name: "supplier",
+                  list: SupplierList,
+                  create: SupplierCreate,
+                  edit: SupplierEdit,
+                  show: SupplierShow,
+                }]}
                 options={{
                   syncWithLocation: true,
                   warnWhenUnsavedChanges: true,
@@ -266,6 +274,16 @@ function App() {
                       <Route path="edit/:id" element={<InvoiceEdit />} />
                       <Route path="show/:id" element={<InvoiceShow />} />
                     </Route>
+                    <Route
+                      index
+                      element={<NavigateToResource resource="supplier" />}
+                    />
+                    <Route path="/supplier">
+                      <Route index element={<SupplierList />} />
+                      <Route path="create" element={<SupplierCreate />} />
+                      <Route path="edit/:id" element={<SupplierEdit />} />
+                      <Route path="show/:id" element={<SupplierShow />} />
+                    </Route>
                     <Route path="*" element={<ErrorComponent />} />
                   </Route>
                   <Route
@@ -291,7 +309,7 @@ function App() {
           </RefineSnackbarProvider>
         </ColorModeContextProvider>
       </RefineKbarProvider>
-    </BrowserRouter>
+    </BrowserRouter>)
   );
 }
 

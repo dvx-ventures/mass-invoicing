@@ -1,0 +1,136 @@
+{
+  "invoice_date": "04/22/2024",
+  "due_date": "05/22/2024",
+  "total_amount": "17,204.40",
+  "ship_to_address": "1645 Tchoupitoulas St\nNew Orleans, LA 70130\nUSA",
+  "currency": "USD",
+  "invoice_id": "CAINV000026446",
+  "total_tax_amount": "0.00",
+  "invoice_type": "",
+  "supplier_tax_id": "8966 11431 RT0001",
+  "payment_terms": "Net 30 days",
+  "ship_to_name": "CAC002171\nUrban South Brewery",
+  "purchase_order": "1141",
+  "supplier_name": "THE\nCOUNTRY MALT\nGROUP\nESTD\n.\n1995\nGREAT\nCANADA \nWESTERN\nMALTING\nMALTING \nCO\n.",
+  "supplier_address": "3316 Bonnybrook Rd. SE\nCalgary, AB T2G 4M9\nCanada",
+  "receiver_address": "Orleans, LA 70130\nUSA",
+  "line_items": [
+    {
+      "line_item/amount": "17,204.40",
+      "line_item/product_code": "SCC2205820",
+      "line_item/description": "CM-2ROWBK Blended",
+      "line_item/quantity": "20,820.00",
+      "line_item/unit_price": "1,000.00"
+    },
+    {
+      "line_item/amount": "20.820"
+    },
+    {
+      "line_item/amount": "20,820.00"
+    },
+    {
+      "line_item/amount": "45,900.00"
+    }
+  ],
+  "fieldsConfidence": [
+    {
+      "field": "invoice_date",
+      "confidence": 0.9856806993484497
+    },
+    {
+      "field": "due_date",
+      "confidence": 0.9743704795837402
+    },
+    {
+      "field": "total_amount",
+      "confidence": 0.9685012698173523
+    },
+    {
+      "field": "ship_to_address",
+      "confidence": 0.9225456118583679
+    },
+    {
+      "field": "currency",
+      "confidence": 0.9107598066329956
+    },
+    {
+      "field": "invoice_id",
+      "confidence": 0.8775295615196228
+    },
+    {
+      "field": "total_tax_amount",
+      "confidence": 0.8772991299629211
+    },
+    {
+      "field": "invoice_type",
+      "confidence": 0.7097143530845642
+    },
+    {
+      "field": "supplier_tax_id",
+      "confidence": 0.7094898819923401
+    },
+    {
+      "field": "payment_terms",
+      "confidence": 0.6152074933052063
+    },
+    {
+      "field": "ship_to_name",
+      "confidence": 0.5300363302230835
+    },
+    {
+      "field": "purchase_order",
+      "confidence": 0.35017910599708557
+    },
+    {
+      "field": "supplier_name",
+      "confidence": 0.19479411840438843
+    },
+    {
+      "field": "supplier_address",
+      "confidence": 0.15269145369529724
+    },
+    {
+      "field": "receiver_address",
+      "confidence": 0.001621727366000414
+    },
+    {
+      "field": "line_item.0.line_item/amount",
+      "confidence": 0.6875343322753906
+    },
+    {
+      "field": "line_item.0.line_item/product_code",
+      "confidence": 0.6435989141464233
+    },
+    {
+      "field": "line_item.0.line_item/description",
+      "confidence": 0.5538550019264221
+    },
+    {
+      "field": "line_item.0.line_item/quantity",
+      "confidence": 0.87332683801651
+    },
+    {
+      "field": "line_item.0.line_item/unit_price",
+      "confidence": 0.7387455105781555
+    },
+    {
+      "field": "line_item.1.line_item/amount",
+      "confidence": 0.31443697214126587
+    },
+    {
+      "field": "line_item.2.line_item/amount",
+      "confidence": 0.3258908689022064
+    },
+    {
+      "field": "line_item.3.line_item/amount",
+      "confidence": 0.30186697840690613
+    }
+  ],
+  "receivedAt": "2024-12-18T02:18:39.583Z",
+  "processedAt": "2024-12-18T02:18:39.583Z",
+  "from": "",
+  "messageId": "",
+  "snippet": "",
+  "subject": "",
+  "emailDocId": ""
+}

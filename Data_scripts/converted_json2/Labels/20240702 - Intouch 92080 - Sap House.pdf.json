@@ -1,0 +1,110 @@
+{
+  "net_amount": 1120,
+  "due_date": "8/1/2024",
+  "invoice_date": "7/2/2024",
+  "total_tax_amount": 0,
+  "ship_to_address": "6 Folsom Road Center Ossipee, NH 03814",
+  "invoice_id": "92080",
+  "ship_to_name": "Sap House Meadery LLC",
+  "receiver_name": "Sap House Meadery LLC",
+  "invoice_type": "",
+  "supplier_name": "Avery Products Corporation",
+  "total_amount": 1120,
+  "receiver_address": "P.O. Box 595 Center Ossipee, NH 03814",
+  "supplier_address": "12 Technology Drive North Chelmsford, MA 01863",
+  "payment_terms": "Net 30",
+  "carrier": "Ups",
+  "line_items": [
+    {
+      "line_item/description": "Labels Nectar Collector 12oz",
+      "line_item/quantity": 10000,
+      "line_item/unit_price": 0.11,
+      "line_item/amount": 1120
+    }
+  ],
+  "fieldsConfidence": [
+    {
+      "field": "Net_amount",
+      "confidence": 0.9826035499572754
+    },
+    {
+      "field": "Due_date",
+      "confidence": 0.9735383987426758
+    },
+    {
+      "field": "Invoice_date",
+      "confidence": 0.972811758518219
+    },
+    {
+      "field": "Total_tax_amount",
+      "confidence": 0.9625464081764221
+    },
+    {
+      "field": "Ship_to_address",
+      "confidence": 0.9354298114776611
+    },
+    {
+      "field": "Invoice_id",
+      "confidence": 0.933146059513092
+    },
+    {
+      "field": "Ship_to_name",
+      "confidence": 0.8084955215454102
+    },
+    {
+      "field": "Receiver_name",
+      "confidence": 0.7040070295333862
+    },
+    {
+      "field": "Invoice_type",
+      "confidence": 0.6284715533256531
+    },
+    {
+      "field": "Supplier_name",
+      "confidence": 0.5980032086372375
+    },
+    {
+      "field": "Total_amount",
+      "confidence": 0.5987693071365356
+    },
+    {
+      "field": "Receiver_address",
+      "confidence": 0.5567587614059448
+    },
+    {
+      "field": "Supplier_address",
+      "confidence": 0.5223796963691711
+    },
+    {
+      "field": "Payment_terms",
+      "confidence": 0.46151044964790344
+    },
+    {
+      "field": "Carrier",
+      "confidence": 0.44186046719551086
+    },
+    {
+      "field": "Line_item.0.line_item/description",
+      "confidence": 0.6397427916526794
+    },
+    {
+      "field": "Line_item.0.line_item/quantity",
+      "confidence": 0.9737024307250977
+    },
+    {
+      "field": "Line_item.0.line_item/unit_price",
+      "confidence": 0.904155433177948
+    },
+    {
+      "field": "Line_item.0.line_item/amount",
+      "confidence": 0.8997690677642822
+    }
+  ],
+  "receivedAt": "2024-12-18t02:18:39.714z",
+  "processedAt": "2024-12-18t02:18:39.714z",
+  "from": "",
+  "messageId": "",
+  "snippet": "",
+  "subject": "",
+  "emailDocId": ""
+}

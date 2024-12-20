@@ -1,0 +1,129 @@
+{
+  "invoice_date": "05/24/2024",
+  "invoice_type": "",
+  "due_date": "05/24/2024",
+  "invoice_id": "114692",
+  "total_amount": "241.55",
+  "total_tax_amount": "0.00",
+  "supplier_address": "106 Glen Dale Dr\nWOODLAND PARK, CO 80863",
+  "supplier_name": "Brewing Science Institute",
+  "currency": "$",
+  "line_items": [
+    {
+      "line_item/quantity": "3",
+      "line_item/product_code": "A-68",
+      "line_item/description": "London Ale II",
+      "line_item/unit_price": "43.00",
+      "line_item/amount": "129.00"
+    },
+    {
+      "line_item/quantity": "1",
+      "line_item/product_code": "LMDA",
+      "line_item/description": "Bacteria Media",
+      "line_item/unit_price": "50.00",
+      "line_item/amount": "50.00"
+    },
+    {
+      "line_item/description": "Ship Date 5/22",
+      "line_item/unit_price": "62.55",
+      "line_item/amount": "62.55"
+    }
+  ],
+  "fieldsConfidence": [
+    {
+      "field": "invoice_date",
+      "confidence": 0.9891859889030457
+    },
+    {
+      "field": "invoice_type",
+      "confidence": 0.985127329826355
+    },
+    {
+      "field": "due_date",
+      "confidence": 0.980816662311554
+    },
+    {
+      "field": "invoice_id",
+      "confidence": 0.9768470525741577
+    },
+    {
+      "field": "total_amount",
+      "confidence": 0.9671453237533569
+    },
+    {
+      "field": "total_tax_amount",
+      "confidence": 0.925649881362915
+    },
+    {
+      "field": "supplier_address",
+      "confidence": 0.8664710521697998
+    },
+    {
+      "field": "supplier_name",
+      "confidence": 0.7255120277404785
+    },
+    {
+      "field": "currency",
+      "confidence": 0.5796791911125183
+    },
+    {
+      "field": "line_item.0.line_item/quantity",
+      "confidence": 0.7778924107551575
+    },
+    {
+      "field": "line_item.0.line_item/product_code",
+      "confidence": 0.6676324605941772
+    },
+    {
+      "field": "line_item.0.line_item/description",
+      "confidence": 0.557201087474823
+    },
+    {
+      "field": "line_item.0.line_item/unit_price",
+      "confidence": 0.9295963048934937
+    },
+    {
+      "field": "line_item.0.line_item/amount",
+      "confidence": 0.8773572444915771
+    },
+    {
+      "field": "line_item.1.line_item/quantity",
+      "confidence": 0.80092853307724
+    },
+    {
+      "field": "line_item.1.line_item/product_code",
+      "confidence": 0.6507793068885803
+    },
+    {
+      "field": "line_item.1.line_item/description",
+      "confidence": 0.5350126028060913
+    },
+    {
+      "field": "line_item.1.line_item/unit_price",
+      "confidence": 0.9338585734367371
+    },
+    {
+      "field": "line_item.1.line_item/amount",
+      "confidence": 0.8513002395629883
+    },
+    {
+      "field": "line_item.2.line_item/description",
+      "confidence": 0.4640437066555023
+    },
+    {
+      "field": "line_item.2.line_item/unit_price",
+      "confidence": 0.9226924180984497
+    },
+    {
+      "field": "line_item.2.line_item/amount",
+      "confidence": 0.8341649770736694
+    }
+  ],
+  "receivedAt": "2024-12-18T02:18:39.828Z",
+  "processedAt": "2024-12-18T02:18:39.828Z",
+  "from": "",
+  "messageId": "",
+  "snippet": "",
+  "subject": "",
+  "emailDocId": ""
+}

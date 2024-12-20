@@ -1,0 +1,171 @@
+{
+  "net_amount": 1150.34,
+  "due_date": "4/29/2023",
+  "invoice_date": "3/30/2023",
+  "invoice_id": "73124",
+  "total_tax_amount": 0,
+  "ship_to_address": "2415 NH Route 16 West Ossipee, NH 03890",
+  "ship_to_name": "Hobbs Brewing Company",
+  "receiver_name": "Hobbs Tavern and Brewing Company",
+  "invoice_type": "",
+  "total_amount": 1150.34,
+  "supplier_name": "Avery Products Corporation",
+  "payment_terms": "Net 30",
+  "carrier": "Ups",
+  "receiver_address": "765 NH 16 Ossipee, NH 03864",
+  "supplier_address": "30 Payton Street Lowell, MA 01852",
+  "line_items": [
+    {
+      "line_item/description": "Pitch-A-Tent 16oz",
+      "line_item/quantity": 4500,
+      "line_item/unit_price": 0.09,
+      "line_item/amount": 405
+    },
+    {
+      "line_item/description": "Labels HiJack 16oz",
+      "line_item/unit_price": 0.09,
+      "line_item/amount": 585,
+      "line_item/quantity": 6500
+    },
+    {
+      "line_item/description": "Lake Life 16oz",
+      "line_item/quantity": 1500,
+      "line_item/unit_price": 0.09,
+      "line_item/amount": 135
+    },
+    {
+      "line_item/quantity": 1,
+      "line_item/amount": 25.34,
+      "line_item/unit_price": 25.34
+    }
+  ],
+  "fieldsConfidence": [
+    {
+      "field": "Net_amount",
+      "confidence": 0.9835435748100281
+    },
+    {
+      "field": "Due_date",
+      "confidence": 0.9705866575241089
+    },
+    {
+      "field": "Invoice_date",
+      "confidence": 0.9542722702026367
+    },
+    {
+      "field": "Invoice_id",
+      "confidence": 0.9470682740211487
+    },
+    {
+      "field": "Total_tax_amount",
+      "confidence": 0.9390449523925781
+    },
+    {
+      "field": "Ship_to_address",
+      "confidence": 0.9266476631164551
+    },
+    {
+      "field": "Ship_to_name",
+      "confidence": 0.7567699551582336
+    },
+    {
+      "field": "Receiver_name",
+      "confidence": 0.7412237524986267
+    },
+    {
+      "field": "Invoice_type",
+      "confidence": 0.5509608387947083
+    },
+    {
+      "field": "Total_amount",
+      "confidence": 0.5208549499511719
+    },
+    {
+      "field": "Supplier_name",
+      "confidence": 0.47777119278907776
+    },
+    {
+      "field": "Payment_terms",
+      "confidence": 0.4679490029811859
+    },
+    {
+      "field": "Carrier",
+      "confidence": 0.44186046719551086
+    },
+    {
+      "field": "Receiver_address",
+      "confidence": 0.3817293345928192
+    },
+    {
+      "field": "Supplier_address",
+      "confidence": 0.3557158410549164
+    },
+    {
+      "field": "Line_item.0.line_item/description",
+      "confidence": 0.5197628736495972
+    },
+    {
+      "field": "Line_item.0.line_item/quantity",
+      "confidence": 0.9681057929992676
+    },
+    {
+      "field": "Line_item.0.line_item/unit_price",
+      "confidence": 0.9196617603302002
+    },
+    {
+      "field": "Line_item.0.line_item/amount",
+      "confidence": 0.8781102299690247
+    },
+    {
+      "field": "Line_item.1.line_item/description",
+      "confidence": 0.5424655079841614
+    },
+    {
+      "field": "Line_item.1.line_item/unit_price",
+      "confidence": 0.9129762649536133
+    },
+    {
+      "field": "Line_item.1.line_item/amount",
+      "confidence": 0.8774336576461792
+    },
+    {
+      "field": "Line_item.1.line_item/quantity",
+      "confidence": 0.9445167779922485
+    },
+    {
+      "field": "Line_item.2.line_item/description",
+      "confidence": 0.5699096322059631
+    },
+    {
+      "field": "Line_item.2.line_item/quantity",
+      "confidence": 0.9365222454071045
+    },
+    {
+      "field": "Line_item.2.line_item/unit_price",
+      "confidence": 0.8961843252182007
+    },
+    {
+      "field": "Line_item.2.line_item/amount",
+      "confidence": 0.877230703830719
+    },
+    {
+      "field": "Line_item.3.line_item/quantity",
+      "confidence": 0.9401493072509766
+    },
+    {
+      "field": "Line_item.3.line_item/amount",
+      "confidence": 0.8623685240745544
+    },
+    {
+      "field": "Line_item.3.line_item/unit_price",
+      "confidence": 0.9008917808532715
+    }
+  ],
+  "receivedAt": "2024-12-18t02:18:39.667z",
+  "processedAt": "2024-12-18t02:18:39.667z",
+  "from": "",
+  "messageId": "",
+  "snippet": "",
+  "subject": "",
+  "emailDocId": ""
+}

@@ -1,0 +1,179 @@
+{
+  "invoice_date": "5/20/2024",
+  "total_amount": "1,361.41",
+  "net_amount": "1,223.91",
+  "currency": "USD",
+  "invoice_id": "SO160-0989655-1",
+  "invoice_type": "",
+  "supplier_name": "Brewers Supply Group",
+  "ship_to_address": "5578 Old William Penn Hwy\nExport, PA 15632-9303\nUSA",
+  "supplier_address": "800 First Avenue West\nShakopee, MN 55379\nUSA",
+  "ship_to_name": "Helltown Brewing",
+  "freight_amount": "125.00",
+  "total_tax_amount": "12.50",
+  "receiver_name": "Helltown Brewing LLC",
+  "ship_from_name": "Brewers Supply Group",
+  "line_items": [
+    {
+      "line_item/product_code": "MGAM1051",
+      "line_item/quantity": "1.00",
+      "line_item/unit": "EA",
+      "line_item/unit_price": "46.31",
+      "line_item/amount": "46.31",
+      "line_item/description": "Gambrinus Honey Malt 25 kg\nQuantity: 1 Warehouse: 595MAIN"
+    },
+    {
+      "line_item/product_code": "MRAH1170",
+      "line_item/unit": "EA",
+      "line_item/quantity": "20.00",
+      "line_item/unit_price": "47.63",
+      "line_item/amount": "952.60",
+      "line_item/description": "Rahr Malted Oats 25kg\nQuantity: 20 Warehouse: 595MAIN"
+    },
+    {
+      "line_item/description": "Lactic Acid 88% 4 kg (HAZ)\nQuantity: 10 Warehouse : 595MAIN",
+      "line_item/product_code": "BZZZ1334",
+      "line_item/quantity": "10.00",
+      "line_item/unit": "EA",
+      "line_item/unit_price": "22.50",
+      "line_item/amount": "225.00"
+    }
+  ],
+  "fieldsConfidence": [
+    {
+      "field": "invoice_date",
+      "confidence": 0.9712506532669067
+    },
+    {
+      "field": "total_amount",
+      "confidence": 0.9457026124000549
+    },
+    {
+      "field": "net_amount",
+      "confidence": 0.9381629824638367
+    },
+    {
+      "field": "currency",
+      "confidence": 0.9024122357368469
+    },
+    {
+      "field": "invoice_id",
+      "confidence": 0.8792129755020142
+    },
+    {
+      "field": "invoice_type",
+      "confidence": 0.7488977909088135
+    },
+    {
+      "field": "supplier_name",
+      "confidence": 0.6660012602806091
+    },
+    {
+      "field": "ship_to_address",
+      "confidence": 0.6438683867454529
+    },
+    {
+      "field": "supplier_address",
+      "confidence": 0.6358344554901123
+    },
+    {
+      "field": "ship_to_name",
+      "confidence": 0.6008344292640686
+    },
+    {
+      "field": "freight_amount",
+      "confidence": 0.5395011305809021
+    },
+    {
+      "field": "total_tax_amount",
+      "confidence": 0.40862181782722473
+    },
+    {
+      "field": "receiver_name",
+      "confidence": 0.3162238597869873
+    },
+    {
+      "field": "ship_from_name",
+      "confidence": 0.22906611859798431
+    },
+    {
+      "field": "line_item.0.line_item/product_code",
+      "confidence": 0.5722306370735168
+    },
+    {
+      "field": "line_item.0.line_item/quantity",
+      "confidence": 0.9204975962638855
+    },
+    {
+      "field": "line_item.0.line_item/unit",
+      "confidence": 0.46756088733673096
+    },
+    {
+      "field": "line_item.0.line_item/unit_price",
+      "confidence": 0.8643402457237244
+    },
+    {
+      "field": "line_item.0.line_item/amount",
+      "confidence": 0.83797687292099
+    },
+    {
+      "field": "line_item.0.line_item/description",
+      "confidence": 0.6380968689918518
+    },
+    {
+      "field": "line_item.1.line_item/product_code",
+      "confidence": 0.7025213241577148
+    },
+    {
+      "field": "line_item.1.line_item/unit",
+      "confidence": 0.4126777648925781
+    },
+    {
+      "field": "line_item.1.line_item/quantity",
+      "confidence": 0.9129582047462463
+    },
+    {
+      "field": "line_item.1.line_item/unit_price",
+      "confidence": 0.8610944747924805
+    },
+    {
+      "field": "line_item.1.line_item/amount",
+      "confidence": 0.872121274471283
+    },
+    {
+      "field": "line_item.1.line_item/description",
+      "confidence": 0.4979930818080902
+    },
+    {
+      "field": "line_item.2.line_item/description",
+      "confidence": 0.5093134045600891
+    },
+    {
+      "field": "line_item.2.line_item/product_code",
+      "confidence": 0.4931022822856903
+    },
+    {
+      "field": "line_item.2.line_item/quantity",
+      "confidence": 0.8962059020996094
+    },
+    {
+      "field": "line_item.2.line_item/unit",
+      "confidence": 0.4448925256729126
+    },
+    {
+      "field": "line_item.2.line_item/unit_price",
+      "confidence": 0.7556372284889221
+    },
+    {
+      "field": "line_item.2.line_item/amount",
+      "confidence": 0.8424755930900574
+    }
+  ],
+  "receivedAt": "2024-12-18T02:18:39.469Z",
+  "processedAt": "2024-12-18T02:18:39.469Z",
+  "from": "",
+  "messageId": "",
+  "snippet": "",
+  "subject": "",
+  "emailDocId": ""
+}

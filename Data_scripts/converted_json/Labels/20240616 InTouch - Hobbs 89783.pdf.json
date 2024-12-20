@@ -1,0 +1,159 @@
+{
+  "net_amount": "650.98",
+  "due_date": "6/16/2024",
+  "invoice_date": "5/17/2024",
+  "invoice_id": "89783",
+  "total_tax_amount": "0.00",
+  "ship_to_address": "2415 NH Route 16\nWest Ossipee, NH 03890",
+  "receiver_name": "Hobbs Tavern and Brewing Company",
+  "ship_to_name": "Hobbs Brewing Company",
+  "supplier_name": "Avery Products Corporation",
+  "supplier_address": "12 Technology Drive\nNorth Chelmsford, MA 01863",
+  "currency": "$",
+  "payment_terms": "Net 30",
+  "invoice_type": "",
+  "carrier": "UPS",
+  "receiver_address": "765 NH 16\nOssipee, NH 03864",
+  "line_items": [
+    {
+      "line_item/unit_price": "0.090000",
+      "line_item/amount": "205.92",
+      "line_item/description": "12oz Tommy Golf",
+      "line_item/quantity": "2,400.00"
+    },
+    {
+      "line_item/description": "Manatee Dunkel",
+      "line_item/quantity": "4,800.00",
+      "line_item/unit_price": "0.090000",
+      "line_item/amount": "411.84"
+    },
+    {
+      "line_item/quantity": "1.00",
+      "line_item/product_code": "Shipping",
+      "line_item/description": "UPS Ground",
+      "line_item/unit_price": "33.220000",
+      "line_item/amount": "33.22"
+    }
+  ],
+  "fieldsConfidence": [
+    {
+      "field": "net_amount",
+      "confidence": 0.9810770750045776
+    },
+    {
+      "field": "due_date",
+      "confidence": 0.975625216960907
+    },
+    {
+      "field": "invoice_date",
+      "confidence": 0.9640370011329651
+    },
+    {
+      "field": "invoice_id",
+      "confidence": 0.9461809992790222
+    },
+    {
+      "field": "total_tax_amount",
+      "confidence": 0.9454454779624939
+    },
+    {
+      "field": "ship_to_address",
+      "confidence": 0.9239459037780762
+    },
+    {
+      "field": "receiver_name",
+      "confidence": 0.7599373459815979
+    },
+    {
+      "field": "ship_to_name",
+      "confidence": 0.7594311237335205
+    },
+    {
+      "field": "supplier_name",
+      "confidence": 0.6108274459838867
+    },
+    {
+      "field": "supplier_address",
+      "confidence": 0.5784388780593872
+    },
+    {
+      "field": "currency",
+      "confidence": 0.5620306134223938
+    },
+    {
+      "field": "payment_terms",
+      "confidence": 0.46084004640579224
+    },
+    {
+      "field": "invoice_type",
+      "confidence": 0.4540421664714813
+    },
+    {
+      "field": "carrier",
+      "confidence": 0.44186046719551086
+    },
+    {
+      "field": "receiver_address",
+      "confidence": 0.3645031452178955
+    },
+    {
+      "field": "line_item.0.line_item/unit_price",
+      "confidence": 0.9343002438545227
+    },
+    {
+      "field": "line_item.0.line_item/amount",
+      "confidence": 0.8892399668693542
+    },
+    {
+      "field": "line_item.0.line_item/description",
+      "confidence": 0.4692782461643219
+    },
+    {
+      "field": "line_item.0.line_item/quantity",
+      "confidence": 0.9629923105239868
+    },
+    {
+      "field": "line_item.1.line_item/description",
+      "confidence": 0.43302884697914124
+    },
+    {
+      "field": "line_item.1.line_item/quantity",
+      "confidence": 0.9562126398086548
+    },
+    {
+      "field": "line_item.1.line_item/unit_price",
+      "confidence": 0.9141562581062317
+    },
+    {
+      "field": "line_item.1.line_item/amount",
+      "confidence": 0.8945304751396179
+    },
+    {
+      "field": "line_item.2.line_item/quantity",
+      "confidence": 0.9537995457649231
+    },
+    {
+      "field": "line_item.2.line_item/product_code",
+      "confidence": 0.47117841243743896
+    },
+    {
+      "field": "line_item.2.line_item/description",
+      "confidence": 0.4133339524269104
+    },
+    {
+      "field": "line_item.2.line_item/unit_price",
+      "confidence": 0.9315191507339478
+    },
+    {
+      "field": "line_item.2.line_item/amount",
+      "confidence": 0.90318763256073
+    }
+  ],
+  "receivedAt": "2024-12-18T02:18:39.708Z",
+  "processedAt": "2024-12-18T02:18:39.708Z",
+  "from": "",
+  "messageId": "",
+  "snippet": "",
+  "subject": "",
+  "emailDocId": ""
+}

@@ -1,0 +1,305 @@
+{
+  "invoice_date": "2/5/2024",
+  "due_date": "3/6/2024",
+  "total_amount": "2,344.66",
+  "net_amount": "2,157.16",
+  "total_tax_amount": "0.00",
+  "invoice_id": "INV-0710060",
+  "currency": "USD",
+  "invoice_type": "",
+  "ship_to_address": "1617 N 3rd St\nSuperior, WI 54880-1016\nUSA",
+  "receiver_name": "Earth Rider Brewing",
+  "supplier_name": "Brewers Supply Group",
+  "receiver_address": "PO Box 3167\nJulia Convissor\nDuluth, MN 55803\nUSA",
+  "ship_to_name": "Earth Rider Brewing",
+  "remit_to_name": "BSG",
+  "supplier_address": "PO Box 74769\nChicago, IL 60694-4769\nUSA",
+  "payment_terms": "Net 30 Days",
+  "supplier_email": "accounts receivable@bsgcraft.com",
+  "freight_amount": "175.00",
+  "supplier_phone": "1-800-374-2739",
+  "remit_to_address": "PO Box 74769\nChicago, IL 60694-4769\nUSA",
+  "line_items": [
+    {
+      "line_item/product_code": "MWEY1004",
+      "line_item/description": "Weyermann Bohemian Pilsner 25 kg",
+      "line_item/quantity": "16.0000",
+      "line_item/unit": "No",
+      "line_item/unit_price": "45.54",
+      "line_item/amount": "728.64"
+    },
+    {
+      "line_item/product_code": "MMCI1071",
+      "line_item/description": "MCI Irish Stout Malt 25 kg",
+      "line_item/quantity": "8.0000",
+      "line_item/unit": "No",
+      "line_item/unit_price": "47.52",
+      "line_item/amount": "380.16"
+    },
+    {
+      "line_item/product_code": "MSIM1002",
+      "line_item/description": "Simpsons Finest Golden Promise™ 25 kg",
+      "line_item/quantity": "14.0000",
+      "line_item/unit": "No",
+      "line_item/unit_price": "52.80",
+      "line_item/amount": "739.20"
+    },
+    {
+      "line_item/product_code": "MWEY1017",
+      "line_item/description": "Weyermann® Munich Malt Type 1 25 kg",
+      "line_item/quantity": "2.0000",
+      "line_item/unit": "No",
+      "line_item/unit_price": "47.08",
+      "line_item/amount": "94.16"
+    },
+    {
+      "line_item/product_code": "BZZZ1739",
+      "line_item/description": "Brewers Clarex® 1 kg",
+      "line_item/quantity": "1.0000",
+      "line_item/unit": "No",
+      "line_item/unit_price": "215.00",
+      "line_item/amount": "215.00"
+    },
+    {
+      "line_item/product_code": "XZZZN001",
+      "line_item/description": "Nut Roll - US",
+      "line_item/quantity": "1.0000",
+      "line_item/unit": "No",
+      "line_item/unit_price": "0.00",
+      "line_item/amount": "0.00"
+    }
+  ],
+  "fieldsConfidence": [
+    {
+      "field": "invoice_date",
+      "confidence": 0.9869523644447327
+    },
+    {
+      "field": "due_date",
+      "confidence": 0.9625670313835144
+    },
+    {
+      "field": "total_amount",
+      "confidence": 0.9607031345367432
+    },
+    {
+      "field": "net_amount",
+      "confidence": 0.9573895335197449
+    },
+    {
+      "field": "total_tax_amount",
+      "confidence": 0.9350183010101318
+    },
+    {
+      "field": "invoice_id",
+      "confidence": 0.9284200072288513
+    },
+    {
+      "field": "currency",
+      "confidence": 0.9104388356208801
+    },
+    {
+      "field": "invoice_type",
+      "confidence": 0.906508207321167
+    },
+    {
+      "field": "ship_to_address",
+      "confidence": 0.869702160358429
+    },
+    {
+      "field": "receiver_name",
+      "confidence": 0.8572817444801331
+    },
+    {
+      "field": "supplier_name",
+      "confidence": 0.7904828190803528
+    },
+    {
+      "field": "receiver_address",
+      "confidence": 0.7474047541618347
+    },
+    {
+      "field": "ship_to_name",
+      "confidence": 0.7104256749153137
+    },
+    {
+      "field": "remit_to_name",
+      "confidence": 0.7031235694885254
+    },
+    {
+      "field": "supplier_address",
+      "confidence": 0.6616823673248291
+    },
+    {
+      "field": "payment_terms",
+      "confidence": 0.5563796758651733
+    },
+    {
+      "field": "supplier_email",
+      "confidence": 0.5420096516609192
+    },
+    {
+      "field": "freight_amount",
+      "confidence": 0.5099124312400818
+    },
+    {
+      "field": "supplier_phone",
+      "confidence": 0.21763832867145538
+    },
+    {
+      "field": "remit_to_address",
+      "confidence": 0.18971654772758484
+    },
+    {
+      "field": "line_item.0.line_item/product_code",
+      "confidence": 0.6072553396224976
+    },
+    {
+      "field": "line_item.0.line_item/description",
+      "confidence": 0.7122464179992676
+    },
+    {
+      "field": "line_item.0.line_item/quantity",
+      "confidence": 0.9373444318771362
+    },
+    {
+      "field": "line_item.0.line_item/unit",
+      "confidence": 0.46821364760398865
+    },
+    {
+      "field": "line_item.0.line_item/unit_price",
+      "confidence": 0.9214192628860474
+    },
+    {
+      "field": "line_item.0.line_item/amount",
+      "confidence": 0.9047740697860718
+    },
+    {
+      "field": "line_item.1.line_item/product_code",
+      "confidence": 0.6253823637962341
+    },
+    {
+      "field": "line_item.1.line_item/description",
+      "confidence": 0.4712560176849365
+    },
+    {
+      "field": "line_item.1.line_item/quantity",
+      "confidence": 0.9390097260475159
+    },
+    {
+      "field": "line_item.1.line_item/unit",
+      "confidence": 0.49307799339294434
+    },
+    {
+      "field": "line_item.1.line_item/unit_price",
+      "confidence": 0.9242277145385742
+    },
+    {
+      "field": "line_item.1.line_item/amount",
+      "confidence": 0.9062491059303284
+    },
+    {
+      "field": "line_item.2.line_item/product_code",
+      "confidence": 0.6003661155700684
+    },
+    {
+      "field": "line_item.2.line_item/description",
+      "confidence": 0.5386337041854858
+    },
+    {
+      "field": "line_item.2.line_item/quantity",
+      "confidence": 0.9346628785133362
+    },
+    {
+      "field": "line_item.2.line_item/unit",
+      "confidence": 0.46911799907684326
+    },
+    {
+      "field": "line_item.2.line_item/unit_price",
+      "confidence": 0.9245210289955139
+    },
+    {
+      "field": "line_item.2.line_item/amount",
+      "confidence": 0.8993618488311768
+    },
+    {
+      "field": "line_item.3.line_item/product_code",
+      "confidence": 0.6374689936637878
+    },
+    {
+      "field": "line_item.3.line_item/description",
+      "confidence": 0.48238277435302734
+    },
+    {
+      "field": "line_item.3.line_item/quantity",
+      "confidence": 0.9287546873092651
+    },
+    {
+      "field": "line_item.3.line_item/unit",
+      "confidence": 0.5565386414527893
+    },
+    {
+      "field": "line_item.3.line_item/unit_price",
+      "confidence": 0.9280185103416443
+    },
+    {
+      "field": "line_item.3.line_item/amount",
+      "confidence": 0.8856756687164307
+    },
+    {
+      "field": "line_item.4.line_item/product_code",
+      "confidence": 0.6856471300125122
+    },
+    {
+      "field": "line_item.4.line_item/description",
+      "confidence": 0.5286729335784912
+    },
+    {
+      "field": "line_item.4.line_item/quantity",
+      "confidence": 0.9126006364822388
+    },
+    {
+      "field": "line_item.4.line_item/unit",
+      "confidence": 0.5113370418548584
+    },
+    {
+      "field": "line_item.4.line_item/unit_price",
+      "confidence": 0.9303956627845764
+    },
+    {
+      "field": "line_item.4.line_item/amount",
+      "confidence": 0.9254011511802673
+    },
+    {
+      "field": "line_item.5.line_item/product_code",
+      "confidence": 0.529761016368866
+    },
+    {
+      "field": "line_item.5.line_item/description",
+      "confidence": 0.4712705612182617
+    },
+    {
+      "field": "line_item.5.line_item/quantity",
+      "confidence": 0.925366997718811
+    },
+    {
+      "field": "line_item.5.line_item/unit",
+      "confidence": 0.41450148820877075
+    },
+    {
+      "field": "line_item.5.line_item/unit_price",
+      "confidence": 0.9296823143959045
+    },
+    {
+      "field": "line_item.5.line_item/amount",
+      "confidence": 0.8634929060935974
+    }
+  ],
+  "receivedAt": "2024-12-18T02:18:39.461Z",
+  "processedAt": "2024-12-18T02:18:39.461Z",
+  "from": "",
+  "messageId": "",
+  "snippet": "",
+  "subject": "",
+  "emailDocId": ""
+}

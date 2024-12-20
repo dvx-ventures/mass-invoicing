@@ -1,0 +1,153 @@
+{
+  "invoice_id": "0010087728",
+  "invoice_date": "04/30/24",
+  "invoice_type": "",
+  "total_amount": "226.14",
+  "supplier_address": "PO BOX 779009\nCHICAGO IL 60677-9009",
+  "payment_terms": "30 DAYS",
+  "supplier_phone": "(844) 854-1451",
+  "supplier_name": "AMERICAN \nWELDING \n& \nGAS\n,",
+  "remit_to_address": "114 W SPRING ST\nMARQUETTE MI 49805",
+  "total_tax_amount": "226.14",
+  "line_items": [
+    {
+      "line_item/quantity": "1",
+      "line_item/description": "SPECIALTY GAS SG",
+      "line_item/unit_price": ".176\n.176\n.175\n.860",
+      "line_item/amount": "25.80"
+    },
+    {
+      "line_item/description": "BULK TANK LIQUID LQ",
+      "line_item/unit_price": "126.32",
+      "line_item/amount": "126.32"
+    },
+    {
+      "line_item/description": "CARBON DIOXIDE CYL",
+      "line_item/unit_price": ".176",
+      "line_item/amount": ".00"
+    },
+    {
+      "line_item/description": "SAFETY & COMPLIANCE",
+      "line_item/unit_price": "7.05",
+      "line_item/amount": "7.05"
+    },
+    {
+      "line_item/description": "CYLINDER SURCHARGE",
+      "line_item/unit_price": "8.95",
+      "line_item/amount": "8.95"
+    }
+  ],
+  "fieldsConfidence": [
+    {
+      "field": "invoice_id",
+      "confidence": 0.9658331274986267
+    },
+    {
+      "field": "invoice_date",
+      "confidence": 0.9624028205871582
+    },
+    {
+      "field": "invoice_type",
+      "confidence": 0.7485549449920654
+    },
+    {
+      "field": "total_amount",
+      "confidence": 0.7488586902618408
+    },
+    {
+      "field": "supplier_address",
+      "confidence": 0.6634148359298706
+    },
+    {
+      "field": "payment_terms",
+      "confidence": 0.631593644618988
+    },
+    {
+      "field": "supplier_phone",
+      "confidence": 0.5363135933876038
+    },
+    {
+      "field": "supplier_name",
+      "confidence": 0.5233669877052307
+    },
+    {
+      "field": "remit_to_address",
+      "confidence": 0.3556905686855316
+    },
+    {
+      "field": "total_tax_amount",
+      "confidence": 0.16566866636276245
+    },
+    {
+      "field": "line_item.0.line_item/quantity",
+      "confidence": 0.5299961566925049
+    },
+    {
+      "field": "line_item.0.line_item/description",
+      "confidence": 0.6044667363166809
+    },
+    {
+      "field": "line_item.0.line_item/unit_price",
+      "confidence": 0.7298796772956848
+    },
+    {
+      "field": "line_item.0.line_item/amount",
+      "confidence": 0.7682726979255676
+    },
+    {
+      "field": "line_item.1.line_item/description",
+      "confidence": 0.5892212986946106
+    },
+    {
+      "field": "line_item.1.line_item/unit_price",
+      "confidence": 0.8362817168235779
+    },
+    {
+      "field": "line_item.1.line_item/amount",
+      "confidence": 0.7944962978363037
+    },
+    {
+      "field": "line_item.2.line_item/description",
+      "confidence": 0.4982471168041229
+    },
+    {
+      "field": "line_item.2.line_item/unit_price",
+      "confidence": 0.6702345609664917
+    },
+    {
+      "field": "line_item.2.line_item/amount",
+      "confidence": 0.008278513327240944
+    },
+    {
+      "field": "line_item.3.line_item/description",
+      "confidence": 0.5570830702781677
+    },
+    {
+      "field": "line_item.3.line_item/unit_price",
+      "confidence": 0.7683088183403015
+    },
+    {
+      "field": "line_item.3.line_item/amount",
+      "confidence": 0.7089534997940063
+    },
+    {
+      "field": "line_item.4.line_item/description",
+      "confidence": 0.51811683177948
+    },
+    {
+      "field": "line_item.4.line_item/unit_price",
+      "confidence": 0.8169257044792175
+    },
+    {
+      "field": "line_item.4.line_item/amount",
+      "confidence": 0.7274038195610046
+    }
+  ],
+  "receivedAt": "2024-12-18T02:18:39.620Z",
+  "processedAt": "2024-12-18T02:18:39.620Z",
+  "from": "",
+  "messageId": "",
+  "snippet": "",
+  "subject": "",
+  "emailDocId": ""
+}

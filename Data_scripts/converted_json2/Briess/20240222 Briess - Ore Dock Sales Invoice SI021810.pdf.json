@@ -1,0 +1,196 @@
+{
+  "invoice_id": "Si021810",
+  "due_date": "March 23, 2024",
+  "invoice_date": "February 22, 2024",
+  "total_amount": 1219.75,
+  "ship_to_address": "114 W Spring St. Marquette, MI 49855 Usa",
+  "supplier_name": "Briess Industries",
+  "supplier_address": "PO Box 88679 Milwaukee, WI 53288-8679",
+  "ship_to_name": "Ore Dock Brewing Company, Llc",
+  "supplier_phone": "(920) 849-7711",
+  "invoice_type": "",
+  "net_amount": 1219.75,
+  "payment_terms": "Mike Illig",
+  "carrier": "I-Tec Distribution Center",
+  "purchase_order": "So123095",
+  "receiver_address": "114 W Spring ST Marquette, MI 49855 Usa",
+  "freight_amount": 2050,
+  "line_items": [
+    {
+      "line_item/product_code": "5106",
+      "line_item/quantity": 1,
+      "line_item/unit": "Pound",
+      "line_item/unit_price": 0.49,
+      "line_item/amount": 24.5
+    },
+    {
+      "line_item/product_code": "5298",
+      "line_item/quantity": 40,
+      "line_item/unit": "Pound",
+      "line_item/unit_price": 0.52,
+      "line_item/amount": 1040
+    },
+    {
+      "line_item/product_code": "Plt-st",
+      "line_item/quantity": 1,
+      "line_item/unit": "Each",
+      "line_item/unit_price": 0
+    },
+    {
+      "line_item/product_code": "Freight",
+      "line_item/quantity": 1,
+      "line_item/unit": "Each",
+      "line_item/unit_price": 155.25,
+      "line_item/amount": 155.25
+    }
+  ],
+  "fieldsConfidence": [
+    {
+      "field": "Invoice_id",
+      "confidence": 0.9736799001693726
+    },
+    {
+      "field": "Due_date",
+      "confidence": 0.9696769714355469
+    },
+    {
+      "field": "Invoice_date",
+      "confidence": 0.9697429537773132
+    },
+    {
+      "field": "Total_amount",
+      "confidence": 0.9014449119567871
+    },
+    {
+      "field": "Ship_to_address",
+      "confidence": 0.8554738759994507
+    },
+    {
+      "field": "Supplier_name",
+      "confidence": 0.7892935276031494
+    },
+    {
+      "field": "Supplier_address",
+      "confidence": 0.7629459500312805
+    },
+    {
+      "field": "Ship_to_name",
+      "confidence": 0.7458713054656982
+    },
+    {
+      "field": "Supplier_phone",
+      "confidence": 0.6679926514625549
+    },
+    {
+      "field": "Invoice_type",
+      "confidence": 0.6412686109542847
+    },
+    {
+      "field": "Net_amount",
+      "confidence": 0.46702808141708374
+    },
+    {
+      "field": "Payment_terms",
+      "confidence": 0.4642243981361389
+    },
+    {
+      "field": "Carrier",
+      "confidence": 0.44186046719551086
+    },
+    {
+      "field": "Purchase_order",
+      "confidence": 0.2969987690448761
+    },
+    {
+      "field": "Receiver_address",
+      "confidence": 0.2781505882740021
+    },
+    {
+      "field": "Freight_amount",
+      "confidence": 0.250306636095047
+    },
+    {
+      "field": "Line_item.0.line_item/product_code",
+      "confidence": 0.6200937032699585
+    },
+    {
+      "field": "Line_item.0.line_item/quantity",
+      "confidence": 0.47800785303115845
+    },
+    {
+      "field": "Line_item.0.line_item/unit",
+      "confidence": 0.7919818758964539
+    },
+    {
+      "field": "Line_item.0.line_item/unit_price",
+      "confidence": 0.8155407309532166
+    },
+    {
+      "field": "Line_item.0.line_item/amount",
+      "confidence": 0.8414819240570068
+    },
+    {
+      "field": "Line_item.1.line_item/product_code",
+      "confidence": 0.6953326463699341
+    },
+    {
+      "field": "Line_item.1.line_item/quantity",
+      "confidence": 0.36941081285476685
+    },
+    {
+      "field": "Line_item.1.line_item/unit",
+      "confidence": 0.8208967447280884
+    },
+    {
+      "field": "Line_item.1.line_item/unit_price",
+      "confidence": 0.816307544708252
+    },
+    {
+      "field": "Line_item.1.line_item/amount",
+      "confidence": 0.8742499947547913
+    },
+    {
+      "field": "Line_item.2.line_item/product_code",
+      "confidence": 0.5902764201164246
+    },
+    {
+      "field": "Line_item.2.line_item/quantity",
+      "confidence": 0.624269425868988
+    },
+    {
+      "field": "Line_item.2.line_item/unit",
+      "confidence": 0.8212370276451111
+    },
+    {
+      "field": "Line_item.2.line_item/unit_price",
+      "confidence": 0.6141567826271057
+    },
+    {
+      "field": "Line_item.3.line_item/product_code",
+      "confidence": 0.6600856781005859
+    },
+    {
+      "field": "Line_item.3.line_item/quantity",
+      "confidence": 0.7867532968521118
+    },
+    {
+      "field": "Line_item.3.line_item/unit",
+      "confidence": 0.8552265763282776
+    },
+    {
+      "field": "Line_item.3.line_item/unit_price",
+      "confidence": 0.5164673328399658
+    },
+    {
+      "field": "Line_item.3.line_item/amount",
+      "confidence": 0.8367247581481934
+    }
+  ],
+  "receivedAt": "2024-12-18t02:18:39.438z",
+  "processedAt": "2024-12-18t02:18:39.438z",
+  "from": "",
+  "messageId": "",
+  "snippet": "",
+  "subject": "",
+  "emailDocId": ""
+}
