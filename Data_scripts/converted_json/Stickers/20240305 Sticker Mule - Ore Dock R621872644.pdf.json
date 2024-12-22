@@ -1,0 +1,100 @@
+{
+  "supplier_address": "336 Forest Ave, Amsterdam, NY 12010",
+  "invoice_date": "March 05, 2024",
+  "supplier_name": "Sticker Mule, LLC",
+  "total_amount": "19",
+  "net_amount": "40",
+  "ship_to_address": "114 W Spring St\nMarquette\nMI 49855\nUnited States",
+  "invoice_type": "",
+  "receiver_name": "Kris Wierenga",
+  "currency": "$",
+  "ship_to_name": "Kris Wierenga",
+  "receiver_address": "114 W Spring St\nMarquette\nMI 49855",
+  "freight_amount": "0",
+  "supplier_website": "stickermule.com",
+  "supplier_tax_id": "R621872644",
+  "line_items": [
+    {
+      "line_item/description": "2.25\" Round buttons",
+      "line_item/quantity": "50",
+      "line_item/amount": "40"
+    }
+  ],
+  "fieldsConfidence": [
+    {
+      "field": "supplier_address",
+      "confidence": 0.8614630699157715
+    },
+    {
+      "field": "invoice_date",
+      "confidence": 0.8223444223403931
+    },
+    {
+      "field": "supplier_name",
+      "confidence": 0.7740134596824646
+    },
+    {
+      "field": "total_amount",
+      "confidence": 0.762730598449707
+    },
+    {
+      "field": "net_amount",
+      "confidence": 0.7304471731185913
+    },
+    {
+      "field": "ship_to_address",
+      "confidence": 0.7215080261230469
+    },
+    {
+      "field": "invoice_type",
+      "confidence": 0.71547532081604
+    },
+    {
+      "field": "receiver_name",
+      "confidence": 0.6395922899246216
+    },
+    {
+      "field": "currency",
+      "confidence": 0.5825302004814148
+    },
+    {
+      "field": "ship_to_name",
+      "confidence": 0.43475204706192017
+    },
+    {
+      "field": "receiver_address",
+      "confidence": 0.42054733633995056
+    },
+    {
+      "field": "freight_amount",
+      "confidence": 0.3201740086078644
+    },
+    {
+      "field": "supplier_website",
+      "confidence": 0.14605338871479034
+    },
+    {
+      "field": "supplier_tax_id",
+      "confidence": 0.0820644274353981
+    },
+    {
+      "field": "line_item.0.line_item/description",
+      "confidence": 0.4873237609863281
+    },
+    {
+      "field": "line_item.0.line_item/quantity",
+      "confidence": 0.7341962456703186
+    },
+    {
+      "field": "line_item.0.line_item/amount",
+      "confidence": 0.8738856315612793
+    }
+  ],
+  "receivedAt": "2024-12-18T02:18:39.796Z",
+  "processedAt": "2024-12-18T02:18:39.796Z",
+  "from": "",
+  "messageId": "",
+  "snippet": "",
+  "subject": "",
+  "emailDocId": ""
+}

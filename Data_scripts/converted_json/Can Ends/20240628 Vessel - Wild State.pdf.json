@@ -1,0 +1,147 @@
+{
+  "invoice_date": "28-Jun-2024",
+  "due_date": "01-Aug-2024",
+  "net_amount": "21,511.04",
+  "invoice_id": "INV21792",
+  "currency": "USD",
+  "ship_to_address": "2515 W Superior St\nDuluth MN 55806\nUnited States",
+  "total_amount": "22,346.33",
+  "supplier_tax_id": "1229319023",
+  "ship_to_name": "Wild State Cider (USD)",
+  "receiver_name": "Wild State Cider",
+  "supplier_address": "8250 Borden Street\nVancouver BC V5P 3E7",
+  "payment_terms": "Net 30",
+  "receiver_address": "500 S 29th Ave W\nDuluth MN 55806\nUnited States",
+  "invoice_type": "",
+  "supplier_name": "Vessel BC Head Office",
+  "purchase_order": "2740",
+  "total_tax_amount": "835.29",
+  "line_items": [
+    {
+      "line_item/description": "Ends 202 - Crown LOE 10\nState BPA-NI",
+      "line_item/unit_price": "0.0305",
+      "line_item/amount": "21,511.04",
+      "line_item/quantity": "705,280"
+    },
+    {
+      "line_item/quantity": "2",
+      "line_item/product_code": "Dunnage - Crown Pallet",
+      "line_item/description": "Dunnage Crown Pallet",
+      "line_item/unit_price": "0.00",
+      "line_item/amount": "0.00"
+    }
+  ],
+  "fieldsConfidence": [
+    {
+      "field": "invoice_date",
+      "confidence": 0.9865560531616211
+    },
+    {
+      "field": "due_date",
+      "confidence": 0.9633849263191223
+    },
+    {
+      "field": "net_amount",
+      "confidence": 0.9624504446983337
+    },
+    {
+      "field": "invoice_id",
+      "confidence": 0.9561159610748291
+    },
+    {
+      "field": "currency",
+      "confidence": 0.9059463739395142
+    },
+    {
+      "field": "ship_to_address",
+      "confidence": 0.9067081809043884
+    },
+    {
+      "field": "total_amount",
+      "confidence": 0.8381778597831726
+    },
+    {
+      "field": "supplier_tax_id",
+      "confidence": 0.808577835559845
+    },
+    {
+      "field": "ship_to_name",
+      "confidence": 0.7661888003349304
+    },
+    {
+      "field": "receiver_name",
+      "confidence": 0.6225484013557434
+    },
+    {
+      "field": "supplier_address",
+      "confidence": 0.5419350862503052
+    },
+    {
+      "field": "payment_terms",
+      "confidence": 0.5342886447906494
+    },
+    {
+      "field": "receiver_address",
+      "confidence": 0.49439817667007446
+    },
+    {
+      "field": "invoice_type",
+      "confidence": 0.4888341426849365
+    },
+    {
+      "field": "supplier_name",
+      "confidence": 0.41215780377388
+    },
+    {
+      "field": "purchase_order",
+      "confidence": 0.3102942407131195
+    },
+    {
+      "field": "total_tax_amount",
+      "confidence": 0.20941419899463654
+    },
+    {
+      "field": "line_item.0.line_item/description",
+      "confidence": 0.5444313883781433
+    },
+    {
+      "field": "line_item.0.line_item/unit_price",
+      "confidence": 0.8668075203895569
+    },
+    {
+      "field": "line_item.0.line_item/amount",
+      "confidence": 0.9248042702674866
+    },
+    {
+      "field": "line_item.0.line_item/quantity",
+      "confidence": 0.9759784936904907
+    },
+    {
+      "field": "line_item.1.line_item/quantity",
+      "confidence": 0.74638432264328
+    },
+    {
+      "field": "line_item.1.line_item/product_code",
+      "confidence": 0.7215060591697693
+    },
+    {
+      "field": "line_item.1.line_item/description",
+      "confidence": 0.5010337233543396
+    },
+    {
+      "field": "line_item.1.line_item/unit_price",
+      "confidence": 0.8881945610046387
+    },
+    {
+      "field": "line_item.1.line_item/amount",
+      "confidence": 0.8204376697540283
+    }
+  ],
+  "receivedAt": "2024-12-18T02:18:39.480Z",
+  "processedAt": "2024-12-18T02:18:39.480Z",
+  "from": "",
+  "messageId": "",
+  "snippet": "",
+  "subject": "",
+  "emailDocId": ""
+}

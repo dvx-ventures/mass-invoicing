@@ -1,0 +1,112 @@
+{
+  "invoice_id": "175573",
+  "due_date": "5/16/24",
+  "invoice_date": "5/1/24",
+  "total_amount": "305.00",
+  "invoice_type": "",
+  "receiver_name": "Ore Dock Brewing Company",
+  "supplier_address": "83 Eagle Mills Road, Negaunee, MI 49866",
+  "receiver_address": "114 Spring Street\nMarquette, MI 49855",
+  "remit_to_name": "North Country Disposal, Inc.",
+  "supplier_name": "NORTH\nCOUNTRY",
+  "supplier_phone": "906-249-4500",
+  "line_items": [
+    {
+      "line_item/unit": "Yard",
+      "line_item/description": "Service for May (Twice a week)",
+      "line_item/unit_price": "180.00",
+      "line_item/amount": "180.00"
+    },
+    {
+      "line_item/quantity": "2",
+      "line_item/description": "Service for May (Twice a week)",
+      "line_item/unit_price": "125.00",
+      "line_item/amount": "125.00"
+    }
+  ],
+  "fieldsConfidence": [
+    {
+      "field": "invoice_id",
+      "confidence": 0.9678664207458496
+    },
+    {
+      "field": "due_date",
+      "confidence": 0.9497010707855225
+    },
+    {
+      "field": "invoice_date",
+      "confidence": 0.8513624668121338
+    },
+    {
+      "field": "total_amount",
+      "confidence": 0.8139848113059998
+    },
+    {
+      "field": "invoice_type",
+      "confidence": 0.734982430934906
+    },
+    {
+      "field": "receiver_name",
+      "confidence": 0.6765788197517395
+    },
+    {
+      "field": "supplier_address",
+      "confidence": 0.6475526094436646
+    },
+    {
+      "field": "receiver_address",
+      "confidence": 0.5255483984947205
+    },
+    {
+      "field": "remit_to_name",
+      "confidence": 0.40667974948883057
+    },
+    {
+      "field": "supplier_name",
+      "confidence": 0.3768053352832794
+    },
+    {
+      "field": "supplier_phone",
+      "confidence": 0.30800437927246094
+    },
+    {
+      "field": "line_item.0.line_item/unit",
+      "confidence": 0.19708040356636047
+    },
+    {
+      "field": "line_item.0.line_item/description",
+      "confidence": 0.6656571626663208
+    },
+    {
+      "field": "line_item.0.line_item/unit_price",
+      "confidence": 0.8928402066230774
+    },
+    {
+      "field": "line_item.0.line_item/amount",
+      "confidence": 0.8767293691635132
+    },
+    {
+      "field": "line_item.1.line_item/quantity",
+      "confidence": 0.15649349987506866
+    },
+    {
+      "field": "line_item.1.line_item/description",
+      "confidence": 0.4685238301753998
+    },
+    {
+      "field": "line_item.1.line_item/unit_price",
+      "confidence": 0.8765625357627869
+    },
+    {
+      "field": "line_item.1.line_item/amount",
+      "confidence": 0.8882663249969482
+    }
+  ],
+  "receivedAt": "2024-12-18T02:18:39.818Z",
+  "processedAt": "2024-12-18T02:18:39.818Z",
+  "from": "",
+  "messageId": "",
+  "snippet": "",
+  "subject": "",
+  "emailDocId": ""
+}

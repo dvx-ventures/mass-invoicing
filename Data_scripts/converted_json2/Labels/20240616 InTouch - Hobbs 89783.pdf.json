@@ -1,0 +1,159 @@
+{
+  "net_amount": 650.98,
+  "due_date": "6/16/2024",
+  "invoice_date": "5/17/2024",
+  "invoice_id": "89783",
+  "total_tax_amount": 0,
+  "ship_to_address": "2415 NH Route 16 West Ossipee, NH 03890",
+  "receiver_name": "Hobbs Tavern and Brewing Company",
+  "ship_to_name": "Hobbs Brewing Company",
+  "supplier_name": "Avery Products Corporation",
+  "supplier_address": "12 Technology Drive North Chelmsford, MA 01863",
+  "currency": "$",
+  "payment_terms": "Net 30",
+  "invoice_type": "",
+  "carrier": "Ups",
+  "receiver_address": "765 NH 16 Ossipee, NH 03864",
+  "line_items": [
+    {
+      "line_item/unit_price": 0.09,
+      "line_item/amount": 205.92,
+      "line_item/description": "12oz Tommy Golf",
+      "line_item/quantity": 2400
+    },
+    {
+      "line_item/description": "Manatee Dunkel",
+      "line_item/quantity": 4800,
+      "line_item/unit_price": 0.09,
+      "line_item/amount": 411.84
+    },
+    {
+      "line_item/quantity": 1,
+      "line_item/product_code": "Shipping",
+      "line_item/description": "UPS Ground",
+      "line_item/unit_price": 33.22,
+      "line_item/amount": 33.22
+    }
+  ],
+  "fieldsConfidence": [
+    {
+      "field": "Net_amount",
+      "confidence": 0.9810770750045776
+    },
+    {
+      "field": "Due_date",
+      "confidence": 0.975625216960907
+    },
+    {
+      "field": "Invoice_date",
+      "confidence": 0.9640370011329651
+    },
+    {
+      "field": "Invoice_id",
+      "confidence": 0.9461809992790222
+    },
+    {
+      "field": "Total_tax_amount",
+      "confidence": 0.9454454779624939
+    },
+    {
+      "field": "Ship_to_address",
+      "confidence": 0.9239459037780762
+    },
+    {
+      "field": "Receiver_name",
+      "confidence": 0.7599373459815979
+    },
+    {
+      "field": "Ship_to_name",
+      "confidence": 0.7594311237335205
+    },
+    {
+      "field": "Supplier_name",
+      "confidence": 0.6108274459838867
+    },
+    {
+      "field": "Supplier_address",
+      "confidence": 0.5784388780593872
+    },
+    {
+      "field": "Currency",
+      "confidence": 0.5620306134223938
+    },
+    {
+      "field": "Payment_terms",
+      "confidence": 0.46084004640579224
+    },
+    {
+      "field": "Invoice_type",
+      "confidence": 0.4540421664714813
+    },
+    {
+      "field": "Carrier",
+      "confidence": 0.44186046719551086
+    },
+    {
+      "field": "Receiver_address",
+      "confidence": 0.3645031452178955
+    },
+    {
+      "field": "Line_item.0.line_item/unit_price",
+      "confidence": 0.9343002438545227
+    },
+    {
+      "field": "Line_item.0.line_item/amount",
+      "confidence": 0.8892399668693542
+    },
+    {
+      "field": "Line_item.0.line_item/description",
+      "confidence": 0.4692782461643219
+    },
+    {
+      "field": "Line_item.0.line_item/quantity",
+      "confidence": 0.9629923105239868
+    },
+    {
+      "field": "Line_item.1.line_item/description",
+      "confidence": 0.43302884697914124
+    },
+    {
+      "field": "Line_item.1.line_item/quantity",
+      "confidence": 0.9562126398086548
+    },
+    {
+      "field": "Line_item.1.line_item/unit_price",
+      "confidence": 0.9141562581062317
+    },
+    {
+      "field": "Line_item.1.line_item/amount",
+      "confidence": 0.8945304751396179
+    },
+    {
+      "field": "Line_item.2.line_item/quantity",
+      "confidence": 0.9537995457649231
+    },
+    {
+      "field": "Line_item.2.line_item/product_code",
+      "confidence": 0.47117841243743896
+    },
+    {
+      "field": "Line_item.2.line_item/description",
+      "confidence": 0.4133339524269104
+    },
+    {
+      "field": "Line_item.2.line_item/unit_price",
+      "confidence": 0.9315191507339478
+    },
+    {
+      "field": "Line_item.2.line_item/amount",
+      "confidence": 0.90318763256073
+    }
+  ],
+  "receivedAt": "2024-12-18t02:18:39.708z",
+  "processedAt": "2024-12-18t02:18:39.708z",
+  "from": "",
+  "messageId": "",
+  "snippet": "",
+  "subject": "",
+  "emailDocId": ""
+}

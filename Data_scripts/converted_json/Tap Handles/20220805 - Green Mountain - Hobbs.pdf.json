@@ -1,0 +1,169 @@
+{
+  "invoice_id": "10383",
+  "invoice_date": "8/5/2022",
+  "due_date": "8/5/2022",
+  "supplier_email": "accounting@greenmountaintaps.com",
+  "supplier_address": "PO Box 371\nHinsdale, NH 03451",
+  "supplier_website": "www.greenmountaintaps.com",
+  "invoice_type": "",
+  "receiver_name": "Hobbs Tavern & Brewing Co.",
+  "ship_to_name": "ewing Co.\nHobbs \nTavern \n&",
+  "ship_to_address": "765 \nNH\n-\n16\nOssipee\n,\nNH \n03864",
+  "total_amount": "1,043.40",
+  "supplier_phone": "(603) 336-5555",
+  "currency": "$",
+  "payment_terms": "Upon Receipt",
+  "carrier": "UPS",
+  "purchase_order": "3562",
+  "receiver_address": "765 NH-16\nOssipee,NH 03864",
+  "supplier_name": "Mountain\nTaps\nGreen",
+  "line_items": [
+    {
+      "line_item/product_code": "Hobbs",
+      "line_item/quantity": "104",
+      "line_item/unit_price": "23.00",
+      "line_item/amount": "2,392.00",
+      "line_item/description": "HOBBSB-TAP-1001\nHOBBS CAST TAP HANDLE"
+    },
+    {
+      "line_item/description": "LESS 50% deposit required to begin production of order",
+      "line_item/quantity": "-100",
+      "line_item/unit_price": "13.93",
+      "line_item/amount": "-1,393.00"
+    },
+    {
+      "line_item/description": "Shipping & Handl... UPS Shipping & Handling: 8/5/2022",
+      "line_item/unit_price": "44.40",
+      "line_item/amount": "44.40"
+    }
+  ],
+  "fieldsConfidence": [
+    {
+      "field": "invoice_id",
+      "confidence": 0.9648920297622681
+    },
+    {
+      "field": "invoice_date",
+      "confidence": 0.9589025378227234
+    },
+    {
+      "field": "due_date",
+      "confidence": 0.9469360709190369
+    },
+    {
+      "field": "supplier_email",
+      "confidence": 0.8777161836624146
+    },
+    {
+      "field": "supplier_address",
+      "confidence": 0.8295208215713501
+    },
+    {
+      "field": "supplier_website",
+      "confidence": 0.82033371925354
+    },
+    {
+      "field": "invoice_type",
+      "confidence": 0.7718695402145386
+    },
+    {
+      "field": "receiver_name",
+      "confidence": 0.7142577171325684
+    },
+    {
+      "field": "ship_to_name",
+      "confidence": 0.6635895371437073
+    },
+    {
+      "field": "ship_to_address",
+      "confidence": 0.652391254901886
+    },
+    {
+      "field": "total_amount",
+      "confidence": 0.5803819894790649
+    },
+    {
+      "field": "supplier_phone",
+      "confidence": 0.5566413998603821
+    },
+    {
+      "field": "currency",
+      "confidence": 0.5420331358909607
+    },
+    {
+      "field": "payment_terms",
+      "confidence": 0.44526928663253784
+    },
+    {
+      "field": "carrier",
+      "confidence": 0.44186046719551086
+    },
+    {
+      "field": "purchase_order",
+      "confidence": 0.3967331349849701
+    },
+    {
+      "field": "receiver_address",
+      "confidence": 0.23413121700286865
+    },
+    {
+      "field": "supplier_name",
+      "confidence": 0.17906364798545837
+    },
+    {
+      "field": "line_item.0.line_item/product_code",
+      "confidence": 0.5673444271087646
+    },
+    {
+      "field": "line_item.0.line_item/quantity",
+      "confidence": 0.8651120662689209
+    },
+    {
+      "field": "line_item.0.line_item/unit_price",
+      "confidence": 0.9204071164131165
+    },
+    {
+      "field": "line_item.0.line_item/amount",
+      "confidence": 0.9164183735847473
+    },
+    {
+      "field": "line_item.0.line_item/description",
+      "confidence": 0.546830415725708
+    },
+    {
+      "field": "line_item.1.line_item/description",
+      "confidence": 0.5656169652938843
+    },
+    {
+      "field": "line_item.1.line_item/quantity",
+      "confidence": 0.9599153995513916
+    },
+    {
+      "field": "line_item.1.line_item/unit_price",
+      "confidence": 0.8983522057533264
+    },
+    {
+      "field": "line_item.1.line_item/amount",
+      "confidence": 0.8782525658607483
+    },
+    {
+      "field": "line_item.2.line_item/description",
+      "confidence": 0.5509513020515442
+    },
+    {
+      "field": "line_item.2.line_item/unit_price",
+      "confidence": 0.8817358016967773
+    },
+    {
+      "field": "line_item.2.line_item/amount",
+      "confidence": 0.7647843360900879
+    }
+  ],
+  "receivedAt": "2024-12-18T02:18:39.802Z",
+  "processedAt": "2024-12-18T02:18:39.802Z",
+  "from": "",
+  "messageId": "",
+  "snippet": "",
+  "subject": "",
+  "emailDocId": ""
+}

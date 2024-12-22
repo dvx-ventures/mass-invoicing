@@ -1,0 +1,230 @@
+{
+  "net_amount": 931.79,
+  "invoice_date": "6/2/2023",
+  "due_date": "7/2/2023",
+  "invoice_id": "75543",
+  "total_tax_amount": 0,
+  "ship_to_address": "2415 NH Route 16 West Ossipee, NH 03890",
+  "ship_to_name": "Hobbs Brewing Company",
+  "receiver_name": "Hobbs Tavern and Brewing Company",
+  "invoice_type": "",
+  "supplier_name": "Avery Products Corporation",
+  "supplier_address": "12 Technology Drive North Chelmsford, MA 01863",
+  "currency": "$",
+  "total_amount": 931.79,
+  "payment_terms": "Net 30",
+  "carrier": "Ups",
+  "receiver_address": "765 NH 16 Ossipee, NH 03864",
+  "line_items": [
+    {
+      "line_item/description": "Labels Lake Life 16oz",
+      "line_item/quantity": 2000,
+      "line_item/amount": 180,
+      "line_item/unit_price": 0.09
+    },
+    {
+      "line_item/amount": 216,
+      "line_item/description": "Jacked Up 16oz",
+      "line_item/quantity": 2400,
+      "line_item/unit_price": 0.09
+    },
+    {
+      "line_item/description": "La Fresh 16oz",
+      "line_item/quantity": 800,
+      "line_item/unit_price": 0.09,
+      "line_item/amount": 72
+    },
+    {
+      "line_item/unit_price": 0.09,
+      "line_item/description": "Labels Pitch-A-Tent 16oz",
+      "line_item/quantity": 1200,
+      "line_item/amount": 108
+    },
+    {
+      "line_item/unit_price": 0.09,
+      "line_item/amount": 72,
+      "line_item/quantity": 800,
+      "line_item/description": "Camp Life NEIPA 16oz"
+    },
+    {
+      "line_item/description": "UPS Saturday Delivery",
+      "line_item/unit_price": 67.79,
+      "line_item/product_code": "Shipping",
+      "line_item/quantity": 1,
+      "line_item/amount": 67.79
+    }
+  ],
+  "fieldsConfidence": [
+    {
+      "field": "Net_amount",
+      "confidence": 0.9811030626296997
+    },
+    {
+      "field": "Invoice_date",
+      "confidence": 0.972195029258728
+    },
+    {
+      "field": "Due_date",
+      "confidence": 0.9645737409591675
+    },
+    {
+      "field": "Invoice_id",
+      "confidence": 0.9524498581886292
+    },
+    {
+      "field": "Total_tax_amount",
+      "confidence": 0.9314382672309875
+    },
+    {
+      "field": "Ship_to_address",
+      "confidence": 0.92385333776474
+    },
+    {
+      "field": "Ship_to_name",
+      "confidence": 0.765698254108429
+    },
+    {
+      "field": "Receiver_name",
+      "confidence": 0.7623850703239441
+    },
+    {
+      "field": "Invoice_type",
+      "confidence": 0.737241804599762
+    },
+    {
+      "field": "Supplier_name",
+      "confidence": 0.6298268437385559
+    },
+    {
+      "field": "Supplier_address",
+      "confidence": 0.6261803507804871
+    },
+    {
+      "field": "Currency",
+      "confidence": 0.5933080911636353
+    },
+    {
+      "field": "Total_amount",
+      "confidence": 0.5842344760894775
+    },
+    {
+      "field": "Payment_terms",
+      "confidence": 0.47854965925216675
+    },
+    {
+      "field": "Carrier",
+      "confidence": 0.44186046719551086
+    },
+    {
+      "field": "Receiver_address",
+      "confidence": 0.3605608344078064
+    },
+    {
+      "field": "Line_item.0.line_item/description",
+      "confidence": 0.6734623908996582
+    },
+    {
+      "field": "Line_item.0.line_item/quantity",
+      "confidence": 0.9710193872451782
+    },
+    {
+      "field": "Line_item.0.line_item/amount",
+      "confidence": 0.8639134168624878
+    },
+    {
+      "field": "Line_item.0.line_item/unit_price",
+      "confidence": 0.9046727418899536
+    },
+    {
+      "field": "Line_item.1.line_item/amount",
+      "confidence": 0.8649438619613647
+    },
+    {
+      "field": "Line_item.1.line_item/description",
+      "confidence": 0.6652870774269104
+    },
+    {
+      "field": "Line_item.1.line_item/quantity",
+      "confidence": 0.9482157826423645
+    },
+    {
+      "field": "Line_item.1.line_item/unit_price",
+      "confidence": 0.8990989923477173
+    },
+    {
+      "field": "Line_item.2.line_item/description",
+      "confidence": 0.5925180315971375
+    },
+    {
+      "field": "Line_item.2.line_item/quantity",
+      "confidence": 0.8158840537071228
+    },
+    {
+      "field": "Line_item.2.line_item/unit_price",
+      "confidence": 0.8934930562973022
+    },
+    {
+      "field": "Line_item.2.line_item/amount",
+      "confidence": 0.8610198497772217
+    },
+    {
+      "field": "Line_item.3.line_item/unit_price",
+      "confidence": 0.872366726398468
+    },
+    {
+      "field": "Line_item.3.line_item/description",
+      "confidence": 0.6323671936988831
+    },
+    {
+      "field": "Line_item.3.line_item/quantity",
+      "confidence": 0.8959833383560181
+    },
+    {
+      "field": "Line_item.3.line_item/amount",
+      "confidence": 0.8236245512962341
+    },
+    {
+      "field": "Line_item.4.line_item/unit_price",
+      "confidence": 0.6498489379882812
+    },
+    {
+      "field": "Line_item.4.line_item/amount",
+      "confidence": 0.8390713334083557
+    },
+    {
+      "field": "Line_item.4.line_item/quantity",
+      "confidence": 0.6823154091835022
+    },
+    {
+      "field": "Line_item.4.line_item/description",
+      "confidence": 0.44352930784225464
+    },
+    {
+      "field": "Line_item.5.line_item/description",
+      "confidence": 0.5429081320762634
+    },
+    {
+      "field": "Line_item.5.line_item/unit_price",
+      "confidence": 0.7437419891357422
+    },
+    {
+      "field": "Line_item.5.line_item/product_code",
+      "confidence": 0.5867445468902588
+    },
+    {
+      "field": "Line_item.5.line_item/quantity",
+      "confidence": 0.7886844873428345
+    },
+    {
+      "field": "Line_item.5.line_item/amount",
+      "confidence": 0.851311206817627
+    }
+  ],
+  "receivedAt": "2024-12-18t02:18:39.669z",
+  "processedAt": "2024-12-18t02:18:39.669z",
+  "from": "",
+  "messageId": "",
+  "snippet": "",
+  "subject": "",
+  "emailDocId": ""
+}

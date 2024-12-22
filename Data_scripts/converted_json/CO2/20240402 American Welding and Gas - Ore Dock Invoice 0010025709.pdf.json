@@ -1,0 +1,244 @@
+{
+  "vat": {
+    "vat/amount": "0.00"
+  },
+  "invoice_date": "04/02/24",
+  "total_amount": "760.74",
+  "net_amount": "760.74",
+  "invoice_id": "0010025709",
+  "remit_to_name": "AMERICAN WELDING & GAS, INC.",
+  "payment_terms": "30 DAYS\nINITIALS DG",
+  "supplier_address": "114 W SPRING ST\nMARQUETTE MI 49805",
+  "supplier_name": "BORE DOCK BREWING COMPANY LLC",
+  "invoice_type": "",
+  "remit_to_address": "PO BOX 779009\nCHICAGO IL 60677-9009",
+  "purchase_order": "0007922906-",
+  "supplier_phone": "(906) 334-2977",
+  "supplier_tax_id": "000000000000131",
+  "line_items": [
+    {
+      "line_item/quantity": "0",
+      "line_item/unit": "CYL",
+      "line_item/unit_price": "20.768",
+      "line_item/amount": "20.77N"
+    },
+    {
+      "line_item/description": "79229060401NI T",
+      "line_item/quantity": "2",
+      "line_item/unit": "CYL",
+      "line_item/unit_price": "81.56",
+      "line_item/amount": "163.12N"
+    },
+    {
+      "line_item/description": "79229060401CD BULK",
+      "line_item/unit": "LB",
+      "line_item/unit_price": "0.395472",
+      "line_item/amount": "524.00N"
+    },
+    {
+      "line_item/quantity": "608"
+    },
+    {
+      "line_item/quantity": "1",
+      "line_item/unit": "EA",
+      "line_item/description": "HAZARDOUS MATERIAL FEE AWG",
+      "line_item/unit_price": "7.05",
+      "line_item/amount": "7.05N"
+    },
+    {
+      "line_item/quantity": "1",
+      "line_item/description": "DELIVERY CHARGE",
+      "line_item/unit": "EA",
+      "line_item/unit_price": "37.30",
+      "line_item/amount": "37.30N"
+    },
+    {
+      "line_item/description": "FUEL SURCHARGE GAS & HARDGOODS",
+      "line_item/unit_price": "8.50",
+      "line_item/amount": "8.50N",
+      "line_item/quantity": "1",
+      "line_item/unit": "EA"
+    }
+  ],
+  "fieldsConfidence": [
+    {
+      "field": "vat.vat/amount",
+      "confidence": 0.1337827742099762
+    },
+    {
+      "field": "invoice_date",
+      "confidence": 0.9554862380027771
+    },
+    {
+      "field": "total_amount",
+      "confidence": 0.9132854342460632
+    },
+    {
+      "field": "net_amount",
+      "confidence": 0.9089500308036804
+    },
+    {
+      "field": "invoice_id",
+      "confidence": 0.8491989970207214
+    },
+    {
+      "field": "remit_to_name",
+      "confidence": 0.8198343515396118
+    },
+    {
+      "field": "payment_terms",
+      "confidence": 0.7754606008529663
+    },
+    {
+      "field": "supplier_address",
+      "confidence": 0.6194875240325928
+    },
+    {
+      "field": "supplier_name",
+      "confidence": 0.598008394241333
+    },
+    {
+      "field": "invoice_type",
+      "confidence": 0.4966500401496887
+    },
+    {
+      "field": "remit_to_address",
+      "confidence": 0.4933127760887146
+    },
+    {
+      "field": "purchase_order",
+      "confidence": 0.46398496627807617
+    },
+    {
+      "field": "supplier_phone",
+      "confidence": 0.412922203540802
+    },
+    {
+      "field": "supplier_tax_id",
+      "confidence": 0.15532086789608002
+    },
+    {
+      "field": "line_item.0.line_item/quantity",
+      "confidence": 0.35037508606910706
+    },
+    {
+      "field": "line_item.0.line_item/unit",
+      "confidence": 0.7718184590339661
+    },
+    {
+      "field": "line_item.0.line_item/unit_price",
+      "confidence": 0.934441089630127
+    },
+    {
+      "field": "line_item.0.line_item/amount",
+      "confidence": 0.8864182829856873
+    },
+    {
+      "field": "line_item.1.line_item/description",
+      "confidence": 0.531913161277771
+    },
+    {
+      "field": "line_item.1.line_item/quantity",
+      "confidence": 0.3836591839790344
+    },
+    {
+      "field": "line_item.1.line_item/unit",
+      "confidence": 0.7840089797973633
+    },
+    {
+      "field": "line_item.1.line_item/unit_price",
+      "confidence": 0.9344465732574463
+    },
+    {
+      "field": "line_item.1.line_item/amount",
+      "confidence": 0.9036446809768677
+    },
+    {
+      "field": "line_item.2.line_item/description",
+      "confidence": 0.5209667682647705
+    },
+    {
+      "field": "line_item.2.line_item/unit",
+      "confidence": 0.6558452248573303
+    },
+    {
+      "field": "line_item.2.line_item/unit_price",
+      "confidence": 0.8659719228744507
+    },
+    {
+      "field": "line_item.2.line_item/amount",
+      "confidence": 0.8964306712150574
+    },
+    {
+      "field": "line_item.3.line_item/quantity",
+      "confidence": 0.30459997057914734
+    },
+    {
+      "field": "line_item.4.line_item/quantity",
+      "confidence": 0.41539284586906433
+    },
+    {
+      "field": "line_item.4.line_item/unit",
+      "confidence": 0.6832233667373657
+    },
+    {
+      "field": "line_item.4.line_item/description",
+      "confidence": 0.6198097467422485
+    },
+    {
+      "field": "line_item.4.line_item/unit_price",
+      "confidence": 0.831904411315918
+    },
+    {
+      "field": "line_item.4.line_item/amount",
+      "confidence": 0.6930133104324341
+    },
+    {
+      "field": "line_item.5.line_item/quantity",
+      "confidence": 0.5206948518753052
+    },
+    {
+      "field": "line_item.5.line_item/description",
+      "confidence": 0.5694409012794495
+    },
+    {
+      "field": "line_item.5.line_item/unit",
+      "confidence": 0.8554713726043701
+    },
+    {
+      "field": "line_item.5.line_item/unit_price",
+      "confidence": 0.8610628843307495
+    },
+    {
+      "field": "line_item.5.line_item/amount",
+      "confidence": 0.7596793174743652
+    },
+    {
+      "field": "line_item.6.line_item/description",
+      "confidence": 0.5241224765777588
+    },
+    {
+      "field": "line_item.6.line_item/unit_price",
+      "confidence": 0.8400204181671143
+    },
+    {
+      "field": "line_item.6.line_item/amount",
+      "confidence": 0.5512128472328186
+    },
+    {
+      "field": "line_item.6.line_item/quantity",
+      "confidence": 0.4420457184314728
+    },
+    {
+      "field": "line_item.6.line_item/unit",
+      "confidence": 0.8034675717353821
+    }
+  ],
+  "receivedAt": "2024-12-18T02:18:39.617Z",
+  "processedAt": "2024-12-18T02:18:39.617Z",
+  "from": "",
+  "messageId": "",
+  "snippet": "",
+  "subject": "",
+  "emailDocId": ""
+}

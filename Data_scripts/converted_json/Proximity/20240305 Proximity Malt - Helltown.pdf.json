@@ -1,0 +1,175 @@
+{
+  "invoice_type": "",
+  "invoice_date": "Mar-05-2024",
+  "net_amount": "3,510.00",
+  "total_amount": "3,510.00",
+  "invoice_id": "00042410 R3",
+  "supplier_address": "644 South 5th Street\nMilwaukee, WI 53204",
+  "currency": "USD",
+  "payment_terms": "30 Days (A Service Charge of 1.5% will be added to all invoices over 30 days",
+  "receiver_name": "Helltown Brewing",
+  "due_date": "Apr-04-2024",
+  "supplier_name": "Southwest Region",
+  "receiver_address": "33222 Bi-State Boulevard\nLaurel, DE 19956",
+  "supplier_email": "AR@ProximityMalt.com",
+  "line_items": [
+    {
+      "line_item/quantity": "40.000",
+      "line_item/unit": "55LB",
+      "line_item/description": "OAT MALT 55LB",
+      "line_item/unit_price": "46.7500",
+      "line_item/amount": "1,870.00"
+    },
+    {
+      "line_item/quantity": "40.000",
+      "line_item/description": "OAT MALT 55LB"
+    },
+    {
+      "line_item/quantity": "40.000",
+      "line_item/unit": "55LB",
+      "line_item/description": "MIDATLANTIC WHEAT MALT 55LB",
+      "line_item/amount": "1,562.00",
+      "line_item/unit_price": "39.0500"
+    },
+    {
+      "line_item/quantity": "40.000"
+    },
+    {
+      "line_item/description": "Load Discount",
+      "line_item/amount": "-132.00"
+    },
+    {
+      "line_item/description": "Freight Charges",
+      "line_item/amount": "210.00"
+    }
+  ],
+  "fieldsConfidence": [
+    {
+      "field": "invoice_type",
+      "confidence": 0.9727950692176819
+    },
+    {
+      "field": "invoice_date",
+      "confidence": 0.9625166058540344
+    },
+    {
+      "field": "net_amount",
+      "confidence": 0.9438861608505249
+    },
+    {
+      "field": "total_amount",
+      "confidence": 0.8685021996498108
+    },
+    {
+      "field": "invoice_id",
+      "confidence": 0.8299407958984375
+    },
+    {
+      "field": "supplier_address",
+      "confidence": 0.8161702156066895
+    },
+    {
+      "field": "currency",
+      "confidence": 0.8132710456848145
+    },
+    {
+      "field": "payment_terms",
+      "confidence": 0.7813507318496704
+    },
+    {
+      "field": "receiver_name",
+      "confidence": 0.7487973570823669
+    },
+    {
+      "field": "due_date",
+      "confidence": 0.6665393710136414
+    },
+    {
+      "field": "supplier_name",
+      "confidence": 0.4962708055973053
+    },
+    {
+      "field": "receiver_address",
+      "confidence": 0.30407050251960754
+    },
+    {
+      "field": "supplier_email",
+      "confidence": 0.2590439021587372
+    },
+    {
+      "field": "line_item.0.line_item/quantity",
+      "confidence": 0.8214183449745178
+    },
+    {
+      "field": "line_item.0.line_item/unit",
+      "confidence": 0.6799803972244263
+    },
+    {
+      "field": "line_item.0.line_item/description",
+      "confidence": 0.631374716758728
+    },
+    {
+      "field": "line_item.0.line_item/unit_price",
+      "confidence": 0.612584114074707
+    },
+    {
+      "field": "line_item.0.line_item/amount",
+      "confidence": 0.8842788338661194
+    },
+    {
+      "field": "line_item.1.line_item/quantity",
+      "confidence": 0.4437198340892792
+    },
+    {
+      "field": "line_item.1.line_item/description",
+      "confidence": 0.5558367967605591
+    },
+    {
+      "field": "line_item.2.line_item/quantity",
+      "confidence": 0.9358268976211548
+    },
+    {
+      "field": "line_item.2.line_item/unit",
+      "confidence": 0.2102174013853073
+    },
+    {
+      "field": "line_item.2.line_item/description",
+      "confidence": 0.633368194103241
+    },
+    {
+      "field": "line_item.2.line_item/amount",
+      "confidence": 0.8294665217399597
+    },
+    {
+      "field": "line_item.2.line_item/unit_price",
+      "confidence": 0.5403194427490234
+    },
+    {
+      "field": "line_item.3.line_item/quantity",
+      "confidence": 0.6043131351470947
+    },
+    {
+      "field": "line_item.4.line_item/description",
+      "confidence": 0.5943980813026428
+    },
+    {
+      "field": "line_item.4.line_item/amount",
+      "confidence": 0.6816695332527161
+    },
+    {
+      "field": "line_item.5.line_item/description",
+      "confidence": 0.49728500843048096
+    },
+    {
+      "field": "line_item.5.line_item/amount",
+      "confidence": 0.5967299342155457
+    }
+  ],
+  "receivedAt": "2024-12-18T02:18:39.792Z",
+  "processedAt": "2024-12-18T02:18:39.792Z",
+  "from": "",
+  "messageId": "",
+  "snippet": "",
+  "subject": "",
+  "emailDocId": ""
+}

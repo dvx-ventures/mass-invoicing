@@ -1,0 +1,100 @@
+bindings:
+- members:
+  - serviceAccount:790780927928-compute@developer.gserviceaccount.com
+  role: roles/artifactregistry.reader
+- members:
+  - serviceAccount:790780927928-compute@developer.gserviceaccount.com
+  role: roles/artifactregistry.repoAdmin
+- members:
+  - serviceAccount:service-790780927928@gcp-sa-artifactregistry.iam.gserviceaccount.com
+  role: roles/artifactregistry.serviceAgent
+- members:
+  - serviceAccount:790780927928-compute@developer.gserviceaccount.com
+  role: roles/artifactregistry.writer
+- members:
+  - serviceAccount:790780927928@cloudbuild.gserviceaccount.com
+  role: roles/cloudbuild.builds.builder
+- members:
+  - serviceAccount:service-790780927928@gcp-sa-cloudbuild.iam.gserviceaccount.com
+  role: roles/cloudbuild.serviceAgent
+- members:
+  - serviceAccount:service-790780927928@gcf-admin-robot.iam.gserviceaccount.com
+  role: roles/cloudfunctions.serviceAgent
+- members:
+  - serviceAccount:service-790780927928@gcp-sa-cloudscheduler.iam.gserviceaccount.com     
+  role: roles/cloudscheduler.serviceAgent
+- members:
+  - serviceAccount:service-790780927928@containerregistry.iam.gserviceaccount.com
+  role: roles/containerregistry.ServiceAgent
+- members:
+  - serviceAccount:790780927928-compute@developer.gserviceaccount.com
+  role: roles/datastore.user
+- members:
+  - serviceAccount:790780927928-compute@developer.gserviceaccount.com
+  role: roles/documentai.admin
+- members:
+  - serviceAccount:790780927928@cloudservices.gserviceaccount.com
+  role: roles/editor
+- members:
+  - serviceAccount:firebase-service-account@firebase-sa-management.iam.gserviceaccount.com
+  - serviceAccount:service-790780927928@gcp-sa-firebase.iam.gserviceaccount.com
+  role: roles/firebase.managementServiceAgent
+- members:
+  - serviceAccount:firebase-adminsdk-l6trk@mass-7e4f9.iam.gserviceaccount.com
+  role: roles/firebase.sdkAdminServiceAgent
+- members:
+  - serviceAccount:firebase-adminsdk-l6trk@mass-7e4f9.iam.gserviceaccount.com
+  role: roles/firebaseauth.admin
+- members:
+  - serviceAccount:service-790780927928@gcp-sa-firebasemods.iam.gserviceaccount.com       
+  role: roles/firebasemods.serviceAgent
+- members:
+  - serviceAccount:service-790780927928@gcp-sa-firebasestorage.iam.gserviceaccount.com    
+  role: roles/firebaserules.firestoreServiceAgent
+- members:
+  - serviceAccount:service-790780927928@firebase-rules.iam.gserviceaccount.com
+  role: roles/firebaserules.system
+- members:
+  - serviceAccount:service-790780927928@gcp-sa-firebasestorage.iam.gserviceaccount.com    
+  role: roles/firebasestorage.serviceAgent
+- members:
+  - serviceAccount:service-790780927928@gcp-sa-firestore.iam.gserviceaccount.com
+  role: roles/firestore.serviceAgent
+- members:
+  - serviceAccount:790780927928-compute@developer.gserviceaccount.com
+  - serviceAccount:firebase-adminsdk-l6trk@mass-7e4f9.iam.gserviceaccount.com
+  role: roles/iam.serviceAccountTokenCreator
+- members:
+  - serviceAccount:firebase-service-account@firebase-sa-management.iam.gserviceaccount.com
+  role: roles/logging.admin
+- members:
+  - serviceAccount:790780927928-compute@developer.gserviceaccount.com
+  - serviceAccount:firebase-adminsdk-l6trk@mass-7e4f9.iam.gserviceaccount.com
+  - serviceAccount:firebase-service-account@firebase-sa-management.iam.gserviceaccount.com
+  role: roles/logging.logWriter
+- members:
+  - user:rich@masstogether.com
+  role: roles/owner
+- members:
+  - serviceAccount:service-790780927928@serverless-robot-prod.iam.gserviceaccount.com     
+  role: roles/run.serviceAgent
+- members:
+  - serviceAccount:790780927928-compute@developer.gserviceaccount.com
+  - serviceAccount:mass-7e4f9@appspot.gserviceaccount.com
+  role: roles/secretmanager.secretAccessor
+- members:
+  - serviceAccount:firebase-adminsdk-l6trk@mass-7e4f9.iam.gserviceaccount.com
+  role: roles/storage.admin
+- members:
+  - serviceAccount:790780927928-compute@developer.gserviceaccount.com
+  role: roles/storage.objectAdmin
+- members:
+  - serviceAccount:790780927928-compute@developer.gserviceaccount.com
+  role: roles/storage.objectCreator
+- members:
+  - serviceAccount:790780927928-compute@developer.gserviceaccount.com
+  role: roles/storage.objectViewer
+
+gcloud projects add-iam-policy-binding mass-7e4f9 --member=serviceAccount:790780927928-compute@developer.gserviceaccount.com --role=
+
+firebase functions:delete processInvoice --region=us-central1

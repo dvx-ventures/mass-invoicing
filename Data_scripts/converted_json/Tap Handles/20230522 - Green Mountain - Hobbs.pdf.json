@@ -1,0 +1,147 @@
+{
+  "invoice_id": "10850",
+  "invoice_date": "5/22/2023",
+  "due_date": "5/22/2023",
+  "supplier_email": "accounting@greenmountaintaps.com",
+  "supplier_website": "www.greenmountaintaps.com",
+  "total_amount": "614.69",
+  "receiver_name": "Hobbs Tavern & Brewing Co.",
+  "ship_to_address": "765 \nNH\n-\n16\nOssipee\n,\nNH \n03864",
+  "supplier_address": "PO Box 371\nHinsdale, NH 03451",
+  "ship_to_name": "ewing Co.\nHobbs \nTavern \n&",
+  "supplier_phone": "(603) 336-5555",
+  "invoice_type": "",
+  "currency": "$",
+  "payment_terms": "Upon Receipt",
+  "purchase_order": "3913",
+  "carrier": "UPS",
+  "receiver_address": "765 NH -16\nOssipee,NH",
+  "supplier_name": "",
+  "line_items": [
+    {
+      "line_item/product_code": "Hobbs",
+      "line_item/quantity": "200",
+      "line_item/unit_price": "3.00",
+      "line_item/amount": "600.00",
+      "line_item/description": "HOBBS LBL 1001\n5/18 LABEL SETS"
+    },
+    {
+      "line_item/description": "Shipping & Handl... UPS Shipping & Handling",
+      "line_item/unit_price": "14.688",
+      "line_item/amount": "14.69"
+    }
+  ],
+  "fieldsConfidence": [
+    {
+      "field": "invoice_id",
+      "confidence": 0.9710376858711243
+    },
+    {
+      "field": "invoice_date",
+      "confidence": 0.9552031755447388
+    },
+    {
+      "field": "due_date",
+      "confidence": 0.9279195070266724
+    },
+    {
+      "field": "supplier_email",
+      "confidence": 0.8727445006370544
+    },
+    {
+      "field": "supplier_website",
+      "confidence": 0.8002485036849976
+    },
+    {
+      "field": "total_amount",
+      "confidence": 0.7516554594039917
+    },
+    {
+      "field": "receiver_name",
+      "confidence": 0.7406386733055115
+    },
+    {
+      "field": "ship_to_address",
+      "confidence": 0.6881296038627625
+    },
+    {
+      "field": "supplier_address",
+      "confidence": 0.6836825609207153
+    },
+    {
+      "field": "ship_to_name",
+      "confidence": 0.654872477054596
+    },
+    {
+      "field": "supplier_phone",
+      "confidence": 0.6266752481460571
+    },
+    {
+      "field": "invoice_type",
+      "confidence": 0.560038685798645
+    },
+    {
+      "field": "currency",
+      "confidence": 0.5529170632362366
+    },
+    {
+      "field": "payment_terms",
+      "confidence": 0.5352186560630798
+    },
+    {
+      "field": "purchase_order",
+      "confidence": 0.45824891328811646
+    },
+    {
+      "field": "carrier",
+      "confidence": 0.44186046719551086
+    },
+    {
+      "field": "receiver_address",
+      "confidence": 0.2610629200935364
+    },
+    {
+      "field": "supplier_name",
+      "confidence": 0
+    },
+    {
+      "field": "line_item.0.line_item/product_code",
+      "confidence": 0.5150708556175232
+    },
+    {
+      "field": "line_item.0.line_item/quantity",
+      "confidence": 0.8833755850791931
+    },
+    {
+      "field": "line_item.0.line_item/unit_price",
+      "confidence": 0.9205833077430725
+    },
+    {
+      "field": "line_item.0.line_item/amount",
+      "confidence": 0.9054769277572632
+    },
+    {
+      "field": "line_item.0.line_item/description",
+      "confidence": 0.5766926407814026
+    },
+    {
+      "field": "line_item.1.line_item/description",
+      "confidence": 0.45284104347229004
+    },
+    {
+      "field": "line_item.1.line_item/unit_price",
+      "confidence": 0.895862877368927
+    },
+    {
+      "field": "line_item.1.line_item/amount",
+      "confidence": 0.8996594548225403
+    }
+  ],
+  "receivedAt": "2024-12-18T02:18:39.803Z",
+  "processedAt": "2024-12-18T02:18:39.803Z",
+  "from": "",
+  "messageId": "",
+  "snippet": "",
+  "subject": "",
+  "emailDocId": ""
+}

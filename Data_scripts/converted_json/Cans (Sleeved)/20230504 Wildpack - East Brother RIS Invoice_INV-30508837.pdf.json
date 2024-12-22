@@ -1,0 +1,122 @@
+{
+  "total_amount": "832.46",
+  "due_date": "07/04/2023",
+  "invoice_date": "05/04/2023",
+  "invoice_id": "INV-30508837",
+  "net_amount": "832.46",
+  "supplier_address": "1001 Canal Blvd #C-2\nRichmond CA 94804\nUnited States",
+  "remit_to_name": "Wildpack Holdings U.S. Inc.",
+  "currency": "$",
+  "purchase_order": "PO1592",
+  "invoice_type": "",
+  "supplier_name": "wildpack",
+  "supplier_phone": "+1 833-999-7225",
+  "line_items": [
+    {
+      "line_item/description": "East Brother - Russian Imperial Stout Can (Glossy)",
+      "line_item/quantity": "3,112.00",
+      "line_item/unit": "Unit",
+      "line_item/unit_price": "0.267500",
+      "line_item/amount": "832.46"
+    },
+    {
+      "line_item/quantity": "1.00",
+      "line_item/unit": "Unit",
+      "line_item/unit_price": "0.000000",
+      "line_item/amount": "0.00"
+    }
+  ],
+  "fieldsConfidence": [
+    {
+      "field": "total_amount",
+      "confidence": 0.9839601516723633
+    },
+    {
+      "field": "due_date",
+      "confidence": 0.9705103635787964
+    },
+    {
+      "field": "invoice_date",
+      "confidence": 0.9448765516281128
+    },
+    {
+      "field": "invoice_id",
+      "confidence": 0.8922938108444214
+    },
+    {
+      "field": "net_amount",
+      "confidence": 0.8873854875564575
+    },
+    {
+      "field": "supplier_address",
+      "confidence": 0.8054137229919434
+    },
+    {
+      "field": "remit_to_name",
+      "confidence": 0.7445902824401855
+    },
+    {
+      "field": "currency",
+      "confidence": 0.7320442199707031
+    },
+    {
+      "field": "purchase_order",
+      "confidence": 0.693318247795105
+    },
+    {
+      "field": "invoice_type",
+      "confidence": 0.625311017036438
+    },
+    {
+      "field": "supplier_name",
+      "confidence": 0.515226423740387
+    },
+    {
+      "field": "supplier_phone",
+      "confidence": 0.5085774064064026
+    },
+    {
+      "field": "line_item.0.line_item/description",
+      "confidence": 0.5263230800628662
+    },
+    {
+      "field": "line_item.0.line_item/quantity",
+      "confidence": 0.956963300704956
+    },
+    {
+      "field": "line_item.0.line_item/unit",
+      "confidence": 0.15929099917411804
+    },
+    {
+      "field": "line_item.0.line_item/unit_price",
+      "confidence": 0.9398675560951233
+    },
+    {
+      "field": "line_item.0.line_item/amount",
+      "confidence": 0.8704274892807007
+    },
+    {
+      "field": "line_item.1.line_item/quantity",
+      "confidence": 0.9372435808181763
+    },
+    {
+      "field": "line_item.1.line_item/unit",
+      "confidence": 0.11186133325099945
+    },
+    {
+      "field": "line_item.1.line_item/unit_price",
+      "confidence": 0.945388913154602
+    },
+    {
+      "field": "line_item.1.line_item/amount",
+      "confidence": 0.7932146787643433
+    }
+  ],
+  "receivedAt": "2024-12-18T02:18:39.492Z",
+  "processedAt": "2024-12-18T02:18:39.492Z",
+  "from": "",
+  "messageId": "",
+  "snippet": "",
+  "subject": "",
+  "emailDocId": ""
+}

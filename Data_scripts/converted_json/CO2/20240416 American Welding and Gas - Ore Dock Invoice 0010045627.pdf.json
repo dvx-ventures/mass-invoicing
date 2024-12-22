@@ -1,0 +1,200 @@
+{
+  "vat": {
+    "vat/amount": "0.00"
+  },
+  "invoice_date": "04/16/24",
+  "net_amount": "571.89",
+  "total_amount": "571.89",
+  "invoice_id": "0010045627",
+  "remit_to_name": "AMERICAN WELDING & GAS, INC.",
+  "payment_terms": "30 DAYS\nINITIALS DG",
+  "supplier_address": "114 W SPRING ST\nMARQUETTE MI 49805",
+  "invoice_type": "",
+  "currency": "POUNDS",
+  "supplier_name": "BORE DOCK BREWING COMPANY LLC",
+  "remit_to_address": "PO BOX 779009\nCHICAGO IL 60677-9009",
+  "purchase_order": "0007948210-00",
+  "supplier_phone": "(906) 334-2977",
+  "supplier_tax_id": "000000000000131",
+  "line_items": [
+    {
+      "line_item/quantity": "0",
+      "line_item/unit": "CYL",
+      "line_item/unit_price": "81.56",
+      "line_item/amount": "163.12N"
+    },
+    {
+      "line_item/quantity": "O",
+      "line_item/unit": "EA",
+      "line_item/unit_price": "7.05",
+      "line_item/amount": "7.05N"
+    },
+    {
+      "line_item/quantity": "1",
+      "line_item/unit_price": "37.30",
+      "line_item/unit": "EA",
+      "line_item/amount": "37.30N"
+    },
+    {
+      "line_item/unit_price": "8.50",
+      "line_item/unit": "EA",
+      "line_item/amount": "8.50N",
+      "line_item/quantity": "1"
+    },
+    {
+      "line_item/unit_price": "0.395472",
+      "line_item/unit": "LB",
+      "line_item/amount": "355.92N",
+      "line_item/quantity": "900"
+    }
+  ],
+  "fieldsConfidence": [
+    {
+      "field": "vat.vat/amount",
+      "confidence": 0.1312258094549179
+    },
+    {
+      "field": "invoice_date",
+      "confidence": 0.9487833976745605
+    },
+    {
+      "field": "net_amount",
+      "confidence": 0.9144861102104187
+    },
+    {
+      "field": "total_amount",
+      "confidence": 0.9094460606575012
+    },
+    {
+      "field": "invoice_id",
+      "confidence": 0.8652397394180298
+    },
+    {
+      "field": "remit_to_name",
+      "confidence": 0.8210261464118958
+    },
+    {
+      "field": "payment_terms",
+      "confidence": 0.7443532347679138
+    },
+    {
+      "field": "supplier_address",
+      "confidence": 0.6209170818328857
+    },
+    {
+      "field": "invoice_type",
+      "confidence": 0.6058810353279114
+    },
+    {
+      "field": "currency",
+      "confidence": 0.5827802419662476
+    },
+    {
+      "field": "supplier_name",
+      "confidence": 0.5777185559272766
+    },
+    {
+      "field": "remit_to_address",
+      "confidence": 0.5029467344284058
+    },
+    {
+      "field": "purchase_order",
+      "confidence": 0.49300435185432434
+    },
+    {
+      "field": "supplier_phone",
+      "confidence": 0.4419163167476654
+    },
+    {
+      "field": "supplier_tax_id",
+      "confidence": 0.13479365408420563
+    },
+    {
+      "field": "line_item.0.line_item/quantity",
+      "confidence": 0.2860119938850403
+    },
+    {
+      "field": "line_item.0.line_item/unit",
+      "confidence": 0.8021472096443176
+    },
+    {
+      "field": "line_item.0.line_item/unit_price",
+      "confidence": 0.9137946367263794
+    },
+    {
+      "field": "line_item.0.line_item/amount",
+      "confidence": 0.8832666277885437
+    },
+    {
+      "field": "line_item.1.line_item/quantity",
+      "confidence": 0.3381020724773407
+    },
+    {
+      "field": "line_item.1.line_item/unit",
+      "confidence": 0.8370895981788635
+    },
+    {
+      "field": "line_item.1.line_item/unit_price",
+      "confidence": 0.8945133090019226
+    },
+    {
+      "field": "line_item.1.line_item/amount",
+      "confidence": 0.8490540385246277
+    },
+    {
+      "field": "line_item.2.line_item/quantity",
+      "confidence": 0.6458823680877686
+    },
+    {
+      "field": "line_item.2.line_item/unit_price",
+      "confidence": 0.8523763418197632
+    },
+    {
+      "field": "line_item.2.line_item/unit",
+      "confidence": 0.8143534660339355
+    },
+    {
+      "field": "line_item.2.line_item/amount",
+      "confidence": 0.842715322971344
+    },
+    {
+      "field": "line_item.3.line_item/unit_price",
+      "confidence": 0.8050931692123413
+    },
+    {
+      "field": "line_item.3.line_item/unit",
+      "confidence": 0.798344075679779
+    },
+    {
+      "field": "line_item.3.line_item/amount",
+      "confidence": 0.81023770570755
+    },
+    {
+      "field": "line_item.3.line_item/quantity",
+      "confidence": 0.41848450899124146
+    },
+    {
+      "field": "line_item.4.line_item/unit_price",
+      "confidence": 0.8564189076423645
+    },
+    {
+      "field": "line_item.4.line_item/unit",
+      "confidence": 0.802300214767456
+    },
+    {
+      "field": "line_item.4.line_item/amount",
+      "confidence": 0.8560582399368286
+    },
+    {
+      "field": "line_item.4.line_item/quantity",
+      "confidence": 0.42537379264831543
+    }
+  ],
+  "receivedAt": "2024-12-18T02:18:39.618Z",
+  "processedAt": "2024-12-18T02:18:39.618Z",
+  "from": "",
+  "messageId": "",
+  "snippet": "",
+  "subject": "",
+  "emailDocId": ""
+}

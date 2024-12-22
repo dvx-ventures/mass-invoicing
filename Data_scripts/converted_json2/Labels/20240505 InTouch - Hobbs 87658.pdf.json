@@ -1,0 +1,137 @@
+{
+  "net_amount": 198.24,
+  "due_date": "5/5/2024",
+  "invoice_date": "4/5/2024",
+  "invoice_id": "87658",
+  "total_tax_amount": 0,
+  "ship_to_address": "6 Folsom Road Center Ossipee, NH 03814",
+  "ship_to_name": "Sap House Meadery LLC",
+  "receiver_name": "Sap House Meadery LLC",
+  "invoice_type": "",
+  "currency": "$",
+  "supplier_name": "Avery Products Corporation",
+  "total_amount": 198.24,
+  "receiver_address": "P.O. Box 595 Center Ossipee, NH 03814",
+  "supplier_address": "12 Technology Drive North Chelmsford, MA 01863",
+  "payment_terms": "Net 30",
+  "carrier": "Ups",
+  "line_items": [
+    {
+      "line_item/quantity": 600,
+      "line_item/unit_price": 0.31,
+      "line_item/amount": 185,
+      "line_item/description": "Strawberry Rhubarb"
+    },
+    {
+      "line_item/description": "UPS Ground",
+      "line_item/quantity": 1,
+      "line_item/unit_price": 13.24,
+      "line_item/amount": 13.24
+    }
+  ],
+  "fieldsConfidence": [
+    {
+      "field": "Net_amount",
+      "confidence": 0.9823020696640015
+    },
+    {
+      "field": "Due_date",
+      "confidence": 0.9759346842765808
+    },
+    {
+      "field": "Invoice_date",
+      "confidence": 0.973206102848053
+    },
+    {
+      "field": "Invoice_id",
+      "confidence": 0.957211434841156
+    },
+    {
+      "field": "Total_tax_amount",
+      "confidence": 0.9511540532112122
+    },
+    {
+      "field": "Ship_to_address",
+      "confidence": 0.9378525018692017
+    },
+    {
+      "field": "Ship_to_name",
+      "confidence": 0.8099616765975952
+    },
+    {
+      "field": "Receiver_name",
+      "confidence": 0.6991296410560608
+    },
+    {
+      "field": "Invoice_type",
+      "confidence": 0.6773913502693176
+    },
+    {
+      "field": "Currency",
+      "confidence": 0.5925030708312988
+    },
+    {
+      "field": "Supplier_name",
+      "confidence": 0.5921427011489868
+    },
+    {
+      "field": "Total_amount",
+      "confidence": 0.5799674987792969
+    },
+    {
+      "field": "Receiver_address",
+      "confidence": 0.574743926525116
+    },
+    {
+      "field": "Supplier_address",
+      "confidence": 0.5211707353591919
+    },
+    {
+      "field": "Payment_terms",
+      "confidence": 0.4565058648586273
+    },
+    {
+      "field": "Carrier",
+      "confidence": 0.44186046719551086
+    },
+    {
+      "field": "Line_item.0.line_item/quantity",
+      "confidence": 0.9637864828109741
+    },
+    {
+      "field": "Line_item.0.line_item/unit_price",
+      "confidence": 0.9323253631591797
+    },
+    {
+      "field": "Line_item.0.line_item/amount",
+      "confidence": 0.9002393484115601
+    },
+    {
+      "field": "Line_item.0.line_item/description",
+      "confidence": 0.567389190196991
+    },
+    {
+      "field": "Line_item.1.line_item/description",
+      "confidence": 0.4302648603916168
+    },
+    {
+      "field": "Line_item.1.line_item/quantity",
+      "confidence": 0.9634868502616882
+    },
+    {
+      "field": "Line_item.1.line_item/unit_price",
+      "confidence": 0.9290217161178589
+    },
+    {
+      "field": "Line_item.1.line_item/amount",
+      "confidence": 0.8950714468955994
+    }
+  ],
+  "receivedAt": "2024-12-18t02:18:39.701z",
+  "processedAt": "2024-12-18t02:18:39.701z",
+  "from": "",
+  "messageId": "",
+  "snippet": "",
+  "subject": "",
+  "emailDocId": ""
+}

@@ -1,0 +1,228 @@
+{
+  "invoice_id": "In0179231",
+  "due_date": "7/30/2023",
+  "ship_to_address": "253 Grant Street Chambersburg, PA 17201",
+  "total_amount": 4909.09,
+  "invoice_date": "6/30/2023",
+  "invoice_type": "",
+  "ship_to_name": "Gearhouse Brewing Co.",
+  "payment_terms": "Net 30 Days",
+  "receiver_name": "Gearhouse Brewing Co.",
+  "supplier_tax_id": "86823 1358 Rt0001",
+  "receiver_address": "253 Grant Street Chambersburg, PA 17201",
+  "supplier_address": "191 S. Gulph Road King of Prussia, PA 19406",
+  "supplier_website": "http://www.zh-inc.com/Customer Terms.pdf",
+  "supplier_name": "ZUCKERMAN HONICKMAN zh-inc.com",
+  "line_items": [
+    {
+      "line_item/quantity": 10114,
+      "line_item/product_code": "Pl50",
+      "line_item/unit": "Pl50",
+      "line_item/unit_price": 191,
+      "line_item/description": "16 oz Aluminum Regular Brite Can No Print",
+      "line_item/amount": 1931.77
+    },
+    {
+      "line_item/quantity": 23712,
+      "line_item/unit": "Ea",
+      "line_item/unit_price": 41,
+      "line_item/product_code": "768al202ends02-12",
+      "line_item/description": "202 Diameter LOE 10 States - B64 Aluminum Can End",
+      "line_item/amount": 972.19
+    },
+    {
+      "line_item/product_code": "Pl6613",
+      "line_item/unit": "Pl6613",
+      "line_item/quantity": 13226,
+      "line_item/unit_price": 151,
+      "line_item/amount": 1997.13,
+      "line_item/description": "12 oz Aluminum Regular Brite Can No Print"
+    },
+    {
+      "line_item/quantity": 1,
+      "line_item/unit": "Ea",
+      "line_item/unit_price": 8,
+      "line_item/product_code": "Pallet-bev-34",
+      "line_item/description": "ZH",
+      "line_item/amount": 8
+    },
+    {
+      "line_item/quantity": 1,
+      "line_item/unit": "Ea",
+      "line_item/description": "Freight Out (Beverage) FRTOUT-BEV"
+    }
+  ],
+  "fieldsConfidence": [
+    {
+      "field": "Invoice_id",
+      "confidence": 0.9529551267623901
+    },
+    {
+      "field": "Due_date",
+      "confidence": 0.940312922000885
+    },
+    {
+      "field": "Ship_to_address",
+      "confidence": 0.935982882976532
+    },
+    {
+      "field": "Total_amount",
+      "confidence": 0.9276767373085022
+    },
+    {
+      "field": "Invoice_date",
+      "confidence": 0.9169819951057434
+    },
+    {
+      "field": "Invoice_type",
+      "confidence": 0.8857040405273438
+    },
+    {
+      "field": "Ship_to_name",
+      "confidence": 0.72991943359375
+    },
+    {
+      "field": "Payment_terms",
+      "confidence": 0.717999279499054
+    },
+    {
+      "field": "Receiver_name",
+      "confidence": 0.6571252942085266
+    },
+    {
+      "field": "Supplier_tax_id",
+      "confidence": 0.5966773629188538
+    },
+    {
+      "field": "Receiver_address",
+      "confidence": 0.4034317135810852
+    },
+    {
+      "field": "Supplier_address",
+      "confidence": 0.37364333868026733
+    },
+    {
+      "field": "Supplier_website",
+      "confidence": 0.31894275546073914
+    },
+    {
+      "field": "Supplier_name",
+      "confidence": 0.11758100241422653
+    },
+    {
+      "field": "Line_item.0.line_item/quantity",
+      "confidence": 0.9608503580093384
+    },
+    {
+      "field": "Line_item.0.line_item/product_code",
+      "confidence": 0.6637305021286011
+    },
+    {
+      "field": "Line_item.0.line_item/unit",
+      "confidence": 0.29582589864730835
+    },
+    {
+      "field": "Line_item.0.line_item/unit_price",
+      "confidence": 0.8651565909385681
+    },
+    {
+      "field": "Line_item.0.line_item/description",
+      "confidence": 0.6376612782478333
+    },
+    {
+      "field": "Line_item.0.line_item/amount",
+      "confidence": 0.9056187868118286
+    },
+    {
+      "field": "Line_item.1.line_item/quantity",
+      "confidence": 0.9228672981262207
+    },
+    {
+      "field": "Line_item.1.line_item/unit",
+      "confidence": 0.576754093170166
+    },
+    {
+      "field": "Line_item.1.line_item/unit_price",
+      "confidence": 0.7232121229171753
+    },
+    {
+      "field": "Line_item.1.line_item/product_code",
+      "confidence": 0.7566245198249817
+    },
+    {
+      "field": "Line_item.1.line_item/description",
+      "confidence": 0.4372579753398895
+    },
+    {
+      "field": "Line_item.1.line_item/amount",
+      "confidence": 0.8690614104270935
+    },
+    {
+      "field": "Line_item.2.line_item/product_code",
+      "confidence": 0.8225659132003784
+    },
+    {
+      "field": "Line_item.2.line_item/unit",
+      "confidence": 0.3585773706436157
+    },
+    {
+      "field": "Line_item.2.line_item/quantity",
+      "confidence": 0.87139493227005
+    },
+    {
+      "field": "Line_item.2.line_item/unit_price",
+      "confidence": 0.7352507710456848
+    },
+    {
+      "field": "Line_item.2.line_item/amount",
+      "confidence": 0.8501637578010559
+    },
+    {
+      "field": "Line_item.2.line_item/description",
+      "confidence": 0.45259299874305725
+    },
+    {
+      "field": "Line_item.3.line_item/quantity",
+      "confidence": 0.5493922829627991
+    },
+    {
+      "field": "Line_item.3.line_item/unit",
+      "confidence": 0.21391476690769196
+    },
+    {
+      "field": "Line_item.3.line_item/unit_price",
+      "confidence": 0.8538888096809387
+    },
+    {
+      "field": "Line_item.3.line_item/product_code",
+      "confidence": 0.7070717811584473
+    },
+    {
+      "field": "Line_item.3.line_item/description",
+      "confidence": 0.6323701739311218
+    },
+    {
+      "field": "Line_item.3.line_item/amount",
+      "confidence": 0.774745762348175
+    },
+    {
+      "field": "Line_item.4.line_item/quantity",
+      "confidence": 0.6525055170059204
+    },
+    {
+      "field": "Line_item.4.line_item/unit",
+      "confidence": 0.8375877737998962
+    },
+    {
+      "field": "Line_item.4.line_item/description",
+      "confidence": 0.649316132068634
+    }
+  ],
+  "receivedAt": "2024-12-18t02:18:39.547z",
+  "processedAt": "2024-12-18t02:18:39.547z",
+  "from": "",
+  "messageId": "",
+  "snippet": "",
+  "subject": "",
+  "emailDocId": ""
+}

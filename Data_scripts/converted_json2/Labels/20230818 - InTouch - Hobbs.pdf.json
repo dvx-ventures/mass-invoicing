@@ -1,0 +1,203 @@
+{
+  "net_amount": 1421.97,
+  "due_date": "9/17/2023",
+  "invoice_date": "8/18/2023",
+  "total_tax_amount": 0,
+  "invoice_id": "78607",
+  "ship_to_address": "2415 NH Route 16 West Ossipee, NH 03890",
+  "ship_to_name": "Hobbs Brewing Company",
+  "receiver_name": "Hobbs Tavern and Brewing Company",
+  "supplier_name": "Avery Products Corporation",
+  "total_amount": 1421.97,
+  "supplier_address": "12 Technology Drive North Chelmsford, MA 01863",
+  "invoice_type": "",
+  "payment_terms": "Net 30",
+  "carrier": "Ups",
+  "receiver_address": "765 NH 16 Ossipee, NH 03864",
+  "line_items": [
+    {
+      "line_item/product_code": "Labels",
+      "line_item/description": "HiJack 16oz",
+      "line_item/unit_price": 0.09,
+      "line_item/amount": 522,
+      "line_item/quantity": 5800
+    },
+    {
+      "line_item/description": "Cold Brook 16oz",
+      "line_item/unit_price": 0.09,
+      "line_item/amount": 180,
+      "line_item/quantity": 2000
+    },
+    {
+      "line_item/quantity": 3500,
+      "line_item/amount": 315,
+      "line_item/description": "Black Sheep lager 16oz",
+      "line_item/unit_price": 0.09
+    },
+    {
+      "line_item/quantity": 4200,
+      "line_item/description": "Hold My Juice 16oz",
+      "line_item/unit_price": 0.09,
+      "line_item/amount": 378
+    },
+    {
+      "line_item/description": "UPS Ground",
+      "line_item/unit_price": 26.97,
+      "line_item/quantity": 1,
+      "line_item/amount": 26.97
+    }
+  ],
+  "fieldsConfidence": [
+    {
+      "field": "Net_amount",
+      "confidence": 0.9835120439529419
+    },
+    {
+      "field": "Due_date",
+      "confidence": 0.9715527892112732
+    },
+    {
+      "field": "Invoice_date",
+      "confidence": 0.9629399180412292
+    },
+    {
+      "field": "Total_tax_amount",
+      "confidence": 0.9417455196380615
+    },
+    {
+      "field": "Invoice_id",
+      "confidence": 0.9379153847694397
+    },
+    {
+      "field": "Ship_to_address",
+      "confidence": 0.9198811054229736
+    },
+    {
+      "field": "Ship_to_name",
+      "confidence": 0.765243411064148
+    },
+    {
+      "field": "Receiver_name",
+      "confidence": 0.762134313583374
+    },
+    {
+      "field": "Supplier_name",
+      "confidence": 0.6354073286056519
+    },
+    {
+      "field": "Total_amount",
+      "confidence": 0.6353172063827515
+    },
+    {
+      "field": "Supplier_address",
+      "confidence": 0.627601146697998
+    },
+    {
+      "field": "Invoice_type",
+      "confidence": 0.49658235907554626
+    },
+    {
+      "field": "Payment_terms",
+      "confidence": 0.4575389325618744
+    },
+    {
+      "field": "Carrier",
+      "confidence": 0.44186046719551086
+    },
+    {
+      "field": "Receiver_address",
+      "confidence": 0.3188058137893677
+    },
+    {
+      "field": "Line_item.0.line_item/product_code",
+      "confidence": 0.36958059668540955
+    },
+    {
+      "field": "Line_item.0.line_item/description",
+      "confidence": 0.5701189637184143
+    },
+    {
+      "field": "Line_item.0.line_item/unit_price",
+      "confidence": 0.9203552603721619
+    },
+    {
+      "field": "Line_item.0.line_item/amount",
+      "confidence": 0.877036452293396
+    },
+    {
+      "field": "Line_item.0.line_item/quantity",
+      "confidence": 0.953551709651947
+    },
+    {
+      "field": "Line_item.1.line_item/description",
+      "confidence": 0.5806012749671936
+    },
+    {
+      "field": "Line_item.1.line_item/unit_price",
+      "confidence": 0.9119042754173279
+    },
+    {
+      "field": "Line_item.1.line_item/amount",
+      "confidence": 0.8657060861587524
+    },
+    {
+      "field": "Line_item.1.line_item/quantity",
+      "confidence": 0.9439108371734619
+    },
+    {
+      "field": "Line_item.2.line_item/quantity",
+      "confidence": 0.9038753509521484
+    },
+    {
+      "field": "Line_item.2.line_item/amount",
+      "confidence": 0.8656722903251648
+    },
+    {
+      "field": "Line_item.2.line_item/description",
+      "confidence": 0.5819143056869507
+    },
+    {
+      "field": "Line_item.2.line_item/unit_price",
+      "confidence": 0.8735719919204712
+    },
+    {
+      "field": "Line_item.3.line_item/quantity",
+      "confidence": 0.9479143619537354
+    },
+    {
+      "field": "Line_item.3.line_item/description",
+      "confidence": 0.6000784635543823
+    },
+    {
+      "field": "Line_item.3.line_item/unit_price",
+      "confidence": 0.84903883934021
+    },
+    {
+      "field": "Line_item.3.line_item/amount",
+      "confidence": 0.9074335098266602
+    },
+    {
+      "field": "Line_item.4.line_item/description",
+      "confidence": 0.46190983057022095
+    },
+    {
+      "field": "Line_item.4.line_item/unit_price",
+      "confidence": 0.8713167309761047
+    },
+    {
+      "field": "Line_item.4.line_item/quantity",
+      "confidence": 0.9425049424171448
+    },
+    {
+      "field": "Line_item.4.line_item/amount",
+      "confidence": 0.8760850429534912
+    }
+  ],
+  "receivedAt": "2024-12-18t02:18:39.678z",
+  "processedAt": "2024-12-18t02:18:39.678z",
+  "from": "",
+  "messageId": "",
+  "snippet": "",
+  "subject": "",
+  "emailDocId": ""
+}

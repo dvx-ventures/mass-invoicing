@@ -1,0 +1,129 @@
+{
+  "invoice_id": "0060134",
+  "total_amount": "107.47",
+  "invoice_date": "3/27/2024",
+  "currency": "US\nUS DOLLARS",
+  "receiver_name": "ORE DOCK BREWING COMPANY",
+  "freight_amount": "19.47",
+  "invoice_type": "",
+  "supplier_phone": "(262) 345-6900",
+  "supplier_email": "INFO@OREDOCKBREWINGCOMPANY.COM",
+  "carrier": "BEST OPTION",
+  "purchase_order": "0060835",
+  "receiver_address": "114 W SPRINGS STREET\nMARQUETTE, MI 49855\nUnited States",
+  "payment_terms": "PAID WITHIN 30 DAYS OF INVOICE DATE",
+  "supplier_address": "114 W SPRINGS STREET\nMARQUETTE, MI 49855\nUnited States",
+  "supplier_name": "ORE DOCK BREWING COMPANY",
+  "line_items": [
+    {
+      "line_item/unit_price": "44.00",
+      "line_item/amount": "88.00",
+      "line_item/description": "2.000 GL MSPKLGFM\nSPARKLING FOAM\nControl Lot #(s)",
+      "line_item/quantity": "GL"
+    },
+    {
+      "line_item/product_code": "S6690-G"
+    },
+    {
+      "line_item/unit_price": "0.00",
+      "line_item/amount": "19.47"
+    }
+  ],
+  "fieldsConfidence": [
+    {
+      "field": "invoice_id",
+      "confidence": 0.9765695333480835
+    },
+    {
+      "field": "total_amount",
+      "confidence": 0.9667372107505798
+    },
+    {
+      "field": "invoice_date",
+      "confidence": 0.8341408967971802
+    },
+    {
+      "field": "currency",
+      "confidence": 0.8195765018463135
+    },
+    {
+      "field": "receiver_name",
+      "confidence": 0.5681478381156921
+    },
+    {
+      "field": "freight_amount",
+      "confidence": 0.5638253688812256
+    },
+    {
+      "field": "invoice_type",
+      "confidence": 0.5456486344337463
+    },
+    {
+      "field": "supplier_phone",
+      "confidence": 0.5199655294418335
+    },
+    {
+      "field": "supplier_email",
+      "confidence": 0.48414894938468933
+    },
+    {
+      "field": "carrier",
+      "confidence": 0.44186046719551086
+    },
+    {
+      "field": "purchase_order",
+      "confidence": 0.4184229373931885
+    },
+    {
+      "field": "receiver_address",
+      "confidence": 0.4006642699241638
+    },
+    {
+      "field": "payment_terms",
+      "confidence": 0.3718830943107605
+    },
+    {
+      "field": "supplier_address",
+      "confidence": 0.29883643984794617
+    },
+    {
+      "field": "supplier_name",
+      "confidence": 0.17553845047950745
+    },
+    {
+      "field": "line_item.0.line_item/unit_price",
+      "confidence": 0.937271237373352
+    },
+    {
+      "field": "line_item.0.line_item/amount",
+      "confidence": 0.928551971912384
+    },
+    {
+      "field": "line_item.0.line_item/description",
+      "confidence": 0.44038790464401245
+    },
+    {
+      "field": "line_item.0.line_item/quantity",
+      "confidence": 0.013335535302758217
+    },
+    {
+      "field": "line_item.1.line_item/product_code",
+      "confidence": 0.45456910133361816
+    },
+    {
+      "field": "line_item.2.line_item/unit_price",
+      "confidence": 0.9048687815666199
+    },
+    {
+      "field": "line_item.2.line_item/amount",
+      "confidence": 0.8986506462097168
+    }
+  ],
+  "receivedAt": "2024-12-18T02:18:39.646Z",
+  "processedAt": "2024-12-18T02:18:39.646Z",
+  "from": "",
+  "messageId": "",
+  "snippet": "",
+  "subject": "",
+  "emailDocId": ""
+}

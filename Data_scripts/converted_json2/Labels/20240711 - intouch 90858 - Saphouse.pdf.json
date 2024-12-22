@@ -1,0 +1,137 @@
+{
+  "net_amount": 479.22,
+  "due_date": "7/11/2024",
+  "invoice_date": "6/11/2024",
+  "total_tax_amount": 0,
+  "invoice_id": "90858",
+  "ship_to_address": "6 Folsom Road Center Ossipee, NH 03814",
+  "ship_to_name": "Sap House Meadery LLC",
+  "invoice_type": "",
+  "receiver_name": "Sap House Meadery LLC",
+  "total_amount": 479.22,
+  "supplier_name": "Avery Products Corporation",
+  "currency": "$",
+  "receiver_address": "P.O. Box 595 Center Ossipee, NH 03814",
+  "supplier_address": "12 Technology Drive North Chelmsford, MA 01863",
+  "payment_terms": "Net 30",
+  "carrier": "Ups",
+  "line_items": [
+    {
+      "line_item/quantity": 1000,
+      "line_item/unit_price": 0.47,
+      "line_item/amount": 466,
+      "line_item/description": "One of These Days 375ml"
+    },
+    {
+      "line_item/description": "Shipping",
+      "line_item/quantity": 1,
+      "line_item/unit_price": 13.22,
+      "line_item/amount": 13.22
+    }
+  ],
+  "fieldsConfidence": [
+    {
+      "field": "Net_amount",
+      "confidence": 0.9825880527496338
+    },
+    {
+      "field": "Due_date",
+      "confidence": 0.9672891497612
+    },
+    {
+      "field": "Invoice_date",
+      "confidence": 0.959068775177002
+    },
+    {
+      "field": "Total_tax_amount",
+      "confidence": 0.9502051472663879
+    },
+    {
+      "field": "Invoice_id",
+      "confidence": 0.9420586228370667
+    },
+    {
+      "field": "Ship_to_address",
+      "confidence": 0.9359884262084961
+    },
+    {
+      "field": "Ship_to_name",
+      "confidence": 0.8144643306732178
+    },
+    {
+      "field": "Invoice_type",
+      "confidence": 0.7148884534835815
+    },
+    {
+      "field": "Receiver_name",
+      "confidence": 0.7036847472190857
+    },
+    {
+      "field": "Total_amount",
+      "confidence": 0.6124651432037354
+    },
+    {
+      "field": "Supplier_name",
+      "confidence": 0.5965254306793213
+    },
+    {
+      "field": "Currency",
+      "confidence": 0.5833107233047485
+    },
+    {
+      "field": "Receiver_address",
+      "confidence": 0.5647850632667542
+    },
+    {
+      "field": "Supplier_address",
+      "confidence": 0.5231014490127563
+    },
+    {
+      "field": "Payment_terms",
+      "confidence": 0.45681071281433105
+    },
+    {
+      "field": "Carrier",
+      "confidence": 0.44186046719551086
+    },
+    {
+      "field": "Line_item.0.line_item/quantity",
+      "confidence": 0.9810299277305603
+    },
+    {
+      "field": "Line_item.0.line_item/unit_price",
+      "confidence": 0.9335201382637024
+    },
+    {
+      "field": "Line_item.0.line_item/amount",
+      "confidence": 0.8857213258743286
+    },
+    {
+      "field": "Line_item.0.line_item/description",
+      "confidence": 0.5639089941978455
+    },
+    {
+      "field": "Line_item.1.line_item/description",
+      "confidence": 0.4812605381011963
+    },
+    {
+      "field": "Line_item.1.line_item/quantity",
+      "confidence": 0.9518321752548218
+    },
+    {
+      "field": "Line_item.1.line_item/unit_price",
+      "confidence": 0.9356030225753784
+    },
+    {
+      "field": "Line_item.1.line_item/amount",
+      "confidence": 0.8887427449226379
+    }
+  ],
+  "receivedAt": "2024-12-18t02:18:39.717z",
+  "processedAt": "2024-12-18t02:18:39.717z",
+  "from": "",
+  "messageId": "",
+  "snippet": "",
+  "subject": "",
+  "emailDocId": ""
+}

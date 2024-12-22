@@ -1,0 +1,149 @@
+{
+  "invoice_date": "2/5/2024",
+  "invoice_id": "40008069",
+  "total_tax_amount": 40.73,
+  "net_amount": 451.29,
+  "total_amount": 492.02,
+  "invoice_type": "",
+  "supplier_name": "ChemStation Minnesota LLC",
+  "supplier_address": "PO Box 933033 Cleveland OH 44193",
+  "ship_to_address": "1315 Tyler St NE Minneapolis MN 55413",
+  "currency": "$",
+  "freight_amount": 0,
+  "ship_to_name": "Bauhaus Brew Labs",
+  "supplier_phone": "(000) 000-0000",
+  "line_items": [
+    {
+      "line_item/quantity": 5,
+      "line_item/product_code": "30085",
+      "line_item/unit_price": 9.99,
+      "line_item/amount": 49.95
+    },
+    {
+      "line_item/quantity": 80,
+      "line_item/description": "Brewery Wash",
+      "line_item/unit_price": 3.68,
+      "line_item/amount": 294.4
+    },
+    {
+      "line_item/quantity": 1,
+      "line_item/product_code": "Oxydate 35# Pail",
+      "line_item/description": "Oxydate 35# Pail",
+      "line_item/unit_price": 106.94,
+      "line_item/amount": 106.94
+    }
+  ],
+  "fieldsConfidence": [
+    {
+      "field": "Invoice_date",
+      "confidence": 0.9761208295822144
+    },
+    {
+      "field": "Invoice_id",
+      "confidence": 0.9692137241363525
+    },
+    {
+      "field": "Total_tax_amount",
+      "confidence": 0.9686041474342346
+    },
+    {
+      "field": "Net_amount",
+      "confidence": 0.9527291059494019
+    },
+    {
+      "field": "Total_amount",
+      "confidence": 0.9294865131378174
+    },
+    {
+      "field": "Invoice_type",
+      "confidence": 0.8311580419540405
+    },
+    {
+      "field": "Supplier_name",
+      "confidence": 0.7940316796302795
+    },
+    {
+      "field": "Supplier_address",
+      "confidence": 0.788673996925354
+    },
+    {
+      "field": "Ship_to_address",
+      "confidence": 0.6948594450950623
+    },
+    {
+      "field": "Currency",
+      "confidence": 0.6210089921951294
+    },
+    {
+      "field": "Freight_amount",
+      "confidence": 0.621442973613739
+    },
+    {
+      "field": "Ship_to_name",
+      "confidence": 0.6116827130317688
+    },
+    {
+      "field": "Supplier_phone",
+      "confidence": 0.4462375342845917
+    },
+    {
+      "field": "Line_item.0.line_item/quantity",
+      "confidence": 0.49580898880958557
+    },
+    {
+      "field": "Line_item.0.line_item/product_code",
+      "confidence": 0.5167236328125
+    },
+    {
+      "field": "Line_item.0.line_item/unit_price",
+      "confidence": 0.8970029950141907
+    },
+    {
+      "field": "Line_item.0.line_item/amount",
+      "confidence": 0.8059468269348145
+    },
+    {
+      "field": "Line_item.1.line_item/quantity",
+      "confidence": 0.3944759964942932
+    },
+    {
+      "field": "Line_item.1.line_item/description",
+      "confidence": 0.5608885884284973
+    },
+    {
+      "field": "Line_item.1.line_item/unit_price",
+      "confidence": 0.8699721097946167
+    },
+    {
+      "field": "Line_item.1.line_item/amount",
+      "confidence": 0.8359106779098511
+    },
+    {
+      "field": "Line_item.2.line_item/quantity",
+      "confidence": 0.4471978545188904
+    },
+    {
+      "field": "Line_item.2.line_item/product_code",
+      "confidence": 0.4543706178665161
+    },
+    {
+      "field": "Line_item.2.line_item/description",
+      "confidence": 0.3983425796031952
+    },
+    {
+      "field": "Line_item.2.line_item/unit_price",
+      "confidence": 0.8703573942184448
+    },
+    {
+      "field": "Line_item.2.line_item/amount",
+      "confidence": 0.7604085803031921
+    }
+  ],
+  "receivedAt": "2024-12-18t02:18:39.564z",
+  "processedAt": "2024-12-18t02:18:39.564z",
+  "from": "",
+  "messageId": "",
+  "snippet": "",
+  "subject": "",
+  "emailDocId": ""
+}

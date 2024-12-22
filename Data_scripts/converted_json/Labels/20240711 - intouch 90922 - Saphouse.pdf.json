@@ -1,0 +1,137 @@
+{
+  "net_amount": "347.55",
+  "due_date": "7/11/2024",
+  "invoice_date": "6/11/2024",
+  "invoice_id": "90922",
+  "total_tax_amount": "0.00",
+  "ship_to_address": "6 Folsom Road\nCenter Ossipee, NH 03814",
+  "invoice_type": "",
+  "ship_to_name": "Sap House Meadery LLC",
+  "receiver_name": "Sap House Meadery LLC",
+  "supplier_name": "Avery Products Corporation",
+  "total_amount": "347.55",
+  "receiver_address": "P.O. Box 595\nCenter Ossipee, NH 03814",
+  "currency": "$",
+  "supplier_address": "12 Technology Drive\nNorth Chelmsford, MA 01863",
+  "payment_terms": "Net 30",
+  "carrier": "UPS",
+  "line_items": [
+    {
+      "line_item/quantity": "1,000.00",
+      "line_item/unit_price": "0.330000",
+      "line_item/amount": "334.00",
+      "line_item/description": "Honey Blueberry Pie"
+    },
+    {
+      "line_item/description": "Shipping",
+      "line_item/quantity": "1.00",
+      "line_item/unit_price": "13.550000",
+      "line_item/amount": "13.55"
+    }
+  ],
+  "fieldsConfidence": [
+    {
+      "field": "net_amount",
+      "confidence": 0.982997715473175
+    },
+    {
+      "field": "due_date",
+      "confidence": 0.969161331653595
+    },
+    {
+      "field": "invoice_date",
+      "confidence": 0.9602090716362
+    },
+    {
+      "field": "invoice_id",
+      "confidence": 0.952200174331665
+    },
+    {
+      "field": "total_tax_amount",
+      "confidence": 0.9503958225250244
+    },
+    {
+      "field": "ship_to_address",
+      "confidence": 0.9377462863922119
+    },
+    {
+      "field": "invoice_type",
+      "confidence": 0.819657564163208
+    },
+    {
+      "field": "ship_to_name",
+      "confidence": 0.8156458735466003
+    },
+    {
+      "field": "receiver_name",
+      "confidence": 0.7056542634963989
+    },
+    {
+      "field": "supplier_name",
+      "confidence": 0.6033976674079895
+    },
+    {
+      "field": "total_amount",
+      "confidence": 0.5747904777526855
+    },
+    {
+      "field": "receiver_address",
+      "confidence": 0.5664514899253845
+    },
+    {
+      "field": "currency",
+      "confidence": 0.5513681769371033
+    },
+    {
+      "field": "supplier_address",
+      "confidence": 0.5287657976150513
+    },
+    {
+      "field": "payment_terms",
+      "confidence": 0.46762099862098694
+    },
+    {
+      "field": "carrier",
+      "confidence": 0.44186046719551086
+    },
+    {
+      "field": "line_item.0.line_item/quantity",
+      "confidence": 0.9795677661895752
+    },
+    {
+      "field": "line_item.0.line_item/unit_price",
+      "confidence": 0.9308096766471863
+    },
+    {
+      "field": "line_item.0.line_item/amount",
+      "confidence": 0.8951111435890198
+    },
+    {
+      "field": "line_item.0.line_item/description",
+      "confidence": 0.5387924909591675
+    },
+    {
+      "field": "line_item.1.line_item/description",
+      "confidence": 0.47942790389060974
+    },
+    {
+      "field": "line_item.1.line_item/quantity",
+      "confidence": 0.9511396884918213
+    },
+    {
+      "field": "line_item.1.line_item/unit_price",
+      "confidence": 0.931807279586792
+    },
+    {
+      "field": "line_item.1.line_item/amount",
+      "confidence": 0.8955429792404175
+    }
+  ],
+  "receivedAt": "2024-12-18T02:18:39.719Z",
+  "processedAt": "2024-12-18T02:18:39.719Z",
+  "from": "",
+  "messageId": "",
+  "snippet": "",
+  "subject": "",
+  "emailDocId": ""
+}

@@ -1,0 +1,45 @@
+{
+  "invoice_type": "",
+  "invoice_date": "08/19/2024",
+  "supplier_email": "Kirby@SauconyBeer.com",
+  "supplier_name": "Saucony Creek Brewing Company LLC",
+  "receiver_address": "PO Box 454\nRumson, NJ 07760",
+  "line_items": [
+    {
+      "line_item/description": "Audit trail date format\nStatus"
+    }
+  ],
+  "fieldsConfidence": [
+    {
+      "field": "invoice_type",
+      "confidence": 0.9801558256149292
+    },
+    {
+      "field": "invoice_date",
+      "confidence": 0.8716214299201965
+    },
+    {
+      "field": "supplier_email",
+      "confidence": 0.6018070578575134
+    },
+    {
+      "field": "supplier_name",
+      "confidence": 0.2780359983444214
+    },
+    {
+      "field": "receiver_address",
+      "confidence": 0.2341531217098236
+    },
+    {
+      "field": "line_item.0.line_item/description",
+      "confidence": 0.5705583095550537
+    }
+  ],
+  "receivedAt": "2024-12-18T02:18:39.392Z",
+  "processedAt": "2024-12-18T02:18:39.392Z",
+  "from": "",
+  "messageId": "",
+  "snippet": "",
+  "subject": "",
+  "emailDocId": ""
+}

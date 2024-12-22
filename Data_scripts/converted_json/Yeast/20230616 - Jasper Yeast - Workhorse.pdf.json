@@ -1,0 +1,122 @@
+{
+  "net_amount": "1,348.00",
+  "invoice_date": "Jun 16, 2023",
+  "invoice_type": "",
+  "invoice_id": "493731",
+  "due_date": "Jun 30, 2023",
+  "total_amount": "1,348.00",
+  "currency": "USD",
+  "supplier_address": "818 Cattail Lane NE, Leesburg, VA, 20176, USA.",
+  "remit_to_name": "Jasper Yeast",
+  "receiver_name": "Workhorse Brewing Company",
+  "supplier_name": "Jasper\nyeast",
+  "supplier_email": "info@jasperyeast.com",
+  "remit_to_address": "23600 Overland Drive #150\nSterling, VA 20166\nUSA",
+  "line_items": [
+    {
+      "line_item/quantity": "1.00",
+      "line_item/unit_price": "1,280.00",
+      "line_item/amount": "1,280.00",
+      "line_item/description": "6/12 Ship Date\n80 bbl JY218 Augustiner Lager @ 7.5 mill cell\ncount"
+    },
+    {
+      "line_item/description": "Shipping Overnight",
+      "line_item/quantity": "1.00",
+      "line_item/unit_price": "68.00",
+      "line_item/amount": "68.00"
+    }
+  ],
+  "fieldsConfidence": [
+    {
+      "field": "net_amount",
+      "confidence": 0.9744023084640503
+    },
+    {
+      "field": "invoice_date",
+      "confidence": 0.9733371138572693
+    },
+    {
+      "field": "invoice_type",
+      "confidence": 0.967303991317749
+    },
+    {
+      "field": "invoice_id",
+      "confidence": 0.9547862410545349
+    },
+    {
+      "field": "due_date",
+      "confidence": 0.9530659317970276
+    },
+    {
+      "field": "total_amount",
+      "confidence": 0.942103922367096
+    },
+    {
+      "field": "currency",
+      "confidence": 0.9174023270606995
+    },
+    {
+      "field": "supplier_address",
+      "confidence": 0.6698325872421265
+    },
+    {
+      "field": "remit_to_name",
+      "confidence": 0.6506319046020508
+    },
+    {
+      "field": "receiver_name",
+      "confidence": 0.5839452147483826
+    },
+    {
+      "field": "supplier_name",
+      "confidence": 0.5812605023384094
+    },
+    {
+      "field": "supplier_email",
+      "confidence": 0.48576828837394714
+    },
+    {
+      "field": "remit_to_address",
+      "confidence": 0.3053613305091858
+    },
+    {
+      "field": "line_item.0.line_item/quantity",
+      "confidence": 0.9705711603164673
+    },
+    {
+      "field": "line_item.0.line_item/unit_price",
+      "confidence": 0.9313639998435974
+    },
+    {
+      "field": "line_item.0.line_item/amount",
+      "confidence": 0.916603147983551
+    },
+    {
+      "field": "line_item.0.line_item/description",
+      "confidence": 0.4084506332874298
+    },
+    {
+      "field": "line_item.1.line_item/description",
+      "confidence": 0.6087378859519958
+    },
+    {
+      "field": "line_item.1.line_item/quantity",
+      "confidence": 0.9620826840400696
+    },
+    {
+      "field": "line_item.1.line_item/unit_price",
+      "confidence": 0.9489049315452576
+    },
+    {
+      "field": "line_item.1.line_item/amount",
+      "confidence": 0.8135883808135986
+    }
+  ],
+  "receivedAt": "2024-12-18T02:18:39.823Z",
+  "processedAt": "2024-12-18T02:18:39.823Z",
+  "from": "",
+  "messageId": "",
+  "snippet": "",
+  "subject": "",
+  "emailDocId": ""
+}

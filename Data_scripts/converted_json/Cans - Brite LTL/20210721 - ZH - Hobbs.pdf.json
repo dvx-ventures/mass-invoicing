@@ -1,0 +1,132 @@
+{
+  "invoice_id": "IN0123619",
+  "due_date": "8/20/2021",
+  "total_amount": "746.26",
+  "invoice_date": "7/21/2021",
+  "ship_to_address": "765 White Mountain Highway\nOssipee, NH 03864",
+  "invoice_type": "",
+  "supplier_website": "www.zh-inc.com",
+  "supplier_address": "191 s. gulph road\nZUCKERMAN king of prussia, pa 19406\nHONICKMAN",
+  "ship_to_name": "Hobbs Tavern & Brewing Company, L",
+  "supplier_tax_id": "86823 1358 RT0001",
+  "payment_terms": "Net 30 Days",
+  "receiver_name": "Hobbs Tavern & Brewing Company, LLC",
+  "ship_from_address": "765 White Mountain Highway\nOssipee, NH 03864",
+  "receiver_address": "765 White Mountain Highway\nOssipee, NH 03864",
+  "line_items": [
+    {
+      "line_item/description": "WARD",
+      "line_item/quantity": "1",
+      "line_item/unit": "Ea",
+      "line_item/unit_price": "746.26",
+      "line_item/product_code": "FRTOUT-BEV-118",
+      "line_item/amount": "746.26"
+    },
+    {
+      "line_item/quantity": "1",
+      "line_item/unit": "Ea",
+      "line_item/description": "FRTOUT-BEV"
+    }
+  ],
+  "fieldsConfidence": [
+    {
+      "field": "invoice_id",
+      "confidence": 0.9561489224433899
+    },
+    {
+      "field": "due_date",
+      "confidence": 0.9449781775474548
+    },
+    {
+      "field": "total_amount",
+      "confidence": 0.9399716258049011
+    },
+    {
+      "field": "invoice_date",
+      "confidence": 0.9293410778045654
+    },
+    {
+      "field": "ship_to_address",
+      "confidence": 0.8487154245376587
+    },
+    {
+      "field": "invoice_type",
+      "confidence": 0.8254868984222412
+    },
+    {
+      "field": "supplier_website",
+      "confidence": 0.7876585125923157
+    },
+    {
+      "field": "supplier_address",
+      "confidence": 0.7094427943229675
+    },
+    {
+      "field": "ship_to_name",
+      "confidence": 0.6543493270874023
+    },
+    {
+      "field": "supplier_tax_id",
+      "confidence": 0.4649279713630676
+    },
+    {
+      "field": "payment_terms",
+      "confidence": 0.45004966855049133
+    },
+    {
+      "field": "receiver_name",
+      "confidence": 0.42723241448402405
+    },
+    {
+      "field": "ship_from_address",
+      "confidence": 0.346688836812973
+    },
+    {
+      "field": "receiver_address",
+      "confidence": 0.3034079670906067
+    },
+    {
+      "field": "line_item.0.line_item/description",
+      "confidence": 0.5499051809310913
+    },
+    {
+      "field": "line_item.0.line_item/quantity",
+      "confidence": 0.8782883882522583
+    },
+    {
+      "field": "line_item.0.line_item/unit",
+      "confidence": 0.4045899212360382
+    },
+    {
+      "field": "line_item.0.line_item/unit_price",
+      "confidence": 0.8921741843223572
+    },
+    {
+      "field": "line_item.0.line_item/product_code",
+      "confidence": 0.709446370601654
+    },
+    {
+      "field": "line_item.0.line_item/amount",
+      "confidence": 0.9017173051834106
+    },
+    {
+      "field": "line_item.1.line_item/quantity",
+      "confidence": 0.5027936100959778
+    },
+    {
+      "field": "line_item.1.line_item/unit",
+      "confidence": 0.8502324819564819
+    },
+    {
+      "field": "line_item.1.line_item/description",
+      "confidence": 0.4311152994632721
+    }
+  ],
+  "receivedAt": "2024-12-18T02:18:39.505Z",
+  "processedAt": "2024-12-18T02:18:39.505Z",
+  "from": "",
+  "messageId": "",
+  "snippet": "",
+  "subject": "",
+  "emailDocId": ""
+}
