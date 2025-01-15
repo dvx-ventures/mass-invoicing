@@ -1,0 +1,188 @@
+from openai import OpenAI
+import openai
+
+from google.api_core.client_options import ClientOptions
+from google.cloud import documentai  # type: ignore
+
+# Initialize GCP project and processor variables
+project_id = "mass-7e4f9"
+location = "us"
+processor_id = "c7c44d940f034c5a"
+file_path = "/Users/jonathan/Desktop/CMG Test4.pdf"
+mime_type = "application/pdf" 
+processor_display_name = "mass_invoice_parser_trained"
+## field_mask = "supplier,customer,date"  # Optional. The fields to return in the Document object.
+
+# Set the `api_endpoint`
+opts = ClientOptions(api_endpoint=f"{location}-documentai.googleapis.com")
+client = documentai.DocumentProcessorServiceClient(client_options=opts)
+
+# Print the client transport settings and the default endpoint
+print(f"Client transport: {client.transport.__class__.__name__}")
+print(f"API endpoint: {client.transport._host}")
+
+# Construct and print the parent string
+parent = f"projects/{project_id}/locations/{location}"
+print(f"Parent: {parent}")
+
+# Construct and print the processor string
+name = f"projects/{project_id}/locations/{location}/processors/{processor_id}"
+print(f"Name: {name}")
+
+# Read the file into memory
+with open(file_path, "rb") as image:
+    image_content = image.read()
+
+# Load binary data
+raw_document = documentai.RawDocument(content=image_content, mime_type=mime_type)
+
+# Configure the process request
+request = documentai.ProcessRequest(
+    name=name,
+    raw_document=raw_document,
+)
+
+result = client.process_document(request=request)
+
+# Extract document results
+document = result.document
+
+# Initialize invoice data extraction and counter
+invoice_data = []
+line_item_data = []
+invoice_id = 0 # to be used by future code for looped extraction through invoices
+
+# Extract data for invoice and line_item tables
+for entity in document.entities:
+    # Add entity to invoice data
+    invoice_data.append({
+        "Invoice ID": invoice_id,
+        "Label": entity.type_,
+        "Value": entity.mention_text,
+        "Confidence": round(entity.confidence, 2),
+    })
+
+    # Add entity properties to line_item data
+    for prop in entity.properties:
+        line_item_data.append({
+            "Invoice ID": invoice_id,
+            "Property Label": prop.type_,
+            "Property Value": prop.mention_text,
+            "Confidence": round(prop.confidence, 2),
+        })
+
+# Convert extracted invoice data into JSON
+prompt = f"Convert this {invoice_data} into a JSON."
+
+client = OpenAI()
+response = client.chat.completions.create(
+    model="gpt-4o",
+    # Convert this image to text. Add a title to the text.
+    messages=[
+        {"role": "system", "content": (
+                        "You are a helpful assistant that is an expert on invoice data. "
+                        "Your task is to read text extracted from an invoice and convert it "
+                        "into a structured JSON format with the following keys:\n\n"
+                        "Structure:\n"
+                        "{\n"
+                        '  "invoice_id": int,\n'
+                        '  "customer_name": str,\n'
+                        '  "invoice_date": str (in MM/DD/YYYY format),\n'
+                        '  "total_amount": int,\n'
+                        '  "supplier_name": str,\n'
+                        '  "invoice_type": str (leave empty if not provided),\n'
+                        '  "line_items": [\n'
+                        "    {\n"
+                        '      "product_code": str,\n'
+                        '      "quantity": int,\n'
+                        '      "unit_price": int,\n'
+                        '      "total_price": int,\n'
+                        '      "description": str\n'
+                        "    }\n"
+                        "  ]\n"
+                        "}\n\n"
+                        "Generate the JSON object based on the provided invoice details. Include confidence scores for each parameter.  You don't need to show you work only the final JSON output.")},
+        {"role": "user", "content": prompt}
+    ],
+    temperature=0.0,
+    seed=0,
+    max_tokens=1024
+)
+## print(response.choices[0].message.content)
+
+invoice_json = response.choices[0].message.content
+
+## print(invoice_json)
+
+
+# Create a JSON object for Size in the invoice JSON
+prompt_2 = f"for each line_item description in this JSON {invoice_json} extract the pounds from Size and put it in a separate JSON object for that line item labled LBs"  
+"For example:"
+"Structure:\n"
+"{\n"
+'  "invoice_id": int,\n'
+'  "customer_name": str,\n'
+'  "invoice_date": str (in MM/DD/YYYY format),\n'
+'  "total_amount": int,\n'
+'  "supplier_name": str,\n'
+'  "invoice_type": str (leave empty if not provided),\n'
+'  "line_items": [\n'
+"    {\n"
+'      "product_code": str,\n'
+'      "quantity": int,\n'
+'      "unit_price": int,\n'
+'      "total_price": int,\n'
+'      "description": Great Western Malting Pale High Color Malt'
+'      "LBs": int,\n'
+"    }\n"
+"  ]\n"
+"}\n\n"
+
+response_2 = openai.chat.completions.create(
+    model="gpt-4",
+    messages=[
+        {"role": "system", "content": "You are a helpful assistant that is an expert on brewery ingredients.  You can read JSON and create new JSON objects."},
+        {"role": "user", "content": prompt_2},
+    ]
+)
+
+invoice_json_size = response_2.choices[0].message.content
+
+## print(invoice_json_size)
+
+
+# Create a JSON object for the price paid per packaged unit in the invoice JSON
+prompt_3 = f"for each line_item in this JSON {invoice_json_size} calculate the price_per_lb with division using total_price and LBs. Put your answer into a separate JSON object for that line item called price_per_lb." 
+"For example:"
+"Structure:\n"
+"{\n"
+'  "invoice_id": int,\n'
+'  "customer_name": str,\n'
+'  "invoice_date": str (in MM/DD/YYYY format),\n'
+'  "total_amount": int,\n'
+'  "supplier_name": str,\n'
+'  "invoice_type": str (leave empty if not provided),\n'
+'  "line_items": [\n'
+"    {\n"
+'      "product_code": str,\n'
+'      "quantity": int,\n'
+'      "unit_price": int,\n'
+'      "total_price": 138.60'
+'      "description": Great Western Malting Pale High Color Malt'
+'      "LBs": int,\n'
+'      "price_per_lb": int,\n'
+"    }\n"
+"  ]\n"
+"}\n\n"
+
+response_3 = openai.chat.completions.create(
+    model="gpt-4",
+    messages=[
+        {"role": "system", "content": "You are a helpful assistant that is an expert on brewery ingredients.  You can do basic math very well especially division. You can read JSON and create new JSON objects."},
+        {"role": "user", "content": prompt_3},
+    ]
+)
+
+invoice_json_final = response_3.choices[0].message.content
+
+print(invoice_json_final)
