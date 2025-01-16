@@ -49,7 +49,7 @@ import {
   onAuthStateChanged,
   User,
 } from "firebase/auth";
-import { FirestoreDatabase } from "refine-firebase";
+import { FirestoreDatabase } from "./firebaseAdapter";
 
 const axiosInstance = axios.create();
 
