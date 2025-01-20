@@ -1,14 +1,86 @@
 from openai import OpenAI
-import openai
+import base64
+import os
+import csv
 
+from pdf2image import convert_from_path
+from PIL import Image
 from google.api_core.client_options import ClientOptions
 from google.cloud import documentai  # type: ignore
+
+#################################
+#### Define global functions ####
+#################################
+
+def convert_pdf_to_single_jpg(pdf_path):
+    # Get the desktop directory
+    desktop_folder = os.path.join(os.path.expanduser("~"), "Desktop")
+    
+    # Create a folder on the desktop to store the images
+    output_folder = os.path.join(desktop_folder, "PDF_Images")
+    os.makedirs(output_folder, exist_ok=True)
+    
+    # Convert PDF to a list of images
+    images = convert_from_path(pdf_path, dpi=300)  # Adjust dpi for quality
+    
+    # Combine all images into one vertically
+    widths, heights = zip(*(image.size for image in images))
+    total_height = sum(heights)
+    max_width = max(widths)
+    
+    combined_image = Image.new('RGB', (max_width, total_height))
+    
+    y_offset = 0
+    for image in images:
+        combined_image.paste(image, (0, y_offset))
+        y_offset += image.size[1]
+    
+    # Save the combined image as a single JPG
+    output_path = os.path.join(output_folder, "combined_image.jpg")
+    combined_image.save(output_path, "JPEG")
+    print(f"Saved: {output_path}")
+
+# Save to test desktop to review output
+def save_text_to_desktop(filename, content):
+    # Get the desktop directory
+    desktop_folder = os.path.join(os.path.expanduser("~"), "Desktop")
+    
+    # Full file path
+    file_path = os.path.join(desktop_folder, filename)
+    
+    # Write the content to the file
+    with open(file_path, "w") as file:
+        file.write(content)
+    
+    print(f"File saved to: {file_path}")
+
+# save lists to desktop to review output
+def save_list_to_desktop_csv(filename, data_list):
+    # Get the desktop directory
+    desktop_folder = os.path.join(os.path.expanduser("~"), "Desktop")
+    
+    # Full file path
+    file_path = os.path.join(desktop_folder, filename)
+    
+    # Save the list as a CSV file
+    with open(file_path, "w", newline="") as file:
+        writer = csv.writer(file)
+        if all(isinstance(item, list) for item in data_list):  # Handle list of lists
+            writer.writerows(data_list)
+        else:  # Handle flat list
+            writer.writerow(data_list)
+    
+    print(f"List saved to: {file_path}")
+
+################################################
+#### Run invoice through GCP Invoice Parser ####
+################################################
 
 # Initialize GCP project and processor variables
 project_id = "mass-7e4f9"
 location = "us"
 processor_id = "c7c44d940f034c5a"
-file_path = "/Users/jonathan/Desktop/CMG Test4.pdf"
+file_path = "/Users/jonathan/Desktop/ZH Test2.pdf"
 mime_type = "application/pdf" 
 processor_display_name = "mass_invoice_parser_trained"
 ## field_mask = "supplier,customer,date"  # Optional. The fields to return in the Document object.
@@ -49,14 +121,11 @@ document = result.document
 
 # Initialize invoice data extraction and counter
 invoice_data = []
-line_item_data = []
-invoice_id = 0 # to be used by future code for looped extraction through invoices
 
 # Extract data for invoice and line_item tables
 for entity in document.entities:
     # Add entity to invoice data
     invoice_data.append({
-        "Invoice ID": invoice_id,
         "Label": entity.type_,
         "Value": entity.mention_text,
         "Confidence": round(entity.confidence, 2),
@@ -64,125 +133,167 @@ for entity in document.entities:
 
     # Add entity properties to line_item data
     for prop in entity.properties:
-        line_item_data.append({
-            "Invoice ID": invoice_id,
+        invoice_data.append({
             "Property Label": prop.type_,
             "Property Value": prop.mention_text,
             "Confidence": round(prop.confidence, 2),
         })
 
-# Convert extracted invoice data into JSON
-prompt = f"Convert this {invoice_data} into a JSON."
+save_list_to_desktop_csv("invoice_parser.csv", invoice_data)
+## save_list_to_desktop_csv("lineitem_parser.csv", line_item_data)
 
+###################################################
+##### Convert extracted invoice data into JSON ####
+###################################################
+
+# Define the structure from the GCP invoice parser 
+GCP_parser = [
+{'Label': 'supplier_name', 'Value': "str", 'Confidence': "float"},
+{'Label': 'total_amount', 'Value': "float", 'Confidence': "float"},
+{'Label': 'invoice_date', 'Value': "str", 'Confidence': "float"},
+{'Label': 'line_item', 'Value': "str", 'Confidence': "float"},
+ {'Property Label': 'line_item/product_code', 'Property Value': "str", 'Confidence': "float"},
+  {'Property Label': 'line_item/quantity', 'Property Value': "int", 'Confidence': "float"},
+  {'Property Label': 'line_item/unit_price', 'Property Value': "float", 'Confidence':"float"},
+  {'Property Label': 'line_item/unit', 'Property Value': "str", 'Confidence': "float"},
+  {'Property Label': 'line_item/amount', 'Property Value': "float", 'Confidence': "float"},
+  {'Property Label': 'line_item/description', 'Property Value': "str", 'Confidence': "float"}
+]
+
+# Define the master invoice schema 
+schema = {
+    "customer_name": {
+        "value": "str",
+        "confidence": "float"
+    },
+    "invoice_date": {
+        "value": "str",
+        "confidence": "float",
+        "format": "MM/DD/YYYY"
+    },
+    "total_amount": {
+        "value": "float",
+        "confidence": "float"
+    },
+    "supplier_name": {
+        "value": "str",
+        "confidence": "float"
+    },
+    "line_items": [
+        {
+            "product_code": {
+                "value": "str",
+                "confidence": "float"
+            },
+            "description": {
+                "value": "str",
+                "confidence": "float"
+            },
+            "units": {
+                "value": "str",
+                "confidence": "float"
+            },
+            "size": {
+                "value": "str",
+                "confidence": "float"
+            },
+            "quantity": {
+                "value": "float",
+                "confidence": "float"
+            },
+            "unit_price": {
+                "value": "float",
+                "confidence": "float"
+            },
+            "total_price": {
+                "value": "float",
+                "confidence": "float"
+            }
+        }
+    ]
+}
+
+# Define prompt for JSON conversion using the extracted invoice data from GCP Invoice Parser
+prompt = f"Convert this text {invoice_data} into a structured JSON that follows this {schema}."
+
+# Call LLM with the conversion prompt & defined JSON schema 
 client = OpenAI()
 response = client.chat.completions.create(
     model="gpt-4o",
-    # Convert this image to text. Add a title to the text.
     messages=[
-        {"role": "system", "content": (
-                        "You are a helpful assistant that is an expert on invoice data. "
-                        "Your task is to read text extracted from an invoice and convert it "
-                        "into a structured JSON format with the following keys:\n\n"
-                        "Structure:\n"
-                        "{\n"
-                        '  "invoice_id": int,\n'
-                        '  "customer_name": str,\n'
-                        '  "invoice_date": str (in MM/DD/YYYY format),\n'
-                        '  "total_amount": int,\n'
-                        '  "supplier_name": str,\n'
-                        '  "invoice_type": str (leave empty if not provided),\n'
-                        '  "line_items": [\n'
-                        "    {\n"
-                        '      "product_code": str,\n'
-                        '      "quantity": int,\n'
-                        '      "unit_price": int,\n'
-                        '      "total_price": int,\n'
-                        '      "description": str\n'
-                        "    }\n"
-                        "  ]\n"
-                        "}\n\n"
-                        "Generate the JSON object based on the provided invoice details. Include confidence scores for each parameter.  You don't need to show you work only the final JSON output.")},
+        {"role": "system", "content": "You are a helpful assistant that is an expert on Google Cloud Provider's Invoice Parser." f"Your task is to read text extracted from Google Cloud's Invoice parser and convert it from its format of {GCP_parser} into a structured JSON format following this {schema}"},
         {"role": "user", "content": prompt}
     ],
     temperature=0.0,
     seed=0,
-    max_tokens=1024
+    max_tokens=10000
 )
 ## print(response.choices[0].message.content)
 
 invoice_json = response.choices[0].message.content
 
+# Example usage
+save_text_to_desktop("invoice_json.txt", invoice_json)
+
 ## print(invoice_json)
 
+#####################################
+##### Fill in missing JSON data #####
+#####################################
 
-# Create a JSON object for Size in the invoice JSON
-prompt_2 = f"for each line_item description in this JSON {invoice_json} extract the pounds from Size and put it in a separate JSON object for that line item labled LBs"  
-"For example:"
-"Structure:\n"
-"{\n"
-'  "invoice_id": int,\n'
-'  "customer_name": str,\n'
-'  "invoice_date": str (in MM/DD/YYYY format),\n'
-'  "total_amount": int,\n'
-'  "supplier_name": str,\n'
-'  "invoice_type": str (leave empty if not provided),\n'
-'  "line_items": [\n'
-"    {\n"
-'      "product_code": str,\n'
-'      "quantity": int,\n'
-'      "unit_price": int,\n'
-'      "total_price": int,\n'
-'      "description": Great Western Malting Pale High Color Malt'
-'      "LBs": int,\n'
-"    }\n"
-"  ]\n"
-"}\n\n"
+# Convert invoice pdf into combined jpg
+convert_pdf_to_single_jpg(file_path)
 
-response_2 = openai.chat.completions.create(
-    model="gpt-4",
+# Convert invoice PDF to jpg then use LLM to extract into text
+def encode_image(image_path):
+    with open(image_path, "rb") as image_file:
+        return base64.b64encode(image_file.read()).decode("utf-8")
+
+file_path_1= '/Users/jonathan/Desktop/PDF_Images/combined_image.jpg'
+
+base64_image_1 = encode_image(file_path_1)
+
+client = OpenAI()
+response_2 = client.chat.completions.create(
+    model="gpt-4o",
+    # Convert this image to text.
     messages=[
-        {"role": "system", "content": "You are a helpful assistant that is an expert on brewery ingredients.  You can read JSON and create new JSON objects."},
-        {"role": "user", "content": prompt_2},
-    ]
+        {"role": "system", "content": "You are a helpful assistant that reads jpg file and extract contents as text in markdown. Include tables if present"},
+        {"role": "user", "content": [
+            {"type": "text", "text": "Convert this image to text."},
+            {"type": "image_url", "image_url": {
+                "url": f"data:image/jpg;base64,{base64_image_1}"}
+             },
+        ]}
+    ],
+    temperature=0.0,
+    seed=0,
+    max_tokens=10000
 )
 
-invoice_json_size = response_2.choices[0].message.content
+LLM_text = response_2.choices[0].message.content
 
-## print(invoice_json_size)
+## print(LLM_text)
+save_text_to_desktop("llmtext.txt", LLM_text)
 
+# Use LLM extracted text to fill in missing JSON from invoice parser
+prompt_2 = f"Use this extracted text {LLM_text} to fill in data in this JSON {invoice_json} only when the JSON key is followed by a blank. Do not overwrite any other text."
 
-# Create a JSON object for the price paid per packaged unit in the invoice JSON
-prompt_3 = f"for each line_item in this JSON {invoice_json_size} calculate the price_per_lb with division using total_price and LBs. Put your answer into a separate JSON object for that line item called price_per_lb." 
-"For example:"
-"Structure:\n"
-"{\n"
-'  "invoice_id": int,\n'
-'  "customer_name": str,\n'
-'  "invoice_date": str (in MM/DD/YYYY format),\n'
-'  "total_amount": int,\n'
-'  "supplier_name": str,\n'
-'  "invoice_type": str (leave empty if not provided),\n'
-'  "line_items": [\n'
-"    {\n"
-'      "product_code": str,\n'
-'      "quantity": int,\n'
-'      "unit_price": int,\n'
-'      "total_price": 138.60'
-'      "description": Great Western Malting Pale High Color Malt'
-'      "LBs": int,\n'
-'      "price_per_lb": int,\n'
-"    }\n"
-"  ]\n"
-"}\n\n"
-
-response_3 = openai.chat.completions.create(
-    model="gpt-4",
+client = OpenAI()
+response_3 = client.chat.completions.create(
+    model="gpt-4o",
+    # Convert this image to text. Add a title to the text.
     messages=[
-        {"role": "system", "content": "You are a helpful assistant that is an expert on brewery ingredients.  You can do basic math very well especially division. You can read JSON and create new JSON objects."},
-        {"role": "user", "content": prompt_3},
-    ]
+        {"role": "system", "content": "You are a helpful assistant that is an expert on invoice data." "Your task is to read text extracted from an invoice and fill in JSON keys that have blank values. " f"Your output most conform to the following JSON structure {schema}"},
+        {"role": "user", "content": prompt_2}
+    ],
+    temperature=0.0,
+    seed=0,
+    max_tokens=10000
 )
+## print(response.choices[0].message.content)
 
-invoice_json_final = response_3.choices[0].message.content
+clean_json = response_3.choices[0].message.content
 
-print(invoice_json_final)
+## print(clean_json)
+save_text_to_desktop("clean_json.txt", clean_json)
