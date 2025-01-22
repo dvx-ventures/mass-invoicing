@@ -297,3 +297,45 @@ clean_json = response_3.choices[0].message.content
 
 ## print(clean_json)
 save_text_to_desktop("clean_json.txt", clean_json)
+
+#############################################
+##### Summarize Post-processing Changes #####
+#############################################
+
+# Use LLM extracted text to summarize changes made to create clean_json
+prompt_3 = f"Summarize the differences in {invoice_json} compared to {clean_json}"
+
+client = OpenAI()
+response_4 = client.chat.completions.create(
+    model="gpt-4o",
+    # Convert this image to text. Add a title to the text.
+    messages=[
+        {"role": "system", "content": "You are a helpful assistant that is an expert on invoice data." "Your task is to compare JSONs and describe the differences."},
+        {"role": "user", "content": prompt_3}
+    ],
+    temperature=0.0,
+    seed=0,
+    max_tokens=10000
+)
+
+changes_made = response_4.choices[0].message.content
+save_text_to_desktop("changes_made.txt", changes_made)
+
+# Use LLM extracted text to articulate only the differences
+prompt_4 = f"Briefly summarize instances in {changes_made} where the extracted text does not match the JSON."
+
+client = OpenAI()
+response_5 = client.chat.completions.create(
+    model="gpt-4o",
+    # Convert this image to text. Add a title to the text.
+    messages=[
+        {"role": "system", "content": "You are a helpful assistant that is an expert on invoice data." "Your task is to compare JSONs and describe the differences."},
+        {"role": "user", "content": prompt_4}
+    ],
+    temperature=0.0,
+    seed=0,
+    max_tokens=10000
+)
+
+differences = response_5.choices[0].message.content
+save_text_to_desktop("differences.txt", differences)
